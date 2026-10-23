@@ -1,0 +1,242 @@
+[
+ {
+  "lang": "EN",
+  "name": "Airline Weekly (Skift)",
+  "note": "Lectura financiera y estratégica de resultados.",
+  "order": 3,
+  "status": "core",
+  "type": "Análisis",
+  "url": "https://skift.com/airline-weekly/",
+  "id": "airline-weekly"
+ },
+ {
+  "lang": "EN",
+  "name": "AirlineGeeks",
+  "note": "Aerolíneas de EE. UU. y datos oficiales del BTS.",
+  "order": 9,
+  "status": "core",
+  "type": "Medio sectorial",
+  "url": "https://airlinegeeks.com/",
+  "id": "airlinegeeks"
+ },
+ {
+  "lang": "ES",
+  "name": "Aviacionline",
+  "note": "Aviación comercial en Latinoamérica.",
+  "order": 16,
+  "status": "core",
+  "type": "Medio sectorial",
+  "url": "https://www.aviacionline.com/",
+  "id": "aviacionline"
+ },
+ {
+  "lang": "EN",
+  "name": "Aviation Week Network",
+  "note": "Rutas y redes semanales, flota, fabricantes. Referencia del sector.",
+  "order": 1,
+  "status": "core",
+  "type": "Medio sectorial",
+  "url": "https://aviationweek.com/air-transport",
+  "id": "aviation-week"
+ },
+ {
+  "lang": "EN",
+  "name": "Bloomberg",
+  "note": "Mercados, M&A y entrevistas a CEOs.",
+  "order": 5,
+  "status": "core",
+  "type": "Prensa económica",
+  "url": "https://www.bloomberg.com/industries",
+  "id": "bloomberg"
+ },
+ {
+  "lang": "EN",
+  "name": "CAPA – Centre for Aviation",
+  "note": "Análisis estratégico de aerolíneas y aeropuertos (parte con suscripción).",
+  "order": 2,
+  "status": "core",
+  "type": "Análisis",
+  "url": "https://centreforaviation.com/",
+  "id": "capa"
+ },
+ {
+  "lang": "ES",
+  "name": "Cinco Días",
+  "note": "Empresas y mercados en España.",
+  "order": 15,
+  "status": "core",
+  "type": "Prensa económica",
+  "url": "https://cincodias.elpais.com/",
+  "id": "cincodias"
+ },
+ {
+  "lang": "EN",
+  "name": "CNBC",
+  "note": "Resultados de aerolíneas de EE. UU. el mismo día.",
+  "order": 7,
+  "status": "core",
+  "type": "Prensa económica",
+  "url": "https://www.cnbc.com/airlines/",
+  "id": "cnbc"
+ },
+ {
+  "lang": "EN",
+  "name": "Eurocontrol",
+  "note": "Tráfico y puntualidad en Europa.",
+  "order": 18,
+  "status": "core",
+  "type": "Fuente oficial",
+  "url": "https://www.eurocontrol.int/",
+  "id": "eurocontrol"
+ },
+ {
+  "lang": "ES",
+  "name": "Expansión",
+  "note": "IAG, Air Europa, Aena y operaciones corporativas en España.",
+  "order": 14,
+  "status": "core",
+  "type": "Prensa económica",
+  "url": "https://www.expansion.com/empresas/transporte.html",
+  "id": "expansion"
+ },
+ {
+  "lang": "EN",
+  "name": "Financial Times",
+  "note": "Aerolíneas europeas, consolidación y política aérea.",
+  "order": 6,
+  "status": "core",
+  "type": "Prensa económica",
+  "url": "https://www.ft.com/aviation",
+  "id": "ft"
+ },
+ {
+  "lang": "ES",
+  "name": "Hosteltur",
+  "note": "Turismo y conectividad aérea en España y Latam.",
+  "order": 13,
+  "status": "core",
+  "type": "Medio sectorial",
+  "url": "https://www.hosteltur.com/",
+  "id": "hosteltur"
+ },
+ {
+  "lang": "EN",
+  "name": "IATA – Pressroom",
+  "note": "Previsiones del sector, tráfico mensual y regulación.",
+  "order": 17,
+  "status": "core",
+  "type": "Fuente oficial",
+  "url": "https://www.iata.org/en/pressroom/",
+  "id": "iata"
+ },
+ {
+  "lang": "EN/ES",
+  "name": "Relación con inversores de aerolíneas",
+  "note": "IAG, Lufthansa, AF-KLM, Ryanair, Delta, United, American: resultados en origen.",
+  "order": 20,
+  "status": "core",
+  "type": "Fuente oficial",
+  "url": "https://www.iairgroup.com/investors-and-shareholders/",
+  "id": "ir-aerolineas"
+ },
+ {
+  "lang": "EN",
+  "name": "OAG",
+  "note": "Capacidad programada y conectividad.",
+  "order": 21,
+  "status": "core",
+  "type": "Datos",
+  "url": "https://www.oag.com/blog",
+  "id": "oag"
+ },
+ {
+  "lang": "EN",
+  "name": "Airbus y Boeing – pedidos y entregas",
+  "note": "Datos mensuales de pedidos, entregas y cartera.",
+  "order": 19,
+  "status": "core",
+  "type": "Fuente oficial",
+  "url": "https://www.airbus.com/en/products-services/commercial-aircraft/orders-and-deliveries",
+  "id": "oem"
+ },
+ {
+  "lang": "EN",
+  "name": "PhocusWire",
+  "note": "Distribución, tecnología de viajes e IA.",
+  "order": 10,
+  "status": "core",
+  "type": "Medio sectorial",
+  "url": "https://www.phocuswire.com/",
+  "id": "phocuswire"
+ },
+ {
+  "lang": "ES",
+  "name": "Preferente",
+  "note": "Aerolíneas y turismo en España.",
+  "order": 12,
+  "status": "core",
+  "type": "Medio sectorial",
+  "url": "https://www.preferente.com/",
+  "id": "preferente"
+ },
+ {
+  "lang": "EN",
+  "name": "Reuters – Aerospace & Defense",
+  "note": "Operaciones corporativas, regulación y última hora.",
+  "order": 4,
+  "status": "core",
+  "type": "Prensa económica",
+  "url": "https://www.reuters.com/business/aerospace-defense/",
+  "id": "reuters"
+ },
+ {
+  "lang": "EN",
+  "name": "Simple Flying",
+  "note": "Flota, rutas y producto; mucho volumen, conviene filtrar.",
+  "order": 8,
+  "status": "core",
+  "type": "Medio sectorial",
+  "url": "https://simpleflying.com/",
+  "id": "simple-flying"
+ },
+ {
+  "lang": "EN",
+  "name": "Skift",
+  "note": "Cliente, retail y tendencias de viaje.",
+  "order": 11,
+  "status": "core",
+  "type": "Medio sectorial",
+  "url": "https://skift.com/",
+  "id": "skift"
+ },
+ {
+  "lang": "EN",
+  "name": "Travel Distribution News, Travelnews, Forecast International, Stock Titan",
+  "note": "Útiles para distribución, datos de fabricantes y notas de resultados. Evaluar si aportan valor recurrente.",
+  "order": 31,
+  "status": "trial",
+  "type": "Complementaria",
+  "url": "https://traveldistributionnews.com/",
+  "id": "trial-nicho"
+ },
+ {
+  "lang": "EN/ES",
+  "name": "RTTNews, Capital, Ladevi, Aviation A2Z, Travel Extra",
+  "note": "Usadas en la primera carga cuando la fuente principal no era accesible. Contrastar siempre con la fuente original.",
+  "order": 30,
+  "status": "trial",
+  "type": "Complementaria",
+  "url": "https://www.travelextra.ie/",
+  "id": "trial-secundarios"
+ },
+ {
+  "lang": "EN",
+  "name": "The National",
+  "note": "Aerolíneas del Golfo y republicación de piezas de Bloomberg.",
+  "order": 32,
+  "status": "trial",
+  "type": "Complementaria",
+  "url": "https://www.thenationalnews.com/business/aviation/",
+  "id": "trial-thenational"
+ }
+]

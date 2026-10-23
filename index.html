@@ -1,0 +1,894 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%23111A27%22/%3E%3Ctext x=%2216%22 y=%2222%22 font-family=%22Georgia,serif%22 font-size=%2218%22 font-weight=%22700%22 fill=%22%23F2B544%22 text-anchor=%22middle%22%3EB%3C/text%3E%3C/svg%3E">
+<title>The Airlines Brief</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Public+Sans:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;0,8..60,800;1,8..60,400&display=swap">
+<style>
+/* Layout: digital-newspaper front page (masthead, section nav, lead + secondary stories, "most voted" rail) with a departure-board strip as the brand signature. */
+:root{
+  --bg:#FBFBFA; --surface:#FFFFFF; --ink:#111A27; --muted:#5A6576; --line:#DCE1E8; --rule:#111A27; --soft:#EEF1F5;
+  --accent:#1F4BC6;
+  --board:#101B2C; --board-line:#26344A; --flap:#F2B544; --board-ink:#E9EEF5; --board-muted:#8E9BB0;
+  --up:#1B7A4B; --up-soft:#E3F3EA; --down:#B2432E; --down-soft:#F8E6E1; --ai:#6B4FC8; --ai-soft:#ECE8FA;
+  --f-display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --f-head:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --f-body:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0B1019; --surface:#111927; --ink:#E7ECF3; --muted:#97A3B6; --line:#243146; --rule:#E7ECF3; --soft:#172234;
+  --accent:#86A6FF;
+  --board:#050911; --board-line:#1C2940; --flap:#F2B544; --board-ink:#E6EBF2; --board-muted:#7D8BA2;
+  --up:#4FC48D; --up-soft:#12301F; --down:#F08069; --down-soft:#3A1A14; --ai:#A994F5; --ai-soft:#251D45;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0B1019; --surface:#111927; --ink:#E7ECF3; --muted:#97A3B6; --line:#243146; --rule:#E7ECF3; --soft:#172234;
+  --accent:#86A6FF;
+  --board:#050911; --board-line:#1C2940; --flap:#F2B544; --board-ink:#E6EBF2; --board-muted:#7D8BA2;
+  --up:#4FC48D; --up-soft:#12301F; --down:#F08069; --down-soft:#3A1A14; --ai:#A994F5; --ai-soft:#251D45;
+  color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.55}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+
+/* ---------- Masthead ---------- */
+.topbar{border-bottom:1px solid var(--line);font-size:12.5px;color:var(--muted)}
+.topbar .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 16px;padding-block:8px}
+.topbar .dl{display:inline-block}.topbar .dl::first-letter{text-transform:uppercase}
+.topbar .ed{font-family:var(--f-mono);font-size:12px}
+.topbar .tr{display:inline-flex;align-items:center;gap:12px}
+.ntt{display:inline-block;background:url("data:image/png;base64,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") no-repeat center/contain;aspect-ratio:351/72;height:13px;opacity:.8;flex:none}
+.ntt.f{height:15px}
+.foot .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .ntt{filter:brightness(0) invert(1);opacity:.75}}
+:root[data-theme="dark"] .ntt{filter:brightness(0) invert(1);opacity:.75}
+.masthead{text-align:center;padding-block:22px 14px}
+.masthead .pre{font-family:var(--f-display);font-weight:600;letter-spacing:.22em;text-transform:uppercase;font-size:12px;color:var(--muted)}
+.masthead h1{font-family:var(--f-head);font-weight:800;font-size:clamp(38px,7.2vw,76px);line-height:1;letter-spacing:-.02em;margin:6px 0 6px}
+.masthead h1 em{font-style:normal;color:var(--ink);background:linear-gradient(transparent 72%, var(--flap) 72%, var(--flap) 90%, transparent 90%)}
+.masthead .tag{font-family:var(--f-head);font-style:italic;color:var(--muted);font-size:15px;margin:0}
+.sectionnav{border-top:3px double var(--rule);border-bottom:1px solid var(--rule);position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:5}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.sectionnav .wrap{display:flex;align-items:center;gap:2px;overflow-x:auto;scrollbar-width:none}
+.sectionnav .wrap::-webkit-scrollbar{display:none}
+.sectionnav button{font-family:var(--f-display);font-weight:600;font-size:15px;letter-spacing:.06em;text-transform:uppercase;background:none;border:0;color:var(--ink);padding:10px 12px;cursor:pointer;white-space:nowrap;border-bottom:3px solid transparent;margin-bottom:-1px}
+.sectionnav button[aria-current="true"]{border-bottom-color:var(--flap)}
+.sectionnav button:hover{color:var(--accent)}
+.sectionnav .sep{width:1px;align-self:stretch;background:var(--line);margin:8px 8px;flex:none}
+.sectionnav .tool{color:var(--muted)}
+
+/* Departure-board strip */
+.board{background:var(--board);color:var(--board-ink)}
+.board .wrap{display:flex;align-items:stretch;gap:0;padding-block:0;overflow-x:auto}
+.flap{padding:9px 16px;border-right:1px solid var(--board-line);min-width:0;flex:1 0 auto}
+.flap:first-child{padding-left:0}
+.flap .k{font-family:var(--f-display);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--board-muted)}
+.flap .v{font-family:var(--f-mono);font-size:16px;color:var(--flap);font-variant-numeric:tabular-nums;white-space:nowrap}
+.flap.cta{display:flex;align-items:center;border-right:0;flex:0 0 auto;padding-right:0}
+.flap.cta button{font-family:var(--f-display);font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:13px;background:var(--flap);color:#101B2C;border:0;padding:7px 12px;border-radius:3px;cursor:pointer;white-space:nowrap}
+
+main .wrap{padding-block:22px 64px}
+.notice{border:1px solid var(--line);background:var(--surface);padding:10px 14px;font-size:13.5px;color:var(--muted);margin-bottom:18px;border-radius:4px}
+.notice strong{color:var(--ink)}
+
+/* ---------- Shared story bits ---------- */
+.kicker{display:inline-flex;align-items:center;gap:7px;font-family:var(--f-display);font-weight:700;font-size:13px;letter-spacing:.1em;text-transform:uppercase}
+.kicker .code{padding:0 5px;border:1.5px solid currentColor;border-radius:3px;font-size:11.5px;line-height:17px}
+.hl{font-family:var(--f-head);font-weight:700;line-height:1.15;margin:6px 0 8px;text-wrap:balance;letter-spacing:-.005em}
+.hl a{text-decoration:none}
+.hl a:hover{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
+.dek{margin:0;color:var(--ink);max-width:68ch}
+.why{margin-top:10px;padding-left:12px;border-left:3px solid var(--flap);font-size:14px;max-width:66ch;color:var(--ink)}
+.why b{font-family:var(--f-display);font-weight:700;letter-spacing:.1em;text-transform:uppercase;font-size:12px;margin-right:6px}
+.byline{display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;margin-top:10px;font-size:12.5px;color:var(--muted)}
+.byline .src{font-weight:600;color:var(--ink)}
+.byline .date{font-family:var(--f-mono);font-size:12px;font-variant-numeric:tabular-nums}
+.status{display:inline-flex;gap:5px;align-items:center;font-family:var(--f-display);font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:11.5px;padding:1px 7px;border-radius:3px}
+.status.votes{background:var(--up-soft);color:var(--up)}
+.status.ai{background:var(--ai-soft);color:var(--ai)}
+.vc{display:inline-flex}
+.vote{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--muted);height:28px;padding:0 12px 0 10px;cursor:pointer;font:inherit;font-size:12.5px;line-height:1}
+.vote .hrt{font-size:14px;line-height:1}
+.vote .net{font-family:var(--f-mono);font-weight:500;font-variant-numeric:tabular-nums;color:var(--ink)}
+.vote:hover:not(:disabled){color:var(--ink);border-color:var(--ink)}
+.vote[aria-pressed="true"]{background:var(--up);border-color:var(--up);color:var(--surface)}
+.vote[aria-pressed="true"] .net{color:var(--surface)}
+.vote:disabled{cursor:not-allowed;opacity:.5}
+.vc-label{font-size:11.5px;color:var(--muted)}
+/* Story images: generated editorial art or an uploaded photo */
+.fig{margin:0 0 12px;min-width:0}
+.fig .frame{display:block;aspect-ratio:16/9;max-width:100%;overflow:hidden;background:var(--board);border-radius:2px}
+.fig .frame svg,.fig .frame img{display:block;width:100%;height:100%;object-fit:cover}
+.fig figcaption{font-size:11.5px;color:var(--muted);margin-top:5px;font-family:var(--f-body)}
+.a-bg{fill:var(--board)} .a-grid{stroke:var(--board-line);stroke-width:1;fill:none} .a-dot{fill:var(--board-line)}
+.a-amber{fill:var(--flap)} .a-amber-s{stroke:var(--flap);fill:none} .a-ink{fill:var(--board-ink)} .a-mute{fill:var(--board-muted)} .a-mute-s{stroke:var(--board-muted);fill:none}
+.a-cat{fill:currentColor} .a-cat-s{stroke:currentColor;fill:none}
+.a-big{font-family:var(--f-display);font-weight:700;letter-spacing:-.01em}
+.a-lbl{font-family:var(--f-head);font-weight:600}
+.a-mono{font-family:var(--f-mono)}
+.a-cap{font-family:var(--f-display);font-weight:600;letter-spacing:.14em;text-transform:uppercase}
+.photo-btn{font-family:var(--f-display);font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:11.5px;border:1px dashed var(--line);background:none;color:var(--muted);padding:3px 8px;border-radius:3px;cursor:pointer}
+.photo-btn:hover{color:var(--ink);border-color:var(--ink)}
+.cat-FIN{color:#1F7A5A}.cat-STR{color:#1F4BC6}.cat-CUS{color:#A2470F}.cat-NET{color:#0F7C8C}.cat-FLT{color:#7A3FB0}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .cat-FIN{color:#5BD1A4}:root:not([data-theme="light"]) .cat-STR{color:#86A6FF}:root:not([data-theme="light"]) .cat-CUS{color:#F4A06A}:root:not([data-theme="light"]) .cat-NET{color:#5CCFDE}:root:not([data-theme="light"]) .cat-FLT{color:#C59BF2}}
+:root[data-theme="dark"] .cat-FIN{color:#5BD1A4}:root[data-theme="dark"] .cat-STR{color:#86A6FF}:root[data-theme="dark"] .cat-CUS{color:#F4A06A}:root[data-theme="dark"] .cat-NET{color:#5CCFDE}:root[data-theme="dark"] .cat-FLT{color:#C59BF2}
+
+/* ---------- Front page ---------- */
+.front{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:0 32px}
+.front > .main{min-width:0}
+.front > aside{min-width:0;border-left:1px solid var(--line);padding-left:28px}
+.lead{padding-bottom:22px;border-bottom:1px solid var(--rule)}
+.lead .hl{font-size:clamp(28px,4vw,42px);font-weight:800}
+.lead .dek{font-size:18px;font-family:var(--f-head);line-height:1.5;color:var(--muted)}
+.lead .why{font-size:15px}
+.seconds{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;border-bottom:1px solid var(--rule)}
+.seconds article{padding:18px 22px 20px 0;min-width:0}
+.seconds article + article{padding:18px 0 20px 22px;border-left:1px solid var(--line)}
+.seconds .hl{font-size:22px}
+.seconds .dek{font-size:14.5px}
+.rail-h{font-family:var(--f-display);font-weight:700;font-size:15px;letter-spacing:.12em;text-transform:uppercase;border-top:3px solid var(--rule);padding-top:8px;margin:0 0 4px;display:flex;justify-content:space-between;align-items:baseline}
+.rail-h small{font-family:var(--f-body);font-weight:400;letter-spacing:0;text-transform:none;font-size:12px;color:var(--muted)}
+.ranking{list-style:none;margin:0 0 26px;padding:0}
+.ranking li{display:grid;grid-template-columns:38px minmax(0,1fr);gap:10px;padding:12px 0;border-bottom:1px solid var(--line)}
+.ranking .n{font-family:var(--f-head);font-weight:800;font-size:34px;line-height:.9;color:var(--flap)}
+.ranking a{font-family:var(--f-head);font-weight:600;font-size:15.5px;line-height:1.3;text-decoration:none;display:block}
+.ranking a:hover{text-decoration:underline}
+.ranking .m{font-size:12px;color:var(--muted);margin-top:4px;font-family:var(--f-mono)}
+.edbox{background:var(--board);color:var(--board-ink);padding:16px;border-radius:4px}
+.edbox .k{font-family:var(--f-display);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--board-muted)}
+.edbox .big{font-family:var(--f-mono);font-size:26px;color:var(--flap);margin:2px 0 8px;font-variant-numeric:tabular-nums}
+.edbox p{margin:0 0 12px;font-size:13.5px;color:var(--board-ink)}
+.edbox ol{margin:0 0 12px;padding-left:18px;font-size:13px;color:var(--board-ink)}
+.edbox ol li{margin-bottom:4px}
+.edbox button{font-family:var(--f-display);font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:13px;background:var(--flap);color:#101B2C;border:0;padding:7px 12px;border-radius:3px;cursor:pointer}
+
+.morehead{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px 16px;border-top:3px solid var(--rule);margin-top:30px;padding-top:8px}
+.morehead h2{font-family:var(--f-display);font-weight:700;font-size:20px;letter-spacing:.1em;text-transform:uppercase;margin:0}
+.river{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 28px}
+.river article{padding:18px 0 20px;border-bottom:1px solid var(--line);min-width:0}
+.river .hl{font-size:19px}
+.river .dek{font-size:14px;color:var(--muted)}
+.sectionhead{border-bottom:1px solid var(--rule);padding-bottom:10px;margin-bottom:6px}
+.sortbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;padding:12px 0 10px;border-bottom:1px solid var(--line);margin-bottom:14px}
+.sb-k{font-family:var(--f-display);font-weight:600;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.sb-opts{display:flex;flex-wrap:wrap;gap:6px}
+.sortbar button{font:600 13px/1 var(--f-body);padding:8px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink);cursor:pointer}
+.sortbar button:hover{border-color:var(--ink)}
+.sortbar button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.sb-note{flex-basis:100%;margin:0;font-size:13px;color:var(--muted)}
+.mh-note{font-size:13px;color:var(--muted)}
+.sectionhead h2{font-family:var(--f-head);font-weight:800;font-size:clamp(30px,5vw,46px);margin:4px 0 0;line-height:1.05}
+.sectionhead p{margin:4px 0 0;color:var(--muted)}
+.slist article{display:grid;grid-template-columns:260px minmax(0,1fr);gap:24px;padding:22px 0;border-bottom:1px solid var(--line)}
+.slist .d{min-width:0;padding-top:4px}
+.slist .d .fig{margin:0}
+.slist .hl{font-size:24px}
+@media (max-width:980px){.river{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:860px){
+  .front{grid-template-columns:minmax(0,1fr)}
+  .front > aside{border-left:0;padding-left:0;margin-top:26px}
+}
+@media (max-width:620px){
+  .seconds{grid-template-columns:minmax(0,1fr)}
+  .seconds article,.seconds article + article{padding:18px 0;border-left:0}
+  .seconds article + article{border-top:1px solid var(--line)}
+  .river{grid-template-columns:minmax(0,1fr)}
+  .slist article{grid-template-columns:minmax(0,1fr);gap:4px}
+  .slist .d{padding-top:0}
+  .masthead .tag{font-size:14px}
+}
+select,input,textarea{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:7px 10px}
+label.inline{display:flex;gap:8px;align-items:center;font-size:13px;color:var(--muted)}
+.empty{padding:40px 0;color:var(--muted);max-width:60ch}
+
+/* ---------- Edition ---------- */
+h2.sec{font-family:var(--f-head);font-weight:800;font-size:clamp(30px,5vw,44px);margin:0 0 6px;line-height:1.05}
+.lede{color:var(--muted);margin:0 0 18px;max-width:70ch;font-family:var(--f-head);font-size:17px}
+.rule{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);margin-bottom:22px}
+.rule > div{background:var(--surface);padding:12px 14px;min-width:0}
+.rule .k{font-family:var(--f-display);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.rule .v{font-family:var(--f-mono);font-size:18px;font-variant-numeric:tabular-nums}
+@media (max-width:620px){.rule{grid-template-columns:minmax(0,1fr)}}
+.sel{counter-reset:s;border-top:3px solid var(--rule);margin-bottom:22px}
+.sel ol{margin:0;padding:0}
+.sel li{list-style:none;display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:12px;align-items:baseline;padding:12px 0;border-bottom:1px solid var(--line)}
+.sel li::before{counter-increment:s;content:counter(s,decimal-leading-zero);font-family:var(--f-mono);color:var(--muted);font-size:13px}
+.sel .t{font-family:var(--f-head);font-weight:600;font-size:16.5px;line-height:1.3}
+.sel .s{font-size:12.5px;color:var(--muted)}
+.why-pill{font-family:var(--f-display);font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:12px;padding:2px 8px;border-radius:3px;white-space:nowrap}
+.why-pill.votes{background:var(--up-soft);color:var(--up)}
+.why-pill.ai{background:var(--ai-soft);color:var(--ai)}
+.actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0 16px}
+.btn{font-family:var(--f-display);font-weight:600;font-size:15px;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--ink);background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:4px;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--ink)}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.toast{font-size:13px;color:var(--up)}
+.toast.err{color:var(--down)}
+.preview{border:1px solid var(--line);background:var(--soft);border-radius:4px;overflow:hidden}
+.preview iframe{display:block;width:100%;height:760px;border:0;background:#fff}
+.settings{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;padding:14px;border:1px dashed var(--line);border-radius:4px;margin-bottom:22px}
+.settings label{display:flex;flex-direction:column;gap:4px;font-size:12.5px;color:var(--muted)}
+.confirm{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:10px 12px;background:var(--down-soft);border-radius:4px;font-size:13.5px}
+
+/* Sources & history */
+.tablebox{overflow-x:auto;border-top:3px solid var(--rule)}
+table{border-collapse:collapse;width:100%;min-width:560px}
+th,td{text-align:left;padding:10px 10px 10px 0;border-bottom:1px solid var(--line);vertical-align:top;font-size:14px}
+th{font-family:var(--f-display);font-weight:600;letter-spacing:.1em;text-transform:uppercase;font-size:12px;color:var(--muted)}
+td.mono{font-family:var(--f-mono);font-size:12.5px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.tag2{font-family:var(--f-display);font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:12px;padding:2px 7px;border-radius:3px;background:var(--soft);color:var(--muted);white-space:nowrap}
+.tag2.core{background:var(--up-soft);color:var(--up)}
+h3.grp{font-family:var(--f-display);font-weight:600;letter-spacing:.1em;text-transform:uppercase;font-size:14px;margin:26px 0 8px;color:var(--muted)}
+
+/* Add form */
+details.add{margin:0 0 18px;border:1px dashed var(--line);border-radius:4px;padding:10px 14px}
+details.add summary{cursor:pointer;font-family:var(--f-display);font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+.form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}
+.form label{display:flex;flex-direction:column;gap:4px;font-size:12.5px;color:var(--muted)}
+.form .full{grid-column:1 / -1}
+@media (max-width:620px){.form{grid-template-columns:minmax(0,1fr)}}
+.art-page{max-width:760px;margin:0 auto}
+.art-page .art-hl{font-size:clamp(30px,4.6vw,46px);font-weight:800;margin-top:10px}
+.art-page .art-dek{font-family:var(--f-head);font-size:19px;line-height:1.5;color:var(--muted)}
+.art-page .fig{margin:20px 0 6px}
+.art-page .art-why{font-size:16px;margin-top:20px}
+.art-body{margin-top:22px}
+.art-body p{font-family:var(--f-head);font-size:18px;line-height:1.7;margin:0 0 1.05em;color:var(--ink)}
+.art-body p:first-child::first-letter{font-size:3.1em;float:left;line-height:.9;padding:6px 8px 0 0;font-weight:800}
+.ref{font:600 11px/1 var(--f-body);vertical-align:super;margin-left:3px;padding:1px 4px;border:1px solid var(--line);border-radius:3px;background:none;color:var(--accent);cursor:pointer}
+.ref:hover{background:var(--accent);color:var(--surface)}
+.art-note{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:10px;margin:6px 0 0}
+.art-refs{margin:26px 0 8px}
+.art-refs h2{font-family:var(--f-display);font-size:14px;letter-spacing:.08em;text-transform:uppercase;margin:0 0 8px}
+.art-refs ol{margin:0;padding-left:22px}
+.art-refs li{margin:4px 0;padding:2px 4px;border-radius:3px;transition:background .6s}
+.art-refs li.flash{background:var(--soft)}
+.art-refs .d{color:var(--muted);font-size:13px}
+a.figlink{display:block;color:inherit}
+a.btn{display:inline-block;text-decoration:none}
+.back{display:block;font-family:var(--f-display);font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:13px;background:none;border:0;color:var(--muted);cursor:pointer;padding:0;margin-bottom:16px}
+.back:hover{color:var(--ink)}
+footer.foot{border-top:3px double var(--rule);padding-block:14px 30px;font-size:12.5px;color:var(--muted)}
+</style>
+</head>
+<body>
+
+<div class="topbar"><div class="wrap"><span class="dl" id="dateline">—</span><span class="tr"><span class="ed" id="edline">Quincenal · Market Intelligence</span><span class="ntt" role="img" aria-label="NTT DATA"></span></span></div></div>
+<header class="masthead wrap">
+  <div class="pre">Airlines Practice</div>
+  <h1>The Airlines <em>Brief</em></h1>
+  <p class="tag">Las señales del sector aéreo que importan, elegidas por el equipo</p>
+</header>
+<nav class="sectionnav" aria-label="Secciones">
+  <div class="wrap" id="nav">
+    <button data-sec="ALL" aria-current="true">Portada</button>
+    <button data-sec="FIN">Finanzas</button>
+    <button data-sec="STR">Estrategia</button>
+    <button data-sec="CUS">Cliente</button>
+    <button data-sec="NET">Red</button>
+    <button data-sec="FLT">Flota</button>
+    <span class="sep" aria-hidden="true"></span>
+    <button class="tool" data-view="edicion">Próxima edición</button>
+    <button class="tool" data-view="fuentes">Fuentes</button>
+    <button class="tool" data-view="historial">Historial</button>
+  </div>
+</nav>
+<div class="board" aria-label="Estado de la próxima edición">
+  <div class="wrap">
+    <div class="flap"><div class="k">Próxima edición</div><div class="v" id="f-issue">—</div></div>
+    <div class="flap"><div class="k">Salida</div><div class="v" id="f-date">—</div></div>
+    <div class="flap"><div class="k">Por votos</div><div class="v" id="f-votes">—</div></div>
+    <div class="flap"><div class="k">Umbral</div><div class="v" id="f-thr">—</div></div>
+    <div class="flap"><div class="k">En portal</div><div class="v" id="f-count">—</div></div>
+    <div class="flap cta"><button type="button" data-view="edicion">Ver la edición</button></div>
+  </div>
+</div>
+
+<main>
+  <div class="wrap">
+    <div id="access" class="notice" hidden></div>
+
+    <!-- PORTAL -->
+    <section id="v-portal">
+      <details class="add" id="addbox" hidden>
+        <summary>Añadir noticia</summary>
+        <form id="addform" class="form" novalidate>
+          <label class="full">Titular<input id="a-title" required maxlength="200"></label>
+          <label>Categoría<select id="a-cat"></select></label>
+          <label>Fecha de publicación<input id="a-date" type="date" required></label>
+          <label>Medio<input id="a-source" required maxlength="80"></label>
+          <label>URL de la noticia<input id="a-url" type="url" required placeholder="https://"></label>
+          <label class="full">Resumen<textarea id="a-summary" rows="3" required maxlength="700"></textarea></label>
+          <label class="full">Por qué importa<textarea id="a-why" rows="2" required maxlength="400"></textarea></label>
+          <label>Relevancia IA (0–100)<input id="a-ai" type="number" min="0" max="100" value="50"></label>
+          <div class="full actions"><button class="btn" type="submit" id="a-submit">Publicar en el portal</button><span id="a-msg" class="toast"></span></div>
+        </form>
+      </details>
+      <div id="portal"><div class="empty">Cargando noticias…</div></div>
+    </section>
+
+    <!-- EDITION -->
+    <section id="v-edicion" hidden>
+      <h2 class="sec">Próxima edición</h2>
+      <p class="lede">Entran las noticias con al menos <b id="e-thr-txt">X</b> likes, hasta un máximo de <b id="e-max-txt">6</b>. Si no llegan a <b id="e-min-txt">4</b>, la IA completa la edición con las candidatas verificadas de mayor relevancia.</p>
+      <div class="rule">
+        <div><div class="k">Ventana</div><div class="v" id="e-window">—</div></div>
+        <div><div class="k">Candidatas verificadas</div><div class="v" id="e-elig">—</div></div>
+        <div><div class="k">Selección</div><div class="v" id="e-count">—</div></div>
+      </div>
+      <div class="settings" id="settings" hidden>
+        <label>Umbral de likes (X)<input id="s-thr" type="number" min="1" max="50"></label>
+        <label>Mínimo de noticias<input id="s-min" type="number" min="1" max="10"></label>
+        <label>Máximo de noticias<input id="s-max" type="number" min="1" max="12"></label>
+        <label>Fecha de envío<input id="s-date" type="date"></label>
+        <label style="grid-column:1/-1">Enlace del portal (aparece en el email)<input id="s-url" type="url" placeholder="https://…"></label>
+        <div class="actions" style="grid-column:1/-1;margin:0"><button class="btn ghost" id="s-save" type="button">Guardar ajustes</button><span id="s-msg" class="toast"></span></div>
+      </div>
+      <div class="sel"><ol id="sel"></ol></div>
+      <div class="actions">
+        <button class="btn" id="copy" type="button">Copiar HTML para Klaviyo</button>
+        <button class="btn ghost" id="dl" type="button" hidden>Descargar .html</button>
+        <button class="btn ghost" id="mark" type="button" hidden>Marcar como enviada</button>
+        <span id="e-msg" class="toast" role="status"></span>
+      </div>
+      <div id="confirmbox" class="confirm" hidden>
+        <span>Se guardará la edición en el historial y sus noticias dejarán de ser candidatas. ¿Continuar?</span>
+        <button class="btn" id="mark-yes" type="button">Sí, marcar enviada</button>
+        <button class="btn ghost" id="mark-no" type="button">Cancelar</button>
+      </div>
+      <textarea id="htmlout" aria-label="HTML del email" style="position:absolute;left:-9999px;width:1px;height:1px" readonly></textarea>
+      <h3 class="grp">Vista previa del email</h3>
+      <div class="preview"><iframe id="preview" title="Vista previa del email"></iframe></div>
+    </section>
+
+    <!-- ARTICLE -->
+    <section id="v-articulo" hidden><div id="article"><div class="empty">Cargando noticia…</div></div></section>
+
+    <!-- SOURCES -->
+    <section id="v-fuentes" hidden>
+      <h2 class="sec">Fuentes</h2>
+      <p class="lede">Medios y fuentes oficiales de los que se recogen noticias. Las del núcleo están aprobadas para el flujo automático; las complementarias se usan de forma puntual y se revisan antes de pasarlas al núcleo.</p>
+      <div id="sources"><div class="empty">Cargando fuentes…</div></div>
+    </section>
+
+    <!-- HISTORY -->
+    <section id="v-historial" hidden>
+      <h2 class="sec">Historial de ediciones</h2>
+      <p class="lede">Ediciones marcadas como enviadas. Sus noticias ya no compiten por la siguiente.</p>
+      <div id="history"><div class="empty">Todavía no se ha enviado ninguna edición.</div></div>
+    </section>
+  </div>
+</main>
+<footer class="foot"><div class="wrap"><span class="ntt f" role="img" aria-label="NTT DATA"></span><span>The Airlines Brief · Airlines Practice. Cada noticia está redactada a partir de fuentes verificadas, citadas al final del artículo.</span></div></footer>
+
+<script src="/shim.js"></script>
+<script>
+(function(){
+const CATS = {FIN:"Finanzas",STR:"Estrategia",CUS:"Cliente",NET:"Red",FLT:"Flota"};
+const CAT_DESC = {FIN:"Resultados, márgenes, costes y mercados.",STR:"Consolidación, alianzas y movimientos corporativos.",CUS:"Distribución, retail, fidelización e IA aplicada al cliente.",NET:"Rutas, hubs, acuerdos de código compartido y joint ventures.",FLT:"Pedidos, entregas y planes de flota."};
+const MONTHS = ["ENE","FEB","MAR","ABR","MAY","JUN","JUL","AGO","SEP","OCT","NOV","DIC"];
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmtDate = iso => { if(!iso) return "—"; const [y,m,d] = iso.slice(0,10).split("-"); return `${d} ${MONTHS[+m-1]} ${y}`; };
+const addDays = (iso,n) => { const d = new Date(iso+"T12:00:00Z"); d.setUTCDate(d.getUTCDate()+n); return d.toISOString().slice(0,10); };
+const isValid = n => n && n.title && n.source && /^https:\/\/\S+$/.test(n.url||"") && /^\d{4}-\d{2}-\d{2}$/.test(n.publishedAt||"");
+const todayISO = () => new Date().toISOString().slice(0,10);
+
+try{ $("#dateline").textContent = new Date().toLocaleDateString("es-ES",{weekday:"long",day:"numeric",month:"long",year:"numeric"}); }catch(e){}
+
+const state = {
+  news: [], votes: {}, mine: {}, cfg: {threshold:3,minItems:4,maxItems:6,nextSend:"",portalUrl:"",cadenceDays:14},
+  editions: [], sources: [], uid: null, canVote: false, canEdit: false, db: null,
+  section: "ALL", sort: (()=>{ try{ const v = localStorage.getItem("brief-sort"); return ["front","recent","votes","relevant"].includes(v) ? v : "front"; }catch(e){ return "front"; } })(), loaded: false
+};
+let downloads = null, assets = null;
+
+/* ---------- Navigation ---------- */
+const VIEWS = ["portal","edicion","fuentes","historial","articulo"];
+let view = "portal";
+function go(v, sec){
+  if(!VIEWS.includes(v)) v = "portal";
+  view = v; if(sec) state.section = sec;
+  VIEWS.forEach(x => $("#v-"+x).hidden = x !== v);
+  document.querySelectorAll("#nav button").forEach(b => {
+    const on = b.dataset.view ? b.dataset.view === v : (v === "portal" && b.dataset.sec === state.section);
+    b.setAttribute("aria-current", on ? "true" : "false");
+  });
+  if(v === "edicion") renderEdition();
+  if(v === "portal") renderPortal();
+  if(v === "articulo") renderArticle();
+  const hash = v === "portal" ? (state.section === "ALL" ? "portada" : state.section.toLowerCase()) : v === "articulo" ? "noticia-" + state.articleId : v;
+  try{ history.replaceState(null,"","#"+hash); }catch(e){}
+}
+document.addEventListener("click", e => {
+  const a = e.target.closest("[data-art]");
+  if(a && !e.metaKey && !e.ctrlKey && !e.shiftKey){ e.preventDefault(); state.articleId = a.dataset.art; go("articulo"); window.scrollTo({top:0}); return; }
+  const b = e.target.closest("[data-view],[data-sec]");
+  if(!b || b.closest(".item-vote")) return;
+  if(b.dataset.view){ go(b.dataset.view); window.scrollTo({top:0}); }
+  else if(b.dataset.sec){ go("portal", b.dataset.sec); window.scrollTo({top:0}); }
+});
+(function initHash(){
+  const h = (location.hash||"").replace("#","").toLowerCase();
+  const sec = Object.keys(CATS).find(k => k.toLowerCase() === h);
+  if(h.startsWith("noticia-") && h.length > 8){ state.articleId = h.slice(8); go("articulo"); }
+  else if(sec) go("portal", sec); else go(VIEWS.includes(h) && h !== "articulo" ? h : "portal");
+})();
+
+/* ---------- Tally & selection ---------- */
+function tally(){
+  const t = {};
+  const add = m => Object.entries(m||{}).forEach(([nid, v]) => { t[nid] = t[nid] || {up:0,down:0}; if(v===1) t[nid].up++; });
+  Object.entries(state.votes).forEach(([uid, map]) => add(uid === state.uid ? state.mine : map));
+  if(state.uid && !state.votes[state.uid]) add(state.mine);
+  return t;
+}
+/* Editorial priority: IAG direct > IAG indirect > Europe > rest; aiScore orders within a tier */
+function tier(n){ return n.iagImpact === "directo" ? 3 : n.iagImpact === "indirecto" ? 2 : n.europe ? 1 : 0; }
+function prio(n){ return tier(n)*101 + (n.aiScore||0); }
+function sentIds(){ const s = new Set(); state.editions.forEach(e => (e.newsIds||[]).forEach(id => s.add(id))); return s; }
+function windowStart(){
+  const last = state.editions.map(e => e.sentAt||"").sort().pop();
+  if(last) return last.slice(0,10);
+  return state.cfg.nextSend ? addDays(state.cfg.nextSend, -28) : "0000-00-00";
+}
+function selection(){
+  const t = tally(), sent = sentIds(), ws = windowStart();
+  const X = +state.cfg.threshold || 3, min = +state.cfg.minItems || 4, max = +state.cfg.maxItems || 6;
+  const net = n => { const c = t[n.id]||{up:0,down:0}; return c.up - c.down; };
+  const elig = state.news.filter(n => isValid(n) && !sent.has(n.id) && n.publishedAt >= ws);
+  const byVotes = elig.filter(n => net(n) >= X)
+    .sort((a,b) => net(b)-net(a) || (t[b.id]?.up||0)-(t[a.id]?.up||0) || (b.aiScore||0)-(a.aiScore||0))
+    .slice(0,max).map(n => ({n, origin:"votes", net:net(n)}));
+  let fill = [];
+  if(byVotes.length < min){
+    const taken = new Set(byVotes.map(x => x.n.id));
+    fill = elig.filter(n => !taken.has(n.id) && net(n) >= 0)
+      .sort((a,b) => prio(b)-prio(a) || b.publishedAt.localeCompare(a.publishedAt))
+      .slice(0, min - byVotes.length).map(n => ({n, origin:"ai", net:net(n)}));
+  }
+  return {items:[...byVotes, ...fill], elig, byVotes:byVotes.length, ws, t};
+}
+
+/* ---------- Editorial art (SVG built from each story's data) ---------- */
+function wrap(text, max){
+  const words = String(text||"").split(/\s+/); const lines = []; let cur = "";
+  words.forEach(w => { if((cur + " " + w).trim().length > max && cur){ lines.push(cur); cur = w; } else cur = (cur + " " + w).trim(); });
+  if(cur) lines.push(cur); return lines;
+}
+function tspans(lines, x, lh){ return lines.map((l,i) => `<tspan x="${x}" dy="${i?lh:0}">${esc(l)}</tspan>`).join(""); }
+const PLANE = "M18 0 C8 0 0 7 0 14 C0 21 8 24 18 24 L470 24 C500 24 520 18 530 12 C520 6 500 0 470 0 Z";
+function artSVG(n){
+  const a = n.art || {kind:"big", value:n.category, label:CATS[n.category]||""};
+  const W = 640, H = 360;
+  let body = "";
+  // dotted texture
+  let dots = ""; for(let x=20;x<W;x+=24) for(let y=20;y<H;y+=24) dots += `<circle cx="${x}" cy="${y}" r="1.1" class="a-dot"/>`;
+  if(a.kind === "big"){
+    const len = String(a.value).length, fs = len <= 4 ? 170 : len <= 7 ? 128 : 96;
+    body = `<rect x="40" y="70" width="6" height="${fs*0.78}" class="a-cat"/>
+      <text x="64" y="${70+fs*0.78}" class="a-big a-amber" font-size="${fs}">${esc(a.value)}</text>
+      <text y="${70+fs*0.78+46}" class="a-lbl a-ink" font-size="24">${tspans(wrap(a.label,40),64,30)}</text>
+      ${a.sub ? `<text x="64" y="${H-34}" class="a-mono a-mute" font-size="15">${esc(a.sub)}</text>` : ""}`;
+  } else if(a.kind === "bars"){
+    const rows = a.bars || [], max = Math.max(...rows.map(r => r.v)) || 1, top = 108, rh = Math.min(66, (H-top-40)/rows.length);
+    body = `<text x="40" y="62" class="a-lbl a-ink" font-size="24">${tspans(wrap(a.title,46),40,28)}</text>` +
+      rows.map((r,i) => { const y = top + i*rh + 12, w = Math.max(8, (W-310) * r.v / max), last = i === rows.length-1;
+        return `<text x="40" y="${y+24}" class="a-mono a-mute" font-size="15">${esc(r.l)}</text>
+          <rect x="170" y="${y}" width="${w}" height="${rh-26}" class="${last?"a-amber":"a-mute"}" opacity="${last?1:.55}"/>
+          <text x="${178+w}" y="${y+(rh-26)/2+10}" class="a-big ${last?"a-amber":"a-ink"}" font-size="30">${esc(r.t || r.v)}</text>`; }).join("");
+  } else if(a.kind === "route"){
+    const pts = a.points || []; const lats = pts.map(p => p.lat), lons = pts.map(p => p.lon);
+    let la0 = Math.min(...lats), la1 = Math.max(...lats), lo0 = Math.min(...lons), lo1 = Math.max(...lons);
+    const padLo = Math.max(8,(lo1-lo0)*.25), padLa = Math.max(8,(la1-la0)*.3); lo0 -= padLo; lo1 += padLo; la0 -= padLa; la1 += padLa;
+    const sx = (W-80)/(lo1-lo0), sy = (H-120)/(la1-la0), s = Math.min(sx, sy);
+    const ox = 40 + ((W-80) - (lo1-lo0)*s)/2, oy = 80 + ((H-120) - (la1-la0)*s)/2;
+    const P = p => [ox + (p.lon-lo0)*s, oy + (la1-p.lat)*s];
+    let grid = ""; for(let g=Math.ceil(lo0/10)*10; g<=lo1; g+=10){ const x = ox+(g-lo0)*s; grid += `<line x1="${x}" y1="${oy}" x2="${x}" y2="${oy+(la1-la0)*s}" class="a-grid"/>`; }
+    for(let g=Math.ceil(la0/10)*10; g<=la1; g+=10){ const y = oy+(la1-g)*s; grid += `<line x1="${ox}" y1="${y}" x2="${ox+(lo1-lo0)*s}" y2="${y}" class="a-grid"/>`; }
+    let arcs = ""; for(let i=0;i<pts.length-1;i++){ const [x1,y1]=P(pts[i]), [x2,y2]=P(pts[i+1]); const mx=(x1+x2)/2, my=(y1+y2)/2 - Math.hypot(x2-x1,y2-y1)*.28;
+      arcs += `<path d="M${x1} ${y1} Q${mx} ${my} ${x2} ${y2}" class="a-amber-s" stroke-width="3" stroke-dasharray="${i? "8 6":"0"}"/>`; }
+    const marks = pts.map((p,i) => { const [x,y] = P(p); return `<circle cx="${x}" cy="${y}" r="7" class="${i===0?"a-cat":"a-amber"}"/><circle cx="${x}" cy="${y}" r="13" class="${i===0?"a-cat-s":"a-amber-s"}" stroke-width="1.5"/>
+      <text x="${p.side==="left"?x-20:x+20}" y="${y-8}" text-anchor="${p.side==="left"?"end":"start"}" class="a-big a-ink" font-size="30">${esc(p.code)}</text><text x="${p.side==="left"?x-20:x+20}" y="${y+12}" text-anchor="${p.side==="left"?"end":"start"}" class="a-mono a-mute" font-size="13">${esc(p.city||"")}</text>`; }).join("");
+    body = grid + arcs + marks + `<text x="40" y="54" class="a-cap a-mute" font-size="13">${esc(a.title||"")}</text>` +
+      (a.badge ? `<text x="${W-40}" y="62" text-anchor="end" class="a-big a-amber" font-size="44">${esc(a.badge)}</text>` : "");
+  } else if(a.kind === "plane"){
+    body = `<text x="40" y="150" class="a-big a-amber" font-size="140">${esc(a.value)}</text>
+      <text y="196" class="a-lbl a-ink" font-size="24">${tspans(wrap(a.label,38),44,30)}</text>
+      <g transform="translate(70 270)">
+        <path d="${PLANE}" class="a-ink" opacity=".92"/>
+        <path d="M430 0 L478 -78 L506 -78 L486 2 Z" fill="${esc(a.tail||"#C8102E")}"/>
+        <path d="M250 18 L170 74 L206 74 L320 20 Z" class="a-mute"/>
+        <rect x="205" y="34" width="54" height="16" rx="8" class="a-mute"/>
+        ${Array.from({length:22},(_,i)=>`<rect x="${60+i*17}" y="7" width="8" height="6" rx="2" class="a-bg" opacity=".7"/>`).join("")}
+      </g>`;
+  } else if(a.kind === "ticket"){
+    body = `<g transform="translate(40 58)">
+      <rect width="560" height="244" rx="10" class="a-ink"/>
+      <line x1="400" y1="12" x2="400" y2="232" class="a-mute-s" stroke-dasharray="6 6" stroke-width="2"/>
+      <rect width="560" height="44" rx="10" class="a-cat"/><rect y="30" width="560" height="14" class="a-cat"/>
+      <text x="22" y="29" class="a-cap" fill="#fff" font-size="15">${esc(a.title||"Boarding pass")}</text>
+      <text x="22" y="136" class="a-big a-bg" font-size="64">${esc(a.from)}</text>
+      <text x="158" y="124" class="a-big a-bg" font-size="34">→</text>
+      <text x="200" y="136" class="a-big a-bg" font-size="64">${esc(a.to)}</text>
+      <text x="22" y="176" class="a-mono" fill="#566275" font-size="13">${tspans(wrap(a.note||"",44),22,18)}</text>
+      <text x="480" y="112" text-anchor="middle" class="a-big" fill="#101B2C" font-size="52">${esc(a.stub||"")}</text>
+      <text x="480" y="140" text-anchor="middle" class="a-mono" fill="#566275" font-size="12">${tspans(wrap(a.stubLabel||"",16),480,16)}</text>
+      ${Array.from({length:26},(_,i)=>`<rect x="${418+i*5.4}" y="196" width="${i%3?2:3.5}" height="26" fill="#101B2C"/>`).join("")}
+    </g>`;
+  }
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(a.alt || n.title)}" class="cat-${esc(n.category)}" preserveAspectRatio="xMidYMid slice">
+    <rect width="${W}" height="${H}" class="a-bg"/>${dots}${body}
+    <text x="${W-40}" y="${H-18}" text-anchor="end" class="a-cap a-mute" font-size="11">The Airlines Brief</text></svg>`;
+}
+function figure(n, caption){
+  const inner = n.imageId ? `<img src="/_blob/${esc(n.imageId)}" alt="${esc(n.title)}" loading="lazy">` : artSVG(n);
+  const cap = caption ? `<figcaption>${n.imageId ? "Foto: " + esc(n.photoSource || n.source) : "Infografía: The Airlines Brief"}</figcaption>` : "";
+  return `<figure class="fig"><span class="frame">${inner}</span>${cap}</figure>`;
+}
+
+/* ---------- Story fragments ---------- */
+function kicker(n){ return `<span class="kicker cat-${esc(n.category)}"><span class="code">${esc(n.category)}</span>${esc(CATS[n.category]||"")}</span>`; }
+function voteCtl(n, t){
+  const c = t[n.id] || {up:0,down:0}, liked = state.mine[n.id] === 1, dis = state.canVote ? "" : "disabled";
+  return `<span class="vc item-vote" data-id="${esc(n.id)}">
+    <button class="vote" data-v="1" aria-pressed="${liked}" aria-label="${liked ? "Quitar me gusta" : "Me gusta"}" title="${liked ? "Quitar me gusta" : "Me gusta"}" ${dis}><span class="hrt">${liked ? "♥" : "♡"}</span>${liked ? "Te gusta" : "Me gusta"}<span class="net">${c.up}</span></button></span>`;
+}
+function statusTag(n, inSel){
+  const o = inSel.get(n.id);
+  return o === "votes" ? `<span class="status votes">✓ En la edición</span>` : o === "ai" ? `<span class="status ai">◆ Selección IA</span>` : "";
+}
+function byline(n, t, inSel){
+  const photo = state.canEdit && assets ? `<button type="button" class="photo-btn" data-photo="${esc(n.id)}">${n.imageId ? "Cambiar foto" : "Subir foto"}</button>` : "";
+  return `<div class="byline"><span class="src">${esc(n.source)}</span><span class="date">${fmtDate(n.publishedAt)}</span>${statusTag(n,inSel)}${voteCtl(n,t)}${photo}</div>`;
+}
+function story(n, t, inSel, opts){
+  opts = opts || {};
+  return `<article>
+    ${opts.fig !== false ? `<a class="figlink" href="#noticia-${esc(n.id)}" data-art="${esc(n.id)}" tabindex="-1" aria-hidden="true">${figure(n, opts.caption)}</a>` : ""}
+    ${kicker(n)}
+    <h3 class="hl"><a href="#noticia-${esc(n.id)}" data-art="${esc(n.id)}">${esc(n.title)}</a></h3>
+    ${opts.dek !== false ? `<p class="dek">${esc(n.summary)}</p>` : ""}
+    ${opts.why && n.why ? `<div class="why"><b>Por qué importa</b>${esc(n.why)}</div>` : ""}
+    ${byline(n,t,inSel)}
+  </article>`;
+}
+
+/* ---------- Portal ---------- */
+function renderPortal(){
+  const box = $("#portal");
+  if(!state.loaded) return;
+  const valid = state.news.filter(isValid);
+  if(!valid.length){
+    box.innerHTML = `<div class="empty">Aún no hay noticias en el portal. Llegarán desde el flujo de recopilación${state.canEdit ? ", o puedes añadir una con «Añadir noticia»" : ""}.</div>`;
+    return;
+  }
+  const sel = selection(), t = sel.t, inSel = new Map(sel.items.map(x => [x.n.id, x.origin]));
+  const net = n => (t[n.id]?.up||0) - (t[n.id]?.down||0);
+  const recent = (a,b) => b.publishedAt.localeCompare(a.publishedAt) || (b.aiScore||0)-(a.aiScore||0);
+  const byVotes = (a,b) => net(b)-net(a) || prio(b)-prio(a) || recent(a,b);
+  const byRelevance = (a,b) => prio(b)-prio(a) || recent(a,b);
+  const CMP = {recent, votes: byVotes, relevant: byRelevance};
+  const listHTML = items => `<div class="slist">${items.map(n => `<article><div class="d"><a class="figlink" href="#noticia-${esc(n.id)}" data-art="${esc(n.id)}" tabindex="-1" aria-hidden="true">${figure(n)}</a></div><div style="min-width:0">${story(n,t,inSel,{why:true,fig:false}).replace(/^\s*<article>|<\/article>\s*$/g,"")}</div></article>`).join("")}</div>`;
+
+  if(state.section !== "ALL"){
+    const mode = state.sort === "front" ? "recent" : state.sort;
+    const items = valid.filter(n => n.category === state.section).sort(CMP[mode]);
+    box.innerHTML = `<div class="sectionhead">${kicker({category:state.section})}<h2>${esc(CATS[state.section])}</h2><p>${esc(CAT_DESC[state.section]||"")} ${items.length} ${items.length===1?"noticia":"noticias"}.</p></div>
+      ${sortBar(mode, false)}
+      ${items.length ? listHTML(items) : `<div class="empty">Todavía no hay noticias en esta sección.</div>`}`;
+    return;
+  }
+  if(state.sort !== "front"){
+    box.innerHTML = `${sortBar(state.sort, true)}${listHTML(valid.slice().sort(CMP[state.sort]))}`;
+    return;
+  }
+
+  // Front page: lead = most relevant recent story (votes first, then AI relevance)
+  const cutoff = addDays(todayISO(), -10);
+  const pool = valid.filter(n => n.publishedAt >= cutoff);
+  const rankFront = (a,b) => (net(b)*10 + prio(b)) - (net(a)*10 + prio(a)) || recent(a,b);
+  const front = (pool.length >= 3 ? pool : valid).slice().sort(rankFront);
+  const lead = front[0], seconds = front.slice(1,3);
+  const used = new Set([lead, ...seconds].map(n => n.id));
+  const rest = valid.filter(n => !used.has(n.id)).sort(recent);
+  const ranking = valid.slice().sort((a,b) => net(b)-net(a) || (t[b.id]?.up||0)-(t[a.id]?.up||0) || (b.aiScore||0)-(a.aiScore||0)).slice(0,5);
+  const anyVotes = ranking.some(n => (t[n.id]?.up||0) + (t[n.id]?.down||0) > 0);
+
+  box.innerHTML = `${sortBar("front", true)}
+  <div class="front">
+    <div class="main">
+      <div class="lead">${story(lead,t,inSel,{why:true,caption:true})}</div>
+      <div class="seconds">${seconds.map(n => story(n,t,inSel)).join("")}</div>
+    </div>
+    <aside>
+      <h2 class="rail-h">Lo más votado <small>${anyVotes ? "por el equipo" : "aún sin votos"}</small></h2>
+      <ol class="ranking">${ranking.map((n,i) => `<li><span class="n">${i+1}</span><div><a href="#noticia-${esc(n.id)}" data-art="${esc(n.id)}">${esc(n.title)}</a><div class="m">${net(n)} ${net(n)===1?"like":"likes"} · ${esc(CATS[n.category]||"")}</div></div></li>`).join("")}</ol>
+      <div class="edbox">
+        <div class="k">Edición Nº ${String(state.editions.length+1).padStart(2,"0")} · salida</div>
+        <div class="big">${state.cfg.nextSend ? fmtDate(state.cfg.nextSend) : "—"}</div>
+        <p>${sel.byVotes} de ${state.cfg.minItems} noticias entran ya por votos${sel.byVotes < state.cfg.minItems ? "; el resto lo completa la IA" : ""}. Así va la selección:</p>
+        <ol>${sel.items.map(x => `<li>${esc(x.n.title)}</li>`).join("")}</ol>
+        <button type="button" data-view="edicion">Ver la edición</button>
+      </div>
+    </aside>
+  </div>
+  <div class="morehead"><h2>Más noticias</h2><span class="mh-note">Las más recientes primero</span></div>
+  <div class="river">${rest.map(n => story(n,t,inSel)).join("")}</div>`;
+}
+const SORTS = {
+  front:    ["Portada", "La portada del diario: las noticias destacadas y el resto, de más reciente a más antigua."],
+  recent:   ["Más recientes", "Ordenadas por fecha de publicación, de la más nueva a la más antigua."],
+  votes:    ["Más votadas", "Ordenadas por likes del equipo; a igualdad de likes, por relevancia."],
+  relevant: ["Más relevantes", "Criterio editorial de The Airlines Brief: primero lo que afecta directamente a IAG, después lo que le afecta indirectamente, después Europa y después el resto; dentro de cada nivel, por importancia de la noticia."]
+};
+function sortBar(mode, withFront){
+  const keys = withFront ? ["front","recent","votes","relevant"] : ["recent","votes","relevant"];
+  return `<div class="sortbar" role="group" aria-label="Ordenar noticias"><span class="sb-k">Ordenar</span><div class="sb-opts">${keys.map(k => `<button type="button" data-sort="${k}" aria-pressed="${k===mode}">${SORTS[k][0]}</button>`).join("")}</div><p class="sb-note">${esc(SORTS[mode][1])}</p></div>`;
+}
+document.addEventListener("click", e => {
+  const b = e.target.closest("[data-sort]"); if(!b) return;
+  state.sort = b.dataset.sort; try{ localStorage.setItem("brief-sort", state.sort); }catch(err){}
+  renderPortal();
+});
+const photoInput = document.createElement("input");
+photoInput.type = "file"; photoInput.accept = "image/*"; photoInput.hidden = true; photoInput.id = "photo-input";
+document.body.appendChild(photoInput);
+photoInput.addEventListener("change", async () => {
+  const f = photoInput.files && photoInput.files[0], id = photoInput.dataset.id; photoInput.value = "";
+  if(!f || !id || !assets) return;
+  const btn = document.querySelector(`.photo-btn[data-photo="${CSS.escape(id)}"]`); if(btn){ btn.textContent = "Subiendo…"; btn.disabled = true; }
+  try{ const r = await assets.upload(f); await state.db.doc("news/"+id).update({imageId: r.id}); }
+  catch(e){ if(btn){ btn.textContent = "No se pudo subir"; btn.disabled = false; } console.warn(e); }
+});
+$("#portal").addEventListener("click", e => {
+  const ph = e.target.closest(".photo-btn"); if(ph){ photoInput.dataset.id = ph.dataset.photo; photoInput.click(); return; }
+  const b = e.target.closest(".vote"); if(!b) return;
+  castVote(b.closest(".item-vote").dataset.id, +b.dataset.v);
+});
+
+/* ---------- Voting (one doc per viewer, one write at a time) ---------- */
+let writing = false, pending = false;
+function castVote(id, v){
+  if(!state.canVote) return;
+  const next = {...state.mine};
+  Object.keys(next).forEach(k => { if(next[k] !== 1) delete next[k]; });
+  if(next[id] === 1) delete next[id]; else next[id] = 1;
+  state.mine = next; renderAll(); queueWrite();
+}
+async function queueWrite(){
+  if(writing){ pending = true; return; }
+  writing = true;
+  try{ await state.db.doc("votes/"+state.uid).set({v: state.mine, updatedAt: new Date().toISOString()}); }
+  catch(e){
+    if(e && e.code === "invalid_argument"){ state.canVote = false; showAccess(); renderAll(); }
+    else console.warn("vote write failed", e);
+  }
+  writing = false;
+  if(pending){ pending = false; queueWrite(); }
+}
+
+/* ---------- Board ---------- */
+function renderBoard(){
+  const s = selection();
+  const issue = String(state.editions.length + 1).padStart(2,"0");
+  $("#f-issue").textContent = "Nº " + issue;
+  $("#f-date").textContent = state.cfg.nextSend ? fmtDate(state.cfg.nextSend) : "—";
+  $("#f-votes").textContent = `${s.byVotes}/${state.cfg.minItems||4}`;
+  $("#f-thr").textContent = `≥ ${state.cfg.threshold||3} likes`;
+  $("#f-count").textContent = state.news.filter(isValid).length + " noticias";
+  $("#edline").textContent = `Quincenal · Próxima edición Nº ${issue}`;
+}
+
+/* ---------- Email ---------- */
+function emailHTML(items){
+  const issue = String(state.editions.length + 1).padStart(2,"0");
+  const date = state.cfg.nextSend ? fmtDate(state.cfg.nextSend) : "";
+  const portal = state.cfg.portalUrl || "";
+  const badge = (origin, net) => origin === "votes" ? `<span style="display:inline-block;padding:2px 8px;border-radius:3px;background:#E3F3EA;color:#1B7A4B;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">&#9829; ${net} ${net===1?"voto":"votos"}</span>` : `<span style="display:inline-block;padding:2px 8px;border-radius:3px;background:#ECE8FA;color:#6B4FC8;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">&#9670; Elegida por IA</span>`;
+  const link = n => portal ? `${portal}#noticia-${n.id}` : n.url;
+  const rows = items.map(({n, origin, net}, i) => `
+<tr><td style="padding:22px 32px 0 32px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top:1px solid #D8DEE6;padding-top:18px;">
+    <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#1F4BC6;font-weight:bold;">${String(i+1).padStart(2,"0")} · ${esc(CATS[n.category]||n.category)}&nbsp;&nbsp;${badge(origin, net)}</p>
+    <h2 style="margin:0 0 8px 0;font-family:Georgia,'Times New Roman',serif;font-size:21px;line-height:27px;color:#0F1A2A;font-weight:bold;"><a href="${esc(link(n))}" style="color:#0F1A2A;text-decoration:none;">${esc(n.title)}</a></h2>
+    <p style="margin:0 0 10px 0;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:23px;color:#333D4B;">${esc(n.summary)}</p>
+    ${n.why ? `<p style="margin:0 0 10px 0;padding-left:12px;border-left:3px solid #F2B544;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;color:#0F1A2A;"><b>Por qué importa:</b> ${esc(n.why)}</p>` : ""}
+    <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#566275;">${esc(n.source)} · ${fmtDate(n.publishedAt)} · <a href="${esc(link(n))}" style="color:#1F4BC6;font-weight:bold;">Leer el artículo &rarr;</a></p>
+  </td></tr></table>
+</td></tr>`).join("");
+  return `<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Airlines Brief · Nº ${issue}</title></head>
+<body style="margin:0;padding:0;background:#F2F4F7;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#F2F4F7;"><tr><td align="center" style="padding:24px 12px;">
+<table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background:#FFFFFF;">
+<tr><td style="padding:26px 32px 14px 32px;text-align:center;border-bottom:3px double #111A27;">
+  <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#5A6576;">Airlines Practice</p>
+  <h1 style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:38px;line-height:42px;color:#111A27;font-weight:bold;">The Airlines Brief</h1>
+  <p style="margin:6px 0 0 0;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:14px;color:#5A6576;">Las señales del sector aéreo que importan, elegidas por el equipo</p>
+</td></tr>
+<tr><td style="background:#101B2C;padding:10px 32px;font-family:'Courier New',Courier,monospace;font-size:13px;color:#F2B544;">EDICIÓN Nº ${issue}${date ? " · " + date : ""}</td></tr>
+<tr><td style="padding:22px 32px 0 32px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:23px;color:#333D4B;">Las ${items.length} noticias que más importan esta quincena.</td></tr>
+${rows}
+${portal ? `<tr><td style="padding:26px 32px 0 32px;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td style="background:#111A27;border-radius:4px;"><a href="${esc(portal)}" style="display:inline-block;padding:12px 20px;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:bold;color:#FFFFFF;text-decoration:none;letter-spacing:1px;text-transform:uppercase;">Vota las noticias de la próxima edición</a></td></tr></table></td></tr>` : ""}
+<tr><td style="padding:28px 32px 26px 32px;font-family:Arial,Helvetica,sans-serif;font-size:11px;line-height:17px;color:#8E9BB0;">Pulsa en cualquier noticia para leer el artículo completo en el portal, con sus fuentes, y votarla.<br>{% unsubscribe 'Darse de baja' %}</td></tr>
+</table></td></tr></table></body></html>`;
+}
+
+/* ---------- Edition view ---------- */
+function renderEdition(){
+  const s = selection();
+  $("#e-thr-txt").textContent = state.cfg.threshold; $("#e-min-txt").textContent = state.cfg.minItems; $("#e-max-txt").textContent = state.cfg.maxItems;
+  $("#e-window").textContent = s.ws !== "0000-00-00" ? `${fmtDate(s.ws)} →` : "—";
+  $("#e-elig").textContent = s.elig.length;
+  $("#e-count").textContent = `${s.byVotes} votos + ${s.items.length - s.byVotes} IA`;
+  $("#sel").innerHTML = s.items.length ? s.items.map(({n,origin,net}) => `<li><div style="min-width:0"><div class="t">${esc(n.title)}</div><div class="s">${esc(CATS[n.category]||"")} · ${esc(n.source)} · ${fmtDate(n.publishedAt)}</div></div>${origin==="votes" ? `<span class="why-pill votes">♥ ${net} ${net===1?"like":"likes"}</span>` : `<span class="why-pill ai">IA · ${n.aiScore||0}</span>`}</li>`).join("")
+    : `<li style="display:block"><span class="s">No hay candidatas verificadas en la ventana actual.</span></li>`;
+  const html = emailHTML(s.items);
+  $("#htmlout").value = html;
+  const fr = $("#preview"); if(fr.srcdoc !== html) fr.srcdoc = html;
+  $("#copy").disabled = !s.items.length;
+  $("#mark").hidden = !state.canEdit; $("#mark").disabled = !s.items.length;
+  $("#dl").hidden = !downloads;
+  $("#settings").hidden = !state.canEdit;
+  if(state.canEdit && !(document.activeElement && document.activeElement.closest && document.activeElement.closest("#settings"))){
+    $("#s-thr").value = state.cfg.threshold; $("#s-min").value = state.cfg.minItems; $("#s-max").value = state.cfg.maxItems;
+    $("#s-date").value = state.cfg.nextSend || ""; $("#s-url").value = state.cfg.portalUrl || "";
+  }
+}
+function flash(el, msg, err){ el.textContent = msg; el.classList.toggle("err", !!err); clearTimeout(el._t); el._t = setTimeout(() => el.textContent = "", 4000); }
+$("#copy").addEventListener("click", () => {
+  const txt = $("#htmlout").value;
+  const fallback = () => { const ta = $("#htmlout"); ta.select(); try{ document.execCommand("copy"); flash($("#e-msg"),"HTML copiado"); }catch(e){ flash($("#e-msg"),"No se pudo copiar automáticamente: usa Descargar .html",true); } };
+  if(navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(() => flash($("#e-msg"),"HTML copiado. Pégalo en un bloque HTML de Klaviyo."), fallback); else fallback();
+});
+$("#dl").addEventListener("click", async () => {
+  try{ await downloads.save({filename:`airlines-brief-${String(state.editions.length+1).padStart(2,"0")}.html`, data:$("#htmlout").value}); flash($("#e-msg"),"Archivo guardado"); }
+  catch(e){ if(e?.code !== "declined" && e?.code !== "cancelled") flash($("#e-msg"),"No se pudo guardar el archivo",true); }
+});
+$("#mark").addEventListener("click", () => { $("#confirmbox").hidden = false; });
+$("#mark-no").addEventListener("click", () => { $("#confirmbox").hidden = true; });
+$("#mark-yes").addEventListener("click", async () => {
+  $("#confirmbox").hidden = true;
+  const s = selection(); if(!s.items.length) return;
+  const issue = state.editions.length + 1; const now = new Date().toISOString();
+  try{
+    await state.db.doc("editions/issue-"+String(issue).padStart(3,"0")).set({
+      issue, sentAt: now, newsIds: s.items.map(x => x.n.id),
+      items: s.items.map(x => ({id:x.n.id, title:x.n.title, source:x.n.source, origin:x.origin, net:x.net}))
+    });
+    const nd = addDays(state.cfg.nextSend || now.slice(0,10), +state.cfg.cadenceDays || 14);
+    await state.db.doc("config/settings").set({...state.cfg, nextSend: nd});
+    flash($("#e-msg"), `Edición Nº ${String(issue).padStart(2,"0")} guardada en el historial`);
+  }catch(e){ flash($("#e-msg"), "No se pudo guardar la edición. Comprueba que tienes permiso de edición.", true); }
+});
+$("#s-save").addEventListener("click", async () => {
+  const thr = +$("#s-thr").value, mn = +$("#s-min").value, mx = +$("#s-max").value, d = $("#s-date").value, u = $("#s-url").value.trim();
+  if(!(thr>=1) || !(mn>=1) || !(mx>=mn)) return flash($("#s-msg"),"Revisa los números: el máximo no puede ser menor que el mínimo.",true);
+  if(u && !/^https:\/\//.test(u)) return flash($("#s-msg"),"El enlace del portal debe empezar por https://",true);
+  try{ await state.db.doc("config/settings").set({...state.cfg, threshold:thr, minItems:mn, maxItems:mx, nextSend:d, portalUrl:u}); flash($("#s-msg"),"Ajustes guardados"); }
+  catch(e){ flash($("#s-msg"),"No se pudieron guardar los ajustes.",true); }
+});
+
+/* ---------- Add news ---------- */
+$("#a-cat").innerHTML = Object.entries(CATS).map(([k,l]) => `<option value="${k}">${k} · ${l}</option>`).join("");
+$("#addform").addEventListener("submit", async e => {
+  e.preventDefault();
+  const n = { title:$("#a-title").value.trim(), category:$("#a-cat").value, publishedAt:$("#a-date").value, source:$("#a-source").value.trim(),
+    url:$("#a-url").value.trim(), summary:$("#a-summary").value.trim(), why:$("#a-why").value.trim(), aiScore: Math.max(0,Math.min(100, +$("#a-ai").value||0)),
+    addedAt:new Date().toISOString(), addedBy:"editor" };
+  if(!isValid(n) || !n.summary) return flash($("#a-msg"),"Falta titular, medio, fecha, resumen o una URL https válida. Sin esos datos la noticia no se publica.",true);
+  if(state.news.some(x => x.url === n.url)) return flash($("#a-msg"),"Esa URL ya está en el portal.",true);
+  try{ await state.db.collection("news").add(n); $("#addform").reset(); flash($("#a-msg"),"Noticia publicada"); }
+  catch(err){ flash($("#a-msg"),"No se pudo publicar. Comprueba que tienes permiso de edición.",true); }
+});
+
+/* ---------- Sources & history ---------- */
+function renderSources(){
+  const box = $("#sources");
+  if(!state.sources.length){ box.innerHTML = `<div class="empty">Aún no hay fuentes registradas.</div>`; return; }
+  const grp = (st, label) => {
+    const rows = state.sources.filter(s => s.status === st).sort((a,b) => (a.order||0)-(b.order||0) || a.name.localeCompare(b.name));
+    if(!rows.length) return "";
+    return `<h3 class="grp">${label} · ${rows.length}</h3><div class="tablebox"><table><thead><tr><th>Fuente</th><th>Tipo</th><th>Idioma</th><th>Qué aporta</th></tr></thead><tbody>${rows.map(s => `<tr><td><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a></td><td><span class="tag2 ${st==="core"?"core":""}">${esc(s.type)}</span></td><td class="mono">${esc(s.lang)}</td><td>${esc(s.note)}</td></tr>`).join("")}</tbody></table></div>`;
+  };
+  box.innerHTML = grp("core","Núcleo aprobado") + grp("trial","Complementarias en evaluación");
+}
+function renderHistory(){
+  const box = $("#history");
+  if(!state.editions.length){ box.innerHTML = `<div class="empty">Todavía no se ha enviado ninguna edición. Cuando marques una como enviada aparecerá aquí.</div>`; return; }
+  const eds = [...state.editions].sort((a,b) => (b.issue||0)-(a.issue||0));
+  box.innerHTML = `<div class="tablebox"><table><thead><tr><th>Nº</th><th>Fecha</th><th>Noticias</th></tr></thead><tbody>${eds.map(e => `<tr><td class="mono">${String(e.issue).padStart(2,"0")}</td><td class="mono">${fmtDate(e.sentAt)}</td><td>${(e.items||[]).map(i => `${esc(i.title)} <span class="why-pill ${i.origin==="votes"?"votes":"ai"}">${i.origin==="votes"?"votos":"IA"}</span>`).join("<br>")}</td></tr>`).join("")}</tbody></table></div>`;
+}
+
+/* ---------- Article page (where email links land: #noticia-<id>) ---------- */
+function artBody(n){
+  const refs = Array.isArray(n.refs) ? n.refs : [];
+  const body = Array.isArray(n.body) ? n.body.filter(p => p && typeof p.t === "string" && p.t.trim()) : [];
+  if(!body.length) return "";
+  const sup = s => (Array.isArray(s) ? s : []).filter(k => Number.isInteger(k) && k >= 1 && k <= refs.length)
+    .map(k => `<button type="button" class="ref" data-ref="${k}" title="${esc(refs[k-1].name||"")}">${k}</button>`).join("");
+  return `<div class="art-body">${body.map(p => `<p>${esc(p.t)}${sup(p.s)}</p>`).join("")}</div>
+    <p class="art-note">Redactado por The Airlines Brief exclusivamente con la información publicada en las fuentes citadas. Los números remiten a cada fuente.</p>`;
+}
+function artRefs(n){
+  const refs = (Array.isArray(n.refs) && n.refs.length) ? n.refs : [{name:n.source, url:n.url, date:n.publishedAt}];
+  const ok = r => r && /^https:\/\/\S+$/.test(r.url||"");
+  return `<section class="art-refs"><h2>Fuentes</h2><ol>${refs.map((r,i) => `<li id="ref-${i+1}">${ok(r) ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name||r.url)} ↗</a>` : esc(r.name||"")}${/^\d{4}-\d{2}-\d{2}$/.test(r.date||"") ? ` <span class="d">· ${fmtDate(r.date)}</span>` : ""}</li>`).join("")}</ol></section>`;
+}
+function renderArticle(){
+  const box = $("#article");
+  if(!state.loaded){ box.innerHTML = `<div class="empty">Cargando noticia…</div>`; return; }
+  const n = state.news.find(x => x.id === state.articleId);
+  if(!n){ box.innerHTML = `<div class="empty"><p>No encontramos esta noticia; puede que ya no esté en el portal.</p><button type="button" class="btn ghost" data-sec="ALL">Ir a la portada</button></div>`; return; }
+  const sel = selection(), t = sel.t, inSel = new Map(sel.items.map(x => [x.n.id, x.origin]));
+  const related = state.news.filter(x => isValid(x) && x.id !== n.id && x.category === n.category).sort((a,b) => b.publishedAt.localeCompare(a.publishedAt)).slice(0,3);
+  box.innerHTML = `<article class="art-page">
+    <button type="button" class="back" data-sec="ALL">← Portada</button>
+    ${kicker(n)}
+    <h1 class="hl art-hl">${esc(n.title)}</h1>
+    <p class="dek art-dek">${esc(n.summary)}</p>
+    ${byline(n,t,inSel)}
+    ${figure(n,true)}
+    ${artBody(n)}
+    ${n.why ? `<div class="why art-why"><b>Por qué importa · análisis de The Airlines Brief</b>${esc(n.why)}</div>` : ""}
+    ${artRefs(n)}
+  </article>
+  ${related.length ? `<div class="morehead"><h2>Más en ${esc(CATS[n.category]||"")}</h2></div><div class="river">${related.map(r => story(r,t,inSel)).join("")}</div>` : ""}`;
+}
+$("#article").addEventListener("click", e => {
+  const ph = e.target.closest(".photo-btn"); if(ph){ photoInput.dataset.id = ph.dataset.photo; photoInput.click(); return; }
+  const rf = e.target.closest(".ref"); if(rf){ const li = document.getElementById("ref-"+rf.dataset.ref); if(li){ li.scrollIntoView({behavior:"smooth",block:"center"}); li.classList.remove("flash"); void li.offsetWidth; li.classList.add("flash"); } return; }
+  const b = e.target.closest(".vote"); if(!b) return;
+  castVote(b.closest(".item-vote").dataset.id, +b.dataset.v);
+});
+
+function renderAll(){ renderBoard(); if(view === "portal") renderPortal(); if(view === "edicion") renderEdition(); if(view === "articulo") renderArticle(); renderSources(); renderHistory(); }
+
+function showAccess(){
+  const el = $("#access");
+  if(!state.db){ el.hidden = false; el.innerHTML = "<strong>Sin conexión con los datos del portal.</strong> Recarga la página en unos segundos."; return; }
+  if(!state.canVote){ el.hidden = false; el.innerHTML = "<strong>Estás en modo lectura.</strong> Puedes leer las noticias, pero tu acceso no permite votar. Pide a quien gestiona el portal acceso de colaborador."; return; }
+  el.hidden = true;
+}
+
+/* ---------- Boot ---------- */
+renderBoard();
+(async () => {
+  const c = window.claude;
+  const db = c ? await c.use("db").catch(() => null) : null;
+  const user = c ? await c.use("user").catch(() => null) : null;
+  downloads = c ? await c.use("downloads").catch(() => null) : null;
+  assets = c ? await c.use("assets").catch(() => null) : null;
+  state.db = db;
+  if(!db){ state.loaded = true; showAccess(); $("#portal").innerHTML = `<div class="empty">No se pueden cargar las noticias en esta vista.</div>`; return; }
+  state.uid = user ? await user.id() : null;
+  const canW = user ? await user.can("data.write") : null;
+  state.canVote = !!state.uid && canW !== false;
+  state.canEdit = user ? !!(await user.canEdit()) : false;
+  $("#addbox").hidden = !state.canEdit;
+  showAccess();
+
+  db.collection("news").onSnapshot(s => { state.news = s.docs.map(d => ({id:d.id, ...d.data()})); state.loaded = true; renderAll(); }, e => console.warn(e));
+  db.collection("votes").onSnapshot(s => {
+    const v = {}; s.docs.forEach(d => v[d.id] = (d.data()||{}).v || {}); state.votes = v;
+    if(state.uid && v[state.uid] && !writing && !pending) state.mine = {...v[state.uid]};
+    renderAll();
+  }, e => console.warn(e));
+  db.doc("config/settings").onSnapshot(s => { if(s.exists) state.cfg = {...state.cfg, ...s.data()}; renderAll(); }, e => console.warn(e));
+  db.collection("editions").onSnapshot(s => { state.editions = s.docs.map(d => ({id:d.id, ...d.data()})); renderAll(); }, e => console.warn(e));
+  db.collection("sources").onSnapshot(s => { state.sources = s.docs.map(d => ({id:d.id, ...d.data()})); renderSources(); }, e => console.warn(e));
+})();
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,1368 @@
+[
+ {
+  "addedAt": "2026-10-23T05:55:00Z",
+  "addedBy": "claude",
+  "aiScore": 55,
+  "art": {
+   "kind": "big",
+   "label": "EBIT de Aerolíneas Argentinas en el primer semestre de 2026",
+   "sub": "+25 M$ sin el alza del combustible, según la compañía",
+   "value": "−84 M$"
+  },
+  "body": [
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "Aerolíneas Argentinas registró una pérdida neta de unos 63 millones de dólares en el primer semestre de 2026, según informaron Infobae y El Cronista el 22 de octubre. Según Infobae, la compañía había sido rentable en los dos años anteriores."
+   },
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "El principal motivo fue el combustible: el sobrecoste superó los 100 millones de dólares en solo seis meses. El precio del JP-1 ha subido en torno a un 90% desde el inicio del conflicto en Oriente Medio y, según la compañía, es el más alto en más de una década, salvo un breve pico en 2022. Infobae añade que los costes subieron un 38,3% interanual y los ingresos un 20,7%, y que la empresa estima un sobrecoste de combustible de unos 150 millones de dólares en todo 2026, un 50% por encima de lo presupuestado."
+   },
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "El EBIT del semestre fue negativo en 84 millones de dólares; según la compañía, aislando solo el mayor precio del combustible habría sido positivo en unos 25 millones. El EBITDAR fue positivo en 64 millones. En el primer semestre de años anteriores, el EBIT fue de unos −266 millones (2023), −44 millones (2024) y +66 millones (2025)."
+   },
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "La compañía afirma que cubrió el resultado financiero negativo del semestre con la caja disponible, sin nuevos aportes del Estado ni financiación bancaria. Según Infobae, no ha pedido fondos al Tesoro desde mediados de 2024, después de recibir transferencias estatales de más de 8.000 millones de dólares entre 2008 y 2024. Ambos medios indican que el fideicomiso Global ARSA, contratado en octubre de 2023, quedó saldado en junio."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "«Con la guerra el precio del combustible se fue al doble y justo comenzaba la temporada baja», explicaron fuentes de la compañía citadas por Infobae. El medio recuerda que, según IATA, el precio medio del queroseno era de 185,43 dólares por barril a finales de septiembre, frente a los 88 dólares proyectados antes del conflicto."
+   }
+  ],
+  "category": "FIN",
+  "imageId": "aerolineas-argentinas-1s-2026",
+  "photoSource": "El Cronista",
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/5939a7f3-4c04-48e1-b388-d4d13a1fd938.jpeg",
+  "publishedAt": "2026-10-22",
+  "refs": [
+   {
+    "date": "2026-10-22",
+    "name": "Infobae",
+    "url": "https://infobae.com/economia/2026/10/22/la-suba-del-combustible-por-la-guerra-hizo-que-aerolineas-argentinas-vuelva-a-registrar-perdidas-sigue-sin-usar-fondos-del-estado"
+   },
+   {
+    "date": "2026-10-22",
+    "name": "El Cronista",
+    "url": "https://cronista.com/negocios/la-suba-de-combustibles-afecto-los-resultados-de-aerolineas-argentinas"
+   }
+  ],
+  "source": "Infobae",
+  "summary": "Aerolíneas Argentinas perdió unos 63 millones de dólares en el primer semestre de 2026, con un EBIT negativo de 84 millones, tras un sobrecoste de combustible de más de 100 millones en seis meses. Según la compañía, sin el alza del combustible el EBIT habría sido positivo en unos 25 millones; cubrió el resultado con caja, sin fondos del Estado.",
+  "title": "Aerolíneas Argentinas vuelve a pérdidas en el primer semestre por el alza del combustible",
+  "url": "https://infobae.com/economia/2026/10/22/la-suba-del-combustible-por-la-guerra-hizo-que-aerolineas-argentinas-vuelva-a-registrar-perdidas-sigue-sin-usar-fondos-del-estado",
+  "why": "Muestra cómo el alza del combustible borra la mejora operativa de una aerolínea de bandera latinoamericana, la misma presión de costes que, según los datos de IATA citados, afecta a todo el sector.",
+  "id": "aerolineas-argentinas-1s-2026"
+ },
+ {
+  "addedAt": "2026-10-21T16:30:00Z",
+  "addedBy": "claude",
+  "aiScore": 60,
+  "art": {
+   "bars": [
+    {
+     "l": "3T 2025",
+     "t": "298",
+     "v": 297.6
+    },
+    {
+     "l": "3T 2026",
+     "t": "469",
+     "v": 469
+    }
+   ],
+   "kind": "bars",
+   "title": "Aeroméxico · gasto en combustible del 3T (millones de $)"
+  },
+  "body": [
+   {
+    "s": [
+     1
+    ],
+    "t": "Aeroméxico obtuvo en el tercer trimestre de 2026 unos ingresos récord de 1.619 millones de dólares, un 13,6% más que un año antes. El beneficio operativo cayó un 25%, hasta 189,6 millones, con un margen del 11,7% (6 puntos menos), y el beneficio neto bajó un 58,1%, hasta 40,6 millones."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "El combustible es la principal causa. El gasto subió un 57,6%, hasta 469 millones de dólares, unos 93 millones más de lo que contemplaba la previsión de la compañía. El coste por galón fue de 4,0 dólares, un 60,6% más."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "Los ingresos internacionales crecieron un 17,4%, hasta 1.078 millones, y los domésticos un 6,7%. La capacidad aumentó un 1,3% y la ocupación fue del 88,3%, mientras que el número de pasajeros bajó un 3,2%, hasta 6,16 millones. Los ingresos premium suponen el 42% de los ingresos de pasajeros."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "Su consejero delegado, Andrés Conesa, habló de «otro trimestre sólido, con ingresos récord». Para el cuarto trimestre, la compañía prevé ingresos entre un 14% y un 16% superiores y un margen operativo del 7,5% al 9,5%, con un combustible medio de unos 4,5 dólares por galón."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "La liquidez era de 1.200 millones de dólares, y el apalancamiento neto subió a 2,1 veces, desde 1,8 a finales de 2025."
+   }
+  ],
+  "category": "FIN",
+  "imageId": "aeromexico-3t-2026",
+  "photoSource": "Mexico News Daily",
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/5d67ef54-12e3-4592-afc7-95c0bfcc24fb.jpeg",
+  "publishedAt": "2026-10-19",
+  "refs": [
+   {
+    "date": "2026-10-19",
+    "name": "Stock Titan (nota de resultados de Aeroméxico)",
+    "url": "https://www.stocktitan.net/news/AERO/aeromexico-reports-unaudited-third-quarter-2026-sl26ijo8xj33.html"
+   }
+  ],
+  "source": "Stock Titan (nota de resultados)",
+  "summary": "Ingresos de 1.619 M$ (+13,6%) y margen operativo del 11,7%, con el resultado operativo un 25% más bajo. El combustible sube un 57,6% hasta 469 M$. Para el 4T guía ingresos +14–16% y margen del 7,5–9,5%.",
+  "title": "Aeroméxico logra ingresos récord en el 3T, pero su beneficio neto cae un 58%",
+  "url": "https://www.stocktitan.net/news/AERO/aeromexico-reports-unaudited-third-quarter-2026-sl26ijo8xj33.html",
+  "why": "Sigue el patrón del trimestre en las Américas: ingresos al alza y margen recortado por el combustible.",
+  "id": "aeromexico-3t-2026"
+ },
+ {
+  "addedAt": "2026-10-21T16:30:00Z",
+  "addedBy": "claude",
+  "aiScore": 70,
+  "art": {
+   "bars": [
+    {
+     "l": "Boeing",
+     "t": "475",
+     "v": 475
+    },
+    {
+     "l": "Airbus",
+     "t": "547",
+     "v": 547
+    }
+   ],
+   "kind": "bars",
+   "title": "Entregas de aviones comerciales, enero–septiembre 2026"
+  },
+  "body": [
+   {
+    "s": [
+     1
+    ],
+    "t": "Airbus entregó 72 aviones comerciales en septiembre y Boeing 57. En lo que va de año, Airbus suma 547 entregas y Boeing 475, una ventaja de 72 aviones para el fabricante europeo, cuyo objetivo es de unas 870 entregas en 2026."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "De las entregas de Airbus en septiembre, 67 fueron de pasillo único (59 de la familia A320neo, entre ellas 37 A321neo, y 8 A220-300) y 5 de fuselaje ancho. Boeing entregó 43 aviones de la familia 737, en línea con su ritmo objetivo, y 14 de fuselaje ancho, entre ellos 8 787."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "En pedidos, Boeing sumó 165 brutos en septiembre (132 737 MAX y 33 de fuselaje ancho), frente a 17 de Airbus, todos de la familia A320neo. En el acumulado del año, Airbus mantiene la delantera con 1.174 pedidos brutos frente a 663."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "La cartera de Airbus es de 9.304 aviones, unos 10,7 años de producción, y la de Boeing de 6.856, unos 10,2 años. Forecast International advierte de que los programas de fuselaje ancho van «muy por detrás» del ritmo necesario para cumplir sus previsiones anuales."
+   }
+  ],
+  "category": "FLT",
+  "imageId": "airbus-boeing-sep-2026",
+  "photoSource": "Forecast International",
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/17e82c8d-450e-45b7-a519-69a1d9873585.jpeg",
+  "publishedAt": "2026-10-13",
+  "refs": [
+   {
+    "date": "2026-10-13",
+    "name": "Forecast International",
+    "url": "https://flightplan.forecastinternational.com/2026/10/13/airbus-and-boeing-report-september-2026-commercial-aircraft-orders-and-deliveries/"
+   }
+  ],
+  "source": "Forecast International",
+  "summary": "En septiembre, Airbus entregó 72 aviones y Boeing 57; en el acumulado del año, 547 frente a 475. Boeing sumó 165 pedidos brutos en el mes frente a 17 de Airbus. La cartera queda en 9.304 aviones (Airbus) y 6.856 (Boeing).",
+  "title": "Airbus entrega 547 aviones hasta septiembre; Boeing gana el mes en pedidos",
+  "url": "https://flightplan.forecastinternational.com/2026/10/13/airbus-and-boeing-report-september-2026-commercial-aircraft-orders-and-deliveries/",
+  "why": "Con carteras equivalentes a más de diez años de producción, el ritmo de entregas condiciona los planes de flota de las aerolíneas.",
+  "id": "airbus-boeing-sep-2026"
+ },
+ {
+  "addedAt": "2026-10-23T05:55:00Z",
+  "addedBy": "claude",
+  "aiScore": 80,
+  "art": {
+   "bars": [
+    {
+     "l": "3T 2025",
+     "t": "2,37",
+     "v": 2.37
+    },
+    {
+     "l": "3T 2026",
+     "t": "3,85",
+     "v": 3.85
+    },
+    {
+     "l": "4T 2026 (prev.)",
+     "t": "~4,70",
+     "v": 4.7
+    }
+   ],
+   "kind": "bars",
+   "title": "Precio medio del combustible de American ($/galón)"
+  },
+  "body": [
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "American Airlines Group presentó el 22 de octubre de 2026 sus resultados del tercer trimestre, con unos ingresos récord de 16.300 millones de dólares, un 19,3% más que un año antes. Aun así, registró una pérdida neta de 269 millones de dólares, frente a una pérdida de 114 millones en el mismo periodo del año anterior, según AeroTime."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "La pérdida equivale a 0,41 dólares por acción diluida. En términos ajustados, la pérdida neta fue de 182 millones de dólares, 0,28 dólares por acción. La compañía dispone de 11.800 millones de dólares de liquidez total y una deuda neta de 28.079 millones a 30 de septiembre."
+   },
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "El gasto en combustible y tasas asociadas alcanzó 4.635 millones de dólares, un 67,5% más que los 2.767 millones de un año antes. American pagó de media 3,85 dólares por galón, frente a 2,37 dólares, lo que elevó el gasto en 1.900 millones. «Los resultados financieros globales se vieron presionados por un aumento significativo de los costes de combustible», indicó la compañía."
+   },
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "Para el cuarto trimestre, American prevé un precio medio de unos 4,70 dólares por galón, con un gasto en combustible unos 2.800 millones superior al del cuarto trimestre de 2025, y una pérdida ajustada por acción de entre 0,50 y 1,10 dólares. Para el conjunto de 2026 espera una pérdida ajustada de entre 1,00 y 1,60 dólares por acción; en julio preveía un rango entre una pérdida y un beneficio de 0,65 dólares por acción. «Dado el elevado precio del combustible, American espera que el crecimiento de su red en 2027 se ralentice respecto a los niveles de 2026», señaló, sin dar cifras."
+   },
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "En el negocio internacional, el ingreso de pasaje por asiento-milla disponible (PRASM) subió un 16,4%: un 21,1% en Latinoamérica, un 14,5% en el Atlántico y un 11,3% en el Pacífico. «American logró unos ingresos récord en el tercer trimestre y el mayor crecimiento interanual de ingresos de mi carrera», afirmó su consejero delegado, Robert Isom, que añadió que el foco sigue siendo «restaurar la rentabilidad y construir una American más fuerte a largo plazo»."
+   }
+  ],
+  "category": "FIN",
+  "iagImpact": "indirecto",
+  "imageId": "american-3t-2026",
+  "photoSource": "AeroTime",
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/fa7e258a-2d95-411c-b1fe-6378ae54e208.jpeg",
+  "publishedAt": "2026-10-22",
+  "refs": [
+   {
+    "date": "2026-10-22",
+    "name": "American Airlines Group (GlobeNewswire)",
+    "url": "https://www.globenewswire.com/news-release/2026/10/22/3386182/0/en/american-sets-new-revenue-records-amid-historic-fuel-cost-pressure.html"
+   },
+   {
+    "date": "2026-10-22",
+    "name": "AeroTime",
+    "url": "https://www.aerotime.aero/articles/american-airlines-third-quarter-results-2026"
+   }
+  ],
+  "source": "American Airlines Group (GlobeNewswire)",
+  "summary": "American Airlines ingresó 16.300 millones de dólares en el tercer trimestre de 2026 (+19,3%), pero perdió 269 millones por un gasto en combustible un 67,5% mayor. Prevé una pérdida ajustada por acción de entre 1,00 y 1,60 dólares en 2026 y espera ralentizar el crecimiento de su red en 2027.",
+  "title": "American logra ingresos récord en el 3T, pero el combustible la lleva a prever pérdidas en 2026",
+  "url": "https://www.globenewswire.com/news-release/2026/10/22/3386182/0/en/american-sets-new-revenue-records-amid-historic-fuel-cost-pressure.html",
+  "why": "Confirma que la demanda resiste (ingresos récord y unidad de ingreso en el Atlántico +14,5%) mientras el combustible destruye margen; que una gran aerolínea del Atlántico Norte, mercado clave de IAG, anticipe menos crecimiento en 2027 es una referencia relevante para la capacidad y las tarifas transatlánticas.",
+  "id": "american-3t-2026"
+ },
+ {
+  "addedAt": "2026-10-21T16:30:00Z",
+  "addedBy": "claude",
+  "aiScore": 85,
+  "art": {
+   "bars": [
+    {
+     "l": "3T 2025",
+     "t": "11,1%",
+     "v": 11.1
+    },
+    {
+     "l": "3T 2026",
+     "t": "9,4%",
+     "v": 9.4
+    }
+   ],
+   "kind": "bars",
+   "title": "Delta · margen operativo ajustado del tercer trimestre"
+  },
+  "body": [
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "Delta Air Lines rebajó su previsión de beneficio por acción ajustado para 2026 a entre 5,10 y 5,60 dólares, frente a los 6,50–7,50 anteriores, por el encarecimiento del combustible. Su consejero delegado, Ed Bastian, prevé un beneficio antes de impuestos de unos 4.500 millones de dólares en el año, absorbiendo un aumento de 6.000 millones en el coste del combustible."
+   },
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "En el tercer trimestre, el beneficio por acción ajustado fue de 1,72 dólares (1,70 un año antes), por debajo de la previsión de 2,00 a 2,50 que dio en julio. El beneficio neto cayó un 47%, hasta 756 millones. Los ingresos operativos ajustados subieron un 16%, hasta 17.590 millones, con la capacidad estable, y el margen operativo ajustado bajó del 11,1% al 9,4%."
+   },
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "El combustible costó más de 500 millones de dólares por encima de lo previsto a principios de julio. El gasto ajustado en combustible subió un 62%, hasta 4.100 millones, con un precio de 3,61 dólares por galón frente a 2,25 un año antes."
+   },
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "Los ingresos premium y los de fidelización crecieron un 18% cada uno, y los de carga un 29%. En el negocio internacional, los ingresos unitarios subieron un 12%, con Latinoamérica a la cabeza (un 22% más)."
+   },
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "Para el cuarto trimestre, Delta prevé ingresos un 20% superiores, un beneficio por acción ajustado de 1,15 a 1,65 dólares, un margen operativo de entre el 7% y el 9% y un combustible de unos 4,25 dólares por galón, con un aumento de asientos inferior al 2%. Según Bastian, «la demanda sigue siendo fuerte»."
+   }
+  ],
+  "category": "FIN",
+  "imageId": "delta-3t-2026",
+  "photoSource": "AeroCorner",
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/7cc20962-7ba3-4956-9e29-036797e5d643.jpeg",
+  "publishedAt": "2026-10-09",
+  "refs": [
+   {
+    "date": "2026-10-09",
+    "name": "RTTNews",
+    "url": "https://www.rttnews.com/3697924/delta-stock-drops-on-cautious-earnings-view-in-q4-fy26-after-weak-q3.aspx"
+   },
+   {
+    "date": "2026-10-10",
+    "name": "AeroCorner",
+    "url": "https://aerocorner.com/news/delta-q3-2026-profit-outlook-cut-fuel/"
+   }
+  ],
+  "source": "RTTNews",
+  "summary": "BPA ajustado del 3T de 1,72 $ e ingresos ajustados de 17.590 M$ (+16% con capacidad plana). El margen operativo baja al 9,4% desde el 11,1%. Rebaja el BPA anual a 5,10–5,60 $ (antes 6,50–7,50 $) y espera combustible a unos 4,25 $/galón en el 4T.",
+  "title": "Delta recorta su previsión anual: absorberá 6.000 M$ más de combustible en 2026",
+  "url": "https://www.rttnews.com/3697924/delta-stock-drops-on-cautious-earnings-view-in-q4-fy26-after-weak-q3.aspx",
+  "why": "Confirma que, incluso con demanda fuerte y precios al alza, el combustible está recortando los beneficios previstos de las grandes aerolíneas.",
+  "id": "delta-3t-2026"
+ },
+ {
+  "addedAt": "2026-10-21T16:30:00Z",
+  "addedBy": "claude",
+  "aiScore": 65,
+  "art": {
+   "from": "GDS",
+   "kind": "ticket",
+   "note": "Menos de un tercio de las aerolíneas ha empezado con Offer & Order",
+   "stub": "~5%",
+   "stubLabel": "NDC en el volumen de Sabre",
+   "title": "Distribución aérea",
+   "to": "O&O"
+  },
+  "body": [
+   {
+    "s": [
+     1
+    ],
+    "t": "Un análisis de Travel Distribution News sostiene que el debate entre GDS y NDC se queda corto: lo que está en juego es quién controla la oferta, el cliente, la transacción, los datos, el servicio posventa y el margen del pago."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "El artículo recoge varios movimientos recientes. Sabre afirma que NDC supone alrededor del 5% de su volumen de distribución. Amadeus llevará el contenido NDC de JAL a agencias de 26 países y regiones desde octubre de 2026. Travelport firmó con EGYPTAIR un acuerdo único que cubre EDIFACT y NDC."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "Amadeus vende su solución Altea NDC a aerolíneas como British Airways y Royal Air Maroc. Sus ingresos de soluciones tecnológicas para aerolíneas crecieron un 8,7% en el primer semestre de 2026, frente al 1,1% de su negocio de distribución."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "Offer & Order sustituye la cadena tradicional de tarifa, reserva (PNR) y billete por pedidos que se pueden modificar. Un estudio de Accelya y Atmosphere Research Group concluye que menos de un tercio de las aerolíneas ha empezado a desarrollarlo. Según las encuestas de IATA de 2025, las aerolíneas más avanzadas deberían operar con pedidos entre 2026 y 2027."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "El texto también apunta a la IA: Sabre dice que sus socios activos en IA agéntica se duplicaron, de 30 a 60, en el segundo trimestre. El autor plantea, como hipótesis, que el valor se desplazará hacia quien pueda normalizar, comparar, gestionar y liquidar ofertas de distintas fuentes."
+   }
+  ],
+  "category": "CUS",
+  "imageId": "distribucion-transicion",
+  "photoSource": "Travel Distribution News",
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/c8649d02-e9da-47ff-bcc0-9c5489d00bcf.jpeg",
+  "publishedAt": "2026-10-02",
+  "refs": [
+   {
+    "date": "2026-10-02",
+    "name": "Travel Distribution News",
+    "url": "https://traveldistributionnews.com/the-travel-distribution-industry-is-entering-its-most-important-transition-since-the-rise-of-the-gds/"
+   }
+  ],
+  "source": "Travel Distribution News",
+  "summary": "El análisis sostiene que el debate GDS contra NDC se queda corto: la pugna es por controlar la oferta, el cliente, los datos y el servicio. Cita que NDC es ~5% del volumen de Sabre y que menos de un tercio de las aerolíneas ha empezado con Offer & Order.",
+  "title": "La distribución aérea vive su mayor transición desde la llegada de los GDS",
+  "url": "https://traveldistributionnews.com/the-travel-distribution-industry-is-entering-its-most-important-transition-since-the-rise-of-the-gds/",
+  "why": "Resume en qué punto está el paso de la distribución a la venta minorista (retailing) y qué actores se posicionan, entre ellos proveedores con los que trabaja British Airways.",
+  "id": "distribucion-transicion"
+ },
+ {
+  "addedAt": "2026-10-21T16:30:00Z",
+  "addedBy": "claude",
+  "aiScore": 75,
+  "art": {
+   "kind": "big",
+   "label": "precio de la compra de easyJet por Apollo",
+   "sub": "Cierre previsto: principios de 2027",
+   "value": "5.700 M£"
+  },
+  "body": [
+   {
+    "s": [
+     1
+    ],
+    "t": "La dirección de easyJet espera completar a principios de 2027 su compra por Apollo Global Management, valorada en 5.700 millones de libras. El consejero delegado, Kenton Jarvis, dio ese calendario en una entrevista con Bloomberg el 8 de octubre."
+   },
+   {
+    "s": [
+     2
+    ],
+    "t": "Apollo, firma estadounidense de capital privado, acordó la operación en agosto tras retirarse Castlelake, que había ofrecido 5.500 millones. Apollo paga 715 peniques por acción, y la compra requiere el voto de los accionistas."
+   },
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "Al tratarse de un comprador estadounidense, la operación debe estructurarse para cumplir los requisitos de propiedad y control que se aplican a easyJet en Inglaterra y Europa. Danni Hewson, analista de AJ Bell, señaló en agosto que el acuerdo tiene obstáculos importantes, entre ellos los estrictos requisitos de propiedad de aerolíneas de los reguladores europeos."
+   },
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "La aerolínea mantendrá su nombre. La familia de su fundador, Stelios Haji-Ioannou, tiene un 15,3% y apoya la operación; Stelios entrará en el consejo tras el cierre."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "Por el encarecimiento del combustible, easyJet recortará este invierno hasta 700.000 plazas, además de las unas 700.000 que ya había reducido. Jarvis advirtió de que nuevas subidas del combustible llevarían a tarifas más altas."
+   }
+  ],
+  "category": "STR",
+  "europe": true,
+  "imageId": "easyjet-apollo",
+  "photoSource": "Yorkshire Post",
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/b94dd77b-f37a-451e-9faa-af7e44854430.jpeg",
+  "publishedAt": "2026-10-12",
+  "refs": [
+   {
+    "date": "2026-10-12",
+    "name": "Travel Extra",
+    "url": "https://www.travelextra.ie/asyjet-says-apollo-takeover-on-track-for-early-2027/"
+   },
+   {
+    "date": "2026-08-07",
+    "name": "Yorkshire Post",
+    "url": "https://www.yorkshirepost.co.uk/business/easyjet-set-for-ps57bn-apollo-takeover-after-rival-bidder-castlelake-walks-away-8843987"
+   }
+  ],
+  "source": "Travel Extra",
+  "summary": "Apollo acordó la operación en agosto tras retirarse Castlelake. Como comprador estadounidense, debe estructurarla para cumplir las normas europeas de propiedad y control. La marca se mantiene y Stelios Haji-Ioannou (15,3%) entrará en el consejo.",
+  "title": "easyJet prevé cerrar la compra por Apollo (5.700 M£) a principios de 2027",
+  "url": "https://www.travelextra.ie/asyjet-says-apollo-takeover-on-track-for-early-2027/",
+  "why": "Afecta al mercado europeo: uno de los grandes grupos low-cost de Europa pasa a manos de capital privado estadounidense mientras recorta capacidad por el combustible.",
+  "id": "easyjet-apollo"
+ },
+ {
+  "addedAt": "2026-10-21T16:30:00Z",
+  "addedBy": "claude",
+  "aiScore": 55,
+  "art": {
+   "bars": [
+    {
+     "l": "Ago 2025",
+     "t": "2,30 $",
+     "v": 2.3
+    },
+    {
+     "l": "Jul 2026",
+     "t": "3,42 $",
+     "v": 3.42
+    },
+    {
+     "l": "Ago 2026",
+     "t": "3,72 $",
+     "v": 3.72
+    }
+   ],
+   "kind": "bars",
+   "title": "Aerolíneas de EE. UU. · combustible ($ por galón)"
+  },
+  "body": [
+   {
+    "s": [
+     1
+    ],
+    "t": "Las aerolíneas de EE. UU. gastaron 6.100 millones de dólares en combustible en agosto de 2026, un 4,8% más que en julio y un 60% más que en agosto de 2025, según datos de la Oficina de Estadísticas de Transporte (BTS)."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "El precio medio fue de 3,72 dólares por galón, frente a 3,42 en julio y 2,30 un año antes. El consumo bajó un 4,4% respecto a julio, hasta 1.600 millones de galones."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "El petróleo se disparó en agosto al extenderse los combates en Oriente Medio a la península arábiga, con ataques a infraestructuras petroleras de Arabia Saudí, entre ellas el oleoducto Este-Oeste, que se cerró temporalmente."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "En septiembre, varios consejeros delegados de aerolíneas estadounidenses dijeron que podrían ser necesarios recortes de capacidad si el combustible sigue caro."
+   }
+  ],
+  "category": "FIN",
+  "imageId": "eeuu-combustible-agosto",
+  "photoSource": "AirlineGeeks",
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/36b82cd3-0901-466c-9120-3122165e518a.png",
+  "publishedAt": "2026-10-05",
+  "refs": [
+   {
+    "date": "2026-10-05",
+    "name": "AirlineGeeks (datos BTS)",
+    "url": "https://airlinegeeks.com/2026/10/05/u-s-airlines-fuel-cost-climbs-to-6-1-billion/"
+   }
+  ],
+  "source": "AirlineGeeks (datos BTS)",
+  "summary": "El coste total fue de 6.100 M$, con el galón a 3,72 $ frente a 2,30 $ un año antes. El consumo bajó un 4,4% respecto a julio, hasta 1.600 millones de galones.",
+  "title": "La factura de combustible de las aerolíneas de EE. UU. sube un 60% interanual en agosto",
+  "url": "https://airlinegeeks.com/2026/10/05/u-s-airlines-fuel-cost-climbs-to-6-1-billion/",
+  "why": "Es el dato oficial de coste de combustible que está detrás de los resultados del trimestre de las aerolíneas estadounidenses.",
+  "id": "eeuu-combustible-agosto"
+ },
+ {
+  "addedAt": "2026-10-21T16:30:00Z",
+  "addedBy": "claude",
+  "aiScore": 40,
+  "art": {
+   "from": "ADD",
+   "kind": "ticket",
+   "note": "Reserva y posventa desde BookingPad y la API de AirGateway",
+   "stub": "ET",
+   "stubLabel": "Contenido NDC",
+   "title": "Ethiopian Airlines · NDC",
+   "to": "NDC"
+  },
+  "body": [
+   {
+    "s": [
+     1
+    ],
+    "t": "El contenido NDC de Ethiopian Airlines ya está disponible en AirGateway. Agencias de viajes, gestoras de viajes corporativos (TMC) y consolidadores pueden acceder a él a través de BookingPad, la API de AirGateway y herramientas de reserva de socios."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "La integración permite buscar, tarifar, reservar y gestionar las ofertas de Ethiopian dentro de la plataforma. Las reservas se pueden dejar en espera o emitir al momento, con pago en efectivo o con tarjeta."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "Los agentes pueden gestionar la selección de asiento, los servicios auxiliares, las anulaciones, los reembolsos y los cambios de reserva sin pasar a un portal separado de Ethiopian."
+   }
+  ],
+  "category": "CUS",
+  "imageId": "ethiopian-ndc",
+  "photoSource": "Travelnews",
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/6a2dd58c-b9d6-4248-8c5d-042832b63e1e.jpeg",
+  "publishedAt": "2026-10-20",
+  "refs": [
+   {
+    "date": "2026-10-20",
+    "name": "Travelnews",
+    "url": "https://www.travelnews.co.za/article/ethiopian-expands-ndc-distribution"
+   }
+  ],
+  "source": "Travelnews",
+  "summary": "Agencias, TMC y consolidadores ya pueden buscar, reservar y gestionar la oferta NDC de Ethiopian desde BookingPad o la API de AirGateway. El servicio posventa (asientos, extras, anulaciones, reembolsos y cambios) se hace sin portal aparte.",
+  "title": "Ethiopian amplía su distribución NDC a través de AirGateway",
+  "url": "https://www.travelnews.co.za/article/ethiopian-expands-ndc-distribution",
+  "why": "Es un ejemplo de distribución NDC que incluye el servicio posventa dentro del canal de la agencia.",
+  "id": "ethiopian-ndc"
+ },
+ {
+  "addedAt": "2026-10-21T16:30:00Z",
+  "addedBy": "claude",
+  "aiScore": 78,
+  "art": {
+   "bars": [
+    {
+     "l": "IA agéntica",
+     "t": "11%",
+     "v": 11
+    },
+    {
+     "l": "Programas IA",
+     "t": "37%",
+     "v": 37
+    }
+   ],
+   "kind": "bars",
+   "title": "Aerolíneas que usan IA (datos de ATPCO)"
+  },
+  "body": [
+   {
+    "s": [
+     1
+    ],
+    "t": "TNMT, firma de análisis del Lufthansa Innovation Hub, ha publicado un informe sobre cómo la IA agéntica, capaz de actuar en nombre del viajero, podría cambiar la reserva de vuelos en la década de 2030. No pretende predecir un único futuro, sino explorar cuatro escenarios."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "El punto de partida, según ATPCO: el 37% de las aerolíneas tiene programas de IA activos, pero solo el 11% ha desplegado IA agéntica. United añadió a principios de septiembre a su app la gestión agéntica de incidencias, que recoloca automáticamente a los pasajeros de vuelos cancelados, y Malaysia Airlines lanzó a principios de 2026 su asistente Mavis."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "Los cuatro escenarios son: (1) búsqueda con IA pero sin reserva agéntica, porque los viajeros no ceden la decisión final; (2) Europa pierde el acceso a los mejores modelos de IA extranjeros y sus aerolíneas tendrían que crear una capa de oferta compartida; (3) las aerolíneas quedan fuera y las agencias online y otros intermediarios se quedan con la relación con el cliente; y (4) las aerolíneas adoptan la IA agéntica y hacen su oferta completa visible y reservable dentro de los agentes."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "Los expertos consultados discrepan. Richard Edwards, de Revidio, cree que las agencias online ya tienen ventaja y que las aerolíneas podrían tardar tres o cuatro años en reconocer la amenaza. Ann Cederhall, de LeapShift, duda de que haya financiación para un esfuerzo europeo conjunto. Gaurav Roy, director de tecnología de Accelya, plantea que las aerolíneas deben decidir si quieren ser «retailers inteligentes» o simples proveedoras de inventario."
+   }
+  ],
+  "category": "CUS",
+  "europe": true,
+  "imageId": "ia-agentica-escenarios",
+  "photoSource": "PhocusWire",
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/cda67b5f-606d-4740-964b-c05dc2d8620d.jpeg",
+  "publishedAt": "2026-10-15",
+  "refs": [
+   {
+    "date": "2026-10-15",
+    "name": "PhocusWire",
+    "url": "https://www.phocuswire.com/news/technology/4-scenarios-flight-booking-age-agentic-ai"
+   }
+  ],
+  "source": "PhocusWire",
+  "summary": "Un informe del Lufthansa Innovation Hub plantea cuatro futuros, desde que las aerolíneas pierdan la relación con el cliente frente a intermediarios hasta que su oferta completa sea reservable dentro de agentes de IA. Según ATPCO, el 37% de las aerolíneas tiene programas de IA activos, pero solo el 11% ha desplegado IA agéntica.",
+  "title": "Cuatro escenarios para la reserva de vuelos en la era de la IA agéntica",
+  "url": "https://www.phocuswire.com/news/technology/4-scenarios-flight-booking-age-agentic-ai",
+  "why": "Afecta al mercado europeo: el informe sale de Lufthansa y uno de sus escenarios plantea que Europa pierda el acceso a los principales modelos de IA.",
+  "id": "ia-agentica-escenarios"
+ },
+ {
+  "addedAt": "2026-10-21T16:30:00Z",
+  "addedBy": "claude",
+  "aiScore": 87,
+  "art": {
+   "kind": "plane",
+   "label": "aviones en el objetivo de Iberia, unos 70 de largo radio",
+   "tail": "#D7192D",
+   "value": "150"
+  },
+  "body": [
+   {
+    "s": [
+     1
+    ],
+    "t": "Iberia, aerolínea del grupo IAG, prevé ampliar su flota de 120 a 150 aviones en los próximos años. Lo explicó María Jesús López Solás, directora comercial, de Desarrollo de Red y Alianzas de la compañía, en su intervención en el Foro CREO."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "De los 30 aviones adicionales, entre 18 y 19 irían al largo radio. La flota intercontinental crecería de forma progresiva hasta unos 70 aparatos, frente a los 51 contabilizados en septiembre de 2026. El plan incluye también la renovación de cabinas, la modernización de los servicios digitales y nuevas conexiones internacionales."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "El crecimiento se enmarca en el Plan de Vuelo 2030, que la aerolínea presentó en junio de 2025 con una inversión de 6.000 millones de euros."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "La ampliación de Madrid-Barajas es clave en esta estrategia. La capacidad del aeropuerto pasaría de unos 70 a 90 millones de pasajeros al año, con inversiones de Aena superiores a 4.000 millones de euros y obras en las terminales T4 y T4S. López Solás defendió que Madrid tiene una oportunidad de crecimiento excepcional entre los aeropuertos europeos, aunque advirtió de que las inversiones deben ir acompañadas de mejoras en servicios e infraestructuras."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "Latinoamérica sigue siendo el principal mercado estratégico de Iberia, con más del 50% de su capacidad. La demanda entre Europa y Latinoamérica ha crecido de media cerca de un 6% anual en la última década. En Norteamérica, la dirección estima un crecimiento de la demanda de entre el 3% y el 4% anual."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "Entre las rutas añadidas recientemente desde Madrid figuran Toronto, Monterrey y Newark, y entre otras aperturas, Orlando, Recife y Fortaleza. Según Ladevi, estas rutas se apoyan en parte en el Airbus A321XLR, un avión de pasillo único que permite conexiones transatlánticas con menos capacidad que los modelos de fuselaje ancho."
+   }
+  ],
+  "category": "FLT",
+  "europe": true,
+  "iagImpact": "directo",
+  "imageId": "iberia-150-aviones",
+  "photoSource": "Ladevi",
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/30e83319-a230-48c3-a8b5-7453d2b8fad3.jpeg",
+  "publishedAt": "2026-10-19",
+  "refs": [
+   {
+    "date": "2026-10-19",
+    "name": "Ladevi",
+    "url": "https://www.ladevi.info/transporte/companias-aereas/iberia-apunta-ampliar-su-flota-los-150-aviones-n107695"
+   }
+  ],
+  "source": "Ladevi",
+  "summary": "La flota pasaría de unos 120 a 150 aviones; entre 18 y 19 de los nuevos irían a largo radio (de 51 a unos 70). El crecimiento se apoya en la ampliación de Barajas de 70 a 90 millones de pasajeros, con más de 4.000 M€ de inversión de Aena.",
+  "title": "Iberia apunta a 150 aviones, con unos 70 de largo radio",
+  "url": "https://www.ladevi.info/transporte/companias-aereas/iberia-apunta-ampliar-su-flota-los-150-aviones-n107695",
+  "why": "Afecta directamente a IAG: Iberia refuerza el largo radio y Latinoamérica, que ya concentra más de la mitad de su capacidad, apoyándose en la ampliación de Barajas.",
+  "id": "iberia-150-aviones"
+ },
+ {
+  "addedAt": "2026-10-23T05:55:00Z",
+  "addedBy": "claude",
+  "aiScore": 62,
+  "art": {
+   "kind": "big",
+   "label": "valor máximo del cupón de El Corte Inglés canjeable con Avios",
+   "sub": "cupones desde 5 euros",
+   "value": "250 €"
+  },
+  "body": [
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "Iberia anunció el 21 de octubre de 2026 que los socios de su programa de fidelización, Iberia Club, pueden canjear sus Avios en El Corte Inglés. La iniciativa entró en vigor ese mismo día e incluye también Hipercor, Supercor, Supermercados El Corte Inglés y Sfera."
+   },
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "El canje se hace en www.avios.com, donde los socios cambian sus Avios por cupones de compra de entre 5 y 250 euros. Los cupones pueden usarse en la web, en la app y en las tiendas físicas, en categorías de El Corte Inglés, Supercor, Hipercor, Sfera y Outlet El Corte Inglés. Las tasas de conversión y las condiciones se publican en la web de Avios; la nota no las detalla."
+   },
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "«La alianza con El Corte Inglés es un hito para Iberia Club», afirmó Beatriz Guillén, directora de Clientes de Iberia, que añadió: «Hasta ahora, muchos socios solo asocian los Avios a los viajes». Por su parte, Rob McDonald, director comercial de IAG Loyalty, señaló: «Queremos que Avios forme parte del día a día de nuestros socios»."
+   },
+   {
+    "s": [
+     2
+    ],
+    "t": "Avios está gestionado por IAG Loyalty, filial de International Airlines Group (IAG). Según IAG Loyalty, cuenta con más de 70 millones de usuarios en todo el mundo y una red de más de 125 socios. Lo utilizan, entre otros, Iberia Club, British Airways Club, Aer Lingus AerClub, Vueling Club, Qatar Airways Privilege Club, Finnair Plus y Loganair Loyalty."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "Según la nota de Iberia, en la red de Avios se acumulan más de 20 millones de Avios cada hora y se canjean 16 millones cada hora."
+   }
+  ],
+  "category": "CUS",
+  "europe": true,
+  "iagImpact": "directo",
+  "imageId": "iberia-club-el-corte-ingles",
+  "photoSource": "Sivarious",
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/a14e2dca-9f1e-4cff-972b-cbf72cbe5b02.jpeg",
+  "publishedAt": "2026-10-21",
+  "refs": [
+   {
+    "date": "2026-10-21",
+    "name": "Iberia (nota de prensa)",
+    "url": "https://grupo.iberia.es/news/21102026/iberia-club-ampla-las-opciones-para-canjear-avios-con-la-incorporacin-de-el-corte-ingls"
+   },
+   {
+    "date": "2026-10-21",
+    "name": "Sivarious",
+    "url": "https://sivarious.com/operaciones/iberia-club-incorpora-el-corte-ingles-a-su-ecosistema-de-fidelizacion-20261021-1514/"
+   }
+  ],
+  "source": "Iberia (nota de prensa)",
+  "summary": "Desde el 21 de octubre, los socios de Iberia Club pueden cambiar sus Avios en www.avios.com por cupones de entre 5 y 250 euros para El Corte Inglés, Hipercor, Supercor, Sfera y otras enseñas del grupo. Los cupones sirven en la web, la app y las tiendas físicas. Avios, gestionado por IAG Loyalty, suma más de 70 millones de usuarios y más de 125 socios, según la compañía.",
+  "title": "Iberia Club permite canjear Avios en El Corte Inglés con cupones de 5 a 250 euros",
+  "url": "https://grupo.iberia.es/news/21102026/iberia-club-ampla-las-opciones-para-canjear-avios-con-la-incorporacin-de-el-corte-ingls",
+  "why": "Es un movimiento directo de IAG Loyalty para ampliar el uso cotidiano de Avios fuera del viaje con un gran socio minorista en España, lo que refuerza el negocio de fidelización del grupo y el valor percibido del programa para los socios de Iberia Club.",
+  "id": "iberia-club-el-corte-ingles"
+ },
+ {
+  "addedAt": "2026-10-21T16:30:00Z",
+  "addedBy": "claude",
+  "aiScore": 80,
+  "art": {
+   "kind": "big",
+   "label": "sube el queroseno en Europa desde principios de julio",
+   "sub": "JP Morgan: EBIT del sector −25% en 2027",
+   "value": "+75%"
+  },
+  "body": [
+   {
+    "s": [
+     1
+    ],
+    "t": "JP Morgan considera que IAG, matriz de Iberia y Vueling, es la aerolínea «mejor posicionada estructuralmente para afrontar el encarecimiento del combustible». El banco mantiene su recomendación de sobreponderar, apoyada en la resistencia de sus márgenes y en unas perspectivas de crecimiento del beneficio para 2027 que considera las mejores del sector."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "Por su parte, Citigroup elevó su precio objetivo para IAG en Londres de 600 a 610 peniques, lo que supone un potencial de más del 45% respecto al cierre de la sesión anterior."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "El contexto es el combustible. Según JP Morgan, el queroseno en Europa se ha encarecido un 75% desde principios de julio, un riesgo para los beneficios del sector en 2027. El banco prevé una caída del 25% del EBIT de las aerolíneas el próximo año, y espera revisiones de beneficio menores en las aerolíneas de bandera, que son menos sensibles al combustible y pueden trasladar costes a los precios."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "Para el invierno en Europa, JP Morgan anticipa más vuelos de corto y largo radio pese a recortes de capacidad del 1% al 2% en el último mes. Si el combustible sigue caro, espera más ajustes, sobre todo en el segmento medio-bajo del corto radio."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "El informe rebaja el precio objetivo de otros grupos: Ryanair, de 32 a 29 euros, con recomendación de sobreponderar; Air France-KLM, de 16 a 14,50 euros, también sobreponderar; y Lufthansa, de 7,50 a 7 euros, en neutral. En el caso de Ryanair, prevé un impacto «considerable» del combustible en marzo de 2028, aunque ahora tiene coberturas elevadas a precios bajos. Wizz Air y Jet2 quedan en neutral."
+   }
+  ],
+  "category": "FIN",
+  "europe": true,
+  "iagImpact": "directo",
+  "imageId": "jpm-iag-combustible",
+  "photoSource": "Estrategias de Inversión",
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/b5a91961-a8c9-4501-94e4-e5fd22710409.jpeg",
+  "publishedAt": "2026-10-15",
+  "refs": [
+   {
+    "date": "2026-10-15",
+    "name": "Capital",
+    "url": "https://capital.es/economia/mercados-e-inversion/jp-morgan-ve-a-iag-como-la-aerolinea-mejor-preparada-para-resistir-el-alza-del-combustible/226405/"
+   }
+  ],
+  "source": "Capital",
+  "summary": "El queroseno en Europa ha subido un 75% desde julio y JP Morgan prevé una caída del 25% del EBIT del sector en 2027. Mantiene sobreponderar en IAG y rebaja los precios objetivo de Ryanair (32→29 €), Air France-KLM (16→14,50 €) y Lufthansa (7,50→7 €).",
+  "title": "JP Morgan ve a IAG como la aerolínea europea mejor preparada ante el alza del queroseno",
+  "url": "https://capital.es/economia/mercados-e-inversion/jp-morgan-ve-a-iag-como-la-aerolinea-mejor-preparada-para-resistir-el-alza-del-combustible/226405/",
+  "why": "Afecta directamente a IAG: un gran banco la sitúa como el grupo mejor preparado frente al queroseno mientras rebaja los precios objetivo de sus principales rivales europeos.",
+  "id": "jpm-iag-combustible"
+ },
+ {
+  "addedAt": "2026-10-21T16:30:00Z",
+  "addedBy": "claude",
+  "aiScore": 88,
+  "art": {
+   "badge": "44,9%",
+   "kind": "route",
+   "points": [
+    {
+     "city": "Fráncfort",
+     "code": "FRA",
+     "lat": 50.03,
+     "lon": 8.57
+    },
+    {
+     "city": "Lisboa",
+     "code": "LIS",
+     "lat": 38.77,
+     "lon": -9.13,
+     "side": "left"
+    },
+    {
+     "city": "São Paulo",
+     "code": "GRU",
+     "lat": -23.43,
+     "lon": -46.47
+    }
+   ],
+   "title": "Lufthansa → TAP → Brasil"
+  },
+  "body": [
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "El Gobierno de Portugal anunció tras un Consejo de Ministros que Lufthansa ha sido elegida para comprar el 44,9% de TAP Air Portugal. Es la primera fase de la privatización de la aerolínea y todavía necesita aprobación regulatoria."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "La operación aporta 1.201 millones de euros en esta fase y valora TAP en 2.552 millones. Según el primer ministro, Luís Montenegro, la oferta de Lufthansa es un 16% superior a la de Air France-KLM y tiene menos incertidumbre. El Estado mantendrá el 50,1%, se reserva un 5% para los empleados, y Lufthansa se encargará de la gestión ejecutiva y operativa."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "El Gobierno vinculó la operación a un plan de crecimiento: una flota de 117 aviones en 2035 y 130 a partir de entonces, la transferencia a TAP de hasta ocho Airbus A350-900 desde 2030, 500 millones de euros para una escuela de pilotos en Tancos, un centro de innovación en Aveiro y un centro de servicios corporativos, y unos 3.000 empleos asociados al crecimiento de TAP."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "TAP perdió 99,2 millones de euros en el primer semestre de 2026, un 40% más que un año antes, según la prensa económica portuguesa citada por Euronews. El ministro de Finanzas, Joaquim Miranda Sarmento, situó el cierre de la privatización en 2028, en un plazo de 18 a 24 meses y tras la aprobación de la Comisión Europea."
+   },
+   {
+    "s": [
+     2
+    ],
+    "t": "Según Aviation A2Z, la inversión reforzaría el acceso de Lufthansa a Sudamérica, donde TAP tiene una red extensa y la presencia propia de Lufthansa es comparativamente limitada. TAP ya pertenece a Star Alliance, como Lufthansa, pero no participa en su joint venture transatlántica."
+   },
+   {
+    "s": [
+     3
+    ],
+    "t": "Para IAG, el mercado Europa–Latinoamérica es central: supone más del 50% de la capacidad de Iberia, según explicó la aerolínea esta misma semana."
+   }
+  ],
+  "category": "STR",
+  "europe": true,
+  "iagImpact": "indirecto",
+  "imageId": "lufthansa-tap",
+  "photoSource": "Euronews",
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/31d9e06f-7555-44c9-8ca0-97d1310f7d12.jpeg",
+  "publishedAt": "2026-10-14",
+  "refs": [
+   {
+    "date": "2026-10-14",
+    "name": "Euronews",
+    "url": "https://www.euronews.com/2026/10/14/lufthansa-beats-air-france-klm-to-12bn-stake-in-tap-air-portugal"
+   },
+   {
+    "date": "2026-10-14",
+    "name": "Aviation A2Z",
+    "url": "https://aviationa2z.com/index.php/2026/10/14/lufthansa-beats-air-france-klm-to-secure-stake-in-tap-air-portugal/"
+   },
+   {
+    "date": "2026-10-19",
+    "name": "Ladevi",
+    "url": "https://www.ladevi.info/transporte/companias-aereas/iberia-apunta-ampliar-su-flota-los-150-aviones-n107695"
+   }
+  ],
+  "source": "Aviation A2Z",
+  "summary": "El Gobierno portugués eligió a Lufthansa para comprar el 44,9% de TAP por 1.201 millones de euros, con una oferta un 16% superior a la de Air France-KLM. El Estado conservará el 50,1% y Lufthansa asumirá la gestión ejecutiva y operativa. La operación necesita aprobación regulatoria.",
+  "title": "Lufthansa se impone a Air France-KLM en la privatización de TAP con una oferta por el 44,9%",
+  "url": "https://aviationa2z.com/index.php/2026/10/14/lufthansa-beats-air-france-klm-to-secure-stake-in-tap-air-portugal/",
+  "why": "Afecta indirectamente a IAG: Lufthansa entra en TAP, que tiene una red extensa hacia Sudamérica, mientras Latinoamérica concentra más de la mitad de la capacidad de Iberia.",
+  "id": "lufthansa-tap"
+ },
+ {
+  "addedAt": "2026-10-23T05:55:00Z",
+  "addedBy": "claude",
+  "aiScore": 66,
+  "art": {
+   "badge": "3 semanales",
+   "kind": "route",
+   "points": [
+    {
+     "city": "Fráncfort",
+     "code": "FRA",
+     "lat": 50.03,
+     "lon": 8.57
+    },
+    {
+     "city": "Columbus",
+     "code": "CMH",
+     "lat": 40,
+     "lon": -82.89
+    }
+   ],
+   "title": "Fráncfort–Columbus desde mayo de 2027"
+  },
+  "body": [
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "Lufthansa Group abrió el 20 de octubre de 2026 la venta de su programa de vuelos del verano 2027, que según la nota de la compañía suma un total de diez nuevos destinos; Aviation A2Z lo describe como diez nuevas conexiones intercontinentales. El programa abarca Lufthansa, SWISS, Austrian Airlines, Brussels Airlines, Discover Airlines, Edelweiss e ITA Airways; Eurowings publicará el suyo por separado."
+   },
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "Lufthansa volará de Fráncfort a Columbus (Estados Unidos) desde el 5 de mayo de 2027, tres veces por semana con Boeing 787-9, y de Múnich a Phoenix desde el 3 de agosto de 2027, tres veces por semana con Airbus A350-900. Desde Fráncfort también operará a Tokio-Narita a diario desde el 28 de marzo de 2027 y reanudará de forma estacional Nagoya desde el 29 de marzo, con tres vuelos semanales."
+   },
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "Discover Airlines estrenará el primer vuelo sin escalas entre Fráncfort y Edmonton (Canadá) el 1 de junio de 2027, con tres frecuencias semanales. ITA Airways unirá Roma-Fiumicino y Caracas desde el 30 de marzo de 2027, tres veces por semana con Airbus A330-900. Austrian abrirá Viena–Beirut entre junio y septiembre de 2027, Brussels Airlines volará cinco veces por semana a El Cairo y SWISS conectará Zúrich y Toulouse dos veces por semana entre el 25 de junio y el 23 de agosto."
+   },
+   {
+    "s": [
+     2
+    ],
+    "t": "El grupo también aumenta frecuencias. Lufthansa sumará vuelos desde Fráncfort a Ciudad del Cabo, Río de Janeiro, Hyderabad, Chennai y Montreal, y desde Múnich a Bengaluru, Chicago, São Paulo y Singapur, además de un segundo servicio estacional Múnich–Delhi desde el 28 de marzo con A350-900. Austrian operará sus rutas a Estados Unidos (Nueva York JFK y Newark, Washington, Boston, Chicago y Los Ángeles) y a Montreal con entre cinco y siete vuelos semanales en Boeing 777."
+   },
+   {
+    "s": [
+     2
+    ],
+    "t": "«El mundo se acerca un poco más a los clientes de Lufthansa Group en el programa de vuelos del verano 2027», afirmó Stefan Kreuzpaintner, Senior Vice President Commercial Customer Offer del grupo."
+   }
+  ],
+  "category": "NET",
+  "europe": true,
+  "iagImpact": "indirecto",
+  "imageId": "lufthansa-verano-2027",
+  "photoSource": "Lufthansa Group",
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/9629d6d8-520d-4980-a68a-df621022ab74.jpeg",
+  "publishedAt": "2026-10-21",
+  "refs": [
+   {
+    "date": "2026-10-21",
+    "name": "Aviation A2Z",
+    "url": "https://aviationa2z.com/index.php/2026/10/21/lufthansa-group-massive-summer-2027-expansion-with-10-new-routes"
+   },
+   {
+    "date": "2026-10-20",
+    "name": "Lufthansa Group (nota de prensa)",
+    "url": "https://newsroom.lufthansagroup.com/en/summer-2027-lufthansa-group-airlines-announce-most-extensive-route-expansion-since-2020"
+   }
+  ],
+  "source": "Aviation A2Z",
+  "summary": "Lufthansa Group abrió el 20 de octubre la venta de su programa del verano 2027, con diez nuevos destinos según la compañía. Incluye Fráncfort–Columbus, Múnich–Phoenix, Fráncfort–Edmonton (Discover) y Roma–Caracas (ITA Airways), además de más frecuencias a Norteamérica, Asia y Sudamérica.",
+  "title": "Lufthansa Group lanza su verano 2027 con nuevas rutas a Columbus, Phoenix, Edmonton y Caracas",
+  "url": "https://aviationa2z.com/index.php/2026/10/21/lufthansa-group-massive-summer-2027-expansion-with-10-new-routes",
+  "why": "Lufthansa Group, competidor directo de IAG, amplía su oferta en el Atlántico Norte (Columbus, Phoenix, Edmonton y más frecuencias) y en Sudamérica (Caracas con ITA, más vuelos a Río y São Paulo), mercados clave para British Airways, Aer Lingus e Iberia de cara al verano 2027.",
+  "id": "lufthansa-verano-2027"
+ },
+ {
+  "addedAt": "2026-10-21T16:30:00Z",
+  "addedBy": "claude",
+  "aiScore": 68,
+  "art": {
+   "badge": "A321XLR",
+   "kind": "route",
+   "points": [
+    {
+     "city": "Toronto",
+     "code": "YYZ",
+     "lat": 43.68,
+     "lon": -79.63
+    },
+    {
+     "city": "Tenerife Sur",
+     "code": "TFS",
+     "lat": 28.04,
+     "lon": -16.57
+    }
+   ],
+   "title": "Air Canada · A321XLR"
+  },
+  "body": [
+   {
+    "s": [
+     1
+    ],
+    "t": "Air Canada empieza a volar a Tenerife Sur con el Airbus A321XLR: desde Toronto, dos veces por semana a partir del 25 de octubre, y desde Montreal, una vez por semana a partir del 31 de octubre. Según Aviation Week, serán las únicas conexiones sin escalas entre Norteamérica y Canarias."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "Entre las aerolíneas europeas, Finnair inaugura el 25 de octubre un vuelo diario Helsinki–Melbourne vía Bangkok con A350; Lufthansa vuelve a Kuala Lumpur desde Fráncfort con cinco vuelos semanales en 787-9; Swiss llega a Bengaluru con cinco vuelos semanales desde Zúrich; y British Airways regresa a Sri Lanka tras 11 años, con tres vuelos semanales Londres Gatwick–Colombo en 777 desde el 23 de octubre."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "Según datos de Sabre citados por Aviation Week, unos 452.000 pasajeros viajaron entre Reino Unido y Sri Lanka en 2025, en buena parte con escala en aeropuertos de Oriente Medio."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "Fuera de Europa, Etihad abre Calgary, el primer enlace sin escalas entre Oriente Medio y el oeste de Canadá; el aeropuerto Western Sydney International recibe su primer vuelo de pasajeros, de Jetstar, el 25 de octubre; y United recupera Chicago O'Hare–Tokio Narita. Delta mantenía previsto iniciar Atlanta–Riad el 23 de octubre, pese a informaciones de que estaba revisando la ruta."
+   }
+  ],
+  "category": "NET",
+  "europe": true,
+  "imageId": "rutas-octubre-2026",
+  "photoSource": "Aviation Week",
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/69fc6933-0b8a-4fc8-a619-5a9bb71b1bdd.jpeg",
+  "publishedAt": "2026-10-01",
+  "refs": [
+   {
+    "date": "2026-10-01",
+    "name": "Aviation Week",
+    "url": "https://aviationweek.com/air-transport/airlines-lessors/50-new-routes-launching-october-2026"
+   }
+  ],
+  "source": "Aviation Week",
+  "summary": "Air Canada vuela Toronto y Montreal–Tenerife Sur con A321XLR: serán los únicos directos entre Norteamérica y Canarias. Finnair abre Helsinki–Melbourne vía Bangkok, Etihad llega a Calgary, Lufthansa vuelve a Kuala Lumpur y British Airways regresa a Colombo tras 11 años.",
+  "title": "50 nuevas rutas en octubre: Air Canada une Norteamérica y Canarias sin escalas con el A321XLR",
+  "url": "https://aviationweek.com/air-transport/airlines-lessors/50-new-routes-launching-october-2026",
+  "why": "Incluye la vuelta de British Airways a Sri Lanka y las primeras rutas directas con A321XLR entre Norteamérica y Canarias.",
+  "id": "rutas-octubre-2026"
+ },
+ {
+  "addedAt": "2026-10-21T16:30:00Z",
+  "addedBy": "claude",
+  "aiScore": 58,
+  "art": {
+   "kind": "big",
+   "label": "rutas transfronterizas de Air Canada y United para el verano de 2027",
+   "sub": "Pendiente de aprobación de Transport Canada",
+   "value": "6"
+  },
+  "body": [
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "Air Canada y United Airlines añadirán seis rutas entre Canadá y EE. UU. en el verano de 2027, mientras buscan la aprobación regulatoria para renovar y ampliar su acuerdo de negocio conjunto, ya presentado a Transport Canada. El acuerdo empezó en 2022 y ha permitido abrir 20 rutas."
+   },
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "Air Canada volará Toronto–Louisville desde el 28 de abril, Montreal–Indianápolis a diario desde el 1 de junio y Edmonton–Newark cuatro veces por semana desde el 1 de junio, y usará A220 más grandes en Edmonton–San Francisco. United recupera Newark–St. John's, abre Denver–Ottawa y Denver–Quebec, aumenta frecuencias en Washington Dulles–Quebec y amplía un 65% la capacidad en Denver–Winnipeg."
+   },
+   {
+    "s": [
+     2
+    ],
+    "t": "Patrick Quayle, vicepresidente sénior de Planificación de Red Global y Alianzas de United, afirmó que Canadá es «una parte increíblemente importante» de la red internacional de la aerolínea."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "En Europa, Air France y Air Côte d'Ivoire lanzan un código compartido en París Charles de Gaulle–Abiyán desde el 25 de octubre, y Air Serbia anunció seis nuevos destinos desde Belgrado para el verano de 2027, entre ellos Miami. Además, Emirates eleva a 28 sus vuelos semanales a Japón con una frecuencia más a Tokio Narita, y Delta volará Boston–Reikiavik a diario entre el 12 de abril y el 30 de octubre de 2027."
+   }
+  ],
+  "category": "NET",
+  "imageId": "rutas-semana-19-oct",
+  "photoSource": "AirlineGeeks",
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/ccabfb2a-c2a6-46b1-b16b-0e49008c1817.jpeg",
+  "publishedAt": "2026-10-20",
+  "refs": [
+   {
+    "date": "2026-10-21",
+    "name": "Aviation Week",
+    "url": "https://aviationweek.com/air-transport/airports-networks/routes-networks-latest-rolling-daily-updates-wc-oct-19-2026"
+   },
+   {
+    "date": "2026-10-19",
+    "name": "AirlineGeeks",
+    "url": "https://airlinegeeks.com/?p=101699"
+   }
+  ],
+  "source": "Aviation Week",
+  "summary": "Air Canada y United añadirán seis rutas transfronterizas en el verano de 2027 mientras buscan la aprobación regulatoria para renovar y ampliar su acuerdo de negocio conjunto. Además, Emirates sube a 28 vuelos semanales a Japón, Air France firma un código compartido con Air Côte d'Ivoire en París–Abiyán y Delta abrirá Boston–Reikiavik en abril.",
+  "title": "Air Canada y United preparan seis rutas transfronterizas para el verano de 2027",
+  "url": "https://aviationweek.com/air-transport/airports-networks/routes-networks-latest-rolling-daily-updates-wc-oct-19-2026",
+  "why": "El acuerdo de negocio conjunto de Air Canada y United ha permitido abrir 20 rutas desde 2022 y ahora busca ampliarse, pendiente de aprobación regulatoria.",
+  "id": "rutas-semana-19-oct"
+ },
+ {
+  "addedAt": "2026-10-21T16:30:00Z",
+  "addedBy": "claude",
+  "aiScore": 92,
+  "art": {
+   "kind": "big",
+   "label": "subida de tarifas prevista en Europa para 2027, según Ryanair",
+   "sub": "85% del combustible de 2027 sin cubrir",
+   "value": "+20%"
+  },
+  "body": [
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "El consejero delegado de Ryanair, Michael O'Leary, pronosticó en una rueda de prensa en Bruselas que los billetes de avión en Europa podrían subir hasta un 20% el próximo año. La guerra en Oriente Medio sigue encareciendo el petróleo y, según O'Leary, las aerolíneas trasladarán ese coste a los viajeros. «Vais a ver la mayor subida de tarifas aéreas, diría que de la historia, en Europa en los próximos 12 meses», afirmó."
+   },
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "O'Leary cree que la subida no bastará para cubrir la factura del combustible y que los márgenes se estrecharán: «La cuestión es si ese aumento de las tarifas será suficiente para cubrir unas facturas de petróleo drásticamente más altas. No creo que lo sea»."
+   },
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "Ryanair tiene el 85% de su combustible del próximo año sin cubrir y, según O'Leary, la mayoría de aerolíneas europeas está en una situación parecida. También señaló que hay menos capacidad en el mercado porque algunas aerolíneas tienen dificultades, y que la subida de impuestos empeora el panorama."
+   },
+   {
+    "s": [
+     2
+    ],
+    "t": "Las acciones de Ryanair llegaron a caer un 2,2% en Dublín y acumulan un descenso de alrededor del 25% en el año, camino de su peor resultado anual desde 2018."
+   },
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "O'Leary criticó la regulación en Francia y Bélgica, donde Ryanair reducirá su presencia por la subida de impuestos, y reiteró que el sector seguirá concentrándose. Air Baltic y Volotea están en procesos de reestructuración, Lufthansa ha ganado a Air France-KLM la entrada en TAP y Apollo prepara la compra de easyJet."
+   },
+   {
+    "s": [
+     1,
+     2
+    ],
+    "t": "Por otra parte, O'Leary espera recibir el primer Boeing 737 MAX 10 en enero y unos 16 más hasta abril."
+   }
+  ],
+  "category": "STR",
+  "europe": true,
+  "imageId": "ryanair-tarifas-2027",
+  "photoSource": "The National",
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/610c4e4a-878d-4af4-9205-1750d8c91a05.jpeg",
+  "publishedAt": "2026-10-20",
+  "refs": [
+   {
+    "date": "2026-10-20",
+    "name": "The National (Bloomberg)",
+    "url": "https://www.thenationalnews.com/business/aviation/2026/10/20/europe-to-see-biggest-ever-increase-in-air-fares-next-year-ryanair-chief-says/"
+   },
+   {
+    "date": "2026-10-20",
+    "name": "The Irish Times (Bloomberg)",
+    "url": "https://irishtimes.com/business/2026/10/20/ryanair-chief-michael-oleary-predicts-20-increase-in-air-fares-next-year"
+   }
+  ],
+  "source": "The National (Bloomberg)",
+  "summary": "Michael O'Leary atribuye la subida al petróleo por el conflicto en Oriente Medio. Ryanair tiene el 85% del combustible del próximo año sin cubrir y cree que la subida de tarifas no bastará para cubrir la factura. Reducirá su presencia en Francia y Bélgica por los impuestos y espera su primer 737 MAX 10 en enero.",
+  "title": "Ryanair anticipa la mayor subida de tarifas de la historia en Europa: hasta un 20% en 2027",
+  "url": "https://www.thenationalnews.com/business/aviation/2026/10/20/europe-to-see-biggest-ever-increase-in-air-fares-next-year-ryanair-chief-says/",
+  "why": "Afecta al mercado europeo: el mayor grupo low-cost de Europa anticipa tarifas más altas y márgenes más estrechos, y espera que el sector siga concentrándose.",
+  "id": "ryanair-tarifas-2027"
+ },
+ {
+  "addedAt": "2026-10-21T16:30:00Z",
+  "addedBy": "claude",
+  "aiScore": 90,
+  "art": {
+   "bars": [
+    {
+     "l": "3T 2025",
+     "t": "2,43 $",
+     "v": 2.43
+    },
+    {
+     "l": "3T 2026",
+     "t": "3,90 $",
+     "v": 3.9
+    },
+    {
+     "l": "4T 2026 (guía)",
+     "t": "≈4,80 $",
+     "v": 4.8
+    }
+   ],
+   "kind": "bars",
+   "title": "United · precio medio del combustible ($ por galón)"
+  },
+  "body": [
+   {
+    "s": [
+     1
+    ],
+    "t": "United Airlines ingresó 17.880 millones de dólares en el tercer trimestre de 2026, un 17,4% más que un año antes. Sin embargo, su beneficio por acción ajustado bajó un 8,6%, hasta 2,54 dólares, por debajo del consenso de Zacks (2,60). Los ingresos también quedaron ligeramente por debajo de lo esperado (17.910 millones)."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "Los ingresos por pasajero crecieron un 17,6%, hasta 16.240 millones: un 19,9% en el mercado doméstico y un 14,3% en el internacional. Por regiones, Latinoamérica subió un 24,2%, el Pacífico un 16,5% y el Atlántico un 10,1%; dentro del Atlántico, Europa creció un 13,3%. Los ingresos premium y los de fidelización subieron un 17% cada uno, y United transportó un récord de 49,5 millones de pasajeros."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "El combustible explica la caída del beneficio. El gasto subió un 61,6%, hasta 4.840 millones de dólares, con un precio medio de 3,90 dólares por galón (un 60,3% más). Los gastos operativos totales crecieron un 18,8%, más que los ingresos, y el beneficio operativo ajustado bajó un 6,9%, hasta 1.230 millones, con un margen del 6,9%."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "Para el cuarto trimestre, United prevé un beneficio por acción ajustado de entre 0,50 y 1,50 dólares, por debajo del consenso de 1,75, con un precio medio del combustible de unos 4,80 dólares por galón. La compañía espera que sus ingresos crezcan más de un 20% interanual."
+   },
+   {
+    "s": [
+     1
+    ],
+    "t": "La liquidez disponible era de 17.700 millones de dólares y el flujo de caja libre del trimestre fue negativo, de 1.840 millones."
+   }
+  ],
+  "category": "FIN",
+  "imageId": "united-3t-2026",
+  "photoSource": "Zacks / Yahoo Finance",
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/54421634-b634-402d-bd6d-8e2504750b26.jpeg",
+  "publishedAt": "2026-10-21",
+  "refs": [
+   {
+    "date": "2026-10-21",
+    "name": "Zacks vía Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/ual-q3-earnings-miss-surging-121000795.html"
+   }
+  ],
+  "source": "Zacks vía Yahoo Finance",
+  "summary": "Ingresos de 17.880 M$ (+17,4%), pero BPA ajustado de 2,54 $ (−8,6%), por debajo del consenso. El gasto en combustible sube un 61,6% hasta 4.840 M$, con el galón a 3,90 $. Para el 4T guía un BPA de 0,50–1,50 $ asumiendo combustible a unos 4,80 $/galón.",
+  "title": "United: ingresos récord en el 3T, pero el combustible recorta el beneficio y la guía del 4T",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/ual-q3-earnings-miss-surging-121000795.html",
+  "why": "Muestra el patrón del trimestre en una de las grandes aerolíneas de EE. UU.: ingresos al alza, sobre todo internacionales y premium, y beneficio recortado por el combustible.",
+  "id": "united-3t-2026"
+ }
+]

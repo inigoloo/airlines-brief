@@ -1,0 +1,10 @@
+{
+ "audience": "Klaviyo · Lista de email (X9KnVA)",
+ "cadenceDays": 14,
+ "maxItems": 6,
+ "minItems": 4,
+ "nextSend": "2026-11-02",
+ "portalUrl": "",
+ "sendTime": "10:00",
+ "threshold": 3
+}
