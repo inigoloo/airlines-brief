@@ -129,7 +129,7 @@ def main():
 <tr><td style="padding:26px 32px 14px 32px;text-align:center;border-bottom:3px double #111A27;">
   <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#5A6576;">Airlines Practice</p>
   <h1 style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:38px;line-height:42px;color:#111A27;font-weight:bold;">The Airlines Brief</h1>
-  <p style="margin:6px 0 0 0;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:14px;color:#5A6576;">Las señales del sector aéreo que importan, elegidas por el equipo</p>
+  <p style="margin:6px 0 0 0;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:14px;color:#5A6576;">Actualidad, tendencias y análisis estratégico para entender qué mueve la industria aérea</p>
 </td></tr>
 <tr><td style="background:#101B2C;padding:10px 32px;font-family:'Courier New',Courier,monospace;font-size:13px;color:#F2B544;">EDICIÓN Nº {issue:02d} · {fmt(date)}</td></tr>
 <tr><td style="padding:22px 32px 0 32px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:23px;color:#333D4B;">{e(intro)}</td></tr>
