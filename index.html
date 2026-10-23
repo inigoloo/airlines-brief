@@ -281,17 +281,6 @@ footer.foot{border-top:3px double var(--rule);padding-block:14px 30px;font-size:
     <button class="tool" data-view="historial">Historial</button>
   </div>
 </nav>
-<div class="board" aria-label="Estado de la próxima edición">
-  <div class="wrap">
-    <div class="flap"><div class="k">Próxima edición</div><div class="v" id="f-issue">—</div></div>
-    <div class="flap"><div class="k">Salida</div><div class="v" id="f-date">—</div></div>
-    <div class="flap"><div class="k">Por votos</div><div class="v" id="f-votes">—</div></div>
-    <div class="flap"><div class="k">Umbral</div><div class="v" id="f-thr">—</div></div>
-    <div class="flap"><div class="k">En portal</div><div class="v" id="f-count">—</div></div>
-    <div class="flap cta"><button type="button" data-view="edicion">Ver la edición</button></div>
-  </div>
-</div>
-
 <main>
   <div class="wrap">
     <div id="access" class="notice" hidden></div>
@@ -678,13 +667,7 @@ async function queueWrite(){
 
 /* ---------- Board ---------- */
 function renderBoard(){
-  const s = selection();
   const issue = String(state.editions.length + 1).padStart(2,"0");
-  $("#f-issue").textContent = "Nº " + issue;
-  $("#f-date").textContent = state.cfg.nextSend ? fmtDate(state.cfg.nextSend) : "—";
-  $("#f-votes").textContent = `${s.byVotes}/${state.cfg.minItems||4}`;
-  $("#f-thr").textContent = `≥ ${state.cfg.threshold||3} likes`;
-  $("#f-count").textContent = state.news.filter(isValid).length + " noticias";
   $("#edline").textContent = `Quincenal · Próxima edición Nº ${issue}`;
 }
 
@@ -693,12 +676,12 @@ function emailHTML(items){
   const issue = String(state.editions.length + 1).padStart(2,"0");
   const date = state.cfg.nextSend ? fmtDate(state.cfg.nextSend) : "";
   const portal = state.cfg.portalUrl || "";
-  const badge = (origin, net) => origin === "votes" ? `<span style="display:inline-block;padding:2px 8px;border-radius:3px;background:#E3F3EA;color:#1B7A4B;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">&#9829; ${net} ${net===1?"voto":"votos"}</span>` : `<span style="display:inline-block;padding:2px 8px;border-radius:3px;background:#ECE8FA;color:#6B4FC8;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">&#9670; Elegida por IA</span>`;
+  const badge = (origin, net) => origin === "votes" ? `<span style="display:inline-block;padding:2px 8px;border-radius:3px;background:#E3F3EA;color:#1B7A4B;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">&#9829; ${net} ${net===1?"voto":"votos"}</span>` : "";
   const link = n => portal ? `${portal}#noticia-${n.id}` : n.url;
   const rows = items.map(({n, origin, net}, i) => `
 <tr><td style="padding:22px 32px 0 32px;">
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top:1px solid #D8DEE6;padding-top:18px;">
-    <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#1F4BC6;font-weight:bold;">${String(i+1).padStart(2,"0")} · ${esc(CATS[n.category]||n.category)}&nbsp;&nbsp;${badge(origin, net)}</p>
+    <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#1F4BC6;font-weight:bold;">${String(i+1).padStart(2,"0")} · ${esc(CATS[n.category]||n.category)}${origin === "votes" ? "&nbsp;&nbsp;" + badge(origin, net) : ""}</p>
     <h2 style="margin:0 0 8px 0;font-family:Georgia,'Times New Roman',serif;font-size:21px;line-height:27px;color:#0F1A2A;font-weight:bold;"><a href="${esc(link(n))}" style="color:#0F1A2A;text-decoration:none;">${esc(n.title)}</a></h2>
     <p style="margin:0 0 10px 0;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:23px;color:#333D4B;">${esc(n.summary)}</p>
     ${n.why ? `<p style="margin:0 0 10px 0;padding-left:12px;border-left:3px solid #F2B544;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;color:#0F1A2A;"><b>Por qué importa:</b> ${esc(n.why)}</p>` : ""}

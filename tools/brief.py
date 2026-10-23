@@ -106,13 +106,13 @@ def main():
         if n["origin"] == "votes":
             badge = f'<span style="display:inline-block;padding:2px 8px;border-radius:3px;background:#E3F3EA;color:#1B7A4B;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">&#9829; {n["likes"]} {"voto" if n["likes"] == 1 else "votos"}</span>'
         else:
-            badge = '<span style="display:inline-block;padding:2px 8px;border-radius:3px;background:#ECE8FA;color:#6B4FC8;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">&#9670; Elegida por IA</span>'
+            badge = ""
         why =f'<p style="margin:0 0 10px 0;padding-left:12px;border-left:3px solid #F2B544;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;color:#0F1A2A;"><b>Por qué importa:</b> {e(n.get("why"))}</p>' if n.get("why") else ""
         photo = f'<a href="{e(link(n))}" style="text-decoration:none;"><img src="{e(n["photoUrl"])}" width="536" alt="{e(n["title"])}" style="display:block;width:100%;max-width:536px;height:auto;border:0;margin:0 0 14px 0;"></a>' if str(n.get("photoUrl","")).startswith("https://") else ""
         rows.append(f'''<tr><td style="padding:22px 32px 0 32px;">
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top:1px solid #D8DEE6;padding-top:18px;">
     {photo}
-    <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#1F4BC6;font-weight:bold;">{i+1:02d} · {e(CATS.get(n.get("category"), n.get("category")))}&nbsp;&nbsp;{badge}</p>
+    <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#1F4BC6;font-weight:bold;">{i+1:02d} · {e(CATS.get(n.get("category"), n.get("category")))}{"&nbsp;&nbsp;" + badge if badge else ""}</p>
     <h2 style="margin:0 0 8px 0;font-family:Georgia,'Times New Roman',serif;font-size:21px;line-height:27px;color:#0F1A2A;font-weight:bold;"><a href="{e(link(n))}" style="color:#0F1A2A;text-decoration:none;">{e(n["title"])}</a></h2>
     <p style="margin:0 0 10px 0;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:23px;color:#333D4B;">{e(n.get("summary"))}</p>
     {why}
@@ -138,7 +138,7 @@ def main():
 <tr><td style="padding:28px 32px 26px 32px;font-family:Arial,Helvetica,sans-serif;font-size:11px;line-height:17px;color:#8E9BB0;">Pulsa en cualquier noticia para leer el artículo completo en el portal, con sus fuentes, y votarla.<br>{{% unsubscribe 'Darse de baja' %}}</td></tr>
 </table></td></tr></table></body></html>'''
     text = f"THE AIRLINES BRIEF · Nº {issue:02d} · {fmt(date)}\n\n" + "\n\n".join(
-        f"{i+1:02d}. [{(str(n['likes']) + (' voto' if n['likes'] == 1 else ' votos')) if n['origin'] == 'votes' else 'Elegida por IA'}] {n['title']}\n{n.get('summary','')}\nPor qué importa: {n.get('why','')}\n{n['source']} · " + (f"{portal}#noticia-{n['id']}" if portal else n['url']) for i, n in enumerate(items)) + \
+        f"{i+1:02d}. {('[' + str(n['likes']) + (' voto' if n['likes'] == 1 else ' votos') + '] ') if n['origin'] == 'votes' else ''}{n['title']}\n{n.get('summary','')}\nPor qué importa: {n.get('why','')}\n{n['source']} · " + (f"{portal}#noticia-{n['id']}" if portal else n['url']) for i, n in enumerate(items)) + \
         (f"\n\nVota las noticias de la próxima edición: {portal}" if portal else "") + "\n\n{% unsubscribe 'Darse de baja' %}"
     lead = items[0]["title"] if items else ""
     short = lead.split(":")[0].split(",")[0]
