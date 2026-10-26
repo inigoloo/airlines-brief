@@ -1364,5 +1364,239 @@
   "url": "https://finance.yahoo.com/markets/stocks/articles/ual-q3-earnings-miss-surging-121000795.html",
   "why": "Muestra el patrón del trimestre en una de las grandes aerolíneas de EE. UU.: ingresos al alza, sobre todo internacionales y premium, y beneficio recortado por el combustible.",
   "id": "united-3t-2026"
+ },
+ {
+  "id": "ba-iberia-tel-aviv",
+  "title": "British Airways e Iberia vuelven a Tel Aviv: BA retoma la ruta desde Heathrow con un solo vuelo diario",
+  "category": "NET",
+  "publishedAt": "2026-10-26",
+  "source": "Head for Points",
+  "url": "https://www.headforpoints.com/2026/10/26/british-airways-resumes-tel-aviv-flights/",
+  "summary": "British Airways reanudó el 25 de octubre sus vuelos Londres Heathrow–Tel Aviv tras una pausa de ocho meses, con un vuelo diario en Airbus A321neo frente a los dos que operaba antes de la suspensión. Iberia también ha reanudado sus vuelos diarios entre Madrid y Tel Aviv.",
+  "body": [
+   {
+    "t": "British Airways reanudó el 25 de octubre de 2026 sus vuelos a Tel Aviv tras una pausa de ocho meses, según Head for Points. La vuelta coincide con el primer día de la temporada de invierno. Iberia, aerolínea hermana dentro de IAG, también ha reanudado sus vuelos diarios entre Madrid y Tel Aviv.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "British Airways opera un vuelo diario entre Londres Heathrow y el aeropuerto Ben Gurion con un Airbus A321neo, un servicio reducido frente a los dos vuelos diarios que ofrecía antes de la suspensión. El vuelo sale de Heathrow a las 20:30 y llega a Tel Aviv a las 3:25; el regreso parte a las 6:10 y aterriza en Heathrow a las 9:55.",
+    "s": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Según The Times of Israel, British Airways había aplazado varias veces la reanudación de la ruta desde marzo, tras el estallido de la guerra de Estados Unidos e Israel con Irán, y figura entre las últimas aerolíneas en volver. El mismo diario señalaba que Delta y United habían regresado un mes antes y que American Airlines mantiene suspendida su ruta a Nueva York hasta el 27 de marzo de 2027.",
+    "s": [
+     3
+    ]
+   },
+   {
+    "t": "La competencia también amplía su oferta. Según AeroHaber, que cita a Calcalist, United, que reanudó la ruta Tel Aviv–Newark el 9 de septiembre con dos vuelos diarios, añade desde el 26 de octubre cuatro vuelos semanales a Chicago y desde el 28 de octubre tres semanales a Washington, y prevé volver a San Francisco el 30 de marzo de 2027.",
+    "s": [
+     2
+    ]
+   },
+   {
+    "t": "Etihad, por su parte, sustituirá desde el 9 de noviembre el Airbus A321 (188 asientos) por un Boeing 787 (316 asientos) en su salida diaria de las 14:00 desde Tel Aviv a Abu Dabi. Su capacidad diaria desde Israel pasará de 1.128 a 1.256 asientos, con seis vuelos diarios, y es la única aerolínea que opera actualmente entre Israel y Emiratos Árabes Unidos, según la misma fuente.",
+    "s": [
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Head for Points",
+    "url": "https://www.headforpoints.com/2026/10/26/british-airways-resumes-tel-aviv-flights/",
+    "date": "2026-10-26"
+   },
+   {
+    "name": "AeroHaber (vía Calcalist)",
+    "url": "https://aerohaber.com/united-and-etihad-expand-israel-flights-as-british-airways-and-iberia-return/",
+    "date": "2026-10-26"
+   },
+   {
+    "name": "The Times of Israel",
+    "url": "https://www.timesofisrael.com/british-airways-planning-to-resume-flights-to-tel-aviv-on-october-25/",
+    "date": "2026-10-08"
+   }
+  ],
+  "why": "Dos aerolíneas de IAG recuperan una ruta suspendida desde marzo por la guerra con Irán, aunque British Airways vuelve con la mitad de frecuencias que antes; mientras, United y Etihad ya están ampliando capacidad en el mercado israelí.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 55,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/3b7aaccc-dd46-447a-91de-b3d58f5ae588.jpeg",
+  "imageId": "ba-iberia-tel-aviv",
+  "photoSource": "AeroHaber",
+  "art": {
+   "kind": "route",
+   "title": "BA e Iberia vuelven a Tel Aviv",
+   "badge": "1 vuelo diario",
+   "points": [
+    {
+     "code": "LHR",
+     "city": "Londres",
+     "lat": 51.47,
+     "lon": -0.45
+    },
+    {
+     "code": "MAD",
+     "city": "Madrid",
+     "lat": 40.47,
+     "lon": -3.56
+    },
+    {
+     "code": "TLV",
+     "city": "Tel Aviv",
+     "lat": 32.01,
+     "lon": 34.89
+    }
+   ]
+  },
+  "addedAt": "2026-10-26T09:02:48Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "ba-eeuu-verano-2027",
+  "title": "British Airways crecerá en EE. UU. en 2027 con más frecuencias y sin nuevas ciudades, mientras sus rivales abren rutas",
+  "category": "NET",
+  "publishedAt": "2026-10-24",
+  "source": "The Points Guy",
+  "url": "https://thepointsguy.com/news/british-airways-new-us-routes-2027-outlook",
+  "summary": "British Airways añadirá en el verano de 2027 frecuencias desde Heathrow a San Francisco, Las Vegas, St. Louis y Cincinnati, en lugar de abrir nuevos destinos en EE. UU. La aerolínea, que vuela a 27 ciudades estadounidenses, asegura que aún ve oportunidades en mercados secundarios.",
+  "body": [
+   {
+    "t": "British Airways ampliará en el verano de 2027 sus frecuencias desde Londres Heathrow a cuatro destinos de Estados Unidos, en lugar de abrir nuevas ciudades, según publicó The Points Guy el 24 de octubre. Mientras tanto, competidores como Air France, Icelandair y Lufthansa añaden nuevas rutas al país.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "San Francisco pasará de dos a tres vuelos diarios; Las Vegas, de 13 vuelos semanales a dos diarios; St. Louis, de cuatro vuelos semanales a servicio diario, y Cincinnati pasará también a servicio diario. AirlineGeeks precisa que en Cincinnati, ruta lanzada en junio de 2023 y operada con Boeing 787, habrá seis vuelos semanales desde el 28 de marzo de 2027 y servicio diario entre el 22 de abril y el 24 de junio y entre el 9 de septiembre y el 28 de octubre de 2027.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "British Airways vuela a 27 destinos de Estados Unidos, la cifra más alta de una aerolínea europea. «Creemos que todavía hay algunas oportunidades en algunos mercados secundarios», afirmó Chernoff, de British Airways, que declinó citar destinos concretos y señaló que el tamaño de la población es un factor importante. «No queremos perder frente a Icelandair ni frente a nadie», añadió.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Según Chernoff, la aerolínea prefiere abrir nuevas ciudades, sobre todo secundarias, con su avión de largo radio más pequeño, el Boeing 787-8, y puede redistribuir esos aviones a nuevos destinos a medida que otros mercados maduran y pasan a aviones mayores como el 787-9 o el 777. British Airways tiene 12 Boeing 787-8 y ningún pedido pendiente de ese modelo; cada uno lleva 31 suites de business, 37 asientos de premium economy y 136 de turista.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El crecimiento de British Airways debe equilibrarse con el de otras aerolíneas de IAG. The Points Guy recuerda que Aer Lingus reducirá su tamaño y dejará de volar a Las Vegas, Denver y Minneapolis-St. Paul para recortar costes, y que Iberia no ha anunciado nuevos destinos en Estados Unidos para 2027. Los socios de British Airways en su empresa conjunta transatlántica son American, Iberia y Finnair.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "The Points Guy",
+    "url": "https://thepointsguy.com/news/british-airways-new-us-routes-2027-outlook",
+    "date": "2026-10-24"
+   },
+   {
+    "name": "AirlineGeeks",
+    "url": "https://airlinegeeks.com/2026/09/22/british-airways-to-expand-u-s-route-in-2027/",
+    "date": "2026-09-22"
+   }
+  ],
+  "why": "Muestra cómo IAG reparte su crecimiento en el Atlántico Norte: British Airways densifica Heathrow mientras Aer Lingus recorta rutas e Iberia no abre destinos en EE. UU. para 2027, frente a rivales europeos que sí añaden nuevas ciudades.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 62,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/b97d4f37-6acf-477e-824a-63ac49a774b0.jpeg",
+  "imageId": "ba-eeuu-verano-2027",
+  "photoSource": "The Points Guy",
+  "art": {
+   "kind": "big",
+   "value": "27",
+   "label": "destinos de EE. UU. de British Airways",
+   "sub": "la cifra más alta de una aerolínea europea"
+  },
+  "addedAt": "2026-10-26T09:02:48Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "faa-737ng-estabilizador",
+  "title": "La FAA ordena revisar el estabilizador de 1.987 Boeing 737NG por riesgo de pérdida de control",
+  "category": "FLT",
+  "publishedAt": "2026-10-25",
+  "source": "Aviation A2Z",
+  "url": "https://aviationa2z.com/index.php/2026/10/25/faa-orders-tail-inspections-for-1987-boeing-737s/",
+  "summary": "La FAA obliga a inspeccionar el estabilizador horizontal de 1.987 Boeing 737NG matriculados en EE. UU. tras varios casos de oscilaciones en cabeceo por holgura excesiva. La directiva entra en vigor el 23 de noviembre y excluye al 737 MAX.",
+  "body": [
+   {
+    "t": "La Administración Federal de Aviación de Estados Unidos (FAA) ha ordenado inspeccionar el estabilizador horizontal de 1.987 Boeing 737NG matriculados en el país por un riesgo potencial de pérdida de control. La directiva de aeronavegabilidad AD 2026-20-14 se publicó en el Federal Register el 19 de octubre de 2026 y entra en vigor el 23 de noviembre.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La orden afecta a los modelos 737-600, -700, -700C, -800, -900 y -900ER; la familia 737 MAX queda excluida. Los operadores deben medir la holgura (freeplay) del estabilizador en las bisagras de pivote izquierda y derecha y en el husillo, siguiendo el boletín de Boeing 737-55A1104 RB de 12 de junio de 2025, y, según los resultados, repetir las mediciones o reparar o sustituir las piezas desgastadas.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Varios operadores informaron de oscilaciones en cabeceo causadas por una holgura excesiva del estabilizador, aunque la FAA no ha detallado cuántos incidentes hubo, cuándo ni qué aerolíneas los sufrieron. «Si no se corrige, la condición insegura podría provocar un evento de flameo, que puede causar la pérdida de control del avión», señala la FAA en la directiva.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La FAA rechazó las peticiones de United Airlines, Alaska Airlines y Canadian North para flexibilizar los requisitos; Canadian North pedía ampliar el plazo de la inspección inicial de 12 a 36 meses. La agencia estima seis horas de trabajo por avión para medir la holgura, 510 dólares por aparato y 1.013.370 dólares para toda la flota estadounidense, sin cifrar el coste de las piezas.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La directiva solo cubre aviones matriculados en Estados Unidos y las autoridades de otros países decidirán si exigen las mismas revisiones. Según datos de ch-aviation citados por Aviation A2Z, hay más de 5.160 737NG activos en el mundo, y Ryanair es el segundo mayor operador, con más de 400, por detrás de Southwest.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Aviation A2Z",
+    "url": "https://aviationa2z.com/index.php/2026/10/25/faa-orders-tail-inspections-for-1987-boeing-737s/",
+    "date": "2026-10-25"
+   },
+   {
+    "name": "AeroTime",
+    "url": "https://www.aerotime.aero/articles/faa-boeing-737ng-stabilizer-inspections",
+    "date": "2026-10-23"
+   }
+  ],
+  "why": "Aunque solo obliga a aviones registrados en EE. UU., el 737NG sigue siendo clave en Europa (Ryanair opera más de 400): si otras autoridades adoptan la misma medida, los operadores europeos tendrían que incorporar estas revisiones a su mantenimiento.",
+  "aiScore": 60,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/0f68fa92-53b5-44ef-8ebd-e15d813ce873.jpeg",
+  "imageId": "faa-737ng-estabilizador",
+  "photoSource": "AeroTime",
+  "art": {
+   "kind": "big",
+   "value": "1.987",
+   "label": "Boeing 737NG a inspeccionar en EE. UU.",
+   "sub": "directiva en vigor el 23 de noviembre"
+  },
+  "addedAt": "2026-10-26T09:02:48Z",
+  "addedBy": "claude"
  }
 ]
