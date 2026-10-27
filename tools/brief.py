@@ -51,7 +51,9 @@ def add_days(iso, k):
 def e(s): return html.escape(str(s or ""), quote=True)
 
 def tier(n):
-    """Editorial priority tier: IAG direct > IAG indirect > Europe > rest."""
+    """Editorial priority tier: IAG direct > IAG indirect > Europe > rest.
+    Only news of real industry/economic weight (aiScore >= 60) get a tier; minor news rank by importance alone."""
+    if (n.get("aiScore") or 0) < 60: return 0
     i = n.get("iagImpact")
     return 3 if i == "directo" else 2 if i == "indirecto" else 1 if n.get("europe") else 0
 

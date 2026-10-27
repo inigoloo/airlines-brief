@@ -765,7 +765,7 @@
  {
   "addedAt": "2026-10-23T05:55:00Z",
   "addedBy": "claude",
-  "aiScore": 62,
+  "aiScore": 40,
   "art": {
    "kind": "big",
    "label": "valor máximo del cupón de El Corte Inglés canjeable con Avios",
@@ -1749,7 +1749,7 @@
   "why": "Con easyJet, el wifi por satélite deja de ser un diferencial de las aerolíneas de red y llega al corto radio low cost europeo, donde compite con British Airways y Vueling; la conectividad pasa a ser un requisito básico de la experiencia de cliente y una palanca de retailing a bordo.",
   "iagImpact": "indirecto",
   "europe": true,
-  "aiScore": 62,
+  "aiScore": 45,
   "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/c3d95487-4a46-410d-851b-476b55cb06bd.jpeg",
   "imageId": "easyjet-starlink",
   "photoSource": "AirlineGeeks",

@@ -437,7 +437,9 @@ function tally(){
   return t;
 }
 /* Editorial priority: IAG direct > IAG indirect > Europe > rest; aiScore orders within a tier */
-function tier(n){ return n.iagImpact === "directo" ? 3 : n.iagImpact === "indirecto" ? 2 : n.europe ? 1 : 0; }
+// Priority tiers (IAG direct > IAG indirect > Europe) only lift news of real industry/economic weight (aiScore >= 60);
+// minor news (consumer promos, onboard products, anniversaries) rank by importance alone.
+function tier(n){ if((n.aiScore||0) < 60) return 0; return n.iagImpact === "directo" ? 3 : n.iagImpact === "indirecto" ? 2 : n.europe ? 1 : 0; }
 function prio(n){ return tier(n)*101 + (n.aiScore||0); }
 function sentIds(){ const s = new Set(); state.editions.forEach(e => (e.newsIds||[]).forEach(id => s.add(id))); return s; }
 function windowStart(){
