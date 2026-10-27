@@ -1598,5 +1598,254 @@
   },
   "addedAt": "2026-10-26T09:02:48Z",
   "addedBy": "claude"
+ },
+ {
+  "id": "iberia-orlando-aniversario",
+  "title": "Iberia cumple un año en Madrid–Orlando con más de 100.000 asientos en 2026 y hasta cuatro vuelos semanales",
+  "category": "NET",
+  "publishedAt": "2026-10-26",
+  "source": "Iberia",
+  "url": "https://grupo.iberia.es/news/26102026/iberia-conmemora-el-primer-ao-de-operacin-de-su-ruta-con-orlando",
+  "summary": "Iberia celebra el primer aniversario de su ruta directa Madrid–Orlando, que este año ofrece más de 100.000 asientos y hasta cuatro frecuencias semanales con Airbus A330 de 292 plazas. Junto a Toronto y Newark, la aerolínea suma este año casi 1,9 millones de asientos hacia Estados Unidos y Canadá.",
+  "body": [
+   {
+    "t": "Iberia ha conmemorado el 26 de octubre de 2026 el primer año de operación de su ruta directa entre Madrid y Orlando (Florida), que empezó a volar el 26 de octubre de 2025. Según la compañía, es la única aerolínea que conecta ambas ciudades sin escalas.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Este año la ruta ofrece una capacidad de más de 100.000 asientos y hasta cuatro frecuencias semanales. Se opera con aviones Airbus A330 de 292 plazas, con tres cabinas: Business, Turista Premium y Turista.",
+    "s": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "«Esta es una ruta que nos hizo mucha ilusión iniciar hace tan solo un año», afirmó Víctor Moneo, director Global de Ventas de Iberia, que añadió: «Hoy en día somos la única aerolínea que opera de manera directa entre Madrid y Orlando». Según Europa Press, Moneo valoró la apertura de la ruta como un acierto.",
+    "s": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "La ruta forma parte del Plan de Vuelo 2030, la hoja de ruta corporativa de Iberia, con el que la aerolínea ha reforzado su presencia en Norteamérica. Iberia ha empezado a volar recientemente a Toronto y Newark y, con Orlando, suma este año casi 1,9 millones de asientos hacia Estados Unidos y Canadá.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Iberia ha renovado además por tres años su acuerdo como aerolínea preferente de Disneyland Paris, Walt Disney World y Disney Cruise Line, y opera en Europa un Airbus A320 decorado con personajes de Disney como Olaf (Frozen) y Buzz Lightyear (Toy Story).",
+    "s": [
+     1,
+     3
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Iberia (nota de prensa)",
+    "url": "https://grupo.iberia.es/news/26102026/iberia-conmemora-el-primer-ao-de-operacin-de-su-ruta-con-orlando",
+    "date": "2026-10-26"
+   },
+   {
+    "name": "Infobae / Europa Press",
+    "url": "https://www.infobae.com/america/agencias/2026/10/26/iberia-conmemora-el-primer-ano-de-operacion-de-su-ruta-madrid-orlando-fue-un-acierto/",
+    "date": "2026-10-26"
+   },
+   {
+    "name": "Solo Agentes",
+    "url": "https://www.soloagentes.com/iberia-cumple-un-ano-volando-a-orlando-con-mas-de-100-000-asientos-en-2026/",
+    "date": "2026-10-26"
+   }
+  ],
+  "why": "Orlando ilustra la apuesta de Iberia por Norteamérica dentro del Plan de Vuelo 2030: una ruta de ocio sin competencia directa desde Madrid, apoyada en una alianza comercial con Disney, que suma a una oferta de casi 1,9 millones de asientos a EE. UU. y Canadá.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 42,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/3821606a-2e6d-4f60-be64-63b6bc07adf8.jpeg",
+  "imageId": "iberia-orlando-aniversario",
+  "photoSource": "Infobae / Europa Press",
+  "art": {
+   "kind": "route",
+   "title": "Madrid–Orlando, un año",
+   "badge": "+100.000 asientos",
+   "points": [
+    {
+     "code": "MAD",
+     "city": "Madrid",
+     "lat": 40.47,
+     "lon": -3.56
+    },
+    {
+     "code": "MCO",
+     "city": "Orlando",
+     "lat": 28.43,
+     "lon": -81.31
+    }
+   ]
+  },
+  "addedAt": "2026-10-27T06:53:27Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "easyjet-starlink",
+  "title": "easyJet instalará wifi de Starlink en toda su flota entre 2027 y principios de 2028",
+  "category": "CUS",
+  "publishedAt": "2026-10-26",
+  "source": "AirlineGeeks",
+  "url": "https://airlinegeeks.com/2026/10/26/easyjet-opts-for-starlink-wi-fi/",
+  "summary": "easyJet ofrecerá internet a bordo de Starlink en sus Airbus A320, A320neo y A321neo; la instalación empezará a principios de 2027 y debería completarse a principios de 2028. La aerolínea no ha dicho si el servicio será gratuito.",
+  "body": [
+   {
+    "t": "easyJet anunció el lunes 26 de octubre que ofrecerá conexión a internet de Starlink, filial de SpaceX, en toda su flota. Las instalaciones comenzarán a principios de 2027 y la compañía prevé completarlas a principios de 2028.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El sistema se instalará en los Airbus A320, A320neo y A321neo de la aerolínea. easyJet no ha informado de cómo cobrará el servicio ni de si el acceso será gratuito; según Aerospace Global News, la mayoría de aerolíneas que ya vuelan con Starlink lo ofrecen gratis o gratis tras registrarse en un programa de fidelización sin coste.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "«La innovación está en el ADN de easyJet», afirmó su consejero delegado, Kenton Jarvis, en la nota de la compañía. «En un mundo cada vez más digital, estar conectado importa más que nunca a muchos de nuestros clientes», añadió. Gwynne Shotwell, presidenta y directora de operaciones de SpaceX, señaló que «una conectividad rápida y fiable desde el despegue hasta el aterrizaje permite a la gente trabajar, ver contenidos o mantenerse en contacto sin interrupciones».",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El acuerdo supone un cambio de postura: según Aerospace Global News, a comienzos de 2026 Jarvis había dado a entender que era poco probable que easyJet adoptara Starlink.",
+    "s": [
+     2
+    ]
+   },
+   {
+    "t": "Según AirlineGeeks, Starlink tiene contratos con United, Southwest, Lufthansa Group, Emirates, Air France-KLM, Air Canada y Alaska, mientras que Delta y JetBlue se han aliado con su competidor Amazon Leo. El anuncio llega mientras easyJet está en proceso de ser adquirida por la gestora estadounidense Apollo, que ofrece 7,15 libras por acción en efectivo; los accionistas votarán la operación el mes que viene.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "AirlineGeeks",
+    "url": "https://airlinegeeks.com/2026/10/26/easyjet-opts-for-starlink-wi-fi/",
+    "date": "2026-10-26"
+   },
+   {
+    "name": "Aerospace Global News",
+    "url": "https://aerospaceglobalnews.com/news/easyjet-starlink-airlines-in-flight-connectivity/",
+    "date": "2026-10-26"
+   }
+  ],
+  "why": "Con easyJet, el wifi por satélite deja de ser un diferencial de las aerolíneas de red y llega al corto radio low cost europeo, donde compite con British Airways y Vueling; la conectividad pasa a ser un requisito básico de la experiencia de cliente y una palanca de retailing a bordo.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 62,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/c3d95487-4a46-410d-851b-476b55cb06bd.jpeg",
+  "imageId": "easyjet-starlink",
+  "photoSource": "AirlineGeeks",
+  "art": {
+   "kind": "big",
+   "value": "2027",
+   "label": "easyJet empieza a instalar Starlink",
+   "sub": "Flota completa a principios de 2028"
+  },
+  "addedAt": "2026-10-27T06:53:27Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "jetblue-3t-2026",
+  "title": "JetBlue pierde 257 M$ en el 3T pese a ingresos récord y recorta su guía anual por el combustible",
+  "category": "FIN",
+  "publishedAt": "2026-10-26",
+  "source": "JetBlue",
+  "url": "https://www.news.jetblue.com/latest-news/press-release-details/2026/JetBlue-Announces-Third-Quarter-2026-Results/default.aspx",
+  "summary": "JetBlue ingresó 2.812 millones de dólares en el tercer trimestre (+21,1%), pero el gasto en combustible subió un 61% y cerró con una pérdida neta de 257 millones. Eleva su previsión de precio del queroseno a 3,95 dólares por galón y empeora su guía de margen operativo ajustado anual a entre -4,5% y -6,5%.",
+  "body": [
+   {
+    "t": "JetBlue Airways presentó el 26 de octubre sus resultados del tercer trimestre de 2026. Los ingresos operativos crecieron un 21,1%, hasta 2.812 millones de dólares, pero los gastos operativos aumentaron un 22,1%, hasta 2.956 millones, y la aerolínea registró una pérdida operativa de 144 millones (100 millones un año antes) y una pérdida neta de 257 millones (143 millones un año antes).",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El combustible explica buena parte del deterioro: el precio medio fue de 3,91 dólares por galón, un 57,4% más, y el gasto en combustible subió un 61%, hasta 868 millones de dólares. El coste por asiento-milla excluido el combustible (CASM ex-fuel) aumentó un 7,0%, con una capacidad un 2,3% superior.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Por el lado de los ingresos, el ingreso por asiento-milla (RASM) subió un 18,4%, hasta 16,28 céntimos, y la tarifa media creció un 19,2%, hasta 245,11 dólares, mientras el factor de ocupación cayó 1,5 puntos, hasta el 83,6%. El margen operativo ajustado fue del -3,9%, frente al -4,1% de un año antes. «Una demanda resistente y unos rendimientos sólidos impulsaron los ingresos muy por encima de nuestras expectativas iniciales», afirmó la consejera delegada, Joanna Geraghty.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "JetBlue eleva su hipótesis de precio del combustible para todo el año a 3,95 dólares por galón, desde los 3,49 de julio, y prevé 4,64 dólares en el cuarto trimestre. Además, sitúa su margen operativo ajustado anual entre el -4,5% y el -6,5%, frente a la horquilla anterior de entre el -2% y el -5%, y espera que el RASM del cuarto trimestre crezca entre un 18% y un 22%. Según The Aviation Hub, la compañía aspira a alcanzar una rentabilidad operativa sostenida en 2027.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La liquidez se situaba en 2.200 millones de dólares al cierre del trimestre, incluida una línea de crédito no dispuesta de 600 millones, y la compañía espera 250 millones adicionales de financiación respaldada por aviones en el cuarto trimestre. Los socios de su programa TrueBlue han canjeado más de 1.100 millones de puntos en vuelos de United desde el lanzamiento de la alianza Blue Sky, y los ingresos de fidelización subieron un 20% en el trimestre.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La aerolínea vende desde el 15 de octubre su nueva cabina premium BlueFirst en más de 30 rutas, con el primer vuelo comercial previsto para el 8 de diciembre entre Boston Logan y Fort Lauderdale.",
+    "s": [
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "JetBlue (nota de resultados)",
+    "url": "https://www.news.jetblue.com/latest-news/press-release-details/2026/JetBlue-Announces-Third-Quarter-2026-Results/default.aspx",
+    "date": "2026-10-26"
+   },
+   {
+    "name": "The Aviation Hub",
+    "url": "https://theaviationhub.co.uk/jetblue-q3-2026-results-fuel-costs/",
+    "date": "2026-10-27"
+   }
+  ],
+  "why": "JetBlue confirma el patrón de la temporada de resultados: tarifas y RASM al alza que no bastan para compensar el queroseno. Su apuesta por la fidelización (Blue Sky con United) y la cabina premium muestra hacia dónde mueven las aerolíneas los ingresos cuando el coste del combustible se dispara.",
+  "aiScore": 58,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/25e1aeb2-be4f-4e58-8bd8-c549d1067ffc.jpeg",
+  "imageId": "jetblue-3t-2026",
+  "photoSource": "The Aviation Hub",
+  "art": {
+   "kind": "bars",
+   "title": "JetBlue 3T 2026 (M$)",
+   "bars": [
+    {
+     "l": "Ingresos",
+     "v": 2812,
+     "t": "2.812"
+    },
+    {
+     "l": "Combustible",
+     "v": 868,
+     "t": "868 (+61%)"
+    }
+   ]
+  },
+  "addedAt": "2026-10-27T06:53:27Z",
+  "addedBy": "claude"
  }
 ]
