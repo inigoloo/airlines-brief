@@ -551,7 +551,7 @@ function voteCtl(n, t){
 }
 function statusTag(n, inSel){
   const o = inSel.get(n.id);
-  return o === "votes" ? `<span class="status votes">✓ En la edición</span>` : o === "ai" ? `<span class="status ai">◆ Selección IA</span>` : "";
+  return o === "votes" ? `<span class="status votes">✓ En la edición</span>` : "";
 }
 function byline(n, t, inSel){
   const photo = state.canEdit && assets ? `<button type="button" class="photo-btn" data-photo="${esc(n.id)}">${n.imageId ? "Cambiar foto" : "Subir foto"}</button>` : "";
@@ -731,7 +731,7 @@ function renderEdition(){
   $("#e-window").textContent = s.ws !== "0000-00-00" ? `${fmtDate(s.ws)} →` : "—";
   $("#e-elig").textContent = s.elig.length;
   $("#e-count").textContent = `${s.byVotes} votos + ${s.items.length - s.byVotes} IA`;
-  $("#sel").innerHTML = s.items.length ? s.items.map(({n,origin,net}) => `<li><div style="min-width:0"><div class="t">${esc(n.title)}</div><div class="s">${esc(CATS[n.category]||"")} · ${esc(n.source)} · ${fmtDate(n.publishedAt)}</div></div>${origin==="votes" ? `<span class="why-pill votes">♥ ${net} ${net===1?"like":"likes"}</span>` : `<span class="why-pill ai">IA · ${n.aiScore||0}</span>`}</li>`).join("")
+  $("#sel").innerHTML = s.items.length ? s.items.map(({n,origin,net}) => `<li><div style="min-width:0"><div class="t">${esc(n.title)}</div><div class="s">${esc(CATS[n.category]||"")} · ${esc(n.source)} · ${fmtDate(n.publishedAt)}</div></div>${origin==="votes" ? `<span class="why-pill votes">♥ ${net} ${net===1?"like":"likes"}</span>` : ""}</li>`).join("")
     : `<li style="display:block"><span class="s">No hay candidatas verificadas en la ventana actual.</span></li>`;
   const html = emailHTML(s.items);
   $("#htmlout").value = html;
@@ -807,7 +807,7 @@ function renderHistory(){
   const box = $("#history");
   if(!state.editions.length){ box.innerHTML = `<div class="empty">Todavía no se ha enviado ninguna edición. Cuando marques una como enviada aparecerá aquí.</div>`; return; }
   const eds = [...state.editions].sort((a,b) => (b.issue||0)-(a.issue||0));
-  box.innerHTML = `<div class="tablebox"><table><thead><tr><th>Nº</th><th>Fecha</th><th>Noticias</th></tr></thead><tbody>${eds.map(e => `<tr><td class="mono">${String(e.issue).padStart(2,"0")}</td><td class="mono">${fmtDate(e.sentAt)}</td><td>${(e.items||[]).map(i => `${esc(i.title)} <span class="why-pill ${i.origin==="votes"?"votes":"ai"}">${i.origin==="votes"?"votos":"IA"}</span>`).join("<br>")}</td></tr>`).join("")}</tbody></table></div>`;
+  box.innerHTML = `<div class="tablebox"><table><thead><tr><th>Nº</th><th>Fecha</th><th>Noticias</th></tr></thead><tbody>${eds.map(e => `<tr><td class="mono">${String(e.issue).padStart(2,"0")}</td><td class="mono">${fmtDate(e.sentAt)}</td><td>${(e.items||[]).map(i => `${esc(i.title)}${i.origin==="votes" ? ` <span class="why-pill votes">votos</span>` : ""}`).join("<br>")}</td></tr>`).join("")}</tbody></table></div>`;
 }
 
 /* ---------- Article page (where email links land: #noticia-<id>) ---------- */
