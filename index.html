@@ -149,6 +149,8 @@ main .wrap{padding-block:22px 64px}
 /* Cards: "Por qué importa" and the byline sit at the bottom so they line up across a row */
 .front .seconds article,.river article{display:flex;flex-direction:column}
 .front .seconds article > .dek,.river article > .dek{margin-bottom:12px}
+/* equalizeCards() trims the summary of the taller card in a row (never below 3 lines) so the row has no big blank gap; the full text is in the article */
+.dek.clamped{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden}
 .front .seconds article > .why,.river article > .why{margin-top:auto}
 .front .seconds article > .byline,.river article > .byline{margin-top:auto}
 .front .seconds article > .why + .byline,.river article > .why + .byline{margin-top:10px}
@@ -651,7 +653,29 @@ function renderPortal(){
   </div>
   <div class="morehead"><h2>Más noticias</h2><span class="mh-note">Las más recientes primero</span></div>
   <div class="river">${rest.map(n => story(n,t,inSel)).join("")}</div>`;
+  equalizeCards();
 }
+function equalizeCards(){
+  document.querySelectorAll("#portal .front .seconds, #portal .river").forEach(grid => {
+    const arts = [...grid.children].filter(a => a.tagName === "ARTICLE");
+    arts.forEach(a => { a.style.alignSelf = "start"; const d = a.querySelector(".dek"); if(d){ d.classList.remove("clamped"); d.style.webkitLineClamp = ""; d.style.lineClamp = ""; } });
+    const rows = new Map();
+    arts.forEach(a => { const k = Math.round(a.offsetTop); if(!rows.has(k)) rows.set(k, []); rows.get(k).push(a); });
+    rows.forEach(row => {
+      if(row.length < 2) return;
+      const hs = row.map(a => a.getBoundingClientRect().height), min = Math.min(...hs);
+      row.forEach((a, i) => {
+        const d = a.querySelector(".dek"); if(!d || hs[i] - min < 2) return;
+        const lh = parseFloat(getComputedStyle(d).lineHeight) || 20;
+        const lines = Math.round(d.getBoundingClientRect().height / lh);
+        const keep = Math.max(3, lines - Math.ceil((hs[i] - min) / lh));
+        if(keep < lines){ d.classList.add("clamped"); d.style.webkitLineClamp = keep; d.style.lineClamp = keep; }
+      });
+    });
+    arts.forEach(a => { a.style.alignSelf = ""; });
+  });
+}
+window.addEventListener("resize", () => { clearTimeout(window.__eq); window.__eq = setTimeout(equalizeCards, 150); });
 const SORTS = {
   front:    ["Portada", "La portada del diario: las noticias destacadas y el resto, de más reciente a más antigua."],
   recent:   ["Más recientes", "Ordenadas por fecha de publicación, de la más nueva a la más antigua."],
