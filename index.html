@@ -621,7 +621,7 @@ function renderPortal(){
       <div class="seconds">${seconds.map(n => story(n,t,inSel)).join("")}</div>
     </div>
     <aside>
-      <h2 class="rail-h">Lo más votado${anyVotes ? "" : " <small>aún sin votos</small>"}</h2>
+      <h2 class="rail-h">Lo más votado</h2>
       <ol class="ranking">${ranking.map((n,i) => `<li><span class="n">${i+1}</span><div><a href="#noticia-${esc(n.id)}" data-art="${esc(n.id)}">${esc(n.title)}</a><div class="m">${net(n)} ${net(n)===1?"like":"likes"} · ${esc(CATS[n.category]||"")}</div></div></li>`).join("")}</ol>
       <div class="edbox">
         <div class="k">Edición Nº ${String(state.editions.length+1).padStart(2,"0")} · salida</div>
