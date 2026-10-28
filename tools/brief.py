@@ -57,6 +57,31 @@ def tier(n):
     i = n.get("iagImpact")
     return 3 if i == "directo" else 2 if i == "indirecto" else 1 if n.get("europe") else 0
 
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+EMAIL_W, EMAIL_H = 560, 315   # 16:9 crop used by the email grid
+
+def email_image(n):
+    """Create (if missing) a 16:9 crop of img/<id>.jpg at img/email/<id>.jpg. Returns the relative path or None."""
+    src = os.path.join(REPO, "img", f"{n['id']}.jpg")
+    dst = os.path.join(REPO, "img", "email", f"{n['id']}.jpg")
+    if os.path.exists(dst): return f"img/email/{n['id']}.jpg"
+    if not os.path.exists(src): return None
+    try:
+        from PIL import Image
+        im = Image.open(src).convert("RGB")
+        w, h = im.size; target = EMAIL_W / EMAIL_H
+        if w / h > target:
+            nw = int(h * target); im = im.crop(((w - nw) // 2, 0, (w - nw) // 2 + nw, h))
+        else:
+            nh = int(w / target); im = im.crop((0, (h - nh) // 2, w, (h - nh) // 2 + nh))
+        im = im.resize((EMAIL_W, EMAIL_H), Image.LANCZOS)
+        os.makedirs(os.path.dirname(dst), exist_ok=True)
+        im.save(dst, quality=80, optimize=True, progressive=True)
+        return f"img/email/{n['id']}.jpg"
+    except Exception as ex:
+        print(f"warning: no email crop for {n['id']}: {ex}", file=sys.stderr)
+        return None
+
 def main():
     args = sys.argv[1:]
     if len(args) < 2: sys.exit(__doc__)
@@ -123,32 +148,32 @@ def main():
     def why_html(n, size, lh):
         if not n.get("why"): return ""
         return f'<p style="margin:0 0 10px 0;padding-left:10px;border-left:3px solid #F2B544;font-family:Arial,Helvetica,sans-serif;font-size:{size}px;line-height:{lh}px;color:#0F1A2A;"><b>Por qué importa:</b> {e(n.get("why"))}</p>'
-    # 1) Lead story, full width
-    if items:
-        n = items[0]
-        rows.append(f'''<tr><td style="padding:22px 32px 0 32px;">
-  {photo_html(n, 536)}
-  {label_html(0, n)}
-  <h2 style="margin:0 0 8px 0;font-family:Georgia,'Times New Roman',serif;font-size:23px;line-height:29px;color:#0F1A2A;font-weight:bold;"><a href="{e(link(n))}" style="color:#0F1A2A;text-decoration:none;">{e(n["title"])}</a></h2>
-  <p style="margin:0 0 10px 0;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:23px;color:#333D4B;">{e(n.get("summary"))}</p>
-  {why_html(n, 14, 21)}
-  {foot_html(n)}
-</td></tr>''')
     # 2) The rest in a 2-column grid that stays as a grid on every screen (two table cells of 50%).
     def card(i, n):
         why = f'<p class="cw" style="margin:0 0 10px 0;padding-left:8px;border-left:3px solid #F2B544;font-family:Arial,Helvetica,sans-serif;font-size:12.5px;line-height:18px;color:#0F1A2A;"><b>Por qué importa:</b> {e(n.get("why"))}</p>' if n.get("why") else ""
-        photo = f'<a href="{e(link(n))}" style="text-decoration:none;"><img src="{e(n["photoUrl"])}" width="260" alt="{e(n["title"])}" style="display:block;width:100%;max-width:260px;height:auto;border:0;margin:0 0 10px 0;"></a>' if str(n.get("photoUrl","")).startswith("https://") else ""
+        crop = email_image(n) if portal else None
+        if crop:
+            src = f"{portal.rstrip('/')}/{crop}"
+        elif str(n.get("photoUrl","")).startswith("https://"):
+            src = n["photoUrl"]
+        else:
+            src = None
+        if src:
+            photo = f'<a href="{e(link(n))}" style="text-decoration:none;"><img src="{e(src)}" width="260" alt="{e(n["title"])}" style="display:block;width:100%;max-width:260px;height:auto;border:0;margin:0 0 10px 0;"></a>'
+        else:  # same 16:9 footprint so the row stays aligned
+            photo = f'<a href="{e(link(n))}" style="text-decoration:none;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 10px 0;"><tr><td height="146" style="height:146px;background:#101B2C;text-align:center;vertical-align:middle;font-family:Georgia,serif;font-size:18px;color:#F2B544;">The Airlines Brief</td></tr></table></a>'
+
         return f'''{photo}
     <p class="cl" style="margin:0 0 5px 0;font-family:Arial,Helvetica,sans-serif;font-size:10.5px;letter-spacing:2px;text-transform:uppercase;color:#1F4BC6;font-weight:bold;">{i+1:02d} · {e(CATS.get(n.get("category"), n.get("category")))}{badge_html(n)}</p>
     <h3 class="ch" style="margin:0 0 6px 0;font-family:Georgia,'Times New Roman',serif;font-size:17px;line-height:22px;color:#0F1A2A;font-weight:bold;"><a href="{e(link(n))}" style="color:#0F1A2A;text-decoration:none;">{e(n["title"])}</a></h3>
     <p class="cp" style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:13.5px;line-height:20px;color:#333D4B;">{e(n.get("summary"))}</p>
     {why}
     <p class="cf" style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:18px;color:#566275;">{e(n["source"])} · {fmt(n["publishedAt"])}<br><a href="{e(link(n))}" style="color:#1F4BC6;font-weight:bold;text-decoration:none;">Leer el artículo &rarr;</a></p>'''
-    rest = items[1:]
+    rest = items
     for r in range(0, len(rest), 2):
         pair = rest[r:r+2]
-        left = card(r + 1, pair[0])
-        right = card(r + 2, pair[1]) if len(pair) > 1 else "&nbsp;"
+        left = card(r, pair[0])
+        right = card(r + 1, pair[1]) if len(pair) > 1 else "&nbsp;"
         rows.append(f'''<tr><td class="px" style="padding:10px 32px 0 32px;"><div style="border-top:1px solid #D8DEE6;font-size:0;line-height:0;">&nbsp;</div></td></tr>
 <tr><td class="px" style="padding:0 32px;">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="table-layout:fixed;"><tr>

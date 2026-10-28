@@ -390,7 +390,7 @@ const todayISO = () => new Date().toISOString().slice(0,10);
 try{ $("#dateline").textContent = new Date().toLocaleDateString("es-ES",{weekday:"long",day:"numeric",month:"long",year:"numeric"}); }catch(e){}
 
 const state = {
-  news: [], votes: {}, mine: {}, cfg: {threshold:3,minItems:5,maxItems:5,nextSend:"",portalUrl:"",cadenceDays:7},
+  news: [], votes: {}, mine: {}, cfg: {threshold:3,minItems:6,maxItems:6,nextSend:"",portalUrl:"",cadenceDays:7},
   editions: [], sources: [], uid: null, canVote: false, canEdit: false, db: null,
   section: "ALL", sort: (()=>{ try{ const v = localStorage.getItem("brief-sort"); return ["front","recent","votes","relevant"].includes(v) ? v : "front"; }catch(e){ return "front"; } })(), loaded: false
 };

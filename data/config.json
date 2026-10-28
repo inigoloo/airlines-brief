@@ -1,8 +1,8 @@
 {
  "audience": "Klaviyo · Lista de email (X9KnVA)",
  "cadenceDays": 7,
- "maxItems": 5,
- "minItems": 5,
+ "maxItems": 6,
+ "minItems": 6,
  "nextSend": "2026-11-02",
  "portalUrl": "https://airlines-brief.vercel.app",
  "sendTime": "10:00",
