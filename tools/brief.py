@@ -134,37 +134,47 @@ def main():
   {why_html(n, 14, 21)}
   {foot_html(n)}
 </td></tr>''')
-    # 2) The rest in a 2-column grid (fluid-hybrid: two columns on desktop, stacked on narrow screens)
+    # 2) The rest in a 2-column grid that stays as a grid on every screen (two table cells of 50%).
     def card(i, n):
-        return f'''<div style="display:inline-block;width:100%;max-width:260px;vertical-align:top;font-size:14px;text-align:left;">
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding:18px 0 4px 0;">
-    {photo_html(n, 260)}
-    {label_html(i, n)}
-    <h3 style="margin:0 0 6px 0;font-family:Georgia,'Times New Roman',serif;font-size:17px;line-height:22px;color:#0F1A2A;font-weight:bold;"><a href="{e(link(n))}" style="color:#0F1A2A;text-decoration:none;">{e(n["title"])}</a></h3>
-    <p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:13.5px;line-height:20px;color:#333D4B;">{e(n.get("summary"))}</p>
-    {why_html(n, 12.5, 18)}
-    {foot_html(n)}
-  </td></tr></table>
-</div>'''
+        why = f'<p class="cw" style="margin:0 0 10px 0;padding-left:8px;border-left:3px solid #F2B544;font-family:Arial,Helvetica,sans-serif;font-size:12.5px;line-height:18px;color:#0F1A2A;"><b>Por qué importa:</b> {e(n.get("why"))}</p>' if n.get("why") else ""
+        photo = f'<a href="{e(link(n))}" style="text-decoration:none;"><img src="{e(n["photoUrl"])}" width="260" alt="{e(n["title"])}" style="display:block;width:100%;max-width:260px;height:auto;border:0;margin:0 0 10px 0;"></a>' if str(n.get("photoUrl","")).startswith("https://") else ""
+        return f'''{photo}
+    <p class="cl" style="margin:0 0 5px 0;font-family:Arial,Helvetica,sans-serif;font-size:10.5px;letter-spacing:2px;text-transform:uppercase;color:#1F4BC6;font-weight:bold;">{i+1:02d} · {e(CATS.get(n.get("category"), n.get("category")))}{badge_html(n)}</p>
+    <h3 class="ch" style="margin:0 0 6px 0;font-family:Georgia,'Times New Roman',serif;font-size:17px;line-height:22px;color:#0F1A2A;font-weight:bold;"><a href="{e(link(n))}" style="color:#0F1A2A;text-decoration:none;">{e(n["title"])}</a></h3>
+    <p class="cp" style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:13.5px;line-height:20px;color:#333D4B;">{e(n.get("summary"))}</p>
+    {why}
+    <p class="cf" style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:18px;color:#566275;">{e(n["source"])} · {fmt(n["publishedAt"])}<br><a href="{e(link(n))}" style="color:#1F4BC6;font-weight:bold;text-decoration:none;">Leer el artículo &rarr;</a></p>'''
     rest = items[1:]
     for r in range(0, len(rest), 2):
         pair = rest[r:r+2]
-        cells = []
-        for k, n in enumerate(pair):
-            cells.append(card(r + k + 1, n))
-        ghost_mid = '<!--[if mso]></td><td width="16" style="width:16px;"></td><td width="260" valign="top" style="width:260px;"><![endif]-->'
-        spacer = '<div style="display:inline-block;width:16px;font-size:0;line-height:0;">&nbsp;</div>'
-        inner = (spacer + ghost_mid).join(cells)
-        rows.append(f'''<tr><td style="padding:10px 32px 0 32px;"><div style="border-top:1px solid #D8DEE6;"></div></td></tr>
-<tr><td style="padding:0 32px;font-size:0;text-align:left;">
-<!--[if mso]><table role="presentation" width="536" cellpadding="0" cellspacing="0" border="0"><tr><td width="260" valign="top" style="width:260px;"><![endif]-->
-{inner}
-<!--[if mso]></td></tr></table><![endif]-->
+        left = card(r + 1, pair[0])
+        right = card(r + 2, pair[1]) if len(pair) > 1 else "&nbsp;"
+        rows.append(f'''<tr><td class="px" style="padding:10px 32px 0 32px;"><div style="border-top:1px solid #D8DEE6;font-size:0;line-height:0;">&nbsp;</div></td></tr>
+<tr><td class="px" style="padding:0 32px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="table-layout:fixed;"><tr>
+  <td class="gl" width="50%" valign="top" style="width:50%;padding:16px 8px 4px 0;vertical-align:top;">
+    {left}
+  </td>
+  <td class="gr" width="50%" valign="top" style="width:50%;padding:16px 0 4px 8px;vertical-align:top;">
+    {right}
+  </td>
+</tr></table>
 </td></tr>''')
     intro = f"Este es el top {len(items)} de noticias de la última semana."
     cta = f'''<tr><td style="padding:26px 32px 0 32px;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td style="background:#111A27;border-radius:4px;"><a href="{e(portal)}" style="display:inline-block;padding:12px 20px;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:bold;color:#FFFFFF;text-decoration:none;letter-spacing:1px;text-transform:uppercase;">Vota las noticias de la próxima edición</a></td></tr></table></td></tr>''' if portal else ""
     doc = f'''<!DOCTYPE html>
-<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Airlines Brief · Nº {issue:02d}</title></head>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Airlines Brief · Nº {issue:02d}</title>
+<style>
+@media only screen and (max-width:480px){{
+  .px{{padding-left:14px !important;padding-right:14px !important;}}
+  .gl{{padding-right:6px !important;}} .gr{{padding-left:6px !important;}}
+  .ch{{font-size:14.5px !important;line-height:18px !important;}}
+  .cp{{font-size:12px !important;line-height:16.5px !important;}}
+  .cl{{font-size:9px !important;letter-spacing:1px !important;}}
+  .cf{{font-size:11px !important;line-height:15px !important;}}
+  .cw{{display:none !important;}}
+}}
+</style></head>
 <body style="margin:0;padding:0;background:#F2F4F7;">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#F2F4F7;"><tr><td align="center" style="padding:24px 12px;">
 <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background:#FFFFFF;">
