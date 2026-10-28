@@ -623,13 +623,6 @@ function renderPortal(){
     <aside>
       <h2 class="rail-h">Lo más votado</h2>
       <ol class="ranking">${ranking.map((n,i) => `<li><span class="n">${i+1}</span><div><a href="#noticia-${esc(n.id)}" data-art="${esc(n.id)}">${esc(n.title)}</a><div class="m">${net(n)} ${net(n)===1?"like":"likes"} · ${esc(CATS[n.category]||"")}</div></div></li>`).join("")}</ol>
-      <div class="edbox">
-        <div class="k">Edición Nº ${String(state.editions.length+1).padStart(2,"0")} · salida</div>
-        <div class="big">${state.cfg.nextSend ? fmtDate(state.cfg.nextSend) : "—"}</div>
-        <p>${sel.byVotes} de ${state.cfg.minItems} noticias entran ya por votos${sel.byVotes < state.cfg.minItems ? "; el resto lo completa la IA" : ""}. Así va la selección:</p>
-        <ol>${sel.items.map(x => `<li>${esc(x.n.title)}</li>`).join("")}</ol>
-        <button type="button" data-view="edicion">Ver la edición</button>
-      </div>
     </aside>
   </div>
   <div class="morehead"><h2>Más noticias</h2><span class="mh-note">Las más recientes primero</span></div>
