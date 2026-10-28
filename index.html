@@ -146,14 +146,15 @@ main .wrap{padding-block:22px 64px}
   .front .seconds .dek{font-size:13.5px}
 }
 @media (max-width:760px){ .front > aside.mrail{display:none} }
-/* Cards: "Por qué importa" and the byline sit at the bottom so they line up across a row */
+/* Cards: "Por qué importa" follows the summary at a fixed small gap; any spare height in a row
+   goes just above the byline (margin-top:auto), so the bylines of a row stay aligned */
 .front .seconds article,.river article{display:flex;flex-direction:column}
-.front .seconds article > .dek,.river article > .dek{margin-bottom:12px}
-/* equalizeCards() trims the summary of the taller card in a row (never below 3 lines) so the row has no big blank gap; the full text is in the article */
-.dek.clamped{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden}
-.front .seconds article > .why,.river article > .why{margin-top:auto}
-.front .seconds article > .byline,.river article > .byline{margin-top:auto}
-.front .seconds article > .why + .byline,.river article > .why + .byline{margin-top:10px}
+.front .seconds article > .dek,.river article > .dek{margin-bottom:0}
+.front .seconds article > .why,.river article > .why{margin-top:10px}
+.front .seconds article > .byline,.river article > .byline{margin-top:auto;padding-top:12px}
+/* equalizeCards() shortens the visible summary / "Por qué importa" of the taller card in a row
+   (never below 3 lines; full text stays in the article) so the shorter card has little spare space */
+.dek.clamped,.why.clamped{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden}
 .front .seconds article > .byline,.river article > .byline{flex-wrap:nowrap}
 .front .seconds .byline > *,.river .byline > *{flex-shrink:0}
 .front .seconds .byline .src,.river .byline .src{flex-shrink:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -658,18 +659,24 @@ function renderPortal(){
 function equalizeCards(){
   document.querySelectorAll("#portal .front .seconds, #portal .river").forEach(grid => {
     const arts = [...grid.children].filter(a => a.tagName === "ARTICLE");
-    arts.forEach(a => { a.style.alignSelf = "start"; const d = a.querySelector(".dek"); if(d){ d.classList.remove("clamped"); d.style.webkitLineClamp = ""; d.style.lineClamp = ""; } });
+    const unclamp = el => { el.classList.remove("clamped"); el.style.webkitLineClamp = ""; el.style.lineClamp = ""; };
+    arts.forEach(a => { a.style.alignSelf = "start"; a.querySelectorAll(".dek,.why").forEach(unclamp); });
     const rows = new Map();
     arts.forEach(a => { const k = Math.round(a.offsetTop); if(!rows.has(k)) rows.set(k, []); rows.get(k).push(a); });
+    // Trim one text block of a card by up to `excess` px, keeping at least 3 lines.
+    const trim = (el, excess) => {
+      if(!el || excess < 2) return;
+      const lh = parseFloat(getComputedStyle(el).lineHeight) || 20;
+      const lines = Math.round(el.getBoundingClientRect().height / lh);
+      const keep = Math.max(3, lines - Math.floor((excess + 2) / lh));
+      if(keep < lines){ el.classList.add("clamped"); el.style.webkitLineClamp = keep; el.style.lineClamp = keep; }
+    };
     rows.forEach(row => {
       if(row.length < 2) return;
-      const hs = row.map(a => a.getBoundingClientRect().height), min = Math.min(...hs);
-      row.forEach((a, i) => {
-        const d = a.querySelector(".dek"); if(!d || hs[i] - min < 2) return;
-        const lh = parseFloat(getComputedStyle(d).lineHeight) || 20;
-        const lines = Math.round(d.getBoundingClientRect().height / lh);
-        const keep = Math.max(3, lines - Math.ceil((hs[i] - min) / lh));
-        if(keep < lines){ d.classList.add("clamped"); d.style.webkitLineClamp = keep; d.style.lineClamp = keep; }
+      const min = Math.min(...row.map(a => a.getBoundingClientRect().height));
+      row.forEach(a => {
+        trim(a.querySelector(".dek"), a.getBoundingClientRect().height - min);
+        trim(a.querySelector(".why"), a.getBoundingClientRect().height - min);
       });
     });
     arts.forEach(a => { a.style.alignSelf = ""; });
