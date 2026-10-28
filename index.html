@@ -575,7 +575,9 @@ function story(n, t, inSel, opts){
 function renderPortal(){
   const box = $("#portal");
   if(!state.loaded) return;
-  const valid = state.news.filter(isValid);
+  // The web shows news from the last 14 days (the weekly email only uses the last 7). Older articles stay reachable by link.
+  const webCutoff = addDays(todayISO(), -14);
+  const valid = state.news.filter(n => isValid(n) && n.publishedAt >= webCutoff);
   if(!valid.length){
     box.innerHTML = `<div class="empty">Aún no hay noticias en el portal. Llegarán desde el flujo de recopilación${state.canEdit ? ", o puedes añadir una con «Añadir noticia»" : ""}.</div>`;
     return;
