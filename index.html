@@ -129,30 +129,23 @@ main .wrap{padding-block:22px 64px}
 .front > .seconds article:nth-child(even){padding:18px 0 20px 22px;border-left:1px solid var(--line)}
 .front > .seconds .why{max-width:none;font-size:13.5px}
 /* "Lo más votado": in the right page margin on wide screens, below the grid otherwise */
-.frontwrap{position:relative}
-.frontwrap > aside.mrail{margin-top:30px}
-.frontwrap > aside.mrail .ranking{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));column-gap:28px;margin:0}
+/* "Lo más votado" floats only alongside the 4 front stories; it stops when "Más noticias" begins */
+.front > aside.mrail .ranking{margin:0}
+.front > aside.mrail .rail{position:sticky;top:64px}
 @media (min-width:1760px){
-  /* Floating rail in the right margin: follows the scroll down the whole front page */
-  .frontwrap > aside.mrail{position:absolute;top:0;bottom:0;left:calc(100% + 48px);width:250px;margin-top:0}
-  .frontwrap > aside.mrail .rail{position:sticky;top:64px}
-  .frontwrap > aside.mrail .ranking{display:block}
+  .front > aside.mrail{position:absolute;top:0;bottom:0;left:calc(100% + 48px);width:250px}
 }
 @media (min-width:761px) and (max-width:1759px){
   /* Narrower desktops: the rail moves into a right column and the stories shrink a little */
-  .frontwrap{display:grid;grid-template-columns:minmax(0,1fr) 240px;column-gap:28px;align-items:start}
-  .frontwrap > .front,.frontwrap > .morehead,.frontwrap > .river{grid-column:1;min-width:0}
-  .frontwrap > aside.mrail{grid-column:2;grid-row:1 / span 3;align-self:stretch;margin-top:0;border-left:1px solid var(--line);padding-left:20px}
-  .frontwrap > aside.mrail .rail{position:sticky;top:64px}
-  .frontwrap > aside.mrail .ranking{display:block}
-  .frontwrap > aside.mrail .ranking a{font-size:14.5px}
-  .frontwrap > aside.mrail .ranking .n{font-size:28px}
-  .frontwrap .river{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px}
-  .frontwrap .seconds .hl{font-size:20px}
-  .frontwrap .river .hl{font-size:18px}
-  .frontwrap .seconds .dek,.frontwrap .river .dek{font-size:13.5px}
+  .front{display:grid;grid-template-columns:minmax(0,1fr) 240px;column-gap:28px}
+  .front > .seconds{grid-column:1;min-width:0}
+  .front > aside.mrail{grid-column:2;grid-row:1;border-left:1px solid var(--line);padding-left:20px}
+  .front > aside.mrail .ranking a{font-size:14.5px}
+  .front > aside.mrail .ranking .n{font-size:28px}
+  .front .seconds .hl{font-size:20px}
+  .front .seconds .dek{font-size:13.5px}
 }
-@media (max-width:760px){ .frontwrap > aside.mrail{display:none} }
+@media (max-width:760px){ .front > aside.mrail{display:none} }
 /* Cards: "Por qué importa" and the byline sit at the bottom so they line up across a row */
 .front .seconds article,.river article{display:flex;flex-direction:column}
 .front .seconds article > .dek,.river article > .dek{margin-bottom:12px}
@@ -649,17 +642,15 @@ function renderPortal(){
   const anyVotes = ranking.some(n => (t[n.id]?.up||0) + (t[n.id]?.down||0) > 0);
 
   box.innerHTML = `${sortBar("front", true)}
-  <div class="frontwrap">
   <div class="front">
     <div class="seconds">${top4.map(n => story(n,t,inSel,{why:true})).join("")}</div>
-  </div>
     <aside class="mrail"><div class="rail">
       <h2 class="rail-h">Lo más votado</h2>
       <ol class="ranking">${ranking.map((n,i) => `<li><span class="n">${i+1}</span><div><a href="#noticia-${esc(n.id)}" data-art="${esc(n.id)}">${esc(n.title)}</a><div class="m">${net(n)} ${net(n)===1?"like":"likes"} · ${esc(CATS[n.category]||"")}</div></div></li>`).join("")}</ol>
     </div></aside>
+  </div>
   <div class="morehead"><h2>Más noticias</h2><span class="mh-note">Las más recientes primero</span></div>
-  <div class="river">${rest.map(n => story(n,t,inSel)).join("")}</div>
-  </div>`;
+  <div class="river">${rest.map(n => story(n,t,inSel)).join("")}</div>`;
 }
 const SORTS = {
   front:    ["Portada", "La portada del diario: las noticias destacadas y el resto, de más reciente a más antigua."],
