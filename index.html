@@ -277,7 +277,7 @@ footer.foot{border-top:3px double var(--rule);padding-block:14px 30px;font-size:
 </head>
 <body>
 
-<div class="topbar"><div class="wrap"><span class="dl" id="dateline">—</span><span class="tr"><span class="ed" id="edline">Quincenal · Market Intelligence</span><span class="ntt" role="img" aria-label="NTT DATA"></span></span></div></div>
+<div class="topbar"><div class="wrap"><span class="dl" id="dateline">—</span><span class="tr"><span class="ed" id="edline">Semanal · Market Intelligence</span><span class="ntt" role="img" aria-label="NTT DATA"></span></span></div></div>
 <header class="masthead wrap">
   <div class="pre">Airlines Practice</div>
   <h1>The Airlines <em>Brief</em></h1>
@@ -390,7 +390,7 @@ const todayISO = () => new Date().toISOString().slice(0,10);
 try{ $("#dateline").textContent = new Date().toLocaleDateString("es-ES",{weekday:"long",day:"numeric",month:"long",year:"numeric"}); }catch(e){}
 
 const state = {
-  news: [], votes: {}, mine: {}, cfg: {threshold:3,minItems:4,maxItems:6,nextSend:"",portalUrl:"",cadenceDays:14},
+  news: [], votes: {}, mine: {}, cfg: {threshold:3,minItems:5,maxItems:5,nextSend:"",portalUrl:"",cadenceDays:7},
   editions: [], sources: [], uid: null, canVote: false, canEdit: false, db: null,
   section: "ALL", sort: (()=>{ try{ const v = localStorage.getItem("brief-sort"); return ["front","recent","votes","relevant"].includes(v) ? v : "front"; }catch(e){ return "front"; } })(), loaded: false
 };
@@ -686,7 +686,7 @@ async function queueWrite(){
 /* ---------- Board ---------- */
 function renderBoard(){
   const issue = String(state.editions.length + 1).padStart(2,"0");
-  $("#edline").textContent = `Quincenal · Próxima edición Nº ${issue}`;
+  $("#edline").textContent = `Semanal · Próxima edición Nº ${issue}`;
 }
 
 /* ---------- Email ---------- */
@@ -717,7 +717,7 @@ function emailHTML(items){
   <p style="margin:6px 0 0 0;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:14px;color:#5A6576;">Actualidad, tendencias y análisis estratégico para entender qué mueve la industria aérea</p>
 </td></tr>
 <tr><td style="background:#101B2C;padding:10px 32px;font-family:'Courier New',Courier,monospace;font-size:13px;color:#F2B544;">EDICIÓN Nº ${issue}${date ? " · " + date : ""}</td></tr>
-<tr><td style="padding:22px 32px 0 32px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:23px;color:#333D4B;">Las ${items.length} noticias que más importan esta quincena.</td></tr>
+<tr><td style="padding:22px 32px 0 32px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:23px;color:#333D4B;">Las ${items.length} noticias que más importan esta semana.</td></tr>
 ${rows}
 ${portal ? `<tr><td style="padding:26px 32px 0 32px;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td style="background:#111A27;border-radius:4px;"><a href="${esc(portal)}" style="display:inline-block;padding:12px 20px;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:bold;color:#FFFFFF;text-decoration:none;letter-spacing:1px;text-transform:uppercase;">Vota las noticias de la próxima edición</a></td></tr></table></td></tr>` : ""}
 <tr><td style="padding:28px 32px 26px 32px;font-family:Arial,Helvetica,sans-serif;font-size:11px;line-height:17px;color:#8E9BB0;">Pulsa en cualquier noticia para leer el artículo completo en el portal, con sus fuentes, y votarla.<br>{% unsubscribe 'Darse de baja' %}</td></tr>

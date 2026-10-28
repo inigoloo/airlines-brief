@@ -104,24 +104,58 @@ def main():
     def link(n):
         """Portal article page for this story (falls back to the source if no portal URL is configured)."""
         return f"{portal}#noticia-{n['id']}" if portal else n["url"]
-    for i, n in enumerate(items):
-        if n["origin"] == "votes":
-            badge = f'<span style="display:inline-block;padding:2px 8px;border-radius:3px;background:#E3F3EA;color:#1B7A4B;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">&#9829; {n["likes"]} {"voto" if n["likes"] == 1 else "votos"}</span>'
-        else:
-            badge = ""
-        why =f'<p style="margin:0 0 10px 0;padding-left:12px;border-left:3px solid #F2B544;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;color:#0F1A2A;"><b>Por qué importa:</b> {e(n.get("why"))}</p>' if n.get("why") else ""
-        photo = f'<a href="{e(link(n))}" style="text-decoration:none;"><img src="{e(n["photoUrl"])}" width="536" alt="{e(n["title"])}" style="display:block;width:100%;max-width:536px;height:auto;border:0;margin:0 0 14px 0;"></a>' if str(n.get("photoUrl","")).startswith("https://") else ""
+    def badge_html(n):
+        if n["origin"] != "votes": return ""
+        return f'&nbsp;&nbsp;<span style="display:inline-block;padding:2px 7px;border-radius:3px;background:#E3F3EA;color:#1B7A4B;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">&#9829; {n["likes"]} {"voto" if n["likes"] == 1 else "votos"}</span>'
+    def photo_html(n, w):
+        if not str(n.get("photoUrl","")).startswith("https://"): return ""
+        return f'<a href="{e(link(n))}" style="text-decoration:none;"><img src="{e(n["photoUrl"])}" width="{w}" alt="{e(n["title"])}" style="display:block;width:100%;max-width:{w}px;height:auto;border:0;margin:0 0 12px 0;"></a>'
+    def label_html(i, n):
+        return f'<p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:10.5px;letter-spacing:2px;text-transform:uppercase;color:#1F4BC6;font-weight:bold;">{i+1:02d} · {e(CATS.get(n.get("category"), n.get("category")))}{badge_html(n)}</p>'
+    def foot_html(n):
+        return f'<p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:18px;color:#566275;">{e(n["source"])} · {fmt(n["publishedAt"])}<br><a href="{e(link(n))}" style="color:#1F4BC6;font-weight:bold;text-decoration:none;">Leer el artículo &rarr;</a></p>'
+    def why_html(n, size, lh):
+        if not n.get("why"): return ""
+        return f'<p style="margin:0 0 10px 0;padding-left:10px;border-left:3px solid #F2B544;font-family:Arial,Helvetica,sans-serif;font-size:{size}px;line-height:{lh}px;color:#0F1A2A;"><b>Por qué importa:</b> {e(n.get("why"))}</p>'
+    # 1) Lead story, full width
+    if items:
+        n = items[0]
         rows.append(f'''<tr><td style="padding:22px 32px 0 32px;">
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top:1px solid #D8DEE6;padding-top:18px;">
-    {photo}
-    <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#1F4BC6;font-weight:bold;">{i+1:02d} · {e(CATS.get(n.get("category"), n.get("category")))}{"&nbsp;&nbsp;" + badge if badge else ""}</p>
-    <h2 style="margin:0 0 8px 0;font-family:Georgia,'Times New Roman',serif;font-size:21px;line-height:27px;color:#0F1A2A;font-weight:bold;"><a href="{e(link(n))}" style="color:#0F1A2A;text-decoration:none;">{e(n["title"])}</a></h2>
-    <p style="margin:0 0 10px 0;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:23px;color:#333D4B;">{e(n.get("summary"))}</p>
-    {why}
-    <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#566275;">{e(n["source"])} · {fmt(n["publishedAt"])} · <a href="{e(link(n))}" style="color:#1F4BC6;font-weight:bold;">Leer el artículo &rarr;</a></p>
-  </td></tr></table>
+  {photo_html(n, 536)}
+  {label_html(0, n)}
+  <h2 style="margin:0 0 8px 0;font-family:Georgia,'Times New Roman',serif;font-size:23px;line-height:29px;color:#0F1A2A;font-weight:bold;"><a href="{e(link(n))}" style="color:#0F1A2A;text-decoration:none;">{e(n["title"])}</a></h2>
+  <p style="margin:0 0 10px 0;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:23px;color:#333D4B;">{e(n.get("summary"))}</p>
+  {why_html(n, 14, 21)}
+  {foot_html(n)}
 </td></tr>''')
-    intro = f"Las {len(items)} noticias que más importan esta quincena."
+    # 2) The rest in a 2-column grid (fluid-hybrid: two columns on desktop, stacked on narrow screens)
+    def card(i, n):
+        return f'''<div style="display:inline-block;width:100%;max-width:260px;vertical-align:top;font-size:14px;text-align:left;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding:18px 0 4px 0;">
+    {photo_html(n, 260)}
+    {label_html(i, n)}
+    <h3 style="margin:0 0 6px 0;font-family:Georgia,'Times New Roman',serif;font-size:17px;line-height:22px;color:#0F1A2A;font-weight:bold;"><a href="{e(link(n))}" style="color:#0F1A2A;text-decoration:none;">{e(n["title"])}</a></h3>
+    <p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:13.5px;line-height:20px;color:#333D4B;">{e(n.get("summary"))}</p>
+    {why_html(n, 12.5, 18)}
+    {foot_html(n)}
+  </td></tr></table>
+</div>'''
+    rest = items[1:]
+    for r in range(0, len(rest), 2):
+        pair = rest[r:r+2]
+        cells = []
+        for k, n in enumerate(pair):
+            cells.append(card(r + k + 1, n))
+        ghost_mid = '<!--[if mso]></td><td width="16" style="width:16px;"></td><td width="260" valign="top" style="width:260px;"><![endif]-->'
+        spacer = '<div style="display:inline-block;width:16px;font-size:0;line-height:0;">&nbsp;</div>'
+        inner = (spacer + ghost_mid).join(cells)
+        rows.append(f'''<tr><td style="padding:10px 32px 0 32px;"><div style="border-top:1px solid #D8DEE6;"></div></td></tr>
+<tr><td style="padding:0 32px;font-size:0;text-align:left;">
+<!--[if mso]><table role="presentation" width="536" cellpadding="0" cellspacing="0" border="0"><tr><td width="260" valign="top" style="width:260px;"><![endif]-->
+{inner}
+<!--[if mso]></td></tr></table><![endif]-->
+</td></tr>''')
+    intro = f"Las {len(items)} noticias que más importan esta semana."
     cta = f'''<tr><td style="padding:26px 32px 0 32px;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td style="background:#111A27;border-radius:4px;"><a href="{e(portal)}" style="display:inline-block;padding:12px 20px;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:bold;color:#FFFFFF;text-decoration:none;letter-spacing:1px;text-transform:uppercase;">Vota las noticias de la próxima edición</a></td></tr></table></td></tr>''' if portal else ""
     doc = f'''<!DOCTYPE html>
 <html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Airlines Brief · Nº {issue:02d}</title></head>
