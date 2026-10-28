@@ -161,7 +161,7 @@ def main():
 {inner}
 <!--[if mso]></td></tr></table><![endif]-->
 </td></tr>''')
-    intro = f"Las {len(items)} noticias que más importan esta semana."
+    intro = f"Este es el top {len(items)} de noticias de la última semana."
     cta = f'''<tr><td style="padding:26px 32px 0 32px;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td style="background:#111A27;border-radius:4px;"><a href="{e(portal)}" style="display:inline-block;padding:12px 20px;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:bold;color:#FFFFFF;text-decoration:none;letter-spacing:1px;text-transform:uppercase;">Vota las noticias de la próxima edición</a></td></tr></table></td></tr>''' if portal else ""
     doc = f'''<!DOCTYPE html>
 <html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Airlines Brief · Nº {issue:02d}</title></head>
