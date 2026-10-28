@@ -129,12 +129,16 @@ main .wrap{padding-block:22px 64px}
 .front > .seconds article:nth-child(even){padding:18px 0 20px 22px;border-left:1px solid var(--line)}
 .front > .seconds .why{max-width:none;font-size:13.5px}
 /* "Lo más votado": in the right page margin on wide screens, below the grid otherwise */
-.front > aside{margin-top:30px}
-.front > aside .ranking{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));column-gap:28px;margin:0}
+.frontwrap{position:relative}
+.frontwrap > aside.mrail{margin-top:30px}
+.frontwrap > aside.mrail .ranking{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));column-gap:28px;margin:0}
 @media (min-width:1760px){
-  .front > aside{position:absolute;top:0;left:calc(100% + 48px);width:250px;margin-top:0}
-  .front > aside .ranking{display:block}
+  /* Floating rail in the right margin: follows the scroll down the whole front page */
+  .frontwrap > aside.mrail{position:absolute;top:0;bottom:0;left:calc(100% + 48px);width:250px;margin-top:0}
+  .frontwrap > aside.mrail .rail{position:sticky;top:64px}
+  .frontwrap > aside.mrail .ranking{display:block}
 }
+@media (max-width:760px){ .frontwrap > aside.mrail{display:none} }
 .lead{padding-bottom:22px;border-bottom:1px solid var(--rule)}
 .lead .hl{font-size:clamp(28px,4vw,42px);font-weight:800}
 .lead .dek{font-size:18px;font-family:var(--f-head);line-height:1.5;color:var(--muted)}
@@ -622,15 +626,17 @@ function renderPortal(){
   const anyVotes = ranking.some(n => (t[n.id]?.up||0) + (t[n.id]?.down||0) > 0);
 
   box.innerHTML = `${sortBar("front", true)}
+  <div class="frontwrap">
   <div class="front">
     <div class="seconds">${top4.map(n => story(n,t,inSel,{why:true})).join("")}</div>
-    <aside><div class="rail">
+  </div>
+    <aside class="mrail"><div class="rail">
       <h2 class="rail-h">Lo más votado</h2>
       <ol class="ranking">${ranking.map((n,i) => `<li><span class="n">${i+1}</span><div><a href="#noticia-${esc(n.id)}" data-art="${esc(n.id)}">${esc(n.title)}</a><div class="m">${net(n)} ${net(n)===1?"like":"likes"} · ${esc(CATS[n.category]||"")}</div></div></li>`).join("")}</ol>
     </div></aside>
-  </div>
   <div class="morehead"><h2>Más noticias</h2><span class="mh-note">Las más recientes primero</span></div>
-  <div class="river">${rest.map(n => story(n,t,inSel)).join("")}</div>`;
+  <div class="river">${rest.map(n => story(n,t,inSel)).join("")}</div>
+  </div>`;
 }
 const SORTS = {
   front:    ["Portada", "La portada del diario: las noticias destacadas y el resto, de más reciente a más antigua."],
