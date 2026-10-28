@@ -10,8 +10,8 @@ Usage:
 
 Rule (same as the portal):
   - Candidates: valid news (title, source, https URL, date) not used in a previous
-    edition and published on/after the window start (last edition date, or
-    nextSend - 28 days when there is none).
+    edition and published in the 7 days before the send date (windowDays in config).
+  - Ordering weight = aiScore + a slight recency boost (+6 for the last two days, -1 per older day).
   - By votes: candidates with likes >= threshold (default 3, i.e. "more than 2"),
     most liked first, at most maxItems (default 6).
   - If fewer than minItems (default 4): fill with the most important remaining
@@ -80,11 +80,17 @@ def main():
         for nid, val in (v.get("v") or {}).items():
             if val == 1: likes[nid] = likes.get(nid, 0) + 1
     sent = {i for ed in editions.values() for i in ed.get("newsIds", [])}
-    last = max([ed.get("sentAt","") for ed in editions.values()] or [""])
-    ws = last[:10] if last else (add_days(cfg["nextSend"], -28) if cfg.get("nextSend") else "0000-00-00")
+    # Weekly edition: only news published in the 7 days before the send date (and never repeated).
+    send_day = send_date or cfg.get("nextSend") or datetime.date.today().isoformat()
+    ws = add_days(send_day, -int(cfg.get("windowDays", 7)))
+    def recency(n):
+        """Slight boost for fresher news: +6 for news from the send day or the day before, -1 per older day (min 0)."""
+        age = (datetime.date.fromisoformat(send_day) - datetime.date.fromisoformat(n["publishedAt"])).days
+        return max(0, 6 - max(0, age - 1))
+    def weight(n): return (n.get("aiScore") or 0) + recency(n)
 
     elig = [dict(n, id=k, likes=likes.get(k,0)) for k, n in news.items() if valid(n) and k not in sent and n["publishedAt"] >= ws]
-    by_votes = sorted([n for n in elig if n["likes"] >= X], key=lambda n: (-n["likes"], -(n.get("aiScore") or 0)))[:mx]
+    by_votes = sorted([n for n in elig if n["likes"] >= X], key=lambda n: (-n["likes"], -weight(n)))[:mx]
     for n in by_votes: n["origin"] = "votes"
     items = list(by_votes)
     if len(items) < mn:
@@ -93,7 +99,7 @@ def main():
         if forced:
             fill = [pool[i] for i in forced if i in pool]
         else:
-            fill = sorted(pool.values(), key=lambda n: (-tier(n), -(n.get("aiScore") or 0), [-ord(c) for c in n["publishedAt"]]))
+            fill = sorted(pool.values(), key=lambda n: (-tier(n), -weight(n), [-ord(c) for c in n["publishedAt"]]))
         for n in fill[: mn - len(items)]:
             n["origin"] = "ai"; items.append(n)
 
@@ -184,7 +190,7 @@ def main():
            "byVotes": len(by_votes), "subject": subject,
            "previewText": " · ".join(n["title"] for n in items[1:3])[:140],
            "items": [{"id": n["id"], "title": n["title"], "source": n["source"], "likes": n["likes"], "aiScore": n.get("aiScore"), "origin": n["origin"]} for n in items],
-           "candidates": [{"id": n["id"], "title": n["title"], "likes": n["likes"], "iagImpact": n.get("iagImpact"), "europe": bool(n.get("europe")), "aiScore": n.get("aiScore"), "publishedAt": n["publishedAt"]} for n in sorted(elig, key=lambda n: (-n["likes"], -tier(n), -(n.get("aiScore") or 0)))]}
+           "candidates": [{"id": n["id"], "title": n["title"], "likes": n["likes"], "iagImpact": n.get("iagImpact"), "europe": bool(n.get("europe")), "aiScore": n.get("aiScore"), "recencyBoost": recency(n), "publishedAt": n["publishedAt"]} for n in sorted(elig, key=lambda n: (-n["likes"], -tier(n), -weight(n)))]}
     json.dump(sel, open(os.path.join(out, "selection.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     open(os.path.join(out, "email.html"), "w", encoding="utf-8").write(doc)
     open(os.path.join(out, "email.txt"), "w", encoding="utf-8").write(text)

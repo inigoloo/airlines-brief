@@ -440,7 +440,9 @@ function tally(){
 // Priority tiers (IAG direct > IAG indirect > Europe) only lift news of real industry/economic weight (aiScore >= 60);
 // minor news (consumer promos, onboard products, anniversaries) rank by importance alone.
 function tier(n){ if((n.aiScore||0) < 60) return 0; return n.iagImpact === "directo" ? 3 : n.iagImpact === "indirecto" ? 2 : n.europe ? 1 : 0; }
-function prio(n){ return tier(n)*101 + (n.aiScore||0); }
+// Slight boost for fresher news (+6 for today/yesterday, -1 per older day), same rule as the newsletter.
+function recencyBoost(n){ const age = Math.round((Date.parse(todayISO()) - Date.parse(n.publishedAt||"1970-01-01")) / 864e5); return Math.max(0, 6 - Math.max(0, age - 1)); }
+function prio(n){ return tier(n)*101 + (n.aiScore||0) + recencyBoost(n); }
 function sentIds(){ const s = new Set(); state.editions.forEach(e => (e.newsIds||[]).forEach(id => s.add(id))); return s; }
 function windowStart(){
   const last = state.editions.map(e => e.sentAt||"").sort().pop();
