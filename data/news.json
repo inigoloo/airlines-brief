@@ -1847,5 +1847,265 @@
   },
   "addedAt": "2026-10-27T06:53:27Z",
   "addedBy": "claude"
+ },
+ {
+  "id": "iag-engine-tech-itochu",
+  "title": "Iberia incorpora a la japonesa ITOCHU como socio minoritario de IAG Engine Tech, su nuevo negocio de motores",
+  "category": "STR",
+  "publishedAt": "2026-10-27",
+  "source": "Grupo Iberia",
+  "url": "https://grupo.iberia.es/news/27102026/iag-engine-tech-incorporar-a-itochu-como-socio-minoritario-estratgico",
+  "summary": "Iberia firmó el 27 de octubre un acuerdo para que ITOCHU Corporation adquiera una participación minoritaria en IAG Engine Tech (IET), la sociedad de mantenimiento de motores creada en 2026 dentro de IAG. La entrada, cuyo porcentaje e importe no se han comunicado, está sujeta a autorizaciones y se prevé para principios de 2027, cuando IET empezará a operar en La Muñoza (Madrid).",
+  "body": [
+   {
+    "t": "Iberia anunció el 27 de octubre de 2026 la firma de un acuerdo con ITOCHU Corporation para que la compañía japonesa adquiera una participación minoritaria en IAG Engine Tech, S.L. (IET). IET se constituyó en 2026 como empresa especializada en mantenimiento de motores dentro de IAG, que mantendrá la participación mayoritaria a través de Iberia. Ni el comunicado ni Aviation Week detallan el porcentaje ni el importe de la operación.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La entrada de ITOCHU en el capital está sujeta a las autorizaciones regulatorias y consentimientos necesarios y se prevé para principios de 2027, cuando IET comenzará también sus operaciones de mantenimiento de motores en las instalaciones de La Muñoza, en Madrid. Según Aviation Week, la nueva sociedad asumirá el trabajo de Iberia Mantenimiento en esas instalaciones y estará orientada al negocio con terceros.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "IET trabajará con motores V2500, CFM56 y PW1100G-JM (GTF) y, con la licencia CFM LEAP Premier MRO anunciada en abril, también con el LEAP. Según Iberia, esa licencia situará a IET entre los ocho proveedores autorizados a nivel mundial para el mantenimiento de estos motores, y la compañía estima que el LEAP representará alrededor del 70% del mercado de aviones de pasillo único en 2035.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "ITOCHU, fundada en 1858, es una de las principales sogo shosha de Japón, con unas 90 oficinas en 60 países y actividad en aeronáutica en el leasing de aviones y la posventa de aviones y motores. Aviation Week recuerda que en agosto de 2026 compró el 50% de TC Skyward Aviation U.S., que gestiona junto a Tokyo Century, y que en 2024 invirtió en la irlandesa Killick Aerospace.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "«Este proyecto forma parte de la transformación de nuestro negocio de mantenimiento», afirmó Marco Sansavini, presidente y CEO de Iberia, que vinculó la operación al Plan de Vuelo 2030. Según Aviation Week, Sansavini describió a ITOCHU como «un socio con experiencia, capacidad de inversión y una fuerte presencia internacional».",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Grupo Iberia",
+    "url": "https://grupo.iberia.es/news/27102026/iag-engine-tech-incorporar-a-itochu-como-socio-minoritario-estratgico",
+    "date": "2026-10-27"
+   },
+   {
+    "name": "Aviation Week",
+    "url": "https://aviationweek.com/mro/aircraft-propulsion/japans-itochu-takes-stake-new-iag-engine-business",
+    "date": "2026-10-27"
+   }
+  ],
+  "why": "IAG convierte el taller de motores de Iberia en una sociedad propia con un socio inversor y orientada a terceros, en el segmento LEAP que Iberia considera clave para el mantenimiento de pasillo único. Es una vía de ingresos para el grupo fuera del transporte de pasajeros, con arranque previsto a principios de 2027.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 66,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/10c07adb-9e1c-4983-8096-1fde206c6b27.jpeg",
+  "imageId": "iag-engine-tech-itochu",
+  "photoSource": "Aviation Week (IAG Engine Tech)",
+  "addedAt": "2026-10-28T06:55:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "boeing-3t-2026",
+  "title": "Boeing reduce su pérdida a 116 M$ en el 3T y eleva su cartera a un récord de 745.000 M$",
+  "category": "FLT",
+  "publishedAt": "2026-10-27",
+  "source": "Boeing (SEC)",
+  "url": "https://www.sec.gov/Archives/edgar/data/0000012927/000162828026067411/a202609sep308kprex991.htm",
+  "summary": "Boeing ingresó 24.200 millones de dólares en el tercer trimestre de 2026 (+4%) y perdió 116 millones, frente a 5.300 millones un año antes. Entregó 161 aviones comerciales, sumó 300 pedidos netos y su cartera total alcanza un récord de 745.000 millones; el 737-10 obtuvo la certificación en octubre.",
+  "body": [
+   {
+    "t": "Boeing presentó el 27 de octubre sus resultados del tercer trimestre de 2026: ingresos de 24.188 millones de dólares, un 4% más que un año antes, y una pérdida neta de 116 millones (0,26 dólares por acción), frente a la pérdida de 5.300 millones del mismo periodo de 2025, que incluía un fuerte cargo por el 777X. La pérdida básica (core) por acción fue de 0,34 dólares.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El flujo de caja operativo fue de 1.496 millones de dólares y el flujo de caja libre, de 464 millones, pese a unos 700 millones en pagos ligados al acuerdo con el Departamento de Justicia de EE. UU., según AeroTime. La compañía cerró el trimestre con 20.700 millones en caja e inversiones y una deuda de 45.900 millones.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La división Commercial Airplanes entregó 161 aviones, 124 de ellos 737, uno más que un año antes, e ingresó 10.720 millones de dólares con un margen operativo del -6,5%. Registró 300 pedidos netos, entre ellos de Turkish Airlines, Ethiopian Airlines y Lufthansa, y su cartera supera los 6.300 aviones, valorados en un récord de 612.000 millones. La cartera total del grupo alcanza los 745.000 millones.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "En los programas, el 737-7 recibió la certificación de tipo enmendada de la FAA y el 737-10 fue certificado en octubre. El 737 avanza hacia una producción estabilizada de 47 aviones al mes y, según AeroTime, el 787 se mantiene en ocho al mes; el 777X sigue en camino para su primera entrega en 2027.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "«Los hitos recientes, incluida la certificación del 737-7 y el 737-10, [...] son pasos importantes a medida que seguimos avanzando. Pero no hemos terminado», afirmó Kelly Ortberg, presidente y consejero delegado de Boeing, que añadió que la compañía sigue centrada en la seguridad y la calidad.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Boeing (SEC, formulario 8-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000012927/000162828026067411/a202609sep308kprex991.htm",
+    "date": "2026-10-27"
+   },
+   {
+    "name": "AeroTime",
+    "url": "https://www.aerotime.aero/articles/boeing-q3-2026-results-record-backlog-737-7-and-737-10-certified-loss-narrows",
+    "date": "2026-10-27"
+   }
+  ],
+  "why": "La certificación del 737-10 y la estabilización del ritmo del 737 marcan cuándo podrán recibir aviones las aerolíneas con pedidos pendientes, y una cartera récord de más de 6.300 aviones indica que la capacidad de producción seguirá siendo escasa. El calendario del 777X (primera entrega en 2027) condiciona los planes de largo radio de sus clientes.",
+  "aiScore": 82,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/5bfa0e9c-5d08-4810-9e0d-68f23bbcf7db.jpeg",
+  "imageId": "boeing-3t-2026",
+  "photoSource": "AeroTime",
+  "addedAt": "2026-10-28T06:55:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "finnair-3t-2026",
+  "title": "Finnair eleva a 84 M€ su resultado operativo comparable del 3T y mejora su guía para 2026 pese al queroseno",
+  "category": "FIN",
+  "publishedAt": "2026-10-27",
+  "source": "Travel PR News",
+  "url": "https://travelprnews.com/article/finnairs-third-quarter-profit-climbs-as-passenger-and-cargo-demand-strengthen/",
+  "summary": "Finnair ingresó 953,2 millones de euros en el tercer trimestre (+14,2%) y su resultado operativo comparable subió a 84 millones, desde 50,7 millones. Su guía para 2026, elevada el 13 de octubre, prevé 3.500-3.600 millones de ingresos y 175-220 millones de resultado operativo comparable, pese a un queroseno un 84,4% más caro.",
+  "body": [
+   {
+    "t": "Finnair publicó el 27 de octubre sus resultados del tercer trimestre de 2026: los ingresos crecieron un 14,2%, hasta 953,2 millones de euros, y el resultado operativo comparable subió hasta 84,0 millones, desde 50,7 millones un año antes. El beneficio por acción fue de 0,29 euros, frente a 0,15 euros.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La aerolínea transportó 3,5 millones de pasajeros (+7,0%) con un factor de ocupación del 81,8%, 2,0 puntos más. Según Investing.com, el ingreso por asiento-kilómetro (RASK) subió un 12,4%, hasta 8,96 céntimos de euro, y el coste unitario (CASK) se situó en 8,17 céntimos, de los que 2,52 corresponden al combustible.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El combustible fue la partida de coste que más creció, con un precio del queroseno un 84,4% superior al de un año antes. «Aquí se ve claramente que el mayor precio efectivo del combustible es el componente de coste que más ha crecido», afirmó la directora financiera, Pia Aaltonen-Forsell. Finnair tiene cubierto el 73% del consumo del cuarto trimestre a una media de 757 dólares por tonelada, porcentaje que baja al 26% en el tercer trimestre de 2027 y al 13% en el cuarto.",
+    "s": [
+     2
+    ]
+   },
+   {
+    "t": "Según Travel PR News, una variación del 10% en el precio del combustible afectaría en unos 63 millones de euros al resultado operativo comparable de los 12 meses siguientes, tras coberturas. Investing.com añade que el periodo de comparación incluía huelgas con un coste de unos 18 millones; sin ellas, la mejora subyacente fue de 33 millones.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Finnair ya había elevado el 13 de octubre su previsión para 2026: ingresos de 3.500 a 3.600 millones de euros (antes, 3.400-3.500) y resultado operativo comparable de 175 a 220 millones (antes, 120-190), con una capacidad en torno a un 1% superior y un 7% más de pasajeros. Según Investing.com, la compañía prevé un crecimiento anual compuesto de la capacidad de alrededor del 4% hasta 2029.",
+    "s": [
+     1,
+     2,
+     3
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Travel PR News",
+    "url": "https://travelprnews.com/article/finnairs-third-quarter-profit-climbs-as-passenger-and-cargo-demand-strengthen/",
+    "date": "2026-10-27"
+   },
+   {
+    "name": "Investing.com",
+    "url": "https://www.investing.com/news/company-news/finnair-q3-2026-slides-revenue-jumps-14-as-yields-offset-fuel-surge-93CH-4975311",
+    "date": "2026-10-27"
+   },
+   {
+    "name": "Investing.com / Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/finnair-shares-hit-three-week-073841546.html",
+    "date": "2026-10-13"
+   }
+  ],
+  "why": "Finnair muestra que una aerolínea europea puede mejorar márgenes con el queroseno disparado si los ingresos unitarios suben más que los costes (RASK +12,4%). Su cobertura cae con fuerza en 2027, un riesgo que comparten otras aerolíneas europeas.",
+  "europe": true,
+  "aiScore": 66,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/3f51c30d-441a-4297-a89f-f0c4257c4997.jpeg",
+  "imageId": "finnair-3t-2026",
+  "photoSource": "Travel PR News",
+  "addedAt": "2026-10-28T06:55:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "klm-dubai-2027",
+  "title": "KLM no volverá a Dubái hasta marzo de 2027 y mantiene suspendidas Riad y Dammam hasta finales de noviembre",
+  "category": "NET",
+  "publishedAt": "2026-10-27",
+  "source": "NL Times",
+  "url": "https://nltimes.nl/2026/10/27/klm-cancels-dubai-flights-six-months-war-concerns",
+  "summary": "KLM ha renunciado a volver a Dubái este otoño y no operará Ámsterdam–Dubái hasta el 27 de marzo de 2027; Riad y Dammam siguen suspendidas al menos hasta el 27 de noviembre. La aerolínea esperaba reanudar las tres rutas en octubre y alega, en parte, la posibilidad de destinar la flota a otros destinos.",
+  "body": [
+   {
+    "t": "KLM ha decidido no retomar este otoño sus vuelos entre Ámsterdam y Dubái y no volará a ese destino hasta el 27 de marzo de 2027, según la información de su web recogida por NL Times el 27 de octubre. Los vuelos a Riad y Dammam, en Arabia Saudí, siguen cancelados al menos hasta el 27 de noviembre de 2026; la aerolínea esperaba reanudar las tres rutas en octubre.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "KLM no vuela a Dubái desde comienzos de 2026 y ha ido aplazando la reanudación. Según un portavoz citado por ambos medios, la prolongación permite en parte destinar la flota a otras rutas. NL Times vincula la decisión a la guerra en Oriente Medio y a la inestabilidad por los ataques hutíes, incluido el ataque al aeropuerto de Riad.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Según Reuters, citado por Aviation A2Z, el aeropuerto de Riad detuvo sus operaciones el 10 de octubre tras un ataque reivindicado por los hutíes que causó 13 muertos, y reabrió parcialmente el 25 de octubre, tras unas dos semanas cerrado.",
+    "s": [
+     2
+    ]
+   },
+   {
+    "t": "KLM no es la única: el grupo Lufthansa anunció el 23 de octubre que retrasa su regreso a Dubái al 25 de noviembre; Lufthansa y SWISS tenían previsto volver el 25 de octubre y Eurowings el 1 de noviembre, tras estar suspendidas desde marzo. NL Times señala que muchas aerolíneas europeas han dejado de volar a Dubái y que los viajeros son derivados a menudo a Emirates.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "NL Times",
+    "url": "https://nltimes.nl/2026/10/27/klm-cancels-dubai-flights-six-months-war-concerns",
+    "date": "2026-10-27"
+   },
+   {
+    "name": "Aviation A2Z",
+    "url": "https://aviationa2z.com/index.php/2026/10/28/klm-will-no-longer-fly-to-dubai/",
+    "date": "2026-10-28"
+   }
+  ],
+  "why": "Los grandes grupos europeos siguen fuera de Dubái y del Golfo, lo que, según NL Times, desvía tráfico hacia Emirates y obliga a recolocar capacidad de largo radio en otras rutas, con efecto sobre la oferta y las tarifas en otros mercados.",
+  "europe": true,
+  "aiScore": 55,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/772e5b70-fc6c-43a4-a905-b5c07ef41b7d.jpeg",
+  "imageId": "klm-dubai-2027",
+  "photoSource": "NL Times",
+  "addedAt": "2026-10-28T06:55:00Z",
+  "addedBy": "claude"
  }
 ]
