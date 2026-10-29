@@ -2107,5 +2107,231 @@
   "photoSource": "NL Times",
   "addedAt": "2026-10-28T06:55:00Z",
   "addedBy": "claude"
+ },
+ {
+  "id": "aena-9m-2026",
+  "title": "Aena gana 1.774,7 millones hasta septiembre (+12,4%) con 257,2 millones de pasajeros en España",
+  "category": "FIN",
+  "publishedAt": "2026-10-28",
+  "source": "Aena",
+  "url": "https://www.aena.es/en/press/aena-earns-a-profit-of-1774.7-million-euros-in-the-first-nine-months-of---2026.html",
+  "summary": "Aena ganó 1.774,7 millones de euros entre enero y septiembre, un 12,4% más, con ingresos de 5.283,9 millones (+10,4%) y un ebitda de 3.077,9 millones. Sus aeropuertos españoles movieron 257,2 millones de pasajeros, un 4,1% más, por encima de su previsión anual del 3%.",
+  "body": [
+   {
+    "t": "Aena cerró los nueve primeros meses de 2026 con un beneficio neto de 1.774,7 millones de euros, un 12,4% más que los 1.579,4 millones del mismo periodo de 2025, según informó el gestor aeroportuario el 28 de octubre. Los ingresos consolidados alcanzaron 5.283,9 millones (+10,4%) y el ebitda, 3.077,9 millones (+6,8%), con un margen del 58,3%.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Los ingresos aeronáuticos sumaron 2.781,3 millones (+8,8%) y los comerciales, 1.574,1 millones (+7,4%). Los gastos operativos subieron hasta 2.187,4 millones, frente a 1.929,4 millones un año antes, con un alza del 15% en otros gastos de explotación y del 12,3% en gastos de personal. La deuda financiera neta consolidada se situó en 5.845 millones, con una ratio sobre ebitda de 1,47 veces.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El grupo, que incluye los aeropuertos españoles, Londres-Luton, Leeds Bradford y Aena Brasil, registró 309,9 millones de pasajeros (+4,1%), de los que 257,2 millones correspondieron a la red española, también un 4,1% más. Según Reuters, ese crecimiento supera la estimación anual de Aena del 3%, que la compañía elevó en julio desde el 1,3%, y alrededor del 60% de los pasajeros viajó desde o hacia otros países europeos.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Según Reuters, Aena atribuye el resultado al aumento del tráfico y de las tasas cobradas a las aerolíneas, y la agencia señala que la demanda se ha desplazado desde la primavera hacia España y otros países del sur de Europa, mientras la guerra de Irán ha reducido los viajes a Oriente Medio. El beneficio estuvo en línea con lo previsto por los analistas, pero los ingresos quedaron por debajo de la media de sus estimaciones, de 5.690 millones.",
+    "s": [
+     2
+    ]
+   },
+   {
+    "t": "Para el próximo invierno (octubre-marzo), las aerolíneas que operan en España programan 145,6 millones de asientos, un 5,5% más, según la patronal ALA citada por Reuters. En regulación, el Consejo de Ministros aprobó el 15 de septiembre el DORA III 2027-2031, que fija una senda tarifaria del +0,33% anual respecto a 2026 y una inversión total de 12.888 millones de euros.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Aena",
+    "url": "https://www.aena.es/en/press/aena-earns-a-profit-of-1774.7-million-euros-in-the-first-nine-months-of---2026.html",
+    "date": "2026-10-28"
+   },
+   {
+    "name": "Global Banking & Finance (Reuters)",
+    "url": "https://www.globalbankingandfinance.com/spanish-airport-operator-aenas-nine-month-profit-rises-12/",
+    "date": "2026-10-28"
+   },
+   {
+    "name": "Moodie Davitt Report",
+    "url": "https://moodiedavittreport.com/aena-commercial-performance-outstrips-passenger-traffic-growth-in-first-nine-months/",
+    "date": "2026-10-28"
+   }
+  ],
+  "why": "El tráfico español crece por encima de lo previsto y el DORA III fija tasas casi planas hasta 2031: un marco de costes predecible para Iberia y Vueling en Madrid y Barcelona, sus hubs.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 72,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/3b8451f0-4716-4bf9-8b4f-b9d6914a0e71.jpeg",
+  "imageId": "aena-9m-2026",
+  "photoSource": "Moodie Davitt Report",
+  "art": {
+   "kind": "big",
+   "value": "+12,4%",
+   "label": "beneficio neto de Aena hasta septiembre",
+   "sub": "1.774,7 M€"
+  },
+  "addedAt": "2026-10-29T06:53:22Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "norwegian-3t-2026",
+  "title": "Norwegian supera previsiones con 2.728 M de coronas de EBIT y recorta oferta para el 1T de 2027",
+  "category": "FIN",
+  "publishedAt": "2026-10-28",
+  "source": "Norwegian",
+  "url": "https://www.inderes.fi/en/releases/nas-norwegian-group-with-strong-third-quarter-results",
+  "summary": "Norwegian logró en el 3T un resultado operativo de 2.728 millones de coronas noruegas, con un margen del 21,4%, por encima de los 2.300 millones que esperaban los analistas. Reducirá más de un 5% la capacidad prevista para el primer trimestre de 2027.",
+  "body": [
+   {
+    "t": "El grupo Norwegian, que incluye a Norwegian y Widerøe, obtuvo en el tercer trimestre de 2026 un resultado operativo (EBIT) de 2.728 millones de coronas noruegas, con un margen del 21,4%, y un beneficio antes de impuestos de 2.520 millones, según publicó el 28 de octubre. Según Reuters, citado por Airways, los analistas consultados por la compañía esperaban 2.300 millones.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El grupo transportó 8,75 millones de pasajeros: 7,64 millones Norwegian y 1,1 millones Widerøe. Norwegian aumentó su capacidad (AKO) un 5% y alcanzó una ocupación del 88,5%, 0,2 puntos más; la regularidad de ambas aerolíneas se vio afectada por una huelga de controladores aéreos en Noruega en agosto. La liquidez al cierre del trimestre era de 11.200 millones de coronas, tras amortizar en septiembre su último bono pendiente.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Para el invierno, Norwegian ha reducido su capacidad mensual entre un 25% y un 40% respecto a octubre de 2026, aunque prevé una producción invernal ligeramente superior a la del año anterior. Según Airways, ha recortado más de un 5% la capacidad prevista para el primer trimestre de 2027, una decisión que su consejero delegado, Geir Karlsen, atribuyó, según Reuters, al alza del combustible y a la suspensión de los vuelos a Dubái y Tel Aviv.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La compañía prevé un crecimiento de capacidad de alrededor del 2% en 2026 y del 5% en 2027, y que su coste unitario sin combustible se mantenga sin cambios en 2026. Según Reuters, citado por Airways, tiene cubierto alrededor del 30% del combustible del primer trimestre de 2027. Su programa de eficiencia Program X va camino de aportar más de 1.250 millones de coronas anuales de mejora recurrente del resultado a finales de 2026.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Al cierre del trimestre, el grupo operaba 148 aviones: 98 de Norwegian, incluidos 39 Boeing 737 MAX 8 tras tres entregas en el periodo, y 50 de Widerøe. «Aunque el clima macroeconómico actual es incierto, las tendencias de reservas siguen siendo alentadoras», afirmó Karlsen. La compra de Nordic Leisure Travel Group sigue prevista para final de año, pendiente de la autorización de competencia de la UE.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Norwegian (vía Inderes)",
+    "url": "https://www.inderes.fi/en/releases/nas-norwegian-group-with-strong-third-quarter-results",
+    "date": "2026-10-28"
+   },
+   {
+    "name": "Airways Magazine",
+    "url": "https://www.airwaysmag.com/new-post/norwegian-q3-profit-early-2027-capacity",
+    "date": "2026-10-28"
+   }
+  ],
+  "why": "Incluso una aerolínea rentable y sin bonos recorta su capacidad de principios de 2027 por el combustible y los cierres en Oriente Medio: una señal de la disciplina de oferta que se extiende en Europa.",
+  "europe": true,
+  "aiScore": 66,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/8a9327aa-d93c-4705-8680-a506a194b9f8.jpeg",
+  "imageId": "norwegian-3t-2026",
+  "photoSource": "Airways Magazine",
+  "art": {
+   "kind": "big",
+   "value": "21,4%",
+   "label": "margen operativo de Norwegian en el 3T",
+   "sub": "EBIT de 2.728 M NOK"
+  },
+  "addedAt": "2026-10-29T06:53:22Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "iberia-andalucia-tope-tarifas",
+  "title": "Iberia amplía un 20% sus plazas a Andalucía y topa tarifas a 99 euros tras el accidente de Urda",
+  "category": "NET",
+  "publishedAt": "2026-10-28",
+  "source": "Iberia",
+  "url": "https://grupo.iberia.com/news/28102026/iberia-increases-capacity-on-flights-to-andalusia-and-caps-fares",
+  "summary": "Iberia ha añadido 520 plazas (un 20% más) en sus vuelos de Madrid a Málaga y Sevilla tras el accidente ferroviario de Urda (Toledo) y topa hasta el 8 de noviembre las tarifas a 99 euros en turista y 149 en business. Air Europa también suma vuelos.",
+  "body": [
+   {
+    "t": "Iberia anunció el 28 de octubre que aumenta un 20% la capacidad de sus vuelos a Andalucía, con 520 plazas adicionales, ante el aumento de demanda provocado por el accidente ferroviario de Urda (Toledo). De ellas, 362 corresponden a la ruta Madrid–Málaga y 158 a Madrid–Sevilla, y la aerolínea trabaja para añadir más capacidad en los próximos días.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Para ello, los vuelos IB507/508 (Madrid–Málaga–Madrid) e IBE611/12 (Madrid–Sevilla–Madrid) pasan a operarse con Airbus A321, y la compañía programó vuelos extra esa misma tarde: el IB049 Madrid–Málaga a las 20:00 y el IB048 Málaga–Madrid a las 22:00. Además, ha fijado un precio máximo en todos sus vuelos entre Madrid y Andalucía hasta el domingo 8 de noviembre: 99 euros por trayecto en turista y 149 euros en business.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Según El Nacional, el accidente se produjo en Urda e implicó al servicio 6076 de Iryo entre Madrid y Sevilla y a un tren de la serie 103 de Renfe. La interrupción de la línea es total: Renfe, Iryo y Ouigo han dejado de prestar servicio en el corredor sur y se han cancelado cientos de trenes para los próximos días, según el mismo medio.",
+    "s": [
+     2
+    ]
+   },
+   {
+    "t": "Air Europa operará vuelos adicionales de Madrid a Sevilla y Málaga desde el miércoles, mientras que Vueling no limitará sus tarifas porque su operativa, que conecta Barcelona con Sevilla y no sale de Madrid, no se ve afectada, según El Nacional. Aena, por su parte, canceló la presentación de sus resultados.",
+    "s": [
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Iberia",
+    "url": "https://grupo.iberia.com/news/28102026/iberia-increases-capacity-on-flights-to-andalusia-and-caps-fares",
+    "date": "2026-10-28"
+   },
+   {
+    "name": "El Nacional (ON Economia)",
+    "url": "https://www.elnacional.cat/oneconomia/es/empresas/iberia-topa-vuelos-andalucia-99-euros-air-europa-refuerza-operaciones_1717018_102.html",
+    "date": "2026-10-28"
+   }
+  ],
+  "why": "Con el corredor ferroviario sur cortado, el avión vuelve a ser la alternativa en Madrid–Andalucía; Iberia gana demanda pero renuncia a precio con el tope, en una ruta donde la alta velocidad domina.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 45,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/c36e713c-4757-469a-8ef7-3d2fc3238763.jpeg",
+  "imageId": "iberia-andalucia-tope-tarifas",
+  "photoSource": "El Nacional (Europa Press)",
+  "art": {
+   "kind": "route",
+   "title": "Madrid–Andalucía",
+   "badge": "+520 plazas",
+   "points": [
+    {
+     "code": "AGP",
+     "city": "Málaga",
+     "lat": 36.67,
+     "lon": -4.49
+    },
+    {
+     "code": "MAD",
+     "city": "Madrid",
+     "lat": 40.47,
+     "lon": -3.56
+    },
+    {
+     "code": "SVQ",
+     "city": "Sevilla",
+     "lat": 37.42,
+     "lon": -5.89
+    }
+   ]
+  },
+  "addedAt": "2026-10-29T06:53:22Z",
+  "addedBy": "claude"
  }
 ]
