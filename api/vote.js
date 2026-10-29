@@ -1,5 +1,5 @@
 // POST /api/vote  { uid, v: { "<newsId>": 1, ... } }  -> stores this voter's likes (like-only).
-const { redis } = require("./_redis");
+const { writeVoter } = require("./_store");
 let ids = null, idsAt = 0;
 async function newsIds(req){
   if(ids && Date.now() - idsAt < 60000) return ids;
@@ -17,8 +17,7 @@ module.exports = async (req, res) => {
     const known = await newsIds(req);
     const v = {};
     for(const [k, val] of Object.entries(body.v || {})) if(val === 1 && known.has(k)) v[k] = 1;
-    if(Object.keys(v).length) await redis(["HSET", "votes", uid, JSON.stringify(v)]);
-    else await redis(["HDEL", "votes", uid]);
+    await writeVoter(uid, v);
     res.status(200).json({ ok: true, v });
   }catch(e){
     res.status(e.code === "NO_DB" ? 503 : 500).json({ error: e.message });
