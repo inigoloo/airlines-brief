@@ -12,8 +12,8 @@ Rule (same as the portal):
   - Candidates: valid news (title, source, https URL, date) not used in a previous
     edition and published in the 7 days before the send date (windowDays in config).
   - Ordering weight = aiScore + a slight recency boost (+6 for the last two days, -1 per older day).
-  - By votes: candidates with likes >= threshold (default 3, i.e. "more than 2"),
-    most liked first, at most maxItems (default 6).
+  - By votes: candidates with likes >= threshold (default 2),
+    most liked first (ties: priority tier, then aiScore + recency), at most maxItems (default 6).
   - If fewer than minItems (default 4): fill with the most important remaining
     candidates by priority tier (IAG direct > IAG indirect > Europe > rest),
     then aiScore. --ids overrides the AI fill with an explicit
@@ -94,7 +94,7 @@ def main():
     news = load(os.path.join(db, "news"))
     votes = load(os.path.join(db, "votes"))
     editions = load(os.path.join(db, "editions"))
-    cfg = {"threshold":3, "minItems":4, "maxItems":6, "nextSend":"", "cadenceDays":14, "portalUrl":""}
+    cfg = {"threshold":2, "minItems":4, "maxItems":6, "nextSend":"", "cadenceDays":14, "portalUrl":""}
     sf = os.path.join(db, "config", "settings.json")
     if os.path.exists(sf):
         s = json.load(open(sf, encoding="utf-8")); cfg.update(s.get("data", s) if "data" in s and isinstance(s.get("data"), dict) else s)
@@ -115,7 +115,7 @@ def main():
     def weight(n): return (n.get("aiScore") or 0) + recency(n)
 
     elig = [dict(n, id=k, likes=likes.get(k,0)) for k, n in news.items() if valid(n) and k not in sent and n["publishedAt"] >= ws]
-    by_votes = sorted([n for n in elig if n["likes"] >= X], key=lambda n: (-n["likes"], -weight(n)))[:mx]
+    by_votes = sorted([n for n in elig if n["likes"] >= X], key=lambda n: (-n["likes"], -tier(n), -weight(n)))[:mx]
     for n in by_votes: n["origin"] = "votes"
     items = list(by_votes)
     if len(items) < mn:

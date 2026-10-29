@@ -420,7 +420,7 @@ const todayISO = () => new Date().toISOString().slice(0,10);
 try{ $("#dateline").textContent = new Date().toLocaleDateString("es-ES",{weekday:"long",day:"numeric",month:"long",year:"numeric"}); }catch(e){}
 
 const state = {
-  news: [], votes: {}, mine: {}, cfg: {threshold:3,minItems:6,maxItems:6,nextSend:"",portalUrl:"",cadenceDays:7},
+  news: [], votes: {}, mine: {}, cfg: {threshold:2,minItems:6,maxItems:6,nextSend:"",portalUrl:"",cadenceDays:7},
   editions: [], sources: [], uid: null, canVote: false, canEdit: false, db: null,
   section: "ALL", sort: (()=>{ try{ const v = localStorage.getItem("brief-sort"); return ["front","recent","votes","relevant"].includes(v) ? v : "front"; }catch(e){ return "front"; } })(), loaded: false
 };
@@ -481,11 +481,11 @@ function windowStart(){
 }
 function selection(){
   const t = tally(), sent = sentIds(), ws = windowStart();
-  const X = +state.cfg.threshold || 3, min = +state.cfg.minItems || 4, max = +state.cfg.maxItems || 6;
+  const X = +state.cfg.threshold || 2, min = +state.cfg.minItems || 4, max = +state.cfg.maxItems || 6;
   const net = n => { const c = t[n.id]||{up:0,down:0}; return c.up - c.down; };
   const elig = state.news.filter(n => isValid(n) && !sent.has(n.id) && n.publishedAt >= ws);
   const byVotes = elig.filter(n => net(n) >= X)
-    .sort((a,b) => net(b)-net(a) || (t[b.id]?.up||0)-(t[a.id]?.up||0) || (b.aiScore||0)-(a.aiScore||0))
+    .sort((a,b) => net(b)-net(a) || prio(b)-prio(a))
     .slice(0,max).map(n => ({n, origin:"votes", net:net(n)}));
   let fill = [];
   if(byVotes.length < min){
