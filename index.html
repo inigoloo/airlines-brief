@@ -131,6 +131,7 @@ main .wrap{padding-block:22px 64px}
 /* "Lo más votado": in the right page margin on wide screens, below the grid otherwise */
 /* "Lo más votado" floats only alongside the 4 front stories; it stops when "Más noticias" begins */
 .front > aside.mrail .ranking{margin:0}
+.front > aside.mrail .rail-h{font-size:13px;letter-spacing:.08em}
 .front > aside.mrail .rail{position:sticky;top:64px}
 @media (min-width:1760px){
   .front > aside.mrail{position:absolute;top:0;bottom:0;left:calc(100% + 48px);width:250px}
@@ -641,15 +642,15 @@ function renderPortal(){
   const top4 = front.slice(0,4);
   const used = new Set(top4.map(n => n.id));
   const rest = valid.filter(n => !used.has(n.id)).sort(recent);
-  const ranking = valid.slice().sort((a,b) => net(b)-net(a) || (t[b.id]?.up||0)-(t[a.id]?.up||0) || (b.aiScore||0)-(a.aiScore||0)).slice(0,5);
-  const anyVotes = ranking.some(n => (t[n.id]?.up||0) + (t[n.id]?.down||0) > 0);
+  // "Lo más votado de la semana": same weekly cycle as the newsletter (the news eligible for the next edition).
+  const ranking = sel.elig.slice().sort((a,b) => net(b)-net(a) || prio(b)-prio(a)).slice(0,5);
 
   box.innerHTML = `${sortBar("front", true)}
   <div class="front">
     <div class="seconds">${top4.map(n => story(n,t,inSel,{why:true})).join("")}</div>
     <aside class="mrail"><div class="rail">
-      <h2 class="rail-h">Lo más votado</h2>
-      <ol class="ranking">${ranking.map((n,i) => `<li><span class="n">${i+1}</span><div><a href="#noticia-${esc(n.id)}" data-art="${esc(n.id)}">${esc(n.title)}</a><div class="m">${net(n)} ${net(n)===1?"like":"likes"} · ${esc(CATS[n.category]||"")}</div></div></li>`).join("")}</ol>
+      <h2 class="rail-h">Lo más votado de la semana</h2>
+      ${ranking.length ? "" : `<p class="m" style="font-size:13px;color:var(--muted);margin:10px 0 0">Aún no hay noticias de esta semana.</p>`}<ol class="ranking">${ranking.map((n,i) => `<li><span class="n">${i+1}</span><div><a href="#noticia-${esc(n.id)}" data-art="${esc(n.id)}">${esc(n.title)}</a><div class="m">${net(n)} ${net(n)===1?"like":"likes"} · ${esc(CATS[n.category]||"")}</div></div></li>`).join("")}</ol>
     </div></aside>
   </div>
   <div class="morehead"><h2>Más noticias</h2><span class="mh-note">Las más recientes primero</span></div>
