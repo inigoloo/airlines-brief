@@ -56,11 +56,12 @@ a{color:inherit}
 .masthead h1 em{font-style:normal;color:var(--ink);background:linear-gradient(transparent 72%, var(--flap) 72%, var(--flap) 90%, transparent 90%)}
 .masthead .tag{font-family:var(--f-head);font-style:italic;color:var(--muted);font-size:15px;margin:0}
 .masthead .mh-title{display:inline-block;position:relative}
-.masthead .by-ntt{display:flex;align-items:center;justify-content:flex-end;gap:7px;margin:-2px 2px 8px 0;font-family:var(--f-head);font-style:italic;font-size:15px;color:var(--muted)}
-.masthead .by-ntt img{height:17px;width:auto;display:block}
+/* "by NTT DATA": under the title, starting near the end of "Brief" and overhanging it to the right */
+.masthead .by-ntt{display:flex;align-items:center;justify-content:flex-end;gap:.32em;margin:2px calc(-1 * clamp(28px, 5vw, 72px)) 10px 0;font-family:var(--f-head);font-weight:800;font-style:normal;font-size:clamp(18px,2.3vw,25px);line-height:1;letter-spacing:-.01em;color:var(--ink)}
+.masthead .by-ntt img{height:.82em;width:auto;display:block;transform:translateY(.04em)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .masthead .by-ntt img{filter:brightness(0) invert(1);opacity:.85}}
 :root[data-theme="dark"] .masthead .by-ntt img{filter:brightness(0) invert(1);opacity:.85}
-@media (max-width:620px){.masthead .by-ntt{font-size:13px}.masthead .by-ntt img{height:14px}}
+@media (max-width:620px){.masthead .by-ntt{font-size:17px;margin-right:0}}
 .sectionnav{border-top:3px double var(--rule);border-bottom:1px solid var(--rule);position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:5}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
 .sectionnav .wrap{display:flex;align-items:center;gap:2px;overflow-x:auto;scrollbar-width:none}
@@ -884,7 +885,7 @@ function emailHTML(items){
 <tr><td style="padding:26px 32px 14px 32px;text-align:center;border-bottom:3px double #111A27;">
   <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#5A6576;">Airlines Practice</p>
   <h1 style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:38px;line-height:42px;color:#111A27;font-weight:bold;">${portal ? `<a href="${esc(portal)}" style="color:#111A27;text-decoration:none;">The Airlines Brief</a>` : "The Airlines Brief"}</h1>
-  <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:6px auto 0 auto;"><tr><td style="font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:13px;color:#5A6576;padding-right:6px;vertical-align:middle;">by</td><td style="vertical-align:middle;"><img src="${esc(location.origin)}/img/ntt-data.png" alt="NTT DATA" width="73" height="15" style="display:block;width:73px;height:15px;border:0;"></td></tr></table>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:4px 0 0 0;"><tr><td align="right" style="padding-right:78px;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td style="font-family:Georgia,'Times New Roman',serif;font-weight:bold;font-size:18px;line-height:18px;color:#111A27;padding-right:6px;vertical-align:middle;">by</td><td style="vertical-align:middle;"><img src="${esc(location.origin)}/img/ntt-data.png" alt="NTT DATA" width="73" height="15" style="display:block;width:73px;height:15px;border:0;"></td></tr></table></td></tr></table>
   <p style="margin:6px 0 0 0;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:14px;color:#5A6576;">Actualidad, tendencias y análisis estratégico para entender qué mueve la industria aérea</p>
 </td></tr>
 <tr><td style="background:#101B2C;padding:10px 32px;font-family:'Courier New',Courier,monospace;font-size:13px;color:#F2B544;">EDICIÓN Nº ${issue}${date ? " · " + date : ""}</td></tr>
