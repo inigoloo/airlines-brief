@@ -748,18 +748,40 @@ function emailHTML(items){
   const portal = state.cfg.portalUrl || "";
   const badge = (origin, net) => origin === "votes" ? `<span style="display:inline-block;padding:2px 8px;border-radius:3px;background:#E3F3EA;color:#1B7A4B;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">&#9829; ${net} ${net===1?"voto":"votos"}</span>` : "";
   const link = n => portal ? `${portal}#noticia-${n.id}` : n.url;
-  const rows = items.map(({n, origin, net}, i) => `
-<tr><td style="padding:22px 32px 0 32px;">
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top:1px solid #D8DEE6;padding-top:18px;">
-    <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#1F4BC6;font-weight:bold;">${String(i+1).padStart(2,"0")} · ${esc(CATS[n.category]||n.category)}${origin === "votes" ? "&nbsp;&nbsp;" + badge(origin, net) : ""}</p>
-    <h2 style="margin:0 0 8px 0;font-family:Georgia,'Times New Roman',serif;font-size:21px;line-height:27px;color:#0F1A2A;font-weight:bold;"><a href="${esc(link(n))}" style="color:#0F1A2A;text-decoration:none;">${esc(n.title)}</a></h2>
-    <p style="margin:0 0 10px 0;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:23px;color:#333D4B;">${esc(n.summary)}</p>
-    ${n.why ? `<p style="margin:0 0 10px 0;padding-left:12px;border-left:3px solid #F2B544;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;color:#0F1A2A;"><b>Por qué importa:</b> ${esc(n.why)}</p>` : ""}
-    <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#566275;">${esc(n.source)} · ${fmtDate(n.publishedAt)} · <a href="${esc(link(n))}" style="color:#1F4BC6;font-weight:bold;">Leer el artículo &rarr;</a></p>
-  </td></tr></table>
-</td></tr>`).join("");
+  // Same 2-column grid as the real email (tools/brief.py). Images: the 16:9 email crop when it exists, else the story photo cropped by CSS.
+  const base = location.origin;  // images come from this same site (portal)
+  const photo = n => n.imageId
+    ? `<a href="${esc(link(n))}" style="text-decoration:none;"><img src="${esc(base)}/img/email/${esc(n.id)}.jpg" onerror="this.onerror=null;this.src='${esc(base)}/img/${esc(n.imageId)}.jpg'" width="260" alt="${esc(n.title)}" style="display:block;width:100%;max-width:260px;height:auto;aspect-ratio:16/9;object-fit:cover;border:0;margin:0 0 10px 0;"></a>`
+    : `<a href="${esc(link(n))}" style="text-decoration:none;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 10px 0;"><tr><td height="146" style="height:146px;background:#101B2C;text-align:center;vertical-align:middle;font-family:Georgia,serif;font-size:18px;color:#F2B544;">The Airlines Brief</td></tr></table></a>`;
+  const card = (i, {n, origin, net}) => `${photo(n)}
+    <p class="cl" style="margin:0 0 5px 0;font-family:Arial,Helvetica,sans-serif;font-size:10.5px;letter-spacing:2px;text-transform:uppercase;color:#1F4BC6;font-weight:bold;">${String(i+1).padStart(2,"0")} · ${esc(CATS[n.category]||n.category)}${origin === "votes" ? "&nbsp;&nbsp;" + badge(origin, net) : ""}</p>
+    <h3 class="ch" style="margin:0 0 6px 0;font-family:Georgia,'Times New Roman',serif;font-size:17px;line-height:22px;color:#0F1A2A;font-weight:bold;"><a href="${esc(link(n))}" style="color:#0F1A2A;text-decoration:none;">${esc(n.title)}</a></h3>
+    <p class="cp" style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:13.5px;line-height:20px;color:#333D4B;">${esc(n.summary)}</p>
+    ${n.why ? `<p class="cw" style="margin:0 0 10px 0;padding-left:8px;border-left:3px solid #F2B544;font-family:Arial,Helvetica,sans-serif;font-size:12.5px;line-height:18px;color:#0F1A2A;"><b>Por qué importa:</b> ${esc(n.why)}</p>` : ""}
+    <p class="cf" style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:18px;color:#566275;">${esc(n.source)} · ${fmtDate(n.publishedAt)}<br><a href="${esc(link(n))}" style="color:#1F4BC6;font-weight:bold;text-decoration:none;">Leer el artículo &rarr;</a></p>`;
+  let rows = "";
+  for(let r = 0; r < items.length; r += 2){
+    rows += `<tr><td class="px" style="padding:10px 32px 0 32px;"><div style="border-top:1px solid #D8DEE6;font-size:0;line-height:0;">&nbsp;</div></td></tr>
+<tr><td class="px" style="padding:0 32px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="table-layout:fixed;"><tr>
+  <td class="gl" width="50%" valign="top" style="width:50%;padding:16px 8px 4px 0;vertical-align:top;">${card(r, items[r])}</td>
+  <td class="gr" width="50%" valign="top" style="width:50%;padding:16px 0 4px 8px;vertical-align:top;">${items[r+1] ? card(r+1, items[r+1]) : "&nbsp;"}</td>
+</tr></table>
+</td></tr>`;
+  }
   return `<!DOCTYPE html>
-<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Airlines Brief · Nº ${issue}</title></head>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Airlines Brief · Nº ${issue}</title>
+<style>
+@media only screen and (max-width:480px){
+  .px{padding-left:14px !important;padding-right:14px !important;}
+  .gl{padding-right:6px !important;} .gr{padding-left:6px !important;}
+  .ch{font-size:14.5px !important;line-height:18px !important;}
+  .cp{font-size:12px !important;line-height:16.5px !important;}
+  .cl{font-size:9px !important;letter-spacing:1px !important;}
+  .cf{font-size:11px !important;line-height:15px !important;}
+  .cw{display:none !important;}
+}
+</style></head>
 <body style="margin:0;padding:0;background:#F2F4F7;">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#F2F4F7;"><tr><td align="center" style="padding:24px 12px;">
 <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background:#FFFFFF;">
