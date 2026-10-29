@@ -5,7 +5,7 @@ Portal interno de noticias del sector aéreo (Airlines Practice · NTT DATA), ve
 - `index.html` + `shim.js`: el portal (portada, secciones, artículos con fuentes, filtros, likes).
 - `data/*.json`: noticias, fuentes, ediciones y ajustes. Las actualiza la tarea diaria con un commit; Vercel republica solo.
 - `img/<id>.jpg`: fotos de cada noticia (servidas también como `/_blob/<id>`).
-- `api/votes.js`, `api/vote.js`: lectura y escritura de likes en Upstash Redis.
+- `api/votes.js`, `api/vote.js`: lectura y escritura de likes en Vercel Blob (store `airlines-brief-votes`, un fichero privado por votante en `votes/<uid>.json`).
 - `tools/brief.py`: genera la selección y el HTML del email quincenal.
 
 ## Configuración en Vercel (una vez)
