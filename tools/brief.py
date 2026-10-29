@@ -206,6 +206,7 @@ def main():
 <tr><td style="padding:26px 32px 14px 32px;text-align:center;border-bottom:3px double #111A27;">
   <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#5A6576;">Airlines Practice</p>
   <h1 style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:38px;line-height:42px;color:#111A27;font-weight:bold;">{('<a href="' + e(portal) + '" style="color:#111A27;text-decoration:none;">The Airlines Brief</a>') if portal else 'The Airlines Brief'}</h1>
+  {('<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:6px auto 0 auto;"><tr><td style="font-family:Georgia,' + "'Times New Roman'" + ',serif;font-style:italic;font-size:13px;color:#5A6576;padding-right:6px;vertical-align:middle;">by</td><td style="vertical-align:middle;"><img src="' + e(portal.rstrip('/')) + '/img/ntt-data.png" alt="NTT DATA" width="73" height="15" style="display:block;width:73px;height:15px;border:0;"></td></tr></table>') if portal else ''}
   <p style="margin:6px 0 0 0;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:14px;color:#5A6576;">Actualidad, tendencias y análisis estratégico para entender qué mueve la industria aérea</p>
 </td></tr>
 <tr><td style="background:#101B2C;padding:10px 32px;font-family:'Courier New',Courier,monospace;font-size:13px;color:#F2B544;">EDICIÓN Nº {issue:02d} · {fmt(date)}</td></tr>

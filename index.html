@@ -55,6 +55,12 @@ a{color:inherit}
 .masthead h1{font-family:var(--f-head);font-weight:800;font-size:clamp(38px,7.2vw,76px);line-height:1;letter-spacing:-.02em;margin:6px 0 6px}
 .masthead h1 em{font-style:normal;color:var(--ink);background:linear-gradient(transparent 72%, var(--flap) 72%, var(--flap) 90%, transparent 90%)}
 .masthead .tag{font-family:var(--f-head);font-style:italic;color:var(--muted);font-size:15px;margin:0}
+.masthead .mh-title{display:inline-block;position:relative}
+.masthead .by-ntt{display:flex;align-items:center;justify-content:flex-end;gap:7px;margin:-2px 2px 8px 0;font-family:var(--f-head);font-style:italic;font-size:15px;color:var(--muted)}
+.masthead .by-ntt img{height:17px;width:auto;display:block}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .masthead .by-ntt img{filter:brightness(0) invert(1);opacity:.85}}
+:root[data-theme="dark"] .masthead .by-ntt img{filter:brightness(0) invert(1);opacity:.85}
+@media (max-width:620px){.masthead .by-ntt{font-size:13px}.masthead .by-ntt img{height:14px}}
 .sectionnav{border-top:3px double var(--rule);border-bottom:1px solid var(--rule);position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:5}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
 .sectionnav .wrap{display:flex;align-items:center;gap:2px;overflow-x:auto;scrollbar-width:none}
@@ -62,6 +68,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .sectionnav button{font-family:var(--f-display);font-weight:600;font-size:15px;letter-spacing:.06em;text-transform:uppercase;background:none;border:0;color:var(--ink);padding:10px 12px;cursor:pointer;white-space:nowrap;border-bottom:3px solid transparent;margin-bottom:-1px}
 .sectionnav button[aria-current="true"]{border-bottom-color:var(--flap)}
 .sectionnav button:hover{color:var(--accent)}
+#nav [hidden]{display:none !important}
 .sectionnav .sep{width:1px;align-self:stretch;background:var(--line);margin:8px 8px;flex:none}
 .sectionnav .tool{color:var(--muted)}
 
@@ -208,6 +215,15 @@ main .wrap{padding-block:22px 64px}
 .river .why{font-size:13px;margin-top:8px}
 .river.cards{margin-top:4px}
 .sectionhead{border-bottom:1px solid var(--rule);padding-bottom:10px;margin-bottom:6px}
+.searchbox{display:flex;gap:8px;margin:6px 0 4px}
+.searchbox input{flex:1;min-width:0;font:15px/1.2 var(--f-body);padding:10px 14px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink)}
+.searchbox input:focus{outline:2px solid var(--ink);outline-offset:1px}
+.searchbox button{font:600 13px/1 var(--f-body);padding:8px 16px;border:1px solid var(--ink);border-radius:999px;background:var(--ink);color:var(--bg);cursor:pointer}
+.searchbox #q-clear{background:var(--surface);color:var(--ink);border-color:var(--line)}
+.searchhead{padding:12px 0 10px;border-bottom:1px solid var(--line);margin-bottom:6px}
+.searchhead h2{font-family:var(--f-display);font-weight:700;font-size:18px;letter-spacing:.06em;text-transform:uppercase;margin:0}
+.searchhead p{margin:4px 0 0;color:var(--muted);font-size:13.5px}
+.oldnote{color:var(--muted);font-size:13px;margin:18px 0 0;text-align:center}
 .sortbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;padding:12px 0 10px;border-bottom:1px solid var(--line);margin-bottom:14px}
 .sb-k{font-family:var(--f-display);font-weight:600;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 .sb-opts{display:flex;flex-wrap:wrap;gap:6px}
@@ -311,7 +327,7 @@ footer.foot{border-top:3px double var(--rule);padding-block:14px 30px;font-size:
 <div class="topbar"><div class="wrap"><span class="dl" id="dateline">—</span><span class="tr"><span class="ed" id="edline">Semanal · Market Intelligence</span><span class="ntt" role="img" aria-label="NTT DATA"></span></span></div></div>
 <header class="masthead wrap">
   <div class="pre">Airlines Practice</div>
-  <h1>The Airlines <em>Brief</em></h1>
+  <div class="mh-title"><h1>The Airlines <em>Brief</em></h1><div class="by-ntt">by <img src="img/ntt-data.png" alt="NTT DATA" width="351" height="72"></div></div>
   <p class="tag">Actualidad, tendencias y análisis estratégico para entender qué mueve la industria aérea</p>
 </header>
 <nav class="sectionnav" aria-label="Secciones">
@@ -348,6 +364,11 @@ footer.foot{border-top:3px double var(--rule);padding-block:14px 30px;font-size:
           <div class="full actions"><button class="btn" type="submit" id="a-submit">Publicar en el portal</button><span id="a-msg" class="toast"></span></div>
         </form>
       </details>
+      <form id="searchform" class="searchbox" role="search" autocomplete="off">
+        <input id="q" type="search" placeholder="Buscar en todas las noticias…" aria-label="Buscar noticias" autocomplete="off" spellcheck="false">
+        <button type="submit">Buscar</button>
+        <button type="button" id="q-clear" hidden>Limpiar</button>
+      </form>
       <div id="portal"><div class="empty">Cargando noticias…</div></div>
     </section>
 
@@ -423,15 +444,33 @@ try{ $("#dateline").textContent = new Date().toLocaleDateString("es-ES",{weekday
 const state = {
   news: [], votes: {}, mine: {}, cfg: {threshold:2,minItems:6,maxItems:6,nextSend:"",portalUrl:"",cadenceDays:7},
   editions: [], sources: [], uid: null, canVote: false, canEdit: false, db: null,
-  section: "ALL", sort: (()=>{ try{ const v = localStorage.getItem("brief-sort"); return ["front","recent","votes","relevant"].includes(v) ? v : "front"; }catch(e){ return "front"; } })(), loaded: false
+  q: "", section: "ALL", sort: (()=>{ try{ const v = localStorage.getItem("brief-sort"); return ["front","recent","votes","relevant"].includes(v) ? v : "front"; }catch(e){ return "front"; } })(), loaded: false
 };
 let downloads = null, assets = null;
 
 /* ---------- Navigation ---------- */
 const VIEWS = ["portal","edicion","fuentes","historial","articulo"];
+/* Admin-only views (Próxima edición, Fuentes, Historial): hidden unless this browser was opened once with ?admin=<key>.
+   Light protection to keep them out of sight of normal readers; ?admin=off removes it. */
+const ADMIN_VIEWS = ["edicion","fuentes","historial"], ADMIN_HASH = "dd5000a19b9bbdeea6068b24f3980c88c3f54f34894801566dfe483f1791ef58";
+let isAdmin = false;
+try{ isAdmin = localStorage.getItem("brief-admin") === ADMIN_HASH; }catch(e){}
+function applyAdmin(){ document.querySelectorAll("#nav .tool, #nav .sep").forEach(el => el.hidden = !isAdmin); }
+applyAdmin();
+(async function adminFromURL(){
+  const k = new URLSearchParams(location.search).get("admin");
+  if(k === null) return;
+  if(k === "off"){ try{ localStorage.removeItem("brief-admin"); }catch(e){} isAdmin = false; }
+  else if(crypto && crypto.subtle){
+    const h = [...new Uint8Array(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(k)))].map(b => b.toString(16).padStart(2,"0")).join("");
+    if(h === ADMIN_HASH){ try{ localStorage.setItem("brief-admin", h); }catch(e){} isAdmin = true; }
+  }
+  try{ history.replaceState(null, "", location.pathname + location.hash); }catch(e){}
+  applyAdmin();
+})();
 let view = "portal";
 function go(v, sec){
-  if(!VIEWS.includes(v)) v = "portal";
+  if(!VIEWS.includes(v) || (ADMIN_VIEWS.includes(v) && !isAdmin)) v = "portal";
   view = v; if(sec) state.section = sec;
   VIEWS.forEach(x => $("#v-"+x).hidden = x !== v);
   document.querySelectorAll("#nav button").forEach(b => {
@@ -450,7 +489,7 @@ document.addEventListener("click", e => {
   const b = e.target.closest("[data-view],[data-sec]");
   if(!b || b.closest(".item-vote")) return;
   if(b.dataset.view){ go(b.dataset.view); window.scrollTo({top:0}); }
-  else if(b.dataset.sec){ go("portal", b.dataset.sec); window.scrollTo({top:0}); }
+  else if(b.dataset.sec){ if(state.q){ state.q = ""; $("#q").value = ""; $("#q-clear").hidden = true; } go("portal", b.dataset.sec); window.scrollTo({top:0}); }
 });
 (function initHash(){
   const h = (location.hash||"").replace("#","").toLowerCase();
@@ -621,6 +660,15 @@ function renderPortal(){
   const CMP = {recent, votes: byVotes, relevant: byRelevance};
   const listHTML = items => `<div class="river cards">${items.map(n => story(n,t,inSel,{why:true})).join("")}</div>`;
 
+  if(state.q){
+    const all = state.news.filter(isValid);
+    const {items, exact} = searchNews(all, state.q);
+    box.innerHTML = `<div class="searchhead"><h2>Resultados de «${esc(state.q)}»</h2><p>${items.length ? (exact ? `${items.length} ${items.length===1?"noticia contiene":"noticias contienen"} estas palabras, de más a menos parecida.` : "No hay noticias con todas estas palabras; estas son las más parecidas.") : "No hay noticias que se parezcan a esta búsqueda."} Se busca en todas las noticias guardadas.</p></div>
+      ${items.length ? listHTML(items) : ""}`;
+    equalizeCards();
+    return;
+  }
+
   if(state.section !== "ALL"){
     const mode = state.sort === "front" ? "recent" : state.sort;
     const items = valid.filter(n => n.category === state.section).sort(CMP[mode]);
@@ -654,7 +702,8 @@ function renderPortal(){
     </div></aside>
   </div>
   <div class="morehead"><h2>Más noticias</h2><span class="mh-note">Las más recientes primero</span></div>
-  <div class="river">${rest.map(n => story(n,t,inSel)).join("")}</div>`;
+  <div class="river">${rest.map(n => story(n,t,inSel)).join("")}</div>
+  <p class="oldnote">Las noticias de hace más de 14 días no aparecen en la portada ni en las secciones: encuéntralas con el buscador.</p>`;
   equalizeCards();
 }
 function equalizeCards(){
@@ -684,6 +733,52 @@ function equalizeCards(){
   });
 }
 window.addEventListener("resize", () => { clearTimeout(window.__eq); window.__eq = setTimeout(equalizeCards, 150); });
+/* ---------- Search (all stored news; no autocomplete: runs on submit) ---------- */
+const fold = s => String(s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+const STOP = new Set("de la el los las un una unos unas y o en a al del por para con sin que se su sus es lo como mas más le les ya".split(" "));
+function lev(a, b, max){
+  if(Math.abs(a.length - b.length) > max) return max + 1;
+  let prev = Array.from({length: b.length + 1}, (_, i) => i);
+  for(let i = 1; i <= a.length; i++){
+    const cur = [i]; let best = i;
+    for(let j = 1; j <= b.length; j++){ cur[j] = Math.min(prev[j] + 1, cur[j-1] + 1, prev[j-1] + (a[i-1] === b[j-1] ? 0 : 1)); best = Math.min(best, cur[j]); }
+    if(best > max) return max + 1;
+    prev = cur;
+  }
+  return prev[b.length];
+}
+function searchNews(list, q){
+  const terms = fold(q).split(/[^a-z0-9ñ]+/).filter(w => w && !STOP.has(w));
+  if(!terms.length) return {items: [], exact: true};
+  const scored = list.map(n => {
+    const fields = [[fold(n.title), 10], [fold(n.summary) + " " + fold(n.why), 5], [fold(n.source) + " " + fold(CATS[n.category]), 4], [fold((n.body||[]).map(p => p.t).join(" ")), 2]];
+    let score = 0, all = true;
+    terms.forEach(term => {
+      let best = 0;
+      fields.forEach(([text, w]) => {
+        if(text.includes(term)){ best = Math.max(best, w); return; }
+        if(term.length < 4) return;
+        const tol = term.length >= 8 ? 2 : 1;
+        if(text.split(/[^a-z0-9ñ]+/).some(word => word.length >= 3 && lev(term, word, tol) <= tol)) best = Math.max(best, w * 0.6);
+      });
+      if(!best) all = false;
+      score += best;
+    });
+    return {n, score, all};
+  }).filter(x => x.score > 0);
+  const recentFirst = (a, b) => b.score - a.score || b.n.publishedAt.localeCompare(a.n.publishedAt);
+  const exact = scored.filter(x => x.all).sort(recentFirst);
+  if(exact.length) return {items: exact.map(x => x.n), exact: true};
+  return {items: scored.sort(recentFirst).slice(0, 12).map(x => x.n), exact: false};
+}
+$("#searchform").addEventListener("submit", e => {
+  e.preventDefault();
+  state.q = $("#q").value.trim();
+  $("#q-clear").hidden = !state.q;
+  if(view !== "portal" || state.section !== "ALL") go("portal", "ALL"); else renderPortal();
+});
+$("#q-clear").addEventListener("click", () => { $("#q").value = ""; state.q = ""; $("#q-clear").hidden = true; renderPortal(); });
+
 const SORTS = {
   front:    ["Portada", "La portada del diario: las noticias destacadas y el resto, de más reciente a más antigua."],
   recent:   ["Más recientes", "Ordenadas por fecha de publicación, de la más nueva a la más antigua."],
@@ -789,6 +884,7 @@ function emailHTML(items){
 <tr><td style="padding:26px 32px 14px 32px;text-align:center;border-bottom:3px double #111A27;">
   <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#5A6576;">Airlines Practice</p>
   <h1 style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:38px;line-height:42px;color:#111A27;font-weight:bold;">${portal ? `<a href="${esc(portal)}" style="color:#111A27;text-decoration:none;">The Airlines Brief</a>` : "The Airlines Brief"}</h1>
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:6px auto 0 auto;"><tr><td style="font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:13px;color:#5A6576;padding-right:6px;vertical-align:middle;">by</td><td style="vertical-align:middle;"><img src="${esc(location.origin)}/img/ntt-data.png" alt="NTT DATA" width="73" height="15" style="display:block;width:73px;height:15px;border:0;"></td></tr></table>
   <p style="margin:6px 0 0 0;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:14px;color:#5A6576;">Actualidad, tendencias y análisis estratégico para entender qué mueve la industria aérea</p>
 </td></tr>
 <tr><td style="background:#101B2C;padding:10px 32px;font-family:'Courier New',Courier,monospace;font-size:13px;color:#F2B544;">EDICIÓN Nº ${issue}${date ? " · " + date : ""}</td></tr>
