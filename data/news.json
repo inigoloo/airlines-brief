@@ -2333,5 +2333,226 @@
   },
   "addedAt": "2026-10-29T06:53:22Z",
   "addedBy": "claude"
+ },
+ {
+  "id": "airbus-9m-2026",
+  "category": "FLT",
+  "publishedAt": "2026-10-28",
+  "source": "Airbus",
+  "url": "https://www.airbus.com/en/newsroom/press-releases/2026-10-airbus-reports-nine-month-9m-2026-results",
+  "title": "Airbus eleva un 7% sus ingresos hasta septiembre y mantiene el objetivo de 870 entregas en 2026",
+  "summary": "Airbus entregó 547 aviones comerciales en los nueve primeros meses de 2026 (507 un año antes) e ingresó 50.600 millones de euros, un 7% más, con un beneficio neto de 3.587 millones. Mantiene su guía anual: unas 870 entregas y un EBIT ajustado de unos 7.500 millones.",
+  "body": [
+   {
+    "t": "Airbus publicó el 28 de octubre sus resultados de los nueve primeros meses de 2026, en los que entregó 547 aviones comerciales, frente a 507 en el mismo periodo de 2025, y mantuvo sin cambios sus previsiones para el conjunto del año. Los ingresos consolidados crecieron un 7%, hasta 50.600 millones de euros.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El EBIT ajustado alcanzó 4.495 millones de euros (4.146 millones un año antes), el EBIT reportado 4.550 millones (3.365 millones) y el beneficio neto 3.587 millones (2.641 millones), con un beneficio por acción reportado de 4,54 euros. El flujo de caja libre antes de financiación a clientes fue negativo en 1.268 millones de euros, frente a –914 millones un año antes, y la integración de los antiguos paquetes de trabajo de Spirit AeroSystems supuso un ajuste negativo de 235 millones.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Los pedidos comerciales brutos sumaron 1.174 aviones (610 un año antes) y los netos 1.105 (514), con una cartera de 9.310 aviones a 30 de septiembre. Por programas, las entregas se repartieron en 68 A220, 428 de la familia A320, 13 A330 y 38 A350.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Para 2026, Airbus mantiene unas 870 entregas de aviones comerciales, un EBIT ajustado de unos 7.500 millones de euros y un flujo de caja libre antes de financiación a clientes de unos 4.500 millones. La guía excluye operaciones de M&A, incluye los aranceles actualmente aplicables y asume que no habrá nuevas disrupciones en el comercio, la economía, el tráfico aéreo, la cadena de suministro o las operaciones internas. En producción, apunta a una cadencia de 70 a 75 A320 al mes a finales de 2027, estabilizándose en 75, 13 A220 al mes en 2028, 12 A350 en 2028 y 5 A330 en 2029.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Según Aerospace Global News, la división de aviones comerciales ingresó 36.700 millones de euros (un 8% más) con un EBIT ajustado de 3.360 millones, y la caja neta del grupo se situó en 7.000 millones a 30 de septiembre, frente a 12.200 millones a finales de 2025. «Estos resultados de nueve meses reflejan la trayectoria ascendente de nuestro aumento de producción civil y militar», afirmó Guillaume Faury, consejero delegado de Airbus.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Airbus",
+    "url": "https://www.airbus.com/en/newsroom/press-releases/2026-10-airbus-reports-nine-month-9m-2026-results",
+    "date": "2026-10-28"
+   },
+   {
+    "name": "Aerospace Global News",
+    "url": "https://aerospaceglobalnews.com/news/airbus-results-nine-months-2026/",
+    "date": "2026-10-29"
+   }
+  ],
+  "why": "El ritmo de entregas de Airbus condiciona el crecimiento de las aerolíneas europeas: con 547 aviones a septiembre y 870 como objetivo anual, el último trimestre concentra buena parte del año.",
+  "europe": true,
+  "aiScore": 78,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/5a99b62c-ee94-4495-ba78-0f46b82a3eae.jpeg",
+  "imageId": "airbus-9m-2026",
+  "photoSource": "Aerospace Global News (Airbus)",
+  "art": {
+   "kind": "bars",
+   "title": "Entregas de Airbus en enero-septiembre (aviones)",
+   "bars": [
+    {
+     "l": "9M 2025",
+     "v": 507,
+     "t": "507"
+    },
+    {
+     "l": "9M 2026",
+     "v": 547,
+     "t": "547"
+    }
+   ]
+  },
+  "addedAt": "2026-10-30T07:05:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "air-canada-3t-2026",
+  "category": "FIN",
+  "publishedAt": "2026-10-29",
+  "source": "Air Canada",
+  "url": "https://www.aircanada.com/media/aircanada-reports-third-quarter-2026-financial-results/",
+  "title": "Air Canada logra ingresos récord en el 3T y rebaja su guía de EBITDA de 2026 por el combustible",
+  "summary": "Air Canada ingresó 6.984 millones de dólares canadienses en el 3T (+21%), pero su beneficio operativo bajó a 261 millones por un gasto en combustible 906 millones mayor. Rebaja su guía de EBITDA ajustado para 2026 a entre 2.400 y 2.700 millones (antes, 2.900-3.200).",
+  "body": [
+   {
+    "t": "Air Canada presentó el 29 de octubre sus resultados del tercer trimestre de 2026, con unos ingresos operativos récord de 6.984 millones de dólares canadienses, frente a 5.774 millones un año antes, y rebajó su previsión de resultados para el conjunto del año por la expectativa de un combustible más caro en el último trimestre.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El beneficio operativo se redujo a 261 millones de dólares canadienses (284 millones en el tercer trimestre de 2025), con un margen del 3,7% frente al 4,9%. El EBITDA ajustado fue de 936 millones (961 millones), con un margen del 13,4% (16,6%), y el beneficio neto atribuido cayó a 139 millones desde 264 millones. El flujo de caja libre fue negativo en 440 millones, frente a 211 millones positivos un año antes.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El gasto en combustible aumentó en 906 millones de dólares canadienses interanuales, con un coste de 148,3 centavos por litro frente a 88,3 centavos, y los precios se situaron 10 centavos por litro por encima de lo que la compañía esperaba para el trimestre. La demanda acompañó: la capacidad (ASM) creció un 5,7%, el tráfico (RPM) un 8,9%, la ocupación subió 2,6 puntos hasta el 89,1%, el yield de pasaje avanzó un 11,0% y los ingresos de carga, un 33%.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La nueva guía para 2026 sitúa el EBITDA ajustado entre 2.400 y 2.700 millones de dólares canadienses (antes, entre 2.900 y 3.200 millones) y el flujo de caja libre en equilibrio, con un margen de ±150 millones (antes, entre 200 y 500 millones). Asume un queroseno de unos 1,72 dólares canadienses por litro en el cuarto trimestre (antes, 1,29) y que la aerolínea compensará alrededor del 70% del gasto adicional en combustible de ese trimestre, frente al 100% previsto antes; la capacidad crecerá en torno a un 2,75% en el año.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La compañía aprobó además un programa de recompra de hasta 25.197.886 acciones, cerca del 10% del capital flotante, entre el 9 de noviembre de 2026 y el 8 de noviembre de 2027. «Air Canada ha logrado unos ingresos operativos récord en un tercer trimestre de 7.000 millones de dólares», señaló John Di Bert, vicepresidente ejecutivo y director financiero.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Air Canada",
+    "url": "https://www.aircanada.com/media/aircanada-reports-third-quarter-2026-financial-results/",
+    "date": "2026-10-29"
+   },
+   {
+    "name": "Aviation Club Center",
+    "url": "https://aviationclubcenter.com/es/2026/10/29/air-canada-reduce-su-prevision-de-ganancias-para-2026-por-el-aumento-del-combustible",
+    "date": "2026-10-29"
+   }
+  ],
+  "why": "Air Canada ya no prevé trasladar todo el sobrecoste del combustible a tarifas: aviso para el Atlántico Norte, mercado clave de British Airways, Iberia y Aer Lingus, de cara al cierre de 2026.",
+  "iagImpact": "indirecto",
+  "aiScore": 70,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/bab99330-8a39-4808-848c-0f3122ada31f.png",
+  "imageId": "air-canada-3t-2026",
+  "photoSource": "Aviation Club Center",
+  "art": {
+   "kind": "bars",
+   "title": "Guía de EBITDA ajustado 2026, punto medio (millones CAD)",
+   "bars": [
+    {
+     "l": "Agosto",
+     "v": 3050,
+     "t": "2.900-3.200"
+    },
+    {
+     "l": "Octubre",
+     "v": 2550,
+     "t": "2.400-2.700"
+    }
+   ]
+  },
+  "addedAt": "2026-10-30T07:05:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "frontier-3t-2026",
+  "category": "FIN",
+  "publishedAt": "2026-10-28",
+  "source": "Frontier Airlines",
+  "url": "https://www.sec.gov/Archives/edgar/data/0001670076/000167007626000102/frontier_earningsreleasexq.htm",
+  "title": "Frontier sube un 53% sus ingresos del 3T pero pierde 104 M$ con un combustible un 82% más caro",
+  "summary": "Frontier ingresó 1.355 millones de dólares en el 3T, un 53% más, con una tarifa media de 67,82 dólares por pasajero, pero perdió 104 millones, con 425 millones de gasto en combustible y 134 millones en cargos por devolver 13 A320neo. En términos ajustados ganó 40 millones.",
+  "body": [
+   {
+    "t": "Frontier Group Holdings, matriz de la aerolínea de ultrabajo coste estadounidense Frontier Airlines, publicó el 28 de octubre sus resultados del tercer trimestre de 2026, con unos ingresos operativos récord de 1.355 millones de dólares, un 53% más que un año antes, y una pérdida neta de 104 millones. Excluyendo partidas especiales, obtuvo un beneficio neto ajustado de 40 millones de dólares, 0,18 dólares por acción.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Los ingresos por tarifa fueron de 67,82 dólares por pasajero, un 71% más que los 39,74 dólares de un año antes según Infobae, y los ingresos totales por pasajero subieron un 30%, hasta 138,22 dólares. La aerolínea transportó 9,8 millones de pasajeros (un 18% más), con una capacidad (ASM) también un 18% mayor y una ocupación del 78,8%, frente al 80,7% de un año antes.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El gasto en combustible ascendió a 425 millones de dólares, frente a 234 millones un año antes, con un coste medio de 3,96 dólares por galón, un 56% más según Infobae. Las cuentas recogen además 134 millones de dólares en partidas especiales por un segundo acuerdo de devolución anticipada de 13 Airbus A320neo; según Infobae, la pérdida neta del mismo trimestre de 2025 fue de 77 millones.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Frontier cerró septiembre con una liquidez total de 1.180 millones de dólares y prevé para el cuarto trimestre un beneficio por acción ajustado de entre –0,15 y 0,05 dólares, con una capacidad entre un 5% y un 6% superior a la del mismo periodo de 2025. «La compañía ha logrado unos ingresos récord de 1.400 millones de dólares, un 53% más que el año anterior», afirmó Jimmy Dempsey, presidente y consejero delegado.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Frontier Group Holdings (SEC)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001670076/000167007626000102/frontier_earningsreleasexq.htm",
+    "date": "2026-10-28"
+   },
+   {
+    "name": "Infobae",
+    "url": "https://www.infobae.com/estados-unidos/2026/10/29/una-aerolinea-de-bajo-costo-en-eeuu-elevo-71-el-ingreso-promedio-por-boleto-y-perdio-usd-104-millones/",
+    "date": "2026-10-29"
+   }
+  ],
+  "why": "Que una ultra low cost suba un 71% su tarifa media y aun así pierda dinero muestra la presión del combustible sobre el modelo de bajo coste, también relevante para las low cost europeas.",
+  "aiScore": 60,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/1d5f6a7d-d885-4dbd-b069-b8bc73aa81db.jpeg",
+  "imageId": "frontier-3t-2026",
+  "photoSource": "Infobae (Reuters/AP)",
+  "art": {
+   "kind": "big",
+   "value": "+53%",
+   "label": "ingresos del 3T",
+   "sub": "1.355 M$"
+  },
+  "addedAt": "2026-10-30T07:05:00Z",
+  "addedBy": "claude"
  }
 ]
