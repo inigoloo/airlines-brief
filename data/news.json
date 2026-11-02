@@ -2554,5 +2554,185 @@
   },
   "addedAt": "2026-10-30T07:05:00Z",
   "addedBy": "claude"
+ },
+ {
+  "id": "ryanair-h1-fy27",
+  "title": "Ryanair gana 2.150 M€ en el semestre, un 15% menos, y estudia congelar sueldos por el queroseno",
+  "category": "FIN",
+  "publishedAt": "2026-11-02",
+  "source": "Ryanair",
+  "url": "https://investor.ryanair.com/wp-content/uploads/2026/10/H1-FY27-Ryanair-Results.pdf",
+  "summary": "Ryanair ganó 2.150 millones de euros en su primer semestre fiscal, un 15% menos, con 125,8 millones de pasajeros (+6%) y una tarifa media un 4% más baja. Prevé una factura de combustible unos 2.000 millones mayor en el ejercicio 2028 y estudia congelaciones salariales temporales.",
+  "body": [
+   {
+    "t": "Ryanair publicó el 2 de noviembre de 2026 los resultados del primer semestre de su ejercicio fiscal 2027 (abril–septiembre): un beneficio después de impuestos de 2.150 millones de euros, un 15% menos que los 2.540 millones del mismo periodo del año anterior. La compañía lo explica en el titular de su comunicado por la duplicación del precio del petróleo no cubierto y por un tráfico que creció un 6% con tarifas más bajas.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Los ingresos del semestre subieron un 3%, hasta 10.080 millones de euros, con 125,8 millones de pasajeros (+6%) y una ocupación del 95%, sin cambios. La tarifa media bajó un 4%, de 58,00 a 55,70 euros. Los costes operativos crecieron un 10%, hasta 7.690 millones; el gasto en combustible, un 15%, hasta 3.400 millones, y los costes unitarios, un 5%.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "En el segundo trimestre (julio–septiembre) el beneficio cayó un 6%, de 1.720 a 1.610 millones de euros, con unos ingresos de 5.700 millones (+4%), 64,5 millones de pasajeros (+5%) y una tarifa media de 63,40 euros, un 2% menos. Según Reuters, el beneficio trimestral quedó en línea con el consenso de analistas recopilado por la propia compañía.",
+    "s": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "El 20% del combustible que Ryanair no tenía cubierto se duplicó hasta unos 130 dólares por barril. El ejercicio 2027 está cubierto en un 80% a 67 dólares y el 2028, en un 25% a unos 95 dólares. «A menos que haya una rápida resolución del conflicto de Oriente Medio, esperamos que los precios del queroseno sigan elevados hasta bien entrado 2027», afirmó el consejero delegado, Michael O'Leary, según Reuters.",
+    "s": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "Con los precios a plazo actuales, Ryanair calcula que su factura de combustible del ejercicio 2028 subirá unos 2.000 millones de euros y que las subidas de tarifas previstas difícilmente la compensarán por completo. Por ello revisa todos los costes de las aerolíneas del grupo: negociación de tasas aeroportuarias, acuerdos laborales —los que vencen podrían requerir congelaciones salariales temporales—, ratios de tripulación y productividad mediante IA.",
+    "s": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "La aerolínea rebaja su objetivo de tráfico del ejercicio 2027 de 216 a 214 millones de pasajeros (+3%), con un invierno prácticamente plano, y apunta a más de 220 millones en el 2028. Considera aún «demasiado pronto» para dar una previsión de beneficio del ejercicio 2027. La FAA ha certificado el 737 MAX-10, EASA lo hará previsiblemente antes de fin de año y los primeros 16 aparatos llegarán en la primavera de 2027. Anuncia además una recompra de acciones de 800 millones desde febrero de 2027 y un dividendo a cuenta de 0,273 euros por acción.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Ryanair (resultados H1 FY27)",
+    "url": "https://investor.ryanair.com/wp-content/uploads/2026/10/H1-FY27-Ryanair-Results.pdf",
+    "date": "2026-11-02"
+   },
+   {
+    "name": "RTTNews",
+    "url": "https://www.rttnews.com/3706984/ryanair-q2-profit-down-despite-higher-traffic-sees-traffic-growth-in-fy27-plans-800-mln-buyback.aspx",
+    "date": "2026-11-02"
+   },
+   {
+    "name": "Global Banking & Finance (Reuters)",
+    "url": "https://www.globalbankingandfinance.com/ryanair-freeze-pay-cut-costs-offset-high-fuel-prices/",
+    "date": "2026-11-02"
+   }
+  ],
+  "why": "La mayor low cost europea, rival de Vueling y Aer Lingus, prevé 2.000 M€ más de combustible y tarifas al alza en 2028: una señal de costes y precios para todo el corto radio europeo, incluido IAG.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 88,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/4cde902f-5da9-4a7f-b495-30873308b597.jpeg",
+  "imageId": "ryanair-h1-fy27",
+  "photoSource": "Global Banking & Finance (Reuters)",
+  "art": {
+   "kind": "big",
+   "value": "−15%",
+   "label": "beneficio del primer semestre",
+   "sub": "2.150 M€"
+  },
+  "addedAt": "2026-11-02T06:55:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "aerolineas-madrid-andalucia-tren",
+  "title": "Wizz Air, Ryanair, Volotea y Air Europa refuerzan Madrid–Andalucía con el AVE cortado",
+  "category": "NET",
+  "publishedAt": "2026-11-02",
+  "source": "The Olive Press",
+  "url": "https://theolivepress.es/spain-news/2026/11/02/toledo-train-disaster-flights-madrid-andalucia",
+  "summary": "Renfe ha bloqueado la venta de billetes Madrid–Andalucía hasta el 13 de diciembre tras el choque de trenes en Toledo. Wizz Air y Ryanair abren vuelos desde Madrid, Volotea suma unos 100 vuelos e Iberia eleva un 93% su oferta hasta el 8 de noviembre.",
+  "body": [
+   {
+    "t": "La colisión del miércoles entre un AVE de Renfe y un tren de Iryo entre Los Yébenes y Urda (Toledo), con al menos 69 fallecidos, ha cortado la línea de alta velocidad Madrid–Andalucía, según The Olive Press. Renfe ha bloqueado la venta de billetes en la ruta hasta el 13 de diciembre, aunque indica que podría reabrir antes. El corredor transporta normalmente casi 10.000 viajeros diarios de Renfe, Iryo y Ouigo.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Wizz Air operará desde el 6 de noviembre dos vuelos diarios Madrid–Málaga y otros dos Madrid–Sevilla hasta mediados de diciembre, con tarifas desde 45,99 euros y un máximo de 99,99 euros, según anunció en X. Ryanair anunció el viernes 30 de octubre dos vuelos diarios Madrid–Málaga entre el 14 de noviembre y el 10 de enero, con billetes desde 49,99 euros; The Olive Press cifra en 50.000 las plazas a la venta.",
+    "s": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Volotea programa unos 100 vuelos adicionales entre el 13 de noviembre y el 16 de diciembre: cinco semanales a Málaga y hasta cuatro a Sevilla, con un tope de 75 euros (99 euros con maleta de cabina de 10 kg), y añadirá más en diciembre. Air Europa ha pasado de dos a tres vuelos diarios de ida y vuelta Madrid–Sevilla, y cuatro los martes, jueves y viernes, según The Olive Press, y ha añadido vuelos a Málaga.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Iberia e Iberia Express operan 98 vuelos adicionales, con más de 20.000 plazas, hasta el 8 de noviembre, un 93% más que su programación original: 9.984 asientos extra a Málaga y 10.734 a Sevilla. Mantienen un tope de 99 euros en turista y 149 euros en business.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Es el segundo cierre de la línea de alta velocidad Madrid–Andalucía este año: tras el accidente de Adamuz (Córdoba) del 18 de enero, con 46 fallecidos, el servicio Madrid–Sevilla no se reanudó hasta el 17 de febrero. El presidente del Gobierno, Pedro Sánchez, calificó de «totalmente inaceptable» que «un país como España» sufra dos accidentes ferroviarios mortales en diez meses.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "The Olive Press",
+    "url": "https://theolivepress.es/spain-news/2026/11/02/toledo-train-disaster-flights-madrid-andalucia",
+    "date": "2026-11-02"
+   },
+   {
+    "name": "HerQles",
+    "url": "https://herqles.com/2026/11/01/aerolineas-refuerzan-vuelos-madrid-andalucia",
+    "date": "2026-11-01"
+   },
+   {
+    "name": "The Spanish Eye",
+    "url": "https://thespanisheye.com/2026/10/31/wizz-air-announces-temporary-madrid-flights-to-malaga-and-sevilla-after-rail-disaster",
+    "date": "2026-10-31"
+   }
+  ],
+  "why": "Con el AVE cortado, Madrid–Málaga y Madrid–Sevilla vuelven a ser mercado aéreo y Wizz Air entra en ese doméstico desde Barajas: Iberia gana tráfico a corto plazo, pero con más rivales en su hub.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 60,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/32326160-19d7-4ef2-bc53-0bc10cef0a32.jpeg",
+  "imageId": "aerolineas-madrid-andalucia-tren",
+  "photoSource": "The Spanish Eye (Unsplash)",
+  "art": {
+   "kind": "route",
+   "title": "Puente aéreo Madrid–Andalucía",
+   "badge": "+93% Iberia",
+   "points": [
+    {
+     "code": "MAD",
+     "city": "Madrid",
+     "lat": 40.47,
+     "lon": -3.56
+    },
+    {
+     "code": "SVQ",
+     "city": "Sevilla",
+     "lat": 37.42,
+     "lon": -5.89
+    },
+    {
+     "code": "AGP",
+     "city": "Málaga",
+     "lat": 36.67,
+     "lon": -4.5
+    }
+   ]
+  },
+  "addedAt": "2026-11-02T06:55:00Z",
+  "addedBy": "claude"
  }
 ]
