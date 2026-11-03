@@ -461,10 +461,10 @@ applyAdmin();
 (async function adminFromURL(){
   const k = new URLSearchParams(location.search).get("admin");
   if(k === null) return;
-  if(k === "off"){ try{ localStorage.removeItem("brief-admin"); }catch(e){} isAdmin = false; }
+  if(k === "off"){ try{ localStorage.removeItem("brief-admin"); localStorage.removeItem("brief-admin-key"); }catch(e){} isAdmin = false; }
   else if(crypto && crypto.subtle){
     const h = [...new Uint8Array(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(k)))].map(b => b.toString(16).padStart(2,"0")).join("");
-    if(h === ADMIN_HASH){ try{ localStorage.setItem("brief-admin", h); }catch(e){} isAdmin = true; }
+    if(h === ADMIN_HASH){ try{ localStorage.setItem("brief-admin", h); localStorage.setItem("brief-admin-key", k); }catch(e){} isAdmin = true; }
   }
   try{ history.replaceState(null, "", location.pathname + location.hash); }catch(e){}
   applyAdmin();
@@ -941,7 +941,7 @@ $("#mark-yes").addEventListener("click", async () => {
     const nd = addDays(state.cfg.nextSend || now.slice(0,10), +state.cfg.cadenceDays || 14);
     await state.db.doc("config/settings").set({...state.cfg, nextSend: nd});
     flash($("#e-msg"), `Edición Nº ${String(issue).padStart(2,"0")} guardada en el historial`);
-  }catch(e){ flash($("#e-msg"), "No se pudo guardar la edición. Comprueba que tienes permiso de edición.", true); }
+  }catch(e){ flash($("#e-msg"), e && e.code === "forbidden" ? "No se pudo guardar: vuelve a abrir tu enlace de administrador en este navegador y repite." : "No se pudo guardar la edición. Inténtalo de nuevo en un momento.", true); }
 });
 $("#s-save").addEventListener("click", async () => {
   const thr = +$("#s-thr").value, mn = +$("#s-min").value, mx = +$("#s-max").value, d = $("#s-date").value, u = $("#s-url").value.trim();
