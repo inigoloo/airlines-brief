@@ -692,14 +692,23 @@ function renderPortal(){
   const used = new Set(top4.map(n => n.id));
   const rest = valid.filter(n => !used.has(n.id)).sort(recent);
   // "Lo más votado de la semana": same weekly cycle as the newsletter (the news eligible for the next edition).
-  const ranking = sel.elig.slice().sort((a,b) => net(b)-net(a) || prio(b)-prio(a)).slice(0,5);
+  // News published since the last newsletter was sent (and not already in it): votes first, then AI priority.
+  // Never empty: if there are fewer than 5, it is completed with the most recent news not yet sent.
+  const sentSet = sentIds();
+  const lastSent = state.editions.map(e => String(e.sentAt||"").slice(0,10)).sort().pop() || windowStart();
+  const byVotesPrio = (a,b) => net(b)-net(a) || prio(b)-prio(a);
+  const fresh = state.news.filter(n => isValid(n) && !sentSet.has(n.id) && n.publishedAt >= lastSent).sort(byVotesPrio);
+  const pending = state.news.filter(n => isValid(n) && !fresh.includes(n) && !sentSet.has(n.id));
+  const recentPending = pending.filter(n => n.publishedAt >= addDays(todayISO(), -14)).sort(byVotesPrio);
+  const older = pending.filter(n => !recentPending.includes(n)).sort(recent);
+  const ranking = [...fresh, ...recentPending, ...older].slice(0,5);
 
   box.innerHTML = `${sortBar("front", true)}
   <div class="front">
     <div class="seconds">${top4.map(n => story(n,t,inSel,{why:true})).join("")}</div>
     <aside class="mrail"><div class="rail">
       <h2 class="rail-h">Lo más votado de la semana</h2>
-      ${ranking.length ? "" : `<p class="m" style="font-size:13px;color:var(--muted);margin:10px 0 0">Aún no hay noticias de esta semana.</p>`}<ol class="ranking">${ranking.map((n,i) => `<li><span class="n">${i+1}</span><div><a href="#noticia-${esc(n.id)}" data-art="${esc(n.id)}">${esc(n.title)}</a><div class="m">${net(n)} ${net(n)===1?"like":"likes"} · ${esc(CATS[n.category]||"")}</div></div></li>`).join("")}</ol>
+      <ol class="ranking">${ranking.map((n,i) => `<li><span class="n">${i+1}</span><div><a href="#noticia-${esc(n.id)}" data-art="${esc(n.id)}">${esc(n.title)}</a><div class="m">${net(n)} ${net(n)===1?"like":"likes"} · ${esc(CATS[n.category]||"")}</div></div></li>`).join("")}</ol>
     </div></aside>
   </div>
   <div class="morehead"><h2>Más noticias</h2><span class="mh-note">Las más recientes primero</span></div>
