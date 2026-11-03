@@ -695,7 +695,14 @@ function renderPortal(){
   // News published since the last newsletter was sent (and not already in it): votes first, then AI priority.
   // Never empty: if there are fewer than 5, it is completed with the most recent news not yet sent.
   const sentSet = sentIds();
-  const lastSent = state.editions.map(e => String(e.sentAt||"").slice(0,10)).sort().pop() || windowStart();
+  // Reference = the most recent SCHEDULED send day (nextSend stepped back/forward by cadenceDays), not the day it was marked as sent.
+  const lastSent = (() => {
+    const today = todayISO(), step = +state.cfg.cadenceDays || 7;
+    let d = state.cfg.nextSend || today;
+    if(d > today){ while(addDays(d, -step) > today) d = addDays(d, -step); return addDays(d, -step); }
+    while(addDays(d, step) <= today) d = addDays(d, step);
+    return d;
+  })();
   const byVotesPrio = (a,b) => net(b)-net(a) || prio(b)-prio(a);
   const fresh = state.news.filter(n => isValid(n) && !sentSet.has(n.id) && n.publishedAt >= lastSent).sort(byVotesPrio);
   const pending = state.news.filter(n => isValid(n) && !fresh.includes(n) && !sentSet.has(n.id));
