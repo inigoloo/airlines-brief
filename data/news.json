@@ -2734,5 +2734,136 @@
   },
   "addedAt": "2026-11-02T06:55:00Z",
   "addedBy": "claude"
+ },
+ {
+  "id": "lufthansa-3t-2026",
+  "title": "Lufthansa logra récord de ingresos en el 3T, pero recorta su previsión anual por el combustible",
+  "category": "FIN",
+  "publishedAt": "2026-11-03",
+  "source": "Lufthansa Group",
+  "url": "https://newsroom.lufthansagroup.com/en/lufthansa-group-increases-operating-profit--strong-demand-and-cost-discipline-more-than-offset-higher-fuel-costs",
+  "summary": "Lufthansa ingresó 12.200 millones de euros en el tercer trimestre (+9%) y su EBIT ajustado subió un 6%, hasta 1.400 millones, pese a 543 millones más de combustible. Eleva su factura anual de queroseno a 9.300 millones y fija su EBIT 2026 entre 1.700 y 2.000 millones.",
+  "body": [
+   {
+    "t": "Lufthansa Group publicó el 3 de noviembre de 2026 sus resultados del tercer trimestre: unos ingresos de 12.200 millones de euros, un 9% más que los 11.200 millones de un año antes, y un EBIT ajustado de 1.400 millones, un 6% más que los 1.300 millones del mismo periodo de 2025. Su presidente y consejero delegado, Carsten Spohr, afirmó que «el pasado trimestre fue el más fuerte en ingresos de la historia del Grupo Lufthansa».",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El margen EBIT ajustado bajó al 11,5%, desde el 11,9%, con unos costes de combustible 543 millones de euros superiores a los del año anterior. El beneficio neto subió a 1.300 millones, frente a 966 millones, y el flujo de caja libre ajustado fue de 793 millones (818 millones un año antes). Según Reuters, recogido por Investing.com, el EBIT ajustado de 1.410 millones superó los 1.370 millones de media que esperaban los analistas consultados por la compañía.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "En las aerolíneas de red, la capacidad creció un 1,6% y los yields un 6,8%, pero el EBIT ajustado cayó en 108 millones, hasta 853 millones, con un gasto en combustible más de 400 millones superior; las huelgas del primer semestre costaron a Lufthansa Airlines unos 65 millones. Eurowings elevó su EBIT ajustado en 16 millones, hasta 214 millones; Lufthansa Cargo lo triplicó, hasta 162 millones (49 millones un año antes), y Lufthansa Technik lo subió un 54%, hasta 200 millones.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El grupo eleva a 9.300 millones de euros su factura de combustible prevista para el año, con una cobertura de alrededor del 86% en 2026 y de más del 60% en 2027 en sus aerolíneas de pasajeros. Fija su previsión de EBIT ajustado para 2026 entre 1.700 y 2.000 millones; según Reuters, el rango anterior era de 1.700 a 2.200 millones, y la compañía lo atribuye a un aumento esperado de 600 millones en los costes de combustible. La previsión de las aerolíneas de red baja a 600–800 millones, desde 750–1.150 millones.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Según Reuters, Lufthansa también reduce su inversión neta prevista a unos 2.100 millones de euros, desde 2.500 millones, por recibir menos aviones de los planeados. La deuda neta, incluidas las obligaciones netas por pensiones, bajó a 7.300 millones a 30 de septiembre, desde 8.300 millones a cierre de 2025, y la liquidez total era de 11.800 millones. «Confiamos en que alcanzaremos este rango, en línea con las expectativas del mercado de capitales», afirmó el director financiero, Till Streichert.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Lufthansa Group",
+    "url": "https://newsroom.lufthansagroup.com/en/lufthansa-group-increases-operating-profit--strong-demand-and-cost-discipline-more-than-offset-higher-fuel-costs",
+    "date": "2026-11-03"
+   },
+   {
+    "name": "Investing.com (Reuters)",
+    "url": "https://www.investing.com/news/earnings/lufthansa-q3-profit-beats-forecasts-cuts-2026-outlook-on-600-mln-fuel-hit-4993585",
+    "date": "2026-11-03"
+   }
+  ],
+  "why": "Lufthansa, rival de IAG en Europa y el Atlántico Norte, muestra que los yields al alza solo compensan en parte el queroseno: recorta su guía anual y su inversión por menos entregas.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 85,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/00f0e7f3-e721-4d40-a3c9-ffef19dc3d85.jpeg",
+  "imageId": "lufthansa-3t-2026",
+  "photoSource": "Lufthansa Group",
+  "addedAt": "2026-11-03T07:10:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "tap-lufthansa-firma",
+  "title": "Portugal firma el 3 de noviembre la venta de hasta el 49,9% de TAP a Lufthansa por 1.201 M€",
+  "category": "STR",
+  "publishedAt": "2026-11-02",
+  "source": "ECO",
+  "url": "https://eco.sapo.pt/2026/11/02/governo-assina-acordo-de-venda-da-tap-na-terca-feira/",
+  "summary": "El Gobierno portugués firma el 3 de noviembre el contrato de venta de hasta el 49,9% de TAP a Lufthansa, que ofreció 1.201 millones de euros. Lufthansa propuso además 863 millones y un 5% de su grupo por el 50,1% restante; la operación pasará por la competencia europea.",
+  "body": [
+   {
+    "t": "El Gobierno de Portugal firma el martes 3 de noviembre el contrato de venta de hasta el 49,9% de TAP Air Portugal a Lufthansa, según anunció el ministro de Infraestructuras y Vivienda, Miguel Pinto Luz, en su comparecencia parlamentaria del lunes 2 de noviembre sobre los presupuestos de 2027, informa ECO.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El Consejo de Ministros aprobó el 14 de octubre la privatización del 49,9%, del que un 5% se destina preferentemente a los trabajadores. Lufthansa ofreció 1.201 millones de euros, por encima de Air France-KLM, y se comprometió a elevar la flota de TAP a 130 aviones. Según The Portugal News, el Gobierno aceptó la oferta por el 44,9% y Lufthansa podrá comprar las acciones que no suscriban los empleados hasta llegar al 49,9%; Jornal Económico precisa que la venta a los trabajadores no se producirá hasta 2027.",
+    "s": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Para una segunda fase, Lufthansa propuso pagar 863 millones de euros por el 50,1% restante y entregar al Estado una participación del 5% en el grupo Lufthansa, valorada en 488 millones, lo que lleva la valoración total de la aerolínea a 2.552 millones, según ECO y The Portugal News. Según Jornal Económico, el Gobierno prevé que el Estado se convierta así en el segundo mayor accionista de Lufthansa, por detrás de la Fundación Kühne (20%). Pinto Luz pidió a los partidos, incluidos PS y Chega, dialogar sobre esa segunda fase para «mirar y entender si Portugal gana estratégicamente con avanzar hacia una segunda fase».",
+    "s": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Tras la firma, la operación pasará por la Dirección General de Competencia europea. «Después entraremos en un proceso con la Dirección General de Competencia para los remedios que se exijan en la operación», dijo Pinto Luz. El consejero delegado de Lufthansa, Carsten Spohr, declaró el 15 de octubre, según Jornal Económico, que espera una aprobación más rápida que la de ITA Airways y que el solapamiento de TAP con Lufthansa es mucho menor que con IAG o Air France-KLM.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "ECO",
+    "url": "https://eco.sapo.pt/2026/11/02/governo-assina-acordo-de-venda-da-tap-na-terca-feira/",
+    "date": "2026-11-02"
+   },
+   {
+    "name": "Jornal Económico",
+    "url": "https://jornaleconomico.sapo.pt/noticias/governo-assina-acordo-de-venda-da-tap-na-terca-feira/",
+    "date": "2026-11-02"
+   },
+   {
+    "name": "The Portugal News",
+    "url": "https://www.theportugalnews.com/news/2026-11-02/lufthansa-offers-to-buy-entire-stake-in-tap/1110238",
+    "date": "2026-11-02"
+   }
+  ],
+  "why": "Con TAP, Lufthansa suma el hub de Lisboa, rival de Madrid en el tráfico Europa–Latinoamérica de IAG; los remedios que exija Bruselas y la posible venta del 50,1% marcarán su alcance.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 86,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/826603ba-66ad-49b0-b058-640728340b42.jpeg",
+  "imageId": "tap-lufthansa-firma",
+  "photoSource": "ECO",
+  "addedAt": "2026-11-03T07:10:00Z",
+  "addedBy": "claude"
  }
 ]
