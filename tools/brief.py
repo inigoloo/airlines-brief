@@ -114,7 +114,7 @@ def main():
         return max(0, 6 - max(0, age - 1))
     def weight(n): return (n.get("aiScore") or 0) + recency(n)
 
-    elig = [dict(n, id=k, likes=likes.get(k,0)) for k, n in news.items() if valid(n) and k not in sent and n["publishedAt"] >= ws]
+    elig = [dict(n, id=k, likes=likes.get(k,0)) for k, n in news.items() if valid(n) and k not in sent and ws <= n["publishedAt"] <= send_day]
     by_votes = sorted([n for n in elig if n["likes"] >= X], key=lambda n: (-n["likes"], -tier(n), -weight(n)))[:mx]
     for n in by_votes: n["origin"] = "votes"
     items = list(by_votes)

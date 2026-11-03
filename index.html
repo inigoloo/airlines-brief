@@ -524,7 +524,9 @@ function selection(){
   const t = tally(), sent = sentIds(), ws = windowStart();
   const X = +state.cfg.threshold || 2, min = +state.cfg.minItems || 4, max = +state.cfg.maxItems || 6;
   const net = n => { const c = t[n.id]||{up:0,down:0}; return c.up - c.down; };
-  const elig = state.news.filter(n => isValid(n) && !sent.has(n.id) && n.publishedAt >= ws);
+  // Window of the edition: from 7 days before the scheduled send day up to that day (inclusive), even if it is marked as sent later.
+  const we = state.cfg.nextSend || todayISO();
+  const elig = state.news.filter(n => isValid(n) && !sent.has(n.id) && n.publishedAt >= ws && n.publishedAt <= we);
   const byVotes = elig.filter(n => net(n) >= X)
     .sort((a,b) => net(b)-net(a) || prio(b)-prio(a))
     .slice(0,max).map(n => ({n, origin:"votes", net:net(n)}));
