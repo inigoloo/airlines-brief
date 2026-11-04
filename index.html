@@ -215,12 +215,19 @@ main .wrap{padding-block:22px 64px}
 .river .dek{font-size:14.5px;line-height:1.5}
 .river .why{font-size:13px;margin-top:8px}
 .river.cards{margin-top:4px}
-.sectionhead{border-bottom:1px solid var(--rule);padding-bottom:10px;margin-bottom:6px}
+.sectionhead{border-bottom:1px solid var(--rule);padding:12px 0 10px;margin-bottom:6px}
 .searchbox{display:flex;gap:8px;margin:6px 0 4px}
 .searchbox input{flex:1;min-width:0;font:15px/1.2 var(--f-body);padding:10px 14px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink)}
 .searchbox input:focus{outline:2px solid var(--ink);outline-offset:1px}
 .searchbox button{font:600 13px/1 var(--f-body);padding:8px 16px;border:1px solid var(--ink);border-radius:999px;background:var(--ink);color:var(--bg);cursor:pointer}
-.searchbox #q-clear{background:var(--surface);color:var(--ink);border-color:var(--line)}
+.searchbox #q-clear,.searchbox .df-toggle{background:var(--surface);color:var(--ink);border-color:var(--line)}
+.searchbox .df-toggle.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.datefilter{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin:8px 0 2px;font-size:13px;color:var(--muted)}
+.datefilter[hidden]{display:none}
+.datefilter label{display:flex;align-items:center;gap:6px;font-family:var(--f-display);font-weight:600;font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+.datefilter input{font:14px/1.2 var(--f-body);padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink);text-transform:none;letter-spacing:0}
+.datefilter button{font:600 13px/1 var(--f-body);padding:7px 14px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink);cursor:pointer}
+.datefilter button:hover{border-color:var(--ink)}
 .searchhead{padding:12px 0 10px;border-bottom:1px solid var(--line);margin-bottom:6px}
 .searchhead h2{font-family:var(--f-display);font-weight:700;font-size:18px;letter-spacing:.06em;text-transform:uppercase;margin:0}
 .searchhead p{margin:4px 0 0;color:var(--muted);font-size:13.5px}
@@ -233,7 +240,7 @@ main .wrap{padding-block:22px 64px}
 .sortbar button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .sb-note{flex-basis:100%;margin:0;font-size:13px;color:var(--muted)}
 .mh-note{font-size:13px;color:var(--muted)}
-.sectionhead h2{font-family:var(--f-head);font-weight:800;font-size:clamp(30px,5vw,46px);margin:4px 0 0;line-height:1.05}
+.sectionhead h2{font-family:var(--f-head);font-weight:800;font-size:clamp(30px,5vw,46px);margin:0;line-height:1.05}
 .sectionhead p{margin:4px 0 0;color:var(--muted)}
 .slist article{display:grid;grid-template-columns:260px minmax(0,1fr);gap:24px;padding:22px 0;border-bottom:1px solid var(--line)}
 .slist .d{min-width:0;padding-top:4px}
@@ -369,7 +376,13 @@ footer.foot{border-top:3px double var(--rule);padding-block:14px 30px;font-size:
         <input id="q" type="search" placeholder="Buscar en todas las noticias…" aria-label="Buscar noticias" autocomplete="off" spellcheck="false">
         <button type="submit">Buscar</button>
         <button type="button" id="q-clear" hidden>Limpiar</button>
+        <button type="button" id="df-toggle" class="df-toggle" aria-expanded="false" aria-controls="datefilter">Fechas</button>
       </form>
+      <div id="datefilter" class="datefilter" hidden>
+        <label>Desde<input type="date" id="df-from"></label>
+        <label>Hasta<input type="date" id="df-to"></label>
+        <button type="button" id="df-clear">Quitar filtro</button>
+      </div>
       <div id="portal"><div class="empty">Cargando noticias…</div></div>
     </section>
 
@@ -445,7 +458,7 @@ try{ $("#dateline").textContent = new Date().toLocaleDateString("es-ES",{weekday
 const state = {
   news: [], votes: {}, mine: {}, cfg: {threshold:2,minItems:6,maxItems:6,nextSend:"",portalUrl:"",cadenceDays:7},
   editions: [], sources: [], uid: null, canVote: false, canEdit: false, db: null,
-  q: "", section: "ALL", sort: (()=>{ try{ const v = localStorage.getItem("brief-sort"); return ["front","recent","votes","relevant"].includes(v) ? v : "front"; }catch(e){ return "front"; } })(), loaded: false
+  q: "", from: "", to: "", section: "ALL", sort: (()=>{ try{ const v = localStorage.getItem("brief-sort"); return ["front","recent","votes","relevant"].includes(v) ? v : "front"; }catch(e){ return "front"; } })(), loaded: false
 };
 let downloads = null, assets = null;
 
@@ -650,8 +663,16 @@ function renderPortal(){
   if(!state.loaded) return;
   // The web shows news from the last 14 days (the weekly email only uses the last 7). Older articles stay reachable by link.
   const webCutoff = addDays(todayISO(), -14);
-  const valid = state.news.filter(n => isValid(n) && n.publishedAt >= webCutoff);
-  if(!valid.length){
+  const ranged = !!(state.from || state.to);
+  const inRange = n => (!state.from || n.publishedAt >= state.from) && (!state.to || n.publishedAt <= state.to);
+  // With a date range, every stored news item in that range is shown (the 14-day limit does not apply).
+  const valid = state.news.filter(n => isValid(n) && (ranged ? inRange(n) : n.publishedAt >= webCutoff));
+  const rangeTxt = ranged ? (state.from && state.to ? `del ${fmtDate(state.from)} al ${fmtDate(state.to)}` : state.from ? `desde el ${fmtDate(state.from)}` : `hasta el ${fmtDate(state.to)}`) : "";
+  if(!valid.length && ranged && !state.q){
+    box.innerHTML = `<div class="empty">No hay noticias ${esc(rangeTxt)}${state.section !== "ALL" ? " en esta sección" : ""}.</div>`;
+    return;
+  }
+  if(!valid.length && !ranged){
     box.innerHTML = `<div class="empty">Aún no hay noticias en el portal. Llegarán desde el flujo de recopilación${state.canEdit ? ", o puedes añadir una con «Añadir noticia»" : ""}.</div>`;
     return;
   }
@@ -664,9 +685,9 @@ function renderPortal(){
   const listHTML = items => `<div class="river cards">${items.map(n => story(n,t,inSel,{why:true})).join("")}</div>`;
 
   if(state.q){
-    const all = state.news.filter(isValid);
+    const all = state.news.filter(n => isValid(n) && inRange(n));
     const {items, exact} = searchNews(all, state.q);
-    box.innerHTML = `<div class="searchhead"><h2>Resultados de «${esc(state.q)}»</h2><p>${items.length ? (exact ? `${items.length} ${items.length===1?"noticia contiene":"noticias contienen"} estas palabras, de más a menos parecida.` : "No hay noticias con todas estas palabras; estas son las más parecidas.") : "No hay noticias que se parezcan a esta búsqueda."} Se busca en todas las noticias guardadas.</p></div>
+    box.innerHTML = `<div class="searchhead"><h2>Resultados de «${esc(state.q)}»</h2><p>${items.length ? (exact ? `${items.length} ${items.length===1?"noticia contiene":"noticias contienen"} estas palabras, de más a menos parecida.` : "No hay noticias con todas estas palabras; estas son las más parecidas.") : "No hay noticias que se parezcan a esta búsqueda."} ${ranged ? `Se busca en las noticias ${esc(rangeTxt)}.` : "Se busca en todas las noticias guardadas."}</p></div>
       ${items.length ? listHTML(items) : ""}`;
     equalizeCards();
     return;
@@ -675,13 +696,15 @@ function renderPortal(){
   if(state.section !== "ALL"){
     const mode = state.sort === "front" ? "recent" : state.sort;
     const items = valid.filter(n => n.category === state.section).sort(CMP[mode]);
-    box.innerHTML = `<div class="sectionhead">${kicker({category:state.section})}<h2>${esc(CATS[state.section])}</h2><p>${esc(CAT_DESC[state.section]||"")} ${items.length} ${items.length===1?"noticia":"noticias"}.</p></div>
+    box.innerHTML = `<div class="sectionhead"><h2>${esc(CATS[state.section])}</h2><p>${esc(CAT_DESC[state.section]||"")} ${items.length} ${items.length===1?"noticia":"noticias"}${ranged ? " " + esc(rangeTxt) : ""}.</p></div>
       ${sortBar(mode, false)}
       ${items.length ? listHTML(items) : `<div class="empty">Todavía no hay noticias en esta sección.</div>`}`;
     return;
   }
-  if(state.sort !== "front"){
-    box.innerHTML = `${sortBar(state.sort, true)}${listHTML(valid.slice().sort(CMP[state.sort]))}`;
+  if(state.sort !== "front" || ranged){
+    const mode = state.sort === "front" ? "recent" : state.sort;
+    box.innerHTML = `${ranged ? `<div class="searchhead"><h2>Noticias ${esc(rangeTxt)}</h2><p>${valid.length} ${valid.length===1?"noticia":"noticias"} en este rango de fechas.</p></div>` : ""}${sortBar(mode, !ranged)}${listHTML(valid.slice().sort(CMP[mode]))}`;
+    equalizeCards();
     return;
   }
 
@@ -790,6 +813,21 @@ $("#searchform").addEventListener("submit", e => {
   $("#q-clear").hidden = !state.q;
   if(view !== "portal" || state.section !== "ALL") go("portal", "ALL"); else renderPortal();
 });
+function syncDates(){
+  let f = $("#df-from").value, t = $("#df-to").value;
+  if(f && t && f > t){ [f, t] = [t, f]; $("#df-from").value = f; $("#df-to").value = t; }
+  state.from = f; state.to = t;
+  $("#df-toggle").classList.toggle("on", !!(f || t));
+  renderPortal();
+}
+$("#df-from").addEventListener("change", syncDates);
+$("#df-to").addEventListener("change", syncDates);
+$("#df-toggle").addEventListener("click", () => {
+  const box = $("#datefilter"), open = box.hidden;
+  box.hidden = !open; $("#df-toggle").setAttribute("aria-expanded", open);
+  if(!open && (state.from || state.to)){ $("#df-from").value = ""; $("#df-to").value = ""; syncDates(); }
+});
+$("#df-clear").addEventListener("click", () => { $("#df-from").value = ""; $("#df-to").value = ""; $("#datefilter").hidden = true; $("#df-toggle").setAttribute("aria-expanded", false); syncDates(); });
 $("#q-clear").addEventListener("click", () => { $("#q").value = ""; state.q = ""; $("#q-clear").hidden = true; renderPortal(); });
 
 const SORTS = {
