@@ -2865,5 +2865,282 @@
   "photoSource": "ECO",
   "addedAt": "2026-11-03T07:10:00Z",
   "addedBy": "claude"
+ },
+ {
+  "id": "latam-3t-2026",
+  "title": "LATAM gana 441 M$ en el 3T, un 16,3% más, pero rebaja su guía de EBITDA por el combustible",
+  "category": "FIN",
+  "publishedAt": "2026-11-03",
+  "source": "LATAM Airlines",
+  "url": "https://www.sec.gov/Archives/edgar/data/0001047716/000104771626000108/results-eng3q2026.htm",
+  "summary": "LATAM Airlines ganó 441 millones de dólares en el tercer trimestre, un 16,3% más, con ingresos de 4.567 millones (+18,4%). El combustible le costó unos 520 millones más y el grupo rebaja su guía de EBITDA ajustado de 2026 a 3.900–4.050 millones de dólares.",
+  "body": [
+   {
+    "t": "LATAM Airlines Group publicó el 3 de noviembre sus resultados del tercer trimestre de 2026: el beneficio neto atribuible fue de 441 millones de dólares, un 16,3% más que un año antes, y de 413 millones (+0,9%) ajustado por partidas especiales. Los ingresos totales crecieron un 18,4%, hasta 4.567 millones de dólares.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El combustible presionó los márgenes. El gasto en combustible subió un 60,9% y el precio del queroseno por barril, incluidas coberturas, un 52,1%; la compañía estima un impacto de unos 520 millones de dólares frente al tercer trimestre de 2025. El margen operativo ajustado bajó del 18,1% al 12,5%, con un resultado operativo ajustado de 573 millones (−17,9%), y el EBITDA ajustado cayó un 4,7%, hasta 1.095 millones.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La capacidad (ASK) creció un 7,7%, con un factor de ocupación del 83,7%, y el ingreso unitario de pasaje (PRASK) subió un 9,4%. Los ingresos de pasaje alcanzaron 3.998 millones de dólares (+17,8%), con un alza del 23% en los ingresos premium, y los de carga, 483 millones (+19,5%).",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "LATAM eleva su previsión de ingresos para 2026 a 17.600–17.800 millones de dólares (antes, 17.300–17.700 millones), pero rebaja la de EBITDA ajustado a 3.900–4.050 millones (antes, 4.100–4.400 millones). La nueva guía asume un queroseno de 155 dólares por barril en el conjunto del año y de 180 dólares en el cuarto trimestre, y refleja, según la compañía, un entorno de precios del combustible más exigente.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La liquidez total se situó en 4.446 millones de dólares y el apalancamiento neto ajustado, en 1,5 veces; S&P Global y Fitch elevaron su calificación a BB+. La flota era de 390 aviones a 30 de septiembre y el grupo prevé recibir 20 más en lo que queda de 2026, hasta 409. El director financiero, Ricardo Bottas, afirmó que los resultados «aportan una nueva prueba del sólido modelo de negocio de LATAM».",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "LATAM Airlines (SEC 6-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001047716/000104771626000108/results-eng3q2026.htm",
+    "date": "2026-11-03"
+   },
+   {
+    "name": "Aviation Club Center",
+    "url": "https://aviationclubcenter.com/en/2026/11/04/latam-airlines-group-reports-441-million-net-profit-for-the-third-quarter-of-2026",
+    "date": "2026-11-04"
+   }
+  ],
+  "why": "LATAM, que también vuela a Europa, crece en ingresos y en premium pese al combustible, pero su rebaja de EBITDA confirma que el queroseno sigue lastrando los márgenes de las aerolíneas en el cierre de 2026.",
+  "iagImpact": "indirecto",
+  "aiScore": 72,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/e5d8203c-5a23-4c43-bbb8-2fe0e9ef1060.png",
+  "imageId": "latam-3t-2026",
+  "photoSource": "Aviation Club Center",
+  "art": {
+   "kind": "big",
+   "value": "441 M$",
+   "label": "beneficio neto de LATAM en el 3T de 2026",
+   "sub": "+16,3% interanual"
+  },
+  "addedAt": "2026-11-04T06:55:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "heathrow-terminales-delta",
+  "title": "Delta tacha de «miope» el plan de Heathrow de llevarla a la T4 y separarla de Virgin Atlantic",
+  "category": "NET",
+  "publishedAt": "2026-11-03",
+  "source": "AirlineGeeks",
+  "url": "https://airlinegeeks.com/2026/11/03/delta-ceo-calls-heathrow-move-short-sighted/",
+  "summary": "El consejero delegado de Delta, Ed Bastian, calificó de «miope» la decisión de Heathrow de trasladar la aerolínea de la Terminal 3 a la 4 en 2028, lejos de su socia Virgin Atlantic. Delta, Finnair, Japan Airlines, LATAM y China Southern cambiarán de terminal.",
+  "body": [
+   {
+    "t": "El consejero delegado de Delta Air Lines, Ed Bastian, calificó de «miope, profundamente decepcionante y mala para los consumidores» la decisión del aeropuerto de Londres-Heathrow de trasladar a la aerolínea de la Terminal 3 a la Terminal 4 en 2028, informó AirlineGeeks el 3 de noviembre. Bastian, que publicó sus comentarios el lunes en LinkedIn, aseguró que Delta «recurrirá a todas las vías disponibles para corregir esta decisión».",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El cambio separa a Delta de Virgin Atlantic, su socia de joint venture, que seguirá en la Terminal 3; Delta concentró su operación de Heathrow en esa terminal en septiembre de 2016. Heathrow empezó a comunicar a las aerolíneas el resultado de su revisión de ocupación de terminales el 27 de octubre.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Cinco aerolíneas cambiarán de terminal: Delta, Finnair y Japan Airlines pasarán de la T3 a la T4; LATAM, de la T3 a la T2, y China Southern, de la T4 a la T5. Según Live and Let's Fly, China Southern se unirá allí a British Airways, con la que tiene una asociación comercial conjunta, mientras que Finnair y Japan Airlines, miembros de oneworld y socias de joint venture de BA y American, se alejan de sus socios en la T3, donde también opera BA.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El consejero delegado de Virgin Atlantic, Corneel Koster, sostiene que separar a la aerolínea de Delta «crearía fricciones para los clientes, debilitaría la competencia y reduciría la oferta». Heathrow defiende que los cambios aliviarán la congestión y aprovecharán mejor sus terminales; según fuentes aeroportuarias citadas por Sky News, el plan elegido era el que requería menos traslados y menos inversión, con el apoyo de aerolíneas que suman el 81% de los pasajeros. En la T4, Delta coincidirá con Air France y KLM.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "AirlineGeeks",
+    "url": "https://airlinegeeks.com/2026/11/03/delta-ceo-calls-heathrow-move-short-sighted/",
+    "date": "2026-11-03"
+   },
+   {
+    "name": "Live and Let's Fly",
+    "url": "https://liveandletsfly.com/heathrow-terminal-changes-british-airways-delta-virgin/",
+    "date": "2026-10-29"
+   }
+  ],
+  "why": "Heathrow es el hub de BA: la reubicación complica la operación de la joint venture rival Delta–Virgin, pero también aleja a Finnair y JAL de BA en la T3 y lleva a su socia China Southern a la T5.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 58,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/61cede21-55c4-45bb-bacc-d60846d5e4c4.jpeg",
+  "imageId": "heathrow-terminales-delta",
+  "photoSource": "AirlineGeeks",
+  "art": {
+   "kind": "big",
+   "value": "5",
+   "label": "aerolíneas cambiarán de terminal en Heathrow en 2028",
+   "sub": "Delta, Finnair, JAL, LATAM y China Southern"
+  },
+  "addedAt": "2026-11-04T06:55:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "ba-dubai-reanuda",
+  "title": "British Airways reanuda Londres–Dubái tras ocho meses y deja Abu Dabi en pausa hasta 2027-28",
+  "category": "NET",
+  "publishedAt": "2026-11-02",
+  "source": "Time Out Dubai",
+  "url": "https://www.timeoutdubai.com/news/british-airways-return-dubai",
+  "summary": "British Airways reanudó el 3 de noviembre la ruta Heathrow–Dubái con un vuelo diario, tras ocho meses de suspensión, y prevé dos diarios en verano. Abu Dabi seguirá sin servicio hasta el invierno 2027-28 y Jordania vuelve el 4 de noviembre con cuatro vuelos semanales.",
+  "body": [
+   {
+    "t": "British Airways reanudó el martes 3 de noviembre su ruta entre Londres-Heathrow y Dubái, con un vuelo diario, según Time Out Dubai y Brit Brief. La aerolínea prevé ampliar la frecuencia a dos vuelos diarios en la temporada de verano.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Según Brit Brief, la ruta quedó en tierra tras los ataques de Estados Unidos e Israel de finales de febrero de 2026, vinculados a la guerra con Irán, y en marzo BA suspendió también sus vuelos a Israel, Emiratos Árabes Unidos, Jordania y Catar. Los vuelos a Israel se reanudaron el 25 de octubre con un servicio diario, frente a los dos anteriores.",
+    "s": [
+     2
+    ]
+   },
+   {
+    "t": "Los vuelos a Jordania vuelven el 4 de noviembre, con cuatro frecuencias semanales, mientras que Abu Dabi seguirá suspendida hasta la temporada de invierno 2027-28. Time Out Dubai añade que Baréin permanecerá sin servicio hasta marzo de 2027 y que la aerolínea asegura estar «revisando constantemente la situación en la región».",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El regreso de otras aerolíneas europeas a Dubái es desigual, según Gulf News: Lufthansa volverá el 25 de noviembre con cinco vuelos semanales desde Fráncfort y otros tantos desde Múnich, la misma fecha que SWISS (diario desde Zúrich) y Eurowings (diario desde Berlín), y Austrian lo hará el 12 de diciembre. KLM mantiene la suspensión hasta el 27 de marzo de 2027, Finnair durante el invierno 2026-27 y Virgin Atlantic no prevé volver antes de 2027.",
+    "s": [
+     3
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Time Out Dubai",
+    "url": "https://www.timeoutdubai.com/news/british-airways-return-dubai",
+    "date": "2026-11-02"
+   },
+   {
+    "name": "Brit Brief",
+    "url": "https://britbrief.co.uk/business/transport/ba-resumes-london-dubai-flights-after-8-month-halt.html",
+    "date": "2026-11-02"
+   },
+   {
+    "name": "Gulf News",
+    "url": "https://gulfnews.com/business/aviation/uae-flights-status-list-of-cancellations-delays-and-airline-resumptions-on-nov-3-1.500733702",
+    "date": "2026-11-03"
+   }
+  ],
+  "why": "BA vuelve a Dubái antes que Lufthansa, KLM o Virgin Atlantic y recupera capacidad de largo radio desde Heathrow, aunque Abu Dabi y Baréin siguen cerradas y su red en Oriente Medio aún no está completa.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 55,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/870df3d6-3ea3-4006-9d0e-488b0f7d2d0c.png",
+  "imageId": "ba-dubai-reanuda",
+  "photoSource": "Time Out Dubai",
+  "art": {
+   "kind": "route",
+   "title": "British Airways vuelve a Dubái",
+   "badge": "1 vuelo diario",
+   "points": [
+    {
+     "code": "LHR",
+     "city": "Londres",
+     "lat": 51.47,
+     "lon": -0.45
+    },
+    {
+     "code": "DXB",
+     "city": "Dubái",
+     "lat": 25.25,
+     "lon": 55.36
+    }
+   ]
+  },
+  "addedAt": "2026-11-04T06:55:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "wizz-air-octubre-2026",
+  "title": "Wizz Air sube un 19,8% sus pasajeros en octubre y abre bases en Madrid y Valencia",
+  "category": "NET",
+  "publishedAt": "2026-11-03",
+  "source": "Investing.com",
+  "url": "https://investing.com/news/stock-market-news/wizz-air-october-passengers-rise-20-on-year-93CH-4993678",
+  "summary": "Wizz Air transportó 7,62 millones de pasajeros en octubre, un 19,8% más, con 8,36 millones de asientos (+22,1%) y una ocupación del 91,2%. La aerolínea ha abierto bases en Madrid y Valencia con tres aviones y 16 rutas, y en octubre firmó un acuerdo de distribución con Amadeus.",
+  "body": [
+   {
+    "t": "Wizz Air transportó 7,62 millones de pasajeros en octubre de 2026, un 19,8% más que un año antes, según los datos de tráfico publicados el 3 de noviembre que recogen Investing.com y MarketScreener. La capacidad creció un 22,1%, hasta 8,36 millones de asientos, y el factor de ocupación bajó 1,7 puntos, hasta el 91,2%.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "En los últimos doce meses, la aerolínea transportó 80,6 millones de pasajeros, un 19,6% más, y mejoró un 2,5% sus emisiones de CO2 por pasajero-kilómetro. Su flota es de 275 aviones Airbus A320 y A321.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "En España, Wizz Air abrió esta semana bases en Madrid y Valencia, con tres aviones y 16 rutas. Tras la suspensión de la alta velocidad entre Madrid y Andalucía, añade dos vuelos diarios de ida y vuelta de Madrid a Málaga y a Sevilla, del 6 de noviembre al 13 de diciembre según Investing.com, con tarifas topadas en 99,99 euros. En octubre lanzó además rutas desde Londres-Luton a Málaga, Granada y Asturias, con lo que suma diez destinos españoles desde ese aeropuerto.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "En octubre firmó también un acuerdo de distribución con Amadeus que pone sus tarifas y servicios auxiliares al alcance de las agencias que usan Amadeus en mercados seleccionados. Ese mismo día, Ryanair informó de 19,4 millones de pasajeros en octubre, frente a 19,2 millones un año antes, con una ocupación estable del 93%, según MarketScreener. Wizz Air presentará el 12 de noviembre sus resultados del semestre cerrado el 30 de septiembre.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Investing.com",
+    "url": "https://investing.com/news/stock-market-news/wizz-air-october-passengers-rise-20-on-year-93CH-4993678",
+    "date": "2026-11-03"
+   },
+   {
+    "name": "MarketScreener (Alliance News)",
+    "url": "https://marketscreener.com/news/ryanair-and-wizz-air-report-higher-passenger-numbers-in-october-ce785fd9d189f120",
+    "date": "2026-11-03"
+   }
+  ],
+  "why": "Wizz Air crece a doble dígito y se instala con base propia en Madrid, el hub de Iberia, mientras su acuerdo con Amadeus le abre el canal de agencias en el corto radio europeo.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 52,
+  "art": {
+   "kind": "big",
+   "value": "+19,8%",
+   "label": "pasajeros de Wizz Air en octubre",
+   "sub": "7,62 millones; ocupación del 91,2%"
+  },
+  "addedAt": "2026-11-04T06:55:00Z",
+  "addedBy": "claude"
  }
 ]
