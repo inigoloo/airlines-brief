@@ -3568,5 +3568,175 @@
    "label": "ayuda neerlandesa a KLM en 2020",
    "sub": "Aprobación restablecida por el TJUE"
   }
+ },
+ {
+  "id": "iag-3t-2026",
+  "title": "IAG gana 1.730 M€ en el 3T, un 16% menos, por el combustible y mantiene su margen del 12%",
+  "category": "FIN",
+  "publishedAt": "2026-11-06",
+  "source": "Proactive (Yahoo)",
+  "url": "https://uk.finance.yahoo.com/news/iag-revenue-rises-5-fuel-072000327.html",
+  "summary": "IAG elevó un 5% sus ingresos del tercer trimestre, hasta 9.740 millones de euros, pero su beneficio operativo cayó un 16%, a 1.730 millones, con un combustible un 30% más caro. Mantiene un margen anual de al menos el 12% y prevé una capacidad algo inferior a 2025.",
+  "body": [
+   {
+    "t": "International Airlines Group (IAG), dueño de British Airways, Iberia, Vueling y Aer Lingus, presentó el 6 de noviembre sus resultados del tercer trimestre de 2026. Los ingresos subieron un 5%, hasta 9.740 millones de euros, mientras que el beneficio operativo antes de partidas excepcionales cayó un 16%, hasta 1.730 millones, frente a 2.050 millones un año antes. El margen operativo se estrechó al 17,7%, desde el 22%.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Según Reuters, el beneficio operativo quedó por debajo del consenso de analistas, que esperaba 1.810 millones de euros. El combustible fue el principal lastre: su coste subió un 30% en el trimestre, según Proactive, y 565 millones de euros, según el resumen de la conferencia con analistas publicado por Daily Political. Los costes unitarios sin combustible aumentaron un 3%, tras los fallos del control aéreo y otras incidencias.",
+    "s": [
+     1,
+     2,
+     4
+    ]
+   },
+   {
+    "t": "La demanda resistió: los ingresos de pasaje crecieron un 4% y el ingreso unitario en el Atlántico Norte, un 11%. El consejero delegado, Luis Gallego, afirmó que «los precios sólidos siguieron demostrando una demanda robusta de los clientes pese al alto precio del combustible y a las incidencias», y ante la prensa añadió: «Seguimos viendo una fuerte demanda corporativa, en particular en el Atlántico Norte y en las regiones domésticas, Asia-Pacífico y el sur de Asia».",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Por aerolíneas, British Airways ganó 602 millones de libras en el trimestre, con un margen del 14,4%; Iberia, 452 millones de euros (19,6%); Vueling, 257 millones (23,8%), y Aer Lingus, 142 millones (17,4%). El beneficio operativo de Iberia en el trimestre bajó un 11,3%, con unos ingresos un 7% mayores, de 2.299 millones de euros. En los nueve meses, IAG Loyalty elevó su resultado un 17,7%, hasta 391 millones de libras, mientras que Vueling cayó un 17,4% y Aer Lingus ganó menos de la mitad que un año antes.",
+    "s": [
+     3,
+     4
+    ]
+   },
+   {
+    "t": "Para 2026, IAG mantiene un margen operativo antes de partidas excepcionales de al menos el 12%, prevé una capacidad ligeramente inferior a la de 2025 —la primera caída desde 2022, según Reuters— y un gasto en combustible de unos 8.900 millones de euros. Tiene cubierto el 71% del combustible para lo que resta de 2026 y el 45% para 2027, y ya ha vendido el 85% de las plazas previstas para el cuarto trimestre.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El grupo recibirá 12 aviones en 2026, frente a los 16 previstos en el semestre, y espera el Boeing 777-9 en 2028; recorta su inversión anual a unos 3.100 millones de euros, desde 3.400 millones, y su deuda neta bajó a 4.200 millones, desde 4.700 millones en el semestre. Sube un 10% el dividendo a cuenta, hasta 0,053 euros por acción, y ha iniciado el último tramo de 500 millones de su recompra de acciones de 1.500 millones.",
+    "s": [
+     1,
+     4
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Proactive (Yahoo Finance UK)",
+    "url": "https://uk.finance.yahoo.com/news/iag-revenue-rises-5-fuel-072000327.html",
+    "date": "2026-11-06"
+   },
+   {
+    "name": "Reuters (RTÉ)",
+    "url": "https://www.rte.ie/news/business/2026/1106/1598223-iag-quarterly-results/",
+    "date": "2026-11-06"
+   },
+   {
+    "name": "Europa Press (Demócrata)",
+    "url": "https://www.democrata.es/en/economy/iberia-cuts-its-profit-by-9-until-september-due-to-fuel-but-boosts-its-summer-revenues/",
+    "date": "2026-11-06"
+   },
+   {
+    "name": "Daily Political",
+    "url": "https://www.dailypolitical.com/2026/11/08/international-consolidated-airlines-group-q3-earnings-call-highlights.html",
+    "date": "2026-11-08"
+   }
+  ],
+  "why": "Confirma que IAG traslada a precio buena parte del alza del combustible gracias al Atlántico Norte y sus coberturas, aunque recorta capacidad, entregas e inversión en 2026 y su beneficio cae por debajo de lo esperado.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 90,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/407dc57b-073b-4fe3-a3bc-68cd3a2cb4dc.jpeg",
+  "imageId": "iag-3t-2026",
+  "photoSource": "RTÉ",
+  "addedAt": "2026-11-09T06:55:01Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "bars",
+   "title": "Beneficio operativo 3T (M€)",
+   "bars": [
+    {
+     "l": "3T 2025",
+     "v": 2050,
+     "t": "2.050"
+    },
+    {
+     "l": "3T 2026",
+     "v": 1730,
+     "t": "1.730"
+    }
+   ]
+  }
+ },
+ {
+  "id": "airbus-boeing-oct-2026",
+  "title": "Airbus entrega 74 aviones en octubre y suma 202 pedidos; aún debe entregar 249 en dos meses",
+  "category": "FLT",
+  "publishedAt": "2026-11-06",
+  "source": "Air Data News",
+  "url": "https://www.airdatanews.com/airbus-delivers-74-aircraft-in-october-needs-249-more-to-meet-2026-target/",
+  "summary": "Airbus entregó 74 aviones a 45 clientes en octubre y acumula 621 en 2026, un 6,2% más; para su objetivo de unos 870 le faltan 249 en noviembre y diciembre. Sumó 202 pedidos brutos, 185 de tres arrendadoras, y Boeing entregó unos 49 aviones, según estimaciones.",
+  "body": [
+   {
+    "t": "Airbus entregó 74 aviones comerciales a 45 clientes en octubre de 2026, según los datos publicados el 6 de noviembre. En los diez primeros meses del año suma 621 entregas, un 6,2% más que las 585 del mismo periodo de 2025. Para cumplir su objetivo anual de unos 870 aviones necesita entregar 249 más en noviembre y diciembre.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Por modelos, en octubre salieron de las líneas 39 A321neo, 15 A320neo, nueve A220-300, cuatro A330-900, seis A350 y un A319neo. El consejero delegado, Guillaume Faury, dijo a finales de octubre que se sentía «razonablemente cómodo» con el objetivo; tras los resultados del tercer trimestre también admitió ante periodistas: «Tenemos un nivel alto de inventario».",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El fabricante registró en octubre 202 pedidos brutos y dos cancelaciones, con lo que acumula 1.376 pedidos brutos y 1.305 netos en el año. Tres arrendadoras concentraron 185 aviones: Avolon pidió 75 de pasillo único (23 A320neo y 52 A321neo) y 35 A330-900 a través de su filial CIT Leasing, y Aviation Capital Group, 75 (40 A320neo y 35 A321neo). Biman Bangladesh encargó seis A321neo y cuatro A350-900, y Atlantic Airways, dos A320neo.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Boeing entregó en octubre unos 49 aviones comerciales, frente a 56 en septiembre, según las estimaciones recogidas por Travel Extra, con lo que rondaría las 524 entregas en el año. Hasta septiembre, Airbus llevaba 547 entregas frente a las 475 de Boeing, según Reuters citado por Migflug. La FAA certificó el 737 MAX 10 el 20 de octubre y las entregas a clientes se esperan a principios de 2027.",
+    "s": [
+     2,
+     3
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Air Data News",
+    "url": "https://www.airdatanews.com/airbus-delivers-74-aircraft-in-october-needs-249-more-to-meet-2026-target/",
+    "date": "2026-11-06"
+   },
+   {
+    "name": "Migflug",
+    "url": "https://migflug.com/afterburner/airbus-october-orders-202-jets-74-deliveries-2026/",
+    "date": "2026-11-06"
+   },
+   {
+    "name": "Travel Extra",
+    "url": "https://www.travelextra.ie/?p=158361",
+    "date": "2026-11-06"
+   }
+  ],
+  "why": "Con 249 entregas pendientes en dos meses y un alto inventario, el ritmo de Airbus condiciona la llegada de A320neo y A321neo a las aerolíneas europeas, también las de IAG.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 72,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/34693297-c87f-4805-ad21-c2564c08021a.jpeg",
+  "imageId": "airbus-boeing-oct-2026",
+  "photoSource": "Travel Extra",
+  "addedAt": "2026-11-09T06:55:01Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "big",
+   "value": "74",
+   "label": "entregas de Airbus en octubre",
+   "sub": "621 en lo que va de 2026"
+  }
  }
 ]
