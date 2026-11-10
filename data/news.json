@@ -3738,5 +3738,237 @@
    "label": "entregas de Airbus en octubre",
    "sub": "621 en lo que va de 2026"
   }
+ },
+ {
+  "id": "huelga-11n-vuelos-servicios-minimos",
+  "title": "Huelga general del 11-N: Transportes fija servicios mínimos de entre el 18% y el 85% en vuelos",
+  "category": "NET",
+  "publishedAt": "2026-11-09",
+  "source": "Metrópoli Abierta",
+  "url": "https://metropoliabierta.elespanol.com/movilidad/20261109/transportes-fija-servicios-minimos-vuelos-huelga-general-miercoles/1003742810415_0.html",
+  "summary": "Transportes ha fijado servicios mínimos de entre el 18% y el 85% para los vuelos durante la huelga general del 11 de noviembre. Las rutas peninsulares con alternativa de menos de cinco horas solo tendrán entre el 18% y el 37% de las operaciones.",
+  "body": [
+   {
+    "t": "El Ministerio de Transportes y Movilidad Sostenible ha fijado servicios mínimos de entre el 18% y el 85% para los vuelos comerciales durante la huelga general del miércoles 11 de noviembre, según publicaron el 9 de noviembre Metrópoli Abierta y Demócrata. Los porcentajes varían según el tipo de ruta y el aeropuerto.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La huelga, de 24 horas, ha sido convocada por CCOO y UGT, a las que se han sumado otros sindicatos como CGT, por la vivienda y los salarios. La resolución de Transportes, firmada el 6 de noviembre por la Secretaría de Estado de Transportes, cubre toda la jornada del día 11.",
+    "s": [
+     3
+    ]
+   },
+   {
+    "t": "Para los vuelos nacionales con origen o destino en territorios no peninsulares y las rutas con obligación de servicio público, los mínimos van del 56% al 85% según el aeropuerto: del 56% al 74% en Canarias, del 68% al 75% en Baleares, el 80% en Ceuta y el 59% en Melilla. Los vuelos internacionales y los peninsulares cuya alternativa en transporte público supera las cinco horas tendrán entre el 39% y el 64%.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Las rutas peninsulares con una alternativa de menos de cinco horas son las más afectadas: se mantendrá entre el 18% y el 37% de las operaciones, con la reubicación garantizada del 40% de los pasajeros. Quedan protegidos al 100% los vuelos de emergencia, los de Estado, los sobrevuelos con origen y destino fuera de España y los del Ministerio del Interior para el traslado de ciudadanos extranjeros.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "En los aeropuertos, la asistencia a pasajeros con movilidad reducida y el servicio médico mantendrán el 75% de la plantilla, y el control de pasaportes deberá contar con personal suficiente para que el tiempo medio por pasajero no supere los 30 minutos.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Según Reclamea, Iberia, Iberia Express y Air Nostrum permiten cambiar la fecha del vuelo hasta el 26 de noviembre o pedir el reembolso, también si el vuelo se cancela. Vueling, Air Europa y Ryanair no habían publicado nada sobre la huelga en sus páginas de avisos a la mañana del 8 de noviembre.",
+    "s": [
+     3
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Metrópoli Abierta",
+    "url": "https://metropoliabierta.elespanol.com/movilidad/20261109/transportes-fija-servicios-minimos-vuelos-huelga-general-miercoles/1003742810415_0.html",
+    "date": "2026-11-09"
+   },
+   {
+    "name": "Demócrata",
+    "url": "https://www.democrata.es/economia/transportes-fija-servicios-minimos-de-entre-el-18-y-el-85-en-los-vuelos-por-la-huelga-general/",
+    "date": "2026-11-09"
+   },
+   {
+    "name": "Reclamea",
+    "url": "https://reclamea.com/vuelos/actualidad/huelga-general-11-noviembre-vuelos/",
+    "date": "2026-11-08"
+   }
+  ],
+  "why": "Los mínimos más bajos recaen en las rutas peninsulares cortas, núcleo de la red doméstica de Iberia, Iberia Express y Vueling desde Madrid y Barcelona, que deberán reubicar pasajeros un día laborable.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 58,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/be942037-ff76-4d0c-86de-76285566127e.jpeg",
+  "imageId": "huelga-11n-vuelos-servicios-minimos",
+  "photoSource": "Demócrata (Europa Press)",
+  "addedAt": "2026-11-10T07:00:27Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "big",
+   "value": "18-85%",
+   "label": "servicios mínimos en vuelos el 11-N",
+   "sub": "peninsulares cortas: 18%-37%"
+  }
+ },
+ {
+  "id": "boeing-recorte-plantilla-bca",
+  "title": "Boeing recortará un 5% de la plantilla de aviones comerciales por el retraso en su producción",
+  "category": "FLT",
+  "publishedAt": "2026-11-09",
+  "source": "AeroTime",
+  "url": "https://www.aerotime.aero/articles/boeing-commercial-airplanes-workforce-cuts-737-production",
+  "summary": "Boeing recortará alrededor del 5% de la plantilla de su división de aviones comerciales, unos 2.500 puestos según AeroTime, con despidos que podrían notificarse en diciembre. Su CEO, Stephanie Pope, lo atribuye a la reducción de la producción de aviones.",
+  "body": [
+   {
+    "t": "Boeing recortará alrededor del 5% de la plantilla de su división de aviones comerciales (Boeing Commercial Airplanes), según comunicó el 9 de noviembre a los empleados su presidenta y consejera delegada, Stephanie Pope. Según AeroTime, equivale a unos 2.500 puestos sobre los 50.500 empleados que tenía la división a finales de 2025, y parte de la reducción se hará mediante bajas naturales.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Las notificaciones de despido podrían enviarse ya en diciembre, según AeroTime; FLYING indica que saldrán en diciembre y que Boeing no ha revelado el número exacto de empleados afectados. «Ajustar nuestros calendarios de producción y reducir la producción de aviones nos sitúa en una posición de exceso de plantilla», escribió Pope, según AeroTime.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Un portavoz de Boeing vinculó los recortes a que los resultados trimestrales de octubre mostraron que la compañía «no está alcanzando los objetivos de producción», según FLYING, que señala que la producción del 737 MAX se ha ralentizado y que también se reduce la del 787 Dreamliner.",
+    "s": [
+     2
+    ]
+   },
+   {
+    "t": "Según AeroTime, Boeing esperaba fabricar 47 aviones 737 al mes en el verano de 2026, pero su consejero delegado, Kelly Ortberg, retrasó ese objetivo a principios de 2027 en la presentación de resultados de octubre y avisó de que no cumplirá su meta de entregas del 737 de 2026. FLYING, por su parte, sitúa en mediados de 2027 el aplazamiento de los aumentos de producción mensual.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "En el 787, el objetivo era de 10 unidades al mes, pero la producción se mantuvo en 8 en el tercer trimestre de 2026, según AeroTime. En los tres meses hasta septiembre, Boeing entregó 22 Dreamliner y 124 aviones 737 y sumó 300 pedidos netos.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "AeroTime",
+    "url": "https://www.aerotime.aero/articles/boeing-commercial-airplanes-workforce-cuts-737-production",
+    "date": "2026-11-09"
+   },
+   {
+    "name": "FLYING",
+    "url": "https://www.flyingmag.com/boeing-to-cut-commercial-division-workforce-by-5-percent/",
+    "date": "2026-11-09"
+   }
+  ],
+  "why": "El recorte confirma que Boeing no acelerará la producción del 737 y del 787 al ritmo previsto, lo que prolonga la escasez de aviones nuevos y condiciona los planes de flota y capacidad de las aerolíneas.",
+  "aiScore": 72,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/d526cf8c-10fa-4f8b-9767-5ce58e188a41.jpeg",
+  "imageId": "boeing-recorte-plantilla-bca",
+  "photoSource": "AeroTime",
+  "addedAt": "2026-11-10T07:00:27Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "big",
+   "value": "-5%",
+   "label": "plantilla de Boeing Commercial Airplanes",
+   "sub": "unos 2.500 puestos, según AeroTime"
+  }
+ },
+ {
+  "id": "europa-coberturas-combustible-2027",
+  "title": "Las aerolíneas europeas agotan sus coberturas de combustible barato de cara a 2027",
+  "category": "FIN",
+  "publishedAt": "2026-11-09",
+  "source": "Raconteur",
+  "url": "https://www.raconteur.net/finance/news-europes-airlines-face-the-end-of-cheap-fuel-deals",
+  "summary": "Ryanair solo tiene cubierta una cuarta parte del combustible de su ejercicio 2028 y prevé una factura 2.000 millones de euros mayor. Lufthansa ha asegurado la mayor parte de 2027, Air France-KLM algo más de la mitad y Wizz Air el 50% del verano.",
+  "body": [
+   {
+    "t": "Las coberturas de combustible a bajo precio que han protegido a las aerolíneas europeas se agotan de cara a 2027, según un análisis publicado el 9 de noviembre por Raconteur que repasa la situación de Ryanair, Lufthansa, Air France-KLM y Wizz Air.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Ryanair tiene cubierta la mayor parte de su combustible hasta marzo de 2027, pero solo una cuarta parte de las necesidades del ejercicio siguiente. Con los precios a plazo del 2 de noviembre, calcula que su factura anual de combustible podría subir 2.000 millones de euros. «A medida que las coberturas de petróleo barato venzan antes del verano de 2027, todas las aerolíneas de la UE se enfrentan a una factura de combustible significativamente mayor el próximo año», afirmó su consejero delegado, Michael O'Leary.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Lufthansa ha asegurado la mayor parte del combustible previsto para 2027 de sus aerolíneas de pasajeros. Air France-KLM ha cubierto algo más de la mitad de sus necesidades de 2027, ha elevado los recargos de los billetes y ha congelado la contratación en puestos no operativos, según Raconteur.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Wizz Air tiene cubierto el 50% de su combustible del verano de 2027 a 900 dólares por tonelada métrica, frente a un precio al contado de 1.500 dólares, y el 85% de los seis meses siguientes a 800 dólares por tonelada, según Aviation Week. «Si este conflicto en Oriente Medio continúa otro año, voy a obtener una enorme ventaja competitiva», dijo su consejero delegado, József Váradi.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Váradi añadió que «todos los demás van a encoger y subir tarifas». Raconteur recuerda además que el director general de IATA, Willie Walsh, señaló en junio: «Aunque las tarifas aéreas están subiendo, las aerolíneas siguen absorbiendo parte del aumento en sus cuentas».",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Raconteur",
+    "url": "https://www.raconteur.net/finance/news-europes-airlines-face-the-end-of-cheap-fuel-deals",
+    "date": "2026-11-09"
+   },
+   {
+    "name": "Aviation Week",
+    "url": "https://aviationweek.com/air-transport/airlines-lessors/wizz-air-looks-leverage-hedging-advantage",
+    "date": "2026-10-22"
+   }
+  ],
+  "why": "Las distintas coberturas para 2027 marcarán la diferencia de costes entre los competidores de IAG en Europa: Ryanair frente a Vueling e Iberia Express, y Lufthansa o Air France-KLM en el largo radio.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 70,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/55bde3ee-099b-4cdb-a572-fdaee0935f8f.jpeg",
+  "imageId": "europa-coberturas-combustible-2027",
+  "photoSource": "Aviation Week",
+  "addedAt": "2026-11-10T07:00:27Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "bars",
+   "title": "Combustible cubierto para 2027-2028 (%)",
+   "bars": [
+    {
+     "l": "Ryanair (ejercicio 2028)",
+     "v": 25,
+     "t": "una cuarta parte"
+    },
+    {
+     "l": "Wizz Air (verano 2027)",
+     "v": 50,
+     "t": "50%"
+    }
+   ]
+  }
  }
 ]
