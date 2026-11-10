@@ -1,5 +1,5 @@
-// POST /api/admin { key, op: "edition"|"config", data } -> admin-only writes (admin key checked against its hash)
-const { isAdminKey, writeJSON } = require("./_admin");
+// POST /api/admin { key, op: "edition"|"deleteEdition"|"config", data } -> admin-only writes (admin key checked against its hash)
+const { isAdminKey, writeJSON, deleteBlob } = require("./_admin");
 module.exports = async (req, res) => {
   res.setHeader("Cache-Control", "no-store");
   if(req.method !== "POST") return res.status(405).json({ error: "POST" });
@@ -10,6 +10,11 @@ module.exports = async (req, res) => {
     if(body.op === "edition"){
       if(!/^issue-\d{3}$/.test(String(d.id || "")) || !Array.isArray(d.newsIds)) return res.status(400).json({ error: "edition" });
       await writeJSON(`admin/editions/${d.id}.json`, d);
+      return res.status(200).json({ ok: true });
+    }
+    if(body.op === "deleteEdition"){
+      if(!/^issue-\d{3}$/.test(String(d.id || ""))) return res.status(400).json({ error: "edition" });
+      await deleteBlob(`admin/editions/${d.id}.json`);
       return res.status(200).json({ ok: true });
     }
     if(body.op === "config"){

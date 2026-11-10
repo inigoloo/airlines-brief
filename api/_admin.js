@@ -17,6 +17,11 @@ async function writeJSON(pathname, obj){
   const { put } = await sdk();
   await put(pathname, JSON.stringify(obj), { access: "private", addRandomSuffix: false, allowOverwrite: true, contentType: "application/json" });
 }
+async function deleteBlob(pathname){
+  const { del, head } = await sdk();
+  const h = await head(pathname).catch(() => null);
+  if(h) await del(h.url);
+}
 async function repo(req, file){
   const proto = req.headers["x-forwarded-proto"] || "https";
   const r = await fetch(`${proto}://${req.headers.host}/data/${file}`, { cache: "no-store" });
@@ -37,4 +42,4 @@ async function config(req){
   if(over && String(over.updatedAt || "") > String(base.updatedAt || "")) return { ...base, ...over };
   return base;
 }
-module.exports = { isAdminKey, editions, config, writeJSON };
+module.exports = { isAdminKey, editions, config, writeJSON, deleteBlob };
