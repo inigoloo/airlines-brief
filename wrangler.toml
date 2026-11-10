@@ -1,7 +1,12 @@
-# Cloudflare Pages configuration (the project is connected to GitHub; this file sets the build output and bindings).
+# Cloudflare Worker (connected to GitHub, branch main): static files from dist/ plus the /api functions.
 name = "airlines-brief"
-pages_build_output_dir = "dist"
+main = "cf/worker.js"
 compatibility_date = "2025-10-01"
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+run_worker_first = ["/api/*"]
 
 [[d1_databases]]
 binding = "DB"

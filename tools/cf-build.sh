@@ -1,5 +1,5 @@
 #!/bin/sh
-# Cloudflare Pages build: copies only the public files to dist/ (the API lives in functions/, the sources stay private).
+# Cloudflare build: copies only the public files to dist/ (the API runs in the Worker, the sources stay private).
 set -e
 rm -rf dist && mkdir -p dist
 cp index.html shim.js robots.txt dist/

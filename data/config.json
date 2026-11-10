@@ -1,11 +1,10 @@
 {
- "audience": "Outlook · envío manual (borrador automático los lunes)",
+ "audience": "Klaviyo · Lista HTTL (R9Ezeg)",
  "cadenceDays": 7,
  "maxItems": 6,
  "minItems": 6,
- "nextSend": "2026-11-16",
- "portalUrl": "https://airlines-brief.pages.dev",
+ "nextSend": "2026-11-02",
+ "portalUrl": "https://airlines-brief.vercel.app",
  "sendTime": "10:00",
- "threshold": 2,
- "updatedAt": "2026-11-10T09:49:34.000Z"
+ "threshold": 2
 }
