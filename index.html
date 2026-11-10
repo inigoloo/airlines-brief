@@ -693,12 +693,10 @@ function story(n, t, inSel, opts){
 function renderPortal(){
   const box = $("#portal");
   if(!state.loaded) return;
-  // The web shows news from the last 14 days (the weekly email only uses the last 7). Older articles stay reachable by link.
-  const webCutoff = addDays(todayISO(), -14);
   const ranged = !!(state.from || state.to);
   const inRange = n => (!state.from || n.publishedAt >= state.from) && (!state.to || n.publishedAt <= state.to);
-  // With a date range, every stored news item in that range is shown (the 14-day limit does not apply).
-  const valid = state.news.filter(n => isValid(n) && (ranged ? inRange(n) : n.publishedAt >= webCutoff));
+  // Every stored news item is shown (only the date filter, when set, narrows it).
+  const valid = state.news.filter(n => isValid(n) && (!ranged || inRange(n)));
   const rangeTxt = ranged ? (state.from && state.to ? `del ${fmtDate(state.from)} al ${fmtDate(state.to)}` : state.from ? `desde el ${fmtDate(state.from)}` : `hasta el ${fmtDate(state.to)}`) : "";
   if(!valid.length && ranged && !state.q){
     box.innerHTML = `<div class="empty">No hay noticias ${esc(rangeTxt)}${state.section !== "ALL" ? " en esta sección" : ""}.</div>`;
@@ -771,8 +769,7 @@ function renderPortal(){
     </div></aside>
   </div>
   <div class="morehead"><h2>Más noticias</h2><span class="mh-note">Las más recientes primero</span></div>
-  <div class="river">${rest.map(n => story(n,t,inSel)).join("")}</div>
-  <p class="oldnote">Las noticias de hace más de 14 días no aparecen en la portada ni en las secciones: encuéntralas con el buscador.</p>`;
+  <div class="river">${rest.map(n => story(n,t,inSel)).join("")}</div>`;
   equalizeCards();
 }
 function equalizeCards(){
