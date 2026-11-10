@@ -1,8 +1,40 @@
 {
   "cleanUrls": true,
-  "rewrites": [ { "source": "/_blob/:id", "destination": "/img/:id.jpg" } ],
+  "rewrites": [
+    {
+      "source": "/_blob/:id",
+      "destination": "/img/:id.jpg"
+    }
+  ],
   "headers": [
-    { "source": "/data/(.*)", "headers": [ { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" } ] },
-    { "source": "/(.*)", "headers": [ { "key": "X-Robots-Tag", "value": "noindex, nofollow" }, { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" } ] }
+    {
+      "source": "/data/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/:path*",
+      "destination": "https://airlines-brief.inigoviu.workers.dev/:path*",
+      "permanent": false
+    }
   ]
 }
