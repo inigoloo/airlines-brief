@@ -695,8 +695,8 @@ function renderPortal(){
   if(!state.loaded) return;
   const ranged = !!(state.from || state.to);
   const inRange = n => (!state.from || n.publishedAt >= state.from) && (!state.to || n.publishedAt <= state.to);
-  // Portada shows the last 14 days; the sections show every stored news item. The date filter, when set, overrides both.
-  const webCutoff = addDays(todayISO(), -14);
+  // Portada shows the last month; the sections show every stored news item. The date filter, when set, overrides both.
+  const webCutoff = (() => { const d = new Date(todayISO() + "T12:00:00Z"); d.setUTCMonth(d.getUTCMonth() - 1); return d.toISOString().slice(0, 10); })();
   const valid = state.news.filter(n => isValid(n) && (ranged ? inRange(n) : (state.section !== "ALL" || n.publishedAt >= webCutoff)));
   const rangeTxt = ranged ? (state.from && state.to ? `del ${fmtDate(state.from)} al ${fmtDate(state.to)}` : state.from ? `desde el ${fmtDate(state.from)}` : `hasta el ${fmtDate(state.to)}`) : "";
   if(!valid.length && ranged && !state.q){
@@ -771,7 +771,7 @@ function renderPortal(){
   </div>
   <div class="morehead"><h2>Más noticias</h2><span class="mh-note">Las más recientes primero</span></div>
   <div class="river">${rest.map(n => story(n,t,inSel)).join("")}</div>
-  <p class="oldnote">En la portada salen las noticias de los últimos 14 días. Las anteriores están en cada sección y en el buscador.</p>`;
+  <p class="oldnote">En la portada salen las noticias del último mes. Las anteriores están en cada sección y en el buscador.</p>`;
   equalizeCards();
 }
 function equalizeCards(){
