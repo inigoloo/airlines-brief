@@ -483,8 +483,13 @@ applyAdmin();
   applyAdmin();
 })();
 let view = "portal";
-function go(v, sec){
+// Navigation uses the browser history, so the browser's back button (and the article's back link) return to the
+// previous view: the front page, a section, or the search results with their query.
+function go(v, sec, opts = {}){
   if(!VIEWS.includes(v) || (ADMIN_VIEWS.includes(v) && !isAdmin)) v = "portal";
+  if(v === "articulo" && !opts.fromPop){
+    state.backLabel = view === "articulo" ? "← Volver" : state.q ? `← Resultados de «${state.q}»` : (view === "portal" && state.section !== "ALL") ? `← ${CATS[state.section]}` : "← Portada";
+  }
   view = v; if(sec) state.section = sec;
   VIEWS.forEach(x => $("#v-"+x).hidden = x !== v);
   document.querySelectorAll("#nav button").forEach(b => {
@@ -495,11 +500,38 @@ function go(v, sec){
   if(v === "portal") renderPortal();
   if(v === "articulo") renderArticle();
   const hash = v === "portal" ? (state.section === "ALL" ? "portada" : state.section.toLowerCase()) : v === "articulo" ? "noticia-" + state.articleId : v;
-  try{ history.replaceState(null,"","#"+hash); }catch(e){}
+  if(opts.fromPop) return;
+  const entry = { site: true, v, sec: state.section, q: state.q, art: state.articleId, back: state.backLabel || "" };
+  try{
+    const cur = history.state;
+    const same = cur && cur.site && location.hash === "#" + hash && (cur.q || "") === (state.q || "");
+    if(opts.replace || same || !cur || !cur.site) history.replaceState(entry, "", "#" + hash);
+    else { history.replaceState({...cur, y: window.scrollY}, "", location.href); history.pushState(entry, "", "#" + hash); }
+  }catch(e){}
 }
+window.addEventListener("popstate", e => {
+  const st = e.state;
+  const h = (location.hash || "").replace("#", "").toLowerCase();
+  const sec = Object.keys(CATS).find(k => k.toLowerCase() === h);
+  state.q = (st && st.q) || "";
+  $("#q").value = state.q; $("#q-clear").hidden = !state.q;
+  if(st && st.site) state.backLabel = st.back || "← Portada";
+  else { state.backLabel = "← Portada"; state.cameFromSite = false; }  // a link typed or pasted by hand
+  if(h.startsWith("noticia-") && h.length > 8){ state.articleId = h.slice(8); go("articulo", null, {fromPop: true}); }
+  else if(sec) go("portal", sec, {fromPop: true});
+  else if(VIEWS.includes(h) && h !== "articulo") go(h, h === "portal" ? "ALL" : null, {fromPop: true});
+  else go("portal", "ALL", {fromPop: true});
+  const y = st && typeof st.y === "number" ? st.y : 0;
+  requestAnimationFrame(() => window.scrollTo({top: y}));
+});
 document.addEventListener("click", e => {
+  if(e.target.closest("[data-goback]")){
+    if(history.state && history.state.site && history.length > 1 && state.backLabel && state.cameFromSite) history.back();
+    else { state.q = ""; $("#q").value = ""; $("#q-clear").hidden = true; go("portal", "ALL"); window.scrollTo({top:0}); }
+    return;
+  }
   const a = e.target.closest("[data-art]");
-  if(a && !e.metaKey && !e.ctrlKey && !e.shiftKey){ e.preventDefault(); state.articleId = a.dataset.art; go("articulo"); window.scrollTo({top:0}); return; }
+  if(a && !e.metaKey && !e.ctrlKey && !e.shiftKey){ e.preventDefault(); state.articleId = a.dataset.art; state.cameFromSite = true; go("articulo"); window.scrollTo({top:0}); return; }
   const b = e.target.closest("[data-view],[data-sec]");
   if(!b || b.closest(".item-vote")) return;
   if(b.dataset.view){ go(b.dataset.view); window.scrollTo({top:0}); }
@@ -508,8 +540,8 @@ document.addEventListener("click", e => {
 (function initHash(){
   const h = (location.hash||"").replace("#","").toLowerCase();
   const sec = Object.keys(CATS).find(k => k.toLowerCase() === h);
-  if(h.startsWith("noticia-") && h.length > 8){ state.articleId = h.slice(8); go("articulo"); }
-  else if(sec) go("portal", sec); else go(VIEWS.includes(h) && h !== "articulo" ? h : "portal");
+  if(h.startsWith("noticia-") && h.length > 8){ state.articleId = h.slice(8); go("articulo", null, {replace: true}); }
+  else if(sec) go("portal", sec, {replace: true}); else go(VIEWS.includes(h) && h !== "articulo" ? h : "portal", null, {replace: true});
 })();
 
 /* ---------- Tally & selection ---------- */
@@ -812,7 +844,7 @@ $("#searchform").addEventListener("submit", e => {
   e.preventDefault();
   state.q = $("#q").value.trim();
   $("#q-clear").hidden = !state.q;
-  if(view !== "portal" || state.section !== "ALL") go("portal", "ALL"); else renderPortal();
+  go("portal", "ALL"); window.scrollTo({top:0});
 });
 function syncDates(){
   let f = $("#df-from").value, t = $("#df-to").value;
@@ -829,7 +861,7 @@ $("#df-toggle").addEventListener("click", () => {
   if(!open && (state.from || state.to)){ $("#df-from").value = ""; $("#df-to").value = ""; syncDates(); }
 });
 $("#df-clear").addEventListener("click", () => { $("#df-from").value = ""; $("#df-to").value = ""; $("#datefilter").hidden = true; $("#df-toggle").setAttribute("aria-expanded", false); syncDates(); });
-$("#q-clear").addEventListener("click", () => { $("#q").value = ""; state.q = ""; $("#q-clear").hidden = true; renderPortal(); });
+$("#q-clear").addEventListener("click", () => { $("#q").value = ""; state.q = ""; $("#q-clear").hidden = true; go("portal", state.section); });
 
 const SORTS = {
   front:    ["Portada", "La portada del diario: las noticias destacadas y el resto, de más reciente a más antigua."],
@@ -1056,7 +1088,7 @@ function renderArticle(){
   const sel = selection(), t = sel.t, inSel = new Map(sel.items.map(x => [x.n.id, x.origin]));
   const related = state.news.filter(x => isValid(x) && x.id !== n.id && x.category === n.category).sort((a,b) => b.publishedAt.localeCompare(a.publishedAt)).slice(0,3);
   box.innerHTML = `<article class="art-page">
-    <button type="button" class="back" data-sec="ALL">← Portada</button>
+    <button type="button" class="back" data-goback>${esc(state.backLabel || "← Portada")}</button>
     ${kicker(n)}
     <h1 class="hl art-hl">${esc(n.title)}</h1>
     <p class="dek art-dek">${esc(n.summary)}</p>
