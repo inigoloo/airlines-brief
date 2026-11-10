@@ -4,8 +4,13 @@
    /api/editions and /api/config (repo files + changes saved from the web by the admin, in Vercel Blob);
    votes are read from and written to /api/votes and /api/vote (Vercel Blob). */
 (function(){
-  const VOTES_POLL_MS = 30000;
+  const VOTES_POLL_MS = 60000;
   const getJSON = async (url) => { const r = await fetch(url, {cache: "no-store"}); if(!r.ok) throw new Error(url + " " + r.status); return r.json(); };
+  // /api/* answers are cached by the CDN for a minute or a few. The admin always reads fresh data (and so does anyone
+  // right after a write), adding a unique query string that skips that cache.
+  const fresh = (url) => url + (url.includes("?") ? "&" : "?") + "t=" + Date.now();
+  const isAdmin = () => { try{ return !!localStorage.getItem("brief-admin-key"); }catch(e){ return false; } };
+  const api = (url) => isAdmin() ? fresh(url) : url;
   const snap = (rows) => ({ docs: rows.map(x => ({ id: x.id, exists: true, data: () => { const o = {...x}; delete o.id; return o; } })) });
   const docSnap = (obj) => ({ exists: !!obj, data: () => obj || {} });
 
@@ -18,9 +23,29 @@
 
   const voteListeners = new Set();
   let lastVotes = null;
-  async function refreshVotes(){
+  // This voter's own likes are also kept in the browser: if the shared file ever lost them (two votes saved at the
+  // same instant), they are shown anyway and sent again.
+  const MINE_KEY = "brief-my-votes";
+  const loadMine = () => { try{ const m = JSON.parse(localStorage.getItem(MINE_KEY) || "null"); return m && typeof m === "object" ? m : null; }catch(e){ return null; } };
+  const saveMine = (v) => { try{ localStorage.setItem(MINE_KEY, JSON.stringify(v || {})); }catch(e){} };
+  const same = (a, b) => { const ka = Object.keys(a||{}).sort(), kb = Object.keys(b||{}).sort(); return ka.length === kb.length && ka.every((k,i) => k === kb[i]); };
+  let healing = false;
+  async function postVotes(v){
+    const r = await fetch("/api/vote", { method: "POST", headers: {"content-type": "application/json"}, body: JSON.stringify({ uid, v: v || {} }) });
+    if(!r.ok) throw new Error("vote " + r.status);
+    return r.json();
+  }
+  async function refreshVotes(bust){
     try{
-      const v = await getJSON("/api/votes");
+      const v = await getJSON(bust ? fresh("/api/votes") : api("/api/votes"));
+      const mine = loadMine();
+      if(mine && !bust){
+        const server = (v && v[uid] && v[uid].v) || {};
+        if(!same(server, mine)){
+          v[uid] = { v: mine };
+          if(!healing){ healing = true; setTimeout(() => postVotes(mine).catch(() => {}).finally(() => { healing = false; }), 2000); }
+        }
+      }
       lastVotes = Object.entries(v || {}).map(([id, d]) => ({ id, v: (d && d.v) || {} }));
       voteListeners.forEach(cb => cb(snap(lastVotes)));
     }catch(e){ console.warn("votes", e); }
@@ -30,8 +55,8 @@
   const STATIC = { news: "/data/news.json", sources: "/data/sources.json", editions: "/api/editions" };
   const live = { editions: new Set(), config: new Set() };
   const reload = () => {
-    getJSON("/api/editions").then(rows => live.editions.forEach(cb => cb(snap(rows)))).catch(() => {});
-    getJSON("/api/config").then(c => live.config.forEach(cb => cb(docSnap(c)))).catch(() => {});
+    getJSON(fresh("/api/editions")).then(rows => live.editions.forEach(cb => cb(snap(rows)))).catch(() => {});
+    getJSON(fresh("/api/config")).then(c => live.config.forEach(cb => cb(docSnap(c)))).catch(() => {});
   };
   const adminKey = () => { try{ return localStorage.getItem("brief-admin-key") || ""; }catch(e){ return ""; } };
   async function adminWrite(op, data){
@@ -45,7 +70,7 @@
         onSnapshot(cb, err){
           if(name === "votes"){ voteListeners.add(cb); if(lastVotes) cb(snap(lastVotes)); else refreshVotes(); return () => voteListeners.delete(cb); }
           if(name === "editions") live.editions.add(cb);
-          if(STATIC[name]) getJSON(STATIC[name]).then(rows => cb(snap(rows))).catch(e => err && err(e));
+          if(STATIC[name]) getJSON(STATIC[name].startsWith("/api/") ? api(STATIC[name]) : STATIC[name]).then(rows => cb(snap(rows))).catch(e => err && err(e));
           else cb(snap([]));
           return () => {};
         },
@@ -55,7 +80,7 @@
     doc(path){
       return {
         onSnapshot(cb, err){
-          if(path === "config/settings"){ live.config.add(cb); getJSON("/api/config").then(c => cb(docSnap(c))).catch(e => err && err(e)); }
+          if(path === "config/settings"){ live.config.add(cb); getJSON(api("/api/config")).then(c => cb(docSnap(c))).catch(e => err && err(e)); }
           else cb(docSnap(null));
           return () => {};
         },
@@ -65,9 +90,9 @@
           if(path === "config/settings") return adminWrite("config", data);
           const m = /^votes\/(.+)$/.exec(path);
           if(!m || m[1] !== uid) throw new Error("read-only");
-          const r = await fetch("/api/vote", { method: "POST", headers: {"content-type": "application/json"}, body: JSON.stringify({ uid, v: (data && data.v) || {} }) });
-          if(!r.ok) throw new Error("vote " + r.status);
-          refreshVotes();
+          const v = (data && data.v) || {};
+          saveMine(v);
+          await postVotes(v);
         },
         update(){ return Promise.reject(new Error("read-only")); }
       };

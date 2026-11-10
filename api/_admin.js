@@ -17,22 +17,35 @@ async function writeJSON(pathname, obj){
   const { put } = await sdk();
   await put(pathname, JSON.stringify(obj), { access: "private", addRandomSuffix: false, allowOverwrite: true, contentType: "application/json" });
 }
-async function deleteBlob(pathname){
-  const { del, head } = await sdk();
-  const h = await head(pathname).catch(() => null);
-  if(h) await del(h.url);
-}
 async function repo(req, file){
   const proto = req.headers["x-forwarded-proto"] || "https";
   const r = await fetch(`${proto}://${req.headers.host}/data/${file}`, { cache: "no-store" });
   return r.ok ? r.json() : null;
 }
+// Editions recorded from the web live in ONE private file, admin/editions.json (an array), so reading them costs one
+// Blob operation. Older per-edition files (admin/editions/<id>.json) are merged into it once.
+async function adminEditions(){
+  const all = await readJSON("admin/editions.json");
+  if(Array.isArray(all)) return all;
+  const { list } = await sdk();
+  const page = await list({ prefix: "admin/editions/", limit: 1000 });
+  const rows = (await Promise.all(page.blobs.map(b => readJSON(b.pathname)))).filter(e => e && e.id);
+  await writeJSON("admin/editions.json", rows);
+  return rows;
+}
+async function saveEdition(e){
+  const rows = (await adminEditions()).filter(x => x.id !== e.id);
+  rows.push(e);
+  await writeJSON("admin/editions.json", rows);
+}
+async function removeEdition(id){
+  const rows = await adminEditions();
+  await writeJSON("admin/editions.json", rows.filter(x => x.id !== id));
+}
 async function editions(req){
   const base = (await repo(req, "editions.json")) || [];
   const byId = new Map(base.map(e => [e.id, e]));
-  const { list } = await sdk();
-  const page = await list({ prefix: "admin/editions/", limit: 1000 });
-  await Promise.all(page.blobs.map(async b => { const e = await readJSON(b.pathname); if(e && e.id && !byId.has(e.id)) byId.set(e.id, e); }));
+  (await adminEditions()).forEach(e => { if(e && e.id && !byId.has(e.id)) byId.set(e.id, e); });
   return [...byId.values()].sort((a, b) => String(a.sentAt || "").localeCompare(String(b.sentAt || "")));
 }
 async function config(req){
@@ -50,4 +63,4 @@ async function config(req){
 }
 const madridToday = () => new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Madrid", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
 const addDays = (iso, n) => { const d = new Date(iso + "T12:00:00Z"); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); };
-module.exports = { isAdminKey, editions, config, writeJSON, deleteBlob, repo, madridToday, addDays };
+module.exports = { isAdminKey, editions, config, writeJSON, saveEdition, removeEdition, repo, madridToday, addDays };
