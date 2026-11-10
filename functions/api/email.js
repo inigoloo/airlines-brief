@@ -58,7 +58,8 @@ export async function onRequestGet({ request, env }){
 
 function emailHTML({ items, issue, date, portal, base }){
   const badge = net => `<span style="display:inline-block;padding:2px 8px;border-radius:3px;background:#E3F3EA;color:#1B7A4B;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">&#9829; ${net} ${net === 1 ? "voto" : "votos"}</span>`;
-  const link = n => `${portal}#noticia-${n.id}`;
+  const home = `${portal.replace(/\/$/, "")}/?from=email&ed=${issue}`;  // marks clicks from the email in the usage stats
+  const link = n => `${home}#noticia-${n.id}`;
   const photo = it => it.img
     ? `<a href="${esc(link(it.n))}" style="text-decoration:none;"><img src="${esc(it.img)}" width="260" alt="${esc(it.n.title)}" style="display:block;width:260px;max-width:100%;height:auto;border:0;margin:0 0 10px 0;"></a>`
     : `<a href="${esc(link(it.n))}" style="text-decoration:none;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 10px 0;"><tr><td height="146" style="height:146px;background:#101B2C;text-align:center;vertical-align:middle;font-family:Georgia,serif;font-size:18px;color:#F2B544;">The Airlines Brief</td></tr></table></a>`;
@@ -85,14 +86,14 @@ function emailHTML({ items, issue, date, portal, base }){
 <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px;background:#FFFFFF;">
 <tr><td style="padding:26px 32px 14px 32px;text-align:center;border-bottom:3px double #111A27;">
   <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#5A6576;">Airlines Practice</p>
-  <h1 style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:38px;line-height:42px;color:#111A27;font-weight:bold;"><a href="${esc(portal)}" style="color:#111A27;text-decoration:none;">The Airlines Brief</a></h1>
+  <h1 style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:38px;line-height:42px;color:#111A27;font-weight:bold;"><a href="${esc(home)}" style="color:#111A27;text-decoration:none;">The Airlines Brief</a></h1>
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:4px 0 0 0;"><tr><td align="right" style="padding-right:78px;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td style="font-family:Georgia,'Times New Roman',serif;font-weight:bold;font-size:18px;line-height:18px;color:#111A27;padding-right:6px;vertical-align:middle;">by</td><td style="vertical-align:middle;"><img src="${esc(base)}/img/ntt-data.png" alt="NTT DATA" width="73" height="15" style="display:block;width:73px;height:15px;border:0;"></td></tr></table></td></tr></table>
   <p style="margin:6px 0 0 0;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:14px;color:#5A6576;">Actualidad, tendencias y análisis estratégico para entender qué mueve la industria aérea</p>
 </td></tr>
 <tr><td style="background:#101B2C;padding:10px 32px;font-family:'Courier New',Courier,monospace;font-size:13px;color:#F2B544;">EDICIÓN Nº ${issue} · ${date}</td></tr>
 <tr><td style="padding:22px 32px 0 32px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:23px;color:#333D4B;">Este es el top ${items.length} de noticias de la última semana.</td></tr>
 ${rows}
-<tr><td style="padding:26px 32px 0 32px;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td style="background:#111A27;border-radius:4px;"><a href="${esc(portal)}" style="display:inline-block;padding:12px 20px;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:bold;color:#FFFFFF;text-decoration:none;letter-spacing:1px;text-transform:uppercase;">Ver más noticias</a></td></tr></table></td></tr>
+<tr><td style="padding:26px 32px 0 32px;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td style="background:#111A27;border-radius:4px;"><a href="${esc(home)}" style="display:inline-block;padding:12px 20px;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:bold;color:#FFFFFF;text-decoration:none;letter-spacing:1px;text-transform:uppercase;">Ver más noticias</a></td></tr></table></td></tr>
 <tr><td style="padding:28px 32px 26px 32px;font-family:Arial,Helvetica,sans-serif;font-size:11px;line-height:17px;color:#8E9BB0;">Pulsa en cualquier noticia para leer el artículo completo en el portal, con sus fuentes, y votarla.</td></tr>
 </table></td></tr></table></body></html>`;
 }

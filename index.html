@@ -224,6 +224,25 @@ main .wrap{padding-block:22px 64px}
 .searchbox .df-toggle.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .datefilter{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin:8px 0 2px;font-size:13px;color:var(--muted)}
 .datefilter[hidden]{display:none}
+.st-tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:18px 0 8px}
+.st-tile{border:1px solid var(--line);border-radius:10px;padding:14px 16px;background:var(--surface)}
+.st-tile b{display:block;font-family:var(--f-head);font-size:30px;line-height:1.1}
+.st-tile span{font-size:12.5px;color:var(--muted)}
+.st-h{font-family:var(--f-display);font-weight:600;font-size:12px;letter-spacing:.12em;text-transform:uppercase;margin:26px 0 10px}
+.st-chart{display:flex;align-items:flex-end;gap:3px;height:120px;border-bottom:1px solid var(--rule)}
+.st-bar{flex:1;height:100%;display:flex;align-items:flex-end}
+.st-bar i{display:block;width:100%;min-height:1px;background:var(--accent,#1F4BC6);border-radius:2px 2px 0 0}
+.st-axis{display:flex;justify-content:space-between;font-family:var(--f-mono,monospace);font-size:11px;color:var(--muted);margin-top:4px}
+.st-cols{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+@media (max-width:760px){.st-cols{grid-template-columns:1fr}}
+.st-list{list-style:none;margin:0;padding:0}
+.st-list li{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;padding:8px 0;border-bottom:1px solid var(--line)}
+.st-n{grid-row:span 2;font-family:var(--f-head);font-size:20px;color:var(--muted)}
+.st-list a{color:inherit;text-decoration:none;font-weight:600}
+.st-list a:hover{text-decoration:underline}
+.st-q{font-weight:600}
+.st-m{font-size:12px;color:var(--muted)}
+.st-note{font-size:12px;color:var(--muted);margin-top:18px}
 .datefilter label{display:flex;align-items:center;gap:6px;font-family:var(--f-display);font-weight:600;font-size:12px;letter-spacing:.08em;text-transform:uppercase}
 .datefilter input{font:14px/1.2 var(--f-body);padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink);text-transform:none;letter-spacing:0}
 .datefilter button{font:600 13px/1 var(--f-body);padding:7px 14px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink);cursor:pointer}
@@ -350,6 +369,7 @@ footer.foot{border-top:3px double var(--rule);padding-block:14px 30px;font-size:
     <button class="tool" data-view="edicion">Próxima edición</button>
     <button class="tool" data-view="fuentes">Fuentes</button>
     <button class="tool" data-view="historial">Historial</button>
+    <button class="tool" data-view="estadisticas">Estadísticas</button>
   </div>
 </nav>
 <main>
@@ -436,6 +456,11 @@ footer.foot{border-top:3px double var(--rule);padding-block:14px 30px;font-size:
       <p class="lede">Ediciones marcadas como enviadas. Sus noticias ya no compiten por la siguiente.</p>
       <div id="history"><div class="empty">Todavía no se ha enviado ninguna edición.</div></div>
     </section>
+    <section id="v-estadisticas" hidden>
+      <h2 class="sec">Estadísticas de uso</h2>
+      <p class="lede">Uso de la web por personas distintas (identificador anónimo del navegador, sin nombres ni correos). Tus visitas como administrador no cuentan.</p>
+      <div id="stats"><div class="empty">Cargando…</div></div>
+    </section>
   </div>
 </main>
 <footer class="foot"><div class="wrap"><span class="ntt f" role="img" aria-label="NTT DATA"></span><span>The Airlines Brief · Airlines Practice. Cada noticia está redactada a partir de fuentes verificadas, citadas al final del artículo.</span></div></footer>
@@ -463,10 +488,10 @@ const state = {
 let downloads = null, assets = null;
 
 /* ---------- Navigation ---------- */
-const VIEWS = ["portal","edicion","fuentes","historial","articulo"];
+const VIEWS = ["portal","edicion","fuentes","historial","estadisticas","articulo"];
 /* Admin-only views (Próxima edición, Fuentes, Historial): hidden unless this browser was opened once with ?admin=<key>.
    Light protection to keep them out of sight of normal readers; ?admin=off removes it. */
-const ADMIN_VIEWS = ["edicion","fuentes","historial"], ADMIN_HASH = "dd5000a19b9bbdeea6068b24f3980c88c3f54f34894801566dfe483f1791ef58";
+const ADMIN_VIEWS = ["edicion","fuentes","historial","estadisticas"], ADMIN_HASH = "dd5000a19b9bbdeea6068b24f3980c88c3f54f34894801566dfe483f1791ef58";
 let isAdmin = false;
 try{ isAdmin = localStorage.getItem("brief-admin") === ADMIN_HASH; }catch(e){}
 function applyAdmin(){ document.querySelectorAll("#nav .tool, #nav .sep").forEach(el => el.hidden = !isAdmin); }
@@ -499,6 +524,8 @@ function go(v, sec, opts = {}){
   if(v === "edicion") renderEdition();
   if(v === "portal") renderPortal();
   if(v === "articulo") renderArticle();
+  if(v === "articulo" && !opts.fromPop) setTimeout(() => track("view", state.articleId), 0);
+  if(v === "estadisticas") renderStats();
   const hash = v === "portal" ? (state.section === "ALL" ? "portada" : state.section.toLowerCase()) : v === "articulo" ? "noticia-" + state.articleId : v;
   if(opts.fromPop) return;
   const entry = { site: true, v, sec: state.section, q: state.q, art: state.articleId, back: state.backLabel || "" };
@@ -537,6 +564,20 @@ document.addEventListener("click", e => {
   if(b.dataset.view){ go(b.dataset.view); window.scrollTo({top:0}); }
   else if(b.dataset.sec){ if(state.q){ state.q = ""; $("#q").value = ""; $("#q-clear").hidden = true; } go("portal", b.dataset.sec); window.scrollTo({top:0}); }
 });
+/* ---------- Usage stats: anonymous events (visit, article read, search, like). The admin's own use is not counted. ---------- */
+function track(type, ref, src){
+  if(isAdmin) return;
+  let uid = null; try{ uid = localStorage.getItem("brief-uid"); }catch(e){}
+  if(!uid) return;
+  try{ fetch("/api/hit", { method: "POST", headers: {"content-type": "application/json"}, body: JSON.stringify({ uid, type, ref: ref || null, src: src || null }), keepalive: true }).catch(() => {}); }catch(e){}
+}
+(function trackVisit(){
+  const qs = new URLSearchParams(location.search);
+  const fromEmail = qs.get("from") === "email", ed = (qs.get("ed") || "").replace(/[^0-9]/g, "").slice(0, 3);
+  if(qs.has("admin")) return;  // the admin link is handled (and removed from the address) above
+  setTimeout(() => track("visit", fromEmail && ed ? "Nº " + ed.padStart(2, "0") : null, fromEmail ? "email" : null), 0);
+  if(fromEmail){ try{ history.replaceState(history.state, "", location.pathname + location.hash); }catch(e){} }
+})();
 (function initHash(){
   const h = (location.hash||"").replace("#","").toLowerCase();
   const sec = Object.keys(CATS).find(k => k.toLowerCase() === h);
@@ -843,6 +884,7 @@ $("#searchform").addEventListener("submit", e => {
   e.preventDefault();
   state.q = $("#q").value.trim();
   $("#q-clear").hidden = !state.q;
+  if(state.q) track("search", state.q);
   go("portal", "ALL"); window.scrollTo({top:0});
 });
 function syncDates(){
@@ -899,7 +941,7 @@ function castVote(id, v){
   if(!state.canVote) return;
   const next = {...state.mine};
   Object.keys(next).forEach(k => { if(next[k] !== 1) delete next[k]; });
-  if(next[id] === 1) delete next[id]; else next[id] = 1;
+  if(next[id] === 1) delete next[id]; else { next[id] = 1; track("like", id); }
   state.mine = next; renderAll(); queueWrite();
 }
 async function queueWrite(){
@@ -926,7 +968,8 @@ function emailHTML(items){
   const date = state.cfg.nextSend ? fmtDate(state.cfg.nextSend) : "";
   const portal = state.cfg.portalUrl || "";
   const badge = (origin, net) => origin === "votes" ? `<span style="display:inline-block;padding:2px 8px;border-radius:3px;background:#E3F3EA;color:#1B7A4B;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">&#9829; ${net} ${net===1?"voto":"votos"}</span>` : "";
-  const link = n => portal ? `${portal}#noticia-${n.id}` : n.url;
+  const home = portal ? `${portal.replace(/\/$/, "")}/?from=email&ed=${issue}` : "";  // marks clicks from the email in the usage stats
+  const link = n => portal ? `${home}#noticia-${n.id}` : n.url;
   // Same 2-column grid as the real email (tools/brief.py). Images: the 16:9 email crop when it exists, else the story photo cropped by CSS.
   const base = location.origin;  // images come from this same site (portal)
   const photo = n => n.imageId
@@ -966,14 +1009,14 @@ function emailHTML(items){
 <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background:#FFFFFF;">
 <tr><td style="padding:26px 32px 14px 32px;text-align:center;border-bottom:3px double #111A27;">
   <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#5A6576;">Airlines Practice</p>
-  <h1 style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:38px;line-height:42px;color:#111A27;font-weight:bold;">${portal ? `<a href="${esc(portal)}" style="color:#111A27;text-decoration:none;">The Airlines Brief</a>` : "The Airlines Brief"}</h1>
+  <h1 style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:38px;line-height:42px;color:#111A27;font-weight:bold;">${portal ? `<a href="${esc(home)}" style="color:#111A27;text-decoration:none;">The Airlines Brief</a>` : "The Airlines Brief"}</h1>
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:4px 0 0 0;"><tr><td align="right" style="padding-right:78px;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td style="font-family:Georgia,'Times New Roman',serif;font-weight:bold;font-size:18px;line-height:18px;color:#111A27;padding-right:6px;vertical-align:middle;">by</td><td style="vertical-align:middle;"><img src="${esc(location.origin)}/img/ntt-data.png" alt="NTT DATA" width="73" height="15" style="display:block;width:73px;height:15px;border:0;"></td></tr></table></td></tr></table>
   <p style="margin:6px 0 0 0;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:14px;color:#5A6576;">Actualidad, tendencias y análisis estratégico para entender qué mueve la industria aérea</p>
 </td></tr>
 <tr><td style="background:#101B2C;padding:10px 32px;font-family:'Courier New',Courier,monospace;font-size:13px;color:#F2B544;">EDICIÓN Nº ${issue}${date ? " · " + date : ""}</td></tr>
 <tr><td style="padding:22px 32px 0 32px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:23px;color:#333D4B;">Este es el top ${items.length} de noticias de la última semana.</td></tr>
 ${rows}
-${portal ? `<tr><td style="padding:26px 32px 0 32px;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td style="background:#111A27;border-radius:4px;"><a href="${esc(portal)}" style="display:inline-block;padding:12px 20px;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:bold;color:#FFFFFF;text-decoration:none;letter-spacing:1px;text-transform:uppercase;">Ver más noticias</a></td></tr></table></td></tr>` : ""}
+${portal ? `<tr><td style="padding:26px 32px 0 32px;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td style="background:#111A27;border-radius:4px;"><a href="${esc(home)}" style="display:inline-block;padding:12px 20px;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:bold;color:#FFFFFF;text-decoration:none;letter-spacing:1px;text-transform:uppercase;">Ver más noticias</a></td></tr></table></td></tr>` : ""}
 <tr><td style="padding:28px 32px 26px 32px;font-family:Arial,Helvetica,sans-serif;font-size:11px;line-height:17px;color:#8E9BB0;">Pulsa en cualquier noticia para leer el artículo completo en el portal, con sus fuentes, y votarla.</td></tr>
 </table></td></tr></table></body></html>`;
 }
@@ -1062,6 +1105,42 @@ function renderHistory(){
   if(!state.editions.length){ box.innerHTML = `<div class="empty">Todavía no se ha enviado ninguna edición. Cuando marques una como enviada aparecerá aquí.</div>`; return; }
   const eds = [...state.editions].sort((a,b) => (b.issue||0)-(a.issue||0));
   box.innerHTML = `<div class="tablebox"><table><thead><tr><th>Nº</th><th>Fecha</th><th>Noticias</th></tr></thead><tbody>${eds.map(e => `<tr><td class="mono">${String(e.issue).padStart(2,"0")}</td><td class="mono">${fmtDate(e.sentAt)}</td><td>${(e.items||[]).map(i => `${esc(i.title)}${i.origin==="votes" ? ` <span class="why-pill votes">votos</span>` : ""}`).join("<br>")}</td></tr>`).join("")}</tbody></table></div>`;
+}
+
+/* ---------- Usage stats (admin) ---------- */
+async function renderStats(){
+  const box = $("#stats");
+  let key = null; try{ key = localStorage.getItem("brief-admin-key"); }catch(e){}
+  if(!key){ box.innerHTML = `<div class="empty">Abre una vez el enlace de administrador en este navegador para ver las estadísticas.</div>`; return; }
+  box.innerHTML = `<div class="empty">Cargando…</div>`;
+  let s;
+  try{ const r = await fetch("/api/stats", { method: "POST", headers: {"content-type": "application/json"}, body: JSON.stringify({ key }) }); s = await r.json(); if(!r.ok) throw new Error(s.error || r.status); }
+  catch(e){ box.innerHTML = `<div class="empty">No se pudieron cargar las estadísticas.</div>`; return; }
+  const n = x => (+x || 0).toLocaleString("es-ES");
+  const k7 = s.last7 || {}, tot = s.total || {};
+  const tile = (v, l) => `<div class="st-tile"><b>${n(v)}</b><span>${l}</span></div>`;
+  const days = []; for(let d = addDays(s.today, -29); d <= s.today; d = addDays(d, 1)) days.push(d);
+  const byDay = Object.fromEntries((s.daily || []).map(r => [r.day, r]));
+  const max = Math.max(1, ...days.map(d => +(byDay[d] || {}).people || 0));
+  const bars = days.map(d => { const p = +(byDay[d] || {}).people || 0; return `<div class="st-bar" title="${fmtDate(d)}: ${p} ${p === 1 ? "persona" : "personas"}, ${n((byDay[d]||{}).visits)} visitas"><i style="height:${Math.round(p / max * 100)}%"></i></div>`; }).join("");
+  const wk = (s.weekly || []).map(r => `<tr><td class="mono">${fmtDate(r.week)}</td><td>${n(r.people)}</td><td>${n(r.visits)}</td><td>${n(r.views)}</td><td>${n(r.fromEmail)}</td><td>${n(r.likes)}</td></tr>`).join("");
+  const arts = (s.articles || []).map((a, i) => `<li><span class="st-n">${i + 1}</span><a href="#noticia-${esc(a.ref)}" data-art="${esc(a.ref)}">${esc(a.title)}</a><span class="st-m">${n(a.people)} ${+a.people === 1 ? "persona" : "personas"} · ${n(a.views)} lecturas</span></li>`).join("");
+  const srch = (s.searches || []).map(q => `<li><span class="st-q">«${esc(q.ref)}»</span><span class="st-m">${n(q.n)} ${+q.n === 1 ? "vez" : "veces"}</span></li>`).join("");
+  const mail = (s.email || []).map(r => `<tr><td class="mono">${esc(r.ref || "—")}</td><td>${n(r.people)}</td><td>${n(r.clicks)}</td></tr>`).join("");
+  box.innerHTML = `
+    <div class="st-tiles">${tile(k7.people, "personas distintas · 7 días")}${tile(k7.visits, "visitas · 7 días")}${tile(k7.views, "artículos leídos · 7 días")}${tile(k7.fromEmail, "entradas desde el email · 7 días")}${tile(k7.searches, "búsquedas · 7 días")}${tile(tot.people, "personas distintas en total")}</div>
+    <h3 class="st-h">Personas distintas por día · últimos 30 días</h3>
+    <div class="st-chart">${bars}</div>
+    <div class="st-axis"><span>${fmtDate(days[0])}</span><span>${fmtDate(s.today)}</span></div>
+    <h3 class="st-h">Por semana</h3>
+    ${wk ? `<div class="tablebox"><table><thead><tr><th>Semana del</th><th>Personas</th><th>Visitas</th><th>Artículos leídos</th><th>Desde el email</th><th>Likes</th></tr></thead><tbody>${wk}</tbody></table></div>` : `<div class="empty">Aún no hay datos.</div>`}
+    <div class="st-cols">
+      <div><h3 class="st-h">Noticias más leídas · 30 días</h3>${arts ? `<ol class="st-list">${arts}</ol>` : `<div class="empty">Aún no hay datos.</div>`}</div>
+      <div><h3 class="st-h">Búsquedas más hechas · 30 días</h3>${srch ? `<ol class="st-list">${srch}</ol>` : `<div class="empty">Aún no hay datos.</div>`}</div>
+    </div>
+    <h3 class="st-h">Entradas desde el email, por edición</h3>
+    ${mail ? `<div class="tablebox"><table><thead><tr><th>Edición</th><th>Personas</th><th>Clics</th></tr></thead><tbody>${mail}</tbody></table></div>` : `<div class="empty">Todavía no ha entrado nadie desde un email.</div>`}
+    <p class="st-note">Datos desde ${s.since ? fmtDate(s.since) : "hoy"}. Una «visita» es cada vez que alguien abre la web; un «artículo leído», cada vez que abre una noticia completa.</p>`;
 }
 
 /* ---------- Article page (where email links land: #noticia-<id>) ---------- */

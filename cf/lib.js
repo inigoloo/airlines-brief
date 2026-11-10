@@ -17,7 +17,9 @@ export async function db(env){
     await env.DB.batch([
       env.DB.prepare("CREATE TABLE IF NOT EXISTS votes (uid TEXT NOT NULL, news_id TEXT NOT NULL, PRIMARY KEY (uid, news_id))"),
       env.DB.prepare("CREATE TABLE IF NOT EXISTS editions (id TEXT PRIMARY KEY, sent_at TEXT, data TEXT NOT NULL)"),
-      env.DB.prepare("CREATE TABLE IF NOT EXISTS settings (key TEXT PRIMARY KEY, value TEXT NOT NULL)")
+      env.DB.prepare("CREATE TABLE IF NOT EXISTS settings (key TEXT PRIMARY KEY, value TEXT NOT NULL)"),
+      env.DB.prepare("CREATE TABLE IF NOT EXISTS events (ts TEXT NOT NULL, day TEXT NOT NULL, uid TEXT NOT NULL, type TEXT NOT NULL, ref TEXT, src TEXT)"),
+      env.DB.prepare("CREATE INDEX IF NOT EXISTS events_day ON events (day, type)")
     ]);
     ready = true;
   }

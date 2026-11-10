@@ -5,9 +5,11 @@ import * as editions from "../functions/api/editions.js";
 import * as config from "../functions/api/config.js";
 import * as admin from "../functions/api/admin.js";
 import * as email from "../functions/api/email.js";
+import * as hit from "../functions/api/hit.js";
+import * as stats from "../functions/api/stats.js";
 import { json } from "./lib.js";
 
-const ROUTES = { votes, vote, editions, config, admin, email };
+const ROUTES = { votes, vote, editions, config, admin, email, hit, stats };
 
 export default {
   async fetch(request, env, ctx){
