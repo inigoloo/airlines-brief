@@ -1,0 +1,9 @@
+# Cloudflare Pages configuration (the project is connected to GitHub; this file sets the build output and bindings).
+name = "airlines-brief"
+pages_build_output_dir = "dist"
+compatibility_date = "2025-10-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "airlines-brief"
+database_id = "30c260cb-fbd4-4cb7-9c39-ceff23a685b6"
