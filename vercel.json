@@ -32,6 +32,11 @@
   ],
   "redirects": [
     {
+      "source": "/",
+      "destination": "https://airlines-brief.inigoviu.workers.dev/",
+      "permanent": false
+    },
+    {
       "source": "/:path*",
       "destination": "https://airlines-brief.inigoviu.workers.dev/:path*",
       "permanent": false
