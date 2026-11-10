@@ -105,7 +105,7 @@ def main():
         for nid, val in (v.get("v") or {}).items():
             if val == 1: likes[nid] = likes.get(nid, 0) + 1
     sent = {i for ed in editions.values() for i in ed.get("newsIds", [])}
-    # Weekly edition: only news published in the 7 days before the send date (and never repeated).
+    # Weekly edition: news published from 7 days before the send day up to the day before it (never repeated).
     send_day = send_date or cfg.get("nextSend") or datetime.date.today().isoformat()
     ws = add_days(send_day, -int(cfg.get("windowDays", 7)))
     def recency(n):
@@ -114,7 +114,7 @@ def main():
         return max(0, 6 - max(0, age - 1))
     def weight(n): return (n.get("aiScore") or 0) + recency(n)
 
-    elig = [dict(n, id=k, likes=likes.get(k,0)) for k, n in news.items() if valid(n) and k not in sent and ws <= n["publishedAt"] <= send_day]
+    elig = [dict(n, id=k, likes=likes.get(k,0)) for k, n in news.items() if valid(n) and k not in sent and ws <= n["publishedAt"] < send_day]
     by_votes = sorted([n for n in elig if n["likes"] >= X], key=lambda n: (-n["likes"], -tier(n), -weight(n)))[:mx]
     for n in by_votes: n["origin"] = "votes"
     items = list(by_votes)
