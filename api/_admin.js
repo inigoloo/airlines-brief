@@ -39,7 +39,15 @@ async function config(req){
   const base = (await repo(req, "config.json")) || {};
   const over = await readJSON("admin/config.json");
   // The newer of the two wins (the scheduled task stamps updatedAt in the repo file; the web stamps the override).
-  if(over && String(over.updatedAt || "") > String(base.updatedAt || "")) return { ...base, ...over };
-  return base;
+  const cfg = (over && String(over.updatedAt || "") > String(base.updatedAt || "")) ? { ...base, ...over } : { ...base };
+  // Sends are manual now: if the scheduled day has passed (and nothing moved it), the next edition is the next
+  // scheduled day from today (Madrid time), so the window and the issue date never stay stuck in the past.
+  if(/^\d{4}-\d{2}-\d{2}$/.test(cfg.nextSend || "")){
+    const today = madridToday(), step = +cfg.cadenceDays || 7;
+    while(cfg.nextSend < today) cfg.nextSend = addDays(cfg.nextSend, step);
+  }
+  return cfg;
 }
-module.exports = { isAdminKey, editions, config, writeJSON, deleteBlob };
+const madridToday = () => new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Madrid", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
+const addDays = (iso, n) => { const d = new Date(iso + "T12:00:00Z"); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); };
+module.exports = { isAdminKey, editions, config, writeJSON, deleteBlob, repo, madridToday, addDays };

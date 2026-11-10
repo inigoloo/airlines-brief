@@ -405,7 +405,7 @@ footer.foot{border-top:3px double var(--rule);padding-block:14px 30px;font-size:
       </div>
       <div class="sel"><ol id="sel"></ol></div>
       <div class="actions">
-        <button class="btn" id="copy" type="button">Copiar HTML para Klaviyo</button>
+        <button class="btn" id="copy" type="button">Copiar HTML</button>
         <button class="btn ghost" id="dl" type="button" hidden>Descargar .html</button>
         <button class="btn ghost" id="mark" type="button" hidden>Marcar como enviada</button>
         <span id="e-msg" class="toast" role="status"></span>
@@ -943,7 +943,7 @@ function emailHTML(items){
 <tr><td style="padding:22px 32px 0 32px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:23px;color:#333D4B;">Este es el top ${items.length} de noticias de la última semana.</td></tr>
 ${rows}
 ${portal ? `<tr><td style="padding:26px 32px 0 32px;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td style="background:#111A27;border-radius:4px;"><a href="${esc(portal)}" style="display:inline-block;padding:12px 20px;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:bold;color:#FFFFFF;text-decoration:none;letter-spacing:1px;text-transform:uppercase;">Ver más noticias</a></td></tr></table></td></tr>` : ""}
-<tr><td style="padding:28px 32px 26px 32px;font-family:Arial,Helvetica,sans-serif;font-size:11px;line-height:17px;color:#8E9BB0;">Pulsa en cualquier noticia para leer el artículo completo en el portal, con sus fuentes, y votarla.<br>{% unsubscribe 'Darse de baja' %}</td></tr>
+<tr><td style="padding:28px 32px 26px 32px;font-family:Arial,Helvetica,sans-serif;font-size:11px;line-height:17px;color:#8E9BB0;">Pulsa en cualquier noticia para leer el artículo completo en el portal, con sus fuentes, y votarla.</td></tr>
 </table></td></tr></table></body></html>`;
 }
 
@@ -972,7 +972,7 @@ function flash(el, msg, err){ el.textContent = msg; el.classList.toggle("err", !
 $("#copy").addEventListener("click", () => {
   const txt = $("#htmlout").value;
   const fallback = () => { const ta = $("#htmlout"); ta.select(); try{ document.execCommand("copy"); flash($("#e-msg"),"HTML copiado"); }catch(e){ flash($("#e-msg"),"No se pudo copiar automáticamente: usa Descargar .html",true); } };
-  if(navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(() => flash($("#e-msg"),"HTML copiado. Pégalo en un bloque HTML de Klaviyo."), fallback); else fallback();
+  if(navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(() => flash($("#e-msg"),"HTML copiado."), fallback); else fallback();
 });
 $("#dl").addEventListener("click", async () => {
   try{ await downloads.save({filename:`airlines-brief-${String(state.editions.length+1).padStart(2,"0")}.html`, data:$("#htmlout").value}); flash($("#e-msg"),"Archivo guardado"); }
