@@ -3970,5 +3970,228 @@
     }
    ]
   }
+ },
+ {
+  "id": "iag-gallego-mandatos-saf",
+  "title": "Gallego (IAG) avisa de que los mandatos de SAF pueden «matar» la aviación europea",
+  "category": "STR",
+  "publishedAt": "2026-11-09",
+  "source": "City AM",
+  "url": "https://www.cityam.com/british-airways-owner-warns-green-charges-will-kill-aviation-industry-and-hike-fares/",
+  "summary": "Luis Gallego, consejero delegado de IAG, advierte de que los mandatos de SAF darán a las aerolíneas europeas «una gran desventaja de costes» y subirán los billetes. En el Reino Unido la cuota de SAF es hoy del 3,7% y se espera que llegue al 10% a finales de la década.",
+  "body": [
+   {
+    "t": "El consejero delegado de International Airlines Group (IAG), Luis Gallego, ha advertido de que las exigencias de combustible sostenible de aviación (SAF) encarecerán los billetes y dañarán al sector, según recogió City AM el 9 de noviembre a partir de una entrevista con el Financial Times. Según Gallego, los cargos verdes propuestos son más gravosos para las aerolíneas británicas que para sus rivales europeas.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "«Tenemos mandatos para cosas que no existen», afirmó Gallego, que sostiene que los productores de SAF no fabrican suficiente combustible para cumplir los objetivos fijados. «Todas las aerolíneas europeas tendrán una gran desventaja de costes frente a sus competidores globales y esto va a tener consecuencias», añadió.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "En el Reino Unido, la cuota de SAF que deben incorporar las aerolíneas es actualmente del 3,7%; subirá el próximo año y se espera que alcance el 10% a finales de la década. Los ministros estudian además exigir SAF de segunda o tercera generación, elaborado a partir de residuos no alimentarios o mediante electricidad, que es más caro que el SAF estándar. Un responsable del Gobierno, citado sin nombre, defendió que «un enfoque de sentido común» sobre el combustible de aviación permitiría «mantener los costes bajos y abaratar las vacaciones de las familias».",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Gallego reclamó «igualdad de condiciones; de lo contrario, vamos a matar la aviación europea, pero no vamos a salvar el planeta». Sus declaraciones llegan después de que el beneficio antes de impuestos de IAG cayera un 16%, hasta 3.000 millones de euros, en los nueve meses hasta septiembre, lastrado, según el grupo, por un «aumento significativo de los precios del queroseno desde marzo», que vincula al cierre del estrecho de Ormuz tras el estallido de la guerra en Oriente Medio.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "City AM añade que directivos del sector han advertido de que algunas aerolíneas podrían quebrar el próximo año, sin identificar cuáles.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "City AM",
+    "url": "https://www.cityam.com/british-airways-owner-warns-green-charges-will-kill-aviation-industry-and-hike-fares/",
+    "date": "2026-11-09"
+   },
+   {
+    "name": "OilPrice.com",
+    "url": "https://oilprice.com/Energy/Energy-General/British-Airways-Owner-Warns-Green-Fuel-Mandates-Could-Kill-European-Aviation.html",
+    "date": "2026-11-10"
+   }
+  ],
+  "why": "El SAF es un coste regulatorio creciente para British Airways, Vueling y Aer Lingus; IAG lo presenta como desventaja frente a rivales globales y como presión al alza sobre las tarifas.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 68,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/5df3dc44-7fa4-4960-a4da-8b257f6a8c9a.jpeg",
+  "imageId": "iag-gallego-mandatos-saf",
+  "photoSource": "City AM",
+  "art": {
+   "kind": "big",
+   "value": "3,7%",
+   "label": "cuota actual de SAF en el Reino Unido",
+   "sub": "se espera el 10% a finales de la década"
+  },
+  "addedAt": "2026-11-11T06:54:28Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "boeing-entregas-pedidos-octubre-2026",
+  "title": "Boeing baja a 49 entregas en octubre y suma 165 pedidos brutos, 140 de ellos de Avolon",
+  "category": "FLT",
+  "publishedAt": "2026-11-10",
+  "source": "Air Data News",
+  "url": "https://www.airdatanews.com/boeing-delivers-48-aircraft-in-october-as-orders-reach-165/",
+  "summary": "Boeing entregó 49 aviones en octubre, frente a 57 en septiembre, con solo 32 737 MAX, su cifra mensual más baja desde noviembre de 2025. Sumó 165 pedidos brutos, 140 de ellos 737-10 de la arrendadora Avolon, y su cartera reconocida sube a 6.457 aviones.",
+  "body": [
+   {
+    "t": "Boeing entregó 49 aviones comerciales en octubre de 2026, frente a 57 en septiembre y 53 en octubre de 2025, y registró 165 pedidos brutos sin ninguna cancelación, según los datos mensuales publicados el 10 de noviembre.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Por modelos, entregó 32 737 MAX, 11 787 Dreamliner, dos 777 cargueros y dos 767-300F, además de dos derivados militares, según Air Data News. Las 32 entregas del 737 MAX son la cifra mensual más baja desde noviembre de 2025, frente a 43 en septiembre, según The Seattle Times, que recuerda que los directivos de Boeing admitieron en octubre ante los analistas que no alcanzarán este año su objetivo de 500 entregas del MAX.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Boeing lucha por estabilizar la producción del 737 MAX en 47 aviones al mes. Su consejero delegado, Kelly Ortberg, atribuyó la lentitud del paso de 42 a 47 sobre todo a que el taller de alas de Renton (Washington) no podía seguir el ritmo, y la compañía no subirá la cadencia a 52 aviones al mes hasta mediados de 2027. El lunes anunció además un recorte de alrededor del 5% de la plantilla de su división de aviones comerciales.",
+    "s": [
+     2
+    ]
+   },
+   {
+    "t": "En pedidos, la arrendadora Avolon aportó 140 737-10, alrededor del 85% del total del mes; Allegiant Air encargó seis 737 MAX y clientes no identificados, otros cuatro 737 MAX y 15 787-10. En los diez primeros meses del año, Boeing acumula 828 pedidos brutos y 524 entregas, frente a 493 en el mismo periodo de 2025.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La cartera comercial reconocida de Boeing pasó de 6.341 aviones a finales de septiembre a 6.457 a finales de octubre. Airbus, por su parte, entregó 74 aviones en octubre y 621 en lo que va de año, y sumó 202 pedidos brutos en el mes.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Air Data News",
+    "url": "https://www.airdatanews.com/boeing-delivers-48-aircraft-in-october-as-orders-reach-165/",
+    "date": "2026-11-10"
+   },
+   {
+    "name": "The Spokesman-Review (The Seattle Times)",
+    "url": "https://www.spokesman.com/stories/2026/nov/10/boeings-max-deliveries-fall-to-lowest-count-in-a-y/",
+    "date": "2026-11-10"
+   }
+  ],
+  "why": "El frenazo del 737 MAX en Renton limita la llegada de capacidad nueva en plena escasez de aviones, mientras Airbus amplía su ventaja en entregas en el año (621 frente a 524).",
+  "aiScore": 66,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/cbed0dd6-14b6-4eed-ac53-acbadb13b632.jpeg",
+  "imageId": "boeing-entregas-pedidos-octubre-2026",
+  "photoSource": "The Seattle Times",
+  "art": {
+   "kind": "bars",
+   "title": "Entregas mensuales de Boeing (aviones)",
+   "bars": [
+    {
+     "l": "Oct 2025",
+     "v": 53,
+     "t": "53"
+    },
+    {
+     "l": "Sep 2026",
+     "v": 57,
+     "t": "57"
+    },
+    {
+     "l": "Oct 2026",
+     "v": 49,
+     "t": "49"
+    }
+   ]
+  },
+  "addedAt": "2026-11-11T06:54:28Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "lufthansa-primer-a350-1000",
+  "title": "Lufthansa recibe su primer A350-1000, su Airbus número 700, y lo estrenará en Múnich–Tokio",
+  "category": "FLT",
+  "publishedAt": "2026-11-10",
+  "source": "Lufthansa Group",
+  "url": "https://newsroom.lufthansagroup.com/lufthansa-group-erhaelt-als-weltweit-groesster-kunde-ihr-700-airbus-flugzeug",
+  "summary": "Lufthansa Group recibió el 10 de noviembre su primer A350-1000, su Airbus número 700, de un pedido de 15 unidades que llegarán hasta 2030. El avión, de 300 plazas y con wifi de Starlink, volará desde Múnich y debutará el 3 de diciembre en la ruta a Tokio-Haneda.",
+  "body": [
+   {
+    "t": "Lufthansa Group recibió el 10 de noviembre su primer Airbus A350-1000, que es también su avión número 700 de Airbus; el grupo se presenta como el mayor cliente de Airbus del mundo. En la entrega participaron Carsten Spohr, consejero delegado de Lufthansa Group, y Lars Wagner, consejero delegado de Airbus Commercial Aircraft, en una celebración por los 50 años de colaboración entre ambas compañías.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El avión, con matrícula D-AIFA y bautizado «Deutschland», forma parte de un pedido de 15 A350-1000 que se entregarán hasta 2030; los diez primeros volarán para la marca Lufthansa desde su hub de Múnich. Deep Arrival señala que se esperan otros tres antes de que termine 2026.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mide 73,80 metros, siete más que el A350-900, y tiene 300 asientos: entre tres y cuatro en primera, 49 en business (ocho de ellas suites), 35 en premium economy y 212 en turista. Es el primer avión de largo radio del grupo con wifi de Starlink, gratuito para los clientes de Miles & More y los usuarios de Travel ID en todas las clases.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El traslado a Múnich está previsto para el 11 de noviembre y el primer vuelo, a Tokio-Haneda, para el 3 de diciembre. Según Deep Arrival, al principio alternará con el A350-900 en esa ruta, y Chicago O'Hare y Newark serían sus primeros destinos en Estados Unidos, aún sin fechas. «Con nuestro primer A350-1000, la marca principal Lufthansa recibe el avión de largo radio más moderno del mundo», afirmó Spohr.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Lufthansa Group",
+    "url": "https://newsroom.lufthansagroup.com/lufthansa-group-erhaelt-als-weltweit-groesster-kunde-ihr-700-airbus-flugzeug",
+    "date": "2026-11-10"
+   },
+   {
+    "name": "Deep Arrival",
+    "url": "https://deeparrival.com/news/lufthansa-first-a350-1000-delivery-chicago-newark-2026",
+    "date": "2026-11-10"
+   }
+  ],
+  "why": "Lufthansa refuerza su largo radio premium desde Múnich con un avión de 300 plazas y wifi gratuito, y apunta a Chicago y Newark, donde compite con IAG en el Atlántico Norte.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 55,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/ade8f8a4-953a-4be9-9d22-ae3cc2861d6c.jpeg",
+  "imageId": "lufthansa-primer-a350-1000",
+  "photoSource": "Lufthansa Group",
+  "art": {
+   "kind": "plane",
+   "value": "700",
+   "label": "aviones de Airbus recibidos por Lufthansa Group",
+   "tail": "#0A1D3D"
+  },
+  "addedAt": "2026-11-11T06:54:28Z",
+  "addedBy": "claude"
  }
 ]
