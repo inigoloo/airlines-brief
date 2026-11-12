@@ -4411,5 +4411,241 @@
     }
    ]
   }
+ },
+ {
+  "id": "wizz-air-h1-f27",
+  "title": "Wizz Air gana un 66,6% menos en el semestre por el combustible pese a ingresar un 13,8% más",
+  "category": "FIN",
+  "publishedAt": "2026-11-12",
+  "source": "AskTraders",
+  "url": "https://www.asktraders.com/analysis/wizz-air-profit-falls-67-on-fuel/",
+  "summary": "Wizz Air ganó 108,1 millones de euros en el semestre a septiembre, un 66,6% menos, lastrada por un gasto en combustible de 1.241,4 millones (+33,7%). Los ingresos subieron un 13,8%, hasta 3.801,8 millones, y prevé que sus costes sin combustible suban este año.",
+  "body": [
+   {
+    "t": "Wizz Air publicó el 12 de noviembre los resultados del primer semestre de su ejercicio fiscal 2027, los seis meses cerrados el 30 de septiembre. El beneficio neto cayó un 66,6%, hasta 108,1 millones de euros, frente a 323,5 millones un año antes, y el beneficio operativo bajó un 39,8%, hasta 264,5 millones.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Los ingresos crecieron un 13,8%, hasta 3.801,8 millones de euros, desde 3.342,1 millones. La aerolínea transportó 46 millones de pasajeros, un 26,2% más, con una capacidad un 17% superior, mientras que el EBITDA retrocedió un 6%, hasta 922,4 millones.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El combustible fue el principal lastre: su coste subió un 33,7%, hasta 1.241,4 millones de euros, y el coste de combustible por asiento-kilómetro aumentó un 14,5%. Los costes unitarios sin combustible se mantuvieron en 3,07 céntimos de euro, frente a 3,08 un año antes. La compañía tiene cubierto el 82% del combustible del segundo semestre con collares de coste cero con un techo de 860 dólares por tonelada.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El semestre tuvo dos caras: en el primer trimestre el ingreso por asiento-kilómetro (RASK) cayó un 8,1%, mientras que en el segundo el beneficio operativo subió un 8,8%, hasta 447,8 millones, con un RASK un 0,5% mayor. En octubre el RASK creció en torno a un 5% interanual. Para el tercer trimestre prevé un RASK al alza de un dígito bajo y un factor de ocupación a la baja en una cuantía similar, y para el conjunto del ejercicio, costes unitarios sin combustible al alza de un dígito medio.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La deuda neta se situó en 5.157,3 millones de euros, un 4,4% más que el 31 de marzo, y equivale a 4,1 veces el EBITDA, frente a 3,7 veces un año antes; la caja total alcanzó 2.394,7 millones (+12,6%). A 30 de septiembre tenía 22 aviones en tierra por las inspecciones de los motores GTF, frente a 35 un año antes, y ha aplazado la reanudación de los vuelos a Abu Dabi y Dubái por las restricciones del espacio aéreo en la región.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "En España, Wizz Air ha abierto bases en Madrid y Valencia, sumará Santiago de Compostela en diciembre y ofrece este año 15 millones de asientos, un 44% más que en 2025. «La primera mitad del año (F27) demostró la fortaleza del modelo de negocio de Wizz Air», afirmó su consejero delegado, József Váradi, que añadió que la demanda «se mantuvo sana en toda nuestra red».",
+    "s": [
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "AskTraders",
+    "url": "https://www.asktraders.com/analysis/wizz-air-profit-falls-67-on-fuel/",
+    "date": "2026-11-12"
+   },
+   {
+    "name": "Demócrata",
+    "url": "https://www.democrata.es/en/economy/wizz-air-cuts-its-half-year-profit-by-66-due-to-higher-fuel-costs/",
+    "date": "2026-11-12"
+   }
+  ],
+  "why": "Wizz amplía su oferta en España, mercado doméstico de Iberia y Vueling, con bases en Madrid y Valencia y un 44% más de asientos, aunque el combustible le ha restado dos tercios del beneficio del semestre.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 72,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/14949844-f11b-4f7a-a9c0-523957cb713d.jpeg",
+  "imageId": "wizz-air-h1-f27",
+  "photoSource": "AskTraders",
+  "art": {
+   "kind": "big",
+   "value": "-66,6%",
+   "label": "beneficio neto del semestre",
+   "sub": "108,1 M€ (abril-septiembre)"
+  },
+  "addedAt": "2026-11-12T14:52:24Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "aena-trafico-octubre-2026",
+  "title": "La red española de Aena crece un 3,5% en octubre: Barajas sube un 6,4% y El Prat, un 0,3%",
+  "category": "NET",
+  "publishedAt": "2026-11-12",
+  "source": "Hosteltur",
+  "url": "https://www.hosteltur.com/179905_los-aeropuertos-de-aena-crecieron-otro-35-en-octubre-con-305-millones-de-pasajeros.html",
+  "summary": "Los aeropuertos españoles de Aena registraron 30,5 millones de pasajeros en octubre, un 3,5% más, con Madrid-Barajas al alza un 6,4% y Barcelona-El Prat solo un 0,3%. El grupo, con Luton, Leeds Bradford y Brasil, sumó 36,6 millones (+3,1%).",
+  "body": [
+   {
+    "t": "Los aeropuertos de Aena en España registraron en octubre 30.523.291 pasajeros, un 3,5% más que un año antes, según los datos publicados el 12 de noviembre. Las operaciones de aeronaves crecieron un 3,9%, hasta 255.205, y la carga cayó un 9,9%, hasta 121.956 toneladas.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Según Hosteltur, el crecimiento se modera frente a los meses anteriores, en los que el tráfico había subido un 4,2% en septiembre y un 4,7% en agosto. En el acumulado de enero a octubre, la red española suma 287.738.159 pasajeros (+4%) y 2.408.683 operaciones (+4,4%).",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Madrid-Barajas fue el aeropuerto con más tráfico, con 6.420.219 pasajeros (+6,4%) y 40.115 operaciones (+5,3%), mientras que Barcelona-El Prat se quedó en 5.259.722 pasajeros (+0,3%), con un 0,6% menos de operaciones. Barajas movió además 70.079 toneladas de carga, un 12,9% menos.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Entre el resto de grandes aeropuertos, Palma de Mallorca sumó 3.562.675 pasajeros (+1,8%), Málaga-Costa del Sol 2.696.944 (+4,7%), Alicante-Elche 2.095.402 (+10,1%), Gran Canaria 1.359.470 (+2,6%) y Valencia 1.154.023 (+5,5%). Tenerife Sur fue el único de los ocho con más tráfico que retrocedió, un 1,9%, hasta 1.142.246 pasajeros.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El conjunto del grupo Aena, que incluye los aeropuertos de Londres-Luton y Leeds Bradford en el Reino Unido y 17 aeropuertos en Brasil, alcanzó en octubre 36.628.243 pasajeros (+3,1%) y 308.773 movimientos (+3,2%). Luton creció un 7,6%, hasta 1.686.024 pasajeros, y Leeds Bradford un 2,7%, hasta 421.612, mientras que los aeropuertos brasileños bajaron un 1%, hasta 3.997.316. En lo que va de año, el grupo acumula 346.544.832 pasajeros, un 4% más.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Hosteltur",
+    "url": "https://www.hosteltur.com/179905_los-aeropuertos-de-aena-crecieron-otro-35-en-octubre-con-305-millones-de-pasajeros.html",
+    "date": "2026-11-12"
+   },
+   {
+    "name": "Bolsamanía",
+    "url": "https://www.bolsamania.com/noticias/empresas/aeropuertos-aena-cierran-octubre-366-millones-pasajeros-31-mas--24141674.html",
+    "date": "2026-11-12"
+   }
+  ],
+  "why": "Madrid-Barajas, hub de Iberia, crece por encima de la red española (6,4% frente a 3,5%), mientras El Prat, base de Vueling, apenas avanza un 0,3%, lo que apunta a un octubre muy distinto en los dos hubs de IAG en España.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 60,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/e3ab3f05-2487-4ddc-a65d-6b7b338cbf93.jpeg",
+  "imageId": "aena-trafico-octubre-2026",
+  "photoSource": "Hosteltur (Aena)",
+  "art": {
+   "kind": "bars",
+   "title": "Pasajeros en octubre (variación interanual, %)",
+   "bars": [
+    {
+     "l": "El Prat",
+     "v": 0.3,
+     "t": "+0,3%"
+    },
+    {
+     "l": "Red España",
+     "v": 3.5,
+     "t": "+3,5%"
+    },
+    {
+     "l": "Barajas",
+     "v": 6.4,
+     "t": "+6,4%"
+    }
+   ]
+  },
+  "addedAt": "2026-11-12T14:52:24Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "albastar-air-explore-fly4-cierres",
+  "title": "AlbaStar suspende sus vuelos y prevé concurso; Air Explore cesa y Fly4 entra en liquidación",
+  "category": "STR",
+  "publishedAt": "2026-11-12",
+  "source": "Demócrata",
+  "url": "https://www.democrata.es/en/economy/the-mallorcan-albastar-suspends-its-activity-and-sepla-lashes-out-at-its-recent-management/",
+  "summary": "La mallorquina AlbaStar ha paralizado sus vuelos y prevé pedir concurso voluntario, por el combustible y la deuda de la covid. En la misma semana, la eslovaca Air Explore dejó de volar y la irlandesa Fly4, de Enter Air y TUI, entró en liquidación provisional.",
+  "body": [
+   {
+    "t": "AlbaStar, aerolínea chárter y regular con sede en Palma de Mallorca, fundada en 2009 y con operaciones en España e Italia, ha paralizado sus vuelos comerciales y prevé solicitar en breve el concurso voluntario de acreedores. Según Travel Extra, que cita a Preferente y elEconomista, la compañía anunció una «suspensión temporal de las operaciones comerciales».",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La aerolínea atribuye el cierre a los altos costes del combustible y a la deuda arrastrada desde la crisis de la covid-19. Su consejero delegado, Oriol Hernández, citó la elevada deuda acumulada durante la pandemia, la escalada del combustible y las presiones geopolíticas, y las conversaciones con posibles inversores y un proceso de venta del 100% de la compañía no llegaron a tiempo.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "AlbaStar opera una flota de cinco Boeing 737-800, dos de ellos arrendados a compañías de Irlanda, entre ellas AWAS. A principios de 2026 cerró su base de Bérgamo (Italia), que mantenía desde hacía 15 años, y había cedido aviones en régimen de wet lease a la low cost argentina Flybondi. El fondo de capital riesgo Sherpa Capital es su principal accionista desde 2022.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La sección sindical de Sepla en AlbaStar reprocha a Sherpa Capital una «absoluta falta de conocimiento y experiencia en el sector aéreo» y considera que «en todo momento se ha priorizado el resultado a corto plazo». El sindicato pide explicaciones al fondo y a la dirección por compromisos de inversión en flota que no se cumplieron.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "En los mismos días, la eslovaca Air Explore, aerolínea chárter y de ACMI, suspendió sus operaciones el martes 10 de noviembre y renunció a su certificado de operador aéreo sin dar explicaciones. Además, el Tribunal Superior de Irlanda aprobó la liquidación provisional de Fly4 Airlines, empresa conjunta de Enter Air y el grupo TUI con unos tres años de actividad, que atribuye su caída al conflicto de Oriente Medio y al encarecimiento del combustible.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Demócrata",
+    "url": "https://www.democrata.es/en/economy/the-mallorcan-albastar-suspends-its-activity-and-sepla-lashes-out-at-its-recent-management/",
+    "date": "2026-11-12"
+   },
+   {
+    "name": "Travel Extra",
+    "url": "https://www.travelextra.ie/albastar-suspends-operations-and-files-for-bankruptcy/",
+    "date": "2026-11-11"
+   }
+  ],
+  "why": "Tres operadores chárter y de ACMI europeos caen casi a la vez y dos de ellos culpan al combustible, señal de la presión de costes sobre las aerolíneas pequeñas y endeudadas, incluida una española.",
+  "europe": true,
+  "aiScore": 55,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/d2bd3c16-3803-450f-a705-4db190498fbc.jpeg",
+  "imageId": "albastar-air-explore-fly4-cierres",
+  "photoSource": "ch-aviation (AlbaStar)",
+  "art": {
+   "kind": "plane",
+   "value": "3",
+   "label": "aerolíneas chárter europeas dejan de volar",
+   "tail": "#D7262E"
+  },
+  "addedAt": "2026-11-12T14:52:24Z",
+  "addedBy": "claude"
  }
 ]
