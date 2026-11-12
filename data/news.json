@@ -4647,5 +4647,70 @@
   },
   "addedAt": "2026-11-12T14:52:24Z",
   "addedBy": "claude"
+ },
+ {
+  "id": "heathrow-trafico-octubre-2026",
+  "title": "Heathrow pierde un 1% de pasajeros en octubre por la caída del 21% del tráfico de Oriente Medio",
+  "category": "NET",
+  "publishedAt": "2026-11-11",
+  "source": "Travel Weekly",
+  "url": "https://travelweekly.co.uk/news/heathrow-third-runway-represents-indisputable-case-for-nationwide-growth",
+  "summary": "Heathrow registró en octubre casi 7,3 millones de pasajeros, un 1% menos, por la caída del 21% del tráfico con Oriente Medio y del 6% del doméstico. Asia-Pacífico creció un 7,5% y en lo que va de año suma 70,2 millones de pasajeros, un 0,6% menos.",
+  "body": [
+   {
+    "t": "El aeropuerto de Londres-Heathrow registró en octubre casi 7,3 millones de pasajeros, un 1% menos que un año antes, según los datos publicados el 11 de noviembre. El aeropuerto describió el tráfico del mes como «estable», sobre todo durante unas vacaciones escolares de mitad de trimestre (half-term) con fuerte demanda.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La mayor caída correspondió a Oriente Medio, cuyo tráfico bajó un 21%, hasta 563.000 pasajeros. Los pasajeros domésticos del Reino Unido descendieron un 6%, hasta 379.000, y los movimientos de aeronaves cayeron un 3,4%, hasta 39.809.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "En sentido contrario, Asia-Pacífico fue la región que más creció, con un aumento del 7,5%, y el tráfico con la Europa no comunitaria subió un 5,2%. En los diez primeros meses del año, Heathrow suma 70,2 millones de pasajeros, un 0,6% menos que en el mismo periodo del año anterior.",
+    "s": [
+     2
+    ]
+   },
+   {
+    "t": "Junto a las cifras, Heathrow volvió a defender su ampliación. «El caso de la ampliación de Heathrow es un caso indiscutible de crecimiento para todo el Reino Unido», afirmó su consejero delegado, Thomas Woldbye. Según el aeropuerto, el 60% del crecimiento económico que generaría una tercera pista se produciría fuera de Londres y del sureste de Inglaterra, y «todos los sectores de la economía del país saldrían ganando».",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Travel Weekly",
+    "url": "https://travelweekly.co.uk/news/heathrow-third-runway-represents-indisputable-case-for-nationwide-growth",
+    "date": "2026-11-11"
+   },
+   {
+    "name": "Moodie Davitt Report",
+    "url": "https://moodiedavittreport.com/heathrow-airport-posts-marginal-decline-in-october-passenger-traffic/",
+    "date": "2026-11-11"
+   }
+  ],
+  "why": "Heathrow es el hub de British Airways: la caída con Oriente Medio y del tráfico doméstico frena el aeropuerto mientras este insiste en la tercera pista, decisiva para la capacidad futura de IAG en Londres.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 60,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/3220d8ff-1e1d-44c0-a333-cc28c800dff0.jpeg",
+  "imageId": "heathrow-trafico-octubre-2026",
+  "photoSource": "Moodie Davitt Report",
+  "addedAt": "2026-11-12T15:06:46Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "big",
+   "value": "-1%",
+   "label": "pasajeros en Heathrow en octubre",
+   "sub": "Oriente Medio: -21%"
+  }
  }
 ]
