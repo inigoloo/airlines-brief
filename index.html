@@ -524,7 +524,7 @@ function go(v, sec, opts = {}){
   if(v === "edicion") renderEdition();
   if(v === "portal") renderPortal();
   if(v === "articulo") renderArticle();
-  if(v === "articulo" && !opts.fromPop) setTimeout(() => track("view", state.articleId), 0);
+  if(v === "articulo" && !opts.fromPop && document.visibilityState === "visible") setTimeout(() => track("view", state.articleId), 0);
   if(v === "estadisticas") renderStats();
   const hash = v === "portal" ? (state.section === "ALL" ? "portada" : state.section.toLowerCase()) : v === "articulo" ? "noticia-" + state.articleId : v;
   if(opts.fromPop) return;
@@ -565,8 +565,15 @@ document.addEventListener("click", e => {
   else if(b.dataset.sec){ if(state.q){ state.q = ""; $("#q").value = ""; $("#q-clear").hidden = true; } go("portal", b.dataset.sec); window.scrollTo({top:0}); }
 });
 /* ---------- Usage stats: anonymous events (visit, article read, search, like). The admin's own use is not counted. ---------- */
+// Automated visitors (link previews, crawlers, headless browsers, pages loaded in the background) are not counted.
+const IS_BOT = (() => {
+  try{
+    if(navigator.webdriver) return true;
+    return /bot|crawl|spider|slurp|headless|preview|prerender|lighthouse|pagespeed|facebookexternalhit|embedly|skypeuripreview|teams|whatsapp|telegram|slack|discord|linkedin|google-inspectiontool|bingpreview|phantom|puppeteer|playwright|cloudflare|uptime|monitor|curl|wget|python|axios|node-fetch/i.test(navigator.userAgent || "");
+  }catch(e){ return false; }
+})();
 function track(type, ref, src){
-  if(isAdmin) return;
+  if(isAdmin || IS_BOT) return;
   let uid = null; try{ uid = localStorage.getItem("brief-uid"); }catch(e){}
   if(!uid) return;
   try{ fetch("/api/hit", { method: "POST", headers: {"content-type": "application/json"}, body: JSON.stringify({ uid, type, ref: ref || null, src: src || null }), keepalive: true }).catch(() => {}); }catch(e){}
@@ -575,7 +582,10 @@ function track(type, ref, src){
   const qs = new URLSearchParams(location.search);
   const fromEmail = qs.get("from") === "email", ed = (qs.get("ed") || "").replace(/[^0-9]/g, "").slice(0, 3);
   if(qs.has("admin")) return;  // the admin link is handled (and removed from the address) above
-  setTimeout(() => track("visit", fromEmail && ed ? "Nº " + ed.padStart(2, "0") : null, fromEmail ? "email" : null), 0);
+  // A visit counts only once the page is actually on screen (not when it is loaded in the background).
+  const send = () => track("visit", fromEmail && ed ? "Nº " + ed.padStart(2, "0") : null, fromEmail ? "email" : null);
+  if(document.visibilityState === "visible") setTimeout(send, 0);
+  else { const onVis = () => { if(document.visibilityState === "visible"){ document.removeEventListener("visibilitychange", onVis); send(); } }; document.addEventListener("visibilitychange", onVis); }
   if(fromEmail){ try{ history.replaceState(history.state, "", location.pathname + location.hash); }catch(e){} }
 })();
 (function initHash(){

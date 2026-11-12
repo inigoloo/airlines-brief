@@ -4,6 +4,9 @@ import { json, db, madridToday } from "../../cf/lib.js";
 const TYPES = new Set(["visit", "view", "search", "like"]);
 export async function onRequestPost({ request, env }){
   try{
+    // Automated clients (crawlers, link previews, scripts) are ignored.
+    const ua = request.headers.get("user-agent") || "";
+    if(!ua || /bot|crawl|spider|slurp|headless|preview|prerender|lighthouse|pagespeed|facebookexternalhit|embedly|skypeuripreview|teams|whatsapp|telegram|slack|discord|linkedin|google-inspectiontool|bingpreview|phantom|puppeteer|playwright|uptime|monitor|curl|wget|python|axios|node-fetch/i.test(ua)) return json({ ok: true, ignored: true });
     const b = await request.json().catch(() => ({}));
     const uid = String(b.uid || ""), type = String(b.type || "");
     if(!/^[a-z0-9-]{12,64}$/.test(uid) || !TYPES.has(type)) return json({ error: "bad" }, 400);
