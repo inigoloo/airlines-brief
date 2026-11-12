@@ -4193,5 +4193,223 @@
   },
   "addedAt": "2026-11-11T06:54:28Z",
   "addedBy": "claude"
+ },
+ {
+  "id": "easyjet-accionistas-apollo",
+  "title": "Los accionistas de easyJet aprueban con un 97% la compra por Apollo, pendiente aún de la UE",
+  "category": "STR",
+  "publishedAt": "2026-11-11",
+  "source": "Airliner World",
+  "url": "https://airlinerworld.com/shareholders-approve-easyjets-5-7bn-apollo-takeover/",
+  "summary": "Los accionistas de easyJet respaldaron el 11 de noviembre la compra por Apollo, a 715 peniques por acción, con el 97,07% de las acciones votadas. Falta la aprobación regulatoria, sobre todo en la UE, y se espera cerrar antes de finales de marzo de 2027.",
+  "body": [
+   {
+    "t": "Los accionistas de easyJet aprobaron el 11 de noviembre la compra de la aerolínea por Apollo Global Management, que la adquiere a través de Eagle Bidco a 715 peniques por acción. El 97,07% de las acciones votadas se pronunció a favor, y por número de accionistas el apoyo fue del 83,29%, según Airliner World; Paddle Your Own Kanoo lo cifra en un 83%. Una junta general separada aprobó también las resoluciones necesarias para seguir adelante.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Airliner World valora la operación en 5.700 millones de libras, mientras que Paddle Your Own Kanoo la cifra en 5.410 millones. El fundador, Sir Stelios Haji-Ioannou, y su familia, que suman más del 15% del capital, apoyan la compra. Castlelake había presentado una propuesta de 5.500 millones de libras antes de retirarse de la puja.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La operación aún necesita la aprobación de los reguladores, en particular en la UE, donde las aerolíneas deben estar en manos mayoritarias y bajo control efectivo de nacionales comunitarios. Los inversores de la UE tenían el 35,07% de las acciones de easyJet en el momento de la votación, y se espera que la compra se complete antes de finales de marzo de 2027.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El consejero delegado, Kenton Jarvis, celebró el resultado en la conferencia Airlines 2026, en Westminster, y afirmó que Apollo respalda la estrategia actual de la compañía, según Airliner World. Jarvis reafirmó el plan de sustituir los A319 más antiguos por A320neo y A321neo, seguir ampliando el negocio de vacaciones y lanzar un nuevo programa de fidelización en 2027.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Apollo ha dicho que mantendrá easyJet como aerolínea de bajo coste y que quiere mejorar sus resultados con el aumento del tamaño de los aviones y la mejora de la oferta de servicios complementarios y de fidelización, según Paddle Your Own Kanoo.",
+    "s": [
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Airliner World",
+    "url": "https://airlinerworld.com/shareholders-approve-easyjets-5-7bn-apollo-takeover/",
+    "date": "2026-11-11"
+   },
+   {
+    "name": "Paddle Your Own Kanoo",
+    "url": "https://www.paddleyourownkanoo.com/2026/11/11/easyjet-shareholders-decisively-approve-airlines-takeover-by-u-s-private-equity-firm/",
+    "date": "2026-11-11"
+   }
+  ],
+  "why": "Un gran competidor de las aerolíneas de IAG en el corto radio europeo pasará a manos de un fondo; la clave es cómo cumplirá la regla de propiedad de la UE con un 35,07% de inversores comunitarios.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 80,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/869915ae-a95e-4edf-a4b1-93bbf8842f24.jpeg",
+  "imageId": "easyjet-accionistas-apollo",
+  "photoSource": "Airliner World (easyJet)",
+  "addedAt": "2026-11-12T07:04:01Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "big",
+   "value": "97,07%",
+   "label": "De las acciones votadas, a favor de la compra por Apollo",
+   "sub": "715 peniques por acción"
+  }
+ },
+ {
+  "id": "united-prohibe-agentes-ia",
+  "title": "United prohíbe a los agentes de IA comprar billetes y amenaza con cancelar esas reservas",
+  "category": "CUS",
+  "publishedAt": "2026-11-11",
+  "source": "View from the Wing",
+  "url": "https://viewfromthewing.com/united-airlines-ceo-scott-kirby-bans-ai-agents-from-booking-tickets-doesnt-want-another-middleman/",
+  "summary": "United revisó el 11 de noviembre su contrato de transporte para vetar que agentes de IA compren, modifiquen o gestionen billetes, también vía agencias. Podrá cancelar esas reservas, y su CEO, Scott Kirby, dijo no querer «crear otro intermediario».",
+  "body": [
+   {
+    "t": "United Airlines revisó el 11 de noviembre su contrato de transporte para incluir a los agentes de inteligencia artificial entre las prácticas de emisión prohibidas. La nueva regla 6.J.6 veta «el uso de agentes de IA para hacer, modificar o gestionar un billete y/o comprar cualquier servicio o producto», según recoge View from the Wing.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La prohibición alcanza también a los asistentes que llegan a United a través de una agencia de viajes u otro intermediario, y no se salva aunque un pasajero supervise o apruebe la operación. La regla 5.H permite a la aerolínea cancelar las reservas hechas, modificadas o gestionadas por estos agentes, y las reservas hechas con IA antes del 11 de noviembre se respetarán.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Según Law Commentary, las normas de distribución de United exigen a agencias y plataformas un consentimiento expreso por escrito antes de que un agente de IA busque, muestre, reserve o gestione sus vuelos, y su incumplimiento puede costarles la autorización para emitir billetes de United. La aerolínea no ha anunciado por ahora ningún acuerdo de autorización, aunque las nuevas reglas permiten acuerdos aprobados en el futuro.",
+    "s": [
+     2
+    ]
+   },
+   {
+    "t": "United justifica el cambio por la privacidad, las compras no deseadas y los requisitos regulatorios, y advierte de que un agente que complete en nombre del viajero las declaraciones de seguridad de la facturación podría vulnerar normas de la FAA y del DOT. Según The Wall Street Journal, citado por View from the Wing, los agentes podrán seguir mostrando vuelos y precios de United, y el cliente podrá investigar con IA y comprar después por su cuenta.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El consejero delegado, Scott Kirby, lo resumió en un acto en Chicago: «Para ser sincero, no quiero crear otro intermediario». Según Law Commentary, Delta permite a algunos asistentes de IA completar reservas cuando puede autenticar las credenciales del pasajero, American ha confirmado que algunas herramientas pueden facilitar compras y Southwest ha puesto su inventario en ChatGPT con la compra en su propia web.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "View from the Wing",
+    "url": "https://viewfromthewing.com/united-airlines-ceo-scott-kirby-bans-ai-agents-from-booking-tickets-doesnt-want-another-middleman/",
+    "date": "2026-11-11"
+   },
+   {
+    "name": "Law Commentary",
+    "url": "https://www.lawcommentary.com/articles/united-airlines-bans-ai-bots-booking-flights",
+    "date": "2026-11-11"
+   }
+  ],
+  "why": "United cierra la puerta a la compra con agentes de IA mientras Delta y American la permiten con límites: el control de la distribución en la era de la IA se convierte en un frente estratégico.",
+  "aiScore": 64,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/c1157a58-22d8-4974-9d96-1d8b3a52c5a7.jpeg",
+  "imageId": "united-prohibe-agentes-ia",
+  "photoSource": "View from the Wing",
+  "addedAt": "2026-11-12T07:04:01Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "big",
+   "value": "6.J.6",
+   "label": "Nueva regla de United que veta la compra con agentes de IA",
+   "sub": "En vigor desde el 11 de noviembre"
+  }
+ },
+ {
+  "id": "embraer-3t-2026",
+  "title": "Embraer logra ingresos récord de 2.347 M$ en el 3T y eleva su previsión de ingresos para 2026",
+  "category": "FLT",
+  "publishedAt": "2026-11-10",
+  "source": "Embraer",
+  "url": "https://www.sec.gov/Archives/edgar/data/0001355444/000129281426005209/embjpr3q26_6k.htm",
+  "summary": "Embraer ingresó 2.347,2 M$ en el 3T, un 17% más y récord para un tercer trimestre, con una cartera récord de 35.700 M$. Eleva su guía de ingresos de 2026 a 8.400–8.600 M$ y la de caja libre a 700 M$ o más, y mantiene sus objetivos de entregas del año.",
+  "body": [
+   {
+    "t": "Embraer presentó el 10 de noviembre sus resultados del tercer trimestre de 2026, con unos ingresos de 2.347,2 millones de dólares, un 17% más que un año antes y récord para un tercer trimestre. La cartera de pedidos alcanzó los 35.700 millones de dólares, un 14% más interanual y máximo histórico.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El EBIT ajustado fue de 254,8 millones de dólares, con un margen del 10,9%, y el EBIT contable de 242,1 millones (10,3%). El beneficio neto atribuido a los accionistas fue de 71,1 millones y el beneficio neto ajustado, de 73,6 millones, frente a los 84,3 millones de un año antes, según Aerotime.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La división de Aviación Comercial entregó 22 aviones en el trimestre (11 E2 y 11 E1) e ingresó 696 millones de dólares, un 13% más, con un margen EBIT ajustado que subió al 2,4% desde el 1,3%, sobre todo por compensaciones de proveedores. Servicios y Soporte creció un 30%, hasta 638 millones; Aviación Ejecutiva, un 12%, hasta 655 millones, y Defensa y Seguridad, un 22%, hasta 341 millones.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La compañía eleva su previsión de ingresos para 2026 a entre 8.400 y 8.600 millones de dólares, desde 8.200–8.500 millones, y la de flujo de caja libre ajustado sin Eve a 700 millones o más, desde 400 millones o más. Mantiene el margen EBIT ajustado de entre el 10,0% y el 10,6% y las entregas de 80 a 85 aviones comerciales y de 160 a 170 ejecutivos. «La dirección cree que la previsión anterior ya no representa un equilibrio entre oportunidades y riesgos para el conjunto del año», explica.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Hasta septiembre, Embraer había entregado 52 aviones comerciales y 115 ejecutivos, por lo que, según Aerotime, necesita entre 28 y 33 comerciales y entre 45 y 55 ejecutivos en el cuarto trimestre. La caja neta sin Eve se situó en 430 millones de dólares a final de septiembre, frente a una deuda neta de 214,5 millones a final de junio.",
+    "s": [
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Embraer (SEC, 6-K)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001355444/000129281426005209/embjpr3q26_6k.htm",
+    "date": "2026-11-10"
+   },
+   {
+    "name": "Aerotime",
+    "url": "https://www.aerotime.aero/articles/embraer-raises-2026-outlook-record-q3-revenue",
+    "date": "2026-11-11"
+   }
+  ],
+  "why": "Ingresos y cartera récord y una guía al alza refuerzan a Embraer como proveedor de aviones regionales, aunque el margen del 2,4% en Aviación Comercial muestra que ese negocio aún es poco rentable.",
+  "aiScore": 66,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/95061de7-83dc-4209-b3d1-1e1bd2fc82bd.jpeg",
+  "imageId": "embraer-3t-2026",
+  "photoSource": "Aerotime (Embraer)",
+  "addedAt": "2026-11-12T07:04:01Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "bars",
+   "title": "Guía de ingresos 2026 (miles de M$, techo)",
+   "bars": [
+    {
+     "l": "Anterior",
+     "v": 8.5,
+     "t": "8,2–8,5"
+    },
+    {
+     "l": "Nueva",
+     "v": 8.6,
+     "t": "8,4–8,6"
+    }
+   ]
+  }
  }
 ]
