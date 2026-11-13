@@ -4712,5 +4712,133 @@
    "label": "pasajeros en Heathrow en octubre",
    "sub": "Oriente Medio: -21%"
   }
+ },
+ {
+  "id": "cathay-pedido-14-airbus",
+  "title": "Cathay encarga 14 Airbus más, 11 A330-900 y tres A321neo, y eleva a 41 sus A330neo en firme",
+  "category": "FLT",
+  "publishedAt": "2026-11-11",
+  "source": "Airbus",
+  "url": "https://www.airbus.com/en/newsroom/press-releases/2026-11-the-cathay-group-orders-14-additional-airbus-aircraft",
+  "summary": "El grupo Cathay ha cerrado un pedido en firme de 14 Airbus: 11 A330-900 y tres A321neo, según anunció Airbus el 11 de noviembre. Con ellos, su compromiso en firme con el A330-900 sube a 41 aviones, tras el pedido de 30 unidades que hizo en 2024.",
+  "body": [
+   {
+    "t": "El grupo Cathay, con sede en Hong Kong, ha realizado un pedido en firme de 14 aviones Airbus adicionales: 11 A330-900 y tres A321neo, según anunció el fabricante en un comunicado fechado en Toulouse el 11 de noviembre de 2026. Según Airbus, los aviones apoyarán las operaciones regionales y de largo radio del grupo.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Los 11 A330-900 elevan a 41 el compromiso en firme del grupo con este modelo, tras el pedido de 30 unidades de 2024, y los tres A321neo se suman al pedido de 32 A320neo/A321neo de 2023. El A330neo lleva motores Rolls-Royce Trent 7000 y, según el fabricante, tiene un alcance de hasta 8.100 millas náuticas (15.000 km) y reduce un 25% el consumo de combustible, las emisiones de CO₂ y los costes operativos frente a los aviones de la generación anterior de la competencia.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Según Aero Crew News, el pedido está valorado en 5.100 millones de dólares: los A330-900 serán para Cathay Pacific y los A321neo, para HK Express, y los A330-900 se entregarían entre 2031 y 2035. El mismo medio indica que el pedido eleva a 120 los aviones con entrega prevista desde 2026 y que los compromisos de inversión del grupo superan los 150.000 millones de dólares de Hong Kong (19.000 millones de dólares) hasta 2035.",
+    "s": [
+     3
+    ]
+   },
+   {
+    "t": "Según Aero Crew News, el consejero delegado del grupo, Ronald Lam, afirmó que estas compras acercan a la aerolínea a su objetivo de recibir 150 aviones nuevos y alcanzar una red de 150 destinos en la próxima década, en función de las condiciones del mercado. «Nos complace añadir más de estos aviones de última generación y eficientes en consumo de combustible a nuestra flota», declaró Alex McGowan, director de Operaciones y Prestación de Servicio de Cathay.",
+    "s": [
+     3
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Airbus",
+    "url": "https://www.airbus.com/en/newsroom/press-releases/2026-11-the-cathay-group-orders-14-additional-airbus-aircraft",
+    "date": "2026-11-11"
+   },
+   {
+    "name": "AviTrader",
+    "url": "https://avitrader.com/2026/11/11/cathay-orders-14-more-airbus-aircraft/",
+    "date": "2026-11-11"
+   },
+   {
+    "name": "Aero Crew News",
+    "url": "https://aerocrewnews.com/2026/11/11/cathay-group-orders-14-more-airbus-jets-total-fleet-plan-reaches-150-aircraft/",
+    "date": "2026-11-11"
+   }
+  ],
+  "why": "El pedido confirma el tirón de los bimotores de fuselaje ancho de nueva generación y lo largas que son las colas: los A330-900 no llegarían hasta 2031-2035, un plazo que condiciona los planes de flota del sector.",
+  "aiScore": 62,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/084aebb3-4c71-46a8-9929-7f7de39e7d11.jpeg",
+  "imageId": "cathay-pedido-14-airbus",
+  "photoSource": "Aero Crew News (render de Airbus)",
+  "addedAt": "2026-11-13T08:22:35Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "big",
+   "value": "14",
+   "label": "Airbus más para el grupo Cathay",
+   "sub": "11 A330-900 y 3 A321neo"
+  }
+ },
+ {
+  "id": "emirates-compra-seis-a380-lesha",
+  "title": "Emirates compra a Lesha Bank seis A380 que tenía arrendados, por unos 250 millones de dólares",
+  "category": "FLT",
+  "publishedAt": "2026-11-12",
+  "source": "Aviation A2Z",
+  "url": "https://aviationa2z.com/index.php/2026/11/12/emirates-spends-250-million-to-acquire-six-a380s/",
+  "summary": "Lesha Bank ha acordado vender a Emirates seis Airbus A380 que tenía arrendados a la aerolínea: dos ya se han entregado y los otros cuatro llegarán por etapas hasta abril de 2028. Según Aviation A2Z, su valor de mercado ronda los 250 millones de dólares.",
+  "body": [
+   {
+    "t": "El banco catarí Lesha Bank ha acordado vender seis Airbus A380 a Emirates, a través de una estructura de inversión y en nombre del Lesha Aviation Fund, según informó la agencia QNA el 10 de noviembre de 2026. Dos de los aviones ya se han entregado y los cuatro restantes se transferirán por etapas hasta abril de 2028, a medida que venzan sus arrendamientos.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Según Aviation A2Z, el valor de mercado conjunto de los seis aviones ronda los 250 millones de dólares (910 millones de riales cataríes), aunque Lesha Bank no ha revelado el precio final; el banco confirmó la operación en una comunicación bursátil del 10 de noviembre. Antes de la venta, Amedeo Air Four Plus, sociedad que Lesha Bank compró en junio de 2026, tenía 12 aviones de fuselaje ancho arrendados a Emirates y Thai Airways: seis A380, dos Boeing 777-300ER y cuatro A350-900.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Según QNA, el acuerdo asegura a Emirates, el mayor operador del A380, la propiedad a largo plazo de una parte central de su flota de fuselaje ancho y refuerza el papel del modelo en su oferta premium de largo radio. «Estamos satisfechos de haber cerrado esta venta con Emirates, un socio veterano y valioso», afirmó Jonathan Skirrow, consejero delegado adjunto de Lesha Aviation Services.",
+    "s": [
+     2
+    ]
+   },
+   {
+    "t": "Emirates cerró marzo de 2026 con una flota de 277 aviones y transportó 53,2 millones de pasajeros, según Aviation A2Z, que cifra su beneficio neto en 5.400 millones de dólares a partir de datos de Forbes Middle East. El medio añade que, según el informe anual de la aerolínea, el A380 transportó el 43% de sus pasajeros en 53 destinos en el ejercicio 2025-26.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Aviation A2Z",
+    "url": "https://aviationa2z.com/index.php/2026/11/12/emirates-spends-250-million-to-acquire-six-a380s/",
+    "date": "2026-11-12"
+   },
+   {
+    "name": "QNA",
+    "url": "https://qna.org.qa/en/News-Area/News/2026-11/10/lesha-bank-agrees-sale-of-six-airbus-a380-aircraft-to-emirates",
+    "date": "2026-11-10"
+   }
+  ],
+  "why": "Al comprar los A380 cuando vencen sus arrendamientos, Emirates asegura la propiedad del avión que sostiene su largo radio premium y gana capacidad a largo plazo sin depender de nuevas entregas de los fabricantes.",
+  "aiScore": 52,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/0a788048-8210-4935-be17-7d6f37cb1229.jpeg",
+  "imageId": "emirates-compra-seis-a380-lesha",
+  "photoSource": "Aviation Week",
+  "addedAt": "2026-11-13T08:22:35Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "plane",
+   "value": "6",
+   "label": "A380 comprados por Emirates",
+   "tail": "#D71921"
+  }
  }
 ]
