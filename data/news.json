@@ -4840,5 +4840,146 @@
    "label": "A380 comprados por Emirates",
    "tail": "#D71921"
   }
+ },
+ {
+  "id": "faa-parada-nacional-13n",
+  "title": "Un fallo de red en el control aéreo de EE. UU. obliga a parar todos los vuelos y cancela miles",
+  "category": "NET",
+  "publishedAt": "2026-11-15",
+  "source": "FAA",
+  "url": "https://www.faa.gov/newsroom/faa-statement-nationwide-ground-stop",
+  "summary": "La FAA paró las salidas en todo EE. UU. el 13 de noviembre de 15:30 a 20:15 (hora del este) por la inestabilidad de su red de comunicaciones, tras instalarse un nuevo router. Según la FAA se cancelaron 12.462 vuelos, y las cancelaciones siguieron el fin de semana.",
+  "body": [
+   {
+    "t": "La Administración Federal de Aviación de Estados Unidos (FAA) ordenó el viernes 13 de noviembre una parada de salidas en todo el país. Según la propia FAA, comenzó hacia las 15:30 (hora del este) y el tráfico se reanudó a las 20:15 del mismo día; los vuelos que ya estaban en el aire pudieron continuar y unos 3.500 aviones aterrizaron con seguridad.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La FAA atribuye la parada a un problema técnico: sus equipos más antiguos se volvieron inestables cuando su red FTI se vio inundada de datos, con unos 1.000 intentos de conexión cada 4 o 5 segundos. La inestabilidad empezó en 17 de sus 22 centros de control de ruta y se extendió a varios centros de aproximación. La investigación inicial apunta a un radar en Amarillo (Texas) y a un emplazamiento de radiocomunicaciones en El Dorado (Arkansas), donde L3Harris, proveedor de red de la FAA, estaba instalando un nuevo router.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La FAA asegura que no hay indicios de un ciberataque y que como precaución ha desactivado la función de difusión en unos 60 routers similares. El administrador de la FAA, Bryan Bedford, dijo que no hay «ninguna prueba de nada malintencionado». Según ABC News, HPE, propietaria del fabricante de los routers Juniper, sostiene que el equipo funcionó tal como lo configuró el instalador.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La FAA cifra en 12.462 los vuelos cancelados, 9.082 de ellos de las grandes aerolíneas. El domingo seguía habiendo cancelaciones: hacia las 15:00 (hora del este) FlightAware contaba 2.291 vuelos cancelados y 18.689 retrasados, según ABC News. American Airlines (611) y JetBlue (253) fueron las más afectadas ese día.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La FAA revisará cuándo programa los trabajos de sustitución y mantenimiento, que se habían hecho a mediodía y no de noche, y prevé que la vuelta a la normalidad sea «lenta y constante». El consejero delegado de United, Scott Kirby, calificó la parada de «llamada a la acción» y pidió más inversión en tecnología moderna para el control aéreo, según ABC News.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "FAA",
+    "url": "https://www.faa.gov/newsroom/faa-statement-nationwide-ground-stop",
+    "date": "2026-11-15"
+   },
+   {
+    "name": "ABC News",
+    "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140",
+    "date": "2026-11-15"
+   }
+  ],
+  "why": "Una sola instalación de red bastó para parar el mayor mercado aéreo del mundo: refuerza el debate sobre modernizar el control aéreo y sobre el coste de estas disrupciones para las aerolíneas.",
+  "aiScore": 74,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/8fa172ce-f217-4bdd-90be-674f142087e7.jpeg",
+  "imageId": "faa-parada-nacional-13n",
+  "photoSource": "AP (vía ABC7)",
+  "addedAt": "2026-11-16T08:01:41Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "big",
+   "value": "12.462",
+   "label": "vuelos cancelados, según la FAA",
+   "sub": "Parada nacional del 13 de noviembre"
+  }
+ },
+ {
+  "id": "iag-media-publicidad",
+  "title": "IAG lanza IAG Media para vender publicidad en sus cinco aerolíneas a 122 millones de clientes",
+  "category": "STR",
+  "publishedAt": "2026-11-13",
+  "source": "Aviacionline",
+  "url": "https://www.aviacionline.com/english/commercial-aviation/europe/iag-media-to-offer-brands-a-122-million-passenger-audience-across-airlines-of-the-group_a6af6f71187005f8fa3ec38b7",
+  "summary": "British Airways, Iberia, Aer Lingus, Vueling y LEVEL venderán su publicidad bajo una sola marca, IAG Media, con una audiencia potencial de 122 millones de clientes. Ofrecerá anuncios en el portal del wifi Starlink, las pantallas a bordo, las salas VIP y las revistas.",
+  "body": [
+   {
+    "t": "IAG ha creado IAG Media, una unidad que venderá bajo una sola marca la publicidad de British Airways, Iberia, Aer Lingus, Vueling y LEVEL. El grupo la presentó en Londres el jueves 12 de noviembre y, según Aviacionline, es la primera vez que vende en un solo lugar la publicidad de todas sus aerolíneas.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La unidad ofrece a las marcas una audiencia potencial de 122 millones de clientes. En digital, incluye el sistema de entretenimiento a bordo y el portal de acceso al wifi Starlink; en formatos tradicionales, las salas VIP de los aeropuertos y las revistas de a bordo. Las marcas podrán usar además el estudio creativo de IAG, que produce contenidos con herramientas de IA generativa.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El wifi es clave en el modelo. En noviembre de 2025 IAG acordó instalar Starlink en más de 500 aviones; el servicio es gratuito en British Airways, Iberia, Aer Lingus y LEVEL, donde el usuario pasa por la página de acceso con anuncios, mientras Vueling e Iberia Express ofrecen opciones de pago. El grupo prevé tener el 50% de su flota de largo radio equipada a finales de 2026. Deep Arrival señala que los anuncios usarán datos de clientes y que aún no está claro hasta qué punto serán personalizados.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Al frente está Nacho Tovar, que fue director de innovación y transformación digital de Iberia y después director de innovación del grupo. «Sabemos que viajar es uno de esos momentos en los que la gente está abierta a descubrir cosas nuevas», dijo Tovar, cuya ambición es «convertir IAG Media en la plataforma de medios de referencia del sector de los viajes».",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Aviacionline sitúa IAG Media en la línea de IAG Loyalty, gestora de Avios, como negocio complementario con poco capital: entre enero y septiembre de 2026 su beneficio operativo creció un 17,7%, hasta 391 millones de libras (468 millones de euros), mientras el de British Airways cayó un 8,8% y el de Vueling un 17,4%.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Aviacionline",
+    "url": "https://www.aviacionline.com/english/commercial-aviation/europe/iag-media-to-offer-brands-a-122-million-passenger-audience-across-airlines-of-the-group_a6af6f71187005f8fa3ec38b7",
+    "date": "2026-11-13"
+   },
+   {
+    "name": "Deep Arrival",
+    "url": "https://deeparrival.com/news/iag-media-ads-free-starlink-wifi-british-airways-iberia/",
+    "date": "2026-11-13"
+   }
+  ],
+  "why": "IAG suma otra fuente de ingresos no ligada al billete, como Avios, justo cuando el combustible recorta el beneficio de sus aerolíneas; el wifi gratuito de Starlink pasa a ser también un canal comercial.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 64,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/2be8ba1f-a605-4931-85e2-fb8f72eff18d.jpeg",
+  "imageId": "iag-media-publicidad",
+  "photoSource": "Deep Arrival",
+  "addedAt": "2026-11-16T08:01:41Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "big",
+   "value": "122 M",
+   "label": "clientes de audiencia potencial",
+   "sub": "Cinco aerolíneas de IAG"
+  }
  }
 ]
