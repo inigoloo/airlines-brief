@@ -5204,5 +5204,277 @@
     }
    ]
   }
+ },
+ {
+  "id": "ets-fin-derechos-gratuitos-costes-carbono",
+  "title": "El fin de los derechos de CO2 gratuitos eleva la factura de carbono de IAG, AF-KLM y Lufthansa",
+  "category": "FIN",
+  "publishedAt": "2026-11-17",
+  "source": "Skift",
+  "url": "https://skift.com/2026/11/17/carbon-bills-climb-for-europes-airlines-as-free-permits-end/",
+  "summary": "Con el fin en 2026 de los derechos gratuitos del ETS europeo, IAG pagó 359 millones de euros en costes de carbono hasta septiembre, un 21% más. Air France-KLM sumó 484 millones en CO2 y SAF, un 9% más, y Lufthansa prevé 200 millones por los mandatos de SAF.",
+  "body": [
+   {
+    "t": "Las aerolíneas europeas ya pagan cada derecho de emisión que necesitan: los derechos gratuitos que recibían bajo el Régimen de Comercio de Derechos de Emisión de la UE (ETS) terminaron en 2026, según publicó Skift el 17 de noviembre. Las compañías que vuelan dentro de Europa deben entregar un derecho por cada tonelada métrica de CO2 o equivalente, y el Reino Unido, que tiene un régimen equivalente, también dejó de asignarlos gratis.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "IAG, matriz de British Airways e Iberia, pagó 359 millones de euros en costes de carbono en los nueve primeros meses de 2026, un 21% más que un año antes. El grupo atribuyó parte de ese aumento al fin de los derechos gratuitos en la UE y en el Reino Unido.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Air France-KLM declaró 484 millones de euros en costes combinados de derechos de CO2 y combustible sostenible de aviación (SAF) en los nueve meses hasta septiembre, alrededor de un 9% más. Lufthansa prevé que los mandatos de SAF le cuesten 200 millones de euros en 2026, y Finnair calcula un coste añadido de unos 10 millones de euros por trimestre; su director financiero, según Skift, afirmó que ese nivel «parece que se mantiene».",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "A ello se suma el reglamento ReFuelEU Aviation, que exige al menos un 2% de SAF en el combustible de los aeropuertos de la UE, porcentaje que subirá al 6% en 2030 y al 70% en 2050. El queroseno cotizaba a 4,02 dólares por galón a 13 de noviembre, según el medio.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Skift recoge además que la ampliación propuesta del ETS cubriría los vuelos internacionales de salida de hasta 5.000 kilómetros, lo que dejaría fuera la mayoría de las rutas a Estados Unidos y China. Los críticos citados por el medio sostienen que así los vuelos más largos y más emisores quedan exentos.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Skift",
+    "url": "https://skift.com/2026/11/17/carbon-bills-climb-for-europes-airlines-as-free-permits-end/",
+    "date": "2026-11-17"
+   }
+  ],
+  "why": "El carbono ya es un coste estructural para IAG, con 359 millones hasta septiembre, y la posible ampliación del ETS a vuelos de hasta 5.000 km afectaría a sus redes de medio radio frente a rivales de largo radio.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 74,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/2c0dddf3-804f-4ef7-b3e0-1ba556616447.jpeg",
+  "imageId": "ets-fin-derechos-gratuitos-costes-carbono",
+  "photoSource": "Skift (foto de Fraport)",
+  "addedAt": "2026-11-17T14:05:00Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "big",
+   "value": "359 M€",
+   "label": "Costes de carbono de IAG hasta septiembre",
+   "sub": "+21% interanual"
+  }
+ },
+ {
+  "id": "vueling-verano-2027-el-prat-plazas",
+  "title": "Vueling añadirá más de 500.000 plazas nacionales desde El Prat en verano de 2027, un 7% más",
+  "category": "NET",
+  "publishedAt": "2026-11-16",
+  "source": "ON ECONOMIA",
+  "url": "https://elnacional.cat/oneconomia/es/empresas/vueling-foco-espana-crecer-2027-presion-europa_1726406_102.html",
+  "summary": "Vueling ofrecerá desde Barcelona-El Prat más de 500.000 plazas adicionales en rutas nacionales en verano de 2027, un 7% más. Unas 300.000 irán a Canarias y Baleares, y la aerolínea sumará un avión en Bilbao, hasta ocho, y otro en Santiago, hasta cinco.",
+  "body": [
+   {
+    "t": "Vueling anunció el lunes 16 de noviembre que reforzará sus vuelos desde Barcelona-El Prat a varios destinos nacionales en el verano de 2027, con más de 500.000 plazas adicionales en rutas domésticas, un 7% más que este verano. La aerolínea del grupo IAG tiene una cuota cercana al 40% en el aeropuerto de Barcelona, su principal base, según ON ECONOMIA.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Unas 300.000 plazas más (un 9% más) irán a Canarias y Baleares. Canarias alcanzará 1,3 millones de asientos, con hasta seis vuelos diarios desde Barcelona a Gran Canaria y a Tenerife, y a Baleares habrá unos 2,5 millones de plazas a la venta. Otras 200.000 plazas adicionales se destinarán a Bilbao, Santiago de Compostela, Sevilla, Málaga, Granada, Asturias y San Sebastián.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La base de Bilbao suma un avión, hasta ocho, y la de Santiago de Compostela otro, hasta cinco; el puente aéreo Barcelona–Madrid tendrá hasta cuatro frecuencias diarias. Metrópoli Abierta cifra en unas 300.000 las plazas internacionales adicionales, sobre todo en Francia e Italia, y en 800.000 el aumento total, dentro de la hoja de ruta «Rumbo 2035».",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "En el exterior, Vueling operará una media de 13 vuelos diarios Barcelona–París y hasta cuatro diarios a Niza y a Nápoles, y reforzará Sicilia con hasta 30 frecuencias semanales a Catania y Palermo en temporada alta.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "ON ECONOMIA enmarca el plan en la intensa competencia en precios del mercado europeo y en el alto coste del combustible. El consejero delegado de IAG, Luis Gallego, dijo en la presentación de resultados que «en el mercado intraeuropeo estamos teniendo presión en general», y que el grupo redujo en 2026 la capacidad de Iberia y Vueling «para proteger su rentabilidad».",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "ON ECONOMIA",
+    "url": "https://elnacional.cat/oneconomia/es/empresas/vueling-foco-espana-crecer-2027-presion-europa_1726406_102.html",
+    "date": "2026-11-16"
+   },
+   {
+    "name": "Metrópoli Abierta",
+    "url": "https://metropoliabierta.elespanol.com/vivir-en-barcelona/20261116/vueling-dispara-oferta-barcelona-proximo-verano-plazas-refuerza-vuelos-destinos-clave/1003742812473_0.html",
+    "date": "2026-11-16"
+   }
+  ],
+  "why": "Tras recortar capacidad en 2026 por la presión intraeuropea, IAG vuelve a crecer con Vueling en el mercado doméstico desde El Prat, donde tiene cerca del 40% de cuota, en lugar de en rutas europeas más disputadas.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 62,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/336d0bbc-0f95-49f1-8f87-380ed94cd6a6.jpeg",
+  "imageId": "vueling-verano-2027-el-prat-plazas",
+  "photoSource": "Metrópoli Abierta (foto de Vueling)",
+  "addedAt": "2026-11-17T14:05:00Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "big",
+   "value": "+7%",
+   "label": "Plazas nacionales de Vueling desde El Prat en verano de 2027",
+   "sub": "Más de 500.000 asientos adicionales"
+  }
+ },
+ {
+  "id": "aci-europe-trafico-3t-2026-invierno",
+  "title": "Los aeropuertos europeos crecen un 3,4% en el 3T, pero la oferta de invierno solo sube un 1,6%",
+  "category": "NET",
+  "publishedAt": "2026-11-17",
+  "source": "Hosteltur",
+  "url": "https://www.hosteltur.com/180035_el-trafico-de-pasajeros-aereos-crece-un-34-en-europa-a-pesar-de-la-crisis-del-queroseno.html",
+  "summary": "El tráfico de los aeropuertos europeos subió un 3,4% en el tercer trimestre y un 3,2% en septiembre, según ACI Europe, con Madrid-Barajas ya tercero. La capacidad de asientos crecerá solo un 1,6% este invierno, frente al 6,3% del anterior, por el combustible.",
+  "body": [
+   {
+    "t": "El tráfico de pasajeros de los aeropuertos europeos creció un 3,4% en el tercer trimestre de 2026 y un 3,2% interanual en septiembre, según el informe que ACI Europe publicó el 17 de noviembre. La asociación prevé que la capacidad de asientos programada en los aeropuertos europeos aumente solo un 1,6% este invierno, frente al 6,3% del invierno anterior.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Por mercados, en septiembre Italia creció un 6,4%, España un 4,2%, Reino Unido un 1,2% y Alemania un 0,1%, mientras que Francia cayó un 0,5%, según Hosteltur. El conjunto de la UE, el EEE, Suiza y el Reino Unido subió un 2,8%, y los países europeos de fuera de ese grupo, un 5,1%.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Estambul lideró septiembre con 7,85 millones de pasajeros, seguido de Londres-Heathrow, con 7,18 millones (un 2,3% menos). Madrid-Barajas subió al tercer puesto con 6,31 millones (un 6,6% más), por delante de París-Charles de Gaulle (6,22 millones) y Ámsterdam-Schiphol (6,21 millones).",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El director general de ACI Europe, Olivier Jankovec, advirtió de que «las aerolíneas están pasando de los ajustes tácticos de capacidad a recortes más estructurales para la temporada de invierno», porque «los precios persistentemente altos del queroseno siguen pesando en sus finanzas». Añadió que «la subida de las tarifas aéreas y una nueva crisis del coste de la vida pondrán a prueba la resistencia de la demanda».",
+    "s": [
+     2
+    ]
+   },
+   {
+    "t": "Hosteltur recuerda que Lufthansa, Air France-KLM e IAG ya han revisado sus planes de capacidad, y precisa que se trata de decisiones de las compañías y no de una caída general del tráfico.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Hosteltur",
+    "url": "https://www.hosteltur.com/180035_el-trafico-de-pasajeros-aereos-crece-un-34-en-europa-a-pesar-de-la-crisis-del-queroseno.html",
+    "date": "2026-11-17"
+   },
+   {
+    "name": "Travel Weekly",
+    "url": "https://travelweekly.co.uk/news/resilient-travel-demand-extends-summer-peak-but-european-airports-face-winter-challenges",
+    "date": "2026-11-17"
+   }
+  ],
+  "why": "Madrid sube mientras Heathrow cae en septiembre, dos hubs de IAG con tendencias opuestas, y el frenazo de la oferta invernal confirma recortes estructurales por combustible que sostienen tarifas.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 66,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/a8a0d1b8-d14d-469a-9fe1-1523e41d1747.jpeg",
+  "imageId": "aci-europe-trafico-3t-2026-invierno",
+  "photoSource": "Hosteltur (Shutterstock)",
+  "addedAt": "2026-11-17T14:05:00Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "bars",
+   "title": "Crecimiento de asientos en invierno (%)",
+   "bars": [
+    {
+     "l": "Invierno anterior",
+     "v": 6.3,
+     "t": "6,3%"
+    },
+    {
+     "l": "Este invierno",
+     "v": 1.6,
+     "t": "1,6%"
+    }
+   ]
+  }
+ },
+ {
+  "id": "united-kirby-fusion-american",
+  "title": "Kirby (United) se dice «convencido al 100%» de que una fusión con American sería aprobada",
+  "category": "STR",
+  "publishedAt": "2026-11-16",
+  "source": "AirlineGeeks",
+  "url": "https://airlinegeeks.com/2026/11/16/united-ceo-still-keen-on-merger-prospects",
+  "summary": "El consejero delegado de United, Scott Kirby, afirmó el 12 de noviembre que una fusión con American podría aprobarse con desinversiones, aunque falta un socio dispuesto. La entidad combinada habría superado el 34% de cuota y Trump dijo que no la apoyaría.",
+  "body": [
+   {
+    "t": "El consejero delegado de United Airlines, Scott Kirby, sigue defendiendo una posible fusión con American Airlines, según publicó AirlineGeeks el 16 de noviembre. En la conferencia Yahoo Finance Invest del 12 de noviembre, Kirby afirmó: «Estoy más convencido hoy que cuando escribí mi nota hace seis meses de que podría obtener la aprobación».",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Kirby reconoció que «no sería fácil» y que «tendríamos que hacer algunas desinversiones, pero creo al 100% que podría aprobarse», y defendió que «podría obtener la aprobación porque es buena para los clientes». Según el directivo, «el mayor impedimento es tener un socio dispuesto».",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La combinación de United y American habría dado a la nueva compañía una cuota de mercado de algo más del 34%, según el medio. El presidente Donald Trump dijo que no apoyaría la fusión, por motivos de competencia y de precios para los consumidores.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "AirlineGeeks recuerda que el secretario de Transporte, Sean Duffy, dijo en abril que hay «margen para algunas fusiones» en el sector aéreo, sin nombrar a United ni a American.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "AirlineGeeks",
+    "url": "https://airlinegeeks.com/2026/11/16/united-ceo-still-keen-on-merger-prospects",
+    "date": "2026-11-16"
+   }
+  ],
+  "why": "Una unión de dos grandes de EE. UU. con más del 34% de cuota alteraría el Atlántico Norte de las aerolíneas europeas, aunque sin socio dispuesto y con el rechazo de Trump no parece cercana.",
+  "iagImpact": "indirecto",
+  "aiScore": 66,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/a57fa17c-0fc2-4cfa-8c60-616e8be32113.jpeg",
+  "imageId": "united-kirby-fusion-american",
+  "photoSource": "AirlineGeeks (foto de Airbus)",
+  "addedAt": "2026-11-17T14:05:00Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "big",
+   "value": "34%",
+   "label": "Cuota que habría tenido United con American",
+   "sub": "Según AirlineGeeks"
+  }
  }
 ]
