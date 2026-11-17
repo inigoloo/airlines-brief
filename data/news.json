@@ -5476,5 +5476,76 @@
    "label": "Cuota que habría tenido United con American",
    "sub": "Según AirlineGeeks"
   }
+ },
+ {
+  "id": "lufthansa-oferta-pilotos-vc-plazo-23n",
+  "title": "Lufthansa ofrece a sus pilotos subidas salariales desde 2029 y el sindicato le da plazo al 23-N",
+  "category": "STR",
+  "publishedAt": "2026-11-17",
+  "source": "FlightGlobal",
+  "url": "https://www.flightglobal.com/strategy/2026/11/lufthansa-makes-new-labour-offer-to-pilots-but-union-unimpressed/",
+  "summary": "Lufthansa ofrece a Vereinigung Cockpit pagos únicos en 2027 y 2028, subidas solo desde 2029, hasta 1.000 contrataciones hasta 2033 y 150 ascensos más al año. El sindicato rechaza que descarte la propuesta de mediación y le da hasta el 23 de noviembre.",
+  "body": [
+   {
+    "t": "Lufthansa presentó el 17 de noviembre una nueva oferta al sindicato de pilotos Vereinigung Cockpit (VC) para cerrar el conflicto que provocó huelgas a principios de 2026, según FlightGlobal. La propuesta llega tras siete meses de mediación y, según la aerolínea, sigue las recomendaciones de dos árbitros designados de forma independiente.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La oferta incluye una «estabilización temporal de los niveles salariales», ajustes de las escalas y medidas para elevar la productividad, con un pago único a los pilotos en 2027 y otro en 2028 y subidas salariales que no llegarían hasta 2029. Plantea también cambios en las pensiones sin coste adicional y perspectivas de empleo para los pilotos de CityLine, cerrada en abril de 2026, incluida la opción de pasar a Lufthansa Airlines.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Como contrapartida, Lufthansa ofrece hasta 1.000 nuevas contrataciones en cabina hasta finales de 2033 y hasta 150 ascensos adicionales a comandante al año. El miembro del consejo ejecutivo Michael Niggemann afirmó que los árbitros propusieron «un compromiso equilibrado que exige concesiones a ambas partes».",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "VC critica que Lufthansa rechace la propuesta de los mediadores y redacte la suya propia. Su portavoz de negociación, Arne Karstens, calificó ese rechazo de «completamente incomprensible», según aeroTELEGRAPH citado por Deep Arrival. El sindicato da a la empresa hasta el 23 de noviembre para «reconsiderar su posición»; según Deep Arrival, no ha anunciado ninguna huelga.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Las huelgas de pilotos y tripulantes de cabina costaron al grupo unos 150 millones de euros en el segundo trimestre, y Lufthansa Airlines fue la única aerolínea de red del grupo cuyo beneficio cayó en el tercer trimestre, según FlightGlobal.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "FlightGlobal",
+    "url": "https://www.flightglobal.com/strategy/2026/11/lufthansa-makes-new-labour-offer-to-pilots-but-union-unimpressed/",
+    "date": "2026-11-17"
+   },
+   {
+    "name": "Deep Arrival",
+    "url": "https://deeparrival.com/news/lufthansa-pilots-union-november-23-deadline-strike-risk-2026/",
+    "date": "2026-11-17"
+   }
+  ],
+  "why": "El principal rival europeo de IAG intenta contener costes laborales congelando sueldos hasta 2029; si VC no acepta antes del 23-N, vuelve el riesgo de huelgas que ya le costaron 150 millones en un trimestre.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 68,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/83242501-9e5b-4e05-a84c-b590e4e92d09.jpeg",
+  "imageId": "lufthansa-oferta-pilotos-vc-plazo-23n",
+  "photoSource": "FlightGlobal (foto de Lufthansa Group)",
+  "addedAt": "2026-11-17T14:02:00Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "big",
+   "value": "1.000",
+   "label": "Contrataciones de pilotos ofrecidas hasta 2033",
+   "sub": "Subidas salariales solo desde 2029"
+  }
  }
 ]
