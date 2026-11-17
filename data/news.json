@@ -4981,5 +4981,228 @@
    "label": "clientes de audiencia potencial",
    "sub": "Cinco aerolíneas de IAG"
   }
+ },
+ {
+  "id": "plus-ultra-suspende-buenos-aires-madrid",
+  "title": "Plus Ultra suspende sin fecha su ruta Buenos Aires–Madrid en plena reestructuración financiera",
+  "category": "NET",
+  "publishedAt": "2026-11-17",
+  "source": "Infobae",
+  "url": "https://www.infobae.com/economia/2026/11/17/una-aerolinea-europea-suspendio-por-tiempo-indeterminado-sus-vuelos-a-la-argentina-que-deberan-hacer-los-pasajeros/",
+  "summary": "Plus Ultra deja de volar entre Ezeiza y Madrid desde el 17 de noviembre hasta nuevo aviso, dentro de un plan que recorta más del 61% de sus horas de vuelo regular. Prevé gastar 104,83 millones de euros en combustible en 2026, frente a 69,13 millones previstos.",
+  "body": [
+   {
+    "t": "La aerolínea española Plus Ultra ha suspendido hasta nuevo aviso sus vuelos entre el aeropuerto de Ezeiza (Buenos Aires) y Madrid a partir de este martes, 17 de noviembre de 2026, según Infobae. La compañía vincula la decisión a su reestructuración financiera y operativa, y alega un fuerte aumento de los costes operativos, sobre todo del combustible, y falta de liquidez.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Según Infobae, la aerolínea prevé gastar en combustible 104,83 millones de euros en 2026, frente a los 69,13 millones que tenía previstos. Su plan contempla un recorte de más del 61% de las horas de vuelo comerciales regulares y un expediente de despido colectivo que afecta a 679 empleados de su centro de trabajo de Madrid.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La ruta ya venía reduciéndose: a principios de octubre Plus Ultra bajó sus frecuencias entre Buenos Aires y Madrid de cinco a dos semanales. La compañía también atribuyó entonces sus problemas a los desvíos a Montevideo causados por las obras en Ezeiza.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "iProfesional informó el 13 de noviembre de que Plus Ultra ha abierto negociaciones con sus acreedores mediante el mecanismo antes conocido como preconcurso y de que registró pérdidas operativas de 31 millones de euros entre febrero y agosto, los primeros meses de su ejercicio. Según ese medio, el precio del combustible ha subido de media un 68% desde marzo de 2026, con picos del 109%, por el conflicto en Oriente Medio.",
+    "s": [
+     2
+    ]
+   },
+   {
+    "t": "Entre las rutas que ofrece figuran Buenos Aires, Lima, Bogotá, Cartagena de Indias y Caracas, y aún no se conoce cómo se repartirán los recortes, según iProfesional. La división de ACMI y chárter seguirá operando con normalidad. Los sindicatos citan, entre las causas del expediente, el coste del combustible, los problemas de liquidez y el estancamiento de las conversaciones con posibles inversores.",
+    "s": [
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Infobae",
+    "url": "https://www.infobae.com/economia/2026/11/17/una-aerolinea-europea-suspendio-por-tiempo-indeterminado-sus-vuelos-a-la-argentina-que-deberan-hacer-los-pasajeros/",
+    "date": "2026-11-17"
+   },
+   {
+    "name": "iProfesional",
+    "url": "https://www.iprofesional.com/negocios/469028-plus-ultra-recorta-sus-vuelos-un-61-y-evalua-un-ajuste-de-personal.amp",
+    "date": "2026-11-13"
+   }
+  ],
+  "why": "Plus Ultra opera desde Madrid a Latinoamérica, el eje de Iberia; su salida de Buenos Aires y el recorte del 61% de horas restan capacidad en ese mercado y muestran el impacto del combustible en las aerolíneas pequeñas.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 60,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/fe489426-5243-4f51-a42f-dbe75583cb35.jpeg",
+  "imageId": "plus-ultra-suspende-buenos-aires-madrid",
+  "photoSource": "Infobae (Europa Press)",
+  "addedAt": "2026-11-17T08:13:13Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "route",
+   "title": "Ruta suspendida hasta nuevo aviso",
+   "badge": "-61% horas",
+   "points": [
+    {
+     "code": "EZE",
+     "city": "Buenos Aires",
+     "lat": -34.82,
+     "lon": -58.54
+    },
+    {
+     "code": "MAD",
+     "city": "Madrid",
+     "lat": 40.47,
+     "lon": -3.56
+    }
+   ]
+  }
+ },
+ {
+  "id": "ryanair-enaa-propiedad-tribunal",
+  "title": "O'Leary ve un «ataque anticompetitivo» en el pleito sobre la propiedad de Ryanair en Irlanda",
+  "category": "STR",
+  "publishedAt": "2026-11-16",
+  "source": "The Irish Times",
+  "url": "https://www.irishtimes.com/crime-law/courts/2026/11/16/ryanair-ownership-structure-claim-is-an-anticompetitive-attack-michael-oleary-tells-court/",
+  "summary": "La patronal ENAA sostiene ante el Tribunal Superior irlandés que Ryanair incumple las normas de propiedad de la UE; Ryanair alega que sus accionistas de fuera de la UE no votan. O'Leary amenaza con dejar A4E si los miembros de la ENAA no se retiran del pleito.",
+  "body": [
+   {
+    "t": "La European Network Airlines Association (ENAA), asociación del sector registrada en Ámsterdam, mantiene ante la sala mercantil del Tribunal Superior de Irlanda una demanda contra la Autoridad de Aviación de Irlanda (IAA), con Ryanair como parte interesada. La ENAA sostiene que Ryanair no cumple los requisitos de propiedad de la UE. El caso tuvo una vista el lunes 16 de noviembre.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Según la ENAA, Ryanair incumple el Reglamento de servicios aéreos (CE n.º 1008/2008) en materia de propiedad, según recoge el Irish Examiner. Ryanair afirma que lo cumple porque sus accionistas de fuera de la UE no tienen derecho a votar, asistir ni intervenir en sus juntas generales.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "En la vista, la jueza Eileen Roberts rechazó la petición del abogado Shane Cranley de incorporar a Lufthansa, KLM y Air France como partes del proceso, porque complicaría un procedimiento que debe seguir un calendario acordado. Sí permitirá que las aerolíneas presenten declaraciones juradas.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "En una declaración jurada, el consejero delegado de Ryanair, Michael O'Leary, calificó el litigio de «ataque anticompetitivo deliberado» para dejar en tierra a una aerolínea «cuyas tarifas más bajas no pueden igualar», y lo atribuyó a Lufthansa y Air France. Según O'Leary, la ENAA está controlada en la práctica por Air France-KLM y Lufthansa, a las que describió como «dos de las aerolíneas de bandera con tarifas más altas de Europa».",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "O'Leary señaló que los miembros de la ENAA también pertenecen a Airlines for Europe (A4E) y que su postura sobre el reglamento parece chocar con la acordada en A4E. Exigió que se retiren del pleito o de A4E; de lo contrario, dijo, Ryanair no tendría más opción que abandonar esa asociación. El Irish Times precisa que no incluye respuesta de la ENAA, la IAA ni las aerolíneas citadas.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "The Irish Times",
+    "url": "https://www.irishtimes.com/crime-law/courts/2026/11/16/ryanair-ownership-structure-claim-is-an-anticompetitive-attack-michael-oleary-tells-court/",
+    "date": "2026-11-16"
+   },
+   {
+    "name": "Irish Examiner",
+    "url": "https://www.irishexaminer.com/business/companies/arid-41938410.html",
+    "date": "2026-11-16"
+   }
+  ],
+  "why": "El pleito pone a prueba cómo se aplican las reglas de propiedad y control de la UE a las aerolíneas con capital extracomunitario y abre una fractura en la patronal Airlines for Europe (A4E).",
+  "europe": true,
+  "aiScore": 65,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/5288e007-0c30-4db6-9fb9-d47e730b24d7.jpeg",
+  "imageId": "ryanair-enaa-propiedad-tribunal",
+  "photoSource": "Irish Examiner (PA Wire)",
+  "addedAt": "2026-11-17T08:13:13Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "big",
+   "value": "A4E",
+   "label": "Ryanair amenaza con abandonar la patronal",
+   "sub": "Si los miembros de la ENAA no dejan el pleito"
+  }
+ },
+ {
+  "id": "avianca-61-aviones-2027-2029",
+  "title": "Avianca invertirá unos 3.000 millones de dólares en sumar 61 aviones entre 2027 y 2029",
+  "category": "FLT",
+  "publishedAt": "2026-11-16",
+  "source": "Semana",
+  "url": "https://www.semana.com/economia/empresas/articulo/avianca-invertira-3000-millones-de-dolares-y-sumara-61-aviones-a-su-flota-entre-2027-y-2029/202646/",
+  "summary": "Avianca incorporará 61 aviones nuevos entre 2027 y 2029, 18 en 2027, 23 en 2028 y 20 en 2029, con una inversión de unos 3.000 millones de dólares. El primer grupo suma 16 aviones de pasillo único y 2 de doble pasillo, por unos 1.000 millones.",
+  "body": [
+   {
+    "t": "Avianca invertirá cerca de 3.000 millones de dólares en un programa de expansión que sumará 61 aviones nuevos a su flota entre 2027 y 2029, según publicó Semana el 16 de noviembre. El anuncio lo hizo el vicepresidente de Colombia, José Manuel Restrepo, tras reunirse con el presidente de Avianca, Gabriel Oliva, durante el viaje de una delegación empresarial colombiana a Nueva York.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El calendario prevé 18 aviones en 2027, 23 en 2028 y los 20 restantes en 2029. El primer grupo estará formado por 16 aviones de pasillo único y 2 de doble pasillo, con un coste estimado de esta primera fase cercano a 1.000 millones de dólares, según el medio.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Semana toma como precios de referencia unos 50 millones de dólares por avión de pasillo único y unos 100 millones por cada uno de doble pasillo. No se ha detallado el reparto por tipo de avión en 2028 y 2029 ni el desglose del gasto por año y modelo.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El anuncio coincide con la primera Milagro Week, que se celebra del 16 al 19 de noviembre y en la que Colombia presenta 97 proyectos por valor de 41.900 millones de dólares. Miembros de la delegación viajaron en el vuelo preinaugural AV280 de la ruta Barranquilla–Nueva York.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Semana",
+    "url": "https://www.semana.com/economia/empresas/articulo/avianca-invertira-3000-millones-de-dolares-y-sumara-61-aviones-a-su-flota-entre-2027-y-2029/202646/",
+    "date": "2026-11-16"
+   }
+  ],
+  "why": "Avianca fija un crecimiento de flota de 61 aviones hasta 2029, lo que anticipa más capacidad en Latinoamérica, una región clave para las aerolíneas europeas que operan allí.",
+  "aiScore": 64,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/dd69c2b6-e19c-42c9-817b-023919cd946f.jpeg",
+  "imageId": "avianca-61-aviones-2027-2029",
+  "photoSource": "Semana (foto de Avianca)",
+  "addedAt": "2026-11-17T08:13:13Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "bars",
+   "title": "Aviones nuevos por año",
+   "bars": [
+    {
+     "l": "2027",
+     "v": 18,
+     "t": "18"
+    },
+    {
+     "l": "2028",
+     "v": 23,
+     "t": "23"
+    },
+    {
+     "l": "2029",
+     "v": 20,
+     "t": "20"
+    }
+   ]
+  }
  }
 ]
