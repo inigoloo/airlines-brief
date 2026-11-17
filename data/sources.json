@@ -238,5 +238,245 @@
   "type": "Complementaria",
   "url": "https://www.thenationalnews.com/business/aviation/",
   "id": "trial-thenational"
+ },
+ {
+  "lang": "EN",
+  "name": "FlightGlobal",
+  "note": "Aerolíneas, flota y fabricantes; muy rápido con pedidos y entregas.",
+  "order": 33,
+  "status": "core",
+  "type": "Medio sectorial",
+  "url": "https://www.flightglobal.com/airlines",
+  "id": "flightglobal"
+ },
+ {
+  "lang": "EN",
+  "name": "ch-aviation",
+  "note": "Movimientos de flota, nuevas aerolíneas y cambios de red.",
+  "order": 34,
+  "status": "core",
+  "type": "Medio sectorial",
+  "url": "https://www.ch-aviation.com/news",
+  "id": "ch-aviation"
+ },
+ {
+  "lang": "EN",
+  "name": "AeroTime",
+  "note": "Actualidad europea de aerolíneas y fabricantes.",
+  "order": 35,
+  "status": "core",
+  "type": "Medio sectorial",
+  "url": "https://www.aerotime.aero/",
+  "id": "aerotime"
+ },
+ {
+  "lang": "EN",
+  "name": "Routes / Aeroroutes",
+  "note": "Rutas nuevas, capacidad y estrategia de red.",
+  "order": 36,
+  "status": "core",
+  "type": "Medio sectorial",
+  "url": "https://www.routesonline.com/news/",
+  "id": "routes"
+ },
+ {
+  "lang": "EN",
+  "name": "Airliner World",
+  "note": "Aerolíneas y flota, con buena cobertura europea.",
+  "order": 37,
+  "status": "core",
+  "type": "Medio sectorial",
+  "url": "https://www.key.aero/",
+  "id": "airliner-world"
+ },
+ {
+  "lang": "EN",
+  "name": "Aviation A2Z",
+  "note": "Actualidad diaria; contrastar siempre con otra fuente.",
+  "order": 38,
+  "status": "trial",
+  "type": "Medio sectorial",
+  "url": "https://aviationa2z.com/",
+  "id": "aviation-a2z"
+ },
+ {
+  "lang": "EN",
+  "name": "Airways Magazine",
+  "note": "Red, flota y aerolíneas.",
+  "order": 39,
+  "status": "trial",
+  "type": "Medio sectorial",
+  "url": "https://www.airwaysmag.com/",
+  "id": "airways"
+ },
+ {
+  "lang": "EN",
+  "name": "Business Traveller",
+  "note": "Producto y rutas; útil para clientes corporativos.",
+  "order": 40,
+  "status": "trial",
+  "type": "Medio sectorial",
+  "url": "https://www.businesstraveller.com/business-travel/",
+  "id": "businesstraveller"
+ },
+ {
+  "lang": "DE",
+  "name": "aeroTELEGRAPH",
+  "note": "Lufthansa, Swiss y mercado germano.",
+  "order": 41,
+  "status": "trial",
+  "type": "Medio sectorial",
+  "url": "https://www.aerotelegraph.com/",
+  "id": "aerotelegraph"
+ },
+ {
+  "lang": "FR",
+  "name": "Air Journal",
+  "note": "Air France-KLM y mercado francés.",
+  "order": 42,
+  "status": "trial",
+  "type": "Medio sectorial",
+  "url": "https://www.air-journal.fr/",
+  "id": "air-journal"
+ },
+ {
+  "lang": "EN",
+  "name": "The Irish Times – Business",
+  "note": "Aer Lingus, Ryanair y Dublín.",
+  "order": 43,
+  "status": "core",
+  "type": "Prensa económica",
+  "url": "https://www.irishtimes.com/business/",
+  "id": "irish-times"
+ },
+ {
+  "lang": "EN",
+  "name": "The Guardian / The Times – Business",
+  "note": "British Airways, Heathrow y regulación británica.",
+  "order": 44,
+  "status": "core",
+  "type": "Prensa económica",
+  "url": "https://www.theguardian.com/business/airline-industry",
+  "id": "guardian-times"
+ },
+ {
+  "lang": "ES",
+  "name": "Europa Press – Turismo",
+  "note": "Agencia: notas de aerolíneas, Aena y Gobierno al momento.",
+  "order": 45,
+  "status": "core",
+  "type": "Agencia",
+  "url": "https://www.europapress.es/turismo/",
+  "id": "europa-press"
+ },
+ {
+  "lang": "ES",
+  "name": "elEconomista – Transportes",
+  "note": "Iberia, Air Europa, Aena y resultados.",
+  "order": 46,
+  "status": "core",
+  "type": "Prensa económica",
+  "url": "https://www.eleconomista.es/transportes-turismo/",
+  "id": "eleconomista"
+ },
+ {
+  "lang": "ES",
+  "name": "El Confidencial / Vozpópuli",
+  "note": "Exclusivas corporativas de IAG, Air Europa y Globalia.",
+  "order": 47,
+  "status": "core",
+  "type": "Prensa económica",
+  "url": "https://www.elconfidencial.com/empresas/",
+  "id": "el-confidencial"
+ },
+ {
+  "lang": "ES",
+  "name": "Nexotur",
+  "note": "Distribución y turismo en España.",
+  "order": 48,
+  "status": "trial",
+  "type": "Medio sectorial",
+  "url": "https://www.nexotur.com/",
+  "id": "nexotur"
+ },
+ {
+  "lang": "ES",
+  "name": "Aviación Digital",
+  "note": "Aerolíneas españolas y latinoamericanas.",
+  "order": 49,
+  "status": "trial",
+  "type": "Medio sectorial",
+  "url": "https://aviaciondigital.com/",
+  "id": "aviacion-digital"
+ },
+ {
+  "lang": "ES",
+  "name": "A21",
+  "note": "Aviación en México.",
+  "order": 50,
+  "status": "trial",
+  "type": "Medio sectorial",
+  "url": "https://a21.com.mx/",
+  "id": "a21"
+ },
+ {
+  "lang": "ES",
+  "name": "Infobae / Semana / El Tiempo",
+  "note": "Latinoamérica: Argentina, Colombia y región.",
+  "order": 51,
+  "status": "trial",
+  "type": "Prensa generalista",
+  "url": "https://www.infobae.com/economia/",
+  "id": "infobae"
+ },
+ {
+  "lang": "ES",
+  "name": "Aena – Sala de prensa",
+  "note": "Tráfico mensual y anuncios de la red española.",
+  "order": 52,
+  "status": "core",
+  "type": "Fuente oficial",
+  "url": "https://www.aena.es/es/prensa.html",
+  "id": "aena-prensa"
+ },
+ {
+  "lang": "EN",
+  "name": "EASA y Comisión Europea – Transporte",
+  "note": "Regulación de la UE, slots, SAF y derechos de pasajeros.",
+  "order": 53,
+  "status": "core",
+  "type": "Fuente oficial",
+  "url": "https://transport.ec.europa.eu/news-events_en",
+  "id": "easa-ec"
+ },
+ {
+  "lang": "EN",
+  "name": "A4E y ACI Europe",
+  "note": "Posición de aerolíneas y aeropuertos europeos; tráfico mensual.",
+  "order": 54,
+  "status": "core",
+  "type": "Fuente oficial",
+  "url": "https://a4e.eu/",
+  "id": "a4e-aci"
+ },
+ {
+  "lang": "EN",
+  "name": "Relación con inversores (Lufthansa, AF-KLM, Ryanair, easyJet, Wizz)",
+  "note": "Resultados y comunicados de las cotizadas europeas.",
+  "order": 55,
+  "status": "core",
+  "type": "Fuente oficial",
+  "url": "https://investor.lufthansagroup.com/",
+  "id": "ir-europeas"
+ },
+ {
+  "lang": "EN",
+  "name": "PR Newswire / Business Wire / GlobeNewswire – Travel",
+  "note": "Notas de prensa de aerolíneas y proveedores.",
+  "order": 56,
+  "status": "trial",
+  "type": "Fuente oficial",
+  "url": "https://www.prnewswire.com/news-releases/travel-hospitality-latest-news/",
+  "id": "newswires"
  }
 ]
