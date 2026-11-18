@@ -1163,7 +1163,7 @@ async function queueWrite(){
 function renderBoard(){
   const issue = String(state.editions.length + 1).padStart(2,"0");
   // Lectores (y clientes) no reciben la newsletter: la cabecera no menciona ediciones
-  $("#edline").textContent = isAdmin ? `Semanal · Próxima edición Nº ${issue}` : "Market Intelligence";
+  $("#edline").textContent = "Market Intelligence";
 }
 
 /* ---------- Email ---------- */
