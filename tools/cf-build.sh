@@ -10,6 +10,12 @@ cat > dist/_headers <<'H'
   Referrer-Policy: strict-origin-when-cross-origin
 /data/*
   Cache-Control: public, max-age=0, must-revalidate
+/
+  Cache-Control: no-cache
+/index.html
+  Cache-Control: no-cache
+/shim.js
+  Cache-Control: no-cache
 H
 cat > dist/_redirects <<'R'
 /_blob/:id /img/:id.jpg 200
