@@ -823,7 +823,8 @@ function renderPortal(){
         ${sortBar(mode, false)}${br.length ? briefsByDay(br,t,inSel) : `<div class="empty">Todavía no hay noticias fuera de portada en esta sección.</div>`}`;
       return;
     }
-    const items = inSec.filter(n => !isBrief(n)).sort(CMP[mode]);
+    // A section shows its full stories first and, below them, its stories "fuera de portada"
+    const items = inSec.slice().sort(CMP[mode]);
     box.innerHTML = `<div class="sectionhead"><h2>${esc(CATS[state.section])}</h2><p>${esc(CAT_DESC[state.section]||"")} ${items.length} ${items.length===1?"noticia":"noticias"}${ranged ? " " + esc(rangeTxt) : ""}.</p></div>
       ${sortBar(mode, false)}
       ${items.length ? listHTML(items) : `<div class="empty">Todavía no hay noticias en esta sección.</div>`}`;
