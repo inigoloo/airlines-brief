@@ -388,7 +388,7 @@ footer.foot{border-top:3px double var(--rule);padding-block:14px 30px;font-size:
 </head>
 <body>
 
-<div class="topbar"><div class="wrap"><span class="dl" id="dateline">—</span><span class="tr"><span class="ed" id="edline">Semanal · Market Intelligence</span><span class="langsw" role="group" aria-label="Idioma / Language"><button type="button" data-lang="es">ES</button><button type="button" data-lang="en">EN</button></span></span></div></div>
+<div class="topbar"><div class="wrap"><span class="dl" id="dateline">—</span><span class="tr"><span class="ed" id="edline">Market Intelligence</span><span class="langsw" role="group" aria-label="Idioma / Language"><button type="button" data-lang="es">ES</button><button type="button" data-lang="en">EN</button></span></span></div></div>
 <header class="masthead wrap">
   <div class="pre">Airlines Practice</div>
   <div class="mh-title"><h1>The Airlines <em>Brief</em></h1><div class="by-ntt">by <img src="img/ntt-data.png" alt="NTT DATA" width="351" height="72"></div></div>
@@ -538,7 +538,7 @@ const EN = {
   "Todavía no hay noticias fuera de portada en esta sección.":"No off-the-front-page stories in this section yet.",
   "No hay noticias en este periodo. Mueve la barra para ampliarlo.":"No stories in this period. Move the bar to widen it.",
   "Mueve la barra de arriba para ver otro periodo, hasta 30 días atrás. Las noticias anteriores están en cada sección y en el buscador.":"Move the bar above to see another period, up to 30 days back. Older stories are in each section and in search.",
-  "Todavía no hay noticias publicadas desde el último envío.":"No stories published since the last newsletter yet.",
+  "Todavía no hay noticias esta semana.":"No stories this week yet.",
   "Redactado por The Airlines Brief exclusivamente con la información publicada en las fuentes citadas. Los números remiten a cada fuente.":"Written by The Airlines Brief solely from the information published in the sources cited. The numbers refer to each source.",
   "Infografía: The Airlines Brief":"Graphic: The Airlines Brief",
   "The Airlines Brief · Airlines Practice. Cada noticia está redactada a partir de fuentes verificadas, citadas al final del artículo.":"The Airlines Brief · Airlines Practice. Every story is written from verified sources, cited at the end of the article.",
@@ -841,7 +841,7 @@ function voteCtl(n, t){
 }
 function statusTag(n, inSel){
   const o = inSel.get(n.id);
-  return o === "votes" ? `<span class="status votes">✓ En la edición</span>` : "";
+  return (isAdmin && o === "votes") ? `<span class="status votes">✓ En la edición</span>` : "";
 }
 function byline(n, t, inSel){
   const photo = state.canEdit && assets ? `<button type="button" class="photo-btn" data-photo="${esc(n.id)}">${n.imageId ? "Cambiar foto" : "Subir foto"}</button>` : "";
@@ -962,15 +962,9 @@ function renderPortal(){
   // "Lo más votado de la semana": same weekly cycle as the newsletter (the news eligible for the next edition).
   // News published from the last SCHEDULED send day (Monday) to the Sunday after it, whatever has been marked as sent.
   // Votes first, then AI priority; up to 5.
-  const lastScheduled = (() => {
-    const today = todayISO(), step = +state.cfg.cadenceDays || 7;
-    let d = state.cfg.nextSend || today;
-    while(d > today) d = addDays(d, -step);
-    while(addDays(d, step) <= today) d = addDays(d, step);
-    return d;
-  })();
-  const weekEnd = addDays(lastScheduled, +state.cfg.cadenceDays || 7);
-  const ranking = state.news.filter(n => isValid(n) && n.publishedAt >= lastScheduled && n.publishedAt < weekEnd)
+  // Últimos 7 días (sin depender de la newsletter, que los lectores no reciben).
+  const weekStart = addDays(todayISO(), -6);
+  const ranking = state.news.filter(n => isValid(n) && n.publishedAt >= weekStart)
     .sort((a,b) => net(b)-net(a) || prio(b)-prio(a)).slice(0,5);
 
   if(!front.length && !offFront.length){
@@ -982,7 +976,7 @@ function renderPortal(){
     <div class="seconds">${top4.map(n => story(n,t,inSel,{why:true})).join("")}</div>
     <aside class="mrail"><div class="rail">
       <h2 class="rail-h">Lo más votado de la semana</h2>
-      ${ranking.length ? "" : `<p style="font-size:13px;color:var(--muted);margin:10px 0 0">Todavía no hay noticias publicadas desde el último envío.</p>`}<ol class="ranking">${ranking.map((n,i) => `<li><span class="n">${i+1}</span><div><a href="#noticia-${esc(n.id)}" data-art="${esc(n.id)}" data-content>${esc(L(n,"title"))}</a><div class="m">${net(n)} ${net(n)===1?"like":"likes"} · <span>${esc(CATS[n.category]||"")}</span></div></div></li>`).join("")}</ol>
+      ${ranking.length ? "" : `<p style="font-size:13px;color:var(--muted);margin:10px 0 0">Todavía no hay noticias esta semana.</p>`}<ol class="ranking">${ranking.map((n,i) => `<li><span class="n">${i+1}</span><div><a href="#noticia-${esc(n.id)}" data-art="${esc(n.id)}" data-content>${esc(L(n,"title"))}</a><div class="m">${net(n)} ${net(n)===1?"like":"likes"} · <span>${esc(CATS[n.category]||"")}</span></div></div></li>`).join("")}</ol>
     </div></aside>
   </div>
   ${rest.length ? `<div class="morehead"><h2>Más noticias</h2><span class="mh-note">Por importancia</span></div>
@@ -1168,7 +1162,8 @@ async function queueWrite(){
 /* ---------- Board ---------- */
 function renderBoard(){
   const issue = String(state.editions.length + 1).padStart(2,"0");
-  $("#edline").textContent = `Semanal · Próxima edición Nº ${issue}`;
+  // Lectores (y clientes) no reciben la newsletter: la cabecera no menciona ediciones
+  $("#edline").textContent = isAdmin ? `Semanal · Próxima edición Nº ${issue}` : "Market Intelligence";
 }
 
 /* ---------- Email ---------- */
