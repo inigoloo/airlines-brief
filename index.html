@@ -1040,7 +1040,7 @@ const SORTS = {
   relevant: ["Más relevantes", "Criterio editorial de The Airlines Brief: primero lo que afecta directamente a IAG, después lo que le afecta indirectamente, después Europa y después el resto; dentro de cada nivel, por importancia de la noticia."]
 };
 function sortBar(mode, withFront){
-  const keys = withFront ? ["front","recent","votes","relevant","briefs"] : ["recent","votes","relevant","briefs"];
+  const keys = withFront ? ["front","recent","votes","relevant"] : ["recent","votes","relevant"];
   return `<div class="sortbar" role="group" aria-label="Ordenar noticias"><span class="sb-k">Ordenar</span><div class="sb-opts">${keys.map(k => `<button type="button" data-sort="${k}" aria-pressed="${k===mode}">${SORTS[k][0]}</button>`).join("")}</div><p class="sb-note">${esc(SORTS[mode][1])}</p></div>`;
 }
 document.addEventListener("click", e => {
