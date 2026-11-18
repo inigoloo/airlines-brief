@@ -3,7 +3,7 @@
 // Used by the weekly script on the editor's computer, which builds an Outlook draft with the images embedded.
 import { json, editions, config, asset, assetExists, readVotes, madridToday, addDays } from "../../cf/lib.js";
 
-const CATS = { FIN: "Finanzas", STR: "Estrategia", CUS: "Cliente", NET: "Red", FLT: "Flota" };
+const CATS = { FIN: "Finanzas", STR: "Estrategia", CUS: "Cliente", NET: "Red", FLT: "Flota", MRO: "MRO y Motores", APT: "Aeropuertos", REG: "Regulación", TUR: "Turismo" };
 const MONTHS = ["ENE","FEB","MAR","ABR","MAY","JUN","JUL","AGO","SEP","OCT","NOV","DIC"];
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const fmtDate = iso => { if(!iso) return "—"; const [y, m, d] = iso.slice(0, 10).split("-"); return `${d} ${MONTHS[+m - 1]} ${y}`; };
@@ -31,7 +31,7 @@ export async function onRequestGet({ request, env }){
     let fill = [];
     if(byVotes.length < min){
       const taken = new Set(byVotes.map(x => x.n.id));
-      fill = elig.filter(n => !taken.has(n.id)).sort((a, b) => prio(b) - prio(a) || b.publishedAt.localeCompare(a.publishedAt))
+      fill = elig.filter(n => !taken.has(n.id) && n.kind !== "brief").sort((a, b) => prio(b) - prio(a) || b.publishedAt.localeCompare(a.publishedAt))
         .slice(0, min - byVotes.length).map(n => ({ n, origin: "ai", net: net(n) }));
     }
     const items = [...byVotes, ...fill];

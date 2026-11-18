@@ -125,9 +125,9 @@ main .wrap{padding-block:22px 64px}
 .a-cap{font-family:var(--f-display);font-weight:600;letter-spacing:.14em;text-transform:uppercase}
 .photo-btn{font-family:var(--f-display);font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:11.5px;border:1px dashed var(--line);background:none;color:var(--muted);padding:3px 8px;border-radius:3px;cursor:pointer}
 .photo-btn:hover{color:var(--ink);border-color:var(--ink)}
-.cat-FIN{color:#1F7A5A}.cat-STR{color:#1F4BC6}.cat-CUS{color:#A2470F}.cat-NET{color:#0F7C8C}.cat-FLT{color:#7A3FB0}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .cat-FIN{color:#5BD1A4}:root:not([data-theme="light"]) .cat-STR{color:#86A6FF}:root:not([data-theme="light"]) .cat-CUS{color:#F4A06A}:root:not([data-theme="light"]) .cat-NET{color:#5CCFDE}:root:not([data-theme="light"]) .cat-FLT{color:#C59BF2}}
-:root[data-theme="dark"] .cat-FIN{color:#5BD1A4}:root[data-theme="dark"] .cat-STR{color:#86A6FF}:root[data-theme="dark"] .cat-CUS{color:#F4A06A}:root[data-theme="dark"] .cat-NET{color:#5CCFDE}:root[data-theme="dark"] .cat-FLT{color:#C59BF2}
+.cat-FIN{color:#1F7A5A}.cat-STR{color:#1F4BC6}.cat-CUS{color:#A2470F}.cat-NET{color:#0F7C8C}.cat-FLT{color:#7A3FB0}.cat-MRO{color:#8A5A00}.cat-APT{color:#B0306A}.cat-REG{color:#4A5568}.cat-TUR{color:#2E7D32}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .cat-FIN{color:#5BD1A4}:root:not([data-theme="light"]) .cat-STR{color:#86A6FF}:root:not([data-theme="light"]) .cat-CUS{color:#F4A06A}:root:not([data-theme="light"]) .cat-NET{color:#5CCFDE}:root:not([data-theme="light"]) .cat-FLT{color:#C59BF2}:root:not([data-theme="light"]) .cat-MRO{color:#F2C46B}:root:not([data-theme="light"]) .cat-APT{color:#F28DB8}:root:not([data-theme="light"]) .cat-REG{color:#B4C0D0}:root:not([data-theme="light"]) .cat-TUR{color:#8FD694}}
+:root[data-theme="dark"] .cat-FIN{color:#5BD1A4}:root[data-theme="dark"] .cat-STR{color:#86A6FF}:root[data-theme="dark"] .cat-CUS{color:#F4A06A}:root[data-theme="dark"] .cat-NET{color:#5CCFDE}:root[data-theme="dark"] .cat-FLT{color:#C59BF2}:root[data-theme="dark"] .cat-MRO{color:#F2C46B}:root[data-theme="dark"] .cat-APT{color:#F28DB8}:root[data-theme="dark"] .cat-REG{color:#B4C0D0}:root[data-theme="dark"] .cat-TUR{color:#8FD694}
 
 /* ---------- Front page ---------- */
 .front{position:relative}
@@ -211,6 +211,19 @@ main .wrap{padding-block:22px 64px}
 .lead .dek{font-size:16.5px}
 @media (max-width:760px){.lead article{display:block}.lead .fig{margin:0 0 12px}.lead .fig .frame{aspect-ratio:2/1}}
 .river .kicker,.seconds .kicker{font-size:12px}
+.briefs{margin:6px 0 8px}
+.briefs .bgroup{display:grid;grid-template-columns:150px 1fr;gap:4px 22px;padding:14px 0;border-top:1px solid var(--line)}
+.briefs .bgroup:first-child{border-top:0}
+.briefs .bgroup>.kicker{font-size:12px;align-self:start;padding-top:3px}
+.briefs ul{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.brief .bt{font-family:var(--f-head);font-weight:700;font-size:17px;line-height:1.3;margin:0}
+.brief .bt a{color:var(--ink);text-decoration:none}.brief .bt a:hover{text-decoration:underline}
+.brief .bt .ext{font-size:12px;color:var(--muted);margin-left:4px}
+.brief .bs{margin:3px 0 0;font-size:14px;color:var(--ink);max-width:80ch}
+.brief .byline{margin-top:5px}
+.brief .pay{font-family:var(--f-display);font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:11px;color:var(--muted);border:1px solid var(--line);border-radius:3px;padding:0 5px}
+.brief .vote{height:24px}
+@media (max-width:720px){.briefs .bgroup{grid-template-columns:1fr}}
 .river .hl{font-size:20px;line-height:1.2;margin:4px 0 6px}
 .river .dek{font-size:14.5px;line-height:1.5}
 .river .why{font-size:13px;margin-top:8px}
@@ -365,6 +378,10 @@ footer.foot{border-top:3px double var(--rule);padding-block:14px 30px;font-size:
     <button data-sec="CUS">Cliente</button>
     <button data-sec="NET">Red</button>
     <button data-sec="FLT">Flota</button>
+    <button data-sec="MRO">MRO y Motores</button>
+    <button data-sec="APT">Aeropuertos</button>
+    <button data-sec="REG">Regulación</button>
+    <button data-sec="TUR">Turismo</button>
     <span class="sep" aria-hidden="true"></span>
     <button class="tool" data-view="edicion">Próxima edición</button>
     <button class="tool" data-view="fuentes">Fuentes</button>
@@ -468,8 +485,9 @@ footer.foot{border-top:3px double var(--rule);padding-block:14px 30px;font-size:
 <script src="/shim.js"></script>
 <script>
 (function(){
-const CATS = {FIN:"Finanzas",STR:"Estrategia",CUS:"Cliente",NET:"Red",FLT:"Flota"};
-const CAT_DESC = {FIN:"Resultados, márgenes, costes y mercados.",STR:"Consolidación, alianzas y movimientos corporativos.",CUS:"Distribución, retail, fidelización e IA aplicada al cliente.",NET:"Rutas, hubs, acuerdos de código compartido y joint ventures.",FLT:"Pedidos, entregas y planes de flota."};
+const CATS = {FIN:"Finanzas",STR:"Estrategia",CUS:"Cliente",NET:"Red",FLT:"Flota",MRO:"MRO y Motores",APT:"Aeropuertos",REG:"Regulación",TUR:"Turismo"};
+const isBrief = n => n && n.kind === "brief";
+const CAT_DESC = {FIN:"Resultados, márgenes, costes y mercados.",STR:"Consolidación, alianzas y movimientos corporativos.",CUS:"Distribución, retail, fidelización e IA aplicada al cliente.",NET:"Rutas, hubs, acuerdos de código compartido y joint ventures.",FLT:"Pedidos, entregas y planes de flota.",MRO:"Mantenimiento, motores, talleres, leasing y cadena de suministro.",APT:"Aeropuertos, tasas, capacidad, obras y tráfico.",REG:"Regulación europea y nacional, slots, SAF y derechos de pasajeros.",TUR:"Turoperadores, hoteles y demanda de viajes ligados al transporte aéreo."};
 const MONTHS = ["ENE","FEB","MAR","ABR","MAY","JUN","JUL","AGO","SEP","OCT","NOV","DIC"];
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -627,7 +645,7 @@ function selection(){
   let fill = [];
   if(byVotes.length < min){
     const taken = new Set(byVotes.map(x => x.n.id));
-    fill = elig.filter(n => !taken.has(n.id) && net(n) >= 0)
+    fill = elig.filter(n => !taken.has(n.id) && net(n) >= 0 && !isBrief(n))
       .sort((a,b) => prio(b)-prio(a) || b.publishedAt.localeCompare(a.publishedAt))
       .slice(0, min - byVotes.length).map(n => ({n, origin:"ai", net:net(n)}));
   }
@@ -738,6 +756,27 @@ function story(n, t, inSel, opts){
   </article>`;
 }
 
+function briefRow(n, t, inSel, withCat){
+  return `<li class="brief">${withCat ? `<div style="margin-bottom:2px">${kicker(n)}</div>` : ""}
+    <p class="bt"><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a><span class="ext" aria-hidden="true">↗</span></p>
+    ${n.summary ? `<p class="bs">${esc(n.summary)}</p>` : ""}
+    <div class="byline"><span class="src">${esc(n.source)}</span>${n.paywall ? `<span class="pay">De pago</span>` : ""}<span class="date">${fmtDate(n.publishedAt)}</span>${statusTag(n,inSel)}${voteCtl(n,t)}</div>
+  </li>`;
+}
+// Breves grouped by day (newest first)
+function briefsByDay(items, t, inSel){
+  const days = [...new Set(items.map(n => n.publishedAt))].sort().reverse();
+  return `<div class="briefs">${days.map(d => `<div class="bgroup"><span class="kicker" style="color:var(--muted)">${d === todayISO() ? "Hoy" : esc(fmtDate(d))}</span><ul>${items.filter(n => n.publishedAt === d).map(n => briefRow(n,t,inSel,true)).join("")}</ul></div>`).join("")}</div>`;
+}
+// Breves grouped by section, in the menu's order
+function briefsHTML(items, t, inSel, grouped){
+  if(!items.length) return "";
+  if(!grouped) return `<div class="briefs"><div class="bgroup" style="grid-template-columns:1fr"><ul>${items.map(n => briefRow(n,t,inSel)).join("")}</ul></div></div>`;
+  const order = Object.keys(CATS);
+  const groups = order.map(k => [k, items.filter(n => n.category === k)]).filter(([,l]) => l.length);
+  return `<div class="briefs">${groups.map(([k,l]) => `<div class="bgroup">${kicker({category:k})}<ul>${l.map(n => briefRow(n,t,inSel)).join("")}</ul></div>`).join("")}</div>`;
+}
+
 /* ---------- Portal ---------- */
 function renderPortal(){
   const box = $("#portal");
@@ -762,7 +801,10 @@ function renderPortal(){
   const byVotes = (a,b) => net(b)-net(a) || prio(b)-prio(a) || recent(a,b);
   const byRelevance = (a,b) => prio(b)-prio(a) || recent(a,b);
   const CMP = {recent, votes: byVotes, relevant: byRelevance};
-  const listHTML = items => `<div class="river cards">${items.map(n => story(n,t,inSel,{why:true})).join("")}</div>`;
+  const listHTML = items => {
+    const full = items.filter(n => !isBrief(n)), br = items.filter(isBrief);
+    return `${full.length ? `<div class="river cards">${full.map(n => story(n,t,inSel,{why:true})).join("")}</div>` : ""}${br.length ? `<div class="morehead"><h2>Breves</h2><span class="mh-note">${br.length} ${br.length===1?"breve":"breves"} · el enlace lleva a la noticia original</span></div>${briefsHTML(br,t,inSel,false)}` : ""}`;
+  };
 
   if(state.q){
     const all = state.news.filter(n => isValid(n) && inRange(n));
@@ -775,7 +817,14 @@ function renderPortal(){
 
   if(state.section !== "ALL"){
     const mode = state.sort === "front" ? "recent" : state.sort;
-    const items = valid.filter(n => n.category === state.section).sort(CMP[mode]);
+    const inSec = valid.filter(n => n.category === state.section);
+    if(mode === "briefs"){
+      const br = inSec.filter(isBrief).sort(recent);
+      box.innerHTML = `<div class="sectionhead"><h2>${esc(CATS[state.section])}</h2><p>${esc(CAT_DESC[state.section]||"")} ${br.length} ${br.length===1?"breve":"breves"}${ranged ? " " + esc(rangeTxt) : ""}.</p></div>
+        ${sortBar(mode, false)}${br.length ? briefsByDay(br,t,inSel) : `<div class="empty">Todavía no hay breves en esta sección.</div>`}`;
+      return;
+    }
+    const items = inSec.filter(n => !isBrief(n)).sort(CMP[mode]);
     box.innerHTML = `<div class="sectionhead"><h2>${esc(CATS[state.section])}</h2><p>${esc(CAT_DESC[state.section]||"")} ${items.length} ${items.length===1?"noticia":"noticias"}${ranged ? " " + esc(rangeTxt) : ""}.</p></div>
       ${sortBar(mode, false)}
       ${items.length ? listHTML(items) : `<div class="empty">Todavía no hay noticias en esta sección.</div>`}`;
@@ -783,19 +832,22 @@ function renderPortal(){
   }
   if(state.sort !== "front" || ranged){
     const mode = state.sort === "front" ? "recent" : state.sort;
-    box.innerHTML = `${ranged ? `<div class="searchhead"><h2>Noticias ${esc(rangeTxt)}</h2><p>${valid.length} ${valid.length===1?"noticia":"noticias"} en este rango de fechas.</p></div>` : ""}${sortBar(mode, !ranged)}${listHTML(valid.slice().sort(CMP[mode]))}`;
+    const list = mode === "briefs" ? valid.filter(isBrief).sort(recent) : valid.filter(n => !isBrief(n)).sort(CMP[mode]);
+    const body = mode === "briefs" ? (list.length ? briefsByDay(list,t,inSel) : `<div class="empty">Todavía no hay breves${ranged ? " en estas fechas" : ""}.</div>`) : listHTML(list);
+    box.innerHTML = `${ranged ? `<div class="searchhead"><h2>${mode === "briefs" ? "Breves" : "Noticias"} ${esc(rangeTxt)}</h2><p>${list.length} ${mode === "briefs" ? (list.length===1?"breve":"breves") : (list.length===1?"noticia":"noticias")} en este rango de fechas.</p></div>` : ""}${sortBar(mode, !ranged)}${body}`;
     equalizeCards();
     return;
   }
 
   // Front page: lead = most relevant recent story (votes first, then AI relevance)
   const cutoff = addDays(todayISO(), -10);
-  const pool = valid.filter(n => n.publishedAt >= cutoff);
+  const full = valid.filter(n => !isBrief(n));
+  const pool = full.filter(n => n.publishedAt >= cutoff);
   const rankFront = (a,b) => (net(b)*10 + prio(b)) - (net(a)*10 + prio(a)) || recent(a,b);
-  const front = (pool.length >= 3 ? pool : valid).slice().sort(rankFront);
+  const front = (pool.length >= 3 ? pool : full).slice().sort(rankFront);
   const top4 = front.slice(0,4);
   const used = new Set(top4.map(n => n.id));
-  const rest = valid.filter(n => !used.has(n.id)).sort(recent);
+  const rest = full.filter(n => !used.has(n.id)).sort(recent);
   // "Lo más votado de la semana": same weekly cycle as the newsletter (the news eligible for the next edition).
   // News published from the last SCHEDULED send day (Monday) to the Sunday after it, whatever has been marked as sent.
   // Votes first, then AI priority; up to 5.
@@ -916,10 +968,11 @@ const SORTS = {
   front:    ["Portada", "La portada del diario: las noticias destacadas y el resto, de más reciente a más antigua."],
   recent:   ["Más recientes", "Ordenadas por fecha de publicación, de la más nueva a la más antigua."],
   votes:    ["Más votadas", "Ordenadas por likes del equipo; a igualdad de likes, por relevancia."],
+  briefs:   ["Breves", "Noticias breves: titular, una línea de resumen y enlace a la noticia original, de la más reciente a la más antigua."],
   relevant: ["Más relevantes", "Criterio editorial de The Airlines Brief: primero lo que afecta directamente a IAG, después lo que le afecta indirectamente, después Europa y después el resto; dentro de cada nivel, por importancia de la noticia."]
 };
 function sortBar(mode, withFront){
-  const keys = withFront ? ["front","recent","votes","relevant"] : ["recent","votes","relevant"];
+  const keys = withFront ? ["front","recent","votes","relevant","briefs"] : ["recent","votes","relevant","briefs"];
   return `<div class="sortbar" role="group" aria-label="Ordenar noticias"><span class="sb-k">Ordenar</span><div class="sb-opts">${keys.map(k => `<button type="button" data-sort="${k}" aria-pressed="${k===mode}">${SORTS[k][0]}</button>`).join("")}</div><p class="sb-note">${esc(SORTS[mode][1])}</p></div>`;
 }
 document.addEventListener("click", e => {
@@ -1172,7 +1225,19 @@ function renderArticle(){
   const n = state.news.find(x => x.id === state.articleId);
   if(!n){ box.innerHTML = `<div class="empty"><p>No encontramos esta noticia; puede que ya no esté en el portal.</p><button type="button" class="btn ghost" data-sec="ALL">Ir a la portada</button></div>`; return; }
   const sel = selection(), t = sel.t, inSel = new Map(sel.items.map(x => [x.n.id, x.origin]));
-  const related = state.news.filter(x => isValid(x) && x.id !== n.id && x.category === n.category).sort((a,b) => b.publishedAt.localeCompare(a.publishedAt)).slice(0,3);
+  if(isBrief(n)){
+    box.innerHTML = `<article class="art-page">
+      <button type="button" class="back" data-goback>${esc(state.backLabel || "← Portada")}</button>
+      ${kicker(n)}
+      <h1 class="hl art-hl">${esc(n.title)}</h1>
+      ${n.summary ? `<p class="dek art-dek">${esc(n.summary)}</p>` : ""}
+      ${byline(n,t,inSel)}
+      <p style="margin:18px 0"><a class="btn" href="${esc(n.url)}" target="_blank" rel="noopener">Leer en ${esc(n.source)} ↗</a></p>
+      <p class="art-note">Breve: resumen de The Airlines Brief con enlace a la noticia original${n.paywall ? " (de pago)" : ""}.</p>
+    </article>`;
+    return;
+  }
+  const related = state.news.filter(x => isValid(x) && x.id !== n.id && x.category === n.category && !isBrief(x)).sort((a,b) => b.publishedAt.localeCompare(a.publishedAt)).slice(0,3);
   box.innerHTML = `<article class="art-page">
     <button type="button" class="back" data-goback>${esc(state.backLabel || "← Portada")}</button>
     ${kicker(n)}
