@@ -5547,5 +5547,473 @@
    "label": "Contrataciones de pilotos ofrecidas hasta 2033",
    "sub": "Subidas salariales solo desde 2029"
   }
+ },
+ {
+  "id": "lufthansa-flota-corto-radio-100-aviones",
+  "title": "Lufthansa plantea recortar su flota de corto y medio radio de unos 176 a unos 100 aviones",
+  "category": "STR",
+  "publishedAt": "2026-11-18",
+  "source": "Travel Extra",
+  "url": "https://www.travelextra.ie/lufthansa-proposes-to-cut-european-short-haul-fleet-from-176-to-100/",
+  "summary": "Lufthansa plantea reducir hasta 2030 la flota de corto y medio radio de Lufthansa Airlines de unos 176 aviones a unos 100 si no rebaja costes con sus pilotos, según Süddeutsche Zeitung. Entre 15 y 20 aviones quedarían en tierra desde este invierno, según Travel Extra.",
+  "body": [
+   {
+    "t": "Lufthansa plantea reducir con fuerza hasta 2030 la flota de corto y medio radio de su marca principal, Lufthansa Airlines, según la revista de prensa de Dow Jones, que cita al diario Süddeutsche Zeitung, y según Travel Extra, ambos publicados el 18 de noviembre. De los unos 176 aviones que opera hoy quedarían unos 100.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Según Dow Jones, el consejero delegado, Carsten Spohr, vincula el recorte a la negociación con el sindicato de pilotos Vereinigung Cockpit (VC): la aerolínea solo operaría unos 100 aviones de la familia Airbus A320 si no consigue rebajar costes en esas conversaciones. La flota de largo radio crecería ligeramente.",
+    "s": [
+     2
+    ]
+   },
+   {
+    "t": "Travel Extra detalla que hasta 76 de los 176 aviones podrían salir de la flota y que entre 15 y 20 quedarían en tierra desde la temporada de invierno 2026/2027. Las rutas y la capacidad recortadas se compensarían con las filiales Lufthansa City Airlines, Eurowings y Discover Airlines, y el plan de flota a 2030 está pendiente de la aprobación del consejo de supervisión.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Según el mismo medio, el grupo encargaría más aviones de largo radio, entre ellos Airbus A350-1000 y Boeing 777X, y reacondicionaría 38 Airbus A320 hasta 2029. Travel Extra atribuye el plan a los altos costes operativos y al conflicto sin resolver con los pilotos.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El 17 de noviembre, Lufthansa presentó a VC una oferta con hasta 1.000 contrataciones hasta finales de 2033 a cambio de contención salarial temporal, y el sindicato le ha dado de plazo hasta el 23 de noviembre para reconsiderar su posición.",
+    "s": [
+     3
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Travel Extra",
+    "url": "https://www.travelextra.ie/lufthansa-proposes-to-cut-european-short-haul-fleet-from-176-to-100/",
+    "date": "2026-11-18"
+   },
+   {
+    "name": "MarketScreener (Dow Jones)",
+    "url": "https://ch.marketscreener.com/boerse-nachrichten/pressespiegel-unternehmen-ce785edcd189f72d",
+    "date": "2026-11-18"
+   },
+   {
+    "name": "MarketScreener (Dow Jones)",
+    "url": "https://ch.marketscreener.com/boerse-nachrichten/lufthansa-versucht-wieder-mit-seinen-piloten-ins-gespraech-zu-kommen-gewerkschaft-verschaerft-den-to-ce785edfd088f227",
+    "date": "2026-11-17"
+   }
+  ],
+  "why": "El principal rival europeo de IAG desplazaría capacidad de su marca principal a filiales de menor coste y al largo radio, lo que puede alterar la oferta en el corto radio europeo y endurece el pulso con sus pilotos.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 76,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/96acedab-d68f-4698-a2ca-2b3b512fce5f.jpeg",
+  "photoSource": "Frankfurtflyer.de",
+  "art": {
+   "kind": "big",
+   "value": "176→100",
+   "label": "Aviones de corto y medio radio de Lufthansa Airlines hasta 2030",
+   "sub": "Entre 15 y 20 en tierra desde este invierno"
+  },
+  "imageId": "lufthansa-flota-corto-radio-100-aviones",
+  "addedAt": "2026-11-18T08:40:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "jet2-h1-2026-recorte-invierno",
+  "title": "Jet2 gana un 19% menos en el semestre y recorta 240.000 plazas de invierno por el queroseno",
+  "category": "FIN",
+  "publishedAt": "2026-11-18",
+  "source": "Travel Weekly",
+  "url": "https://travelweekly.co.uk/news/jet2-acts-decisively-to-cut-winter-capacity-by-240000-seats",
+  "summary": "Jet2 elevó un 5% sus ingresos del semestre, hasta 5.630 millones de libras, pero su beneficio antes de impuestos cayó un 19%, hasta 652,2 millones. Ha recortado 240.000 plazas de su programa de invierno por el queroseno y no da previsión anual.",
+  "body": [
+   {
+    "t": "Jet2 publicó el 18 de noviembre los resultados del primer semestre de su ejercicio, cerrado el 30 de septiembre: los ingresos subieron un 5%, hasta 5.630 millones de libras, y el beneficio antes de impuestos cayó un 19%, hasta 652,2 millones, frente a 800,3 millones un año antes.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El beneficio operativo bajó un 18%, hasta 588,3 millones de libras. La compañía transportó un récord de 15,4 millones de pasajeros, un 9% más, con una ocupación del 89,7%, mientras que el rendimiento medio por billete y trayecto cayó un 14%, hasta 104,82 libras.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Desde principios de septiembre, Jet2 ha recortado 240.000 plazas de su programa de invierno 2026-27 por los elevados precios a plazo del queroseno no cubierto. Su capacidad de invierno queda en 5,7 millones de plazas, un 3,8% más que el invierno anterior, pero un 3,6% menos sin contar Gatwick. Tiene cubierto el 91% del combustible del invierno a una media de 880 dólares por tonelada, un 38% por debajo del precio al contado.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La empresa no da previsión de beneficio anual: su consejero delegado, Steve Heapy, considera «prematuro» hacerlo y dará una actualización con los resultados del tercer trimestre, en febrero de 2027. Para el verano de 2027 planea 21 millones de plazas, un 5% más, con un crecimiento del 40% en Gatwick, y tiene cubierto el 50% del combustible a 837 dólares por tonelada.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Heapy criticó los avances del SAF en Reino Unido y afirmó que los clientes afrontarán subidas de costes «desproporcionadas» y que se les pedirá «pagar por un combustible que no existe». Jet2 mantiene el dividendo a cuenta en 4,5 peniques por acción y su caja neta subió un 5%, hasta 2.180 millones de libras.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Travel Weekly",
+    "url": "https://travelweekly.co.uk/news/jet2-acts-decisively-to-cut-winter-capacity-by-240000-seats",
+    "date": "2026-11-18"
+   },
+   {
+    "name": "Investing.com",
+    "url": "https://ca.investing.com/news/earnings/jet2-cuts-winter-seat-capacity-as-fuel-costs-bite-firsthalf-profit-falls-18-4965950",
+    "date": "2026-11-18"
+   }
+  ],
+  "why": "Jet2, rival de British Airways en el ocio británico, frena su invierno por el queroseno pese a crecer en Gatwick y bajar tarifas: señal de que el combustible sigue limitando la capacidad en Reino Unido.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 70,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/3ad20eec-4039-4f33-a132-d242631b325a.jpeg",
+  "photoSource": "AirlineGeeks (Shutterstock)",
+  "art": {
+   "kind": "bars",
+   "title": "Beneficio antes de impuestos del 1S (M£)",
+   "bars": [
+    {
+     "l": "1S 2025",
+     "v": 800.3,
+     "t": "800,3"
+    },
+    {
+     "l": "1S 2026",
+     "v": 652.2,
+     "t": "652,2"
+    }
+   ]
+  },
+  "imageId": "jet2-h1-2026-recorte-invierno",
+  "addedAt": "2026-11-18T08:40:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "ryanair-sevilla-taller-motores-500m",
+  "title": "Ryanair elige Sevilla para su primer taller de motores, con 500 M€ y más de 600 empleos",
+  "category": "STR",
+  "publishedAt": "2026-11-17",
+  "source": "Aviacionline",
+  "url": "https://www.aviacionline.com/espanol/aviacion-comercial/espana/ryanair-invertira-500-millones-de-euros-en-un-taller-de-motores-cfm56-7b-y-leap-1b-en-sevilla_a6afc8da542fa9d9e6e3ad2e2",
+  "summary": "Ryanair instalará en el Puerto de Sevilla su primer taller de revisión de motores CFM56-7B y LEAP-1B, con una inversión de 500 millones de euros y más de 600 empleos. Las obras empezarán a principios de 2027 y la apertura está prevista para 2029.",
+  "body": [
+   {
+    "t": "Ryanair ha elegido el Puerto de Sevilla para instalar su primer centro de mantenimiento, reparación y revisión general de motores, tras una licitación entre varias ubicaciones europeas, según Aviacionline y Travel Extra. La inversión será de 500 millones de euros y creará más de 600 empleos en Andalucía.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El taller ocupará 28.000 m² y atenderá motores CFM56-7B, de los Boeing 737-800, y LEAP-1B, de la familia 737 MAX. Las obras empezarán a principios de 2027 y la apertura está prevista para 2029.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Ryanair confirmará en 2027 dónde instalará un segundo taller; entre ambos podrán hacer hasta 400 revisiones de motores al año para una flota de hasta 2.000 motores, cifra que la aerolínea espera alcanzar en su ejercicio fiscal 2034, cuando prevé operar 800 aviones y transportar 300 millones de pasajeros. También abrirá una Academia de Ingeniería en Sevilla.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Según Travel Extra, Sevilla se impuso a otras 12 ciudades europeas, con Polonia y Belfast como finalistas; el Gobierno de Stormont llegó a ofrecer 67 millones de libras. Hosteltur informó de que la Junta de Andalucía confirmó la elección y de ayudas públicas de 41 millones de euros, con 16 millones del Gobierno central y el resto de la Junta.",
+    "s": [
+     2,
+     3
+    ]
+   },
+   {
+    "t": "El consejero de Universidad, Industria, Energía e Innovación de la Junta, Jorge Paradela, la calificó como «una de las mayores inversiones industriales en la región en los últimos años». Ryanair ya opera en Sevilla un centro de mantenimiento pesado desde 2019 y tiene otro de siete bahías en Madrid-Barajas.",
+    "s": [
+     3,
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Aviacionline",
+    "url": "https://www.aviacionline.com/espanol/aviacion-comercial/espana/ryanair-invertira-500-millones-de-euros-en-un-taller-de-motores-cfm56-7b-y-leap-1b-en-sevilla_a6afc8da542fa9d9e6e3ad2e2",
+    "date": "2026-11-17"
+   },
+   {
+    "name": "Travel Extra",
+    "url": "https://www.travelextra.ie/seville-beats-belfast-in-race-for-historic-ryanair-engine-mro/",
+    "date": "2026-11-18"
+   },
+   {
+    "name": "Hosteltur",
+    "url": "https://www.hosteltur.com/180004_ryanair-se-decanta-por-sevilla-para-instalar-su-centro-de-reparacion-de-motores-con-una-inversion-de-500-m-eur.html",
+    "date": "2026-11-16"
+   }
+  ],
+  "why": "Ryanair, gran rival de Iberia y Vueling en España, internaliza un mantenimiento de motores escaso en el mercado y ancla en el país su base industrial, lo que le da más control sobre costes y disponibilidad de flota.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 62,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/3b02f59e-40e7-47ba-8e4a-ff1de075869e.jpeg",
+  "photoSource": "Hosteltur",
+  "art": {
+   "kind": "big",
+   "value": "500 M€",
+   "label": "Inversión de Ryanair en su taller de motores de Sevilla",
+   "sub": "Más de 600 empleos; apertura en 2029"
+  },
+  "imageId": "ryanair-sevilla-taller-motores-500m",
+  "addedAt": "2026-11-18T08:40:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "easa-oriente-medio-avisos-enero-2027",
+  "title": "EASA prorroga hasta el 31 de enero sus avisos de riesgo para volar sobre Oriente Medio",
+  "category": "NET",
+  "publishedAt": "2026-11-17",
+  "source": "Hosteltur",
+  "url": "https://www.hosteltur.com/180041_easa-prolonga-hasta-enero-sus-advertencias-sobre-el-espacio-aereo-de-oriente-medio.html",
+  "summary": "EASA ha prorrogado hasta el 31 de enero de 2027 seis avisos de riesgo sobre Oriente Medio y hasta el 30 de abril el de Siria. Recomienda no volar a ninguna altitud sobre Irán e Irak y evitar las aguas del Golfo salvo para operar en sus aeropuertos.",
+  "body": [
+   {
+    "t": "La Agencia de Seguridad Aérea de la Unión Europea (EASA) ha prorrogado hasta el 31 de enero de 2027 seis boletines de información sobre zonas de conflicto (CZIB) de Oriente Medio, según Hosteltur. La revisión está fechada el 16 de noviembre, y el aviso sobre Siria se extiende hasta el 30 de abril de 2027, sin cambios en sus recomendaciones.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "EASA recomienda no volar a ninguna altitud en las regiones de información de vuelo de Teherán (Irán) y Bagdad (Irak), y no operar en determinados sectores gestionados desde Yeda, en Arabia Saudí. En el Golfo Pérsico aconseja evitar los vuelos sobre las aguas de las regiones aéreas de Baréin, Kuwait, Catar y Emiratos Árabes Unidos, salvo los imprescindibles para llegar o salir de sus aeropuertos.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Para el Líbano recomienda evitar el espacio aéreo, salvo las llegadas y salidas de Beirut con maniobras sobre el mar y una evaluación de riesgos actualizada. En Jordania no hay suspensión general, pero pide precaución y preparación ante un posible deterioro rápido de la seguridad. Los riesgos citados son misiles, drones, defensas antiaéreas y posibles errores de identificación.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Hosteltur subraya que la prórroga «no equivale por sí sola a nuevas cancelaciones de vuelos» y que las fechas pueden volver a revisarse antes de su vencimiento.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Hosteltur",
+    "url": "https://www.hosteltur.com/180041_easa-prolonga-hasta-enero-sus-advertencias-sobre-el-espacio-aereo-de-oriente-medio.html",
+    "date": "2026-11-17"
+   }
+  ],
+  "why": "Prolonga al menos hasta finales de enero las restricciones para las aerolíneas europeas, también las de IAG, en sus vuelos hacia y sobre el Golfo, y condiciona la planificación de rutas y desvíos del invierno.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 58,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/d3a154e4-48c5-4be5-b9ba-45ac2fe6636e.jpeg",
+  "photoSource": "Hosteltur (Adobe Stock)",
+  "art": {
+   "kind": "big",
+   "value": "31-ene",
+   "label": "Nueva fecha límite de seis avisos de EASA sobre Oriente Medio",
+   "sub": "Siria, hasta el 30 de abril de 2027"
+  },
+  "imageId": "easa-oriente-medio-avisos-enero-2027",
+  "addedAt": "2026-11-18T08:40:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "iag-cargo-qatar-maskargo-300-destinos",
+  "title": "IAG Cargo, Qatar Airways Cargo y MASkargo llevan su negocio conjunto de carga a 300 destinos",
+  "category": "NET",
+  "publishedAt": "2026-11-17",
+  "source": "Air Cargo News",
+  "url": "https://www.aircargonews.net/airlines/2026/11/qatar-iag-and-maskargo-partnership-hits-300-destinations/",
+  "summary": "Qatar Airways Cargo, IAG Cargo y MASkargo han ampliado su negocio conjunto de carga a más de 300 destinos en más de 60 países, con siete aerolíneas, seis hubs y más de 1.000 aviones. Su objetivo es superar los 400 destinos en seis continentes.",
+  "body": [
+   {
+    "t": "Qatar Airways Cargo, IAG Cargo y MASkargo anunciaron el 17 de noviembre en Doha que su negocio conjunto global de carga cubre ya más de 300 destinos en más de 60 países. Los clientes pueden reservar envíos en las plataformas en línea de cualquiera de las tres compañías.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La alianza reúne siete aerolíneas, seis hubs globales, más de 1.000 aviones y más de 35 cargueros, y aspira a superar los 400 destinos en seis continentes a medida que se amplíe.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Las tres compañías anunciaron el negocio conjunto en 2025 y, tras obtener las aprobaciones regulatorias, lanzaron las primeras conexiones a comienzos de 2026. En septiembre completaron el primer envío de un cliente transportado por las tres.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "«El verdadero valor de este negocio conjunto es lo que permite hacer a nuestros clientes», afirmó David Shepherd, consejero delegado de IAG Cargo. Mark Drusch, director de carga de Qatar Airways, y Mark Jason Thomas, consejero delegado de MASkargo, destacaron la mayor oferta de red y la facilidad para mover la carga de los clientes.",
+    "s": [
+     2,
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Air Cargo News",
+    "url": "https://www.aircargonews.net/airlines/2026/11/qatar-iag-and-maskargo-partnership-hits-300-destinations/",
+    "date": "2026-11-17"
+   },
+   {
+    "name": "STAT Times",
+    "url": "https://www.stattimes.com/aviation/cargo-joint-business-now-bookable-across-300-destinations-1361320",
+    "date": "2026-11-17"
+   }
+  ],
+  "why": "Amplía, sin invertir en flota propia, la red que IAG Cargo puede vender a sus clientes, apoyándose en los hubs y cargueros de Qatar Airways y MASkargo, y refuerza la carga como negocio de red global del grupo.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 50,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/bfcb5d7b-5dec-45c2-8b33-b88b246fd937.jpeg",
+  "photoSource": "Air Cargo News (Qatar Airways Cargo)",
+  "art": {
+   "kind": "big",
+   "value": "300+",
+   "label": "Destinos del negocio conjunto de carga",
+   "sub": "Objetivo: más de 400"
+  },
+  "imageId": "iag-cargo-qatar-maskargo-300-destinos",
+  "addedAt": "2026-11-18T08:40:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "eeuu-acuerdo-ads-b-in-congreso",
+  "title": "EE. UU. pacta exigir ADS-B In a los aviones comerciales tras la colisión de Washington de 2025",
+  "category": "STR",
+  "publishedAt": "2026-11-17",
+  "source": "AeroTime",
+  "url": "https://www.aerotime.aero/articles/us-lawmakers-aviation-safety-deal-ads-b-in",
+  "summary": "Legisladores de EE. UU. han pactado exigir equipos ADS-B In a las aeronaves que ya deben llevar ADS-B Out, incluidos los aviones comerciales. El acuerdo, nacido tras la colisión de Washington de enero de 2025, aún debe aprobarlo el Congreso.",
+  "body": [
+   {
+    "t": "Legisladores de EE. UU. alcanzaron el 17 de noviembre un «acuerdo de principio» para exigir que las aeronaves civiles ya sujetas a las normas de ADS-B Out lleven también equipos ADS-B In, que ayudan a los pilotos a identificar el tráfico cercano, según AeroTime. Afecta a aviones comerciales, de negocios y de aviación general que operen en el espacio aéreo donde el ADS-B Out es obligatorio.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "No es un requisito general: una avioneta antigua o un globo que vuelen legalmente sin ADS-B Out no tendrían que llevar ADS-B In, y los requisitos para las aeronaves militares siguen sin resolverse. El acuerdo aún necesita la aprobación del Congreso, porque la Cámara y el Senado han aprobado proyectos de seguridad distintos y deben negociar un texto común.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El proyecto ROTOR, aprobado por el Senado, fija como plazo de equipamiento el 31 de diciembre de 2031 y prevé alternativas más baratas, como receptores portátiles, para aeronaves de menos de 12.500 libras de peso máximo al despegue que operan bajo la Parte 91; la FAA decidiría qué equipos son válidos. El senador republicano Ted Cruz espera que el Congreso apruebe la ley antes de fin de año.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El acuerdo se anunció en un acto organizado por familias de víctimas de la colisión del 29 de enero de 2025 entre el vuelo 5342 de American Airlines, un CRJ700 operado por PSA Airlines, y un helicóptero Black Hawk del Ejército, que causó la muerte de las 64 personas del avión y de los tres tripulantes del helicóptero. Una simulación de la NTSB concluyó que una alerta basada en ADS-B podría haber avisado a la tripulación 59 segundos antes del impacto.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "AeroTime",
+    "url": "https://www.aerotime.aero/articles/us-lawmakers-aviation-safety-deal-ads-b-in",
+    "date": "2026-11-17"
+   }
+  ],
+  "why": "Añade un equipamiento obligatorio para las flotas sujetas al ADS-B Out en EE. UU., con un plazo que el proyecto del Senado fija en 2031, y es la principal respuesta legislativa a la colisión de Washington.",
+  "aiScore": 52,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/41767872-1bfe-4d57-96d7-6a7401cd6f38.jpeg",
+  "photoSource": "AeroTime (Shutterstock)",
+  "art": {
+   "kind": "big",
+   "value": "2031",
+   "label": "Plazo de equipamiento ADS-B In del proyecto ROTOR del Senado",
+   "sub": "Acuerdo de principio del 17 de noviembre"
+  },
+  "imageId": "eeuu-acuerdo-ads-b-in-congreso",
+  "addedAt": "2026-11-18T08:40:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "aapa-tasas-combustible-asia-pacifico",
+  "title": "Las aerolíneas de Asia-Pacífico piden revisar tasas e impuestos con el queroseno a 186 dólares",
+  "category": "STR",
+  "publishedAt": "2026-11-17",
+  "source": "AeroTime",
+  "url": "https://www.aerotime.aero/articles/aapa-urges-governments-to-rethink-airline-taxes-fees-amid-soaring-fuel-costs",
+  "summary": "La AAPA pide a los gobiernos de Asia-Pacífico revisar las tasas de salida, aterrizaje y estacionamiento y apoyar a las aerolíneas ante el queroseno, que cotizó a unos 186 dólares por barril en octubre. El combustible ya supone cerca del 33% de sus costes.",
+  "body": [
+   {
+    "t": "La Asociación de Aerolíneas de Asia-Pacífico (AAPA) ha pedido a los gobiernos que comparen sus impuestos y tasas a las aerolíneas, como las de salida, aterrizaje o estacionamiento, con los de los países vecinos y comprueben si son razonables, y que apoyen a las compañías ante el alza del combustible, según AeroTime. Las peticiones salieron de su 70.ª Asamblea de Presidentes, que se cerró el 13 de noviembre en Kuala Lumpur con Malaysia Airlines como anfitriona y más de 170 delegados.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El queroseno cotizó en torno a 186 dólares por barril en octubre de 2026, frente a 80–110 dólares en años recientes, y el combustible supone alrededor del 33% de los costes operativos de las aerolíneas. El tráfico de pasajeros de las aerolíneas de Asia-Pacífico creció un 1,9% en los nueve primeros meses de 2026, con una ocupación media récord del 83%.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "«Seamos francos. Un avión lleno no se traduce necesariamente en una cuenta de resultados sana», afirmó el director general de AAPA, Wong Hong, que pidió a los gobiernos ver a las aerolíneas como motor de crecimiento y no como fuente de ingresos: «Si los gobiernos ven a las aerolíneas como una fuente de ingresos, el punto de partida es totalmente distinto».",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La asamblea adoptó ocho principios sobre el combustible sostenible (SAF), entre ellos incentivos a la producción junto a los mandatos y la aceptación del sistema book-and-claim dentro de una región, y reafirmó el objetivo de un 5% de SAF en 2030. Según Mark Watts, de Cathay Pacific, la producción de SAF equivaldrá a cerca del 0,8% del consumo mundial de queroseno a finales de 2026.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "AeroTime",
+    "url": "https://www.aerotime.aero/articles/aapa-urges-governments-to-rethink-airline-taxes-fees-amid-soaring-fuel-costs",
+    "date": "2026-11-17"
+   }
+  ],
+  "why": "Muestra que la presión del queroseno y el choque con los gobiernos por tasas y mandatos de SAF son globales: el mismo debate que las aerolíneas europeas, IAG incluida, mantienen con Bruselas y Londres.",
+  "aiScore": 45,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/4c2a3679-3630-4511-aae9-c5374397f4d5.jpeg",
+  "photoSource": "AirlineGeeks (Malaysia Airlines)",
+  "art": {
+   "kind": "big",
+   "value": "186 $",
+   "label": "Precio del barril de queroseno en octubre de 2026",
+   "sub": "El combustible, cerca del 33% de los costes"
+  },
+  "imageId": "aapa-tasas-combustible-asia-pacifico",
+  "addedAt": "2026-11-18T08:40:00Z",
+  "addedBy": "claude"
  }
 ]
