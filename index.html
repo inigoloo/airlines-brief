@@ -803,7 +803,7 @@ function renderPortal(){
   const CMP = {recent, votes: byVotes, relevant: byRelevance};
   const listHTML = items => {
     const full = items.filter(n => !isBrief(n)), br = items.filter(isBrief);
-    return `${full.length ? `<div class="river cards">${full.map(n => story(n,t,inSel,{why:true})).join("")}</div>` : ""}${br.length ? `<div class="morehead"><h2>Breves</h2><span class="mh-note">${br.length} ${br.length===1?"breve":"breves"} · el enlace lleva a la noticia original</span></div>${briefsHTML(br,t,inSel,false)}` : ""}`;
+    return `${full.length ? `<div class="river cards">${full.map(n => story(n,t,inSel,{why:true})).join("")}</div>` : ""}${br.length ? `<div class="morehead"><h2>Fuera de portada</h2><span class="mh-note">${br.length} ${br.length===1?"noticia":"noticias"} · el enlace lleva a la noticia original</span></div>${briefsHTML(br,t,inSel,false)}` : ""}`;
   };
 
   if(state.q){
@@ -820,8 +820,8 @@ function renderPortal(){
     const inSec = valid.filter(n => n.category === state.section);
     if(mode === "briefs"){
       const br = inSec.filter(isBrief).sort(recent);
-      box.innerHTML = `<div class="sectionhead"><h2>${esc(CATS[state.section])}</h2><p>${esc(CAT_DESC[state.section]||"")} ${br.length} ${br.length===1?"breve":"breves"}${ranged ? " " + esc(rangeTxt) : ""}.</p></div>
-        ${sortBar(mode, false)}${br.length ? briefsByDay(br,t,inSel) : `<div class="empty">Todavía no hay breves en esta sección.</div>`}`;
+      box.innerHTML = `<div class="sectionhead"><h2>${esc(CATS[state.section])}</h2><p>${esc(CAT_DESC[state.section]||"")} ${br.length} ${br.length===1?"noticia fuera de portada":"noticias fuera de portada"}${ranged ? " " + esc(rangeTxt) : ""}.</p></div>
+        ${sortBar(mode, false)}${br.length ? briefsByDay(br,t,inSel) : `<div class="empty">Todavía no hay noticias fuera de portada en esta sección.</div>`}`;
       return;
     }
     const items = inSec.filter(n => !isBrief(n)).sort(CMP[mode]);
@@ -833,8 +833,8 @@ function renderPortal(){
   if(state.sort !== "front" || ranged){
     const mode = state.sort === "front" ? "recent" : state.sort;
     const list = mode === "briefs" ? valid.filter(isBrief).sort(recent) : valid.filter(n => !isBrief(n)).sort(CMP[mode]);
-    const body = mode === "briefs" ? (list.length ? briefsByDay(list,t,inSel) : `<div class="empty">Todavía no hay breves${ranged ? " en estas fechas" : ""}.</div>`) : listHTML(list);
-    box.innerHTML = `${ranged ? `<div class="searchhead"><h2>${mode === "briefs" ? "Breves" : "Noticias"} ${esc(rangeTxt)}</h2><p>${list.length} ${mode === "briefs" ? (list.length===1?"breve":"breves") : (list.length===1?"noticia":"noticias")} en este rango de fechas.</p></div>` : ""}${sortBar(mode, !ranged)}${body}`;
+    const body = mode === "briefs" ? (list.length ? briefsByDay(list,t,inSel) : `<div class="empty">Todavía no hay noticias fuera de portada${ranged ? " en estas fechas" : ""}.</div>`) : listHTML(list);
+    box.innerHTML = `${ranged ? `<div class="searchhead"><h2>${mode === "briefs" ? "Fuera de portada" : "Noticias"} ${esc(rangeTxt)}</h2><p>${list.length} ${mode === "briefs" ? (list.length===1?"noticia fuera de portada":"noticias fuera de portada") : (list.length===1?"noticia":"noticias")} en este rango de fechas.</p></div>` : ""}${sortBar(mode, !ranged)}${body}`;
     equalizeCards();
     return;
   }
@@ -968,7 +968,7 @@ const SORTS = {
   front:    ["Portada", "La portada del diario: las noticias destacadas y el resto, de más reciente a más antigua."],
   recent:   ["Más recientes", "Ordenadas por fecha de publicación, de la más nueva a la más antigua."],
   votes:    ["Más votadas", "Ordenadas por likes del equipo; a igualdad de likes, por relevancia."],
-  briefs:   ["Breves", "Noticias breves: titular, una línea de resumen y enlace a la noticia original, de la más reciente a la más antigua."],
+  briefs:   ["Fuera de portada", "Las noticias que no entran en portada: titular, una línea de resumen y enlace a la noticia original, de la más reciente a la más antigua."],
   relevant: ["Más relevantes", "Criterio editorial de The Airlines Brief: primero lo que afecta directamente a IAG, después lo que le afecta indirectamente, después Europa y después el resto; dentro de cada nivel, por importancia de la noticia."]
 };
 function sortBar(mode, withFront){
@@ -1233,7 +1233,7 @@ function renderArticle(){
       ${n.summary ? `<p class="dek art-dek">${esc(n.summary)}</p>` : ""}
       ${byline(n,t,inSel)}
       <p style="margin:18px 0"><a class="btn" href="${esc(n.url)}" target="_blank" rel="noopener">Leer en ${esc(n.source)} ↗</a></p>
-      <p class="art-note">Breve: resumen de The Airlines Brief con enlace a la noticia original${n.paywall ? " (de pago)" : ""}.</p>
+      <p class="art-note">Fuera de portada: resumen de The Airlines Brief con enlace a la noticia original${n.paywall ? " (de pago)" : ""}.</p>
     </article>`;
     return;
   }
