@@ -189,7 +189,8 @@
    "name": "AviTrader",
    "url": "https://avitrader.com/feed/",
    "lang": "EN",
-   "topic": "mro"
+   "topic": "mro",
+   "exclude": "DARPA|defen[cs]e|military|missile|Army|Navy"
   },
   {
    "name": "MRO Business Today (vía Google News)",
@@ -269,11 +270,12 @@
   },
   {
    "name": "Google News – MRO / engines",
-   "url": "https://news.google.com/rss/search?q=MRO+OR+%22engine+maintenance%22+OR+%22Lufthansa+Technik%22+OR+%22Iberia+Maintenance%22+when:2d&hl=en&gl=US&ceid=US:en",
+   "url": "https://news.google.com/rss/search?q=%28%22aircraft+maintenance%22+OR+%22engine+shop%22+OR+%22MRO%22+OR+%22Lufthansa+Technik%22+OR+%22Iberia+Maintenance%22+OR+%22AFI+KLM+E%26M%22%29+%28aviation+OR+airline+OR+aircraft%29+when%3A2d&hl=en&gl=US&ceid=US:en",
    "lang": "EN",
    "topic": "mro",
    "google": true,
-   "max": 40
+   "max": 40,
+   "exclude": "Melrose|LSE:MRO|\\bshares?\\b|stock|DARPA|defen[cs]e|military"
   },
   {
    "name": "Google News – aerolíneas España",

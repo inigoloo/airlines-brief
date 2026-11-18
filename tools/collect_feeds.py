@@ -25,6 +25,13 @@ def text(s, n=280):
     return s if len(s) <= n else s[: n - 1].rsplit(" ", 1)[0] + "…"
 
 
+def similar(a, b):
+    """Dos titulares cuentan lo mismo si comparten la mayoría de sus palabras significativas."""
+    if not a or not b:
+        return False
+    return len(a & b) / min(len(a), len(b)) >= 0.6 and len(a & b) >= 3
+
+
 def norm_title(t):
     return re.sub(r"[^a-z0-9áéíóúñü ]", "", (t or "").lower()).strip()
 
@@ -44,7 +51,12 @@ def main():
     for f in cfg["feeds"]:
         st = {"name": f["name"], "url": f["url"], "ok": False, "entries": 0, "kept": 0, "error": ""}
         try:
-            d = feedparser.parse(f["url"], agent=UA, request_headers={"Accept-Language": "es,en;q=0.8"})
+            for attempt in range(3):   # Google News a veces responde con una página en vez del feed: reintento
+                if f.get("google"):
+                    time.sleep(2 + 3 * attempt)
+                d = feedparser.parse(f["url"], agent=UA, request_headers={"Accept-Language": "es,en;q=0.8"})
+                if d.entries or not d.get("bozo"):
+                    break
             if d.get("bozo") and not d.entries:
                 raise RuntimeError(str(d.get("bozo_exception", "feed no válido"))[:200])
             if getattr(d, "status", 200) >= 400:
@@ -75,17 +87,34 @@ def main():
                 cu, nt = clean_url(link), norm_title(title)
                 if not link or cu in known_urls or cu in seen_u or nt in seen_t:
                     continue
+                if f.get("exclude") and re.search(f["exclude"], title, re.I):
+                    continue
+                words = set(w for w in nt.split() if len(w) > 3)
+                dup = next((it for it in items if similar(words, it["_w"])), None)
+                if dup:   # la misma noticia en otro medio: se anota como otra fuente, no como candidata nueva
+                    dup.setdefault("alsoIn", []).append(source)
+                    continue
                 seen_u.add(cu); seen_t.add(nt)
                 items.append({
                     "title": title, "source": source, "url": link, "published": when.isoformat(timespec="minutes"),
                     "excerpt": excerpt, "feed": f["name"], "lang": f.get("lang", ""), "topic": f.get("topic", ""),
-                    "viaGoogle": bool(f.get("google")),
+                    "viaGoogle": bool(f.get("google")), "_w": words,
                 })
                 st["kept"] += 1; kept += 1
         except Exception as ex:  # un feed caído no para el resto
             st["error"] = str(ex)[:200]
         status.append(st)
     items.sort(key=lambda x: x["published"], reverse=True)
+    for i, it in enumerate(items, 1):
+        it.pop("_w", None)
+        it["id"] = f"c{i:03d}"
+    # Vista compacta para la tarea diaria: una línea por candidata (el detalle está en el JSON, por id)
+    lines = [f"# {len(items)} candidatas · últimas {hours} h · generado {now.isoformat(timespec='minutes')}",
+             "# id | fecha UTC | tema | medio (+ otros medios con la misma noticia) | titular"]
+    for it in items:
+        also = f" (+{len(it['alsoIn'])}: {', '.join(it['alsoIn'][:3])})" if it.get("alsoIn") else ""
+        lines.append(f"{it['id']} | {it['published'][5:16].replace('T', ' ')} | {it['topic']} | {it['source']}{also} | {it['title']}")
+    (ROOT / "feeds/candidates.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
     out = {"generatedAt": now.isoformat(timespec="minutes"), "hours": hours, "count": len(items),
            "feedsOk": sum(s["ok"] for s in status), "feedsTotal": len(status), "feeds": status, "items": items}
     (ROOT / "feeds/candidates.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
