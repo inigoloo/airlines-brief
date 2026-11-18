@@ -997,7 +997,7 @@ let spanFrame = 0;
 function syncSpan(src){
   const lo = $("#span-lo"), hi = $("#span-hi");
   let a = +lo.value, b = +hi.value;
-  if(a > b){ if(src === lo){ a = b; lo.value = a; } else { b = a; hi.value = b; } }
+  if(a > b){ if(src === lo){ b = a; hi.value = b; } else { a = b; lo.value = a; } }   // one handle pushes the other
   state.span = {lo:a, hi:b};
   paintSpan();
   // The handle further left must stay on top when both meet at the right end
@@ -1011,14 +1011,22 @@ $("#span-hi").addEventListener("input", e => syncSpan(e.target));
   const bar = document.querySelector(".span-bar"); let drag = null;
   const valAt = x => { const r = bar.getBoundingClientRect(), pad = 9; const f = Math.min(1, Math.max(0, (x - r.left - pad) / (r.width - 2*pad))); return Math.round(f*30) - 30; };
   const setTo = (inp, v) => { if(+inp.value !== v){ inp.value = v; syncSpan(inp); } };
+  let pending = null;   // both handles on the same day: the first movement decides which one moves
   bar.addEventListener("pointerdown", e => {
     const v = valAt(e.clientX), lo = $("#span-lo"), hi = $("#span-hi");
-    drag = Math.abs(v - +lo.value) < Math.abs(v - +hi.value) || (v < +lo.value) ? lo : hi;
-    if(+lo.value === +hi.value) drag = v < +lo.value ? lo : hi;
-    bar.setPointerCapture(e.pointerId); drag.focus({preventScroll:true}); setTo(drag, v); e.preventDefault();
+    bar.setPointerCapture(e.pointerId); e.preventDefault();
+    if(+lo.value === +hi.value && v === +lo.value){ pending = e.clientX; drag = null; return; }
+    drag = v <= +lo.value ? lo : v >= +hi.value ? hi : (Math.abs(v - +lo.value) <= Math.abs(v - +hi.value) ? lo : hi);
+    drag.focus({preventScroll:true}); setTo(drag, v);
   });
-  bar.addEventListener("pointermove", e => { if(drag) setTo(drag, valAt(e.clientX)); });
-  const end = () => { drag = null; };
+  bar.addEventListener("pointermove", e => {
+    if(pending !== null){
+      if(Math.abs(e.clientX - pending) < 3) return;
+      drag = e.clientX < pending ? $("#span-lo") : $("#span-hi"); pending = null; drag.focus({preventScroll:true});
+    }
+    if(drag) setTo(drag, valAt(e.clientX));
+  });
+  const end = () => { drag = null; pending = null; };
   bar.addEventListener("pointerup", end); bar.addEventListener("pointercancel", end);
 })();
 $("#span-reset").addEventListener("click", () => { $("#span-lo").value = -3; $("#span-hi").value = 0; syncSpan(); });
