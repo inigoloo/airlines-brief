@@ -379,9 +379,6 @@ footer.foot{border-top:3px double var(--rule);padding-block:14px 30px;font-size:
     <button data-sec="NET">Red</button>
     <button data-sec="FLT">Flota</button>
     <button data-sec="MRO">MRO y Motores</button>
-    <button data-sec="APT">Aeropuertos</button>
-    <button data-sec="REG">Regulación</button>
-    <button data-sec="TUR">Turismo</button>
     <span class="sep" aria-hidden="true"></span>
     <button class="tool" data-view="edicion">Próxima edición</button>
     <button class="tool" data-view="fuentes">Fuentes</button>
@@ -485,9 +482,11 @@ footer.foot{border-top:3px double var(--rule);padding-block:14px 30px;font-size:
 <script src="/shim.js"></script>
 <script>
 (function(){
-const CATS = {FIN:"Finanzas",STR:"Estrategia",CUS:"Cliente",NET:"Red",FLT:"Flota",MRO:"MRO y Motores",APT:"Aeropuertos",REG:"Regulación",TUR:"Turismo"};
+const CATS = {FIN:"Finanzas",STR:"Estrategia",CUS:"Cliente",NET:"Red",FLT:"Flota",MRO:"MRO y Motores"};
+// Older codes fold into the six sections: airports go to Red, regulation to Estrategia, tourism to Cliente
+const CAT_ALIAS = {APT:"NET", REG:"STR", TUR:"CUS"};
 const isBrief = n => n && n.kind === "brief";
-const CAT_DESC = {FIN:"Resultados, márgenes, costes y mercados.",STR:"Consolidación, alianzas y movimientos corporativos.",CUS:"Distribución, retail, fidelización e IA aplicada al cliente.",NET:"Rutas, hubs, acuerdos de código compartido y joint ventures.",FLT:"Pedidos, entregas y planes de flota.",MRO:"Mantenimiento, motores, talleres, leasing y cadena de suministro.",APT:"Aeropuertos, tasas, capacidad, obras y tráfico.",REG:"Regulación europea y nacional, slots, SAF y derechos de pasajeros.",TUR:"Turoperadores, hoteles y demanda de viajes ligados al transporte aéreo."};
+const CAT_DESC = {FIN:"Resultados, márgenes, costes y mercados.",STR:"Consolidación, alianzas, movimientos corporativos y regulación.",CUS:"Distribución, retail, fidelización, IA aplicada al cliente, turoperadores y demanda de viajes.",NET:"Rutas, hubs, aeropuertos, acuerdos de código compartido y joint ventures.",FLT:"Pedidos, entregas y planes de flota.",MRO:"Mantenimiento, motores, talleres, leasing y cadena de suministro."};
 const MONTHS = ["ENE","FEB","MAR","ABR","MAY","JUN","JUL","AGO","SEP","OCT","NOV","DIC"];
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -1284,7 +1283,7 @@ renderBoard();
   $("#addbox").hidden = !state.canEdit;
   showAccess();
 
-  db.collection("news").onSnapshot(s => { state.news = s.docs.map(d => ({id:d.id, ...d.data()})); state.loaded = true; renderAll(); }, e => console.warn(e));
+  db.collection("news").onSnapshot(s => { state.news = s.docs.map(d => { const n = {id:d.id, ...d.data()}; if(CAT_ALIAS[n.category]) n.category = CAT_ALIAS[n.category]; return n; }); state.loaded = true; renderAll(); }, e => console.warn(e));
   db.collection("votes").onSnapshot(s => {
     const v = {}; s.docs.forEach(d => v[d.id] = (d.data()||{}).v || {}); state.votes = v;
     if(state.uid && v[state.uid] && !writing && !pending) state.mine = {...v[state.uid]};

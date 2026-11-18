@@ -3,7 +3,7 @@
 // Used by the weekly script on the editor's computer, which builds an Outlook draft with the images embedded.
 import { json, editions, config, asset, assetExists, readVotes, madridToday, addDays } from "../../cf/lib.js";
 
-const CATS = { FIN: "Finanzas", STR: "Estrategia", CUS: "Cliente", NET: "Red", FLT: "Flota", MRO: "MRO y Motores", APT: "Aeropuertos", REG: "Regulación", TUR: "Turismo" };
+const CATS = { FIN: "Finanzas", STR: "Estrategia", CUS: "Cliente", NET: "Red", FLT: "Flota", MRO: "MRO y Motores", APT: "Red", REG: "Estrategia", TUR: "Cliente" };
 const MONTHS = ["ENE","FEB","MAR","ABR","MAY","JUN","JUL","AGO","SEP","OCT","NOV","DIC"];
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const fmtDate = iso => { if(!iso) return "—"; const [y, m, d] = iso.slice(0, 10).split("-"); return `${d} ${MONTHS[+m - 1]} ${y}`; };
