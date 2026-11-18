@@ -269,6 +269,9 @@ main .wrap{padding-block:22px 64px}
 .searchhead h2{font-family:var(--f-display);font-weight:700;font-size:18px;letter-spacing:.06em;text-transform:uppercase;margin:0}
 .searchhead p{margin:4px 0 0;color:var(--muted);font-size:13.5px}
 .oldnote{color:var(--muted);font-size:13px;margin:18px 0 0;text-align:center}
+.langsw{display:inline-flex;margin-left:14px;border:1px solid var(--line);border-radius:999px;overflow:hidden;vertical-align:middle}
+.langsw button{font:600 11px/1 var(--f-body);letter-spacing:.06em;padding:4px 9px;border:0;background:transparent;color:var(--muted);cursor:pointer}
+html[lang="es"] .langsw [data-lang="es"],html[lang="en"] .langsw [data-lang="en"]{background:var(--ink);color:var(--bg)}
 .span{margin:10px 0 4px;padding:12px 16px 10px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
 .span[hidden]{display:none}
 .span-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
@@ -385,7 +388,7 @@ footer.foot{border-top:3px double var(--rule);padding-block:14px 30px;font-size:
 </head>
 <body>
 
-<div class="topbar"><div class="wrap"><span class="dl" id="dateline">—</span><span class="tr"><span class="ed" id="edline">Semanal · Market Intelligence</span></span></div></div>
+<div class="topbar"><div class="wrap"><span class="dl" id="dateline">—</span><span class="tr"><span class="ed" id="edline">Semanal · Market Intelligence</span><span class="langsw" role="group" aria-label="Idioma / Language"><button type="button" data-lang="es">ES</button><button type="button" data-lang="en">EN</button></span></span></div></div>
 <header class="masthead wrap">
   <div class="pre">Airlines Practice</div>
   <div class="mh-title"><h1>The Airlines <em>Brief</em></h1><div class="by-ntt">by <img src="img/ntt-data.png" alt="NTT DATA" width="351" height="72"></div></div>
@@ -509,9 +512,86 @@ footer.foot{border-top:3px double var(--rule);padding-block:14px 30px;font-size:
 const CATS = {FIN:"Finanzas",STR:"Estrategia",CUS:"Cliente",NET:"Red",FLT:"Flota",MRO:"MRO"};
 // Older codes fold into the six sections: airports go to Red, regulation to Estrategia, tourism to Cliente
 const CAT_ALIAS = {APT:"NET", REG:"STR", TUR:"CUS"};
+/* ---------- Language (ES / EN) ----------
+   The stories carry their English version in n.en (written by the daily translation task).
+   Interface texts are translated from this dictionary on the fly, after each render. */
+const LANG = (() => { try{ return localStorage.getItem("brief-lang") === "en" ? "en" : "es"; }catch(e){ return "es"; } })();
+document.documentElement.lang = LANG;
+const L = (n, f) => (LANG === "en" && n && n.en && typeof n.en[f] === "string" && n.en[f].trim()) ? n.en[f] : (n ? n[f] : "");
+const EN = {
+  "Actualidad, tendencias y análisis estratégico para entender qué mueve la industria aérea":"News, trends and strategic analysis to understand what drives the airline industry",
+  "Portada":"Front page","Finanzas":"Finance","Estrategia":"Strategy","Cliente":"Customer","Red":"Network","Flota":"Fleet","MRO":"MRO",
+  "Próxima edición":"Next edition","Fuentes":"Sources","Historial":"History","Estadísticas":"Statistics","Añadir noticia":"Add story",
+  "Buscar":"Search","Limpiar":"Clear","Periodo":"Period","Últimos 3 días":"Last 3 days","Hace 30 días":"30 days ago","Hace 15 días":"15 days ago","Hoy":"Today",
+  "Ordenar":"Sort","Más recientes":"Latest","Más votadas":"Most liked","Más relevantes":"Most relevant","Fuera de portada":"Off the front page",
+  "Las noticias del periodo elegido en la barra, de más a menos importante; al final, las de fuera de portada.":"Stories from the period chosen on the bar, most important first; off-the-front-page stories at the end.",
+  "Ordenadas por fecha de publicación, de la más nueva a la más antigua.":"Sorted by publication date, newest first.",
+  "Ordenadas por likes del equipo; a igualdad de likes, por relevancia.":"Sorted by the team's likes; ties broken by relevance.",
+  "Criterio editorial de The Airlines Brief: primero lo que afecta directamente a IAG, después lo que le afecta indirectamente, después Europa y después el resto; dentro de cada nivel, por importancia de la noticia.":"The Airlines Brief's editorial criteria: first what directly affects IAG, then what affects it indirectly, then Europe, then the rest; within each level, by importance.",
+  "Lo más votado de la semana":"Most liked this week","Más noticias":"More news","Por importancia":"By importance",
+  "Por qué importa":"Why it matters","Por qué importa · análisis de The Airlines Brief":"Why it matters · The Airlines Brief analysis",
+  "Me gusta":"Like","Te gusta":"Liked","Quitar me gusta":"Remove like","✓ En la edición":"✓ In the newsletter","De pago":"Paywall",
+  "← Portada":"← Front page","← Volver":"← Back","Ir a la portada":"Go to the front page",
+  "Cargando noticias…":"Loading news…","Cargando noticia…":"Loading story…","Cargando…":"Loading…",
+  "No encontramos esta noticia; puede que ya no esté en el portal.":"We could not find this story; it may no longer be on the portal.",
+  "Todavía no hay noticias en esta sección.":"No stories in this section yet.",
+  "Todavía no hay noticias fuera de portada en esta sección.":"No off-the-front-page stories in this section yet.",
+  "No hay noticias en este periodo. Mueve la barra para ampliarlo.":"No stories in this period. Move the bar to widen it.",
+  "Mueve la barra de arriba para ver otro periodo, hasta 30 días atrás. Las noticias anteriores están en cada sección y en el buscador.":"Move the bar above to see another period, up to 30 days back. Older stories are in each section and in search.",
+  "Todavía no hay noticias publicadas desde el último envío.":"No stories published since the last newsletter yet.",
+  "Redactado por The Airlines Brief exclusivamente con la información publicada en las fuentes citadas. Los números remiten a cada fuente.":"Written by The Airlines Brief solely from the information published in the sources cited. The numbers refer to each source.",
+  "Infografía: The Airlines Brief":"Graphic: The Airlines Brief",
+  "The Airlines Brief · Airlines Practice. Cada noticia está redactada a partir de fuentes verificadas, citadas al final del artículo.":"The Airlines Brief · Airlines Practice. Every story is written from verified sources, cited at the end of the article.",
+  "Resultados, márgenes, costes y mercados.":"Results, margins, costs and markets.",
+  "Consolidación, alianzas, movimientos corporativos y regulación.":"Consolidation, alliances, corporate moves and regulation.",
+  "Distribución, retail, fidelización, IA aplicada al cliente, turoperadores y demanda de viajes.":"Distribution, retail, loyalty, customer-facing AI, tour operators and travel demand.",
+  "Rutas, hubs, aeropuertos, acuerdos de código compartido y joint ventures.":"Routes, hubs, airports, codeshares and joint ventures.",
+  "Pedidos, entregas y planes de flota.":"Orders, deliveries and fleet plans.",
+  "Mantenimiento, motores, talleres, leasing y cadena de suministro.":"Maintenance, engines, shops, leasing and supply chain."
+};
+// Pieces inside longer texts (counts, labels with names), longest first
+const EN_PARTS = [
+  ["Las noticias del periodo elegido en la barra","Stories from the period chosen on the bar"],
+  ["el enlace lleva a la noticia original","the link goes to the original story"],
+  ["Fuera de portada: resumen de The Airlines Brief con enlace a la noticia original","Off the front page: The Airlines Brief summary with a link to the original story"],
+  ["Semanal · Próxima edición Nº","Weekly · Next edition No."],
+  ["noticias fuera de portada","off-the-front-page stories"],["noticia fuera de portada","off-the-front-page story"],
+  ["Resultados de «","Results for «"],["Leer en ","Read on "],["Más en ","More in "],["Foto: ","Photo: "],
+  ["por importancia","by importance"],["(de pago)","(paywall)"],
+  [" noticias"," stories"],[" noticia"," story"],
+  ["Finanzas","Finance"],["Estrategia","Strategy"],["Cliente","Customer"],["Flota","Fleet"]
+];
+function tr(t){
+  if(LANG !== "en" || !t) return t;
+  const k = t.trim(); if(!k) return t;
+  if(EN[k]) return t.replace(k, EN[k]);
+  let o = t; for(const [a,b] of EN_PARTS) if(o.includes(a)) o = o.split(a).join(b);
+  for(const [a,b] of Object.entries(EN)) if(a.length > 24 && o.includes(a)) o = o.split(a).join(b);
+  return o;
+}
+function translateDOM(root){
+  if(LANG !== "en" || !root) return;
+  const w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {acceptNode: n => n.parentElement && n.parentElement.closest("[data-content]") ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT});
+  const nodes = []; while(w.nextNode()) nodes.push(w.currentNode);
+  for(const n of nodes){ const v = tr(n.nodeValue); if(v !== n.nodeValue) n.nodeValue = v; }
+  (root.querySelectorAll ? root.querySelectorAll("[placeholder],[title],[aria-label]") : []).forEach(el => {
+    ["placeholder","title","aria-label"].forEach(a => { const v = el.getAttribute(a); if(v){ const x = a === "placeholder" && v.startsWith("Buscar") ? "Search all stories…" : tr(v); if(x !== v) el.setAttribute(a, x); } });
+  });
+}
+if(LANG === "en"){
+  const mo = new MutationObserver(ms => { for(const m of ms) for(const n of m.addedNodes){ if(n.nodeType === 1) translateDOM(n); else if(n.nodeType === 3 && n.parentElement) translateDOM(n.parentElement); } });
+  mo.observe(document.body, {childList:true, subtree:true});
+  translateDOM(document.body);
+}
+document.addEventListener("click", e => {
+  const b = e.target.closest("[data-lang]"); if(!b) return;
+  try{ localStorage.setItem("brief-lang", b.dataset.lang); }catch(err){}
+  location.reload();
+});
+
 const isBrief = n => n && n.kind === "brief";
 const CAT_DESC = {FIN:"Resultados, márgenes, costes y mercados.",STR:"Consolidación, alianzas, movimientos corporativos y regulación.",CUS:"Distribución, retail, fidelización, IA aplicada al cliente, turoperadores y demanda de viajes.",NET:"Rutas, hubs, aeropuertos, acuerdos de código compartido y joint ventures.",FLT:"Pedidos, entregas y planes de flota.",MRO:"Mantenimiento, motores, talleres, leasing y cadena de suministro."};
-const MONTHS = ["ENE","FEB","MAR","ABR","MAY","JUN","JUL","AGO","SEP","OCT","NOV","DIC"];
+const MONTHS = LANG === "en" ? ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"] : ["ENE","FEB","MAR","ABR","MAY","JUN","JUL","AGO","SEP","OCT","NOV","DIC"];
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const fmtDate = iso => { if(!iso) return "—"; const [y,m,d] = iso.slice(0,10).split("-"); return `${d} ${MONTHS[+m-1]} ${y}`; };
@@ -519,7 +599,7 @@ const addDays = (iso,n) => { const d = new Date(iso+"T12:00:00Z"); d.setUTCDate(
 const isValid = n => n && n.title && n.source && /^https:\/\/\S+$/.test(n.url||"") && /^\d{4}-\d{2}-\d{2}$/.test(n.publishedAt||"");
 const todayISO = () => new Date().toISOString().slice(0,10);
 
-try{ $("#dateline").textContent = new Date().toLocaleDateString("es-ES",{weekday:"long",day:"numeric",month:"long",year:"numeric"}); }catch(e){}
+try{ $("#dateline").textContent = new Date().toLocaleDateString(LANG === "en" ? "en-GB" : "es-ES",{weekday:"long",day:"numeric",month:"long",year:"numeric"}); }catch(e){}
 
 const state = {
   news: [], votes: {}, mine: {}, cfg: {threshold:2,minItems:6,maxItems:6,nextSend:"",portalUrl:"",cadenceDays:7},
@@ -772,9 +852,9 @@ function story(n, t, inSel, opts){
   return `<article>
     ${opts.fig !== false ? `<a class="figlink" href="#noticia-${esc(n.id)}" data-art="${esc(n.id)}" tabindex="-1" aria-hidden="true">${figure(n, opts.caption)}</a>` : ""}
     ${kicker(n)}
-    <h3 class="hl"><a href="#noticia-${esc(n.id)}" data-art="${esc(n.id)}">${esc(n.title)}</a></h3>
-    ${opts.dek !== false ? `<p class="dek">${esc(n.summary)}</p>` : ""}
-    ${opts.why && n.why ? `<div class="why"><b>Por qué importa</b>${esc(n.why)}</div>` : ""}
+    <h3 class="hl" data-content><a href="#noticia-${esc(n.id)}" data-art="${esc(n.id)}">${esc(L(n,"title"))}</a></h3>
+    ${opts.dek !== false ? `<p class="dek" data-content>${esc(L(n,"summary"))}</p>` : ""}
+    ${opts.why && n.why ? `<div class="why"><b>Por qué importa</b><span data-content>${esc(L(n,"why"))}</span></div>` : ""}
     ${byline(n,t,inSel)}
   </article>`;
 }
@@ -787,8 +867,8 @@ function briefThumb(n){
 }
 function briefRow(n, t, inSel, withCat){
   return `<li class="brief"><div class="bbody">${withCat ? `<div style="margin-bottom:2px">${kicker(n)}</div>` : ""}
-    <p class="bt"><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a><span class="ext" aria-hidden="true">↗</span></p>
-    ${n.summary ? `<p class="bs">${esc(n.summary)}</p>` : ""}
+    <p class="bt" data-content><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(L(n,"title"))}</a><span class="ext" aria-hidden="true">↗</span></p>
+    ${n.summary ? `<p class="bs" data-content>${esc(L(n,"summary"))}</p>` : ""}
     <div class="byline"><span class="src">${esc(n.source)}</span>${n.paywall ? `<span class="pay">De pago</span>` : ""}<span class="date">${fmtDate(n.publishedAt)}</span>${statusTag(n,inSel)}${voteCtl(n,t)}</div>
   </div></li>`;
 }
@@ -902,7 +982,7 @@ function renderPortal(){
     <div class="seconds">${top4.map(n => story(n,t,inSel,{why:true})).join("")}</div>
     <aside class="mrail"><div class="rail">
       <h2 class="rail-h">Lo más votado de la semana</h2>
-      ${ranking.length ? "" : `<p style="font-size:13px;color:var(--muted);margin:10px 0 0">Todavía no hay noticias publicadas desde el último envío.</p>`}<ol class="ranking">${ranking.map((n,i) => `<li><span class="n">${i+1}</span><div><a href="#noticia-${esc(n.id)}" data-art="${esc(n.id)}">${esc(n.title)}</a><div class="m">${net(n)} ${net(n)===1?"like":"likes"} · ${esc(CATS[n.category]||"")}</div></div></li>`).join("")}</ol>
+      ${ranking.length ? "" : `<p style="font-size:13px;color:var(--muted);margin:10px 0 0">Todavía no hay noticias publicadas desde el último envío.</p>`}<ol class="ranking">${ranking.map((n,i) => `<li><span class="n">${i+1}</span><div><a href="#noticia-${esc(n.id)}" data-art="${esc(n.id)}" data-content>${esc(L(n,"title"))}</a><div class="m">${net(n)} ${net(n)===1?"like":"likes"} · <span>${esc(CATS[n.category]||"")}</span></div></div></li>`).join("")}</ol>
     </div></aside>
   </div>
   ${rest.length ? `<div class="morehead"><h2>Más noticias</h2><span class="mh-note">Por importancia</span></div>
@@ -1279,7 +1359,9 @@ function artBody(n){
   if(!body.length) return "";
   const sup = s => (Array.isArray(s) ? s : []).filter(k => Number.isInteger(k) && k >= 1 && k <= refs.length)
     .map(k => `<button type="button" class="ref" data-ref="${k}" title="${esc(refs[k-1].name||"")}">${k}</button>`).join("");
-  return `<div class="art-body">${body.map(p => `<p>${esc(p.t)}${sup(p.s)}</p>`).join("")}</div>
+  const enBody = LANG === "en" && n.en && Array.isArray(n.en.body) && n.en.body.length === n.body.length ? n.en.body : null;
+  const txt = p => { const i = n.body.indexOf(p); return enBody && enBody[i] && enBody[i].t ? enBody[i].t : p.t; };
+  return `<div class="art-body">${body.map(p => `<p><span data-content>${esc(txt(p))}</span>${sup(p.s)}</p>`).join("")}</div>
     <p class="art-note">Redactado por The Airlines Brief exclusivamente con la información publicada en las fuentes citadas. Los números remiten a cada fuente.</p>`;
 }
 function artRefs(n){
@@ -1297,8 +1379,8 @@ function renderArticle(){
     box.innerHTML = `<article class="art-page">
       <button type="button" class="back" data-goback>${esc(state.backLabel || "← Portada")}</button>
       ${kicker(n)}
-      <h1 class="hl art-hl">${esc(n.title)}</h1>
-      ${n.summary ? `<p class="dek art-dek">${esc(n.summary)}</p>` : ""}
+      <h1 class="hl art-hl" data-content>${esc(L(n,"title"))}</h1>
+      ${n.summary ? `<p class="dek art-dek" data-content>${esc(L(n,"summary"))}</p>` : ""}
       ${byline(n,t,inSel)}
       <p style="margin:18px 0"><a class="btn" href="${esc(n.url)}" target="_blank" rel="noopener">Leer en ${esc(n.source)} ↗</a></p>
       <p class="art-note">Fuera de portada: resumen de The Airlines Brief con enlace a la noticia original${n.paywall ? " (de pago)" : ""}.</p>
@@ -1309,12 +1391,12 @@ function renderArticle(){
   box.innerHTML = `<article class="art-page">
     <button type="button" class="back" data-goback>${esc(state.backLabel || "← Portada")}</button>
     ${kicker(n)}
-    <h1 class="hl art-hl">${esc(n.title)}</h1>
-    <p class="dek art-dek">${esc(n.summary)}</p>
+    <h1 class="hl art-hl" data-content>${esc(L(n,"title"))}</h1>
+    <p class="dek art-dek" data-content>${esc(L(n,"summary"))}</p>
     ${byline(n,t,inSel)}
     ${figure(n,true)}
     ${artBody(n)}
-    ${n.why ? `<div class="why art-why"><b>Por qué importa · análisis de The Airlines Brief</b>${esc(n.why)}</div>` : ""}
+    ${n.why ? `<div class="why art-why"><b>Por qué importa · análisis de The Airlines Brief</b><span data-content>${esc(L(n,"why"))}</span></div>` : ""}
     ${artRefs(n)}
   </article>
   ${related.length ? `<div class="morehead"><h2>Más en ${esc(CATS[n.category]||"")}</h2></div><div class="river">${related.map(r => story(r,t,inSel)).join("")}</div>` : ""}`;
