@@ -1,0 +1,40 @@
+name: Recoger candidatas (RSS)
+
+on:
+  schedule:
+    - cron: "30 6 * * 1-5"   # 07:30 en Madrid en invierno (08:30 en verano); GitHub puede retrasarlo unos minutos
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "feeds/feeds.json"
+      - "tools/collect_feeds.py"
+      - ".github/workflows/collect-feeds.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-feeds
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install feedparser==6.0.11
+      - run: python tools/collect_feeds.py
+      - name: Guardar candidatas
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add feeds/candidates.json
+          if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
+          git commit -m "Candidatas RSS $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && exit 0; sleep 5; done
+          exit 1
