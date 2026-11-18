@@ -2,7 +2,9 @@ name: Recoger candidatas (RSS)
 
 on:
   schedule:
-    - cron: "30 6 * * 1-5"   # 07:30 en Madrid en invierno (08:30 en verano); GitHub puede retrasarlo unos minutos
+    # GitHub no admite zona horaria: dos horarios para que siempre haya una recogida a las 8:30 de Madrid
+    - cron: "30 7 * * 1-5"   # 08:30 en Madrid en invierno (09:30 en verano)
+    - cron: "30 6 * * 1-5"   # 08:30 en Madrid en verano (07:30 en invierno, recogida previa por si GitHub se retrasa)
   workflow_dispatch:
   push:
     branches: [main]
