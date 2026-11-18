@@ -9,7 +9,6 @@ from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode
 import feedparser
 
 ROOT = Path(__file__).resolve().parent.parent
-HOURS = 72
 UA = "Mozilla/5.0 (compatible; AirlinesBriefBot/1.0; +https://airlines-brief.inigoviu.workers.dev)"
 AVIATION = re.compile(r"\b(aerol[ií]nea|aeropuert|avi[oó]n|aviones|aviaci[oó]n|vuelo|airline|airport|aircraft|aviation|flight|airbus|boeing|embraer|iberia|vueling|air europa|ryanair|easyjet|lufthansa|iag|aena|mro|motor|engine|queroseno|jet fuel|pasajeros|passengers)", re.I)
 
@@ -20,7 +19,7 @@ def clean_url(u):
     return urlunparse((p.scheme, p.netloc.lower(), p.path.rstrip("/"), "", urlencode(q), ""))
 
 
-def text(s, n=400):
+def text(s, n=280):
     s = html.unescape(re.sub(r"<[^>]+>", " ", s or ""))
     s = re.sub(r"\s+", " ", s).strip()
     return s if len(s) <= n else s[: n - 1].rsplit(" ", 1)[0] + "…"
@@ -38,7 +37,8 @@ def main():
         for r in n.get("refs", []) or []:
             known_urls.add(clean_url(r.get("url", "")))
     now = dt.datetime.now(dt.timezone.utc)
-    since = now - dt.timedelta(hours=HOURS)
+    hours = 72 if (now + dt.timedelta(hours=1)).weekday() == 0 else 48   # los lunes, todo el fin de semana
+    since = now - dt.timedelta(hours=hours)
     items, status, seen_t = [], [], set()
     seen_u = set()
     for f in cfg["feeds"]:
@@ -50,7 +50,10 @@ def main():
             if getattr(d, "status", 200) >= 400:
                 raise RuntimeError(f"HTTP {d.status}")
             st["ok"], st["entries"] = True, len(d.entries)
+            kept = 0
             for e in d.entries:
+                if kept >= f.get("max", 60):
+                    break
                 t = e.get("published_parsed") or e.get("updated_parsed")
                 if not t:
                     continue
@@ -78,12 +81,12 @@ def main():
                     "excerpt": excerpt, "feed": f["name"], "lang": f.get("lang", ""), "topic": f.get("topic", ""),
                     "viaGoogle": bool(f.get("google")),
                 })
-                st["kept"] += 1
+                st["kept"] += 1; kept += 1
         except Exception as ex:  # un feed caído no para el resto
             st["error"] = str(ex)[:200]
         status.append(st)
     items.sort(key=lambda x: x["published"], reverse=True)
-    out = {"generatedAt": now.isoformat(timespec="minutes"), "hours": HOURS, "count": len(items),
+    out = {"generatedAt": now.isoformat(timespec="minutes"), "hours": hours, "count": len(items),
            "feedsOk": sum(s["ok"] for s in status), "feedsTotal": len(status), "feeds": status, "items": items}
     (ROOT / "feeds/candidates.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"{len(items)} candidatas · {out['feedsOk']}/{len(status)} feeds OK")
