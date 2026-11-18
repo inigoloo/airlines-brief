@@ -214,9 +214,9 @@ main .wrap{padding-block:22px 64px}
 .briefs{margin:6px 0 8px}
 .briefs .bgroup{display:grid;grid-template-columns:150px 1fr;gap:4px 22px;padding:14px 0;border-top:1px solid var(--line)}
 .briefs .bgroup:first-child{border-top:0}
+.briefs .bgroup.bday{grid-template-columns:1fr;gap:12px}
 .briefs .bgroup>.kicker{font-size:12px;align-self:start;padding-top:3px}
 .briefs ul{list-style:none;margin:0;padding:0;display:grid;gap:14px}
-.brief{display:grid;grid-template-columns:136px 1fr;gap:16px;align-items:start}
 .brief .bthumb{position:relative;display:block;width:136px;aspect-ratio:16/10;overflow:hidden;border-radius:4px;background:var(--soft)}
 .brief .bthumb svg,.brief .bthumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
 .brief .bbody{min-width:0}
@@ -767,7 +767,7 @@ function briefThumb(n){
   return `<a class="bthumb" href="${esc(n.url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">${art}${img}</a>`;
 }
 function briefRow(n, t, inSel, withCat){
-  return `<li class="brief">${briefThumb(n)}<div class="bbody">${withCat ? `<div style="margin-bottom:2px">${kicker(n)}</div>` : ""}
+  return `<li class="brief"><div class="bbody">${withCat ? `<div style="margin-bottom:2px">${kicker(n)}</div>` : ""}
     <p class="bt"><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a><span class="ext" aria-hidden="true">↗</span></p>
     ${n.summary ? `<p class="bs">${esc(n.summary)}</p>` : ""}
     <div class="byline"><span class="src">${esc(n.source)}</span>${n.paywall ? `<span class="pay">De pago</span>` : ""}<span class="date">${fmtDate(n.publishedAt)}</span>${statusTag(n,inSel)}${voteCtl(n,t)}</div>
@@ -776,7 +776,7 @@ function briefRow(n, t, inSel, withCat){
 // Breves grouped by day (newest first)
 function briefsByDay(items, t, inSel){
   const days = [...new Set(items.map(n => n.publishedAt))].sort().reverse();
-  return `<div class="briefs">${days.map(d => `<div class="bgroup"><span class="kicker" style="color:var(--muted)">${d === todayISO() ? "Hoy" : esc(fmtDate(d))}</span><ul>${items.filter(n => n.publishedAt === d).map(n => briefRow(n,t,inSel,true)).join("")}</ul></div>`).join("")}</div>`;
+  return `<div class="briefs">${days.map(d => `<div class="bgroup bday"><span class="kicker" style="color:var(--muted)">${d === todayISO() ? "Hoy" : esc(fmtDate(d))}</span><ul>${items.filter(n => n.publishedAt === d).map(n => briefRow(n,t,inSel,true)).join("")}</ul></div>`).join("")}</div>`;
 }
 // Breves grouped by section, in the menu's order
 function briefsHTML(items, t, inSel, grouped){
