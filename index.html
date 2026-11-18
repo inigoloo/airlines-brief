@@ -538,7 +538,7 @@ const EN = {
   "Todavía no hay noticias fuera de portada en esta sección.":"No off-the-front-page stories in this section yet.",
   "No hay noticias en este periodo. Mueve la barra para ampliarlo.":"No stories in this period. Move the bar to widen it.",
   "Mueve la barra de arriba para ver otro periodo, hasta 30 días atrás. Las noticias anteriores están en cada sección y en el buscador.":"Move the bar above to see another period, up to 30 days back. Older stories are in each section and in search.",
-  "Todavía no hay noticias esta semana.":"No stories this week yet.",
+  "Todavía no hay noticias esta semana.":"No stories this week yet.","No hay noticias en este periodo.":"No stories in this period.",
   "Redactado por The Airlines Brief exclusivamente con la información publicada en las fuentes citadas. Los números remiten a cada fuente.":"Written by The Airlines Brief solely from the information published in the sources cited. The numbers refer to each source.",
   "Infografía: The Airlines Brief":"Graphic: The Airlines Brief",
   "The Airlines Brief · Airlines Practice. Cada noticia está redactada a partir de fuentes verificadas, citadas al final del artículo.":"The Airlines Brief · Airlines Practice. Every story is written from verified sources, cited at the end of the article.",
@@ -890,7 +890,9 @@ function briefsHTML(items, t, inSel, grouped){
 function renderPortal(){
   const box = $("#portal");
   if(!state.loaded) return;
-  $("#span").hidden = !(state.section === "ALL" && state.sort === "front" && !state.q);
+  // Barra de periodo: en la portada con «Portada», «Más votadas» y «Más relevantes»
+  const spanOn = state.section === "ALL" && ["front","votes","relevant"].includes(state.sort) && !state.q;
+  $("#span").hidden = !spanOn;
   if(!$("#span").hidden) paintSpan();
   const ranged = !!(state.from || state.to);
   const inRange = n => (!state.from || n.publishedAt >= state.from) && (!state.to || n.publishedAt <= state.to);
@@ -944,8 +946,10 @@ function renderPortal(){
   }
   if(state.sort !== "front" || ranged){
     const mode = state.sort === "front" ? "recent" : state.sort;
-    const list = mode === "briefs" ? valid.filter(isBrief).sort(recent) : valid.filter(n => !isBrief(n)).sort(CMP[mode]);
-    const body = mode === "briefs" ? (list.length ? briefsByDay(list,t,inSel) : `<div class="empty">Todavía no hay noticias fuera de portada${ranged ? " en estas fechas" : ""}.</div>`) : listHTML(list);
+    const sf = addDays(todayISO(), state.span.lo), st = addDays(todayISO(), state.span.hi);
+    const pool = (spanOn && !ranged) ? valid.filter(n => n.publishedAt >= sf && n.publishedAt <= st) : valid;
+    const list = mode === "briefs" ? pool.filter(isBrief).sort(recent) : pool.filter(n => !isBrief(n)).sort(CMP[mode]);
+    const body = mode === "briefs" ? (list.length ? briefsByDay(list,t,inSel) : `<div class="empty">Todavía no hay noticias fuera de portada${ranged ? " en estas fechas" : ""}.</div>`) : (list.length ? listHTML(list) : `<div class="empty">No hay noticias en este periodo.</div>`);
     box.innerHTML = `${ranged ? `<div class="searchhead"><h2>${mode === "briefs" ? "Fuera de portada" : "Noticias"} ${esc(rangeTxt)}</h2><p>${list.length} ${mode === "briefs" ? (list.length===1?"noticia fuera de portada":"noticias fuera de portada") : (list.length===1?"noticia":"noticias")} en este rango de fechas.</p></div>` : ""}${sortBar(mode, !ranged)}${body}`;
     equalizeCards();
     return;
@@ -1063,7 +1067,7 @@ function paintSpan(){
   const {lo:a, hi:b} = state.span, pct = v => (v + 30) / 30 * 100;
   $("#span-fill").style.left = pct(a) + "%"; $("#span-fill").style.right = (100 - pct(b)) + "%";
   const f = addDays(todayISO(), a), t = addDays(todayISO(), b);
-  const n = state.news.filter(x => isValid(x) && x.publishedAt >= f && x.publishedAt <= t).length;
+  const n = state.news.filter(x => isValid(x) && x.publishedAt >= f && x.publishedAt <= t && (state.sort === "front" || !isBrief(x))).length;
   $("#span-txt").textContent = `${f === t ? fmtDate(f) : `${fmtDate(f)} – ${fmtDate(t)}`} · ${n} ${n===1?"noticia":"noticias"}`;
   $("#span-reset").hidden = (a === -3 && b === 0);
 }
