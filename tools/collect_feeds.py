@@ -19,6 +19,29 @@ def clean_url(u):
     return urlunparse((p.scheme, p.netloc.lower(), p.path.rstrip("/"), "", urlencode(q), ""))
 
 
+IMG_SKIP = re.compile(r"gravatar|pixel|feedburner|1x1|spacer|/emoji/|\.svg(\?|$)|logo", re.I)
+
+
+def image_of(e):
+    """Imagen principal que el propio medio publica en su feed (miniatura para las noticias fuera de portada)."""
+    cands = []
+    for key in ("media_content", "media_thumbnail"):
+        for m in e.get(key) or []:
+            if m.get("url") and (m.get("medium", "image") == "image" or str(m.get("type", "")).startswith("image")):
+                cands.append(m["url"])
+    for l in e.get("links") or []:
+        if l.get("rel") == "enclosure" and str(l.get("type", "")).startswith("image") and l.get("href"):
+            cands.append(l["href"])
+    for c in (e.get("content") or []) + [{"value": e.get("summary") or ""}]:
+        m = re.search(r"<img[^>]+src=[\"']([^\"']+)", c.get("value") or "", re.I)
+        if m:
+            cands.append(html.unescape(m.group(1)))
+    for u in cands:
+        if u.startswith("https://") and not IMG_SKIP.search(u):
+            return u
+    return ""
+
+
 def text(s, n=280):
     s = html.unescape(re.sub(r"<[^>]+>", " ", s or ""))
     s = re.sub(r"\s+", " ", s).strip()
@@ -40,6 +63,7 @@ def main():
     cfg = json.loads((ROOT / "feeds/feeds.json").read_text(encoding="utf-8"))
     news = json.loads((ROOT / "data/news.json").read_text(encoding="utf-8"))
     known_urls = {clean_url(n.get("url", "")) for n in news}
+    images = {}   # url limpia -> imagen del feed (también de noticias ya publicadas, para completar miniaturas)
     for n in news:
         for r in n.get("refs", []) or []:
             known_urls.add(clean_url(r.get("url", "")))
@@ -82,6 +106,9 @@ def main():
                         source = src
                         title = re.sub(r"\s+-\s+" + re.escape(src) + r"\s*$", "", title)
                 excerpt = "" if f.get("google") else text(e.get("summary") or e.get("description"))
+                img = "" if f.get("google") else image_of(e)
+                if link and img:
+                    images[clean_url(link)] = img
                 if f.get("filter") and not AVIATION.search(title + " " + excerpt):
                     continue
                 cu, nt = clean_url(link), norm_title(title)
@@ -98,12 +125,22 @@ def main():
                 items.append({
                     "title": title, "source": source, "url": link, "published": when.isoformat(timespec="minutes"),
                     "excerpt": excerpt, "feed": f["name"], "lang": f.get("lang", ""), "topic": f.get("topic", ""),
-                    "viaGoogle": bool(f.get("google")), "_w": words,
+                    "viaGoogle": bool(f.get("google")), "image": img, "_w": words,
                 })
                 st["kept"] += 1; kept += 1
         except Exception as ex:  # un feed caído no para el resto
             st["error"] = str(ex)[:200]
         status.append(st)
+    # Completa la miniatura de las noticias fuera de portada ya publicadas que aún no la tienen
+    filled = 0
+    for n in news:
+        if n.get("kind") == "brief" and not n.get("thumb"):
+            im = images.get(clean_url(n.get("url", "")))
+            if im:
+                n["thumb"] = im; filled += 1
+    if filled:
+        (ROOT / "data/news.json").write_text(json.dumps(news, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"miniaturas añadidas a {filled} noticias fuera de portada")
     items.sort(key=lambda x: x["published"], reverse=True)
     for i, it in enumerate(items, 1):
         it.pop("_w", None)
