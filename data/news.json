@@ -8576,5 +8576,84 @@
   "imageId": "abra-3t-2026-avianca-gol",
   "addedAt": "2026-11-19T08:24:33Z",
   "addedBy": "claude"
+ },
+ {
+  "id": "british-airways-abandona-zagreb-2027",
+  "title": "British Airways abandona Zagreb: cancela los seis vuelos semanales desde Heathrow de 2027",
+  "category": "NET",
+  "publishedAt": "2026-11-18",
+  "source": "EX-YU Aviation News",
+  "url": "https://www.exyuaviation.com/2026/11/british-airways-terminates-zagreb.html",
+  "summary": "British Airways ha cancelado los seis vuelos semanales entre Londres-Heathrow y Zagreb previstos para el verano de 2027 y ha retirado la ruta de la venta. De enero a septiembre, BA y Croatia Airlines llevaron 68.303 pasajeros en esa ruta, un 5,5% menos.",
+  "body": [
+   {
+    "t": "British Airways deja de volar a Zagreb: ha cancelado los seis vuelos semanales entre Londres-Heathrow y la capital croata previstos para el verano de 2027 y ha suspendido la venta de billetes, según informó EX-YU Aviation News el 18 de noviembre. Sus destinos en Croacia quedan reducidos a Dubrovnik y Split.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La aerolínea ya había eliminado los vuelos de invierno en la temporada 2025/26 y operaba la ruta solo en verano. En un comunicado a EX-YU Aviation News, BA explicó que revisa periódicamente su programa en función de factores como la estacionalidad y la demanda, y añadió: «Hemos pedido disculpas a los clientes afectados por la cancelación de nuestra ruta de Heathrow a Zagreb». Ofrece el reembolso completo o un cambio de vuelo.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Entre enero y septiembre de 2026, British Airways y Croatia Airlines, que competía en la misma ruta, transportaron juntas 68.303 pasajeros entre Heathrow y Zagreb, un 5,5% menos. En el mismo periodo, Ryanair llevó 142.473 pasajeros entre Stansted y Zagreb, un 20,8% más; la aerolínea irlandesa abrió esa ruta en 2021.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Es la segunda salida de peso en Zagreb, después de que Austrian Airlines anunciara el fin de sus vuelos en enero de 2027. BA mantiene Split desde Heathrow y London City, con una nueva ruta Edimburgo–Split desde mayo de 2027, y Dubrovnik desde Heathrow y Gatwick, con hasta 34 vuelos semanales a Croacia en el pico del verano de 2027.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "EX-YU Aviation News",
+    "url": "https://www.exyuaviation.com/2026/11/british-airways-terminates-zagreb.html",
+    "date": "2026-11-18"
+   },
+   {
+    "name": "Croatia Week",
+    "url": "https://www.croatiaweek.com/british-airways-cancels-zagreb-flights-2027/",
+    "date": "2026-11-18"
+   }
+  ],
+  "why": "Ilustra la presión de Ryanair, que crece desde Stansted, sobre las rutas europeas secundarias de British Airways en Heathrow; en Croacia, BA concentra su oferta en destinos de verano como Split y Dubrovnik.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 45,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/2506802c-bd12-43ca-83b3-6228cdd61212.jpeg",
+  "photoSource": "Croatia Week",
+  "art": {
+   "kind": "route",
+   "title": "British Airways cancela Heathrow–Zagreb",
+   "badge": "Verano 2027",
+   "points": [
+    {
+     "code": "LHR",
+     "city": "Londres",
+     "lat": 51.47,
+     "lon": -0.45
+    },
+    {
+     "code": "ZAG",
+     "city": "Zagreb",
+     "lat": 45.74,
+     "lon": 16.07
+    }
+   ]
+  },
+  "imageId": "british-airways-abandona-zagreb-2027",
+  "addedAt": "2026-11-19T08:28:37Z",
+  "addedBy": "claude"
  }
 ]
