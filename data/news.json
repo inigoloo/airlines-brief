@@ -8750,5 +8750,185 @@
     }
    ]
   }
+ },
+ {
+  "id": "b-easa-a380-24-largueros",
+  "kind": "brief",
+  "title": "La EASA amplía a 24 los A380 que deben revisar con urgencia los largueros del ala",
+  "summary": "La agencia suma ocho aviones a la lista anterior. Las inspecciones deben hacerse antes del próximo vuelo, en 25 ciclos o antes del 31 de enero de 2027; la causa es la fragilización por hidrógeno.",
+  "source": "Aviation Week",
+  "url": "https://aviationweek.com/mro/safety-ops-regulation/more-a380s-need-urgent-wing-spar-inspections-easa-says",
+  "publishedAt": "2026-11-17",
+  "category": "MRO",
+  "aiScore": 48,
+  "europe": true,
+  "paywall": true,
+  "addedAt": "2026-11-19T09:49:45Z",
+  "addedBy": "claude",
+  "en": {
+   "title": "EASA extends urgent wing spar inspections to 24 Airbus A380s",
+   "summary": "The agency adds eight aircraft to the earlier list. Inspections must be done before the next flight, within 25 cycles or by 31 January 2027; the cause is hydrogen embrittlement."
+  }
+ },
+ {
+  "id": "b-ade-transnusa-a320-mantenimiento",
+  "kind": "brief",
+  "title": "ADE se hace con el mantenimiento de línea de los A320 de TransNusa en Yakarta y Bali",
+  "summary": "Asia Digital Engineering, a través de su filial indonesia, atenderá a los Airbus A320 de la aerolínea en los aeropuertos de Soekarno-Hatta (Yakarta) e I Gusti Ngurah Rai (Denpasar).",
+  "source": "AviTrader",
+  "url": "https://avitrader.com/2026/11/19/ade-wins-transnusa-a320-maintenance-contract/",
+  "publishedAt": "2026-11-19",
+  "category": "MRO",
+  "aiScore": 40,
+  "addedAt": "2026-11-19T09:49:45Z",
+  "addedBy": "claude",
+  "en": {
+   "title": "ADE wins line maintenance for TransNusa A320s in Jakarta and Bali",
+   "summary": "Asia Digital Engineering, through its Indonesian subsidiary, will serve the airline's Airbus A320s at Soekarno-Hatta (Jakarta) and I Gusti Ngurah Rai (Denpasar) airports."
+  }
+ },
+ {
+  "id": "b-acg-norwegian-737-8-sale-leaseback",
+  "kind": "brief",
+  "title": "ACG entrega a Norwegian el primero de cuatro Boeing 737-8 en una venta con arrendamiento posterior",
+  "summary": "Los otros tres aviones llegarán a más tardar a comienzos de 2028. Los aparatos apoyan la renovación de la flota de Norwegian con modelos más nuevos y eficientes en combustible.",
+  "source": "AviTrader",
+  "url": "https://avitrader.com/2026/11/19/acg-delivers-boeing-737-8-to-norwegian/",
+  "publishedAt": "2026-11-19",
+  "category": "MRO",
+  "aiScore": 40,
+  "europe": true,
+  "addedAt": "2026-11-19T09:49:45Z",
+  "addedBy": "claude",
+  "en": {
+   "title": "ACG delivers first of four Boeing 737-8s to Norwegian in sale-and-leaseback deal",
+   "summary": "The other three aircraft will arrive by early 2028 at the latest. The jets support Norwegian's fleet renewal with newer, more fuel-efficient models."
+  }
+ },
+ {
+  "id": "b-orix-oris-fondo-leasing",
+  "kind": "brief",
+  "title": "ORIX lanza su primer fondo de arrendamiento de aviones junto a Sumitomo Mitsui Trust Bank",
+  "summary": "Oris Aviation Fund LP, de tipo cerrado, comprará una cartera de aviones arrendados a varias aerolíneas; ORIX gestionará el arrendamiento y SuMiTB actúa como agente de colocación.",
+  "source": "AviTrader",
+  "url": "https://avitrader.com/2026/11/19/orix-targets-institutional-investors-with-debut-leasing-fund/",
+  "publishedAt": "2026-11-19",
+  "category": "MRO",
+  "aiScore": 40,
+  "addedAt": "2026-11-19T09:49:45Z",
+  "addedBy": "claude",
+  "en": {
+   "title": "ORIX launches its first aircraft leasing fund with Sumitomo Mitsui Trust Bank",
+   "summary": "Oris Aviation Fund LP, a closed-end fund, will buy a portfolio of aircraft leased to several airlines; ORIX will manage the leasing and SuMiTB acts as placement agent."
+  }
+ },
+ {
+  "id": "b-haeco-vietnam-van-don-gerente",
+  "kind": "brief",
+  "title": "HAECO nombra a un directivo de Xiamen para dirigir su futuro taller de 360 M$ en Vietnam",
+  "summary": "Zhao Zengzhen asumirá HAECO Vietnam el 1 de abril de 2027. El centro de Van Don tendrá un hangar de fuselaje ancho de cuatro bahías; las obras empezarían en el 2T de 2027 y operaría a finales de 2028.",
+  "source": "AviTrader",
+  "url": "https://avitrader.com/2026/11/19/zhao-zengzhen-appointed-haeco-vietnam-general-manager/",
+  "publishedAt": "2026-11-19",
+  "category": "MRO",
+  "aiScore": 40,
+  "addedAt": "2026-11-19T09:49:45Z",
+  "addedBy": "claude",
+  "en": {
+   "title": "HAECO names a Xiamen executive to run its planned $360m maintenance centre in Vietnam",
+   "summary": "Zhao Zengzhen will take over HAECO Vietnam on 1 April 2027. The Van Don centre will have a four-bay widebody hangar; construction would start in Q2 2027 and operations in late 2028."
+  }
+ },
+ {
+  "id": "b-halifax-impacto-economico-2025",
+  "kind": "brief",
+  "title": "El aeropuerto de Halifax generó un impacto económico récord de 4.800 millones de dólares canadienses en 2025",
+  "summary": "Son unos 700 millones más que en 2024. Más de 6.300 personas trabajaban en el recinto y el aeropuerto recibió más de 4,1 millones de pasajeros, un 4% más.",
+  "source": "Airport World",
+  "url": "https://airport-world.com/halifax-stanfield-remains-key-economic-generator-for-nova-scotia-2/",
+  "thumb": "https://airport-world.com/wp-content/uploads/2025/10/Halifax.jpg",
+  "publishedAt": "2026-11-17",
+  "category": "APT",
+  "aiScore": 36,
+  "addedAt": "2026-11-19T09:49:45Z",
+  "addedBy": "claude",
+  "en": {
+   "title": "Halifax airport generated a record C$4.8bn economic impact in 2025",
+   "summary": "That is about C$700m more than in 2024. More than 6,300 people worked on the airport site and it handled over 4.1 million passengers, up 4%."
+  }
+ },
+ {
+  "id": "b-indigo-arabia-saudi-30-noviembre",
+  "kind": "brief",
+  "title": "IndiGo suspende hasta el 30 de noviembre sus vuelos a Yeda, Medina, Riad y Dammam",
+  "summary": "La aerolínea india amplía las cancelaciones por motivos de seguridad en Arabia Saudí. Air India y Air India Express mantienen suspendidos Riad y Dammam, y Akasa Air extendió sus cancelaciones a Yeda y Riad.",
+  "source": "Aviation A2Z",
+  "url": "https://aviationa2z.com/index.php/2026/11/19/indigo-cancels-flights-to-4-saudi-cities/",
+  "thumb": "https://aviationa2z.com/wp-content/uploads/2024/10/f8uy3tvu-1024x576.webp",
+  "publishedAt": "2026-11-19",
+  "category": "NET",
+  "aiScore": 44,
+  "addedAt": "2026-11-19T09:49:45Z",
+  "addedBy": "claude",
+  "en": {
+   "title": "IndiGo suspends flights to Jeddah, Medina, Riyadh and Dammam until 30 November",
+   "summary": "The Indian carrier extends cancellations over security concerns in Saudi Arabia. Air India and Air India Express keep Riyadh and Dammam suspended, and Akasa Air extended its cancellations to Jeddah and Riyadh."
+  }
+ },
+ {
+  "id": "b-american-a321neo-90-aviones",
+  "kind": "brief",
+  "title": "American alcanza los 90 Airbus A321neo y espera dos más y un A321XLR antes de que acabe 2026",
+  "summary": "La aerolínea estadounidense recibió su primer A321XLR en octubre de 2025, lo que la convirtió en el primer operador de ese modelo en Estados Unidos.",
+  "source": "Simple Flying",
+  "url": "https://simpleflying.com/american-airlines-airbus-a321neo-fleet-grows-90-2-more-1-a321xlr-years-end/",
+  "thumb": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/american_a321neo_golden_hour_1920x1080.jpg",
+  "publishedAt": "2026-11-18",
+  "category": "FLT",
+  "aiScore": 38,
+  "addedAt": "2026-11-19T09:49:45Z",
+  "addedBy": "claude",
+  "en": {
+   "title": "American reaches 90 Airbus A321neos and expects two more and one A321XLR before end-2026",
+   "summary": "The US airline received its first A321XLR in October 2025, becoming the first US operator of the type."
+  }
+ },
+ {
+  "id": "b-alaska-seattle-lisboa-slots",
+  "kind": "brief",
+  "title": "Alaska Airlines quiere volar Seattle–Lisboa con el 787, pero no obtuvo ninguno de los slots que pidió",
+  "summary": "Solicitó un servicio diario, pero la disponibilidad en Lisboa es limitada y solo en horarios concretos. Tendría que reducir la petición, por ejemplo a tres vuelos semanales, o aceptar horarios menos favorables.",
+  "source": "Simple Flying",
+  "url": "https://simpleflying.com/alaska-airlines-eyes-new-long-haul-boeing-787-route-but-theres-a-major-twist/",
+  "thumb": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/alaska-airlines-boeing-787-9-enhanced_cropped-1.jpg",
+  "publishedAt": "2026-11-18",
+  "category": "NET",
+  "aiScore": 38,
+  "europe": true,
+  "addedAt": "2026-11-19T09:49:45Z",
+  "addedBy": "claude",
+  "en": {
+   "title": "Alaska Airlines wants to fly Seattle–Lisbon with the 787 but got none of the slots it requested",
+   "summary": "It asked for a daily service, but availability at Lisbon is limited and only at specific times. It would have to cut its request, for example to three weekly flights, or accept less favourable times."
+  }
+ },
+ {
+  "id": "b-volotea-supresiones-rutas-francia",
+  "kind": "brief",
+  "title": "Volotea suprime rutas en Francia y avisa por correo a sus pasajeros en pleno recorte de operativa",
+  "summary": "Desde el 11 de noviembre la aerolínea escribe a muchos pasajeros en Francia. En octubre anunció que reduciría su operativa entre un 10% y un 11% para mejorar la rentabilidad.",
+  "source": "Preferente",
+  "url": "https://www.preferente.com/noticias-de-transportes/noticias-de-aerolineas/oleada-de-supresiones-de-rutas-de-volotea-en-francia-353102.html",
+  "thumb": "https://www.preferente.com/wp-content/uploads/2024/12/volotea-300x167.jpg",
+  "publishedAt": "2026-11-18",
+  "category": "NET",
+  "aiScore": 42,
+  "europe": true,
+  "addedAt": "2026-11-19T09:49:45Z",
+  "addedBy": "claude",
+  "en": {
+   "title": "Volotea cuts routes in France and emails passengers amid capacity reduction",
+   "summary": "Since 11 November the airline has been writing to many passengers in France. In October it announced it would cut its operations by 10% to 11% to improve profitability."
+  }
  }
 ]
