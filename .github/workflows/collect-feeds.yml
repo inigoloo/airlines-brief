@@ -2,9 +2,14 @@ name: Recoger candidatas (RSS)
 
 on:
   schedule:
-    # GitHub no admite zona horaria: dos horarios para que siempre haya una recogida a las 8:30 de Madrid
-    - cron: "30 7 * * 1-5"   # 08:30 en Madrid en invierno (09:30 en verano)
-    - cron: "30 6 * * 1-5"   # 08:30 en Madrid en verano (07:30 en invierno, recogida previa por si GitHub se retrasa)
+    # GitHub no admite zona horaria y su programador es "best effort": con carga alta retrasa o DESCARTA ejecuciones
+    # (así se perdieron las dos del 19-nov-2026). Por eso hay cuatro intentos en minutos poco concurridos (evitando :00 y :30).
+    # Cada intento solo hace commit si hay cambios. Además, las tareas de Destacadas y Breves lanzan esta recogida a mano
+    # (workflow_dispatch) si al empezar ven que feeds/candidates.json no es del día.
+    - cron: "7 6 * * 1-5"    # 07:07 Madrid en invierno · 08:07 en verano
+    - cron: "37 6 * * 1-5"   # 07:37 Madrid en invierno · 08:37 en verano
+    - cron: "7 7 * * 1-5"    # 08:07 Madrid en invierno · 09:07 en verano
+    - cron: "33 7 * * 1-5"   # 08:33 Madrid en invierno · 09:33 en verano
   workflow_dispatch:
   push:
     branches: [main]
