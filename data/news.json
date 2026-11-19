@@ -8361,7 +8361,26 @@
   },
   "imageId": "espana-pasajeros-internacionales-octubre-2026",
   "addedAt": "2026-11-19T08:24:33Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Spain welcomes 101.6m international air passengers to October, up 5.1%",
+   "summary": "Spain received 10.8m international air passengers in October, up 4.3%, and has 101.6m year to date, up 5.1%. Madrid-Barajas added 2.3m in the month (+4.8%) and Barcelona 1.9m (+2.1%). Seville was the fastest-growing airport, up 15.3%.",
+   "why": "International demand for Spain keeps growing. Barajas, Iberia's hub, is growing more than twice as fast as El Prat, Vueling's base, a useful signal for planning IAG's and its rivals' capacity in 2027.",
+   "body": [
+    {
+     "t": "Spain received 10.8m international air passengers in October, 4.3% more than a year earlier, according to Turespaña data published on 18 November. Over the first ten months of the year the cumulative total reached 101.6m, up 5.1%, equivalent to about 4.9m additional arrivals."
+    },
+    {
+     "t": "Europe accounted for 86.3% of October passengers, rising 4.1%, and the Americas 5.7%, up 4.8%; Asia grew 1.7%. The United Kingdom contributed about 2.3m passengers (+3.9%), Germany 1.5m (14.2% of the total, +2.9%) and Italy 1.06m (9.9%, +8.2%). France, with 6.9% of the total, fell 3.4%, and the Netherlands, with 4.7%, was down 0.3%."
+    },
+    {
+     "t": "By airport, Madrid-Barajas welcomed 2.3m international passengers in October, up 4.8%, and Barcelona 1.9m, up 2.1%. Seville recorded the strongest growth, at 15.3%."
+    },
+    {
+     "t": "The six leading autonomous communities accounted for 97% of arrivals, and all of them grew. The Valencian Community led the increase (+9.6%) and Catalonia recorded the smallest (+0.9%), while Madrid, Andalusia and the Valencian Community each gained more than 100,000 passengers. In Madrid, arrivals from the United Kingdom rose 14.9%."
+    }
+   ]
+  }
  },
  {
   "id": "air-europa-aagesen-declaracion-videoconferencia",
@@ -8432,7 +8451,26 @@
   },
   "imageId": "air-europa-aagesen-declaracion-videoconferencia",
   "addedAt": "2026-11-19T08:24:33Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Air Europa judge lets Aagesen testify by video link on 23 November",
+   "summary": "Judge José María Escribano of Madrid's Court of First Instance and Investigation No. 49 has agreed that Deputy Prime Minister Sara Aagesen may testify by videoconference on 23 November in the Air Europa case. The inquiry concerns the rescue of Air Europa, which included a €475m loan.",
+   "why": "Testimony from around ten senior officials on the €475m rescue keeps the judicial and political spotlight on Air Europa, Iberia's main rival in Madrid, during election week.",
+   "body": [
+    {
+     "t": "Judge José María Escribano, presiding over Investigation Court No. 49 in Madrid, has agreed that the third deputy prime minister and minister for the Ecological Transition, Sara Aagesen, may testify by videoconference in the case concerning the rescue of Air Europa, according to The Objective on 18 November. Aagesen has been summoned as a witness on 23 November at 9:30 and may appear from her office or her home."
+    },
+    {
+     "t": "The court is investigating the airline's public rescue, which included a loan of €475m. According to Moncloa.com, the rescue was approved by the Management Board of the Strategic Companies Solvency Support Fund (FASEE), of which Aagesen was a member, which is why she has been called to testify."
+    },
+    {
+     "t": "On the same day, 23 November, Ana de la Cueva, former Secretary of State for the Economy; Pilar Paneque, Deputy Secretary for Finance; the secretary general of SEPI, Francisco Javier Loriente; and Raúl Blanco are also summoned as witnesses. On 24 November, among others, former Secretary of State for Transport Pedro Saura, former Secretary General of the Treasury Carlos San Basilio, Manuel de la Rocha and Íñigo Errejón will appear."
+    },
+    {
+     "t": "The case was reopened in April 2026, focusing on former SEPI deputy chair Bartolomé Lora, who testified as a suspect on 3 July. According to The Objective, Lora admitted several meetings with Globalia, the airline's parent company, and with Javier Hidalgo, and denied any irregularities. The appearances coincide with the week of the 29 November general election."
+    }
+   ]
+  }
  },
  {
   "id": "copa-3t-2026-combustible",
@@ -8494,7 +8532,26 @@
   },
   "imageId": "copa-3t-2026-combustible",
   "addedAt": "2026-11-19T08:24:33Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Copa revenue up 31.9% in Q3, but fuel trims operating margin to 18.6%",
+   "summary": "Copa Holdings took in $1,204.4m in the third quarter of 2026, up 31.9%, and earned $175.8m (+1.4%). Its fuel cost rose 61.5% to $3.94 per gallon, and the operating margin fell 4.6 points to 18.6%.",
+   "why": "Copa, one of the most profitable airlines in the Americas, can no longer pass on all of its jet fuel cost through fares. It is a benchmark for the margin airlines with a strong presence in Latin America can defend.",
+   "body": [
+    {
+     "t": "Copa Holdings, parent of Copa Airlines, reported third-quarter 2026 results on 18 November, with revenue of $1,204.4m, up 31.9%, and operating profit of $224.4m, up 5.7%. Net profit was $175.8m, up 1.4%."
+    },
+    {
+     "t": "The operating margin came in at 18.6%, 4.6 points lower than a year earlier, and the net margin at 14.6%. The average fuel price rose 61.5% to $3.94 per gallon, lifting cost per available seat mile (CASM) to 10.2 cents, up 20.3%; excluding fuel, CASM grew 1.1% to 5.7 cents."
+    },
+    {
+     "t": "Capacity, measured in available seat miles, rose 16.3%, and the company carried 4,461,000 passengers, up 17.2%, with a load factor of 88.7%. Revenue per available seat mile (RASM) rose 13.5% to 12.6 cents. According to FlightGlobal, Copa recovered 86% of the higher fuel cost through revenue and has lowered its full-year forecast."
+    },
+    {
+     "t": "The airline estimates that the Panama earthquake, which forced the cancellation of about 295 flights on 9 and 10 October, will cut between $12m and $14m net from its fourth-quarter operating profit. The board ratified a fourth dividend of the year of $1.71 per share, payable on 15 December."
+    }
+   ]
+  }
  },
  {
   "id": "abra-3t-2026-avianca-gol",
@@ -8575,7 +8632,26 @@
   },
   "imageId": "abra-3t-2026-avianca-gol",
   "addedAt": "2026-11-19T08:24:33Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Abra, parent of Avianca and Gol, earns $63m in Q3 and lifts revenue 22%",
+   "summary": "Abra Group, parent of Avianca and Gol, earned $63m in the third quarter, against losses of $100m a year earlier. Revenue rose 22% to $3.09bn, and its fuel expense climbed 66.1%, of which it recovered 93% commercially.",
+   "why": "Premium business offsets jet fuel costs in Latin America, but Avianca, Iberia and Air Europa's rival in Colombia, is losing margin while Gol carries the group: a figure to watch in competition with Madrid.",
+   "body": [
+    {
+     "t": "Abra Group, the holding company for Avianca and Gol, published its third-quarter 2026 results on 18 November, with operating revenue of $3.09bn, up 22%, and operating profit of $293m, up 5.6%. The net result was a profit of $63m, compared with losses of $100m a year earlier."
+    },
+    {
+     "t": "Fuel expense rose 66.1% to $1.013bn, close to a third of revenue according to Aviacionline, and the group says it recovered 93% of that increase commercially. Premium revenue grew 64% and now accounts for 26% of passenger revenue."
+    },
+    {
+     "t": "Gol took in $1.26bn (+23.5%) and lifted its adjusted EBITDAR 61% to $531m, a margin of 42.2%. Avianca billed $1.83bn (+21.3%), but its adjusted EBITDAR fell 3.1% to $398m, a margin of 21.7%."
+    },
+    {
+     "t": "Group capacity grew 7.3% to 33.1bn available seat kilometres, and it carried 19m passengers, up 2.5%. It closed September with liquidity of $1.96bn and net leverage of 3.7 times. Its chief executive, Adrian Neuhauser, said: “We delivered solid third-quarter results, with continued revenue growth.”"
+    }
+   ]
+  }
  },
  {
   "id": "british-airways-abandona-zagreb-2027",
@@ -8654,6 +8730,25 @@
   },
   "imageId": "british-airways-abandona-zagreb-2027",
   "addedAt": "2026-11-19T08:28:37Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "British Airways quits Zagreb, cancelling six weekly Heathrow flights for 2027",
+   "summary": "British Airways has cancelled the six weekly London Heathrow–Zagreb flights planned for summer 2027 and withdrawn the route from sale. From January to September, BA and Croatia Airlines carried 68,303 passengers on the route, down 5.5%.",
+   "why": "It illustrates the pressure from Ryanair, which is growing from Stansted, on British Airways' secondary European routes at Heathrow. In Croatia, BA is concentrating its capacity on summer destinations such as Split and Dubrovnik.",
+   "body": [
+    {
+     "t": "British Airways is leaving Zagreb: it has cancelled the six weekly flights between London Heathrow and the Croatian capital planned for summer 2027 and suspended ticket sales, according to EX-YU Aviation News on 18 November. Its destinations in Croatia are now reduced to Dubrovnik and Split."
+    },
+    {
+     "t": "The airline had already dropped its winter flights in the 2025/26 season and operated the route only in summer. In a statement to EX-YU Aviation News, BA said it regularly reviews its schedule based on factors such as seasonality and demand, adding: “We have apologised to customers affected by the cancellation of our Heathrow to Zagreb route.” Customers are offered a full refund or a change of flight."
+    },
+    {
+     "t": "Between January and September 2026, British Airways and Croatia Airlines, which competed on the same route, carried a combined 68,303 passengers between Heathrow and Zagreb, down 5.5%. Over the same period, Ryanair carried 142,473 passengers between Stansted and Zagreb, up 20.8%; the Irish carrier opened that route in 2021."
+    },
+    {
+     "t": "This is the second major departure from Zagreb, after Austrian Airlines announced the end of its flights in January 2027. BA keeps Split from Heathrow and London City, with a new Edinburgh–Split route from May 2027, and Dubrovnik from Heathrow and Gatwick, with up to 34 weekly flights to Croatia at the peak of summer 2027."
+    }
+   ]
+  }
  }
 ]
