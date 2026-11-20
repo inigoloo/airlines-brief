@@ -9202,5 +9202,217 @@
   },
   "addedAt": "2026-11-20T08:30:25Z",
   "addedBy": "claude"
+ },
+ {
+  "id": "b-embraer-envoy-mantenimiento-ejet",
+  "kind": "brief",
+  "title": "Embraer amplía su contrato de mantenimiento pesado de E-Jets con Envoy Air",
+  "summary": "Embraer anunció el 19 de noviembre que ha prorrogado y ampliado el acuerdo de mantenimiento pesado con la aerolínea regional estadounidense Envoy Air.",
+  "en": {
+   "title": "Embraer extends heavy maintenance deal for E-Jets with Envoy Air",
+   "summary": "Embraer announced on 19 November that it has extended and expanded its heavy maintenance agreement with US regional carrier Envoy Air."
+  },
+  "source": "AeroTime",
+  "url": "https://www.aerotime.aero/articles/embraer-and-envoy-air-extend-e-jet-heavy-maintenance-deal-as-us-mro-demand-grows",
+  "thumb": "https://www.aerotime.aero/images/2026/10/Recently-Saved-1-of-1-15-1-80x80.jpeg",
+  "publishedAt": "2026-11-19",
+  "category": "MRO",
+  "aiScore": 44,
+  "addedAt": "2026-11-20T08:48:55Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-easyjet-adria-tehnika-mantenimiento-base",
+  "kind": "brief",
+  "title": "EasyJet integra el mantenimiento de base con Adria Tehnika, comprada por 4,1 millones de euros",
+  "summary": "EasyJet cerró en octubre la compra del taller esloveno, que ya hizo más de 200 revisiones mayores de su flota Airbus (el 60% de las de 2026). El taller se inauguró el 13 de noviembre en Liubliana.",
+  "en": {
+   "title": "EasyJet brings base maintenance in-house with €4.1m Adria Tehnika purchase",
+   "summary": "EasyJet completed the purchase of the Slovenian shop in October; it has carried out over 200 major checks on its Airbus fleet (60% of its 2026 checks). The facility was officially opened in Ljubljana on 13 November."
+  },
+  "source": "Aviation Week",
+  "url": "https://aviationweek.com/mro/aircraft-propulsion/easyjet-brings-base-maintenance-house-adria-tehnika-deal",
+  "publishedAt": "2026-11-18",
+  "category": "MRO",
+  "aiScore": 48,
+  "iagImpact": "indirecto",
+  "europe": true,
+  "addedAt": "2026-11-20T08:48:55Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-acciona-t2-prat-reforma-licitacion",
+  "kind": "brief",
+  "title": "Acciona puja en solitario por la reforma de la terminal T2 de El Prat",
+  "summary": "Acciona concurre, junto a Tecmosa, a uno de los grandes contratos de la remodelación del aeropuerto de Barcelona, que se licitan por 65 millones de euros con IVA.",
+  "en": {
+   "title": "Acciona bids alone for the refurbishment of Barcelona El Prat Terminal 2",
+   "summary": "Acciona is bidding, alongside Tecmosa, for one of the main contracts in the Barcelona airport remodelling, tendered at €65m including VAT."
+  },
+  "source": "Expansión – Transporte",
+  "url": "https://www.expansion.com/catalunya/2026/11/20/acciona-puja-solitario-reforma-terminal-t2-aeropuerto-prat.html",
+  "thumb": "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2026/11/20/17951317993387.jpg",
+  "publishedAt": "2026-11-19",
+  "category": "APT",
+  "aiScore": 45,
+  "europe": true,
+  "addedAt": "2026-11-20T08:48:55Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-emirates-pide-cien-a380-mas",
+  "kind": "brief",
+  "title": "Emirates presiona a Airbus para que fabrique otros cien A380",
+  "summary": "La aerolínea de Dubái, mayor operador del A380, insiste en pedir más unidades de ese avión, que según ella sigue siendo una gran fuente de beneficios.",
+  "en": {
+   "title": "Emirates presses Airbus to build another 100 A380s",
+   "summary": "The Dubai carrier, the largest A380 operator, keeps pushing for more of the type, which it says remains a major source of profit."
+  },
+  "source": "Preferente",
+  "url": "https://www.preferente.com/noticias-de-transportes/noticias-de-aerolineas/emirates-presiona-a-airbus-quiere-comprar-otros-cien-a380-353124.html",
+  "thumb": "https://www.preferente.com/wp-content/uploads/2025/11/A380-EMIRATES-e1763640271677-300x183.jpg",
+  "publishedAt": "2026-11-19",
+  "category": "FLT",
+  "aiScore": 46,
+  "addedAt": "2026-11-20T08:48:55Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-willis-porter-e195-e2-financiacion",
+  "kind": "brief",
+  "title": "Willis Lease financia dos E195-E2 nuevos que recibe la canadiense Porter Airlines",
+  "summary": "La financiación, estructurada en dos tramos a medida de Porter, cubre la entrega de dos Embraer E195-E2 a la aerolínea canadiense.",
+  "en": {
+   "title": "Willis Lease finances two new E195-E2s delivered to Canada’s Porter Airlines",
+   "summary": "The two-tranche financing, tailored to Porter, covers delivery of two Embraer E195-E2s to the Canadian airline."
+  },
+  "source": "AviTrader",
+  "url": "https://avitrader.com/2026/11/19/willis-lease-finances-two-porter-e195-e2-deliveries/",
+  "publishedAt": "2026-11-19",
+  "category": "MRO",
+  "aiScore": 40,
+  "addedAt": "2026-11-20T08:48:55Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-kanematsu-participacion-aes-motores",
+  "kind": "brief",
+  "title": "Kanematsu toma una participación en la estadounidense Aero Engine Solutions",
+  "summary": "La japonesa Kanematsu, a través de su filial Kanematsu USA, entra en el capital de AES para reforzar su presencia en el mercado posventa de motores.",
+  "en": {
+   "title": "Kanematsu takes a stake in US-based Aero Engine Solutions",
+   "summary": "Japan’s Kanematsu, through subsidiary Kanematsu USA, has invested in AES to expand its presence in the engine aftermarket."
+  },
+  "source": "AviTrader",
+  "url": "https://avitrader.com/2026/11/20/kanematsu-takes-stake-in-us-engine-specialist-aes/",
+  "publishedAt": "2026-11-20",
+  "category": "MRO",
+  "aiScore": 38,
+  "addedAt": "2026-11-20T08:48:55Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-wlfc-compra-dos-a320",
+  "kind": "brief",
+  "title": "Willis Lease compra dos Airbus A320 y diversifica más allá de los motores",
+  "summary": "WLFC ha cerrado la adquisición de dos A320 para ampliar su cartera de activos, más allá de su negocio central de arrendamiento de motores.",
+  "en": {
+   "title": "Willis Lease buys two Airbus A320s, diversifying beyond engines",
+   "summary": "WLFC has completed the acquisition of two Airbus A320s to broaden its asset portfolio beyond its core engine leasing business."
+  },
+  "source": "AviTrader",
+  "url": "https://avitrader.com/2026/11/20/willis-lease-adds-two-airbus-a320s/",
+  "publishedAt": "2026-11-20",
+  "category": "MRO",
+  "aiScore": 38,
+  "addedAt": "2026-11-20T08:48:55Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-trelleborg-farsound-cadena-suministro",
+  "kind": "brief",
+  "title": "Trelleborg y Farsound firman un memorando para mejorar la cadena de suministro posventa",
+  "summary": "Trelleborg Sealing Solutions Aerospace y Farsound Aviation explorarán mejoras del suministro de recambios y del apoyo al cliente. El acuerdo se firmó en MRO Europe.",
+  "en": {
+   "title": "Trelleborg and Farsound sign MoU to improve aftermarket supply chain",
+   "summary": "Trelleborg Sealing Solutions Aerospace and Farsound Aviation will explore improvements to aftermarket supply and customer support. It was signed at MRO Europe."
+  },
+  "source": "AviTrader",
+  "url": "https://avitrader.com/2026/11/20/trelleborg-and-farsound-target-aftermarket-supply-chain/",
+  "publishedAt": "2026-11-20",
+  "category": "MRO",
+  "aiScore": 36,
+  "addedAt": "2026-11-20T08:48:55Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-cebu-pacific-a320neo-navidad",
+  "kind": "brief",
+  "title": "Cebu Pacific incorpora otro A320neo ante la temporada navideña filipina",
+  "summary": "La aerolínea filipina suma una nueva aeronave a su flota a pocas semanas de la época de mayor tráfico de viajeros en el país.",
+  "en": {
+   "title": "Cebu Pacific adds another A320neo ahead of Philippine Christmas season",
+   "summary": "The Philippine carrier has added another aircraft to its fleet just weeks before the country’s busiest travel season."
+  },
+  "source": "AeroTime",
+  "url": "https://www.aerotime.aero/articles/cebu-pacific-takes-delivery-of-new-a320neo-ahead-of-the-christmas-travel-rush",
+  "thumb": "https://www.aerotime.aero/images/2026/11/Dreamer-Plane-1.jpg-1200x750.jpeg",
+  "publishedAt": "2026-11-20",
+  "category": "FLT",
+  "aiScore": 35,
+  "addedAt": "2026-11-20T08:48:55Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-tap-nueva-ruta-eeuu-marzo-2027",
+  "kind": "brief",
+  "title": "TAP Air Portugal añadirá una nueva ruta a Estados Unidos desde marzo de 2027",
+  "summary": "La aerolínea portuguesa estrenará el servicio en marzo de 2027, según AirlineGeeks.",
+  "en": {
+   "title": "TAP Air Portugal to add new US route from March 2027",
+   "summary": "The Portuguese carrier will launch the service in March 2027, according to AirlineGeeks."
+  },
+  "source": "AirlineGeeks",
+  "url": "https://airlinegeeks.com/2026/11/19/tap-air-portugal-adds-new-route-to-u-s/",
+  "publishedAt": "2026-11-19",
+  "category": "NET",
+  "aiScore": 40,
+  "europe": true,
+  "addedAt": "2026-11-20T08:48:55Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-southwest-french-bee-interline",
+  "kind": "brief",
+  "title": "Southwest e French Bee firman un acuerdo interline con Los Ángeles, Miami y San Francisco como puertas",
+  "summary": "Las dos aerolíneas conectarán sus redes mediante interline, usando Los Ángeles, Miami y San Francisco como puntos de enlace.",
+  "en": {
+   "title": "Southwest and French Bee sign interline deal via Los Angeles, Miami and San Francisco",
+   "summary": "The two airlines will connect their networks via interline, using Los Angeles, Miami and San Francisco as gateways."
+  },
+  "source": "AirlineGeeks",
+  "url": "https://airlinegeeks.com/2026/11/19/southwest-signs-interline-deal-with-french-bee/",
+  "publishedAt": "2026-11-19",
+  "category": "NET",
+  "aiScore": 36,
+  "addedAt": "2026-11-20T08:48:55Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-jetblue-tres-conexiones-latam-caribe",
+  "kind": "brief",
+  "title": "JetBlue lanzará tres conexiones nuevas con Latinoamérica y el Caribe a finales del invierno",
+  "summary": "Dos de las conexiones serán todo el año y una temporal. Se suman a la expansión de JetBlue en la región.",
+  "en": {
+   "title": "JetBlue to launch three new Latin America and Caribbean links in late winter",
+   "summary": "Two of the connections will be year-round and one temporary, adding to JetBlue’s expansion in the region."
+  },
+  "source": "AirlineGeeks",
+  "url": "https://airlinegeeks.com/2026/11/19/jetblue-adds-new-destination-in-latin-america-caribbean-expansion/",
+  "publishedAt": "2026-11-19",
+  "category": "NET",
+  "aiScore": 35,
+  "addedAt": "2026-11-20T08:48:55Z",
+  "addedBy": "claude"
  }
 ]
