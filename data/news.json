@@ -9351,22 +9351,66 @@
  },
  {
   "id": "b-easyjet-adria-tehnika-mantenimiento-base",
-  "kind": "brief",
-  "title": "EasyJet integra el mantenimiento de base con Adria Tehnika, comprada por 4,1 millones de euros",
-  "summary": "EasyJet cerró en octubre la compra del taller esloveno, que ya hizo más de 200 revisiones mayores de su flota Airbus (el 60% de las de 2026). El taller se inauguró el 13 de noviembre en Liubliana.",
-  "en": {
-   "title": "EasyJet brings base maintenance in-house with €4.1m Adria Tehnika purchase",
-   "summary": "EasyJet completed the purchase of the Slovenian shop in October; it has carried out over 200 major checks on its Airbus fleet (60% of its 2026 checks). The facility was officially opened in Ljubljana on 13 November."
-  },
+  "title": "EasyJet internaliza su mantenimiento de base con la compra del taller esloveno Adria Tehnika",
+  "category": "MRO",
+  "publishedAt": "2026-11-18",
   "source": "Aviation Week",
   "url": "https://aviationweek.com/mro/aircraft-propulsion/easyjet-brings-base-maintenance-house-adria-tehnika-deal",
-  "publishedAt": "2026-11-18",
-  "category": "MRO",
-  "aiScore": 48,
+  "summary": "EasyJet completó en octubre la compra del taller esloveno Adria Tehnika por 4,1 millones de euros y lo inauguró oficialmente el 13 de noviembre en el aeropuerto de Liubliana. El taller, con cinco líneas y unos 250 empleados, ya ha hecho más de 200 revisiones mayores para la aerolínea.",
+  "body": [
+   {
+    "t": "EasyJet ha incorporado a su organización el mantenimiento de base con la compra del taller esloveno Adria Tehnika, una operación de 4,1 millones de euros (4,5 millones de dólares) completada en octubre, según publicó Aviation Week el 18 de noviembre. El acuerdo de compra se firmó el 5 de diciembre de 2025, y el 13 de noviembre se celebró la inauguración oficial de la instalación en el aeropuerto de Liubliana.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Adria Tehnika dispone de hangares con cinco líneas de mantenimiento y unos 250 empleados. Según el taller, desde hace una década ha realizado más de 200 revisiones mayores para easyJet, que concentra el 60% de las revisiones de Adria Tehnika en 2026. Cuando anunció el acuerdo, easyJet describió la instalación, situada en Brnik (Eslovenia), como un centro de mantenimiento de aviones de cinco bahías.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Según Aviation Week, la compra responde a la misma estrategia de mantenimiento propio que llevó a easyJet a adquirir SR Technics en Malta. El medio recoge, citando a The Slovenia Times, que la aerolínea planea nuevas inversiones en el taller, entre ellas un nuevo hangar.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El consejero delegado del aeropuerto de Liubliana, Jürgen Deischl, afirmó que «la inversión de easyJet en Adria Tehnika es estratégicamente importante para el aeropuerto de Liubliana y para el sector aeronáutico de Eslovenia». Adria Tehnika nació en 1961 dentro de Adria Airways, la antigua aerolínea de bandera eslovena, y se separó de ella en 2010; Adria Airways quebró en octubre de 2019.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Aviation Week",
+    "url": "https://aviationweek.com/mro/aircraft-propulsion/easyjet-brings-base-maintenance-house-adria-tehnika-deal",
+    "date": "2026-11-18"
+   },
+   {
+    "name": "easyJet (nota de prensa)",
+    "url": "https://www.easyjet.com/en/news/airline/story/easyjet-to-acquire-adria-tehnika-maintenance-facility",
+    "date": "2025-12-03"
+   }
+  ],
+  "why": "Una gran aerolínea europea y competidora directa de IAG lleva a casa su mantenimiento pesado de Airbus, un movimiento que resta carga a los talleres independientes y que conviene seguir desde Iberia Mantenimiento.",
   "iagImpact": "indirecto",
   "europe": true,
-  "addedAt": "2026-11-20T08:48:55Z",
-  "addedBy": "claude"
+  "aiScore": 60,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/e0feebef-b638-43d8-a86d-01cc9e8b9818.jpeg",
+  "imageId": "b-easyjet-adria-tehnika-mantenimiento-base",
+  "photoSource": "Aviation Week (Adria Tehnika)",
+  "addedAt": "2026-11-20T12:52:48Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "big",
+   "value": "4,1 M€",
+   "label": "precio de compra de Adria Tehnika",
+   "sub": "5 líneas de mantenimiento y unos 250 empleados"
+  }
  },
  {
   "id": "b-acciona-t2-prat-reforma-licitacion",
