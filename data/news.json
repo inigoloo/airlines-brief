@@ -7863,6 +7863,25 @@
    "value": "28",
    "label": "asientos Premium Economy por A330",
    "sub": "Recaro R4, configuración 2-3-2"
+  },
+  "en": {
+   "title": "Aer Lingus launches Premium Economy on 10 refurbished A330s and door-equipped Business suites",
+   "summary": "Aer Lingus will refit 10 Airbus A330s with its first Premium Economy cabin, featuring 28 Recaro R4 seats, and 28 Collins Elevation Business suites with doors. The first refitted aircraft will begin flying on 1 October 2027 between Dublin and New York JFK.",
+   "why": "Aer Lingus adds a Premium Economy tier for the first time and upgrades its Business product on the North Atlantic, widening IAG's premium offer out of its Dublin hub against transatlantic competition.",
+   "body": [
+    {
+     "t": "Aer Lingus, an IAG airline, announced on 18 November the refurbishment of 10 Airbus A330s on its long-haul fleet, which will have Business, Premium Economy and Economy cabins. It is the first time the airline has offered Premium Economy. According to AeroTime, the first refitted aircraft will enter service on 1 October 2027 on selected flights between Dublin and New York JFK (EI104 and EI105), and the new cabin will extend to other North American routes as more aircraft arrive."
+    },
+    {
+     "t": "Premium Economy will have 28 Recaro R4 seats in a 2-3-2 configuration, with 38 inches of seat pitch, 8 inches of recline, an integrated footrest and side wings for added privacy. The service will include a three-course meal, complimentary drinks, bedding, an amenity kit and noise-cancelling headphones."
+    },
+    {
+     "t": "In Business, the airline will install 28 Collins Elevation suites in a 1-2-1 configuration, with direct aisle access, a door and a fully flat bed which, according to AeroTime, measures 78 inches. All cabins will get larger 4K screens, Bluetooth headphone connectivity, USB-C charging and Starlink Wi-Fi, which AeroTime describes as free."
+    },
+    {
+     "t": "Aer Lingus chief executive Lynne Embleton said that “this investment is much more than the introduction of a new cabin”. AeroTime places it among the airline's most significant investments in more than a decade, without disclosing the amount. According to ch-aviation data cited by that outlet, Aer Lingus operates 10 A330-300s and two A330-200s; AirlineGeeks notes that the airline flies to 20 destinations in the United States, Canada and Mexico."
+    }
+   ]
   }
  },
  {
@@ -9410,6 +9429,25 @@
    "value": "4,1 M€",
    "label": "precio de compra de Adria Tehnika",
    "sub": "5 líneas de mantenimiento y unos 250 empleados"
+  },
+  "en": {
+   "title": "easyJet brings base maintenance in-house with the purchase of Slovenian workshop Adria Tehnika",
+   "summary": "easyJet completed the purchase of Slovenian workshop Adria Tehnika for €4.1m in October and officially opened it on 13 November at Ljubljana airport. The facility, with five lines and around 250 employees, has already carried out more than 200 heavy checks for the airline.",
+   "why": "A major European airline and direct IAG competitor is bringing its heavy Airbus maintenance in-house, a move that takes work away from independent workshops and is worth tracking from Iberia Maintenance.",
+   "body": [
+    {
+     "t": "easyJet has brought base maintenance into its organisation with the purchase of Slovenian workshop Adria Tehnika, a €4.1m (US$4.5m) transaction completed in October, according to Aviation Week on 18 November. The purchase agreement was signed on 5 December 2025, and the official opening of the facility at Ljubljana airport took place on 13 November."
+    },
+    {
+     "t": "Adria Tehnika has hangars with five maintenance lines and around 250 employees. According to the workshop, it has carried out more than 200 heavy checks for easyJet over the past decade, and easyJet accounts for 60% of Adria Tehnika's checks in 2026. When it announced the deal, easyJet described the facility, located in Brnik (Slovenia), as a five-bay aircraft maintenance centre."
+    },
+    {
+     "t": "According to Aviation Week, the purchase follows the same in-house maintenance strategy that led easyJet to acquire SR Technics in Malta. Citing The Slovenia Times, the outlet reports that the airline plans further investment in the workshop, including a new hangar."
+    },
+    {
+     "t": "Ljubljana airport chief executive Jürgen Deischl said that “easyJet's investment in Adria Tehnika is strategically important for Ljubljana airport and for Slovenia's aviation sector”. Adria Tehnika was founded in 1961 within Adria Airways, Slovenia's former flag carrier, and separated from it in 2010; Adria Airways collapsed in October 2019."
+    }
+   ]
   }
  },
  {
@@ -9655,6 +9693,25 @@
      "l": "Alemania",
      "v": -3,
      "t": "-3%"
+    }
+   ]
+  },
+  "en": {
+   "title": "UK airline capacity falls 1% in November, according to UBS, while Spain rises 5%",
+   "summary": "According to UBS data reported by Proactive, UK airline capacity fell 1% year on year in the first two weeks of November, after growing 1% in October. Spain and Italy rose 5%, while Germany fell 3% and France 1%.",
+   "why": "It highlights a split within IAG: British Airways' home market is losing capacity while Spain, home to Iberia and Vueling, grows 5%, a figure to watch for winter pricing and margins.",
+   "body": [
+    {
+     "t": "UK airline capacity fell 1% year on year in the first two weeks of November, according to UBS data published by Proactive on 20 November, which links the figure to the market of IAG, owner of British Airways. The decline reverses the 1% growth recorded in October and, according to the outlet, reflects a broader slowdown across the major aviation markets."
+    },
+    {
+     "t": "In Europe, Spain and Italy continued to outpace the UK, France and Germany. Italy grew 5%, down from 8% in October, and Spain also rose 5%; Germany contracted 3% after growing 1% in October, and France fell 1%."
+    },
+    {
+     "t": "Outside Europe, capacity in the United States fell 6% year on year, compared with a 2% decline in October, with a 7% drop in the domestic market and a 3% fall in international. In China, total capacity was flat, after growing 4% in October: domestic fell 3% while international rose 8%."
+    },
+    {
+     "t": "By airline, in October British Airways increased its capacity by 1%, easyJet by 5%, Ryanair by 2% and Wizz Air by 16%. UBS compiles these figures from flight schedule and available seat-kilometre data up to 15 November, as a leading indicator of official traffic reports."
     }
    ]
   }
