@@ -287,7 +287,9 @@ html[lang="es"] .langsw [data-lang="es"],html[lang="en"] .langsw [data-lang="en"
 .span-bar input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;pointer-events:auto;width:18px;height:18px;border-radius:50%;background:var(--ink);border:3px solid var(--bg);box-shadow:0 0 0 1px var(--ink);cursor:grab;margin-top:0}
 .span-bar input[type=range]::-moz-range-thumb{pointer-events:auto;width:14px;height:14px;border-radius:50%;background:var(--ink);border:3px solid var(--bg);box-shadow:0 0 0 1px var(--ink);cursor:grab}
 .span-bar input[type=range]:focus-visible::-webkit-slider-thumb{outline:2px solid var(--accent,#F2B544);outline-offset:2px}
-.span-scale{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);margin-top:2px}
+.span-dates{position:relative;height:16px;margin:0 0 2px}
+.span-d{position:absolute;top:0;font:600 11px/16px var(--f-body);color:var(--ink);white-space:nowrap;transform:translateX(-50%)}
+.span-d[hidden]{display:none}
 .sortbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;padding:12px 0 10px;border-bottom:1px solid var(--line);margin-bottom:14px}
 .sb-k{font-family:var(--f-display);font-weight:600;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 .sb-opts{display:flex;flex-wrap:wrap;gap:6px}
@@ -442,7 +444,7 @@ footer.foot{border-top:3px double var(--rule);padding-block:14px 30px;font-size:
           <input type="range" id="span-lo" min="-30" max="0" step="1" value="-3" aria-label="Desde (días atrás)">
           <input type="range" id="span-hi" min="-30" max="0" step="1" value="0" aria-label="Hasta (días atrás)">
         </div>
-        <div class="span-scale"><span>Hace 30 días</span><span>Hace 15 días</span><span>Hoy</span></div>
+        <div class="span-dates"><span id="span-dlo" class="span-d"></span><span id="span-dhi" class="span-d"></span></div>
       </div>
       <div id="portal"><div class="empty">Cargando noticias…</div></div>
     </section>
@@ -524,7 +526,7 @@ const EN = {
   "Próxima edición":"Next edition","Fuentes":"Sources","Historial":"History","Estadísticas":"Statistics","Añadir noticia":"Add story",
   "Buscar":"Search","Limpiar":"Clear","Periodo":"Period","Últimos 3 días":"Last 3 days","Hace 30 días":"30 days ago","Hace 15 días":"15 days ago","Hoy":"Today",
   "Ordenar":"Sort","Más recientes":"Latest","Más votadas":"Most liked","Más relevantes":"Most relevant","Fuera de portada":"Off the front page",
-  "Las noticias del periodo elegido en la barra, de más a menos importante; al final, las de fuera de portada.":"Stories from the period chosen on the bar, most important first; off-the-front-page stories at the end.",
+  "Las noticias del periodo elegido en la barra, de más a menos importante.":"Stories from the period chosen on the bar, most important first.",
   "Ordenadas por fecha de publicación, de la más nueva a la más antigua.":"Sorted by publication date, newest first.",
   "Ordenadas por likes del equipo; a igualdad de likes, por relevancia.":"Sorted by the team's likes; ties broken by relevance.",
   "Criterio editorial de The Airlines Brief: primero lo que afecta directamente a IAG, después lo que le afecta indirectamente, después Europa y después el resto; dentro de cada nivel, por importancia de la noticia.":"The Airlines Brief's editorial criteria: first what directly affects IAG, then what affects it indirectly, then Europe, then the rest; within each level, by importance.",
@@ -553,7 +555,7 @@ const EN = {
 const EN_PARTS = [
   ["Las noticias del periodo elegido en la barra","Stories from the period chosen on the bar"],
   ["el enlace lleva a la noticia original","the link goes to the original story"],
-  ["Fuera de portada: resumen de The Airlines Brief con enlace a la noticia original","Off the front page: The Airlines Brief summary with a link to the original story"],
+  ["Más noticias: resumen de The Airlines Brief con enlace a la noticia original","More news: The Airlines Brief summary with a link to the original story"],
   ["Semanal · Próxima edición Nº","Weekly · Next edition No."],
   ["noticias fuera de portada","off-the-front-page stories"],["noticia fuera de portada","off-the-front-page story"],
   ["Resultados de «","Results for «"],["Leer en ","Read on "],["Más en ","More in "],["Foto: ","Photo: "],
@@ -890,22 +892,23 @@ function briefsHTML(items, t, inSel, grouped){
 function renderPortal(){
   const box = $("#portal");
   if(!state.loaded) return;
-  // Barra de periodo: en la portada con «Portada», «Más votadas» y «Más relevantes»
-  const spanOn = state.section === "ALL" && ["front","votes","relevant"].includes(state.sort) && !state.q;
+  // Barra de periodo: en la portada y en todas las secciones, con cualquier orden (no en el buscador)
+  const spanOn = !state.q;
   $("#span").hidden = !spanOn;
   if(!$("#span").hidden) paintSpan();
   const ranged = !!(state.from || state.to);
   const inRange = n => (!state.from || n.publishedAt >= state.from) && (!state.to || n.publishedAt <= state.to);
   // Portada shows the last month; the sections show every stored news item. The date filter, when set, overrides both.
   const webCutoff = (() => { const d = new Date(todayISO() + "T12:00:00Z"); d.setUTCMonth(d.getUTCMonth() - 1); return d.toISOString().slice(0, 10); })();
-  const valid = state.news.filter(n => isValid(n) && (ranged ? inRange(n) : (state.section !== "ALL" || n.publishedAt >= webCutoff)));
+  const sf = addDays(todayISO(), state.span.lo), st = addDays(todayISO(), state.span.hi);
+  const valid = state.news.filter(n => isValid(n) && (ranged ? inRange(n) : (n.publishedAt >= sf && n.publishedAt <= st)));
   const rangeTxt = ranged ? (state.from && state.to ? `del ${fmtDate(state.from)} al ${fmtDate(state.to)}` : state.from ? `desde el ${fmtDate(state.from)}` : `hasta el ${fmtDate(state.to)}`) : "";
   if(!valid.length && ranged && !state.q){
     box.innerHTML = `<div class="empty">No hay noticias ${esc(rangeTxt)}${state.section !== "ALL" ? " en esta sección" : ""}.</div>`;
     return;
   }
-  if(!valid.length && !ranged){
-    box.innerHTML = `<div class="empty">Aún no hay noticias en el portal. Llegarán desde el flujo de recopilación${state.canEdit ? ", o puedes añadir una con «Añadir noticia»" : ""}.</div>`;
+  if(!valid.length && !ranged && state.section === "ALL" && state.sort !== "front"){
+    box.innerHTML = `${sortBar(state.sort, true)}<div class="empty">No hay noticias en este periodo. Mueve la barra para ampliarlo.</div>`;
     return;
   }
   const sel = selection(), t = sel.t, inSel = new Map(sel.items.map(x => [x.n.id, x.origin]));
@@ -916,7 +919,7 @@ function renderPortal(){
   const CMP = {recent, votes: byVotes, relevant: byRelevance};
   const listHTML = items => {
     const full = items.filter(n => !isBrief(n)), br = items.filter(isBrief);
-    return `${full.length ? `<div class="river cards">${full.map(n => story(n,t,inSel,{why:true})).join("")}</div>` : ""}${br.length ? `<div class="morehead"><h2>Fuera de portada</h2><span class="mh-note">${br.length} ${br.length===1?"noticia":"noticias"} · el enlace lleva a la noticia original</span></div>${briefsHTML(br,t,inSel,false)}` : ""}`;
+    return `${full.length ? `<div class="river cards">${full.map(n => story(n,t,inSel,{why:true})).join("")}</div>` : ""}${br.length ? `<div class="morehead"><h2>Más noticias</h2><span class="mh-note">${br.length} ${br.length===1?"noticia":"noticias"} · el enlace lleva a la noticia original</span></div>${briefsHTML(br,t,inSel,false)}` : ""}`;
   };
 
   if(state.q){
@@ -941,14 +944,13 @@ function renderPortal(){
     const items = inSec.slice().sort(CMP[mode]);
     box.innerHTML = `<div class="sectionhead"><h2>${esc(CATS[state.section])}</h2><p>${esc(CAT_DESC[state.section]||"")} ${items.length} ${items.length===1?"noticia":"noticias"}${ranged ? " " + esc(rangeTxt) : ""}.</p></div>
       ${sortBar(mode, false)}
-      ${items.length ? listHTML(items) : `<div class="empty">Todavía no hay noticias en esta sección.</div>`}`;
+      ${items.length ? listHTML(items) : `<div class="empty">No hay noticias de esta sección en este periodo. Mueve la barra para ampliarlo.</div>`}`;
     return;
   }
   if(state.sort !== "front" || ranged){
     const mode = state.sort === "front" ? "recent" : state.sort;
-    const sf = addDays(todayISO(), state.span.lo), st = addDays(todayISO(), state.span.hi);
-    const pool = (spanOn && !ranged) ? valid.filter(n => n.publishedAt >= sf && n.publishedAt <= st) : valid;
-    const list = mode === "briefs" ? pool.filter(isBrief).sort(recent) : pool.filter(n => !isBrief(n)).sort(CMP[mode]);
+    const pool = valid;
+    const list = mode === "briefs" ? pool.filter(isBrief).sort(recent) : pool.slice().sort(CMP[mode]);
     const body = mode === "briefs" ? (list.length ? briefsByDay(list,t,inSel) : `<div class="empty">Todavía no hay noticias fuera de portada${ranged ? " en estas fechas" : ""}.</div>`) : (list.length ? listHTML(list) : `<div class="empty">No hay noticias en este periodo.</div>`);
     box.innerHTML = `${ranged ? `<div class="searchhead"><h2>${mode === "briefs" ? "Fuera de portada" : "Noticias"} ${esc(rangeTxt)}</h2><p>${list.length} ${mode === "briefs" ? (list.length===1?"noticia fuera de portada":"noticias fuera de portada") : (list.length===1?"noticia":"noticias")} en este rango de fechas.</p></div>` : ""}${sortBar(mode, !ranged)}${body}`;
     equalizeCards();
@@ -983,11 +985,10 @@ function renderPortal(){
       ${ranking.length ? "" : `<p style="font-size:13px;color:var(--muted);margin:10px 0 0">Todavía no hay noticias esta semana.</p>`}<ol class="ranking">${ranking.map((n,i) => `<li><span class="n">${i+1}</span><div><a href="#noticia-${esc(n.id)}" data-art="${esc(n.id)}" data-content>${esc(L(n,"title"))}</a><div class="m">${net(n)} ${net(n)===1?"like":"likes"} · <span>${esc(CATS[n.category]||"")}</span></div></div></li>`).join("")}</ol>
     </div></aside>
   </div>
-  ${rest.length ? `<div class="morehead"><h2>Más noticias</h2><span class="mh-note">Por importancia</span></div>
-  <div class="river">${rest.map(n => story(n,t,inSel)).join("")}</div>` : ""}
-  ${offFront.length ? `<div class="morehead"><h2>Fuera de portada</h2><span class="mh-note">${offFront.length} ${offFront.length===1?"noticia":"noticias"} · por importancia · el enlace lleva a la noticia original</span></div>
+  ${rest.length ? `<div class="river cards">${rest.map(n => story(n,t,inSel,{why:true})).join("")}</div>` : ""}
+  ${offFront.length ? `<div class="morehead"><h2>Más noticias</h2><span class="mh-note">${offFront.length} ${offFront.length===1?"noticia":"noticias"} · por importancia · el enlace lleva a la noticia original</span></div>
   <div class="briefs"><div class="bgroup bday"><ul>${offFront.map(n => briefRow(n,t,inSel,true)).join("")}</ul></div></div>` : ""}
-  <p class="oldnote">Mueve la barra de arriba para ver otro periodo, hasta 30 días atrás. Las noticias anteriores están en cada sección y en el buscador.</p>`;
+  <p class="oldnote">Mueve la barra de arriba para ver otro periodo, hasta 30 días atrás. Las noticias anteriores están en el buscador.</p>`;
   equalizeCards();
 }
 function equalizeCards(){
@@ -1067,8 +1068,20 @@ function paintSpan(){
   const {lo:a, hi:b} = state.span, pct = v => (v + 30) / 30 * 100;
   $("#span-fill").style.left = pct(a) + "%"; $("#span-fill").style.right = (100 - pct(b)) + "%";
   const f = addDays(todayISO(), a), t = addDays(todayISO(), b);
-  const n = state.news.filter(x => isValid(x) && x.publishedAt >= f && x.publishedAt <= t && (state.sort === "front" || !isBrief(x))).length;
-  $("#span-txt").textContent = `${f === t ? fmtDate(f) : `${fmtDate(f)} – ${fmtDate(t)}`} · ${n} ${n===1?"noticia":"noticias"}`;
+  const n = state.news.filter(x => isValid(x) && x.publishedAt >= f && x.publishedAt <= t && (state.section === "ALL" || x.category === state.section)).length;
+  $("#span-txt").textContent = `${n} ${n===1?"noticia":"noticias"}`;
+  // La fecha de cada extremo, debajo de su bolita (se separan si se solapan)
+  const dl = $("#span-dlo"), dh = $("#span-dhi"), W = $("#span-dates-w") || dl.parentElement;
+  const pos = p => `calc(9px + (100% - 18px) * ${p/100})`;
+  dl.textContent = fmtDate(f); dh.textContent = fmtDate(t); dh.hidden = (a === b);
+  dl.style.left = pos(pct(a)); dh.style.left = pos(pct(b));
+  const w = W.getBoundingClientRect().width || 600, px = p => 9 + (w - 18) * p / 100;
+  const wl = dl.offsetWidth || 70, wh = dh.offsetWidth || 70;
+  let xl = px(pct(a)), xh = px(pct(b));
+  const gap = 8, need = (wl + wh) / 2 + gap;
+  if(a !== b && xh - xl < need){ const mid = (xl + xh) / 2; xl = mid - need / 2; xh = mid + need / 2; }
+  xl = Math.max(wl / 2, Math.min(w - wl / 2, xl)); if(a !== b){ xh = Math.min(w - wh / 2, Math.max(wh / 2, xh)); if(xh - xl < need){ xl = xh - need; } }
+  dl.style.left = xl + "px"; dh.style.left = xh + "px";
   $("#span-reset").hidden = (a === -3 && b === 0);
 }
 let spanFrame = 0;
@@ -1082,6 +1095,7 @@ function syncSpan(src){
   lo.style.zIndex = a >= -1 ? 3 : 1;
   cancelAnimationFrame(spanFrame); spanFrame = requestAnimationFrame(renderPortal);
 }
+window.addEventListener("resize", () => { if(!$("#span").hidden) paintSpan(); });
 $("#span-lo").addEventListener("input", e => syncSpan(e.target));
 $("#span-hi").addEventListener("input", e => syncSpan(e.target));
 // Mouse and touch: grab the nearest handle anywhere on the bar and drag it (the inputs keep keyboard access)
@@ -1111,7 +1125,7 @@ $("#span-reset").addEventListener("click", () => { $("#span-lo").value = -3; $("
 $("#q-clear").addEventListener("click", () => { $("#q").value = ""; state.q = ""; $("#q-clear").hidden = true; go("portal", state.section); });
 
 const SORTS = {
-  front:    ["Portada", "Las noticias del periodo elegido en la barra, de más a menos importante; al final, las de fuera de portada."],
+  front:    ["Portada", "Las noticias del periodo elegido en la barra, de más a menos importante."],
   recent:   ["Más recientes", "Ordenadas por fecha de publicación, de la más nueva a la más antigua."],
   votes:    ["Más votadas", "Ordenadas por likes del equipo; a igualdad de likes, por relevancia."],
   briefs:   ["Fuera de portada", "Las noticias que no entran en portada: titular, una línea de resumen y enlace a la noticia original, de la más reciente a la más antigua."],
@@ -1382,7 +1396,7 @@ function renderArticle(){
       ${n.summary ? `<p class="dek art-dek" data-content>${esc(L(n,"summary"))}</p>` : ""}
       ${byline(n,t,inSel)}
       <p style="margin:18px 0"><a class="btn" href="${esc(n.url)}" target="_blank" rel="noopener">Leer en ${esc(n.source)} ↗</a></p>
-      <p class="art-note">Fuera de portada: resumen de The Airlines Brief con enlace a la noticia original${n.paywall ? " (de pago)" : ""}.</p>
+      <p class="art-note">Más noticias: resumen de The Airlines Brief con enlace a la noticia original${n.paywall ? " (de pago)" : ""}.</p>
     </article>`;
     return;
   }
