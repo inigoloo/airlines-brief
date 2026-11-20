@@ -7801,22 +7801,68 @@
  },
  {
   "id": "b-aer-lingus-premium-economy-largo-radio",
-  "kind": "brief",
-  "title": "Aer Lingus estrena Premium Economy y suites de Business en su mayor inversión de largo radio en una década",
-  "summary": "La aerolínea de IAG renueva su largo radio con cabina Premium Economy por primera vez, suites privadas de Business y un nuevo diseño de inspiración irlandesa.",
-  "source": "Business Traveller",
-  "url": "https://www.businesstraveller.com/news/has-aer-lingus-finally-cracked-the-premium-transatlantic-market/",
-  "publishedAt": "2026-11-18",
+  "title": "Aer Lingus estrena Premium Economy en 10 A330 renovados y suites con puerta en Business",
   "category": "FLT",
-  "aiScore": 40,
+  "publishedAt": "2026-11-18",
+  "source": "AeroTime",
+  "url": "https://www.aerotime.aero/articles/aer-lingus-premium-economy-airbus-a330-long-haul",
+  "summary": "Aer Lingus renovará 10 Airbus A330 con su primera Premium Economy, de 28 asientos Recaro R4, y 28 suites Collins Elevation con puerta en Business. El primer avión renovado empezará a volar desde el 1 de octubre de 2027 entre Dublín y Nueva York-JFK.",
+  "body": [
+   {
+    "t": "Aer Lingus, aerolínea de IAG, anunció el 18 de noviembre la renovación de 10 Airbus A330 de su flota de largo radio, que tendrán cabinas de Business, Premium Economy y Turista. Es la primera vez que la compañía ofrece Premium Economy. Según AeroTime, el primer avión renovado entrará en servicio el 1 de octubre de 2027 en vuelos seleccionados entre Dublín y Nueva York-JFK (EI104 y EI105), y la nueva cabina se extenderá a otras rutas norteamericanas a medida que lleguen más aviones.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La Premium Economy tendrá 28 asientos Recaro R4 en configuración 2-3-2, con 38 pulgadas de separación, 8 pulgadas de reclinación, reposapiés integrado y alas laterales para dar más privacidad. El servicio incluirá menú de tres platos, bebidas gratuitas, ropa de cama, neceser y auriculares con reducción de ruido.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "En Business, la aerolínea instalará 28 suites Collins Elevation en configuración 1-2-1, con acceso directo al pasillo, puerta y cama totalmente plana, que según AeroTime alcanza las 78 pulgadas. Todas las cabinas tendrán pantallas 4K de mayor tamaño, conexión Bluetooth para auriculares, carga USB-C y wifi Starlink, que AeroTime describe como gratuito.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La consejera delegada de Aer Lingus, Lynne Embleton, afirmó que «esta inversión es mucho más que la introducción de una nueva cabina». AeroTime la sitúa entre las inversiones más importantes de la aerolínea en más de una década, sin precisar el importe. Según datos de ch-aviation citados por ese medio, Aer Lingus opera 10 A330-300 y dos A330-200; AirlineGeeks recuerda que la compañía vuela a 20 destinos en Estados Unidos, Canadá y México.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "AeroTime",
+    "url": "https://www.aerotime.aero/articles/aer-lingus-premium-economy-airbus-a330-long-haul",
+    "date": "2026-11-18"
+   },
+   {
+    "name": "AirlineGeeks",
+    "url": "https://airlinegeeks.com/2026/11/18/aer-lingus-to-introduce-first-premium-economy-cabin/",
+    "date": "2026-11-18"
+   }
+  ],
+  "why": "Aer Lingus añade por primera vez un escalón Premium Economy y mejora su Business en el Atlántico Norte, lo que amplía la oferta premium de IAG desde su hub de Dublín frente a la competencia transatlántica.",
   "iagImpact": "directo",
   "europe": true,
-  "addedAt": "2026-11-18T13:50:47Z",
+  "aiScore": 45,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/70c66684-6d63-44d0-ae3f-2dc08cb3cba0.jpeg",
+  "imageId": "b-aer-lingus-premium-economy-largo-radio",
+  "photoSource": "AeroTime (Aer Lingus)",
+  "addedAt": "2026-11-20T12:48:54Z",
   "addedBy": "claude",
-  "thumb": "https://www.businesstraveller.com/wp-content/uploads/2026/11/BC-3_Bed-1024x768.jpg",
-  "en": {
-   "title": "Aer Lingus debuts Premium Economy and Business suites in its biggest long-haul investment in a decade",
-   "summary": "The IAG airline is renewing its long-haul product with a Premium Economy cabin for the first time, private Business suites and a new design inspired by Ireland."
+  "art": {
+   "kind": "big",
+   "value": "28",
+   "label": "asientos Premium Economy por A330",
+   "sub": "Recaro R4, configuración 2-3-2"
   }
  },
  {
@@ -9496,5 +9542,77 @@
   "aiScore": 35,
   "addedAt": "2026-11-20T08:48:55Z",
   "addedBy": "claude"
+ },
+ {
+  "id": "ubs-capacidad-reino-unido-noviembre-iag",
+  "title": "La capacidad aérea de Reino Unido cae un 1% en noviembre, según UBS, y España sube un 5%",
+  "category": "NET",
+  "publishedAt": "2026-11-20",
+  "source": "Proactive",
+  "url": "https://uk.finance.yahoo.com/news/iag-faces-softer-uk-aviation-114500746.html",
+  "summary": "Según datos de UBS recogidos por Proactive, la capacidad aérea de Reino Unido cayó un 1% interanual en la primera quincena de noviembre, tras crecer un 1% en octubre. España e Italia subieron un 5%, mientras Alemania cayó un 3% y Francia un 1%.",
+  "body": [
+   {
+    "t": "La capacidad de las aerolíneas en Reino Unido cayó un 1% interanual en las dos primeras semanas de noviembre, según datos de UBS publicados por Proactive el 20 de noviembre, que vincula la cifra al mercado de IAG, propietaria de British Airways. El descenso invierte el crecimiento del 1% registrado en octubre y, según el medio, refleja una desaceleración más amplia en los grandes mercados aéreos.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "En Europa, España e Italia siguieron por delante de Reino Unido, Francia y Alemania. Italia creció un 5%, frente al 8% de octubre, y España también un 5%; Alemania se contrajo un 3%, después de crecer un 1% en octubre, y Francia bajó un 1%.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Fuera de Europa, la capacidad en Estados Unidos cayó un 6% interanual, frente al descenso del 2% de octubre, con una caída del 7% en el mercado doméstico y del 3% en el internacional. En China la capacidad total se mantuvo estable, tras crecer un 4% en octubre: el doméstico bajó un 3% y el internacional subió un 8%.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Por aerolíneas, en octubre British Airways aumentó su capacidad un 1%, easyJet un 5%, Ryanair un 2% y Wizz Air un 16%. UBS elabora estos datos con información de programación de vuelos y asientos-kilómetro ofertados hasta el 15 de noviembre, como indicador adelantado de los informes oficiales de tráfico.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Proactive (Yahoo Finance)",
+    "url": "https://uk.finance.yahoo.com/news/iag-faces-softer-uk-aviation-114500746.html",
+    "date": "2026-11-20"
+   }
+  ],
+  "why": "Marca un contraste dentro de IAG: el mercado británico de BA pierde capacidad mientras España, base de Iberia y Vueling, crece un 5%, un dato a seguir para precios y márgenes de invierno.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 55,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/73befb9b-32d4-42a8-82b4-9ad400a83555.jpeg",
+  "imageId": "ubs-capacidad-reino-unido-noviembre-iag",
+  "photoSource": "Proactive (Shutterstock)",
+  "addedAt": "2026-11-20T12:48:54Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "bars",
+   "title": "Capacidad aérea, 1.ª quincena de noviembre (% interanual)",
+   "bars": [
+    {
+     "l": "España",
+     "v": 5,
+     "t": "+5%"
+    },
+    {
+     "l": "Reino Unido",
+     "v": -1,
+     "t": "-1%"
+    },
+    {
+     "l": "Alemania",
+     "v": -3,
+     "t": "-3%"
+    }
+   ]
+  }
  }
 ]
