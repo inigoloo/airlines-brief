@@ -15,7 +15,12 @@ Se aplica por analogía: no solo a la misma empresa, sino a noticias del mismo t
   Ejemplos: «Ryanair elige Sevilla para su primer taller de motores, con 500 M€» (23-nov-2026); «easyJet internaliza su mantenimiento de base con la compra de Adria Tehnika» (20-nov-2026).
 - **Air Europa**: todo lo que afecte a su competencia con Iberia en Madrid y Latinoamérica.
 
+- **Resultados de aerolíneas** (trimestrales, semestrales, anuales, guías y avisos de beneficios). Al editor le importan mucho (23-nov-2026):
+  - **IAG** (y cada una de sus aerolíneas): aiScore 85 o más. Siempre Destacada.
+  - **Competidores directos** (Ryanair, easyJet, Lufthansa, AF-KLM, Wizz Air, Volotea, Jet2, TAP, Air Europa/Globalia, Turkish): aiScore 75–84. Siempre Destacada.
+  - Otras aerolíneas grandes (Emirates, Delta, United, American, LATAM, Avianca/Abra, Qatar…): aiScore 65–74.
+  - Matiz: el 23-nov-2026 el editor prefirió el DORA III de Air Europa y el taller de Ryanair en Sevilla antes que los resultados de Jet2 en la newsletter. Los resultados pesan mucho, pero no pasan por delante de forma automática de una noticia de los tipos anteriores que toque de lleno a los hubs o al mantenimiento de IAG.
+
 ## Pesan menos de lo que parece
 
-- Resultados o recortes de aerolíneas que no compiten de forma directa con IAG en sus mercados clave (p. ej. Jet2 frente a los dos casos anteriores, 23-nov-2026): entran, pero por debajo.
 - Negociaciones laborales de otras aerolíneas sin huelga convocada ni impacto operativo concreto.
