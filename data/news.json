@@ -10219,5 +10219,116 @@
   "europe": true,
   "addedAt": "2026-11-23T08:55:00Z",
   "addedBy": "claude"
+ },
+ {
+  "id": "b-delta-dublin-detroit-diario",
+  "kind": "brief",
+  "title": "Delta pasará a volar a diario entre Dublín y Detroit en el verano de 2027",
+  "summary": "La aerolínea elevará a siete vuelos semanales su ruta estacional sin escalas desde mayo de 2027, con Airbus A330-200.",
+  "en": {
+   "title": "Delta to fly Dublin-Detroit daily in summer 2027",
+   "summary": "The airline will raise its seasonal nonstop route to seven weekly flights from May 2027, using Airbus A330-200 aircraft."
+  },
+  "source": "Travel Extra",
+  "url": "https://www.travelextra.ie/delta-increases-dublin-detroit-to-daily-for-summer-2027/",
+  "publishedAt": "2026-11-23",
+  "category": "NET",
+  "aiScore": 35,
+  "europe": true,
+  "addedAt": "2026-11-23T13:40:49Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-ba-sustitutos-777-200er",
+  "kind": "brief",
+  "title": "British Airways prepara el relevo de sus Boeing 777-200ER en Heathrow",
+  "summary": "La aerolínea se dispone a retirar 43 Boeing 777-200ER y se plantea qué aviones ocuparán su lugar en su base de Heathrow.",
+  "en": {
+   "title": "British Airways lines up replacements for its Boeing 777-200ERs at Heathrow",
+   "summary": "The airline is preparing to retire 43 Boeing 777-200ERs, with the question of which aircraft will take over at Heathrow."
+  },
+  "source": "Simple Flying",
+  "url": "https://simpleflying.com/aircraft-set-replace-british-airways-boeing-777-200ers-london-heathrow/",
+  "thumb": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/shutterstock_2577719323-1.jpg",
+  "publishedAt": "2026-11-23",
+  "category": "FLT",
+  "aiScore": 55,
+  "iagImpact": "directo",
+  "europe": true,
+  "addedAt": "2026-11-23T13:40:49Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-air-canada-trimestre-record",
+  "kind": "brief",
+  "title": "Air Canada registra un trimestre récord de 6.984 millones de dólares",
+  "summary": "El resultado convive con una tarifa de business básica que recorta flexibilidad y mejoras de categoría, una fórmula que usan varias aerolíneas norteamericanas.",
+  "en": {
+   "title": "Air Canada posts record $6,984m quarter",
+   "summary": "The result comes alongside a basic business fare that strips out flexibility and upgrades, an approach used by several North American airlines."
+  },
+  "source": "Simple Flying",
+  "url": "https://simpleflying.com/air-canada-posted-record-quarter-basic-business-class-strips-flexibility-eupgrades/",
+  "thumb": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/air-canada-posted-a-record-6-984-billion-quarter.jpg",
+  "publishedAt": "2026-11-22",
+  "category": "FIN",
+  "aiScore": 58,
+  "addedAt": "2026-11-23T13:40:49Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-sfo-inundacion-accion-de-gracias",
+  "kind": "brief",
+  "title": "Las mareas amenazan con inundar las pistas de San Francisco en plena operación de Acción de Gracias",
+  "summary": "El aeropuerto de San Francisco se enfrenta a posibles inundaciones por mareas vivas y oleaje de tormenta, con niveles de agua de hasta 9,9 pies.",
+  "en": {
+   "title": "King tides threaten to flood San Francisco runways during the Thanksgiving rush",
+   "summary": "San Francisco airport faces possible flooding from king tides and storm surge, with water levels potentially reaching 9.9 feet."
+  },
+  "source": "Simple Flying",
+  "url": "https://simpleflying.com/sfo-airfield-flood-thanksgiving-rush-9-foot-tides-predicted-officials/",
+  "thumb": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/shutterstock_2375245409_cropped.jpg",
+  "publishedAt": "2026-11-22",
+  "category": "APT",
+  "aiScore": 35,
+  "addedAt": "2026-11-23T13:40:49Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-american-coo-seymour-jubilacion",
+  "kind": "brief",
+  "title": "El director de operaciones de American Airlines, David Seymour, se jubilará",
+  "summary": "El directivo lleva más de 25 años en la aerolínea estadounidense.",
+  "en": {
+   "title": "American Airlines chief operating officer David Seymour to retire",
+   "summary": "The executive has been with the US carrier for more than 25 years."
+  },
+  "source": "AirlineGeeks",
+  "url": "https://airlinegeeks.com/2026/11/20/americans-longtime-chief-operating-officer-to-retire/",
+  "publishedAt": "2026-11-20",
+  "category": "STR",
+  "aiScore": 45,
+  "addedAt": "2026-11-23T13:40:49Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-aer-lingus-cabinas-a330",
+  "kind": "brief",
+  "title": "Aer Lingus presenta las nuevas cabinas de su flota de A330, con su primera premium economy",
+  "summary": "La aerolínea del grupo IAG anuncia una gran transformación de las cabinas y de la experiencia de pasajero en sus A330.",
+  "en": {
+   "title": "Aer Lingus unveils all-new A330 cabins, including its first premium economy",
+   "summary": "The IAG group airline has announced a major transformation of the cabins and passenger experience on its A330 fleet."
+  },
+  "source": "Aerospace Global News",
+  "url": "https://aerospaceglobalnews.com/news/aer-lingus-cabin-transformation-a330-premium-economy/",
+  "thumb": "https://aerospaceglobalnews.com/wp-content/uploads/2026/11/Aer-LIngus-PY-3_Bed-1024x768.jpg",
+  "publishedAt": "2026-11-20",
+  "category": "CUS",
+  "aiScore": 45,
+  "iagImpact": "directo",
+  "europe": true,
+  "addedAt": "2026-11-23T13:40:49Z",
+  "addedBy": "claude"
  }
 ]
