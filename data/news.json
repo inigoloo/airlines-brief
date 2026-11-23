@@ -10330,5 +10330,235 @@
   "europe": true,
   "addedAt": "2026-11-23T13:40:49Z",
   "addedBy": "claude"
+ },
+ {
+  "id": "b-aena-sorpresa-recurso-air-europa",
+  "kind": "brief",
+  "title": "Aena se dice sorprendida por el recurso de Air Europa contra el DORA III y defiende sus meses de diálogo",
+  "summary": "Air Europa considera insuficientes los 261,4 millones previstos para las T1-T3, frente a 1.262,6 millones para la T4/T4S. El DORA III suma unos 13.000 millones, 4.477 en Barajas.",
+  "en": {
+   "title": "Aena says it is surprised by Air Europa's appeal against DORA III and defends months of dialogue",
+   "summary": "Air Europa considers the €261.4m earmarked for T1-T3 insufficient, against €1,262.6m for T4/T4S. DORA III totals around €13bn, of which €4,477m is for Barajas."
+  },
+  "source": "Demócrata",
+  "url": "https://www.democrata.es/economia/aena-se-declara-sorprendida-por-el-recurso-de-air-europa-contra-el-plan-de-inversiones-de-barajas/",
+  "publishedAt": "2026-11-21",
+  "category": "APT",
+  "aiScore": 72,
+  "promote": true,
+  "iagImpact": "indirecto",
+  "europe": true,
+  "addedAt": "2026-11-23T13:43:22Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-azul-cuarto-a321p2f",
+  "kind": "brief",
+  "title": "Azul Cargo pone en servicio su cuarto A321P2F y prepara dos más para principios de 2027",
+  "summary": "El avión ya vuela comercialmente y la flota de cargueros dedicados llegará a seis. Cada A321P2F ofrece unas 25 toneladas, un 39% más que el Boeing 737-400F.",
+  "en": {
+   "title": "Azul Cargo puts its fourth A321P2F into service and readies two more for early 2027",
+   "summary": "The aircraft is already flying commercially and the dedicated freighter fleet will reach six. Each A321P2F offers about 25 tonnes, 39% more than the Boeing 737-400F."
+  },
+  "source": "Aviacionline",
+  "url": "https://www.aviacionline.com/espanol/aviacion-comercial/latinoamerica-y-el-caribe/brasil/azul-pone-en-servicio-su-cuarto-airbus-a321p2f-y-prepara-dos-mas-para-comienzos-de-2027_a6b020d06cd25aee2886a3c49",
+  "publishedAt": "2026-11-21",
+  "category": "FLT",
+  "aiScore": 40,
+  "addedAt": "2026-11-23T13:43:22Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-air-india-express-incursion-goa",
+  "kind": "brief",
+  "title": "La AAIB atribuye a la tripulación la invasión de pista de un 737-8 de Air India Express en Goa",
+  "summary": "El avión entró en la pista cuando un caza de la Marina india despegaba en sentido contrario; la tripulación entendió mal «expect backtrack». Hubo 171 personas a bordo y ningún herido.",
+  "en": {
+   "title": "India's AAIB blames crew for Air India Express 737-8 runway incursion at Goa",
+   "summary": "The aircraft entered the runway while an Indian Navy fighter was taking off in the opposite direction; the crew misread \"expect backtrack\". There were 171 people on board and no injuries."
+  },
+  "source": "Aviacionline",
+  "url": "https://www.aviacionline.com/english/accidents-and-incidents/air-india-express-737-8-enters-runway-as-indian-navy-fighter-jet-starts-takeoff-roll-in-opposite-direction_a6b020bcdfde8ae76f8ed1845",
+  "publishedAt": "2026-11-21",
+  "category": "REG",
+  "aiScore": 40,
+  "addedAt": "2026-11-23T13:43:22Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-indra-radios-faa",
+  "kind": "brief",
+  "title": "Indra ha entregado 4.500 radios a la FAA desde su planta de Kansas y prevé 20.000 más",
+  "summary": "La compañía espera entregar más de 20.000 en los próximos dos años y niega relación con la parada nacional de vuelos del 13 de noviembre.",
+  "en": {
+   "title": "Indra has delivered 4,500 radios to the FAA from its Kansas plant and expects 20,000 more",
+   "summary": "The company expects to deliver more than 20,000 over the next two years and says it had no link to the 13 November nationwide flight stoppage."
+  },
+  "source": "Terminair",
+  "url": "https://terminair.com/story/155729-indra-says-it-has-delivered-4-500-radios",
+  "publishedAt": "2026-11-21",
+  "category": "REG",
+  "aiScore": 35,
+  "europe": true,
+  "addedAt": "2026-11-23T13:43:22Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-oaci-declaracion-transporte-aereo",
+  "kind": "brief",
+  "title": "La OACI adopta en Montreal una declaración ministerial con 154 Estados sobre IA, SAF y conectividad",
+  "summary": "Proponen normas uniformes basadas en el riesgo para tecnologías emergentes y criterios comunes para combustibles sostenibles; reafirman el objetivo de cero emisiones netas en 2050.",
+  "en": {
+   "title": "ICAO adopts ministerial declaration in Montreal backed by 154 states on AI, SAF and connectivity",
+   "summary": "They call for uniform risk-based rules for emerging technologies and common criteria for sustainable fuels, and reaffirm the net-zero emissions goal for 2050."
+  },
+  "source": "Terminair",
+  "url": "https://terminair.com/story/155810-icao-member-states-agree-on-aviation-reforms-at",
+  "publishedAt": "2026-11-21",
+  "category": "REG",
+  "aiScore": 45,
+  "addedAt": "2026-11-23T13:43:22Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-iberia-jerez-madrid-2027",
+  "kind": "brief",
+  "title": "Iberia refuerza Jerez-Madrid hasta 26 vuelos semanales en el primer trimestre de 2027",
+  "summary": "Con Air Nostrum, la oferta sube a unas 8.600 plazas (+16%), con picos de hasta cinco salidas diarias y tarifas desde 27 euros, por el corte del AVE a Andalucía.",
+  "en": {
+   "title": "Iberia boosts Jerez-Madrid to 26 weekly flights in Q1 2027",
+   "summary": "Operated by Air Nostrum, capacity rises to around 8,600 seats (+16%), with peaks of up to five daily departures and fares from €27, due to the high-speed rail cut to Andalusia."
+  },
+  "source": "Jerez Sin Fronteras",
+  "url": "https://jerezsinfronteras.es/vuelos-jerez-madrid-iberia-2027/",
+  "publishedAt": "2026-11-21",
+  "category": "NET",
+  "aiScore": 40,
+  "iagImpact": "directo",
+  "europe": true,
+  "addedAt": "2026-11-23T13:43:22Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-easa-ocho-a380-grietas",
+  "kind": "brief",
+  "title": "La EASA suma ocho A380 a las inspecciones urgentes por grietas en el ala, hasta 24 aviones",
+  "summary": "Son 22 de Emirates, uno de Qantas y uno de Etihad. Los ocho nuevos deben revisarse antes del 31 de enero de 2027, según la directiva AD 2026-0216.",
+  "en": {
+   "title": "EASA adds eight A380s to urgent wing crack inspections, bringing the total to 24 aircraft",
+   "summary": "They comprise 22 Emirates, one Qantas and one Etihad aircraft. The eight new ones must be checked by 31 January 2027, under AD 2026-0216."
+  },
+  "source": "Air Data News",
+  "url": "https://www.airdatanews.com/easa-adds-eight-more-a380s-to-urgent-wing-crack-inspections/",
+  "publishedAt": "2026-11-22",
+  "category": "MRO",
+  "aiScore": 55,
+  "europe": true,
+  "addedAt": "2026-11-23T13:43:22Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-barajas-tren-t4-t4s-averia",
+  "kind": "brief",
+  "title": "Una avería del tren T4-T4S de Barajas provoca colas y obliga a activar autobuses lanzadera",
+  "summary": "Afecta sobre todo a los pasajeros con salida internacional desde la T4S, a quienes Aena recomienda llegar con más antelación. El tren ya funciona en un sentido mientras Alstom repara el otro.",
+  "en": {
+   "title": "Barajas T4-T4S train breakdown causes queues and forces shuttle buses into service",
+   "summary": "It mainly affects passengers departing internationally from T4S, whom Aena advises to arrive earlier. The train is running in one direction while Alstom repairs the other."
+  },
+  "source": "Demócrata",
+  "url": "https://www.democrata.es/economia/fallo-en-el-tren-entre-la-t4-y-la-t4s-de-barajas-causa-colas-y-obliga-a-activar-autobuses/",
+  "publishedAt": "2026-11-22",
+  "category": "APT",
+  "aiScore": 55,
+  "iagImpact": "directo",
+  "europe": true,
+  "addedAt": "2026-11-23T13:43:22Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-delta-fallo-peso-balance-atlanta",
+  "kind": "brief",
+  "title": "Un fallo del sistema de peso y balance obliga a Delta a operar a mano en Atlanta",
+  "summary": "La FAA ordenó primero parar los vuelos de Delta hacia Atlanta y luego aplicó demoras en tierra de 57 minutos de media; hacia las 10 había cerca de 500 vuelos retrasados.",
+  "en": {
+   "title": "Weight-and-balance system failure forces Delta to operate manually in Atlanta",
+   "summary": "The FAA first ordered a stop to Delta flights into Atlanta and then applied ground delays averaging 57 minutes; by about 10am some 500 flights were delayed."
+  },
+  "source": "Infobae",
+  "url": "https://www.infobae.com/estados-unidos/2026/11/22/la-falla-de-un-sistema-clave-para-el-despegue-obligo-que-delta-opere-manualmente-en-atlanta-se-registran-cientos-de-vuelos-demorados/",
+  "publishedAt": "2026-11-22",
+  "category": "CUS",
+  "aiScore": 50,
+  "addedAt": "2026-11-23T13:43:22Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-el-al-marrakech-diciembre",
+  "kind": "brief",
+  "title": "El Al retomará sus vuelos a Marrakech el 21 de diciembre, suspendidos desde octubre de 2023",
+  "summary": "Operará dos vuelos semanales, lunes y jueves. El reinicio previsto para el 16 de noviembre se aplazó, y Arkia ya anunció su propia vuelta a Marrakech desde el 4 de enero.",
+  "en": {
+   "title": "El Al to resume Marrakech flights on 21 December, suspended since October 2023",
+   "summary": "It will operate two weekly flights, on Mondays and Thursdays. The restart planned for 16 November was postponed, and Arkia has already announced its own return to Marrakech from 4 January."
+  },
+  "source": "Infobae",
+  "url": "https://www.infobae.com/america/agencias/2026/11/22/la-aerolinea-israeli-el-al-anuncia-el-restablecimiento-de-los-vuelos-a-marruecos/",
+  "publishedAt": "2026-11-22",
+  "category": "NET",
+  "aiScore": 35,
+  "addedAt": "2026-11-23T13:43:22Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-latam-delta-jv-argentina-429000",
+  "kind": "brief",
+  "title": "LATAM y Delta transportan 429.000 pasajeros entre Argentina y EE. UU. con su empresa conjunta",
+  "summary": "Han operado unos 2.000 vuelos hasta julio de 2026, con un aumento combinado de plazas del 47% en 2026. Hay tres rutas sin escalas desde Buenos Aires.",
+  "en": {
+   "title": "LATAM and Delta carry 429,000 passengers between Argentina and the US under their joint venture",
+   "summary": "They have operated around 2,000 flights through July 2026, with combined seat capacity up 47% in 2026. There are three nonstop routes from Buenos Aires."
+  },
+  "source": "Aviation Club Center",
+  "url": "https://aviationclubcenter.com/en/2026/11/22/latam-and-delta-carry-429000-passengers-between-argentina-and-the-us-under-joint-venture",
+  "publishedAt": "2026-11-22",
+  "category": "NET",
+  "aiScore": 50,
+  "addedAt": "2026-11-23T13:43:22Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-magnicharters-quiebra-tres-empresas",
+  "kind": "brief",
+  "title": "La quiebra de Magnicharters alcanza a tres empresas vinculadas, con deudas de unos 800 millones de pesos",
+  "summary": "La resolución del 3 de noviembre afecta a Boma Inmobiliaria, Magnibus y Magnicun; la mayor parte de los adeudos es con trabajadores y agencias de viajes.",
+  "en": {
+   "title": "Magnicharters bankruptcy extends to three related companies, with debts of around 800m pesos",
+   "summary": "The 3 November ruling affects Boma Inmobiliaria, Magnibus and Magnicun; most of the debt is owed to workers and travel agencies."
+  },
+  "source": "El CEO",
+  "url": "https://elceo.com/negocios/quiebra-de-magnicharters-afecta-a-otras-empresas/",
+  "publishedAt": "2026-11-22",
+  "category": "FIN",
+  "aiScore": 40,
+  "addedAt": "2026-11-23T13:43:22Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-combustible-recortes-rutas-asientos",
+  "kind": "brief",
+  "title": "El combustible de aviación obliga a aerolíneas de Europa y Latinoamérica a recortar rutas y asientos",
+  "summary": "El queroseno rozó los 200 dólares por barril en octubre y la IATA prevé que el beneficio del sector caiga de 45.000 a 23.000 millones de dólares en 2026.",
+  "en": {
+   "title": "Jet fuel forces European and Latin American airlines to cut routes and seats",
+   "summary": "Jet fuel neared $200 a barrel in October and IATA expects industry net profit to fall from $45bn to $23bn in 2026."
+  },
+  "source": "Infobae",
+  "url": "https://www.infobae.com/economia/2026/11/22/por-la-suba-del-petroleo-aerolineas-de-europa-y-america-latina-recortan-rutas-y-asientos/",
+  "publishedAt": "2026-11-22",
+  "category": "FIN",
+  "aiScore": 55,
+  "addedAt": "2026-11-23T13:43:22Z",
+  "addedBy": "claude"
  }
 ]
