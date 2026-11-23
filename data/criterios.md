@@ -24,3 +24,10 @@ Se aplica por analogía: no solo a la misma empresa, sino a noticias del mismo t
 ## Pesan menos de lo que parece
 
 - Negociaciones laborales de otras aerolíneas sin huelga convocada ni impacto operativo concreto.
+
+## Lunes: cubrir el fin de semana (23-nov-2026)
+
+Las tareas no funcionan sábado ni domingo, así que el lunes tiene que cubrir tres días (sábado, domingo y lunes).
+- Destacadas del lunes: entre 8 y 12 (en vez de 5–8), con al menos 2 publicadas el sábado y 2 el domingo si hay material con peso.
+- Breves del lunes: entre 25 y 35 (en vez de 10–20), con al menos 6 del sábado y 6 del domingo si hay material.
+- No priorices lo más reciente por ser reciente: reparte por días y elige por peso dentro de cada día.
