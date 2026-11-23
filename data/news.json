@@ -9958,5 +9958,206 @@
   },
   "addedAt": "2026-11-23T08:28:41Z",
   "addedBy": "claude"
+ },
+ {
+  "id": "b-airbaltic-liquidez-dos-semanas",
+  "kind": "brief",
+  "title": "airBaltic admite liquidez para solo dos semanas y avisa de posible liquidación en diciembre",
+  "summary": "La aerolínea letona, en profunda crisis económica, reconoce que solo tiene caja para unos días y que podría liquidarse en la primera quincena de diciembre.",
+  "en": {
+   "title": "airBaltic admits cash for only two weeks and warns of possible liquidation in December",
+   "summary": "The Latvian carrier, in deep financial trouble, says it only has cash for a few more days and could enter liquidation in the first half of December."
+  },
+  "source": "Preferente",
+  "url": "https://www.preferente.com/noticias-de-transportes/noticias-de-aerolineas/air-baltic-solo-tiene-dinero-para-volar-2-semanas-mas-353175.html",
+  "thumb": "https://www.preferente.com/wp-content/uploads/2022/08/airbaltic.jpg",
+  "publishedAt": "2026-11-22",
+  "category": "FIN",
+  "aiScore": 72,
+  "promote": true,
+  "europe": true,
+  "addedAt": "2026-11-23T08:55:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-bruselas-cancela-vuelos-huelga-general",
+  "kind": "brief",
+  "title": "Zaventem cancela todos los vuelos del lunes 23 por la huelga general en Bélgica",
+  "summary": "El aeropuerto de Bruselas anuló todas las salidas y llegadas del lunes tras oficializarse el paro general convocado en el país.",
+  "en": {
+   "title": "Brussels Airport cancels all flights on Monday 23 November over Belgian general strike",
+   "summary": "Brussels Airport scrapped all departures and arrivals for Monday after the general strike called in the country was made official."
+  },
+  "source": "Preferente",
+  "url": "https://www.preferente.com/noticias-de-transportes/noticias-de-aerolineas/belgica-sin-vuelos-manana-lunes-por-un-paro-general-353182.html",
+  "thumb": "https://www.preferente.com/wp-content/uploads/2026/11/brussels.jpg",
+  "publishedAt": "2026-11-22",
+  "category": "APT",
+  "aiScore": 62,
+  "europe": true,
+  "addedAt": "2026-11-23T08:55:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-lufthansa-recorte-1000-empleos",
+  "kind": "brief",
+  "title": "Lufthansa recortaría 1.000 empleos en sus hubs de Fráncfort y Múnich, según un informe",
+  "summary": "Los recortes de plantilla se concentrarían en los hubs de Fráncfort y Múnich, según información publicada por AirlineGeeks.",
+  "en": {
+   "title": "Lufthansa to cut 1,000 jobs at Frankfurt and Munich hubs, report says",
+   "summary": "The job cuts would target Lufthansa's hubs in Frankfurt and Munich, according to a report by AirlineGeeks."
+  },
+  "source": "AirlineGeeks",
+  "url": "https://airlinegeeks.com/2026/11/20/report-lufthansa-to-cut-1000-jobs/",
+  "publishedAt": "2026-11-20",
+  "category": "FIN",
+  "aiScore": 58,
+  "iagImpact": "indirecto",
+  "europe": true,
+  "addedAt": "2026-11-23T08:55:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-albastar-plantilla-inversor",
+  "kind": "brief",
+  "title": "AlbaStar dice a su plantilla que tiene un inversor, mientras los empleados denuncian impagos",
+  "summary": "Los trabajadores aseguran que la empresa les ha dicho que no pagará las nóminas por falta de dinero; la aerolínea cesó operaciones y pidió concurso.",
+  "en": {
+   "title": "AlbaStar tells staff it has an investor as employees report unpaid wages",
+   "summary": "Workers say the company told them it will not pay salaries because it has no money; the airline ceased operations and filed for insolvency."
+  },
+  "source": "Preferente",
+  "url": "https://www.preferente.com/rss1/albastar-dice-a-la-plantilla-que-tiene-un-inversor-353181.html",
+  "thumb": "https://www.preferente.com/wp-content/uploads/2026/11/albastar.jpg",
+  "publishedAt": "2026-11-22",
+  "category": "FIN",
+  "aiScore": 50,
+  "europe": true,
+  "addedAt": "2026-11-23T08:55:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-virgin-atlantic-manchester-a330neo",
+  "kind": "brief",
+  "title": "Virgin Atlantic apuesta por Manchester ante las limitaciones de Heathrow y estrenará A330neo el próximo verano",
+  "summary": "Su consejero delegado explica la expansión en Manchester; los Airbus A330neo de la aerolínea debutarán el próximo verano.",
+  "en": {
+   "title": "Virgin Atlantic turns to Manchester amid Heathrow constraints and will debut A330neo next summer",
+   "summary": "Its chief executive discusses the Manchester expansion; the airline's Airbus A330neos will enter service next summer."
+  },
+  "source": "Aerospace Global News",
+  "url": "https://aerospaceglobalnews.com/news/exclusive-virgin-atlantic-manchester-expansion/",
+  "thumb": "https://aerospaceglobalnews.com/wp-content/uploads/2026/11/G-VAHH_London_Heathrow_November_13th_2025_-_55047581112-1024x683.jpg",
+  "publishedAt": "2026-11-21",
+  "category": "NET",
+  "aiScore": 48,
+  "europe": true,
+  "addedAt": "2026-11-23T08:55:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-aena-bonos-galeao",
+  "kind": "brief",
+  "title": "Aena coloca bonos por 278,6 millones de euros en Brasil para financiar la concesión de Galeão",
+  "summary": "La emisión financia la concesión del aeropuerto de Galeão, en Río de Janeiro, gestionada por Aena.",
+  "en": {
+   "title": "Aena places €278.6m of bonds in Brazil to fund Galeão airport concession",
+   "summary": "The issue funds the concession for Rio de Janeiro's Galeão airport, run by Aena."
+  },
+  "source": "Demócrata",
+  "url": "https://www.democrata.es/economia/aena-coloca-bonos-por-278-6-millones-para-la-concesion-del-aeropuerto-galeao-en-brasil/",
+  "publishedAt": "2026-11-21",
+  "category": "APT",
+  "aiScore": 55,
+  "europe": true,
+  "addedAt": "2026-11-23T08:55:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-royal-brunei-trent-1000-xe",
+  "kind": "brief",
+  "title": "Royal Brunei encarga a Rolls-Royce ocho motores Trent 1000 XE para cuatro Boeing 787",
+  "summary": "Los motores equiparán los cuatro 787 que la aerolínea pidió en 2024 dentro de su plan de renovación de flota de fuselaje ancho.",
+  "en": {
+   "title": "Royal Brunei orders eight Rolls-Royce Trent 1000 XE engines for four Boeing 787s",
+   "summary": "The engines will power the four 787s the airline ordered in 2024 as part of its widebody fleet renewal."
+  },
+  "source": "AviTrader",
+  "url": "https://avitrader.com/2026/11/20/rolls-royce-wins-eight-engine-order-from-royal-brunei/",
+  "publishedAt": "2026-11-20",
+  "category": "MRO",
+  "aiScore": 44,
+  "addedAt": "2026-11-23T08:55:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-american-mro-miami-acuerdo",
+  "kind": "brief",
+  "title": "American amplía su presencia de mantenimiento en Miami con un nuevo acuerdo",
+  "summary": "El acuerdo mantendrá a cientos de trabajadores en el centro de mantenimiento de la aerolínea en el aeropuerto de Miami.",
+  "en": {
+   "title": "American expands its maintenance footprint in Miami under new agreement",
+   "summary": "The agreement will keep hundreds of workers at the carrier's maintenance facility at Miami airport."
+  },
+  "source": "AirlineGeeks",
+  "url": "https://airlinegeeks.com/2026/11/20/american-grows-maintenance-footprint-in-miami/",
+  "publishedAt": "2026-11-20",
+  "category": "MRO",
+  "aiScore": 42,
+  "addedAt": "2026-11-23T08:55:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-american-israel-israir",
+  "kind": "brief",
+  "title": "American planea volver a Israel con Israir, destino al que no vuela desde 2023",
+  "summary": "La aerolínea estadounidense retomaría su servicio a Israel de la mano de Israir; no operaba allí desde 2023.",
+  "en": {
+   "title": "American plans return to Israel with Israir, having not flown there since 2023",
+   "summary": "The US carrier plans to resume Israel service with Israir; it has not flown there since 2023."
+  },
+  "source": "AirlineGeeks",
+  "url": "https://airlinegeeks.com/2026/11/20/american-plans-return-to-israel-partners-with-israir/",
+  "publishedAt": "2026-11-20",
+  "category": "NET",
+  "aiScore": 42,
+  "addedAt": "2026-11-23T08:55:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-sfo-fitch-aa-menos",
+  "kind": "brief",
+  "title": "Fitch sube la calificación del aeropuerto de San Francisco a AA-, su nivel más alto",
+  "summary": "La agencia eleva el rating de A+ a AA-, con lo que SFO tiene ya categoría AA en las tres grandes agencias.",
+  "en": {
+   "title": "Fitch upgrades San Francisco airport to AA-, its highest-ever rating",
+   "summary": "The agency lifts the rating from A+ to AA-, so SFO now holds an AA-category rating from all three major agencies."
+  },
+  "source": "Airport World",
+  "url": "https://airport-world.com/sfos-credit-rating-upgraded-to-highest-ever-level-by-fitch-ratings/",
+  "thumb": "https://airport-world.com/wp-content/uploads/2026/06/NP3-1024x683.jpg",
+  "publishedAt": "2026-11-20",
+  "category": "APT",
+  "aiScore": 40,
+  "addedAt": "2026-11-23T08:55:00Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-kiwi-reservas-vuelos-espana-noviembre",
+  "kind": "brief",
+  "title": "Las reservas de vuelos desde España crecen casi un 33% en noviembre, según Kiwi.com",
+  "summary": "Kiwi.com detecta más demanda de viajes para diciembre, que concentra el 30,5% de los pasajeros; Marruecos destaca entre los destinos de mayor crecimiento.",
+  "en": {
+   "title": "Flight bookings from Spain rise almost 33% in November, Kiwi.com says",
+   "summary": "Kiwi.com sees higher travel demand for December, which accounts for 30.5% of passengers; Morocco stands out among the fastest-growing destinations."
+  },
+  "source": "Nexotur",
+  "url": "https://nexotur.com/las-reservas-de-vuelos-desde-espana-crecen-casi-un-33-en-noviembre/",
+  "publishedAt": "2026-11-23",
+  "category": "TUR",
+  "aiScore": 45,
+  "europe": true,
+  "addedAt": "2026-11-23T08:55:00Z",
+  "addedBy": "claude"
  }
 ]
