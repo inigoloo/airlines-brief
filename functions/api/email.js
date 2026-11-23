@@ -25,16 +25,22 @@ export async function onRequestGet({ request, env }){
 
     const sent = new Set(); (eds || []).forEach(e => (e.newsIds || []).forEach(id => sent.add(id)));
     const we = cfg.nextSend || today, ws = addDays(we, -(+cfg.windowDays || 7));
-    const X = +cfg.threshold || 2, min = +cfg.minItems || 4, max = +cfg.maxItems || 6;
-    const elig = (news || []).filter(n => isValid(n) && !sent.has(n.id) && n.publishedAt >= ws && n.publishedAt < we);
-    const byVotes = elig.filter(n => net(n) >= X).sort((a, b) => net(b) - net(a) || prio(b) - prio(a)).slice(0, max).map(n => ({ n, origin: "votes", net: net(n) }));
+    // Same defaults as the web (index.html state.cfg)
+    const X = +cfg.threshold || 2, min = +cfg.minItems || 6, max = +cfg.maxItems || 6;
+    // Editor's manual changes for this edition (ignored once the send date changes)
+    const okOv = cfg.overridesFor && cfg.overridesFor === (cfg.nextSend || "");
+    const exc = new Set(okOv && Array.isArray(cfg.exclude) ? cfg.exclude : []), inc = okOv && Array.isArray(cfg.include) ? cfg.include : [];
+    const elig = (news || []).filter(n => isValid(n) && !sent.has(n.id) && !exc.has(n.id) && n.publishedAt >= ws && n.publishedAt < we);
+    const forced = inc.map(id => elig.find(n => n.id === id)).filter(Boolean).slice(0, max).map(n => ({ n, origin: "editor", net: net(n) }));
+    const fid = new Set(forced.map(x => x.n.id));
+    const byVotes = elig.filter(n => !fid.has(n.id) && net(n) >= X).sort((a, b) => net(b) - net(a) || prio(b) - prio(a)).slice(0, max - forced.length).map(n => ({ n, origin: "votes", net: net(n) }));
     let fill = [];
-    if(byVotes.length < min){
-      const taken = new Set(byVotes.map(x => x.n.id));
+    if(byVotes.length + forced.length < min){
+      const taken = new Set([...byVotes.map(x => x.n.id), ...fid]);
       fill = elig.filter(n => !taken.has(n.id) && n.kind !== "brief").sort((a, b) => prio(b) - prio(a) || b.publishedAt.localeCompare(a.publishedAt))
-        .slice(0, min - byVotes.length).map(n => ({ n, origin: "ai", net: net(n) }));
+        .slice(0, min - byVotes.length - forced.length).map(n => ({ n, origin: "ai", net: net(n) }));
     }
-    const items = [...byVotes, ...fill];
+    const items = [...byVotes, ...[...forced, ...fill].sort((a, b) => prio(b.n) - prio(a.n))];
 
     // Images: the 16:9 email crop when it exists, else the story photo
     await Promise.all(items.map(async it => {

@@ -274,6 +274,10 @@ main .wrap{padding-block:22px 64px}
 html[lang="es"] .langsw [data-lang="es"],html[lang="en"] .langsw [data-lang="en"]{background:var(--ink);color:var(--bg)}
 .span{margin:10px 0 4px;padding:12px 16px 10px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
 .span[hidden]{display:none}
+.ov-btn{flex:none;margin-left:10px;font:600 12px/1 var(--f-body);padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:transparent;color:var(--ink);cursor:pointer}
+.ov-btn:hover{border-color:var(--ink)}
+.near{margin-top:14px}.near[hidden]{display:none}
+.near-h{font:600 12px/1.4 var(--f-body);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
 .span-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
 .span-k{font-family:var(--f-display);font-weight:600;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .span-txt{font-weight:600;font-size:14px;color:var(--ink)}
@@ -467,6 +471,7 @@ footer.foot{border-top:3px double var(--rule);padding-block:14px 30px;font-size:
         <div class="actions" style="grid-column:1/-1;margin:0"><button class="btn ghost" id="s-save" type="button">Guardar ajustes</button><span id="s-msg" class="toast"></span></div>
       </div>
       <div class="sel"><ol id="sel"></ol></div>
+      <div id="near" class="sel near" hidden><p class="near-h">Se han quedado fuera por poco</p><ol id="near-list"></ol></div>
       <div class="actions">
         <button class="btn" id="copy" type="button">Copiar HTML</button>
         <button class="btn ghost" id="dl" type="button" hidden>Descargar .html</button>
@@ -737,24 +742,44 @@ function windowStart(){
   const send = state.cfg.nextSend || todayISO();
   return addDays(send, -(+state.cfg.windowDays || 7));
 }
+function edOverrides(){
+  const c = state.cfg, ok = c.overridesFor && c.overridesFor === (c.nextSend || "");
+  return {include: ok && Array.isArray(c.include) ? c.include : [], exclude: ok && Array.isArray(c.exclude) ? c.exclude : []};
+}
+async function setOverride(id, action){
+  const ov = edOverrides(), inc = new Set(ov.include), exc = new Set(ov.exclude);
+  if(action === "add"){ exc.delete(id); inc.add(id); }
+  if(action === "remove"){ if(inc.has(id)) inc.delete(id); else exc.add(id); }
+  if(action === "restore"){ exc.delete(id); }
+  const next = {...state.cfg, overridesFor: state.cfg.nextSend || "", include:[...inc], exclude:[...exc]};
+  state.cfg = next; renderEdition();
+  try{ await state.db.doc("config/settings").set(next); flash($("#e-msg"),"Edición actualizada"); }
+  catch(e){ flash($("#e-msg"),"No se pudo guardar el cambio",true); }
+}
 function selection(){
   const t = tally(), sent = sentIds(), ws = windowStart();
   const X = +state.cfg.threshold || 2, min = +state.cfg.minItems || 4, max = +state.cfg.maxItems || 6;
   const net = n => { const c = t[n.id]||{up:0,down:0}; return c.up - c.down; };
   // Window of the edition: from 7 days before the scheduled send day up to the day before it (news of the send day go to the next edition).
   const we = state.cfg.nextSend || todayISO();
-  const elig = state.news.filter(n => isValid(n) && !sent.has(n.id) && n.publishedAt >= ws && n.publishedAt < we);
-  const byVotes = elig.filter(n => net(n) >= X)
+  const all = state.news.filter(n => isValid(n) && !sent.has(n.id) && n.publishedAt >= ws && n.publishedAt < we);
+  // Ajustes a mano del editor para esta edición (se olvidan solos al cambiar la fecha de envío)
+  const ov = edOverrides(), exc = new Set(ov.exclude);
+  const elig = all.filter(n => !exc.has(n.id));
+  const forced = ov.include.map(id => elig.find(n => n.id === id)).filter(Boolean).slice(0, max).map(n => ({n, origin:"editor", net:net(n)}));
+  const fid = new Set(forced.map(x => x.n.id));
+  const byVotes = elig.filter(n => !fid.has(n.id) && net(n) >= X)
     .sort((a,b) => net(b)-net(a) || prio(b)-prio(a))
-    .slice(0,max).map(n => ({n, origin:"votes", net:net(n)}));
+    .slice(0, max - forced.length).map(n => ({n, origin:"votes", net:net(n)}));
   let fill = [];
-  if(byVotes.length < min){
-    const taken = new Set(byVotes.map(x => x.n.id));
+  if(byVotes.length + forced.length < min){
+    const taken = new Set([...byVotes.map(x => x.n.id), ...fid]);
     fill = elig.filter(n => !taken.has(n.id) && net(n) >= 0 && !isBrief(n))
       .sort((a,b) => prio(b)-prio(a) || b.publishedAt.localeCompare(a.publishedAt))
-      .slice(0, min - byVotes.length).map(n => ({n, origin:"ai", net:net(n)}));
+      .slice(0, min - byVotes.length - forced.length).map(n => ({n, origin:"ai", net:net(n)}));
   }
-  return {items:[...byVotes, ...fill], elig, byVotes:byVotes.length, ws, t};
+  const rest = [...forced, ...fill].sort((a,b) => prio(b.n)-prio(a.n));
+  return {items:[...byVotes, ...rest], elig, all, byVotes:byVotes.length, forced:forced.length, ws, t};
 }
 
 /* ---------- Editorial art (SVG built from each story's data) ---------- */
@@ -1249,9 +1274,15 @@ function renderEdition(){
   $("#e-thr-txt").textContent = state.cfg.threshold; $("#e-min-txt").textContent = state.cfg.minItems; $("#e-max-txt").textContent = state.cfg.maxItems;
   $("#e-window").textContent = s.ws !== "0000-00-00" ? `${fmtDate(s.ws)} →` : "—";
   $("#e-elig").textContent = s.elig.length;
-  $("#e-count").textContent = `${s.byVotes} votos + ${s.items.length - s.byVotes} IA`;
-  $("#sel").innerHTML = s.items.length ? s.items.map(({n,origin,net}) => `<li><div style="min-width:0"><div class="t">${esc(n.title)}</div><div class="s">${esc(CATS[n.category]||"")} · ${esc(n.source)} · ${fmtDate(n.publishedAt)}</div></div>${origin==="votes" ? `<span class="why-pill votes">♥ ${net} ${net===1?"like":"likes"}</span>` : ""}</li>`).join("")
+  $("#e-count").textContent = `${s.byVotes} votos + ${s.forced ? s.forced + " a mano + " : ""}${s.items.length - s.byVotes - s.forced} IA`;
+  const ed = state.canEdit, btn = (id, act, txt) => ed ? `<button type="button" class="ov-btn" data-ov="${esc(act)}" data-id="${esc(id)}">${txt}</button>` : "";
+  $("#sel").innerHTML = s.items.length ? s.items.map(({n,origin,net}) => `<li><div style="min-width:0"><div class="t">${esc(n.title)}</div><div class="s">${esc(CATS[n.category]||"")} · ${esc(n.source)} · ${fmtDate(n.publishedAt)}</div></div>${origin==="votes" ? `<span class="why-pill votes">♥ ${net} ${net===1?"like":"likes"}</span>` : origin==="editor" ? `<span class="why-pill">✎ A mano</span>` : ""}${btn(n.id,"remove","Quitar")}</li>`).join("")
     : `<li style="display:block"><span class="s">No hay candidatas verificadas en la ventana actual.</span></li>`;
+  // Candidatas que se han quedado fuera, para añadirlas a mano
+  const inEd = new Set(s.items.map(x => x.n.id)), exc = new Set(edOverrides().exclude);
+  const near = s.all.filter(n => !inEd.has(n.id) && !isBrief(n)).sort((a,b) => (exc.has(a.id)-exc.has(b.id)) || prio(b)-prio(a)).slice(0, 8);
+  $("#near").hidden = !ed || !near.length;
+  $("#near-list").innerHTML = near.map(n => `<li><div style="min-width:0"><div class="t">${esc(n.title)}</div><div class="s">${esc(CATS[n.category]||"")} · ${esc(n.source)} · ${fmtDate(n.publishedAt)}${exc.has(n.id) ? " · quitada a mano" : ""}</div></div>${btn(n.id, exc.has(n.id) ? "restore" : "add", exc.has(n.id) ? "Devolver" : "Añadir")}</li>`).join("");
   const html = emailHTML(s.items);
   $("#htmlout").value = html;
   const fr = $("#preview"); if(fr.srcdoc !== html) fr.srcdoc = html;
@@ -1274,6 +1305,7 @@ $("#dl").addEventListener("click", async () => {
   try{ await downloads.save({filename:`airlines-brief-${String(state.editions.length+1).padStart(2,"0")}.html`, data:$("#htmlout").value}); flash($("#e-msg"),"Archivo guardado"); }
   catch(e){ if(e?.code !== "declined" && e?.code !== "cancelled") flash($("#e-msg"),"No se pudo guardar el archivo",true); }
 });
+document.addEventListener("click", e => { const b = e.target.closest && e.target.closest("[data-ov]"); if(b && state.canEdit) setOverride(b.dataset.id, b.dataset.ov); });
 $("#mark").addEventListener("click", () => { $("#confirmbox").hidden = false; });
 $("#mark-no").addEventListener("click", () => { $("#confirmbox").hidden = true; });
 $("#mark-yes").addEventListener("click", async () => {
