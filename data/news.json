@@ -9715,5 +9715,248 @@
     }
    ]
   }
+ },
+ {
+  "id": "iag-heathrow-tercera-pista-condenada-fracaso",
+  "title": "IAG avisa a Burnham de que la tercera pista de Heathrow está «condenada al fracaso»",
+  "category": "APT",
+  "publishedAt": "2026-11-22",
+  "source": "City AM",
+  "url": "https://www.cityam.com/british-airways-owner-tells-burnham-heathrows-third-runway-doomed-to-failure/",
+  "summary": "El consejero delegado de IAG, Luis Gallego, ha escrito al primer ministro, Andy Burnham, que el plan de 49.000 millones de libras para la tercera pista de Heathrow es inasumible. IAG cifra en 19.000 millones la brecha con lo que los pasajeros pagarían vía tasas.",
+  "body": [
+   {
+    "t": "Luis Gallego, consejero delegado de International Airlines Group (IAG), matriz de British Airways, ha enviado una carta al primer ministro británico, Andy Burnham, en la que sostiene que el proyecto preferido para ampliar Heathrow con una tercera pista es demasiado caro. Según City AM, que cita a The Times, Gallego escribe que el plan, «tal como está, es inasumible y está condenado al fracaso».",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El proyecto de Heathrow tiene un coste estimado de 49.000 millones de libras. Según la información de The Standard recogida por London Travel News, IAG considera que no debería superar los 30.000 millones, lo que deja una brecha de 19.000 millones que, a su juicio, no se puede trasladar a los pasajeros mediante subidas de las tasas aeroportuarias.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "IAG mantiene su apoyo a la ampliación, pero advierte de que la inversión privada no bastará si se quiere seguir adelante con el proyecto actual. Como alternativas propone destinar a la construcción parte de los ingresos adicionales del impuesto sobre pasajeros (Air Passenger Duty) que genere la ampliación, o una inversión directa del Gobierno para cubrir la compra de suelo y los primeros trabajos de ingeniería.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Gallego también rebatió la idea de Burnham de que la ampliación es un asunto «de Londres y los londinenses» y la definió como un «proyecto de importancia nacional» que beneficiará a todas las regiones y naciones del Reino Unido.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Un portavoz de Heathrow respondió que el aeropuerto agradece el apoyo de IAG a la tercera pista y que trabaja «más estrechamente que nunca» con las aerolíneas para hacerla asequible. «Hemos avanzado mucho en reducir la brecha, pero queda trabajo por hacer», añadió, e insistió en que la ampliación debe ser asequible para aerolíneas y pasajeros y financiable para los inversores.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "City AM",
+    "url": "https://www.cityam.com/british-airways-owner-tells-burnham-heathrows-third-runway-doomed-to-failure/",
+    "date": "2026-11-22"
+   },
+   {
+    "name": "London Travel News (The Standard)",
+    "url": "https://londontravelnews.co.uk/airports/british-airways-owner-warns-heathrow-expansion-is-too-costly",
+    "date": "2026-11-21"
+   }
+  ],
+  "why": "British Airways es la mayor usuaria de Heathrow y pagaría buena parte de la tercera pista vía tasas: IAG presiona para que el Estado asuma parte del coste antes de que se fije el modelo de financiación.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 66,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/5df3dc44-7fa4-4960-a4da-8b257f6a8c9a.jpeg",
+  "imageId": "iag-heathrow-tercera-pista-condenada-fracaso",
+  "photoSource": "City AM",
+  "art": {
+   "kind": "bars",
+   "title": "Coste de la tercera pista de Heathrow (miles de millones de £)",
+   "bars": [
+    {
+     "l": "Heathrow",
+     "v": 49,
+     "t": "49.000 M£"
+    },
+    {
+     "l": "Tope según IAG",
+     "v": 30,
+     "t": "30.000 M£"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23T08:28:41Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "iberia-andalucia-barcelona-1t-2027-plazas",
+  "title": "Iberia suma hasta un 23% más de plazas a Andalucía y Barcelona en el primer trimestre de 2027",
+  "category": "NET",
+  "publishedAt": "2026-11-20",
+  "source": "Demócrata (Europa Press)",
+  "url": "https://www.democrata.es/economia/iberia-refuerza-sus-vuelos-a-andalucia-y-barcelona-en-el-primer-trimestre-de-2027/",
+  "summary": "Iberia ampliará en el primer trimestre de 2027 su oferta desde Madrid a Málaga (21.920 plazas, +23%), Sevilla (21.800, +21%), Jerez (8.600, +16%) y Barcelona (43.400, +12%) para cubrir la demanda tras el cierre de la alta velocidad a Andalucía.",
+  "body": [
+   {
+    "t": "Iberia reforzará en el primer trimestre de 2027 sus vuelos desde Madrid a Málaga, Sevilla, Jerez de la Frontera y Barcelona, según confirmó la compañía a Europa Press. El objetivo es ofrecer alternativas a los viajeros afectados por el cierre de la línea de alta velocidad entre Madrid y Andalucía tras el accidente ferroviario de Urda (Toledo) del 28 de octubre.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La aerolínea ofrecerá 21.920 plazas a Málaga, un 23% más de lo que tenía previsto; 21.800 a Sevilla (+21%); 8.600 a Jerez (+16%) y 43.400 en el corredor Madrid–Barcelona (+12%).",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Entre las distintas aerolíneas del grupo, las frecuencias semanales serán 35 a Málaga, 36 a Sevilla, 26 a Jerez y 97 entre Madrid y Barcelona.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La competencia también mueve ficha en estas rutas: según la misma información, Wizz Air volará a Jerez y Almería desde el 14 de diciembre y subirá de 14 a 18 sus vuelos semanales entre Madrid y Sevilla.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Demócrata (Europa Press)",
+    "url": "https://www.democrata.es/economia/iberia-refuerza-sus-vuelos-a-andalucia-y-barcelona-en-el-primer-trimestre-de-2027/",
+    "date": "2026-11-20"
+   }
+  ],
+  "why": "El corte del AVE convierte Madrid–Andalucía en un mercado aéreo en disputa: Iberia refuerza la oferta desde su hub de Barajas mientras Wizz Air amplía sus vuelos en las mismas rutas.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 45,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/c36e713c-4757-469a-8ef7-3d2fc3238763.jpeg",
+  "imageId": "iberia-andalucia-barcelona-1t-2027-plazas",
+  "photoSource": "El Nacional (Europa Press)",
+  "art": {
+   "kind": "bars",
+   "title": "Plazas de Iberia desde Madrid, 1T 2027",
+   "bars": [
+    {
+     "l": "Málaga",
+     "v": 21920,
+     "t": "+23%"
+    },
+    {
+     "l": "Sevilla",
+     "v": 21800,
+     "t": "+21%"
+    },
+    {
+     "l": "Jerez",
+     "v": 8600,
+     "t": "+16%"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23T08:28:41Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "plus-ultra-bloquea-venta-billetes-caracas",
+  "title": "Plus Ultra bloquea la venta de billetes y deja en el aire Caracas, su última ruta regular",
+  "category": "STR",
+  "publishedAt": "2026-11-22",
+  "source": "Merca2",
+  "url": "https://www.merca2.es/2026/11/22/plus-ultra-cierre-billetes-ere-2514244/",
+  "summary": "Plus Ultra ha dejado de vender billetes: Merca2 asegura que en todos sus canales y destinos, y Tourinews, que en los vuelos desde Caracas a Madrid y Tenerife. La aerolínea, rescatada con 53 millones por la SEPI en 2021, no ha confirmado ni el cierre ni el ERE.",
+  "body": [
+   {
+    "t": "Plus Ultra ha dejado de vender billetes en plena crisis financiera. Según Merca2, la aerolínea ha retirado la venta de todos sus canales y para todos sus destinos; Tourinews precisa que en su web se pueden buscar los vuelos de Caracas a Madrid y Tenerife, los últimos que mantenía, pero no seleccionar fechas ni tarifas.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Los vuelos ya programados siguen operando. Tourinews informa de que el PU712 aterrizó el domingo en Tenerife Norte a las 9:38 y de que el PU711 regresaba a Caracas a mediodía; Merca2 señala que un A330 sigue en servicio entre Madrid, Tenerife y Caracas y que los billetes ya emitidos mantienen el derecho a reembolso o cambio. Según Merca2, la compañía no ha confirmado ni el cierre ni un despido colectivo.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La medida llega días después de que Plus Ultra suspendiera desde el 17 de noviembre sus vuelos regulares a Lima, hasta nuevo aviso, y a Buenos Aires, al menos hasta el 15 de diciembre. Según Fly News, la empresa comunicó al comité su intención de abrir un ERE en su centro de Madrid (sede y base de Barajas), con 679 trabajadores, y ha iniciado negociaciones con sus acreedores.",
+    "s": [
+     3
+    ]
+   },
+   {
+    "t": "La compañía atribuye su situación al alza de los costes, sobre todo del combustible: según Fly News, su gasto en queroseno en 2026 será de 104,83 millones de euros, frente a 69,13 millones presupuestados, y perdió 31,08 millones a nivel operativo entre febrero y agosto. Plus Ultra recibió en 2021 un rescate de 53 millones de euros del fondo gestionado por la SEPI.",
+    "s": [
+     1,
+     2,
+     3
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Merca2",
+    "url": "https://www.merca2.es/2026/11/22/plus-ultra-cierre-billetes-ere-2514244/",
+    "date": "2026-11-22"
+   },
+   {
+    "name": "Tourinews",
+    "url": "https://www.tourinews.es/empresas-turismo/plus-ultra-no-deja-comprar-en-su-web-los-vuelos-a-venezuela_4495704_102.html",
+    "date": "2026-11-22"
+   },
+   {
+    "name": "Fly News",
+    "url": "https://fly-news.es/aviacion-comercial/plus-ultra-suspende-vuelos-a-lima-y-buenos-aires/",
+    "date": "2026-11-19"
+   }
+  ],
+  "why": "La posible salida de Plus Ultra liberaría demanda en Madrid–Caracas y en el largo radio con Latinoamérica, donde Merca2 señala a Iberia y Air Europa como alternativas naturales para sus pasajeros.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 60,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/fe489426-5243-4f51-a42f-dbe75583cb35.jpeg",
+  "imageId": "plus-ultra-bloquea-venta-billetes-caracas",
+  "photoSource": "Infobae (Europa Press)",
+  "art": {
+   "kind": "route",
+   "title": "Última ruta regular de Plus Ultra",
+   "badge": "Venta bloqueada",
+   "points": [
+    {
+     "code": "CCS",
+     "city": "Caracas",
+     "lat": 10.6,
+     "lon": -66.99
+    },
+    {
+     "code": "TFN",
+     "city": "Tenerife Norte",
+     "lat": 28.48,
+     "lon": -16.34
+    },
+    {
+     "code": "MAD",
+     "city": "Madrid",
+     "lat": 40.47,
+     "lon": -3.56
+    }
+   ]
+  },
+  "addedAt": "2026-11-23T08:28:41Z",
+  "addedBy": "claude"
  }
 ]
