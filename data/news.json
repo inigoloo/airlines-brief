@@ -10021,41 +10021,143 @@
  },
  {
   "id": "b-airbaltic-liquidez-dos-semanas",
-  "kind": "brief",
-  "title": "airBaltic admite liquidez para solo dos semanas y avisa de posible liquidación en diciembre",
-  "summary": "La aerolínea letona, en profunda crisis económica, reconoce que solo tiene caja para unos días y que podría liquidarse en la primera quincena de diciembre.",
-  "en": {
-   "title": "airBaltic admits cash for only two weeks and warns of possible liquidation in December",
-   "summary": "The Latvian carrier, in deep financial trouble, says it only has cash for a few more days and could enter liquidation in the first half of December."
-  },
-  "source": "Preferente",
-  "url": "https://www.preferente.com/noticias-de-transportes/noticias-de-aerolineas/air-baltic-solo-tiene-dinero-para-volar-2-semanas-mas-353175.html",
-  "thumb": "https://www.preferente.com/wp-content/uploads/2022/08/airbaltic.jpg",
-  "publishedAt": "2026-11-22",
+  "title": "airBaltic avisa al juez de que puede quedarse sin caja en la primera quincena de diciembre",
   "category": "FIN",
-  "aiScore": 72,
-  "promote": true,
+  "publishedAt": "2026-11-22",
+  "source": "Travelling for Business",
+  "url": "https://travellingforbusiness.co.uk/news/airbaltic-funding-cash-december/",
+  "summary": "airBaltic ha advertido al tribunal de quiebras de Nueva York de que puede quedarse sin caja en la primera quincena de diciembre y verse abocada a la liquidación. Depende de desbloquear los dos últimos tramos de su préstamo DIP de hasta 350 millones, frenados por sus bonistas.",
+  "body": [
+   {
+    "t": "airBaltic ha advertido al Tribunal de Quiebras del Distrito Sur de Nueva York de que podría quedarse sin efectivo en la primera mitad de diciembre si no obtiene el resto de su financiación de emergencia, según documentos presentados el 16 de noviembre y recogidos por la agencia LETA. Sin ese dinero, la aerolínea letona podría verse obligada a cesar operaciones e iniciar su liquidación.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La advertencia procede de una declaración de Stefan Krastev, vicepresidente de Seabury Global Aviation Advisors, asesor financiero de la compañía, según BNN. airBaltic se acogió al capítulo 11 de la ley de quiebras estadounidense en septiembre, y el tribunal aprobó el 19 de octubre una financiación DIP de hasta 350 millones de euros en tres tramos: uno inicial de 175 millones, un segundo de hasta 125 millones y un tercero de hasta 50 millones.",
+    "s": [
+     2,
+     3
+    ]
+   },
+   {
+    "t": "El bloqueo está en los dos últimos tramos. Los prestamistas —Barclays, Hayfin Capital Management, Morgan Stanley, Oaktree Capital Management y Strategic Value Partners— exigen cobrar por delante de las garantías de los bonistas con vencimiento en 2029, que se han opuesto. airBaltic ofrece a estos una garantía secundaria sobre ocho Airbus A220, siete motores de repuesto y un simulador de vuelo, y la vista sobre esa prelación, prevista para el 17 y 18 de noviembre, se aplazó al 9 de diciembre.",
+    "s": [
+     2,
+     1
+    ]
+   },
+   {
+    "t": "Según los cálculos de Krastev recogidos por BNN, las garantías de los bonistas valen unos 251 millones de euros con la aerolínea en funcionamiento, frente a entre 28,5 y 56,1 millones en un escenario de liquidación. El Estado letón controla el 88,37% del capital y Lufthansa, el 10%. La compañía asegura que sus vuelos operan con normalidad y que los billetes y reservas siguen siendo válidos.",
+    "s": [
+     2,
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Travelling for Business",
+    "url": "https://travellingforbusiness.co.uk/news/airbaltic-funding-cash-december/",
+    "date": "2026-11-22"
+   },
+   {
+    "name": "BNN (LETA)",
+    "url": "https://bnn-news.com/money/airbaltic-could-run-out-of-cash-within-weeks-court-documents-warn-of-liquidation-y37mtnf",
+    "date": "2026-11-17"
+   },
+   {
+    "name": "TheStreet",
+    "url": "https://www.thestreet.com/travel/national-airline-warns-that-it-could-liquidate-as-early-as-december",
+    "date": "2026-11-20"
+   }
+  ],
+  "why": "La posible caída de airBaltic, participada en un 10% por Lufthansa y que presta aviones con tripulación a aerolíneas del grupo alemán, alteraría la capacidad en el Báltico y la flota de un competidor directo de IAG.",
   "europe": true,
-  "addedAt": "2026-11-23T08:55:00Z",
+  "aiScore": 72,
+  "photoSource": "Travelling for Business",
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/8ef0f6b3-0f05-4a56-9f32-4d4e88edf398.jpeg",
+  "imageId": "b-airbaltic-liquidez-dos-semanas",
+  "art": {
+   "kind": "bars",
+   "title": "Valor de las garantías de los bonistas (M€)",
+   "bars": [
+    {
+     "l": "En funcionamiento",
+     "v": 251,
+     "t": "251"
+    },
+    {
+     "l": "Liquidación (máx.)",
+     "v": 56.1,
+     "t": "56,1"
+    },
+    {
+     "l": "Liquidación (mín.)",
+     "v": 28.5,
+     "t": "28,5"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23T13:50:40Z",
   "addedBy": "claude"
  },
  {
   "id": "b-bruselas-cancela-vuelos-huelga-general",
-  "kind": "brief",
-  "title": "Zaventem cancela todos los vuelos del lunes 23 por la huelga general en Bélgica",
-  "summary": "El aeropuerto de Bruselas anuló todas las salidas y llegadas del lunes tras oficializarse el paro general convocado en el país.",
-  "en": {
-   "title": "Brussels Airport cancels all flights on Monday 23 November over Belgian general strike",
-   "summary": "Brussels Airport scrapped all departures and arrivals for Monday after the general strike called in the country was made official."
-  },
-  "source": "Preferente",
-  "url": "https://www.preferente.com/noticias-de-transportes/noticias-de-aerolineas/belgica-sin-vuelos-manana-lunes-por-un-paro-general-353182.html",
-  "thumb": "https://www.preferente.com/wp-content/uploads/2026/11/brussels.jpg",
-  "publishedAt": "2026-11-22",
+  "title": "Bélgica se queda casi sin vuelos al sumarse sus controladores a la huelga general del lunes",
   "category": "APT",
-  "aiScore": 62,
+  "publishedAt": "2026-11-23",
+  "source": "Al Jazeera",
+  "url": "https://www.aljazeera.com/news/2026/11/23/belgiums-airports-set-to-shut-down-due-to-anti-austerity-strike",
+  "summary": "Skeyes, el control aéreo belga, ha suspendido sus servicios regulares este lunes entre las 7:00 y las 21:00 al sumarse a la huelga general contra la austeridad, lo que deja al país casi sin vuelos. Es la undécima huelga que afecta al espacio aéreo belga en 11 meses.",
+  "body": [
+   {
+    "t": "Casi todos los vuelos en Bélgica quedan cancelados este lunes, 23 de noviembre, después de que skeyes, la empresa responsable del control aéreo del país, anunciara que su plantilla se suma a la huelga nacional contra las medidas de austeridad del Gobierno, según Al Jazeera, que cita a AFP y DPA. Skeyes no podrá prestar servicios regulares en los aeropuertos ni en el espacio aéreo belga entre las 7:00 y las 21:00, hora local.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "«Los niveles de plantilla previstos no permitirán garantizar la gestión segura del tráfico aéreo regular durante este periodo», explicó skeyes, que se declaró «obligada a suspender temporalmente los servicios afectados». Solo se mantienen los servicios esenciales para emergencias y otros vuelos críticos para la seguridad, y el aeropuerto de Bruselas avisó de que la mayoría de sus salidas y llegadas tendrían que cancelarse.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El aeropuerto de Bruselas-Charleroi, una de las grandes bases europeas de Ryanair, advirtió de que la huelga supondría el «cierre completo de todos los aeropuertos del país durante un día entero», con miles de pasajeros afectados. «Sin control aéreo, ningún vuelo puede despegar ni aterrizar», señaló, y criticó una «decisión de última hora» con «consecuencias desastrosas».",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El Board of Airline Representatives in Belgium, que agrupa a unas 25 aerolíneas, indicó que se trata de la undécima huelga que afecta al espacio aéreo belga en 11 meses. Los sindicatos protestan contra las reformas de la coalición del primer ministro, Bart De Wever, que negocia un presupuesto con el que ahorrar 10.000 millones de euros en los próximos años.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/23/belgiums-airports-set-to-shut-down-due-to-anti-austerity-strike",
+    "date": "2026-11-23"
+   }
+  ],
+  "why": "Con once huelgas en once meses, el control aéreo belga se ha convertido en un riesgo operativo recurrente para las aerolíneas que vuelan a Bruselas y a Charleroi, base clave de Ryanair, y para la red europea.",
   "europe": true,
-  "addedAt": "2026-11-23T08:55:00Z",
+  "aiScore": 62,
+  "photoSource": "Al Jazeera (Reuters)",
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/3ceadaeb-9628-4a63-a5ef-26ec1b8bf5dc.jpeg",
+  "imageId": "b-bruselas-cancela-vuelos-huelga-general",
+  "art": {
+   "kind": "big",
+   "value": "11",
+   "label": "huelgas en el espacio aéreo belga en 11 meses",
+   "sub": "Board of Airline Representatives in Belgium"
+  },
+  "addedAt": "2026-11-23T13:50:40Z",
   "addedBy": "claude"
  },
  {
@@ -10333,22 +10435,83 @@
  },
  {
   "id": "b-aena-sorpresa-recurso-air-europa",
-  "kind": "brief",
-  "title": "Aena se dice sorprendida por el recurso de Air Europa contra el DORA III y defiende sus meses de diálogo",
-  "summary": "Air Europa considera insuficientes los 261,4 millones previstos para las T1-T3, frente a 1.262,6 millones para la T4/T4S. El DORA III suma unos 13.000 millones, 4.477 en Barajas.",
-  "en": {
-   "title": "Aena says it is surprised by Air Europa's appeal against DORA III and defends months of dialogue",
-   "summary": "Air Europa considers the €261.4m earmarked for T1-T3 insufficient, against €1,262.6m for T4/T4S. DORA III totals around €13bn, of which €4,477m is for Barajas."
-  },
-  "source": "Demócrata",
-  "url": "https://www.democrata.es/economia/aena-se-declara-sorprendida-por-el-recurso-de-air-europa-contra-el-plan-de-inversiones-de-barajas/",
-  "publishedAt": "2026-11-21",
+  "title": "Aena se dice «sorprendida» por el recurso de Air Europa contra el DORA III y apela al consenso",
   "category": "APT",
-  "aiScore": 72,
-  "promote": true,
+  "publishedAt": "2026-11-21",
+  "source": "El Debate",
+  "url": "https://www.eldebate.com/economia/20261121/aena-muestra-sorpresa-ante-impugnacion-plan-inversor-parte-air-europa-dice-consensuado_483603.html",
+  "summary": "Aena muestra su sorpresa por el recurso de Air Europa ante el Supremo contra el DORA III y recuerda que las inversiones fueron el punto de mayor consenso. Air Europa ve insuficientes los 261,4 millones para la T1, T2 y T3 frente a los 1.262,6 millones para la T4.",
+  "body": [
+   {
+    "t": "Aena ha mostrado su «sorpresa» por el recurso contencioso-administrativo que Air Europa presentó esta semana ante el Tribunal Supremo contra el DORA III, el documento que regula las inversiones y tarifas de la red de aeropuertos entre 2027 y 2031. El gestor aeroportuario trasladó su posición el sábado 21 de noviembre a EFE y a Europa Press.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Aena recuerda que, «previamente a proponer el Dora al regulador, hubo varios meses de consultas con las compañías aéreas y sus asociaciones», y que después el plan fue informado por la CNMC y la Dirección General de Política Económica antes de su aprobación final por el Consejo de Ministros. Según el gestor, «el asunto en el que más consenso hubo entre todos durante todo el proceso fue el de las inversiones».",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El DORA III, aprobado por el Gobierno el 15 de septiembre, prevé unos 13.000 millones de euros de inversión en la red española entre 2027 y 2031, de los que 4.477 millones corresponden a Madrid-Barajas. Según El Debate, contempla además una subida anual del 0,33% de las tasas aeroportuarias.",
+    "s": [
+     2,
+     1
+    ]
+   },
+   {
+    "t": "Air Europa considera insuficientes los 261,4 millones previstos para unificar las terminales T1, T2 y T3, donde opera, frente a los 1.262,6 millones destinados a modernizar y ampliar la T4 y su satélite, y pide más esfuerzo en esas instalaciones o trasladar su operación a la T4. Según fuentes de la compañía citadas por Europa Press, califica de «discriminatorio» el trato recibido. En la T4 operan 27 compañías, principalmente Iberia y sus socios de Oneworld, según El Debate.",
+    "s": [
+     2,
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "El Debate",
+    "url": "https://www.eldebate.com/economia/20261121/aena-muestra-sorpresa-ante-impugnacion-plan-inversor-parte-air-europa-dice-consensuado_483603.html",
+    "date": "2026-11-21"
+   },
+   {
+    "name": "Última Hora (Europa Press)",
+    "url": "https://www.ultimahora.es/noticias/nacional/2026/11/21/2754823/aena-muestra-sorpresa-tras-recurso-air-europa-contra-plan-inversiones-barajas.html",
+    "date": "2026-11-21"
+   },
+   {
+    "name": "PressDigital (Europa Press)",
+    "url": "https://www.pressdigital.es/articulo/economia/2026-11-21/6103327-aena-sorprendida-recurso-air-europa-dora-iii",
+    "date": "2026-11-21"
+   }
+  ],
+  "why": "El choque entre Aena y Air Europa por el reparto de la inversión en Barajas puede condicionar el plan de terminales del hub de Iberia y la aspiración de su rival de operar en la T4 junto a Iberia y Oneworld.",
   "iagImpact": "indirecto",
   "europe": true,
-  "addedAt": "2026-11-23T13:43:22Z",
+  "aiScore": 70,
+  "photoSource": "El Debate",
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/1060e944-8e73-40a9-9531-866093c0f23a.jpeg",
+  "imageId": "b-aena-sorpresa-recurso-air-europa",
+  "art": {
+   "kind": "bars",
+   "title": "Inversión del DORA III en Barajas (M€)",
+   "bars": [
+    {
+     "l": "T4 y T4S",
+     "v": 1262.6,
+     "t": "1.262,6"
+    },
+    {
+     "l": "T1, T2 y T3",
+     "v": 261.4,
+     "t": "261,4"
+    }
+   ]
+  },
+  "addedAt": "2026-11-23T13:50:40Z",
   "addedBy": "claude"
  },
  {
@@ -10559,6 +10722,69 @@
   "category": "FIN",
   "aiScore": 55,
   "addedAt": "2026-11-23T13:43:22Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "air-europa-rescate-correos-sepi-moncloa",
+  "title": "Los correos de la SEPI sitúan a Moncloa en el rescate de Air Europa el día que declara Aagesen",
+  "category": "STR",
+  "publishedAt": "2026-11-23",
+  "source": "Qué!",
+  "url": "https://www.que.es/2026/11/23/rescate-air-europa-moncloa-emails/",
+  "summary": "Correos internos de la SEPI aportados al juez muestran que Presidencia organizó reuniones sobre el rescate de 475 millones a Air Europa fuera del Consejo Gestor, según El Mundo. Aagesen declara hoy como testigo por videoconferencia en el Juzgado de Instrucción 49 de Madrid.",
+  "body": [
+   {
+    "t": "Correos internos de la SEPI remitidos al juzgado muestran que Presidencia del Gobierno organizó reuniones sobre el rescate de 475 millones de euros a Air Europa al margen del Consejo Gestor del Fondo de Apoyo a la Solvencia de Empresas Estratégicas, según publica Qué! a partir de la información de El Mundo. La causa la instruye el juez José María Escribano, del Juzgado de Instrucción número 49 de Madrid, que investiga a Bartolomé Lora, vicepresidente de la SEPI, por un posible delito de prevaricación.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El 28 de septiembre de 2020, Lora respondió a Carlos San Basilio, entonces director general del Tesoro: «La reunión de mañana no es del Consejo Gestor. Es una reunión con los Ministerios que participaron en la reunión de Presidencia». Al día siguiente se celebró por Teams una reunión con Manuel de la Rocha, Ana de la Cueva, Pilar Paneque, Pedro Saura y el propio Lora.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El 8 de octubre, De la Rocha, jefe de la Oficina Económica del Presidente, pidió a Lora «una nota o breves bullet points sobre la operación con Air Europa» y le preguntó si la SEPI sabía algo de los planes de Iberia o de IAG. El Consejo Gestor no aprobó el rescate el 21 de octubre y pidió mejorar la información; la aprobación se cerró el 29 de octubre. El Gobierno y la SEPI niegan irregularidades y recuerdan que Air Europa devolvió el dinero el año pasado.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La vicepresidenta tercera, Sara Aagesen, que formaba parte del Consejo Gestor, declara este lunes como testigo por videoconferencia ante Escribano, según ESdiario. Ese medio sitúa también este lunes a Ana de la Cueva, Pilar Paneque, Francisco Javier Loriente y Raúl Blanco, y el martes a De la Rocha, Saura, San Basilio e Íñigo Errejón, entre otros.",
+    "s": [
+     2,
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Qué!",
+    "url": "https://www.que.es/2026/11/23/rescate-air-europa-moncloa-emails/",
+    "date": "2026-11-23"
+   },
+   {
+    "name": "ESdiario",
+    "url": "https://www.esdiario.com/nacional/261123/203623/air-europa-leire-diez-ceuta-justicia-sanchez-ultima-semana-campana.html",
+    "date": "2026-11-23"
+   }
+  ],
+  "why": "Según los correos, Moncloa preguntó por los planes de Iberia e IAG al estudiar el rescate. La causa mantiene el foco judicial sobre Air Europa, rival de Iberia en Madrid y Latinoamérica, en plena semana electoral.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 50,
+  "photoSource": "Qué!",
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/cca9bf16-139e-4fc0-9767-7226c61d4fb4.png",
+  "imageId": "air-europa-rescate-correos-sepi-moncloa",
+  "art": {
+   "kind": "big",
+   "value": "475 M€",
+   "label": "Rescate de la SEPI a Air Europa",
+   "sub": "Aprobado en octubre de 2020"
+  },
+  "addedAt": "2026-11-23T13:50:40Z",
   "addedBy": "claude"
  }
 ]
