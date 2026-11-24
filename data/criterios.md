@@ -57,3 +57,12 @@ Antes de hacer commit, repasa UNA POR UNA las noticias que vas a añadir o conve
 - Si alguna es de un tipo que aquí «pesa menos» o «no interesa» (por ejemplo, carga aérea que no sea IAG Cargo), no la publiques como Destacada: déjala como Breve o descártala, y anótalo en el resumen.
 - Si alguna es de un tipo que aquí «siempre es Destacada» y la ibas a dejar como Breve, márcala con "promote": true.
 - Si dudas de cómo encaja una noticia en estos criterios, dilo en el resumen (para que el editor lo aclare y se añada aquí).
+
+## Acceso a webs: la tarea no debe depender del editor (24-nov-2026)
+
+Las tareas se ejecutan solas. Cada vez que se abre con WebFetch una dirección que no ha salido antes en la sesión, al editor le salta una petición de permiso y la tarea queda esperándole. Por eso:
+- Usa WebFetch SOLO con direcciones copiadas tal cual de feeds/candidates.json o de un resultado de WebSearch de esta misma sesión. Nunca construyas ni modifiques una dirección (no cambies .webp por .jpg, no quites parámetros, no adivines rutas, no escribas una URL de memoria).
+- Antes de abrir una página, intenta resolverlo con WebSearch: el resultado suele traer la fecha y los datos clave, y sus enlaces ya cuentan como vistos.
+- Abre como máximo las páginas imprescindibles: una por noticia y, si hace falta, una segunda fuente.
+- Para la foto: usa la og:image que devuelva la propia página; si no vale, prueba la de otra página ya abierta o de un resultado de búsqueda. Las variantes de formato (.jpg en vez de .webp) pruébalas solo en la subida a Klaviyo, nunca con WebFetch.
+- Si una dirección pide permiso, se rechaza o tarda, no esperes: sáltala, usa otra fuente o deja esa noticia para otro día, y anótalo en el resumen.
