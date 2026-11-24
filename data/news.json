@@ -10344,22 +10344,60 @@
  },
  {
   "id": "b-kiwi-reservas-vuelos-espana-noviembre",
-  "kind": "brief",
-  "title": "Las reservas de vuelos desde España crecen casi un 33% en noviembre, según Kiwi.com",
-  "summary": "Kiwi.com detecta más demanda de viajes para diciembre, que concentra el 30,5% de los pasajeros; Marruecos destaca entre los destinos de mayor crecimiento.",
-  "en": {
-   "title": "Flight bookings from Spain rise almost 33% in November, Kiwi.com says",
-   "summary": "Kiwi.com sees higher travel demand for December, which accounts for 30.5% of passengers; Morocco stands out among the fastest-growing destinations."
-  },
+  "title": "Las reservas de vuelos desde España crecen un 32,8% a principios de noviembre, según Kiwi.com",
+  "category": "TUR",
+  "publishedAt": "2026-11-23",
   "source": "Nexotur",
   "url": "https://nexotur.com/las-reservas-de-vuelos-desde-espana-crecen-casi-un-33-en-noviembre/",
-  "publishedAt": "2026-11-23",
-  "category": "TUR",
-  "aiScore": 68,
+  "summary": "Según Kiwi.com, las reservas de vuelos desde aeropuertos españoles subieron un 32,8% interanual entre el 1 y el 10 de noviembre, con un gasto medio de unos 181 euros por pasajero. Diciembre concentra el 30,5% de los viajeros y Marruecos eleva sus reservas un 48,6%.",
+  "body": [
+   {
+    "t": "Las reservas de vuelos con salida desde aeropuertos españoles aumentaron un 32,8% entre el 1 y el 10 de noviembre de 2026 respecto al mismo periodo de 2025, según datos de Kiwi.com publicados por Nexotur el 23 de noviembre. El número de pasajeros creció un 32% y, frente a los diez días anteriores, las reservas subieron un 7,7% y los pasajeros un 9,1%.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Las búsquedas avanzaron un 14,7% interanual y un 7,2% frente al periodo del 22 al 31 de octubre. El gasto medio por pasajero, incluidos extras como el equipaje, se situó en unos 181 euros, frente a unos 160 euros un año antes.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Diciembre concentra el 30,5% de los pasajeros, frente al 17% que viajará entre enero y marzo. Roma, Madrid, Budapest, Málaga, Milán, Barcelona, Sevilla, Palma, Cracovia y Londres son los destinos más reservados para diciembre. En el mercado nacional, las búsquedas crecieron un 24,7% interanual y los pasajeros un 41,7%.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Marruecos destaca entre los destinos internacionales: sus búsquedas subieron un 31% interanual y las reservas un 48,6%. Alemania registró un aumento del 55,1% en pasajeros. La antelación media de reserva fue de 34 días, con una mediana de 21; según Kiwi.com, la campaña de descuentos de finales de noviembre coincide con la organización de los viajes navideños.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Nexotur",
+    "url": "https://nexotur.com/las-reservas-de-vuelos-desde-espana-crecen-casi-un-33-en-noviembre/",
+    "date": "2026-11-23"
+   }
+  ],
+  "why": "El salto de la demanda emitida desde España antes de Navidad sostiene ocupación y tarifas en el mercado doméstico y en rutas europeas como Roma o Londres, donde compiten Iberia, Vueling y Air Europa.",
+  "iagImpact": "indirecto",
   "europe": true,
-  "addedAt": "2026-11-23T08:55:00Z",
+  "aiScore": 68,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/2f7d3374-dabc-42ac-b010-ce08b040058c.jpeg",
+  "imageId": "b-kiwi-reservas-vuelos-espana-noviembre",
+  "photoSource": "Nexotur",
+  "addedAt": "2026-11-24T09:53:53Z",
   "addedBy": "claude",
-  "promote": true
+  "art": {
+   "kind": "big",
+   "value": "+32,8%",
+   "label": "reservas de vuelos desde España (1-10 nov.)",
+   "sub": "Kiwi.com"
+  }
  },
  {
   "id": "b-delta-dublin-detroit-diario",
@@ -10381,24 +10419,70 @@
  },
  {
   "id": "b-ba-sustitutos-777-200er",
-  "kind": "brief",
-  "title": "British Airways prepara el relevo de sus Boeing 777-200ER en Heathrow",
-  "summary": "La aerolínea se dispone a retirar 43 Boeing 777-200ER y se plantea qué aviones ocuparán su lugar en su base de Heathrow.",
-  "en": {
-   "title": "British Airways lines up replacements for its Boeing 777-200ERs at Heathrow",
-   "summary": "The airline is preparing to retire 43 Boeing 777-200ERs, with the question of which aircraft will take over at Heathrow."
-  },
+  "title": "British Airways afronta el relevo de sus 43 Boeing 777-200ER sin un plan público para Heathrow",
+  "category": "FLT",
+  "publishedAt": "2026-11-23",
   "source": "Simple Flying",
   "url": "https://simpleflying.com/aircraft-set-replace-british-airways-boeing-777-200ers-london-heathrow/",
-  "thumb": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/shutterstock_2577719323-1.jpg",
-  "publishedAt": "2026-11-23",
-  "category": "FLT",
-  "aiScore": 72,
+  "summary": "British Airways no ha detallado cómo sustituirá en Heathrow a sus 43 Boeing 777-200ER, con unos 26 años de media, según Simple Flying. El A350-1000 relevará al 777 en la ruta diaria a Nashville desde el 29 de marzo, con 331 asientos frente a 272.",
+  "body": [
+   {
+    "t": "British Airways no ha hecho público qué aviones sustituirán en Heathrow a sus 43 Boeing 777-200ER, según un análisis de Simple Flying publicado el 23 de noviembre. El medio subraya que la aerolínea no ha comunicado ni una fecha de retirada ni un plan ruta por ruta para su principal hub.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La única fecha firme corresponde a Gatwick: el consejero delegado, Sean Doyle, comunicó a la plantilla el 27 de febrero de 2026 que el primer Boeing 787-10 nuevo llegará a ese aeropuerto en 2029. Según Aerospace Global News, citado por Simple Flying, la edad media de los 777-200ER ronda los 26 años y la mayoría opera desde Heathrow.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "En Heathrow, el A350-1000 está programado para sustituir al 777-200ER en el vuelo diario a Nashville desde el 29 de marzo, lo que eleva la capacidad de 272 a 331 asientos, con 56 plazas en Club Suites frente a 48. El análisis sostiene que, en un aeropuerto limitado por los slots, aumentar el tamaño del avión vale más que una sustitución uno por uno.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Según el medio, BA tiene pedidos 24 Boeing 777-9, seis A350-1000 adicionales y 38 Boeing 787-10, incluidos los 32 anunciados en 2025. Ningún 777-9 se ha incorporado aún y Simple Flying prevé que Boeing entregue el primero en 2027. La web Turning Left For Less, citada en el artículo, sostiene que BA quiere retirar los 43 aviones y que algunas rutas podrían perder la primera clase, porque el A350-1000 no la tiene.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Simple Flying",
+    "url": "https://simpleflying.com/aircraft-set-replace-british-airways-boeing-777-200ers-london-heathrow/",
+    "date": "2026-11-23"
+   }
+  ],
+  "why": "La renovación del largo radio de BA en Heathrow condiciona la capacidad, el producto premium y los costes de IAG en su mayor hub; el ritmo de entregas del 777-9 y del 787-10 es la variable clave.",
   "iagImpact": "directo",
   "europe": true,
-  "addedAt": "2026-11-23T13:40:49Z",
+  "aiScore": 72,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/af7a6ecf-4470-493f-b547-143a51d018de.jpeg",
+  "imageId": "b-ba-sustitutos-777-200er",
+  "photoSource": "Simple Flying / Shutterstock",
+  "addedAt": "2026-11-24T09:53:53Z",
   "addedBy": "claude",
-  "promote": true
+  "art": {
+   "kind": "bars",
+   "title": "Asientos en Londres-Nashville",
+   "bars": [
+    {
+     "l": "777-200ER",
+     "v": 272,
+     "t": "272"
+    },
+    {
+     "l": "A350-1000",
+     "v": 331,
+     "t": "331"
+    }
+   ]
+  }
  },
  {
   "id": "b-air-canada-trimestre-record",
@@ -10644,23 +10728,73 @@
  },
  {
   "id": "b-iberia-jerez-madrid-2027",
-  "kind": "brief",
-  "title": "Iberia refuerza Jerez-Madrid hasta 26 vuelos semanales en el primer trimestre de 2027",
-  "summary": "Con Air Nostrum, la oferta sube a unas 8.600 plazas (+16%), con picos de hasta cinco salidas diarias y tarifas desde 27 euros, por el corte del AVE a Andalucía.",
-  "en": {
-   "title": "Iberia boosts Jerez-Madrid to 26 weekly flights in Q1 2027",
-   "summary": "Operated by Air Nostrum, capacity rises to around 8,600 seats (+16%), with peaks of up to five daily departures and fares from €27, due to the high-speed rail cut to Andalusia."
-  },
+  "title": "Iberia eleva a 26 vuelos semanales el Jerez-Madrid en el primer trimestre de 2027",
+  "category": "NET",
+  "publishedAt": "2026-11-21",
   "source": "Jerez Sin Fronteras",
   "url": "https://jerezsinfronteras.es/vuelos-jerez-madrid-iberia-2027/",
-  "publishedAt": "2026-11-21",
-  "category": "NET",
-  "aiScore": 40,
+  "summary": "Iberia, con vuelos operados por Air Nostrum, ofrecerá hasta 26 frecuencias semanales entre Jerez y Madrid de enero a marzo de 2027, con 8.600 plazas (+16%). El refuerzo, con hasta cinco salidas diarias, responde al corte de la alta velocidad.",
+  "body": [
+   {
+    "t": "Iberia ofrecerá hasta 26 frecuencias semanales entre Jerez y Madrid en enero, febrero y marzo de 2027, con vuelos operados por su franquiciada Air Nostrum, según publicó Jerez Sin Fronteras el 21 de noviembre a partir de datos del aeropuerto de Jerez. La oferta global alcanza 8.600 plazas, un 16% más.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La programación contempla picos de cuatro y hasta cinco salidas diarias, con tarifas desde 27 euros por trayecto. El vuelo directo dura 1 hora y 15 minutos.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Para el sábado 23 de enero de 2027, el medio recoge cinco salidas entre las 09:25 y las 21:35, con precios de entre 27 y 151 euros en clase turista.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El refuerzo responde a la interrupción del corredor ferroviario de alta velocidad con Madrid, cerrado tras el accidente registrado en Urda el 28 de octubre, según el medio.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Jerez Sin Fronteras",
+    "url": "https://jerezsinfronteras.es/vuelos-jerez-madrid-iberia-2027/",
+    "date": "2026-11-21"
+   }
+  ],
+  "why": "Iberia capta con capacidad regional la demanda que pierde el tren tras el corte de la alta velocidad, un ejemplo de cómo la red que alimenta Madrid-Barajas compite y se complementa con el AVE.",
   "iagImpact": "directo",
   "europe": true,
-  "addedAt": "2026-11-23T13:43:22Z",
+  "aiScore": 40,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/30e83319-a230-48c3-a8b5-7453d2b8fad3.jpeg",
+  "imageId": "b-iberia-jerez-madrid-2027",
+  "photoSource": "Ladevi",
+  "addedAt": "2026-11-24T09:53:53Z",
   "addedBy": "claude",
-  "promote": true
+  "art": {
+   "kind": "route",
+   "title": "Jerez-Madrid, 1T 2027",
+   "badge": "26 vuelos/semana",
+   "points": [
+    {
+     "code": "XRY",
+     "city": "Jerez",
+     "lat": 36.74,
+     "lon": -6.06
+    },
+    {
+     "code": "MAD",
+     "city": "Madrid",
+     "lat": 40.47,
+     "lon": -3.56
+    }
+   ]
+  }
  },
  {
   "id": "b-easa-ocho-a380-grietas",
@@ -11378,28 +11512,82 @@
   "iagImpact": "indirecto",
   "europe": true,
   "addedAt": "2026-11-24T08:44:15Z",
-  "addedBy": "claude",
-  "promote": true
+  "addedBy": "claude"
  },
  {
   "id": "b-moeve-world2fly-esaf-madrid-lisboa",
-  "kind": "brief",
-  "title": "Moeve y World2Fly prueban en un Madrid-Lisboa la mezcla de combustibles sostenibles que exigirá Bruselas",
-  "summary": "Primer trayecto de una aerolínea española con e-SAF, SAF de origen biológico y queroseno convencional, fruto de la alianza entre ambas compañías.",
-  "en": {
-   "title": "Moeve and World2Fly trial on a Madrid-Lisbon flight the sustainable fuel blend Brussels will require in 2030",
-   "summary": "The first flight by a Spanish airline combining synthetic renewable e-SAF, bio-based SAF and conventional kerosene, the result of an alliance between the two companies."
-  },
-  "source": "Cinco Días",
-  "url": "https://cincodias.elpais.com/companias/2026-11-23/moeve-y-world2fly-ensayan-en-un-vuelo-madrid-lisboa-la-mezcla-de-combustibles-sostenibles-que-bruselas-exigira-en-2030.html",
-  "thumb": "https://imagenes.elpais.com/resizer/v2/RJIQAALCZJDBZJQGANYADFK7JM.jpeg?auth=ea60a7a1e26b028b9e5e2b817605613776da3cfe811b90b31a41bc14215fafab",
-  "publishedAt": "2026-11-23",
+  "title": "World2Fly y Moeve vuelan un Madrid-Lisboa con la mezcla de e-SAF que exigirá la UE en 2030",
   "category": "REG",
-  "aiScore": 48,
+  "publishedAt": "2026-11-23",
+  "source": "Business People",
+  "url": "https://business-people.es/economia/world2fly-y-moeve-realizan-el-primer-vuelo-espanol-con-combustible-sintetico-y-sostenible/",
+  "summary": "World2Fly y Moeve volaron un A350 entre Madrid y Lisboa con un 1,2% de e-SAF, un 4,8% de SAF biológico y queroseno, la proporción que ReFuelEU exigirá en 2030. Es el primer vuelo de una aerolínea española con esa combinación, según Business People.",
+  "body": [
+   {
+    "t": "World2Fly, aerolínea de World2Meet (grupo Iberostar), y Moeve operaron el 23 de noviembre un vuelo entre Madrid y Lisboa con una mezcla de combustible sintético renovable (e-SAF), SAF de origen biológico y queroseno convencional. Business People lo presenta como el primer vuelo de una aerolínea española que combina ambos combustibles sostenibles con queroseno.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La mezcla incluyó un 1,2% de e-SAF y un 4,8% de SAF biológico. El vuelo se hizo con un Airbus A350 y más de 300 pasajeros, sin modificar el avión ni la infraestructura aeroportuaria, y el combustible se distribuyó a través de la red logística de Exolum.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El e-SAF se desarrolló en el Centro de Innovación de Moeve en Alcalá de Henares, a partir de hidrógeno renovable obtenido por electrólisis y CO2 residual capturado, con la participación del ITQ (CSIC-UPV) y del centro finlandés VTT. El SAF biológico procede del Parque Energético San Roque (Cádiz) e incluye aceites de cocina usados de hoteles de Iberostar en Andalucía y Cataluña.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Las proporciones replican el objetivo de ReFuelEU Aviation para 2030: al menos un 6% de SAF en el combustible suministrado en aeropuertos de la UE, con un mínimo del 1,2% de sintéticos. Según Moeve, el e-SAF reduce hasta un 97% las emisiones de CO2 en su ciclo de vida y el SAF biológico hasta un 90%. Business People indica que la fórmula podría incorporarse a los vuelos comerciales de World2Fly a partir de 2030.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Business People",
+    "url": "https://business-people.es/economia/world2fly-y-moeve-realizan-el-primer-vuelo-espanol-con-combustible-sintetico-y-sostenible/",
+    "date": "2026-11-23"
+   },
+   {
+    "name": "El Estrecho Digital",
+    "url": "https://www.elestrechodigital.com/2026/11/23/moeve-y-world2fly-realizan-un-vuelo-entre-madrid-y-lisboa-con-combustible-sintetico-renovable",
+    "date": "2026-11-23"
+   }
+  ],
+  "why": "Anticipa cómo cumplirán las aerolíneas españolas, Iberia y Vueling incluidas, la cuota de e-SAF de 2030; la disponibilidad y el precio del combustible sintético serán un coste relevante para todo el sector.",
   "europe": true,
-  "addedAt": "2026-11-24T08:44:15Z",
+  "aiScore": 48,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/6f426411-2167-4f0a-84a7-8f0d354cf42f.jpeg",
+  "imageId": "b-moeve-world2fly-esaf-madrid-lisboa",
+  "photoSource": "Business People / Getty",
+  "addedAt": "2026-11-24T09:53:53Z",
   "addedBy": "claude",
-  "promote": true
+  "art": {
+   "kind": "bars",
+   "title": "Mezcla del vuelo (% del combustible)",
+   "bars": [
+    {
+     "l": "e-SAF",
+     "v": 1.2,
+     "t": "1,2%"
+    },
+    {
+     "l": "SAF biológico",
+     "v": 4.8,
+     "t": "4,8%"
+    }
+   ]
+  }
  },
  {
   "id": "b-canarias-teme-perder-vuelos-marruecos-turquia",
@@ -11418,8 +11606,7 @@
   "aiScore": 52,
   "europe": true,
   "addedAt": "2026-11-24T08:44:15Z",
-  "addedBy": "claude",
-  "promote": true
+  "addedBy": "claude"
  },
  {
   "id": "b-vietjet-haite-alianza-mro",
@@ -11492,23 +11679,78 @@
  },
  {
   "id": "b-binter-el-hierro-frecuencias",
-  "kind": "brief",
-  "title": "Binter amplía las frecuencias aéreas de El Hierro ante la crisis migratoria que atraviesa la isla",
-  "summary": "La aerolínea canaria refuerza los vuelos desde y hacia la isla para atender sus necesidades de conectividad.",
-  "en": {
-   "title": "Binter adds frequencies to El Hierro amid the island's migration crisis",
-   "summary": "The Canarian airline strengthens flights to and from the island to meet its connectivity needs."
-  },
-  "source": "Preferente",
-  "url": "https://www.preferente.com/noticias-de-transportes/noticias-de-aerolineas/binter-amplia-vuelos-a-el-hierro-por-la-avalancha-migratoria-353213.html",
-  "thumb": "https://www.preferente.com/wp-content/uploads/2026/11/binter.jpg",
-  "publishedAt": "2026-11-23",
+  "title": "Binter refuerza sus vuelos de El Hierro con Tenerife y Gran Canaria por la situación de la isla",
   "category": "NET",
-  "aiScore": 40,
+  "publishedAt": "2026-11-23",
+  "source": "Diario de Avisos",
+  "url": "https://diariodeavisos.elespanol.com/2026/11/binter-mas-vuelos-el-hierro-tenerife-gran-canaria/",
+  "summary": "Binter añade frecuencias entre El Hierro y Gran Canaria los lunes y domingos y dos viernes, y con Tenerife varios días de esta semana, la siguiente y el puente de diciembre. La aerolínea no detalla el número de vuelos ni de plazas adicionales.",
+  "body": [
+   {
+    "t": "Binter ha programado un refuerzo de sus vuelos con El Hierro para atender el aumento de las necesidades de conectividad derivado de «la situación coyuntural que vive la isla», según informó Diario de Avisos el 23 de noviembre. La aerolínea canaria aumenta vuelos y plazas y ajusta su programación habitual para las próximas semanas.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "En la ruta con Gran Canaria añade una frecuencia los lunes y domingos al mediodía y nuevos vuelos los viernes 27 de noviembre y 11 de diciembre a las 08:40. Con Tenerife refuerza los martes, miércoles y sábados de esta semana y la siguiente, además del miércoles y el sábado de la semana del puente de diciembre.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La compañía no ha detallado el número de vuelos ni de plazas adicionales. Según la nota recogida por elDiario.es, Binter recuerda su compromiso con la conectividad de todas las islas y seguirá la evolución de El Hierro para estudiar si son necesarios nuevos refuerzos.",
+    "s": [
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Diario de Avisos",
+    "url": "https://diariodeavisos.elespanol.com/2026/11/binter-mas-vuelos-el-hierro-tenerife-gran-canaria/",
+    "date": "2026-11-23"
+   },
+   {
+    "name": "elDiario.es",
+    "url": "https://www.eldiario.es/canariasahora/lapalmaahora/economia/binter-refuerza-conexiones-aereas-hierro_1_13688088.html",
+    "date": "2026-11-24"
+   }
+  ],
+  "why": "Ilustra la flexibilidad de la oferta interinsular canaria ante picos de demanda, un segmento regional del mercado español en el que Binter concentra su negocio y del que depende la conectividad del archipiélago.",
   "europe": true,
-  "addedAt": "2026-11-24T08:44:15Z",
+  "aiScore": 40,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/86150098-aa93-4f57-92a2-9c0967cff36f.jpeg",
+  "imageId": "b-binter-el-hierro-frecuencias",
+  "photoSource": "Diario de Avisos",
+  "addedAt": "2026-11-24T09:53:53Z",
   "addedBy": "claude",
-  "promote": true
+  "art": {
+   "kind": "route",
+   "title": "Refuerzos de Binter con El Hierro",
+   "points": [
+    {
+     "code": "VDE",
+     "city": "El Hierro",
+     "lat": 27.81,
+     "lon": -17.89
+    },
+    {
+     "code": "TFN",
+     "city": "Tenerife Norte",
+     "lat": 28.48,
+     "lon": -16.34
+    },
+    {
+     "code": "LPA",
+     "city": "Gran Canaria",
+     "lat": 27.93,
+     "lon": -15.39
+    }
+   ]
+  }
  },
  {
   "id": "b-air-new-zealand-slots-27-horas",
@@ -11545,5 +11787,205 @@
   "europe": true,
   "addedAt": "2026-11-24T08:44:15Z",
   "addedBy": "claude"
+ },
+ {
+  "id": "bizaway-viajes-negocios-internacionales-espana",
+  "title": "Los viajes de negocios internacionales desde España crecen un 28,9% en 2026, según BizAway",
+  "category": "TUR",
+  "publishedAt": "2026-11-24",
+  "source": "Nexotur",
+  "url": "https://nexotur.com/los-viajes-de-negocios-internacionales-desde-espana-crecen-casi-un-29-en-2026/",
+  "summary": "Las reservas de viajes de negocios al extranjero desde España en BizAway crecieron un 28,9% entre enero y noviembre y ya suponen el 15,7% del total de la plataforma. Bélgica (+57%), Alemania (+55%) y Países Bajos (+45%) lideran el avance por destino.",
+  "body": [
+   {
+    "t": "Las reservas de viajes de negocios internacionales con salida desde España gestionadas por BizAway crecieron un 28,9% entre enero y noviembre de 2026 respecto al mismo periodo de 2025, según datos publicados por Nexotur el 24 de noviembre. Los desplazamientos al extranjero suponen ya el 15,7% del total de reservas de la plataforma, frente al 14,5% de 2025.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Bélgica encabeza el crecimiento por destino, con un 57%, seguida de Alemania (55%) y Países Bajos (45%). Italia avanza un 27%, Portugal un 25%, Reino Unido un 22% y Francia un 14%; fuera de Europa, Estados Unidos crece un 9%.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Por volumen, Italia concentra el 25% de las reservas internacionales de BizAway en 2026, seguida de Alemania y Portugal, con un 11% cada una, y Francia, con un 9%. Reino Unido supone el 5%, y Bélgica y Países Bajos, un 4% cada uno.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "«Los viajes de negocios ya no se planifican pensando únicamente en el volumen de desplazamientos, sino en el valor real que aportan al negocio», afirmó Luca Carlucci, consejero delegado y cofundador de BizAway, que espera que la tendencia siga ganando fuerza en los próximos meses.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Nexotur",
+    "url": "https://nexotur.com/los-viajes-de-negocios-internacionales-desde-espana-crecen-casi-un-29-en-2026/",
+    "date": "2026-11-24"
+   }
+  ],
+  "why": "El viaje corporativo es un segmento de alto valor para las aerolíneas; su crecimiento hacia Europa central refuerza las rutas de negocio desde Madrid y Barcelona en las que compiten Iberia, Vueling y Air Europa.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 60,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/c9643cc6-753f-4f4e-b113-e309b55528c7.jpeg",
+  "imageId": "bizaway-viajes-negocios-internacionales-espana",
+  "photoSource": "Nexotur",
+  "addedAt": "2026-11-24T09:53:53Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "bars",
+   "title": "Crecimiento de reservas de negocio por destino (%)",
+   "bars": [
+    {
+     "l": "Bélgica",
+     "v": 57,
+     "t": "+57%"
+    },
+    {
+     "l": "Alemania",
+     "v": 55,
+     "t": "+55%"
+    },
+    {
+     "l": "Países Bajos",
+     "v": 45,
+     "t": "+45%"
+    }
+   ]
+  }
+ },
+ {
+  "id": "ryanair-navidad-565000-plazas-espana",
+  "title": "Ryanair suma casi 565.000 plazas en España para Navidad y prevé más de 3 millones de pasajeros",
+  "category": "NET",
+  "publishedAt": "2026-11-23",
+  "source": "Hosteltur",
+  "url": "https://www.hosteltur.com/180178_campana-de-navidad-ryanair-agrega-casi-565000-plazas-a-sus-vuelos-nacionales-durante-las-fiestas.html",
+  "summary": "Ryanair añade casi 565.000 plazas en vuelos con origen y destino en España para Navidad y espera superar los tres millones de pasajeros. No detalla rutas ni aeropuertos; en abril confirmó un recorte de 1,2 millones de plazas regionales para el verano.",
+  "body": [
+   {
+    "t": "Ryanair anunció el 23 de noviembre que incorpora casi 565.000 plazas adicionales en vuelos con origen y destino en España para la campaña de Navidad de 2026, según recogen Hosteltur y The Objective. La aerolínea prevé transportar a más de tres millones de pasajeros en el mercado español durante las fiestas.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La compañía atribuye el refuerzo a la elevada demanda de desplazamientos en estas fechas. «Los vuelos se están llenando rápidamente», advirtió Jade Kirwan, directora de Comunicación de Ryanair, que recomendó reservar con antelación.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El comunicado no detalla las fechas del operativo ni los aeropuertos o rutas entre los que se repartirá la capacidad, ni la compara con la de la Navidad de 2025.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Hosteltur enmarca el anuncio en los ajustes desiguales de capacidad de Ryanair en España: en abril confirmó un recorte de 1,2 millones de plazas para el verano en aeropuertos regionales y en septiembre anunció 200.000 asientos adicionales en Madrid para el invierno.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Hosteltur",
+    "url": "https://www.hosteltur.com/180178_campana-de-navidad-ryanair-agrega-casi-565000-plazas-a-sus-vuelos-nacionales-durante-las-fiestas.html",
+    "date": "2026-11-23"
+   },
+   {
+    "name": "The Objective",
+    "url": "https://theobjective.com/economia/transporte/2026-11-23/ryanair-565-000-plazas-navidad/",
+    "date": "2026-11-23"
+   }
+  ],
+  "why": "Más oferta de Ryanair en las fechas de mayor demanda presiona las tarifas del mercado español, donde compite con Iberia, Vueling y Air Europa, y llega tras su refuerzo de invierno en Madrid-Barajas.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 58,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/c8d70fd6-05eb-4eb0-ab9a-fe759925ea69.jpeg",
+  "imageId": "ryanair-navidad-565000-plazas-espana",
+  "photoSource": "Hosteltur (Ryanair)",
+  "addedAt": "2026-11-24T09:53:53Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "big",
+   "value": "565.000",
+   "label": "plazas extra de Ryanair en España por Navidad",
+   "sub": "más de 3 millones de pasajeros previstos"
+  }
+ },
+ {
+  "id": "vueling-barcelona-san-sebastian-34-frecuencias",
+  "title": "Vueling duplicará sus vuelos entre Barcelona y San Sebastián desde el 29 de marzo de 2027",
+  "category": "NET",
+  "publishedAt": "2026-11-23",
+  "source": "GipuzkoaGaur",
+  "url": "https://www.gipuzkoagaur.com/2026/11/23/vueling-duplicara-sus-vuelos-entre-barcelona-y-el-aeropuerto-de-hondarribia-a-partir-del-29-de-marzo/",
+  "summary": "Vueling pasará de 16 a 34 frecuencias semanales entre Barcelona y el aeropuerto de San Sebastián, en Hondarribia, del 29 de marzo hasta al menos el 31 de julio de 2027. Incluye un nuevo vuelo matinal que saldrá de El Prat a las 6:40 y volverá a las 8:20.",
+  "body": [
+   {
+    "t": "Vueling ofrecerá 34 frecuencias semanales entre Barcelona-El Prat y el aeropuerto de Donostia-San Sebastián, situado en Hondarribia, desde el 29 de marzo, con el inicio de la temporada de verano de 2027, según publicó GipuzkoaGaur el 23 de noviembre. Supone más del doble de los 16 trayectos semanales actuales.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El refuerzo se mantendrá al menos hasta el 31 de julio y la programación ya está disponible en la web de la aerolínea. Es la única ruta regular que Vueling opera en Gipuzkoa.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La principal novedad es una frecuencia matinal: el primer vuelo del día saldrá de El Prat a las 6:40, con llegada prevista a las 7:40, y regresará a Barcelona a las 8:20. El avión seguirá sin pernoctar en Hondarribia.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "GipuzkoaGaur",
+    "url": "https://www.gipuzkoagaur.com/2026/11/23/vueling-duplicara-sus-vuelos-entre-barcelona-y-el-aeropuerto-de-hondarribia-a-partir-del-29-de-marzo/",
+    "date": "2026-11-23"
+   }
+  ],
+  "why": "Vueling refuerza la conexión de un aeropuerto regional español con su base de Barcelona y alimenta la red de IAG en El Prat con horarios pensados para el viaje de ida y vuelta en el día.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 38,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/c9a841ec-ea26-40da-b459-8342999fde9b.jpeg",
+  "imageId": "vueling-barcelona-san-sebastian-34-frecuencias",
+  "photoSource": "GipuzkoaGaur",
+  "addedAt": "2026-11-24T09:53:53Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "route",
+   "title": "Barcelona-San Sebastián, verano 2027",
+   "badge": "34 vuelos/semana",
+   "points": [
+    {
+     "code": "BCN",
+     "city": "Barcelona",
+     "lat": 41.3,
+     "lon": 2.08
+    },
+    {
+     "code": "EAS",
+     "city": "San Sebastián",
+     "lat": 43.36,
+     "lon": -1.79
+    }
+   ]
+  }
  }
 ]
