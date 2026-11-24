@@ -11,6 +11,10 @@ Toda noticia que trate de **España** (aerolíneas, aeropuertos, Aena, rutas, re
 - La tarea de Breves, si encuentra una de estas que no ha cubierto Destacadas, la publica como Breve con "promote": true para que se convierta al día siguiente.
 - Estar en portada no es lo mismo que ir arriba: el aiScore sigue siendo el peso real de la noticia (una ruta menor lleva menos de 60 y queda por debajo de las grandes).
 - Excepción: carga aérea (ver abajo), salvo que sea de IAG Cargo.
+- Lo que cuenta es el NEGOCIO en España o de IAG/Air Europa, no que aparezca un nombre español. Se quedan en Breves (24-nov-2026):
+  - Incidencias operativas puntuales sin impacto duradero ni en la estrategia: averías, colas, retrasos de un día. Ejemplo: «Una avería del tren T4-T4S de Barajas provoca colas».
+  - Negocio de empresas españolas fuera de España que no afecta al mercado español ni a IAG: financiación, concesiones o filiales en el extranjero. Ejemplo: «Aena coloca bonos en Brasil para financiar Galeão».
+  Sí son Destacada: rutas y capacidad, tasas y regulación (DORA), inversiones y obras de aeropuertos españoles, demanda y reservas, conflictos laborales con impacto, estrategia y resultados.
 
 ## Tienen peso (aiScore de 70 o más, y candidatas claras a Destacada y a la newsletter)
 
