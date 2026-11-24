@@ -1,4 +1,4 @@
-# Likes del portal (últimos 45 días) · generado 2026-11-24T10:27+00:00
+# Likes del portal (últimos 45 días) · generado 2026-11-24T11:16+00:00
 
 Lo que el equipo marca con «me gusta» en la web. Úsalo para afinar el aiScore y la elección, junto con data/criterios.md:
 las noticias parecidas (mismo tipo, empresa o tema) a las más votadas tienen más peso; un tipo que nunca recibe likes, menos.
@@ -25,24 +25,25 @@ Los criterios explícitos del editor (data/criterios.md) mandan sobre esto si se
 - 1 ♥ · 2026-11-18 · STR · Destacada · aiScore 76 · Travel Extra · Lufthansa plantea recortar su flota de corto y medio radio de unos 176 a unos 100 aviones
 - 1 ♥ · 2026-11-20 · NET · Destacada · aiScore 55 · Proactive · La capacidad aérea de Reino Unido cae un 1% en noviembre, según UBS, y España sube un 5%
 - 1 ♥ · 2026-11-23 · STR · Destacada · aiScore 50 · Qué! · Los correos de la SEPI sitúan a Moncloa en el rescate de Air Europa el día que declara Aagesen
+- 1 ♥ · 2026-11-23 · FIN · Destacada · aiScore 72 · Mundiario · El queroseno y los recortes de plazas anticipan billetes hasta un 20% más caros en 2027
 - 1 ♥ · 2026-11-24 · CUS · Destacada · aiScore 40 · CAPA · Aer Lingus lleva el wifi gratis de Starlink a Europa y prevé 29 aviones de corto radio
 
 ## Likes por sección (noticias · likes)
 
-- STR: 24 noticias · 14 likes
-- FIN: 32 noticias · 11 likes
+- STR: 25 noticias · 14 likes
+- FIN: 32 noticias · 12 likes
 - NET: 50 noticias · 6 likes
 - FLT: 26 noticias · 1 likes
-- CUS: 13 noticias · 1 likes
-- MRO: 22 noticias · 0 likes
-- APT: 13 noticias · 0 likes
-- REG: 9 noticias · 0 likes
+- CUS: 15 noticias · 1 likes
+- MRO: 25 noticias · 0 likes
+- APT: 15 noticias · 0 likes
+- REG: 10 noticias · 0 likes
 - TUR: 5 noticias · 0 likes
 
 ## Destacadas frente a Breves (noticias · likes)
 
-- Destacada: 114 · 33
-- Breve: 80 · 0
+- Destacada: 114 · 34
+- Breve: 89 · 0
 
 ## Con aiScore alto (70+) y ningún like tras 3 días (quizá sobrevaloradas)
 
