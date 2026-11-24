@@ -10102,7 +10102,26 @@
    ]
   },
   "addedAt": "2026-11-23T13:50:40Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "airBaltic warns court it could run out of cash in early December",
+   "summary": "airBaltic has warned the New York bankruptcy court that it could run out of cash in the first half of December and be forced into liquidation. It depends on unlocking the final two tranches of its DIP loan of up to €350 million, which bondholders have blocked.",
+   "why": "A possible collapse of airBaltic, 10% owned by Lufthansa and which provides crewed aircraft to airlines in the German group, would alter capacity in the Baltics and remove the fleet of a direct IAG competitor.",
+   "body": [
+    {
+     "t": "airBaltic has warned the Southern District of New York bankruptcy court that it could run out of cash in the first half of December if it does not obtain the rest of its emergency financing, according to filings submitted on 16 November and reported by news agency LETA. Without that money, the Latvian airline could be forced to cease operations and begin liquidation."
+    },
+    {
+     "t": "The warning comes from a statement by Stefan Krastev, vice-president of Seabury Global Aviation Advisors, the airline's financial adviser, according to BNN. airBaltic filed for Chapter 11 protection under US bankruptcy law in September, and on 19 October the court approved DIP financing of up to €350 million in three tranches: an initial €175 million, a second of up to €125 million and a third of up to €50 million."
+    },
+    {
+     "t": "The stalemate concerns the final two tranches. Lenders — Barclays, Hayfin Capital Management, Morgan Stanley, Oaktree Capital Management and Strategic Value Partners — demand priority over the guarantees held by bondholders maturing in 2029, who have opposed this. airBaltic is offering the bondholders a secondary guarantee over eight Airbus A220s, seven spare engines and a flight simulator, and the hearing on that priority, scheduled for 17 and 18 November, has been postponed to 9 December."
+    },
+    {
+     "t": "According to Krastev's calculations reported by BNN, the bondholders' collateral is worth about €251 million if the airline keeps operating, compared with between €28.5 million and €56.1 million in a liquidation scenario. The Latvian state controls 88.37% of the share capital and Lufthansa 10%. The company says its flights are operating normally and that tickets and bookings remain valid."
+    }
+   ]
+  }
  },
  {
   "id": "b-bruselas-cancela-vuelos-huelga-general",
@@ -10158,7 +10177,26 @@
    "sub": "Board of Airline Representatives in Belgium"
   },
   "addedAt": "2026-11-23T13:50:40Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Belgium left with almost no flights as air traffic controllers join Monday's general strike",
+   "summary": "Skeyes, Belgium's air traffic control provider, has suspended regular services this Monday between 7:00 and 21:00 by joining the general strike against austerity, leaving the country with almost no flights. It is the eleventh strike to affect Belgian airspace in 11 months.",
+   "why": "With eleven strikes in eleven months, Belgian air traffic control has become a recurring operational risk for airlines flying to Brussels and Charleroi, a key base for Ryanair, and for the European network.",
+   "body": [
+    {
+     "t": "Almost all flights in Belgium are cancelled this Monday, 23 November, after skeyes, the company responsible for air traffic control in the country, announced that its staff are joining the national strike against the government's austerity measures, according to Al Jazeera, citing AFP and DPA. Skeyes will not be able to provide regular services at the country's airports or in its airspace between 7:00 and 21:00 local time."
+    },
+    {
+     "t": "“The planned staffing levels will not allow safe management of regular air traffic during this period,” skeyes explained, adding that it was “forced to temporarily suspend the affected services”. Only essential services for emergencies and other safety-critical flights are maintained, and Brussels Airport warned that most of its departures and arrivals would have to be cancelled."
+    },
+    {
+     "t": "Brussels Charleroi Airport, one of Ryanair's major European bases, warned that the strike would mean a “complete shutdown of all the country's airports for an entire day”, affecting thousands of passengers. “Without air traffic control, no flight can take off or land,” it said, criticising a “last-minute decision” with “disastrous consequences”."
+    },
+    {
+     "t": "The Board of Airline Representatives in Belgium, which groups around 25 airlines, said this is the eleventh strike to affect Belgian airspace in 11 months. The unions are protesting against the reforms of the coalition led by Prime Minister Bart De Wever, which is negotiating a budget aimed at saving €10bn over the coming years."
+    }
+   ]
+  }
  },
  {
   "id": "b-lufthansa-recorte-1000-empleos",
@@ -10514,7 +10552,26 @@
    ]
   },
   "addedAt": "2026-11-23T13:50:40Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Aena 'surprised' by Air Europa's appeal against DORA III and calls for consensus",
+   "summary": "Aena has expressed its surprise at Air Europa's appeal to the Supreme Court against DORA III and recalled that investment was the area of greatest consensus. Air Europa considers the €261.4 million allocated to T1, T2 and T3 insufficient compared with €1,262.6 million for T4.",
+   "why": "The clash between Aena and Air Europa over the split of investment at Barajas could shape the terminal plan at Iberia's hub and its rival's ambition to operate from T4 alongside Iberia and Oneworld.",
+   "body": [
+    {
+     "t": "Aena has expressed its “surprise” at the contentious-administrative appeal that Air Europa filed this week with the Supreme Court against DORA III, the document regulating investment and charges across the airport network between 2027 and 2031. The airport operator set out its position on Saturday 21 November to news agencies EFE and Europa Press."
+    },
+    {
+     "t": "Aena recalls that “prior to proposing Dora to the regulator, there were several months of consultations with airlines and their associations”, and that the plan was then reported by the CNMC and the Directorate-General for Economic Policy before final approval by the Council of Ministers. According to the operator, “the area where there was most consensus among everyone throughout the whole process was investment”."
+    },
+    {
+     "t": "DORA III, approved by the government on 15 September, envisages around €13bn of investment in the Spanish network between 2027 and 2031, of which €4,477 million corresponds to Madrid-Barajas. According to El Debate, it also provides for an annual increase of 0.33% in airport charges."
+    },
+    {
+     "t": "Air Europa considers the €261.4 million earmarked to unify terminals T1, T2 and T3, where it operates, insufficient compared with the €1,262.6 million allocated to modernising and expanding T4 and its satellite, and is calling for more investment in those facilities or for moving its operations to T4. Sources at the company, cited by Europa Press, describe the treatment it has received as “discriminatory”. Twenty-seven airlines operate at T4, mainly Iberia and its Oneworld partners, according to El Debate."
+    }
+   ]
+  }
  },
  {
   "id": "b-azul-cuarto-a321p2f",
@@ -10788,7 +10845,26 @@
    "sub": "Aprobado en octubre de 2020"
   },
   "addedAt": "2026-11-23T13:50:40Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "SEPI emails put Moncloa at the heart of Air Europa bailout as Aagesen testifies",
+   "summary": "Internal SEPI emails submitted to the court show that the Government Presidency organised meetings on the €475 million bailout of Air Europa outside the Management Board, according to El Mundo. Aagesen testifies today as a witness by video link at Investigating Court No. 49 in Madrid.",
+   "why": "According to the emails, Moncloa asked about Iberia's and IAG's plans while considering the bailout. The case keeps judicial attention on Air Europa, Iberia's rival in Madrid and Latin America, in the middle of an election week.",
+   "body": [
+    {
+     "t": "Internal SEPI emails submitted to the court show that the Government Presidency organised meetings on the €475 million bailout of Air Europa outside the Management Board of the Strategic Companies Solvency Support Fund, according to Qué!, citing El Mundo. The case is being investigated by Judge José María Escribano of Investigating Court No. 49 in Madrid, which is looking into Bartolomé Lora, vice-president of SEPI, over a possible offence of prevarication."
+    },
+    {
+     "t": "On 28 September 2020, Lora replied to Carlos San Basilio, then director-general of the Treasury: “Tomorrow's meeting is not of the Management Board. It is a meeting with the Ministries that took part in the Presidency meeting.” The following day a Teams meeting was held with Manuel de la Rocha, Ana de la Cueva, Pilar Paneque, Pedro Saura and Lora himself."
+    },
+    {
+     "t": "On 8 October, De la Rocha, head of the President's Economic Office, asked Lora for “a note or brief bullet points on the Air Europa operation” and asked whether SEPI knew anything about the plans of Iberia or IAG. The Management Board did not approve the bailout on 21 October and asked for better information; approval was finally closed on 29 October. The government and SEPI deny any irregularities and point out that Air Europa repaid the money last year."
+    },
+    {
+     "t": "Third Vice-President Sara Aagesen, who sat on the Management Board, testifies this Monday as a witness by video link before Escribano, according to ESdiario. That outlet also places Ana de la Cueva, Pilar Paneque, Francisco Javier Loriente and Raúl Blanco on Monday, and De la Rocha, Saura, San Basilio and Íñigo Errejón, among others, on Tuesday."
+    }
+   ]
+  }
  },
  {
   "id": "plus-ultra-cesa-operaciones-ultimo-vuelo-caracas",
@@ -10845,7 +10921,26 @@
   },
   "imageId": "plus-ultra-cesa-operaciones-ultimo-vuelo-caracas",
   "addedAt": "2026-11-24T08:24:27Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Plus Ultra stops operating after likely final Caracas-Madrid flight and closes bookings",
+   "summary": "Plus Ultra appears to have ceased operations entirely on 23 November, after its website stopped accepting bookings while flight PU711 from Caracas to Madrid was in the air. The airline, in pre-insolvency proceedings, has around 670 staff and seven Airbus A330s.",
+   "why": "Plus Ultra's exit leaves more room on the long-haul Spain–Latin America market, where Iberia and Air Europa compete from Madrid, and its assets may end up with Ávoris and Iberojet.",
+   "body": [
+    {
+     "t": "Spanish long-haul airline Plus Ultra appears to have ceased operations entirely on 23 November 2026, according to AeroTime. The previous evening, at around 20:00 local time, flight PU711 took off from Caracas bound for Madrid-Barajas with a stop at Tenerife North. The aircraft was an Airbus A330-200, and the outlet says it may have been the airline's last flight."
+    },
+    {
+     "t": "While that aircraft was in the air, the company's website stopped accepting new bookings, according to several Spanish outlets cited by AeroTime. A few days earlier, Plus Ultra had requested preliminary protection from its creditors and announced that it would suspend all its scheduled flights except those linking Spain and Venezuela."
+    },
+    {
+     "t": "It is unclear whether the end of scheduled operations also affects its charter and ACMI business, on which the airline had said it wanted to focus. AeroTime argues that the sudden, unannounced closure of the Venezuelan route casts doubt on that plan."
+    },
+    {
+     "t": "In November 2026, Plus Ultra employed around 670 people and operated a fleet of seven Airbus A330s. According to Spanish media cited by AeroTime, the leisure travel group Ávoris, which already operates the airline Iberojet, could be interested in its assets. AeroTime asked the company for comment but received no response."
+    }
+   ]
+  }
  },
  {
   "id": "iberia-air-europa-no-recortan-plazas-verano",
@@ -10902,7 +10997,26 @@
   },
   "imageId": "iberia-air-europa-no-recortan-plazas-verano",
   "addedAt": "2026-11-24T08:24:27Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Iberia and Air Europa rule out summer capacity cuts despite higher jet fuel prices",
+   "summary": "Iberia and Air Europa have confirmed to Nexotur that they do not plan to cut capacity for the coming peak summer season despite higher fuel costs. Both admit that the rise in jet fuel may be passed on to fares, although Iberia rejects talk of a sharp increase.",
+   "why": "Iberia and Air Europa are keeping their summer offer in Madrid and passing the jet fuel risk on to fares rather than capacity: pressure on margins and prices will set the pace at Barajas and in Latin America.",
+   "body": [
+    {
+     "t": "Iberia and Air Europa, Spain's two main airlines, have confirmed to Nexotur that they do not expect to cut capacity for the coming summer peak season, despite higher fuel costs. The outlet presents this position as a contrast with reporting by another general-news outlet."
+    },
+    {
+     "t": "Sources at the Iberia group acknowledged that “the increase in costs, mainly fuel, is affecting the entire sector”, but said that reducing capacity “is not something we are considering at this time”. On prices, the company qualified: “We don't talk about a sharp rise”, although it admitted that fares are affected."
+    },
+    {
+     "t": "Air Europa sources said it also does not plan to cut seats because of higher fuel prices. Its fares “will depend on how the price of jet fuel behaves” and, “if it keeps rising, it is likely that the increase will end up being passed on to ticket prices”, according to the airline."
+    },
+    {
+     "t": "Nexotur notes that fuel is one of the main components of operating costs and that capacity and pricing decisions do not necessarily coincide between airlines. Both companies are keeping their plans on hold pending how jet fuel evolves over the coming months."
+    }
+   ]
+  }
  },
  {
   "id": "lufthansa-cargo-compra-handling-fiege-frankfurt",
@@ -10963,7 +11077,26 @@
   },
   "imageId": "lufthansa-cargo-compra-handling-fiege-frankfurt",
   "addedAt": "2026-11-24T08:24:27Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Lufthansa Cargo buys Fiege's handling unit and takes direct control of Frankfurt operations",
+   "summary": "Lufthansa Cargo has signed the purchase of Fiege Air Cargo Logistics (FACL), which handles its cargo at Frankfurt, to bring it under direct management. The agreement was signed on 20 November and is subject to competition approvals.",
+   "why": "Lufthansa regains control of handling at its main cargo hub six years after outsourcing it: a sign of critical operations being brought back in-house at a large European rival of IAG.",
+   "body": [
+    {
+     "t": "Lufthansa Cargo will acquire Fiege Air Cargo Logistics GmbH & Co. KG (FACL), owned by Fiege Logistik Stiftung & Co. KG, according to AviTrader. The agreement was signed on 20 November 2026, and its completion is subject to the necessary competition and regulatory approvals; no expected date has been announced."
+    },
+    {
+     "t": "With the deal, cargo handling at the Frankfurt hub comes under the company's direct management, as part of its strategy to strengthen competitiveness and improve operational efficiency. FACL provides integrated air cargo handling and logistics services, with a focus on digitalisation and automation."
+    },
+    {
+     "t": "The relationship with Fiege continues: the Greven-based logistics group will retain a long-term strategic role in selecting, training and supplying specialised staff for cargo handling. Neither the price nor the number of employees affected has been disclosed."
+    },
+    {
+     "t": "In July 2020, Lufthansa Cargo had confirmed the outsourcing of Frankfurt cargo handling to Fiege, according to Air Cargo News; with this purchase, that business becomes its own."
+    }
+   ]
+  }
  },
  {
   "id": "thai-airways-perdidas-3t-combustible",
@@ -11022,7 +11155,23 @@
   },
   "imageId": "thai-airways-perdidas-3t-combustible",
   "addedAt": "2026-11-24T08:24:27Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Thai Airways posts $12 million loss in Q3 as jet fuel costs bite",
+   "summary": "Thai Airways lost 418 million baht (around $12 million) in the third quarter, despite revenue growth of 13%, as jet fuel prices rose 60%. The airline, which is led by an acting chief executive, will make cost reduction its priority in 2027.",
+   "why": "Thai shows that revenue growth does not offset jet fuel that is 60% dearer: it is the same margin pressure European airlines and IAG face as they plan capacity and fares for 2027.",
+   "body": [
+    {
+     "t": "Thai Airways International recorded a net loss of 418 million baht, about $12 million, in the third quarter of 2026, according to Skift. Its revenue grew 13%, but the price of aviation fuel rose 60%."
+    },
+    {
+     "t": "The airline has been led by an acting chief executive since early October, and the board expects to confirm a permanent successor before December."
+    },
+    {
+     "t": "The company says cost reduction, starting with fuel, will be its priority in 2027. “We will protect the profitability of the operation,” said Cherdchome Therdsteerasukdi, head of finance and accounting, at the results conference, adding: “We have a strategy to work on costs and fuel, as well as other costs.”"
+    }
+   ]
+  }
  },
  {
   "id": "british-airways-condor-acuerdo-interline",
@@ -11106,7 +11255,26 @@
   },
   "imageId": "british-airways-condor-acuerdo-interline",
   "addedAt": "2026-11-24T08:24:27Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "British Airways and Condor sign interline deal to link London and Frankfurt",
+   "summary": "British Airways has confirmed an interline partnership with Condor that lets passengers connect between the two airlines' networks via London and Frankfurt. In return, Condor gains access to BA's Heathrow–Frankfurt route to feed its flights from its Frankfurt hub.",
+   "why": "BA adds German traffic to its London long-haul network, mainly to the Caribbean, without relying on Lufthansa, while Condor gains feed for its Frankfurt flights via Heathrow.",
+   "body": [
+    {
+     "t": "British Airways has confirmed on its website a new interline partnership with German airline Condor, giving customers more options to connect between the two airlines' networks via London and Frankfurt, according to CAPA. BA describes it as an agreement offering “more options and additional opportunities to connect between the two airlines' networks”, according to Business Travel News Europe."
+    },
+    {
+     "t": "The agreement covers Condor's Gatwick–Frankfurt flights, which operate three times a day, and BA's Heathrow–Frankfurt route. Condor passengers will be able to connect to BA's leisure long-haul network from London and, according to CAPA, the aim is to open BA's Caribbean destinations, such as Kingston, Port of Spain and Saint Lucia, to more German customers."
+    },
+    {
+     "t": "In the other direction, Condor gains access to BA's Heathrow–Frankfurt route to feed long-haul routes that BA does not offer from Heathrow. From its Frankfurt hub, Condor flies to around 100 destinations in Europe, North America, Africa and Asia, according to Business Travel News Europe."
+    },
+    {
+     "t": "Condor, an airline focused mainly on leisure that has begun to seek corporate customers, opened its first British route, Gatwick–Frankfurt, in April. According to CAPA, the German carrier has in recent months concluded interline agreements with Qantas, Thai Airways and American Airlines."
+    }
+   ]
+  }
  },
  {
   "id": "aer-lingus-starlink-flota-corto-radio",
@@ -11171,7 +11339,26 @@
   },
   "imageId": "aer-lingus-starlink-flota-corto-radio",
   "addedAt": "2026-11-24T08:24:27Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Aer Lingus takes free Starlink Wi-Fi to short-haul fleet and plans 29 aircraft",
+   "summary": "Aer Lingus has begun installing Starlink Wi-Fi across its short-haul fleet, starting with an A320ceo, EI-DVM, and plans to extend it to 29 aircraft in the first quarter of 2027. The service starts on flights to Spain, Portugal and Morocco.",
+   "why": "Aer Lingus extends free Starlink Wi-Fi to short-haul, starting with routes to Spain, and advances IAG's plan to equip more than 500 aircraft across the group, a product standard against low-cost carriers.",
+   "body": [
+    {
+     "t": "Aer Lingus announced on 23 November that it has begun installing Starlink Wi-Fi connectivity on its short-haul fleet, starting with an Airbus A320ceo registered EI-DVM, according to CAPA. The service, which is free, is already available on some European routes."
+    },
+    {
+     "t": "The airline plans to extend it to 29 short-haul aircraft in the first quarter of 2027, ahead of the summer season. The rollout begins with aircraft flying to Spain, Portugal and Morocco, according to CAPA and TeslaNorth."
+    },
+    {
+     "t": "Aer Lingus had already completed the installation on its narrow-body fleet used on transatlantic routes, 14 aircraft according to TeslaNorth, and on other long-haul aircraft; passengers on its A330s consumed an average of 1.8GB per device in October. “The response from our customers to Starlink Wi-Fi on flights to our North American destinations has been fantastic,” said Susanne Carberry, the airline's customer director."
+    },
+    {
+     "t": "The rollout is part of IAG's plan to install Starlink Wi-Fi on more than 500 aircraft across Aer Lingus, British Airways, Iberia, LEVEL and Vueling, according to CAPA."
+    }
+   ]
+  }
  },
  {
   "id": "b-air-europa-pulso-aena-t123",
