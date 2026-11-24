@@ -29,6 +29,32 @@ NOT_WANTED = [
 KEEP = re.compile(r"\bIAG Cargo\b", re.I)
 
 
+# Prioridad orientativa para la tarea diaria (data/criterios.md): ordena candidates.txt para que lo que más interesa
+# al editor salga arriba y no se pierda entre cientos de titulares. No descarta nada.
+PRIO_RULES = [
+    (5, re.compile(r"\b(IAG|Iberia|Vueling|British Airways|Aer Lingus|LEVEL|Avios|Iberia Express)\b", re.I)),
+    (4, re.compile(r"\b(Air Europa|Globalia)\b", re.I)),
+    (3, re.compile(r"Espa[ñn]a|español|españoles|española|\bAena\b|Barajas|El Prat|Madrid|Barcelona|Canarias|Baleares|M[áa]laga|Palma|Valencia|Bilbao|Sevilla", re.I)),
+    (2, re.compile(r"\b(resultados?|beneficios?|p[ée]rdidas|ingresos|ebitda|earnings|profit|revenue|guidance|trimestre|semestre|quarter)\b", re.I)),
+    (2, re.compile(r"\b(aerol[íi]neas|sector|bolsa|cotizaci[óo]n|precios?|tarifas?|plazas|capacidad|queroseno|combustible|petr[óo]leo|demanda|reservas)\b", re.I)),
+    (2, re.compile(r"\b(Ryanair|easyJet|Lufthansa|Air France|KLM|Wizz|Volotea|Jet2|TAP|Turkish)\b", re.I)),
+    (2, re.compile(r"\b(MRO|mantenimiento|maintenance|motor(es)?|engines?|taller|hangar)\b", re.I)),
+]
+PROMO = re.compile(r"black friday|cyber monday|descuentos?|oferta|rebajas|desde \d+ ?(€|euros)|por \d+ ?(€|euros)|sorteo|promoci[óo]n|chollo", re.I)
+BIG_ES = re.compile(r"El Pa[íi]s|elEconomista|El Economista|Expansi[óo]n|Cinco D[íi]as|El Mundo|\bABC\b|La Vanguardia|Europa Press|\bEFE\b|Reuters|Financial Times|Bloomberg", re.I)
+
+
+def prio_of(it):
+    t = f"{it['title']} {it.get('excerpt', '')}"
+    p = sum(w for w, r in PRIO_RULES if r.search(t))
+    if BIG_ES.search(it.get("source", "")):
+        p += 3   # gran medio generalista o económico: si lo cuenta, suele importar
+    p += min(3, len(it.get("alsoIn", [])))
+    if PROMO.search(t):
+        p -= 6   # promociones y ofertas: no entran nunca
+    return p
+
+
 def not_wanted(title, excerpt=""):
     t = f"{title} {excerpt}"
     return not KEEP.search(t) and any(r.search(t) for r in NOT_WANTED)
@@ -163,11 +189,21 @@ def main():
         it.pop("_w", None)
         it["id"] = f"c{i:03d}"
     # Vista compacta para la tarea diaria: una línea por candidata (el detalle está en el JSON, por id)
-    lines = [f"# {len(items)} candidatas · últimas {hours} h · generado {now.isoformat(timespec='minutes')}",
-             "# id | fecha UTC | tema | medio (+ otros medios con la misma noticia) | titular"]
     for it in items:
+        it["prio"] = prio_of(it)
+    lines = [f"# {len(items)} candidatas · últimas {hours} h · generado {now.isoformat(timespec='minutes')}",
+             "# Ordenadas por prioridad orientativa (criterios del editor: IAG, Air Europa, España, resultados, sector, competidores, MRO, grandes medios).",
+             "# Revisa SIEMPRE todas las de prioridad 7 o más: son las que el editor espera ver.",
+             "# prio | id | fecha UTC | tema | medio (+ otros medios con la misma noticia) | titular"]
+    big = [it for it in items if BIG_ES.search(it.get("source", "")) and not PROMO.search(it["title"])]
+    if big:
+        lines.append("# --- GRANDES MEDIOS (El País, elEconomista, Expansión, Cinco Días, El Mundo, ABC, Reuters, FT, Bloomberg…): léelas TODAS una por una; si cuentan una tendencia del sector o algo de España/IAG/Air Europa, suelen ser Destacada ---")
+        for it in sorted(big, key=lambda x: x["published"], reverse=True):
+            lines.append(f"{it['prio']:>2} | {it['id']} | {it['published'][5:16].replace('T', ' ')} | {it['topic']} | {it['source']} | {it['title']}")
+        lines.append("# --- TODAS LAS CANDIDATAS, por prioridad ---")
+    for it in sorted(items, key=lambda x: (-x["prio"], x["published"])):
         also = f" (+{len(it['alsoIn'])}: {', '.join(it['alsoIn'][:3])})" if it.get("alsoIn") else ""
-        lines.append(f"{it['id']} | {it['published'][5:16].replace('T', ' ')} | {it['topic']} | {it['source']}{also} | {it['title']}")
+        lines.append(f"{it['prio']:>2} | {it['id']} | {it['published'][5:16].replace('T', ' ')} | {it['topic']} | {it['source']}{also} | {it['title']}")
     (ROOT / "feeds/candidates.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
     out = {"generatedAt": now.isoformat(timespec="minutes"), "hours": hours, "count": len(items),
            "feedsOk": sum(s["ok"] for s in status), "feedsTotal": len(status), "feeds": status, "items": items}

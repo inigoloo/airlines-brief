@@ -38,8 +38,14 @@ Toda noticia que trate de **España** (aerolíneas, aeropuertos, Aena, rutas, re
 - **Demanda de viajes en avión en España**: datos de reservas, búsquedas o tráfico emitido desde España (Kiwi.com, Aena, Turespaña, agencias, metabuscadores), sobre todo con cifras de variación claras.
   Ejemplo (24-nov-2026): «Las reservas de vuelos desde España crecen casi un 33% en noviembre, según Kiwi.com» (Nexotur). aiScore 65 o más; candidata a Destacada.
 
+- **Tendencias del sector contadas por los grandes medios** (El País, elEconomista, Expansión, Cinco Días, El Mundo, ABC, La Vanguardia, Europa Press, Reuters, FT, Bloomberg): precios de los billetes, plazas y capacidad de la próxima temporada, efecto del combustible, evolución en bolsa de las aerolíneas (IAG y sector europeo), demanda. Son Destacada siempre (aiScore 70 o más), aunque no nombren a una sola empresa.
+  Ejemplos que se escaparon (24-nov-2026): «Las aerolíneas anticipan una subida de precios y un recorte de plazas para el próximo verano» (El País) y «El alivio del precio del petróleo da oxígeno a las aerolíneas: el sector sube un 13% en noviembre» (elEconomista).
+  En feeds/candidates.txt salen en un bloque propio («GRANDES MEDIOS»): revísalo entero, una por una, antes que el resto.
+- **No descartes una noticia amplia porque ya haya otra parcial relacionada.** Si en el portal está «Iberia y Air Europa descartan recortar plazas en verano», la de El País sobre lo que prevé todo el sector (precios y plazas) es OTRA noticia y también entra; en su artículo puede citar lo de Iberia y Air Europa.
+
 ## Pesan menos de lo que parece
 
+- Promociones, ofertas y Black Friday de cualquier aerolínea (también de IAG): no entran nunca.
 - Negociaciones laborales de otras aerolíneas sin huelga convocada ni impacto operativo concreto.
 - **Carga aérea (cargo)**: al editor no le interesa (24-nov-2026). Aerolíneas de carga, filiales cargo, handling de carga, cargueros, freighters y conversiones P2F: aiScore máximo 45, nunca Destacada ni promote, salvo que afecte de forma directa y clara al negocio de pasajeros de IAG.
   Ejemplo: «Lufthansa Cargo compra a Fiege su filial de handling y asume la gestión directa en Fráncfort» no debió ir en portada.

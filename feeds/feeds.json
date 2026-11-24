@@ -74,7 +74,8 @@
    "lang": "ES",
    "topic": "general",
    "google": true,
-   "max": 25
+   "max": 25,
+   "exclude": "Información Ranking|Ranking de empresas|dermat"
   },
   {
    "name": "Cinco Días – Empresas",
