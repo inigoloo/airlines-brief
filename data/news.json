@@ -12328,5 +12328,170 @@
     }
    ]
   }
+ },
+ {
+  "id": "b-plus-ultra-avoris-silencio-compra",
+  "kind": "brief",
+  "title": "Ávoris guarda silencio sobre una posible compra de Plus Ultra, que acaba de suspender sus operaciones",
+  "summary": "Según Preferente, el grupo de Barceló lleva tiempo intentando una operación sobre la aerolínea, que atraviesa una situación límite tras suspender todos sus vuelos.",
+  "en": {
+   "title": "Ávoris stays silent on a possible purchase of Plus Ultra, which has just suspended operations",
+   "summary": "According to Preferente, the Barceló-owned group has been pursuing a deal for some time for the airline, which is in a critical situation after suspending all its flights."
+  },
+  "source": "Preferente",
+  "url": "https://www.preferente.com/noticias-de-transportes/noticias-de-aerolineas/mutismo-de-iberojet-sobre-la-compra-de-plus-ultra-353217.html",
+  "thumb": "https://www.preferente.com/wp-content/uploads/2026/11/plus-ultra.jpg",
+  "publishedAt": "2026-11-24",
+  "category": "STR",
+  "aiScore": 48,
+  "europe": true,
+  "addedAt": "2026-11-24T10:27:29Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-ryanair-shannon-hangar-recurso",
+  "kind": "brief",
+  "title": "An Taisce recurre el hangar de mantenimiento de 50 millones de Ryanair en Shannon",
+  "summary": "La organización ha recurrido el permiso municipal del hangar de cuatro posiciones y academia de ingeniería. La decisión se espera para finales de marzo de 2027.",
+  "en": {
+   "title": "An Taisce appeals Ryanair's €50m maintenance hangar at Shannon",
+   "summary": "The organisation has appealed the council's planning permission for the four-bay hangar and engineering academy. A decision is due by the end of March 2027."
+  },
+  "source": "Travel Extra",
+  "url": "https://www.travelextra.ie/an-taisce-appeals-ryanair-shannon-hangar-plans/",
+  "publishedAt": "2026-11-24",
+  "category": "MRO",
+  "aiScore": 58,
+  "europe": true,
+  "addedAt": "2026-11-24T10:27:29Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-embraer-envoy-mantenimiento-ejets",
+  "kind": "brief",
+  "title": "Embraer y Envoy Air amplían su acuerdo de mantenimiento pesado de E-Jets en Estados Unidos",
+  "summary": "Los trabajos adicionales de mantenimiento pesado seguirán realizándose en las instalaciones de Embraer en Macon (Georgia).",
+  "en": {
+   "title": "Embraer and Envoy Air extend E-Jet heavy maintenance agreement in the US",
+   "summary": "Additional heavy maintenance work will continue to be carried out at Embraer's facilities in Macon, Georgia."
+  },
+  "source": "AviTrader",
+  "url": "https://avitrader.com/2026/11/23/embraer-and-envoy-air-extend-e-jet-maintenance-deal/",
+  "publishedAt": "2026-11-23",
+  "category": "MRO",
+  "aiScore": 42,
+  "addedAt": "2026-11-24T10:27:29Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-joramco-expansion-hangares",
+  "kind": "brief",
+  "title": "Joramco prepara una nueva fase de expansión tras el éxito de su Hangar 7",
+  "summary": "El taller jordano, según AeroTime, planea nuevos hangares y más tecnología digital en el mantenimiento como parte de sus planes de crecimiento.",
+  "en": {
+   "title": "Joramco prepares next phase of expansion after the success of Hangar 7",
+   "summary": "According to AeroTime, the Jordanian MRO provider plans new hangars and more digital technology in maintenance as part of its growth plans."
+  },
+  "source": "AeroTime",
+  "url": "https://www.aerotime.aero/articles/joramco-expansion-hangar-mro-digital-technology",
+  "publishedAt": "2026-11-23",
+  "category": "MRO",
+  "aiScore": 40,
+  "addedAt": "2026-11-24T10:27:29Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-lufthansa-pilotos-plazo-23-nov",
+  "kind": "brief",
+  "title": "Los pilotos de Lufthansa fijaron el 23 de noviembre como plazo y amenazan con nuevas huelgas en Navidad",
+  "summary": "Vereinigung Cockpit exigió a la aerolínea reconsiderar su oferta; con las negociaciones estancadas, crece la incertidumbre para los viajeros de las fiestas.",
+  "en": {
+   "title": "Lufthansa pilots set 23 November deadline and threaten fresh strikes at Christmas",
+   "summary": "Vereinigung Cockpit demanded that the airline reconsider its offer; with negotiations stalled, uncertainty is growing for holiday travellers."
+  },
+  "source": "Aviation A2Z",
+  "url": "https://aviationa2z.com/index.php/2026/11/23/christmas-travel-chaos-looms-as-lufthansa-pilots-give-airline-final-deadline/",
+  "thumb": "https://aviationa2z.com/wp-content/uploads/2026/07/Lufthansa-Pilot-1-1024x515.webp",
+  "publishedAt": "2026-11-23",
+  "category": "CUS",
+  "aiScore": 52,
+  "iagImpact": "indirecto",
+  "europe": true,
+  "addedAt": "2026-11-24T10:27:29Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-jetstar-reembolsos-covid-accion-colectiva",
+  "kind": "brief",
+  "title": "Más de 1,1 millones de clientes de Jetstar podrían sumarse a una demanda colectiva por reembolsos covid",
+  "summary": "El Tribunal Federal australiano ha ordenado notificar a los afectados; se acusa a la aerolínea de retener reembolsos en efectivo por vuelos cancelados.",
+  "en": {
+   "title": "More than 1.1 million Jetstar customers could join class action over Covid refunds",
+   "summary": "Australia's Federal Court has ordered notices to be sent to those affected; the airline is accused of withholding cash refunds for cancelled flights."
+  },
+  "source": "Aviation A2Z",
+  "url": "https://aviationa2z.com/index.php/2026/11/24/1-1-million-jetstar-passengers-could-claim-covid-refunds-as-court-orders-notices/",
+  "thumb": "https://aviationa2z.com/wp-content/uploads/2024/11/Jetstar-Airbus-A320-1024x576.webp",
+  "publishedAt": "2026-11-24",
+  "category": "REG",
+  "aiScore": 38,
+  "addedAt": "2026-11-24T10:27:29Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-iberia-express-starlink-16-aviones",
+  "kind": "brief",
+  "title": "Iberia Express empieza a instalar wifi gratis de Starlink y prevé equipar 16 aviones en dos meses",
+  "summary": "La aerolínea de IAG arranca la instalación de la conectividad Starlink en su flota.",
+  "en": {
+   "title": "Iberia Express begins installing free Starlink wifi and plans to fit 16 aircraft in two months",
+   "summary": "The IAG airline starts installing Starlink connectivity across its fleet."
+  },
+  "source": "Demócrata",
+  "url": "https://www.democrata.es/en/economy/iberia-express-begins-installing-starlink-wifi-and-plans-to-equip-16-aircraft-in-two-months/",
+  "publishedAt": "2026-11-23",
+  "category": "CUS",
+  "aiScore": 45,
+  "iagImpact": "directo",
+  "europe": true,
+  "addedAt": "2026-11-24T10:27:29Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-enaire-record-2-6-millones-vuelos-2026",
+  "kind": "brief",
+  "title": "Enaire prevé batir en 2026 su récord con casi 2,6 millones de vuelos gestionados",
+  "summary": "El gestor de navegación aérea español proyecta un nuevo máximo de tráfico gestionado para este año.",
+  "en": {
+   "title": "Enaire expects to break its record in 2026 with almost 2.6 million flights handled",
+   "summary": "The Spanish air navigation provider projects a new traffic high for this year."
+  },
+  "source": "Demócrata",
+  "url": "https://www.democrata.es/economia/enaire-proyecta-batir-en-2026-su-record-con-casi-2-6-millones-de-vuelos-gestionados/",
+  "publishedAt": "2026-11-23",
+  "category": "APT",
+  "aiScore": 50,
+  "promote": true,
+  "europe": true,
+  "addedAt": "2026-11-24T10:27:29Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-aci-airports-innovate-barcelona",
+  "kind": "brief",
+  "title": "Barcelona acoge hasta el 25 de noviembre la conferencia ACI Airports Innovate 2026",
+  "summary": "Operadores aeroportuarios, socios y empresas tecnológicas se reúnen tres días para tratar la innovación en el ecosistema aeroportuario.",
+  "en": {
+   "title": "Barcelona hosts ACI Airports Innovate 2026 conference until 25 November",
+   "summary": "Airport operators, partners and technology firms meet for three days to discuss innovation across the airport ecosystem."
+  },
+  "source": "ACI Europe",
+  "url": "https://www.aci-europe.org/media-room.html?id=626",
+  "publishedAt": "2026-11-23",
+  "category": "APT",
+  "aiScore": 32,
+  "europe": true,
+  "addedAt": "2026-11-24T10:27:29Z",
+  "addedBy": "claude"
  }
 ]
