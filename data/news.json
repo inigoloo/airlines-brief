@@ -12205,6 +12205,28 @@
      "t": "0,05%"
     }
    ]
+  },
+  "en": {
+   "title": "MPs prepare damning report on Heathrow third runway, FT reports",
+   "summary": "The House of Commons Transport Committee will publish a highly critical report on Heathrow's £33bn third runway on Thursday, according to the FT. The draft concludes that the scheme fails the noise, climate and air pollution tests and that its benefits are inflated.",
+   "why": "Heathrow is British Airways' hub: an adverse parliamentary report reinforces the doubts IAG has already raised about the cost of the third runway and delays any capacity growth in London.",
+   "body": [
+    {
+     "t": "The Transport Committee of the UK House of Commons is preparing a highly critical report on the Heathrow third runway project, valued at £33bn, according to the Financial Times, which cited several people familiar with the draft. Travel Weekly reported this on 24 November. The document will not be published until Thursday."
+    },
+    {
+     "t": "According to that information, the report will conclude that the project fails the government's key tests on noise, climate and air quality, and that the economic benefits attributed to it are “hugely inflated”. Downing Street has indicated that Prime Minister Andy Burnham will wait for the report, among other factors, before deciding whether to back the plan."
+    },
+    {
+     "t": "The committee, chaired by Ruth Cadbury, a London MP who campaigned against the expansion in the past, has examined the policy statement prepared by Transport Secretary Heidi Alexander under Keir Starmer's premiership. MPs must approve it before Heathrow can begin applying for development consent."
+    },
+    {
+     "t": "Former Chancellor Rachel Reeves claimed the project would add 0.5% to UK GDP, while the government's updated forecasts in June put the figure at 0.05%. Alex Chapman of the New Economics Foundation think tank warned the committee that rising costs, which airlines have also flagged, and lower business travel forecasts could mean the project costs the country more than it contributes."
+    },
+    {
+     "t": "Heathrow chief executive Thomas Woldbye has warned that the airport needs a government green light before New Year or international investors will reconsider their position. Heathrow said it was disappointed that the committee could ignore successive governments and independent commissions having endorsed the need for more capacity. Its largest shareholder, the French fund Ardian, told the FT it believes the project will ultimately go ahead."
+    }
+   ]
   }
  },
  {
@@ -12281,6 +12303,28 @@
      "l": "2.ª semana nov.",
      "v": 1341,
      "t": "1.341"
+    }
+   ]
+  },
+  "en": {
+   "title": "Jet fuel costs and capacity cuts point to fares up to 20% higher in 2027",
+   "summary": "European airlines face summer 2027 with jet fuel almost double its pre-escalation level and only a quarter of fuel hedged. Ryanair expects short-haul fares to rise by up to 20% due to costs and capacity cuts.",
+   "why": "With only 25% of fuel hedged for the summer, fares and capacity in 2027 will depend on jet fuel; IAG, which already attributes part of its profit decline to fuel, faces the same pressure.",
+   "body": [
+    {
+     "t": "The rising cost of jet fuel and capacity cuts by several airlines point to a more expensive summer of 2027 for travellers in Europe, as reported by Mundiario on 23 November. Ryanair chief executive Michael O'Leary expects short-haul fares in Europe to rise by up to 20%, driven by fuel and by capacity cuts at other carriers."
+    },
+    {
+     "t": "A metric tonne of jet fuel cost around $700 before the escalation that followed the start of the US-Iran conflict in late February. It reached $1,800 in April and stood at $1,341 in the second week of November, almost double the previous level. According to IATA data for the week of 13 November, the spread between jet fuel and crude is around $80 a barrel, compared with a typical $20."
+    },
+    {
+     "t": "Before the conflict, many airlines had hedged close to 80% of their fuel needs for summer 2026. By contrast, Javier Gándara, president of the Asociación de Líneas Aéreas (ALA), told El País that most carriers have only around 25% of next peak season hedged, and at prices above last summer's, as cited by Mundiario."
+    },
+    {
+     "t": "Jet2 has already announced a cut of 240,000 seats from its winter schedule and has only 50% of its fuel hedged for next summer. Inés Cardenal, spokesperson for the Spanish Fuel Industry Association (AICE), attributes the situation to lost competitiveness and a lack of investment in Europe, which according to the association has lost 25% of its refining capacity in 15 years."
+    },
+    {
+     "t": "Spain is somewhat better protected thanks to the diversification of its refineries, although it is not immune to higher fuel prices, the article notes. IAG, parent company of Iberia, Vueling, British Airways, Aer Lingus and LEVEL, cut its profit by 16.2% between January and September, to €2.264bn, and attributed part of the pressure to a 30% rise in fuel costs."
     }
    ]
   }
