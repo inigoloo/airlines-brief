@@ -50,3 +50,10 @@ Las tareas no funcionan sábado ni domingo, así que el lunes tiene que cubrir t
 - Destacadas del lunes: entre 8 y 12 (en vez de 5–8), con al menos 2 publicadas el sábado y 2 el domingo si hay material con peso.
 - Breves del lunes: entre 25 y 35 (en vez de 10–20), con al menos 6 del sábado y 6 del domingo si hay material.
 - No priorices lo más reciente por ser reciente: reparte por días y elige por peso dentro de cada día.
+
+## Comprobación final obligatoria (antes del commit)
+
+Antes de hacer commit, repasa UNA POR UNA las noticias que vas a añadir o convertir y compáralas con este archivo:
+- Si alguna es de un tipo que aquí «pesa menos» o «no interesa» (por ejemplo, carga aérea que no sea IAG Cargo), no la publiques como Destacada: déjala como Breve o descártala, y anótalo en el resumen.
+- Si alguna es de un tipo que aquí «siempre es Destacada» y la ibas a dejar como Breve, márcala con "promote": true.
+- Si dudas de cómo encaja una noticia en estos criterios, dilo en el resumen (para que el editor lo aclare y se añada aquí).
