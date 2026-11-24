@@ -10786,5 +10786,388 @@
   },
   "addedAt": "2026-11-23T13:50:40Z",
   "addedBy": "claude"
+ },
+ {
+  "id": "plus-ultra-cesa-operaciones-ultimo-vuelo-caracas",
+  "title": "Plus Ultra deja de operar tras su posible último vuelo Caracas-Madrid y cierra sus reservas",
+  "category": "STR",
+  "publishedAt": "2026-11-23",
+  "source": "AeroTime",
+  "url": "https://www.aerotime.aero/articles/spains-plus-ultra-may-have-operated-final-flight-ceased-operations",
+  "summary": "Plus Ultra parecía haber cesado por completo sus operaciones el 23 de noviembre, después de que su web dejara de aceptar reservas con el vuelo PU711 Caracas-Madrid en el aire. La aerolínea, en preconcurso, tiene unos 670 empleados y siete Airbus A330.",
+  "body": [
+   {
+    "t": "La aerolínea española de largo radio Plus Ultra parecía haber cesado por completo sus operaciones el 23 de noviembre de 2026, según AeroTime. La víspera, hacia las 20.00 hora local, despegó de Caracas su vuelo PU711, un Airbus A330-200 con destino Madrid-Barajas y escala en Tenerife Norte, que el medio señala como su posible último vuelo.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Mientras ese avión estaba en el aire, la web de la compañía dejó de aceptar nuevas reservas, según recogieron varios medios españoles citados por AeroTime. Pocos días antes, Plus Ultra había solicitado la protección preliminar frente a sus acreedores y había anunciado que suspendería todos sus vuelos regulares salvo los que unían España y Venezuela.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "No está claro si el fin de la operación regular afecta también a su negocio de chárter y ACMI, en el que la aerolínea había dicho que quería centrarse. AeroTime sostiene que el cierre repentino y sin anuncio de la ruta venezolana siembra dudas sobre ese plan.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "En noviembre de 2026, Plus Ultra empleaba a unas 670 personas y operaba una flota de siete Airbus A330. Según medios españoles citados por AeroTime, el grupo turístico Ávoris, que ya opera la aerolínea Iberojet, podría estar interesado en sus activos. AeroTime pidió comentarios a la compañía sin obtener respuesta.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "AeroTime",
+    "url": "https://www.aerotime.aero/articles/spains-plus-ultra-may-have-operated-final-flight-ceased-operations",
+    "date": "2026-11-23"
+   }
+  ],
+  "why": "La salida de Plus Ultra deja más espacio en el largo radio entre España y Latinoamérica, donde Iberia y Air Europa compiten desde Madrid, y sus activos pueden acabar en manos de Ávoris e Iberojet.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 62,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/79accab9-93e5-4562-9315-633319ff4fb6.jpeg",
+  "photoSource": "AeroTime",
+  "art": {
+   "kind": "plane",
+   "value": "7",
+   "label": "Airbus A330 en la flota de Plus Ultra",
+   "tail": "#1B2A6B"
+  },
+  "imageId": "plus-ultra-cesa-operaciones-ultimo-vuelo-caracas",
+  "addedAt": "2026-11-24T08:24:27Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "iberia-air-europa-no-recortan-plazas-verano",
+  "title": "Iberia y Air Europa descartan recortar plazas en verano pese a la subida del queroseno",
+  "category": "NET",
+  "publishedAt": "2026-11-24",
+  "source": "Nexotur",
+  "url": "https://nexotur.com/iberia-y-air-europa-descartan-recortar-plazas-para-el-proximo-verano-pese-al-encarecimiento-del-combustible/",
+  "summary": "Iberia y Air Europa han confirmado a Nexotur que no contemplan reducir su capacidad para la próxima temporada alta pese al encarecimiento del combustible. Ambas admiten que la subida del queroseno puede trasladarse a las tarifas, aunque Iberia rechaza hablar de una fuerte subida.",
+  "body": [
+   {
+    "t": "Iberia y Air Europa, las dos principales aerolíneas españolas, han confirmado a Nexotur que no prevén recortar su capacidad de cara a la próxima temporada alta de verano, pese al encarecimiento del combustible. El medio presenta esta posición como un contraste con lo publicado por otro medio de información general.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Fuentes de la dirección del grupo Iberia reconocieron que «el incremento de costes, principalmente el combustible, está afectando a todo el sector», pero afirmaron que reducir capacidad «no es algo que en estos momentos estemos considerando». Sobre los precios, la compañía matizó: «Nosotros no hablamos de fuerte subida», aunque admitió que existe un efecto en las tarifas.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Fuentes de Air Europa indicaron que tampoco planean recortar plazas por el alza del combustible. La evolución de sus tarifas «dependerá del comportamiento del precio del queroseno» y, «si continúa al alza, es previsible que ese incremento termine repercutiendo en el precio de los billetes», según la aerolínea.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Nexotur recuerda que el combustible es uno de los principales componentes del coste operativo y que las decisiones de capacidad y precio no coinciden necesariamente entre aerolíneas. Ambas compañías mantienen sus planes a la espera de cómo evolucione el queroseno en los próximos meses.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Nexotur",
+    "url": "https://nexotur.com/iberia-y-air-europa-descartan-recortar-plazas-para-el-proximo-verano-pese-al-encarecimiento-del-combustible/",
+    "date": "2026-11-24"
+   }
+  ],
+  "why": "Iberia y Air Europa mantienen su oferta de verano en Madrid y cargan el riesgo del queroseno sobre la tarifa, no sobre la capacidad: la presión sobre márgenes y precios marcará su pulso en Barajas y Latinoamérica.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 55,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/30e83319-a230-48c3-a8b5-7453d2b8fad3.jpeg",
+  "photoSource": "Ladevi",
+  "art": {
+   "kind": "big",
+   "value": "0",
+   "label": "recortes de plazas previstos para el verano",
+   "sub": "Iberia y Air Europa, según Nexotur"
+  },
+  "imageId": "iberia-air-europa-no-recortan-plazas-verano",
+  "addedAt": "2026-11-24T08:24:27Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "lufthansa-cargo-compra-handling-fiege-frankfurt",
+  "title": "Lufthansa Cargo compra a Fiege su filial de handling y asume la gestión directa en Fráncfort",
+  "category": "STR",
+  "publishedAt": "2026-11-23",
+  "source": "AviTrader",
+  "url": "https://avitrader.com/2026/11/23/lufthansa-cargo-to-acquire-frankfurt-handling-business-from-fiege/",
+  "summary": "Lufthansa Cargo ha firmado la compra de Fiege Air Cargo Logistics (FACL), que gestiona su manipulación de carga en Fráncfort, para llevarla bajo su gestión directa. El acuerdo se firmó el 20 de noviembre y está pendiente de las autorizaciones de competencia.",
+  "body": [
+   {
+    "t": "Lufthansa Cargo adquirirá Fiege Air Cargo Logistics GmbH & Co. KG (FACL), propiedad de Fiege Logistik Stiftung & Co. KG, según AviTrader. El acuerdo se firmó el 20 de noviembre de 2026 y su cierre está sujeto a las autorizaciones de competencia y regulatorias necesarias; no se ha comunicado una fecha prevista.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Con la operación, la manipulación de carga en el hub de Fráncfort pasa a gestión directa de la compañía, dentro de su estrategia para reforzar la competitividad y mejorar la eficiencia operativa. FACL presta servicios integrados de handling y logística de carga aérea, con foco en la digitalización y la automatización.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La relación con Fiege continúa: el grupo logístico con sede en Greven mantendrá un papel estratégico a largo plazo en la selección, formación y aportación de personal especializado para el handling de carga. No se han publicado el precio ni el número de empleados afectados.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "En julio de 2020, Lufthansa Cargo había confirmado la externalización a Fiege de la manipulación de carga en Fráncfort, según Air Cargo News; con esta compra, ese negocio pasa a ser de su propiedad.",
+    "s": [
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "AviTrader",
+    "url": "https://avitrader.com/2026/11/23/lufthansa-cargo-to-acquire-frankfurt-handling-business-from-fiege/",
+    "date": "2026-11-23"
+   },
+   {
+    "name": "Air Cargo News",
+    "url": "https://www.aircargonews.net/?p=1032733",
+    "date": "2020-07-06"
+   }
+  ],
+  "why": "Lufthansa recupera el control del handling en su principal hub de carga, seis años después de externalizarlo: una señal de reintegración de operaciones críticas en un gran grupo europeo rival de IAG.",
+  "europe": true,
+  "aiScore": 60,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/4d987ca0-c81e-4954-8613-7c062595d86b.jpeg",
+  "photoSource": "FreightWaves (Lufthansa AG)",
+  "art": {
+   "kind": "big",
+   "value": "100%",
+   "label": "del handling de Fráncfort, bajo gestión directa",
+   "sub": "Firma: 20-nov-2026"
+  },
+  "imageId": "lufthansa-cargo-compra-handling-fiege-frankfurt",
+  "addedAt": "2026-11-24T08:24:27Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "thai-airways-perdidas-3t-combustible",
+  "title": "Thai Airways pierde 12 millones de dólares en el tercer trimestre por el queroseno",
+  "category": "FIN",
+  "publishedAt": "2026-11-23",
+  "source": "Skift",
+  "url": "https://skift.com/2026/11/23/fuel-pushes-thai-airways-into-q3-loss-as-it-awaits-new-ceo/",
+  "summary": "Thai Airways perdió 418 millones de bahts (12 millones de dólares) en el tercer trimestre, pese a que sus ingresos crecieron un 13%, por una subida del 60% del queroseno. La aerolínea, dirigida por un consejero delegado en funciones, hará del recorte de costes su prioridad en 2027.",
+  "body": [
+   {
+    "t": "Thai Airways International registró una pérdida neta de 418 millones de bahts, unos 12 millones de dólares, en el tercer trimestre de 2026, según Skift. Sus ingresos crecieron un 13%, pero el precio del combustible de aviación subió un 60%.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La aerolínea está dirigida por un consejero delegado en funciones desde principios de octubre, y el consejo prevé confirmar al sustituto definitivo antes de diciembre.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La compañía señala que la reducción de costes, empezando por el combustible, será su prioridad en 2027. «Protegeremos el beneficio de la operación», dijo en la conferencia de resultados Cherdchome Therdsteerasukdi, responsable de finanzas y contabilidad, que añadió: «Tenemos una estrategia para trabajar sobre los costes y el combustible, así como sobre otros costes».",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Skift",
+    "url": "https://skift.com/2026/11/23/fuel-pushes-thai-airways-into-q3-loss-as-it-awaits-new-ceo/",
+    "date": "2026-11-23"
+   }
+  ],
+  "why": "Thai demuestra que el crecimiento de ingresos no compensa un queroseno un 60% más caro: es la misma tensión de márgenes que afrontan las aerolíneas europeas e IAG al planificar capacidad y tarifas para 2027.",
+  "aiScore": 63,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/e84348e5-3c41-4d38-8a05-df15f4847d2d.jpeg",
+  "photoSource": "Skift (Airbus)",
+  "art": {
+   "kind": "bars",
+   "title": "Thai Airways, tercer trimestre (variación %)",
+   "bars": [
+    {
+     "l": "Ingresos",
+     "v": 13,
+     "t": "+13%"
+    },
+    {
+     "l": "Precio del queroseno",
+     "v": 60,
+     "t": "+60%"
+    }
+   ]
+  },
+  "imageId": "thai-airways-perdidas-3t-combustible",
+  "addedAt": "2026-11-24T08:24:27Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "british-airways-condor-acuerdo-interline",
+  "title": "British Airways y Condor firman un acuerdo interline para conectar Londres y Fráncfort",
+  "category": "NET",
+  "publishedAt": "2026-11-24",
+  "source": "CAPA",
+  "url": "https://centreforaviation.com/news/british-airways-confirms-interline-partnership-with-condor-1380994",
+  "summary": "British Airways ha confirmado un acuerdo interline con Condor que permite conectar los vuelos Fráncfort-Gatwick de la alemana con su red de largo radio. A cambio, Condor accede a la ruta Heathrow-Fráncfort de BA para alimentar sus vuelos desde su hub de Fráncfort.",
+  "body": [
+   {
+    "t": "British Airways ha confirmado en su web una nueva alianza interline con la alemana Condor, que da a los clientes más opciones de conexión entre las redes de ambas aerolíneas a través de Londres y Fráncfort, según CAPA. BA lo describe como un acuerdo que ofrece «más opciones y oportunidades adicionales de conexión entre las redes de ambas aerolíneas», según Business Travel News Europe.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El acuerdo cubre los vuelos de Condor entre Gatwick y Fráncfort, que operan tres veces al día, y la ruta Heathrow-Fráncfort de BA. Los pasajeros de Condor podrán enlazar con la red de largo radio vacacional de BA desde Londres y, según CAPA, el objetivo es abrir a más clientes alemanes los destinos de BA en el Caribe, como Kingston, Puerto España y Santa Lucía.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "En sentido inverso, Condor accede al Heathrow-Fráncfort de BA para alimentar rutas de largo radio que BA no ofrece desde Heathrow. Desde su hub de Fráncfort, Condor vuela a unos 100 destinos en Europa, Norteamérica, África y Asia, según Business Travel News Europe.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Condor, aerolínea orientada sobre todo al ocio que ha empezado a buscar clientes corporativos, abrió en abril su primera ruta británica, Gatwick-Fráncfort. Según CAPA, la alemana ha cerrado en los últimos meses acuerdos interline con Qantas, Thai Airways y American Airlines.",
+    "s": [
+     2,
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "CAPA",
+    "url": "https://centreforaviation.com/news/british-airways-confirms-interline-partnership-with-condor-1380994",
+    "date": "2026-11-24"
+   },
+   {
+    "name": "Business Travel News Europe",
+    "url": "https://www.businesstravelnewseurope.com/Air-Travel/british-airways-launches-interline-deal-with-condor"
+   }
+  ],
+  "why": "BA suma tráfico alemán a su red de largo radio desde Londres, sobre todo al Caribe, sin depender de Lufthansa, y Condor gana alimentación para sus vuelos desde Fráncfort a través de Heathrow.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 50,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/05aadce4-534d-4091-8352-534ffb695634.jpeg",
+  "photoSource": "One Mile at a Time",
+  "art": {
+   "kind": "route",
+   "title": "Interline British Airways-Condor",
+   "badge": "3 vuelos diarios LGW-FRA",
+   "points": [
+    {
+     "code": "FRA",
+     "city": "Fráncfort",
+     "lat": 50.04,
+     "lon": 8.56
+    },
+    {
+     "code": "LGW",
+     "city": "Londres-Gatwick",
+     "lat": 51.15,
+     "lon": -0.19
+    },
+    {
+     "code": "LHR",
+     "city": "Londres-Heathrow",
+     "lat": 51.47,
+     "lon": -0.45
+    }
+   ]
+  },
+  "imageId": "british-airways-condor-acuerdo-interline",
+  "addedAt": "2026-11-24T08:24:27Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "aer-lingus-starlink-flota-corto-radio",
+  "title": "Aer Lingus lleva el wifi gratis de Starlink a Europa y prevé 29 aviones de corto radio",
+  "category": "CUS",
+  "publishedAt": "2026-11-24",
+  "source": "CAPA",
+  "url": "https://centreforaviation.com/news/aer-lingus-begins-installation-of-starlink-wifi-connectivity-across-short-haul-fleet-1380890",
+  "summary": "Aer Lingus ha empezado a instalar el wifi de Starlink en su flota de corto radio, con el A320ceo EI-DVM como primer avión, y prevé extenderlo a 29 aviones en el primer trimestre de 2027. El servicio arranca en vuelos a España, Portugal y Marruecos.",
+  "body": [
+   {
+    "t": "Aer Lingus anunció el 23 de noviembre que ha empezado a instalar la conectividad wifi de Starlink en su flota de corto radio, comenzando por un Airbus A320ceo con matrícula EI-DVM, según CAPA. El servicio, gratuito, ya está disponible en algunas rutas europeas.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La aerolínea prevé extenderlo a 29 aviones de corto radio en el primer trimestre de 2027, antes de la temporada de verano. El despliegue empieza por los aviones que vuelan a España, Portugal y Marruecos, según CAPA y TeslaNorth.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Aer Lingus ya había completado la instalación en su flota de fuselaje estrecho transatlántica, 14 aviones según TeslaNorth, y en otros aviones de largo radio; los pasajeros de sus A330 consumieron de media 1,8 GB por dispositivo en octubre. «La respuesta de nuestros clientes al wifi de Starlink en los vuelos a nuestros destinos de Norteamérica ha sido fantástica», dijo Susanne Carberry, directora de clientes de la aerolínea.",
+    "s": [
+     2,
+     1
+    ]
+   },
+   {
+    "t": "El despliegue forma parte del plan de IAG para instalar el wifi de Starlink en más de 500 aviones de Aer Lingus, British Airways, Iberia, LEVEL y Vueling, según recuerda CAPA.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "CAPA",
+    "url": "https://centreforaviation.com/news/aer-lingus-begins-installation-of-starlink-wifi-connectivity-across-short-haul-fleet-1380890",
+    "date": "2026-11-24"
+   },
+   {
+    "name": "TeslaNorth",
+    "url": "https://teslanorth.com/2026/11/23/aer-lingus-starlink-european-flights/",
+    "date": "2026-11-23"
+   }
+  ],
+  "why": "Aer Lingus extiende al corto radio el wifi gratuito de Starlink, empezando por rutas a España, y avanza el plan de IAG de equipar más de 500 aviones del grupo, un estándar de producto frente a las low cost.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 40,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/255a7141-8520-406b-acca-f323fd6ad042.jpeg",
+  "photoSource": "One Mile at a Time",
+  "art": {
+   "kind": "plane",
+   "value": "29",
+   "label": "aviones de corto radio con Starlink en el 1T 2027",
+   "tail": "#006272"
+  },
+  "imageId": "aer-lingus-starlink-flota-corto-radio",
+  "addedAt": "2026-11-24T08:24:27Z",
+  "addedBy": "claude"
  }
 ]
