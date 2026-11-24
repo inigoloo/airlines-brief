@@ -12133,5 +12133,156 @@
     }
    ]
   }
+ },
+ {
+  "id": "heathrow-comite-transporte-critica-tercera-pista",
+  "title": "Los Comunes preparan un informe muy crítico con la tercera pista de Heathrow, según el FT",
+  "category": "REG",
+  "publishedAt": "2026-11-24",
+  "source": "Travel Weekly",
+  "url": "https://travelweekly.co.uk/news/transport-committee-to-be-highly-critical-of-heathrow-third-runway-plan",
+  "summary": "El comité de Transporte de la Cámara de los Comunes publicará el jueves un informe muy crítico con la tercera pista de Heathrow, de 33.000 millones de libras, según el FT. El borrador concluye que no supera las pruebas de ruido, clima y contaminación y que sus beneficios están inflados.",
+  "body": [
+   {
+    "t": "El comité de Transporte de la Cámara de los Comunes británica prepara un informe muy crítico con el proyecto de tercera pista de Heathrow, valorado en 33.000 millones de libras, según adelantó el Financial Times a partir de varias personas que conocen el borrador, recoge Travel Weekly este 24 de noviembre. El documento no se publicará hasta el jueves.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Según esa información, el informe concluirá que el proyecto no supera las pruebas clave del Gobierno en materia de ruido, clima y contaminación del aire, y que los beneficios económicos que se le atribuyen están «enormemente inflados». Downing Street ha indicado que el primer ministro, Andy Burnham, esperará a conocer el informe, entre otros factores, antes de decidir si respalda el plan.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El comité, presidido por Ruth Cadbury, diputada londinense que hizo campaña en el pasado contra la ampliación, ha examinado la declaración de política prevista por el Gobierno, elaborada por la ministra de Transporte, Heidi Alexander, bajo el mandato de Keir Starmer. Los diputados deben aprobarla antes de que Heathrow pueda empezar a pedir el permiso de obras.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La exministra de Hacienda Rachel Reeves llegó a afirmar que el proyecto sumaría un 0,5% al PIB británico, mientras que las previsiones actualizadas del Gobierno en junio lo situaron en el 0,05%. Alex Chapman, del laboratorio de ideas New Economics Foundation, advirtió al comité de que el aumento de costes, sobre el que también han alertado las aerolíneas, y unas menores previsiones de viajes de negocios podrían hacer que el proyecto cueste al país más de lo que aporta.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El consejero delegado de Heathrow, Thomas Woldbye, ha avisado de que el aeropuerto necesita luz verde del Gobierno antes de Año Nuevo o los inversores internacionales reconsiderarán su posición. Heathrow se declaró decepcionado porque el comité pueda ignorar que sucesivos gobiernos y comisiones independientes avalaron la necesidad de más capacidad, y su mayor accionista, el fondo francés Ardian, dijo al FT que cree que el proyecto acabará saliendo adelante.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Travel Weekly",
+    "url": "https://travelweekly.co.uk/news/transport-committee-to-be-highly-critical-of-heathrow-third-runway-plan",
+    "date": "2026-11-24"
+   }
+  ],
+  "why": "Heathrow es el hub de British Airways: un informe parlamentario adverso refuerza las dudas que IAG ya planteó sobre el coste de la tercera pista y retrasa cualquier crecimiento de capacidad en Londres.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 74,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/0cd043d3-09ef-47b7-a918-9060bbfb46c1.jpeg",
+  "imageId": "heathrow-comite-transporte-critica-tercera-pista",
+  "photoSource": "Travel Weekly",
+  "addedAt": "2026-11-24T10:11:25Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "bars",
+   "title": "Impacto en el PIB británico de la tercera pista (%)",
+   "bars": [
+    {
+     "l": "Reeves",
+     "v": 0.5,
+     "t": "0,5%"
+    },
+    {
+     "l": "Gobierno (junio)",
+     "v": 0.05,
+     "t": "0,05%"
+    }
+   ]
+  }
+ },
+ {
+  "id": "aerolineas-billetes-2027-subida-precios-recorte-plazas",
+  "title": "El queroseno y los recortes de plazas anticipan billetes hasta un 20% más caros en 2027",
+  "category": "FIN",
+  "publishedAt": "2026-11-23",
+  "source": "Mundiario",
+  "url": "https://www.mundiario.com/economia/razon-que-volar-2027-podria-costar-20-mas/20261123195559454499.html",
+  "summary": "Las aerolíneas europeas afrontan el verano de 2027 con el queroseno casi al doble que antes de la escalada en Oriente Medio y solo una cuarta parte del combustible cubierto. Ryanair prevé subidas de hasta el 20% en las tarifas de corto radio por el coste y los recortes de capacidad.",
+  "body": [
+   {
+    "t": "El encarecimiento del queroseno y los recortes de plazas de varias aerolíneas anticipan un verano de 2027 más caro para los viajeros en Europa, según recoge Mundiario este 23 de noviembre. El consejero delegado de Ryanair, Michael O'Leary, prevé subidas de hasta el 20% en las tarifas europeas de corto radio, impulsadas por el combustible y por los recortes de capacidad de otras compañías.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La tonelada métrica de queroseno costaba unos 700 dólares antes de la escalada que siguió al inicio del conflicto entre Estados Unidos e Irán a finales de febrero, llegó a 1.800 dólares en abril y en la segunda semana de noviembre estaba en 1.341 dólares, casi el doble del nivel previo. Según datos de IATA de la semana del 13 de noviembre, el diferencial entre el queroseno y el crudo ronda los 80 dólares por barril, frente a unos 20 dólares habituales.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Para el verano de 2026 muchas aerolíneas tenían cubierto con coberturas cerca del 80% de sus necesidades de combustible antes del conflicto. En cambio, el presidente de la Asociación de Líneas Aéreas (ALA), Javier Gándara, explicó a El País que la mayoría tiene cubierto solo en torno al 25% de la próxima temporada alta, y a precios superiores a los del último verano, según cita Mundiario.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Jet2 ya ha anunciado un recorte de 240.000 plazas en su programación de invierno y solo tiene cubierto el 50% del combustible del próximo verano. La portavoz de la Asociación de la Industria del Combustible en España (AICE), Inés Cardenal, atribuye la situación a la pérdida de competitividad y a la falta de inversión en Europa, que según la asociación ha perdido el 25% de su capacidad de refino en 15 años.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "España está algo más protegida gracias a la diversificación de sus refinerías, aunque no es inmune al alza del combustible, señala el artículo. IAG, matriz de Iberia, Vueling, British Airways, Aer Lingus y LEVEL, redujo su beneficio un 16,2% entre enero y septiembre, hasta 2.264 millones de euros, y atribuyó parte de la presión a un aumento del 30% en el coste del combustible.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Mundiario",
+    "url": "https://www.mundiario.com/economia/razon-que-volar-2027-podria-costar-20-mas/20261123195559454499.html",
+    "date": "2026-11-23"
+   }
+  ],
+  "why": "Con solo un 25% del combustible cubierto para el verano, las tarifas y la capacidad de 2027 dependerán del queroseno; IAG, que ya atribuye parte de su caída de beneficio al combustible, gestiona la misma presión.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 72,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/db5cf617-3002-4122-aee8-b029d67b2668.jpeg",
+  "imageId": "aerolineas-billetes-2027-subida-precios-recorte-plazas",
+  "photoSource": "Mundiario",
+  "addedAt": "2026-11-24T10:11:25Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "bars",
+   "title": "Precio del queroseno (dólares por tonelada)",
+   "bars": [
+    {
+     "l": "Antes de la escalada",
+     "v": 700,
+     "t": "700"
+    },
+    {
+     "l": "Abril",
+     "v": 1800,
+     "t": "1.800"
+    },
+    {
+     "l": "2.ª semana nov.",
+     "v": 1341,
+     "t": "1.341"
+    }
+   ]
+  }
  }
 ]
