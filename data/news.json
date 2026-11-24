@@ -11096,8 +11096,7 @@
      "t": "In July 2020, Lufthansa Cargo had confirmed the outsourcing of Frankfurt cargo handling to Fiege, according to Air Cargo News; with this purchase, that business becomes its own."
     }
    ]
-  },
-  "kind": "brief"
+  }
  },
  {
   "id": "thai-airways-perdidas-3t-combustible",
@@ -11542,10 +11541,9 @@
   "url": "https://vivirediciones.es/?p=1155844",
   "publishedAt": "2026-11-23",
   "category": "TUR",
-  "aiScore": 62,
+  "aiScore": 55,
   "europe": true,
   "addedAt": "2026-11-24T08:44:15Z",
-  "addedBy": "claude",
-  "promote": true
+  "addedBy": "claude"
  }
 ]
