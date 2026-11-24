@@ -10233,7 +10233,8 @@
   "aiScore": 55,
   "europe": true,
   "addedAt": "2026-11-23T08:55:00Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "promote": true
  },
  {
   "id": "b-royal-brunei-trent-1000-xe",
@@ -10602,7 +10603,8 @@
   "iagImpact": "directo",
   "europe": true,
   "addedAt": "2026-11-23T13:43:22Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "promote": true
  },
  {
   "id": "b-easa-ocho-a380-grietas",
@@ -10639,7 +10641,8 @@
   "iagImpact": "directo",
   "europe": true,
   "addedAt": "2026-11-23T13:43:22Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "promote": true
  },
  {
   "id": "b-delta-fallo-peso-balance-atlanta",
@@ -11190,7 +11193,8 @@
   "iagImpact": "indirecto",
   "europe": true,
   "addedAt": "2026-11-24T08:44:15Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "promote": true
  },
  {
   "id": "b-moeve-world2fly-esaf-madrid-lisboa",
@@ -11209,7 +11213,8 @@
   "aiScore": 48,
   "europe": true,
   "addedAt": "2026-11-24T08:44:15Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "promote": true
  },
  {
   "id": "b-canarias-teme-perder-vuelos-marruecos-turquia",
@@ -11228,7 +11233,8 @@
   "aiScore": 52,
   "europe": true,
   "addedAt": "2026-11-24T08:44:15Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "promote": true
  },
  {
   "id": "b-vietjet-haite-alianza-mro",
@@ -11316,7 +11322,8 @@
   "aiScore": 40,
   "europe": true,
   "addedAt": "2026-11-24T08:44:15Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "promote": true
  },
  {
   "id": "b-air-new-zealand-slots-27-horas",

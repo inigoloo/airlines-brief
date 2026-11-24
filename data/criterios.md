@@ -4,6 +4,14 @@ Lo leen las tareas diarias de Destacadas y de Breves antes de puntuar (aiScore) 
 Recoge los casos en los que el editor (Íñigo) ha dicho que una noticia tiene más peso del que le dimos.
 Se aplica por analogía: no solo a la misma empresa, sino a noticias del mismo tipo.
 
+## Regla general: España, IAG y Air Europa siempre son Destacadas (24-nov-2026)
+
+Toda noticia que trate de **España** (aerolíneas, aeropuertos, Aena, rutas, regulación, demanda de viajes, turismo ligado al avión), de **IAG o cualquiera de sus aerolíneas y negocios** (Iberia, Iberia Express, British Airways, Vueling, Aer Lingus, LEVEL, IAG Loyalty/Avios, IAG Cargo, Iberia Mantenimiento) o de **Air Europa** (y Globalia, Air Europa Express) entra SIEMPRE como Destacada, con artículo y foto.
+- La tarea de Destacadas las publica todas, fuera del cupo máximo y del límite de 2 por empresa (como ya hacía con IAG). Solo se quedan fuera si no hay fuente fiable o foto válida (y entonces se anota).
+- La tarea de Breves, si encuentra una de estas que no ha cubierto Destacadas, la publica como Breve con "promote": true para que se convierta al día siguiente.
+- Estar en portada no es lo mismo que ir arriba: el aiScore sigue siendo el peso real de la noticia (una ruta menor lleva menos de 60 y queda por debajo de las grandes).
+- Excepción: carga aérea (ver abajo), salvo que sea de IAG Cargo.
+
 ## Tienen peso (aiScore de 70 o más, y candidatas claras a Destacada y a la newsletter)
 
 - **Regulación y tasas de aeropuertos que afectan a los hubs de IAG** (Madrid-Barajas, Barcelona-El Prat, Heathrow, Dublín):
