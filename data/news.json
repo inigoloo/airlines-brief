@@ -10397,6 +10397,25 @@
    "value": "+32,8%",
    "label": "reservas de vuelos desde España (1-10 nov.)",
    "sub": "Kiwi.com"
+  },
+  "en": {
+   "title": "Flight bookings from Spain rise 32.8% in early November, Kiwi.com says",
+   "summary": "According to Kiwi.com, bookings for flights departing from Spanish airports rose 32.8% year on year between 1 and 10 November, with average spend of about €181 per passenger. December accounts for 30.5% of travellers, and bookings to Morocco are up 48.6%.",
+   "why": "The jump in Spanish outbound demand ahead of Christmas supports occupancy and fares in the domestic market and on European routes such as Rome or London, where Iberia, Vueling and Air Europa compete.",
+   "body": [
+    {
+     "t": "Bookings for flights departing from Spanish airports rose 32.8% between 1 and 10 November 2026 compared with the same period of 2025, according to Kiwi.com data published by Nexotur on 23 November. Passenger numbers grew 32% and, compared with the previous ten days, bookings rose 7.7% and passengers 9.1%."
+    },
+    {
+     "t": "Searches were up 14.7% year on year and 7.2% against the period from 22 to 31 October. Average spend per passenger, including extras such as baggage, was about €181, compared with about €160 a year earlier."
+    },
+    {
+     "t": "December accounts for 30.5% of passengers, against 17% travelling between January and March. Rome, Madrid, Budapest, Málaga, Milan, Barcelona, Seville, Palma, Kraków and London are the most booked destinations for December. In the domestic market, searches rose 24.7% year on year and passengers 41.7%."
+    },
+    {
+     "t": "Morocco stands out among international destinations: searches rose 31% year on year and bookings 48.6%. Germany recorded a 55.1% increase in passengers. The average booking lead time was 34 days, with a median of 21; according to Kiwi.com, the end-of-November discount campaign coincides with the organisation of Christmas travel."
+    }
+   ]
   }
  },
  {
@@ -10480,6 +10499,25 @@
      "l": "A350-1000",
      "v": 331,
      "t": "331"
+    }
+   ]
+  },
+  "en": {
+   "title": "British Airways faces replacing its 43 Boeing 777-200ERs without a public plan for Heathrow",
+   "summary": "British Airways has not detailed how it will replace its 43 Boeing 777-200ERs at Heathrow, which average around 26 years old, according to Simple Flying. The A350-1000 will take over from the 777 on the daily Nashville route from 29 March, with 331 seats instead of 272.",
+   "why": "The renewal of BA's long-haul fleet at Heathrow shapes capacity, the premium product and IAG's costs at its biggest hub; the delivery pace of the 777-9 and 787-10 is the key variable.",
+   "body": [
+    {
+     "t": "British Airways has not made public which aircraft will replace its 43 Boeing 777-200ERs at Heathrow, according to an analysis by Simple Flying published on 23 November. The outlet stresses that the airline has communicated neither a retirement date nor a route-by-route plan for its main hub."
+    },
+    {
+     "t": "The only firm date relates to Gatwick: chief executive Sean Doyle told staff on 27 February 2026 that the first new Boeing 787-10 will arrive at that airport in 2029. According to Aerospace Global News, cited by Simple Flying, the average age of the 777-200ERs is around 26 years and most operate from Heathrow."
+    },
+    {
+     "t": "At Heathrow, the A350-1000 is scheduled to replace the 777-200ER on the daily flight to Nashville from 29 March, raising capacity from 272 to 331 seats, with 56 Club Suites seats instead of 48. The analysis argues that at a slot-constrained airport, a larger aircraft is worth more than a one-for-one replacement."
+    },
+    {
+     "t": "According to the outlet, BA has orders for 24 Boeing 777-9s, six additional A350-1000s and 38 Boeing 787-10s, including the 32 announced in 2025. No 777-9 has yet joined the fleet, and Simple Flying expects Boeing to deliver the first one in 2027. The Turning Left For Less website, cited in the article, claims BA wants to retire all 43 aircraft and that some routes could lose first class, because the A350-1000 does not offer it."
     }
    ]
   }
@@ -10792,6 +10830,25 @@
      "city": "Madrid",
      "lat": 40.47,
      "lon": -3.56
+    }
+   ]
+  },
+  "en": {
+   "title": "Iberia lifts Jerez–Madrid to 26 weekly flights in Q1 2027",
+   "summary": "Iberia, operating flights through Air Nostrum, will offer up to 26 weekly frequencies between Jerez and Madrid from January to March 2027, with 8,600 seats (up 16%). The boost, with up to five daily departures, responds to the closure of the high-speed rail line.",
+   "why": "Iberia is using regional capacity to capture demand that is losing the train after the AVE high-speed line closure, an example of how the network feeding Madrid-Barajas both competes with and complements high-speed rail.",
+   "body": [
+    {
+     "t": "Iberia will offer up to 26 weekly frequencies between Jerez and Madrid in January, February and March 2027, with flights operated by its franchise partner Air Nostrum, according to Jerez Sin Fronteras, which published the report on 21 November based on data from Jerez airport. Total capacity reaches 8,600 seats, up 16%."
+    },
+    {
+     "t": "The schedule includes peaks of four and up to five daily departures, with fares from €27 per one-way trip. The direct flight takes 1 hour 15 minutes."
+    },
+    {
+     "t": "For Saturday 23 January 2027, the outlet lists five departures between 09:25 and 21:35, with economy fares of €27 to €151."
+    },
+    {
+     "t": "The boost responds to the interruption of the high-speed rail corridor with Madrid, which closed after the accident at Urda on 28 October, according to the outlet."
     }
    ]
   }
@@ -11587,6 +11644,25 @@
      "t": "4,8%"
     }
    ]
+  },
+  "en": {
+   "title": "World2Fly and Moeve fly Madrid–Lisbon on the e-SAF blend the EU will require in 2030",
+   "summary": "World2Fly and Moeve flew an A350 between Madrid and Lisbon using a blend of 1.2% e-SAF, 4.8% biological SAF and kerosene, the proportion ReFuelEU will require in 2030. According to Business People, it is the first flight by a Spanish airline with that combination.",
+   "why": "It shows how Spanish airlines, Iberia and Vueling included, will meet the 2030 e-SAF quota; the availability and price of synthetic fuel will be a significant cost for the whole sector.",
+   "body": [
+    {
+     "t": "World2Fly, the airline of World2Meet (part of the Iberostar group), and Moeve operated a Madrid–Lisbon flight on 23 November using a blend of renewable synthetic fuel (e-SAF), biological SAF and conventional kerosene. Business People presents it as the first flight by a Spanish airline to combine both sustainable fuels with kerosene."
+    },
+    {
+     "t": "The blend included 1.2% e-SAF and 4.8% biological SAF. The flight used an Airbus A350 with more than 300 passengers, without modifying the aircraft or airport infrastructure, and the fuel was distributed through Exolum's logistics network."
+    },
+    {
+     "t": "The e-SAF was developed at Moeve's Innovation Centre in Alcalá de Henares, from renewable hydrogen obtained by electrolysis and captured residual CO2, with the participation of ITQ (CSIC-UPV) and Finland's VTT. The biological SAF comes from the San Roque Energy Park in Cádiz and includes used cooking oil from Iberostar hotels in Andalusia and Catalonia."
+    },
+    {
+     "t": "The proportions mirror the ReFuelEU Aviation target for 2030: at least 6% SAF in fuel supplied at EU airports, with a minimum of 1.2% synthetic fuel. According to Moeve, e-SAF cuts lifecycle CO2 emissions by up to 97% and biological SAF by up to 90%. Business People says the formula could be incorporated into World2Fly's commercial flights from 2030."
+    }
+   ]
   }
  },
  {
@@ -11750,6 +11826,22 @@
      "lon": -15.39
     }
    ]
+  },
+  "en": {
+   "title": "Binter adds El Hierro flights to Tenerife and Gran Canaria due to the island's situation",
+   "summary": "Binter is adding frequencies between El Hierro and Gran Canaria on Mondays and Sundays and on two Fridays, and with Tenerife on several days this week, next week and during the December long weekend. The airline does not specify how many extra flights or seats it is adding.",
+   "why": "It illustrates the flexibility of the Canary Islands' inter-island network in the face of demand spikes, a regional segment of the Spanish market where Binter concentrates its business and on which the archipelago's connectivity depends.",
+   "body": [
+    {
+     "t": "Binter has scheduled extra flights to and from El Hierro to meet rising connectivity needs arising from “the current situation the island is experiencing”, according to Diario de Avisos on 23 November. The Canary Islands airline is adding flights and seats and adjusting its usual timetable for the coming weeks."
+    },
+    {
+     "t": "On the Gran Canaria route it adds a midday frequency on Mondays and Sundays, plus new flights on Friday 27 November and Friday 11 December at 08:40. With Tenerife it adds flights on Tuesdays, Wednesdays and Saturdays this week and next, as well as on the Wednesday and Saturday of the December bridge week."
+    },
+    {
+     "t": "The airline has not specified how many additional flights or seats it is adding. According to a statement reported by elDiario.es, Binter reiterates its commitment to connectivity across all the islands and will monitor developments on El Hierro to decide whether further reinforcements are needed."
+    }
+   ]
   }
  },
  {
@@ -11858,6 +11950,25 @@
      "t": "+45%"
     }
    ]
+  },
+  "en": {
+   "title": "International business travel from Spain grows 28.9% in 2026, according to BizAway",
+   "summary": "Overseas business travel bookings from Spain on BizAway grew 28.9% between January and November and now account for 15.7% of the platform's total. Belgium (up 57%), Germany (up 55%) and the Netherlands (up 45%) lead growth by destination.",
+   "why": "Corporate travel is a high-value segment for airlines; its growth towards central Europe reinforces business routes from Madrid and Barcelona on which Iberia, Vueling and Air Europa compete.",
+   "body": [
+    {
+     "t": "International business travel bookings departing from Spain and managed by BizAway grew 28.9% between January and November 2026 compared with the same period of 2025, according to data published by Nexotur on 24 November. Overseas trips now make up 15.7% of the platform's total bookings, up from 14.5% in 2025."
+    },
+    {
+     "t": "Belgium leads growth by destination at 57%, followed by Germany (55%) and the Netherlands (45%). Italy is up 27%, Portugal 25%, the UK 22% and France 14%; outside Europe, the United States is up 9%."
+    },
+    {
+     "t": "By volume, Italy accounts for 25% of BizAway's international bookings in 2026, followed by Germany and Portugal with 11% each, and France with 9%. The UK accounts for 5%, while Belgium and the Netherlands each account for 4%."
+    },
+    {
+     "t": "“Business travel is no longer planned solely with the number of trips in mind, but with the real value it brings to the business,” said Luca Carlucci, chief executive and co-founder of BizAway, who expects the trend to keep gaining momentum in the coming months."
+    }
+   ]
   }
  },
  {
@@ -11922,6 +12033,25 @@
    "value": "565.000",
    "label": "plazas extra de Ryanair en España por Navidad",
    "sub": "más de 3 millones de pasajeros previstos"
+  },
+  "en": {
+   "title": "Ryanair adds almost 565,000 Christmas seats in Spain and expects over 3 million passengers",
+   "summary": "Ryanair is adding almost 565,000 seats on flights between Spanish airports for Christmas and expects to carry more than three million passengers. It has not detailed routes or airports; in April it confirmed a cut of 1.2 million regional seats for the summer.",
+   "why": "More Ryanair capacity on peak dates puts pressure on fares in the Spanish market, where it competes with Iberia, Vueling and Air Europa, and comes after its winter reinforcement at Madrid-Barajas.",
+   "body": [
+    {
+     "t": "Ryanair announced on 23 November that it is adding almost 565,000 extra seats on flights between Spanish airports for the 2026 Christmas period, according to reports by Hosteltur and The Objective. The airline expects to carry more than three million passengers in the Spanish market over the holidays."
+    },
+    {
+     "t": "The company attributes the increase to strong demand for travel over these dates. “Flights are filling up quickly,” warned Jade Kirwan, Ryanair's communications director, who advised passengers to book early."
+    },
+    {
+     "t": "The statement does not give the dates of the operation, the airports or routes across which the capacity will be spread, nor compare it with Christmas 2025."
+    },
+    {
+     "t": "Hosteltur places the announcement in the context of Ryanair's uneven capacity adjustments in Spain: in April it confirmed a cut of 1.2 million seats for the summer at regional airports, and in September it announced 200,000 additional seats in Madrid for the winter."
+    }
+   ]
   }
  },
  {
@@ -11984,6 +12114,22 @@
      "city": "San Sebastián",
      "lat": 43.36,
      "lon": -1.79
+    }
+   ]
+  },
+  "en": {
+   "title": "Vueling doubles Barcelona–San Sebastián flights from 29 March 2027",
+   "summary": "Vueling will increase weekly frequencies between Barcelona and San Sebastián airport in Hondarribia from 16 to 34, from 29 March until at least 31 July 2027. It includes a new early-morning flight leaving El Prat at 06:40 and returning to Barcelona at 08:20.",
+   "why": "Vueling strengthens the link between a Spanish regional airport and its Barcelona base and feeds IAG's network at El Prat with timetables designed for same-day round trips.",
+   "body": [
+    {
+     "t": "Vueling will offer 34 weekly frequencies between Barcelona-El Prat and Donostia-San Sebastián airport, located in Hondarribia, from 29 March, the start of the 2027 summer season, according to GipuzkoaGaur, which published the report on 23 November. That is more than double the 16 weekly services currently operated."
+    },
+    {
+     "t": "The increase will last at least until 31 July, and the schedule is already available on the airline's website. It is the only scheduled route Vueling operates in Gipuzkoa."
+    },
+    {
+     "t": "The main novelty is a morning frequency: the first flight of the day will leave El Prat at 06:40, arriving at 07:40, and return to Barcelona at 08:20. The aircraft will still not overnight in Hondarribia."
     }
    ]
   }
