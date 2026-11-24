@@ -21,9 +21,16 @@ Se aplica por analogía: no solo a la misma empresa, sino a noticias del mismo t
   - Otras aerolíneas grandes (Emirates, Delta, United, American, LATAM, Avianca/Abra, Qatar…): aiScore 65–74.
   - Matiz: el 23-nov-2026 el editor prefirió el DORA III de Air Europa y el taller de Ryanair en Sevilla antes que los resultados de Jet2 en la newsletter. Los resultados pesan mucho, pero no pasan por delante de forma automática de una noticia de los tipos anteriores que toque de lleno a los hubs o al mantenimiento de IAG.
 
+- **Flota de IAG**: renovación, sustitución, pedidos, retiradas o reconfiguración de aviones de IAG o de sus aerolíneas, aunque sea un plan y no un pedido firmado.
+  Ejemplo (24-nov-2026): «British Airways prepara el relevo de sus Boeing 777-200ER en Heathrow» (Simple Flying). aiScore 70 o más; Destacada.
+- **Demanda de viajes en avión en España**: datos de reservas, búsquedas o tráfico emitido desde España (Kiwi.com, Aena, Turespaña, agencias, metabuscadores), sobre todo con cifras de variación claras.
+  Ejemplo (24-nov-2026): «Las reservas de vuelos desde España crecen casi un 33% en noviembre, según Kiwi.com» (Nexotur). aiScore 65 o más; candidata a Destacada.
+
 ## Pesan menos de lo que parece
 
 - Negociaciones laborales de otras aerolíneas sin huelga convocada ni impacto operativo concreto.
+- **Carga aérea (cargo)**: al editor no le interesa (24-nov-2026). Aerolíneas de carga, filiales cargo, handling de carga, cargueros, freighters y conversiones P2F: aiScore máximo 45, nunca Destacada ni promote, salvo que afecte de forma directa y clara al negocio de pasajeros de IAG.
+  Ejemplo: «Lufthansa Cargo compra a Fiege su filial de handling y asume la gestión directa en Fráncfort» no debió ir en portada.
 
 ## Lunes: cubrir el fin de semana (23-nov-2026)
 

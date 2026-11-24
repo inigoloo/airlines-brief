@@ -10317,10 +10317,11 @@
   "url": "https://nexotur.com/las-reservas-de-vuelos-desde-espana-crecen-casi-un-33-en-noviembre/",
   "publishedAt": "2026-11-23",
   "category": "TUR",
-  "aiScore": 45,
+  "aiScore": 68,
   "europe": true,
   "addedAt": "2026-11-23T08:55:00Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "promote": true
  },
  {
   "id": "b-delta-dublin-detroit-diario",
@@ -10354,11 +10355,12 @@
   "thumb": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/shutterstock_2577719323-1.jpg",
   "publishedAt": "2026-11-23",
   "category": "FLT",
-  "aiScore": 55,
+  "aiScore": 72,
   "iagImpact": "directo",
   "europe": true,
   "addedAt": "2026-11-23T13:40:49Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "promote": true
  },
  {
   "id": "b-air-canada-trimestre-record",
@@ -10949,7 +10951,7 @@
   ],
   "why": "Lufthansa recupera el control del handling en su principal hub de carga, seis años después de externalizarlo: una señal de reintegración de operaciones críticas en un gran grupo europeo rival de IAG.",
   "europe": true,
-  "aiScore": 60,
+  "aiScore": 40,
   "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/4d987ca0-c81e-4954-8613-7c062595d86b.jpeg",
   "photoSource": "FreightWaves (Lufthansa AG)",
   "art": {
