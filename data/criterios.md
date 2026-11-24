@@ -3,6 +3,7 @@
 Lo leen las tareas diarias de Destacadas y de Breves antes de puntuar (aiScore) y elegir noticias.
 Recoge los casos en los que el editor (Íñigo) ha dicho que una noticia tiene más peso del que le dimos.
 Se aplica por analogía: no solo a la misma empresa, sino a noticias del mismo tipo.
+Además, lee data/likes.md (se actualiza en cada recogida): resume qué noticias recibe más «me gusta» el equipo en la web. Da más peso a las noticias parecidas a las más votadas y menos a los tipos que nunca reciben likes; si chocan con este archivo, manda este archivo.
 
 ## Regla general: España, IAG y Air Europa siempre son Destacadas (24-nov-2026)
 

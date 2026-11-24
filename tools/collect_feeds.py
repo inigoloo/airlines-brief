@@ -100,6 +100,50 @@ def norm_title(t):
     return re.sub(r"[^a-z0-9áéíóúñü ]", "", (t or "").lower()).strip()
 
 
+def likes_report(news, now):
+    """Resume los likes del portal para que las tareas aprendan qué valora el equipo (data/likes.md)."""
+    import urllib.request
+    try:
+        req = urllib.request.Request("https://airlines-brief.inigoviu.workers.dev/api/votes", headers={"User-Agent": UA})
+        votes = json.loads(urllib.request.urlopen(req, timeout=20).read().decode("utf-8"))
+    except Exception as ex:
+        print("likes: no se pudieron leer", ex)
+        return
+    t = {}
+    for v in (votes or {}).values():
+        for nid, val in ((v or {}).get("v") or {}).items():
+            if val == 1:
+                t[nid] = t.get(nid, 0) + 1
+    by_id = {n["id"]: n for n in news}
+    since = (now - dt.timedelta(days=45)).date().isoformat()
+    recent = [n for n in news if n.get("publishedAt", "") >= since and n.get("title")]
+    liked = sorted([n for n in recent if t.get(n["id"])], key=lambda n: (-t[n["id"]], n["publishedAt"]))
+    cats, kinds = {}, {"Destacada": [0, 0], "Breve": [0, 0]}
+    for n in recent:
+        c = n.get("category", "?"); k = "Breve" if n.get("kind") == "brief" else "Destacada"
+        cats.setdefault(c, [0, 0]); cats[c][0] += 1; cats[c][1] += t.get(n["id"], 0)
+        kinds[k][0] += 1; kinds[k][1] += t.get(n["id"], 0)
+    L = [f"# Likes del portal (últimos 45 días) · generado {now.isoformat(timespec='minutes')}",
+         "",
+         "Lo que el equipo marca con «me gusta» en la web. Úsalo para afinar el aiScore y la elección, junto con data/criterios.md:",
+         "las noticias parecidas (mismo tipo, empresa o tema) a las más votadas tienen más peso; un tipo que nunca recibe likes, menos.",
+         "Los criterios explícitos del editor (data/criterios.md) mandan sobre esto si se contradicen.",
+         "", "## Más votadas", ""]
+    for n in liked[:40]:
+        L.append(f"- {t[n['id']]} ♥ · {n.get('publishedAt')} · {n.get('category','?')} · {'Breve' if n.get('kind') == 'brief' else 'Destacada'} · aiScore {n.get('aiScore','?')} · {n.get('source','')} · {n['title']}")
+    if not liked:
+        L.append("- (todavía sin likes en este periodo)")
+    L += ["", "## Likes por sección (noticias · likes)", ""]
+    for c, (k, v) in sorted(cats.items(), key=lambda x: -x[1][1]):
+        L.append(f"- {c}: {k} noticias · {v} likes")
+    L += ["", "## Destacadas frente a Breves (noticias · likes)", ""] + [f"- {k}: {a} · {b}" for k, (a, b) in kinds.items()]
+    hi = [n for n in recent if (n.get("aiScore") or 0) >= 70 and not t.get(n["id"]) and n.get("publishedAt", "") <= (now - dt.timedelta(days=3)).date().isoformat()]
+    L += ["", "## Con aiScore alto (70+) y ningún like tras 3 días (quizá sobrevaloradas)", ""]
+    L += [f"- {n.get('publishedAt')} · {n.get('category','?')} · aiScore {n.get('aiScore')} · {n['title']}" for n in hi[:25]] or ["- (ninguna)"]
+    (ROOT / "data/likes.md").write_text("\n".join(L) + "\n", encoding="utf-8")
+    print(f"likes: {sum(t.values())} likes en {len(t)} noticias")
+
+
 def main():
     cfg = json.loads((ROOT / "feeds/feeds.json").read_text(encoding="utf-8"))
     news = json.loads((ROOT / "data/news.json").read_text(encoding="utf-8"))
@@ -184,6 +228,7 @@ def main():
     if filled:
         (ROOT / "data/news.json").write_text(json.dumps(news, ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"miniaturas añadidas a {filled} noticias fuera de portada")
+    likes_report(news, now)
     items.sort(key=lambda x: x["published"], reverse=True)
     for i, it in enumerate(items, 1):
         it.pop("_w", None)
