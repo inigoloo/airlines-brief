@@ -11169,5 +11169,187 @@
   "imageId": "aer-lingus-starlink-flota-corto-radio",
   "addedAt": "2026-11-24T08:24:27Z",
   "addedBy": "claude"
+ },
+ {
+  "id": "b-air-europa-pulso-aena-t123",
+  "kind": "brief",
+  "title": "Air Europa estudia nuevos recursos para forzar a Aena a invertir más en la futura T123 de Barajas",
+  "summary": "La filial de Globalia explora varias vías legales para que Aena aumente la inversión en la futura T123 y pide «iguales condiciones» frente a Iberia en Madrid.",
+  "en": {
+   "title": "Air Europa weighs further legal action to force Aena to invest more in Barajas' future T123",
+   "summary": "Globalia's airline is exploring several legal avenues to make Aena raise investment in the future T123 and demands 'equal conditions' against Iberia in Madrid."
+  },
+  "source": "Expansión",
+  "url": "https://www.expansion.com/empresas/transporte/2026/11/24/air-europa-lanza-pulso-aena-competir-barajas-frente-iberia.html",
+  "thumb": "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2026/11/24/17954810130109.jpg",
+  "publishedAt": "2026-11-24",
+  "category": "REG",
+  "aiScore": 72,
+  "iagImpact": "indirecto",
+  "europe": true,
+  "addedAt": "2026-11-24T08:44:15Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-moeve-world2fly-esaf-madrid-lisboa",
+  "kind": "brief",
+  "title": "Moeve y World2Fly prueban en un Madrid-Lisboa la mezcla de combustibles sostenibles que exigirá Bruselas",
+  "summary": "Primer trayecto de una aerolínea española con e-SAF, SAF de origen biológico y queroseno convencional, fruto de la alianza entre ambas compañías.",
+  "en": {
+   "title": "Moeve and World2Fly trial on a Madrid-Lisbon flight the sustainable fuel blend Brussels will require in 2030",
+   "summary": "The first flight by a Spanish airline combining synthetic renewable e-SAF, bio-based SAF and conventional kerosene, the result of an alliance between the two companies."
+  },
+  "source": "Cinco Días",
+  "url": "https://cincodias.elpais.com/companias/2026-11-23/moeve-y-world2fly-ensayan-en-un-vuelo-madrid-lisboa-la-mezcla-de-combustibles-sostenibles-que-bruselas-exigira-en-2030.html",
+  "thumb": "https://imagenes.elpais.com/resizer/v2/RJIQAALCZJDBZJQGANYADFK7JM.jpeg?auth=ea60a7a1e26b028b9e5e2b817605613776da3cfe811b90b31a41bc14215fafab",
+  "publishedAt": "2026-11-23",
+  "category": "REG",
+  "aiScore": 48,
+  "europe": true,
+  "addedAt": "2026-11-24T08:44:15Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-canarias-teme-perder-vuelos-marruecos-turquia",
+  "kind": "brief",
+  "title": "Canarias teme perder vuelos frente a Marruecos, Turquía y Egipto por las exigencias ambientales de la UE",
+  "summary": "Las islas alertan de que las nuevas exigencias medioambientales europeas pueden restar competitividad a sus conexiones aéreas y favorecer a destinos del norte de África y Turquía.",
+  "en": {
+   "title": "Canary Islands fear losing air connectivity to Morocco, Turkey and Egypt over EU environmental rules",
+   "summary": "The islands warn that new European environmental requirements could erode the competitiveness of their air links and favour destinations in North Africa and Turkey."
+  },
+  "source": "Preferente",
+  "url": "https://www.preferente.com/noticias-de-transportes/noticias-de-aerolineas/miedo-en-canarias-a-perder-vuelos-ante-a-marruecos-turquia-y-egipto-353201.html",
+  "thumb": "https://www.preferente.com/wp-content/uploads/2026/11/Jessica-de-leon.jpg",
+  "publishedAt": "2026-11-23",
+  "category": "TUR",
+  "aiScore": 52,
+  "europe": true,
+  "addedAt": "2026-11-24T08:44:15Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-vietjet-haite-alianza-mro",
+  "kind": "brief",
+  "title": "Vietjet y Haite Group firman un memorando de cooperación en fabricación aeronáutica y servicios técnicos",
+  "summary": "El acuerdo se intercambió en el foro de conectividad Vietnam–suroeste de China y abarca la cooperación en manufactura y servicios técnicos de aviación.",
+  "en": {
+   "title": "Vietjet and Haite Group sign MoU on strategic cooperation in aviation manufacturing and technical services",
+   "summary": "The agreement was exchanged at the Vietnam–Southwest China connectivity forum and covers cooperation in aviation manufacturing and technical services."
+  },
+  "source": "AviTrader",
+  "url": "https://avitrader.com/2026/11/23/vietjet-and-haite-group-form-strategic-mro-alliance/",
+  "publishedAt": "2026-11-23",
+  "category": "MRO",
+  "aiScore": 42,
+  "addedAt": "2026-11-24T08:44:15Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-deutsche-aircraft-kf-aerospace-d328eco",
+  "kind": "brief",
+  "title": "Deutsche Aircraft elige a KF Aerospace para crear la red de soporte del D328eco en Norteamérica",
+  "summary": "Carta de intención con el mayor taller de mantenimiento comercial de Canadá para dar servicio al avión regional D328eco en el continente.",
+  "en": {
+   "title": "Deutsche Aircraft picks KF Aerospace to build D328eco support network in North America",
+   "summary": "A letter of intent with Canada's largest commercial MRO provider to support the D328eco regional aircraft on the continent."
+  },
+  "source": "AviTrader",
+  "url": "https://avitrader.com/2026/11/23/deutsche-aircraft-partners-with-canadian-kf-aerospace/",
+  "publishedAt": "2026-11-23",
+  "category": "MRO",
+  "aiScore": 45,
+  "addedAt": "2026-11-24T08:44:15Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-trump-250-boeing-china",
+  "kind": "brief",
+  "title": "Trump prevé que China compre otros 250 Boeing mientras el compromiso anterior sigue sin concretarse",
+  "summary": "El presidente de EE. UU. dice esperar un nuevo pedido chino de 250 aviones de Boeing, pese a que la promesa previa sigue pendiente.",
+  "en": {
+   "title": "Trump predicts China will buy another 250 Boeing jets as earlier pledge remains unfulfilled",
+   "summary": "The US president says he expects a new Chinese order for 250 Boeing aircraft, even though the earlier pledge is still pending."
+  },
+  "source": "AeroTime",
+  "url": "https://www.aerotime.aero/articles/trump-china-boeing-250-jets-commitment",
+  "publishedAt": "2026-11-23",
+  "category": "FLT",
+  "aiScore": 55,
+  "addedAt": "2026-11-24T08:44:15Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-jsx-new-pacific-airlines",
+  "kind": "brief",
+  "title": "JSX compra la quebrada New Pacific Airlines y amplía su negocio con Embraer regionales de 42 plazas",
+  "summary": "La aerolínea de chárter premium adquiere la compañía en quiebra, lo que le permite operar aviones Embraer de 42 plazas.",
+  "en": {
+   "title": "JSX buys bankrupt New Pacific Airlines and expands into 42-seat Embraer regional flying",
+   "summary": "The premium charter operator acquires the failed airline, unlocking operations with 42-seat Embraer aircraft."
+  },
+  "source": "Simple Flying",
+  "url": "https://simpleflying.com/jsx-bankrupt-airline-expansion-30-seat-semi-private-flights/",
+  "thumb": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/jsx_mountains_1920x1080.jpg",
+  "publishedAt": "2026-11-23",
+  "category": "STR",
+  "aiScore": 40,
+  "addedAt": "2026-11-24T08:44:15Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-binter-el-hierro-frecuencias",
+  "kind": "brief",
+  "title": "Binter amplía las frecuencias aéreas de El Hierro ante la crisis migratoria que atraviesa la isla",
+  "summary": "La aerolínea canaria refuerza los vuelos desde y hacia la isla para atender sus necesidades de conectividad.",
+  "en": {
+   "title": "Binter adds frequencies to El Hierro amid the island's migration crisis",
+   "summary": "The Canarian airline strengthens flights to and from the island to meet its connectivity needs."
+  },
+  "source": "Preferente",
+  "url": "https://www.preferente.com/noticias-de-transportes/noticias-de-aerolineas/binter-amplia-vuelos-a-el-hierro-por-la-avalancha-migratoria-353213.html",
+  "thumb": "https://www.preferente.com/wp-content/uploads/2026/11/binter.jpg",
+  "publishedAt": "2026-11-23",
+  "category": "NET",
+  "aiScore": 40,
+  "europe": true,
+  "addedAt": "2026-11-24T08:44:15Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-air-new-zealand-slots-27-horas",
+  "kind": "brief",
+  "title": "Air New Zealand se queda sin ningún slot para su nueva ruta de 27 horas de duración",
+  "summary": "La aerolínea neozelandesa ve denegados todos los slots solicitados para la ruta; varios factores habrían complicado sus planes.",
+  "en": {
+   "title": "Air New Zealand denied all slots for new 27-hour route",
+   "summary": "The airline was refused every slot it requested for the route; several factors may have complicated its plans."
+  },
+  "source": "Simple Flying",
+  "url": "https://simpleflying.com/air-new-zealand-denied-all-slots-for-27-hour-route/",
+  "thumb": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/060-air-new-zealand-boeing-777-flavio-shots-_-shutterstock.jpg",
+  "publishedAt": "2026-11-23",
+  "category": "NET",
+  "aiScore": 44,
+  "addedAt": "2026-11-24T08:44:15Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-dertour-castellon-90-vuelos-2027",
+  "kind": "brief",
+  "title": "Dertour programa 90 vuelos desde Chequia y Eslovaquia a Castellón para el verano de 2027",
+  "summary": "El turoperador prevé una operativa de 90 vuelos entre República Checa, Eslovaquia y el aeropuerto de Castellón en 2027.",
+  "en": {
+   "title": "Dertour schedules 90 flights from Czechia and Slovakia to Castellón for summer 2027",
+   "summary": "The tour operator plans 90 flights between the Czech Republic, Slovakia and Castellón airport in 2027."
+  },
+  "source": "Vivir Ediciones",
+  "url": "https://vivirediciones.es/?p=1155844",
+  "publishedAt": "2026-11-23",
+  "category": "TUR",
+  "aiScore": 55,
+  "europe": true,
+  "addedAt": "2026-11-24T08:44:15Z",
+  "addedBy": "claude"
  }
 ]
