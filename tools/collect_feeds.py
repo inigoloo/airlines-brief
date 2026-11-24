@@ -19,6 +19,21 @@ def clean_url(u):
     return urlunparse((p.scheme, p.netloc.lower(), p.path.rstrip("/"), "", urlencode(q), ""))
 
 
+# Temas que el editor no quiere (data/criterios.md): se descartan ya en la recogida para que no lleguen como candidatas.
+# Carga aérea: nombres de empresa con "Cargo" (mayúscula; "cargo" en minúscula en español es otra cosa), cargueros, P2F.
+# IAG Cargo sí interesa.
+NOT_WANTED = [
+    re.compile(r"\bCargo\b|\bCARGO\b|P2F\b|\bP2F"),
+    re.compile(r"\b(air ?cargo|air ?freight|freighters?|cargueros?|carga a[ée]rea|cargo (airline|operator|terminal|handling))\b", re.I),
+]
+KEEP = re.compile(r"\bIAG Cargo\b", re.I)
+
+
+def not_wanted(title, excerpt=""):
+    t = f"{title} {excerpt}"
+    return not KEEP.search(t) and any(r.search(t) for r in NOT_WANTED)
+
+
 IMG_SKIP = re.compile(r"gravatar|pixel|feedburner|1x1|spacer|/emoji/|\.svg(\?|$)|logo", re.I)
 
 
@@ -115,6 +130,8 @@ def main():
                 if not link or cu in known_urls or cu in seen_u or nt in seen_t:
                     continue
                 if f.get("exclude") and re.search(f["exclude"], title, re.I):
+                    continue
+                if not_wanted(title, excerpt):
                     continue
                 words = set(w for w in nt.split() if len(w) > 3)
                 dup = next((it for it in items if similar(words, it["_w"])), None)
