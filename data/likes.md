@@ -1,4 +1,4 @@
-# Likes del portal (últimos 45 días) · generado 2026-11-25T11:23+00:00
+# Likes del portal (últimos 45 días) · generado 2026-11-25T12:22+00:00
 
 Lo que el equipo marca con «me gusta» en la web. Úsalo para afinar el aiScore y la elección, junto con data/criterios.md:
 las noticias parecidas (mismo tipo, empresa o tema) a las más votadas tienen más peso; un tipo que nunca recibe likes, menos.
@@ -29,11 +29,12 @@ Los criterios explícitos del editor (data/criterios.md) mandan sobre esto si se
 - 1 ♥ · 2026-11-23 · STR · Destacada · aiScore 50 · Qué! · Los correos de la SEPI sitúan a Moncloa en el rescate de Air Europa el día que declara Aagesen
 - 1 ♥ · 2026-11-23 · FIN · Destacada · aiScore 72 · Mundiario · El queroseno y los recortes de plazas anticipan billetes hasta un 20% más caros en 2027
 - 1 ♥ · 2026-11-24 · CUS · Destacada · aiScore 40 · CAPA · Aer Lingus lleva el wifi gratis de Starlink a Europa y prevé 29 aviones de corto radio
+- 1 ♥ · 2026-11-25 · FIN · Destacada · aiScore 80 · Reuters · easyJet hunde un 89% su beneficio anual por el combustible y no da previsiones por Apollo
 
 ## Likes por sección (noticias · likes)
 
 - STR: 30 noticias · 14 likes
-- FIN: 37 noticias · 12 likes
+- FIN: 37 noticias · 13 likes
 - NET: 55 noticias · 6 likes
 - FLT: 33 noticias · 2 likes
 - CUS: 16 noticias · 1 likes
@@ -44,7 +45,7 @@ Los criterios explícitos del editor (data/criterios.md) mandan sobre esto si se
 
 ## Destacadas frente a Breves (noticias · likes)
 
-- Destacada: 129 · 36
+- Destacada: 129 · 37
 - Breve: 107 · 0
 
 ## Con aiScore alto (70+) y ningún like tras 3 días (quizá sobrevaloradas)
