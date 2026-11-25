@@ -6,7 +6,7 @@ export async function onRequestPost({ request, env }){
     if(!(await isAdminKey(b.key))) return json({ error: "admin" }, 403);
     const d = await db(env), today = madridToday(), d30 = addDays(today, -29), d7 = addDays(today, -6), w12 = addDays(today, -83);
     const q = (sql, ...a) => d.prepare(sql).bind(...a).all().then(r => r.results || []);
-    const [daily, weekly, kpi7, kpiAll, articles, searches, email, firstDay] = await Promise.all([
+    const [daily, weekly, kpi7, kpiAll, articles, searches, email, firstDay, recent] = await Promise.all([
       q("SELECT day, COUNT(DISTINCT uid) AS people, SUM(type='visit') AS visits, SUM(type='view') AS views FROM events WHERE day >= ? GROUP BY day ORDER BY day", d30),
       q(`SELECT date(day, '-' || ((CAST(strftime('%w', day) AS INTEGER) + 6) % 7) || ' days') AS week,
            COUNT(DISTINCT uid) AS people, SUM(type='visit') AS visits, SUM(type='view') AS views,
@@ -17,7 +17,8 @@ export async function onRequestPost({ request, env }){
       q("SELECT ref, COUNT(*) AS views, COUNT(DISTINCT uid) AS people FROM events WHERE type='view' AND day >= ? AND ref IS NOT NULL GROUP BY ref ORDER BY people DESC, views DESC LIMIT 10", d30),
       q("SELECT lower(ref) AS ref, COUNT(*) AS n, COUNT(DISTINCT uid) AS people FROM events WHERE type='search' AND day >= ? AND ref IS NOT NULL GROUP BY lower(ref) ORDER BY n DESC LIMIT 10", d30),
       q("SELECT ref, COUNT(*) AS clicks, COUNT(DISTINCT uid) AS people FROM events WHERE type='visit' AND src='email' GROUP BY ref ORDER BY ref DESC LIMIT 12"),
-      q("SELECT MIN(day) AS day FROM events")
+      q("SELECT MIN(day) AS day FROM events"),
+      q("SELECT ref, MAX(ts) AS ts FROM events WHERE type IN ('view','click') AND ref IS NOT NULL GROUP BY ref ORDER BY ts DESC LIMIT 5")
     ]);
     const news = (await asset(env, request, "/data/news.json")) || [];
     const title = id => (news.find(n => n.id === id) || {}).title || id;
@@ -26,7 +27,8 @@ export async function onRequestPost({ request, env }){
       last7: kpi7[0] || {}, total: kpiAll[0] || {},
       daily, weekly,
       articles: articles.map(a => ({ ...a, title: title(a.ref) })),
-      searches, email
+      searches, email,
+      recent: recent.map(r => { const n = news.find(x => x.id === r.ref) || {}; return { ...r, title: n.title || r.ref, brief: n.kind === "brief", url: n.url || "" }; })
     });
   }catch(e){ return json({ error: e.message }, 500); }
 }

@@ -1,7 +1,7 @@
-// POST /api/hit { uid, type: "visit"|"view"|"search"|"like", ref?, src? } -> records one anonymous usage event.
+// POST /api/hit { uid, type: "visit"|"view"|"click"|"search"|"like", ref?, src? } -> records one anonymous usage event.
 // uid is the same anonymous id the portal already uses for likes (no names, no emails). The admin's own use is not sent.
 import { json, db, madridToday } from "../../cf/lib.js";
-const TYPES = new Set(["visit", "view", "search", "like"]);
+const TYPES = new Set(["visit", "view", "click", "search", "like"]);  // click = opens a brief ("Más noticias") at its outlet
 export async function onRequestPost({ request, env }){
   try{
     // Automated browsers (headless browsers driven by a program, e.g. the ones that open the site after each upload) are ignored.

@@ -707,6 +707,8 @@ function track(type, ref, src){
   if(!uid) return;
   try{ fetch("/api/hit", { method: "POST", headers: {"content-type": "application/json"}, body: JSON.stringify({ uid, type, ref: ref || null, src: src || null }), keepalive: true }).catch(() => {}); }catch(e){}
 }
+// Briefs ("Más noticias") open at the outlet: count the click as a read of that brief
+document.addEventListener("click", e => { const a = e.target.closest && e.target.closest("[data-out]"); if(a) track("click", a.dataset.out); }, true);
 (function trackVisit(){
   const qs = new URLSearchParams(location.search);
   const fromEmail = qs.get("from") === "email", ed = (qs.get("ed") || "").replace(/[^0-9]/g, "").slice(0, 3);
@@ -893,11 +895,11 @@ function story(n, t, inSel, opts){
 function briefThumb(n){
   const art = artSVG({...n, art: n.art || {kind:"big", value:n.category, label:CATS[n.category]||""}});
   const img = /^https:\/\//.test(n.thumb||"") ? `<img src="${esc(n.thumb)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : "";
-  return `<a class="bthumb" href="${esc(n.url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">${art}${img}</a>`;
+  return `<a class="bthumb" href="${esc(n.url)}" data-out="${esc(n.id)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">${art}${img}</a>`;
 }
 function briefRow(n, t, inSel, withCat){
   return `<li class="brief"><div class="bbody">${withCat ? `<div style="margin-bottom:2px">${kicker(n)}</div>` : ""}
-    <p class="bt" data-content><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(L(n,"title"))}</a><span class="ext" aria-hidden="true">↗</span></p>
+    <p class="bt" data-content><a href="${esc(n.url)}" data-out="${esc(n.id)}" target="_blank" rel="noopener">${esc(L(n,"title"))}</a><span class="ext" aria-hidden="true">↗</span></p>
     ${n.summary ? `<p class="bs" data-content>${esc(L(n,"summary"))}</p>` : ""}
     <div class="byline"><span class="src">${esc(n.source)}</span>${n.paywall ? `<span class="pay">De pago</span>` : ""}<span class="date">${fmtDate(n.publishedAt)}</span>${statusTag(n,inSel)}${voteCtl(n,t)}</div>
   </div></li>`;
@@ -1383,9 +1385,16 @@ async function renderStats(){
   const wk = (s.weekly || []).map(r => `<tr><td class="mono">${fmtDate(r.week)}</td><td>${n(r.people)}</td><td>${n(r.visits)}</td><td>${n(r.views)}</td><td>${n(r.fromEmail)}</td><td>${n(r.likes)}</td></tr>`).join("");
   const arts = (s.articles || []).map((a, i) => `<li><span class="st-n">${i + 1}</span><a href="#noticia-${esc(a.ref)}" data-art="${esc(a.ref)}">${esc(a.title)}</a><span class="st-m">${n(a.people)} ${+a.people === 1 ? "persona" : "personas"} · ${n(a.views)} lecturas</span></li>`).join("");
   const srch = (s.searches || []).map(q => `<li><span class="st-q">«${esc(q.ref)}»</span><span class="st-m">${n(q.n)} ${+q.n === 1 ? "vez" : "veces"}</span></li>`).join("");
+  const mad = d => d.toLocaleDateString("sv-SE", { timeZone: "Europe/Madrid" }), hm = d => d.toLocaleTimeString("es-ES", { timeZone: "Europe/Madrid", hour: "2-digit", minute: "2-digit" });
+  const ago = ts => { const d = new Date(ts), m = Math.round((Date.now() - d) / 60000);
+    if(m < 1) return "ahora mismo"; if(m < 60) return `hace ${m} min`;
+    const day = mad(d); return day === s.today ? `hoy ${hm(d)}` : day === addDays(s.today, -1) ? `ayer ${hm(d)}` : `${fmtDate(day)} ${hm(d)}`; };
+  const rec = (s.recent || []).map(r => `<li><span class="st-n">${r.brief ? "↗" : "•"}</span>${r.brief && /^https:/.test(r.url) ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>` : `<a href="#noticia-${esc(r.ref)}" data-art="${esc(r.ref)}">${esc(r.title)}</a>`}<span class="st-m">${ago(r.ts)}${r.brief ? " · en «Más noticias»" : ""}</span></li>`).join("");
   const mail = (s.email || []).map(r => `<tr><td class="mono">${esc(r.ref || "—")}</td><td>${n(r.people)}</td><td>${n(r.clicks)}</td></tr>`).join("");
   box.innerHTML = `
     <div class="st-tiles">${tile(k7.people, "personas distintas · 7 días")}${tile(k7.visits, "visitas · 7 días")}${tile(k7.views, "artículos leídos · 7 días")}${tile(k7.fromEmail, "entradas desde el email · 7 días")}${tile(k7.searches, "búsquedas · 7 días")}${tile(tot.people, "personas distintas en total")}</div>
+    <h3 class="st-h">Últimas noticias leídas</h3>
+    ${rec ? `<ol class="st-list">${rec}</ol>` : `<div class="empty">Aún no hay lecturas.</div>`}
     <h3 class="st-h">Personas distintas por día · últimos 30 días</h3>
     <div class="st-chart">${bars}</div>
     <div class="st-axis"><span>${fmtDate(days[0])}</span><span>${fmtDate(s.today)}</span></div>
@@ -1397,7 +1406,7 @@ async function renderStats(){
     </div>
     <h3 class="st-h">Entradas desde el email, por edición</h3>
     ${mail ? `<div class="tablebox"><table><thead><tr><th>Edición</th><th>Personas</th><th>Clics</th></tr></thead><tbody>${mail}</tbody></table></div>` : `<div class="empty">Todavía no ha entrado nadie desde un email.</div>`}
-    <p class="st-note">Datos desde ${s.since ? fmtDate(s.since) : "hoy"}. Una «visita» es cada vez que alguien abre la web; un «artículo leído», cada vez que abre una noticia completa.</p>`;
+    <p class="st-note">Datos desde ${s.since ? fmtDate(s.since) : "hoy"}. Una «visita» es cada vez que alguien abre la web; un «artículo leído», cada vez que abre una noticia completa. «Últimas noticias leídas» incluye también los clics en «Más noticias» (↗).</p>`;
 }
 
 /* ---------- Article page (where email links land: #noticia-<id>) ---------- */
@@ -1430,7 +1439,7 @@ function renderArticle(){
       <h1 class="hl art-hl" data-content>${esc(L(n,"title"))}</h1>
       ${n.summary ? `<p class="dek art-dek" data-content>${esc(L(n,"summary"))}</p>` : ""}
       ${byline(n,t,inSel)}
-      <p style="margin:18px 0"><a class="btn" href="${esc(n.url)}" target="_blank" rel="noopener">Leer en ${esc(n.source)} ↗</a></p>
+      <p style="margin:18px 0"><a class="btn" href="${esc(n.url)}" data-out="${esc(n.id)}" target="_blank" rel="noopener">Leer en ${esc(n.source)} ↗</a></p>
       <p class="art-note">Más noticias: resumen de The Airlines Brief con enlace a la noticia original${n.paywall ? " (de pago)" : ""}.</p>
     </article>`;
     return;
