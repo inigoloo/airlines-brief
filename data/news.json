@@ -13000,38 +13000,136 @@
  },
  {
   "id": "b-mag-10-boeing-787-a350",
-  "kind": "brief",
-  "title": "Malaysia Aviation Group encarga 10 Boeing 787 para sustituir su flota de Airbus A350",
-  "summary": "Malaysia Aviation Group ha pedido directamente a Boeing 10 Dreamliner 787, con opciones para otros seis, para reemplazar a sus Airbus A350.",
-  "en": {
-   "title": "Malaysia Aviation Group orders 10 Boeing 787s to replace its Airbus A350 fleet",
-   "summary": "Malaysia Aviation Group has ordered 10 Boeing 787 Dreamliners directly from Boeing, with options for six more, to replace its Airbus A350s."
-  },
-  "source": "AeroTime",
-  "url": "https://www.aerotime.aero/articles/malaysia-aviation-group-orders-10-boeing-787s-to-replace-its-airbus-a350-fleet",
-  "thumb": "https://www.aerotime.aero/images/2026/09/Malaysia-Airlines-Airbus-A350-900-80x80.jpg.webp",
-  "publishedAt": "2026-11-25",
+  "title": "Malaysia Airlines encarga 10 Boeing 787 para sustituir sus siete Airbus A350 a partir de 2032",
   "category": "FLT",
+  "publishedAt": "2026-11-25",
+  "source": "Travel Weekly",
+  "url": "https://travelweekly.com.au/malaysia-airlines-orders-10-boeing-787s-for-long-haul-fleet-renewal/",
+  "summary": "Malaysia Aviation Group ha encargado 10 Boeing 787, con opción a otros seis, para reemplazar entre 2032 y 2035 sus siete Airbus A350. Los aviones llevarán motores GEnx-1B de GE Aerospace y 319 asientos en tres clases para rutas de largo radio.",
+  "body": [
+   {
+    "t": "Malaysia Aviation Group (MAG), matriz de Malaysia Airlines, ha encargado 10 Boeing 787 Dreamliner con opción a otros seis, según anunció el 25 de noviembre en una ceremonia en Kuala Lumpur a la que asistió el primer ministro, Anwar Ibrahim. Air Data News precisa que se trata del modelo 787-10 y que el acuerdo aún debe cerrarse.",
+    "s": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Los aviones se entregarán entre 2032 y 2035 y sustituirán en ese mismo periodo a los siete Airbus A350 de la flota, que según Air Data News son A350-900 arrendados. Irán equipados con motores GEnx-1B de GE Aerospace y llevarán 319 asientos en tres clases. MAG prevé usarlos en rutas como Londres, París, Sídney, Melbourne, Tokio, Osaka y Seúl, en función de su planificación de red.",
+    "s": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Será el primer pedido en firme de Dreamliner para Malaysia Airlines, que en 2017 firmó un memorando para ocho 787-9 que expiró sin llegar a pedido, según Air Data News. La aerolínea vuelve así a los aviones de fuselaje ancho de Boeing tras retirar sus 777 en 2016, según SoyaCincau.",
+    "s": [
+     2,
+     3
+    ]
+   },
+   {
+    "t": "«La adquisición del 787 Dreamliner representa una inversión estratégica en el futuro de Malaysia Aviation Group», afirmó su presidente y consejero delegado, el capitán Nasaruddin A. Bakar. En corto radio, la aerolínea opera más de 37 Boeing 737 de nueva generación y 19 737-8, y tiene pendientes 55 aviones de la familia 737 (43 737-8 y 12 737-10), con entregas hasta 2030.",
+    "s": [
+     1,
+     3
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Travel Weekly",
+    "url": "https://travelweekly.com.au/malaysia-airlines-orders-10-boeing-787s-for-long-haul-fleet-renewal/",
+    "date": "2026-11-25"
+   },
+   {
+    "name": "Air Data News",
+    "url": "https://www.airdatanews.com/malaysia-airlines-orders-its-first-boeing-787s-with-deal-for-up-to-16-jets/",
+    "date": "2026-11-25"
+   },
+   {
+    "name": "SoyaCincau",
+    "url": "https://soyacincau.com/2026/11/25/malaysia-airlines-boeing-787-dreamliner-coming-2032/",
+    "date": "2026-11-25"
+   }
+  ],
+  "why": "El cambio de A350 por 787 es una victoria comercial de Boeing frente a Airbus en el largo radio y una referencia para las aerolíneas europeas que planifican la renovación de sus flotas de fuselaje ancho.",
   "aiScore": 62,
-  "addedAt": "2026-11-25T08:08:28Z",
-  "addedBy": "claude"
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/4c29e1ee-7d23-4208-98a6-ac59b73c17f0.jpeg",
+  "imageId": "b-mag-10-boeing-787-a350",
+  "photoSource": "SoyaCincau (MAG)",
+  "addedAt": "2026-11-25T08:16:45Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "big",
+   "value": "10",
+   "label": "Boeing 787 encargados por Malaysia Airlines",
+   "sub": "más 6 opciones"
+  }
  },
  {
   "id": "b-xiamen-50-boeing-737-max-8",
-  "kind": "brief",
-  "title": "Xiamen Airlines, filial de China Southern, firma con Boeing la compra de 50 737 MAX 8",
-  "summary": "Xiamen Airlines, filial de China Southern Airlines, firmó el 24 de noviembre de 2026 un acuerdo con Boeing para adquirir 50 aviones 737 MAX 8.",
-  "en": {
-   "title": "Xiamen Airlines, a China Southern unit, signs deal with Boeing for 50 737 MAX 8s",
-   "summary": "Xiamen Airlines, a subsidiary of China Southern Airlines, signed an agreement with Boeing on 24 November 2026 to acquire 50 737 MAX 8 aircraft."
-  },
-  "source": "AeroTime",
-  "url": "https://www.aerotime.aero/articles/xiamen-airlines-signs-deal-for-50-boeing-737-max-8-aircraft",
-  "publishedAt": "2026-11-24",
+  "title": "Xiamen Airlines encarga 50 Boeing 737 MAX 8, el mayor pedido chino a Boeing en casi una década",
   "category": "FLT",
+  "publishedAt": "2026-11-24",
+  "source": "Aviation A2Z",
+  "url": "https://aviationa2z.com/index.php/2026/11/25/china-southern-subsidiary-orders-50-boeing-737-max-8-jets-worth-7-4-billion/",
+  "summary": "Xiamen Airlines, filial al 55% de China Southern, ha acordado comprar 50 Boeing 737 MAX 8 por unos 7.400 millones de dólares a precio de catálogo, con entregas entre 2031 y 2034. Falta el visto bueno de los accionistas y del Gobierno chino.",
+  "body": [
+   {
+    "t": "Xiamen Airlines, participada en un 55% por China Southern Airlines, ha acordado la compra de 50 Boeing 737 MAX 8, según anunció su matriz el 24 de noviembre. El valor de catálogo ronda los 7.400 millones de dólares, unos 148 millones por avión antes de descuentos; el precio real es confidencial y China Southern afirma que Boeing ha concedido rebajas comparables a las de acuerdos anteriores.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Las entregas se harán por fases entre 2031 y 2034. El consejo de China Southern ya ha aprobado el pedido, pero aún necesita el visto bueno de los accionistas y de las autoridades chinas competentes; según FlyMag, la operación se califica como transacción relevante conforme a las normas de cotización de Hong Kong.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Según Aviation A2Z, es el mayor pedido de una aerolínea china a Boeing en casi una década, tras años en los que las tensiones comerciales entre Washington y Pekín limitaron el acceso del fabricante a ese mercado. China se comprometió a comprar 200 aviones de Boeing en la cumbre entre Trump y Xi de mayo de 2026; los analistas creen que este pedido podría ser la primera conversión en firme, algo que China Southern no ha confirmado.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Xiamen Airlines contaba a finales de marzo de 2026 con 174 aviones, entre ellos 28 737 MAX 8, 111 737-800 y cuatro 737-700. En abril encargó además 35 aviones de la familia A320neo, dentro de una compra de 137 del grupo China Southern, con entregas entre 2028 y 2032.",
+    "s": [
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Aviation A2Z",
+    "url": "https://aviationa2z.com/index.php/2026/11/25/china-southern-subsidiary-orders-50-boeing-737-max-8-jets-worth-7-4-billion/",
+    "date": "2026-11-25"
+   },
+   {
+    "name": "FlyMag",
+    "url": "https://flymag.com/xiamen-airlines-signs-for-50-boeing-737-max-8s/",
+    "date": "2026-11-25"
+   }
+  ],
+  "why": "Un gran pedido chino vuelve a competir por los huecos de producción del 737 MAX y puede tensar los plazos de entrega para las aerolíneas europeas que esperan aviones de Boeing en los próximos años.",
   "aiScore": 60,
-  "addedAt": "2026-11-25T08:08:28Z",
-  "addedBy": "claude"
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/41877d4f-aaf7-4e95-9830-3080e43bd3be.jpeg",
+  "imageId": "b-xiamen-50-boeing-737-max-8",
+  "photoSource": "FlyMag",
+  "addedAt": "2026-11-25T08:16:45Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "plane",
+   "value": "50",
+   "label": "Boeing 737 MAX 8 para Xiamen Airlines",
+   "tail": "#1d6fb8"
+  }
  },
  {
   "id": "b-boeing-737-max-north-line-everett",

@@ -70,8 +70,12 @@ Antes de hacer commit, repasa UNA POR UNA las noticias que vas a añadir o conve
 ## Acceso a webs: la tarea no debe depender del editor (24-nov-2026)
 
 Las tareas se ejecutan solas. Cada vez que se abre con WebFetch una dirección que no ha salido antes en la sesión, al editor le salta una petición de permiso y la tarea queda esperándole. Por eso:
-- Usa WebFetch SOLO con direcciones copiadas tal cual de feeds/candidates.json o de un resultado de WebSearch de esta misma sesión. Nunca construyas ni modifiques una dirección (no cambies .webp por .jpg, no quites parámetros, no adivines rutas, no escribas una URL de memoria).
-- Antes de abrir una página, intenta resolverlo con WebSearch: el resultado suele traer la fecha y los datos clave, y sus enlaces ya cuentan como vistos.
+- BUSCA SIEMPRE ANTES DE ABRIR (25-nov-2026): las direcciones copiadas de feeds/candidates.json piden permiso y fallan cuando el editor no está (comprobado el 25-nov con Preferente, Expansión, Cinco Días, AeroTime y Demócrata). Las que aparecen en un resultado de WebSearch de esta misma sesión se abren sin pedir permiso. Por tanto: busca con WebSearch el titular (y el medio) de cada candidata y abre con WebFetch SOLO una dirección devuelta por esa búsqueda, nunca la de candidates.json. Nunca construyas ni modifiques una dirección (no cambies .webp por .jpg, no quites parámetros, no adivines rutas, no escribas una URL de memoria).
+- Los enlaces de Google News (candidatas viaGoogle) no se abren nunca (el proxy los rechaza por longitud): busca la noticia con WebSearch y abre la dirección del medio original u otro medio con el mismo hecho.
+- Webs que no se dejan leer aunque haya permiso (robots o error permanente): Preferente, Reportur, elEconomista, Estrategias de Inversión, New Straits Times, Investing.com. No las intentes: busca directamente otro medio con la misma noticia.
+- Si una página falla, antes de descartar la noticia busca el mismo hecho en otra fuente con WebSearch y ábrela. Solo si tampoco hay otra fuente legible, déjala para Breves y anótalo.
+- Prioriza las candidatas del MISMO DÍA: revisa primero las publicadas hoy y no cierres la selección solo con las del día anterior si hoy hay noticias con peso.
+- El resultado de WebSearch suele traer ya la fecha y los datos clave: úsalo también para filtrar antes de abrir.
 - Abre como máximo las páginas imprescindibles: una por noticia y, si hace falta, una segunda fuente.
 - Para la foto: usa la og:image que devuelva la propia página; si no vale, prueba la de otra página ya abierta o de un resultado de búsqueda. Las variantes de formato (.jpg en vez de .webp) pruébalas solo en la subida a Klaviyo, nunca con WebFetch.
 - Si una dirección pide permiso, se rechaza o tarda, no esperes: sáltala, usa otra fuente o deja esa noticia para otro día, y anótalo en el resumen.
