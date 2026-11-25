@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-25T17:24+00:00",
+ "generatedAt": "2026-11-25T18:23+00:00",
  "hours": 48,
- "count": 583,
+ "count": 600,
  "feedsOk": 39,
  "feedsTotal": 39,
  "feeds": [
@@ -9,7 +9,7 @@
    "name": "Aviacionline (vía Google News)",
    "url": "https://news.google.com/rss/search?q=site%3Aaviacionline.com+when%3A2d&hl=es&gl=ES&ceid=ES:es",
    "ok": true,
-   "entries": 57,
+   "entries": 59,
    "kept": 25,
    "error": ""
   },
@@ -18,14 +18,14 @@
    "url": "https://www.preferente.com/feed/",
    "ok": true,
    "entries": 9,
-   "kept": 8,
+   "kept": 9,
    "error": ""
   },
   {
    "name": "Hosteltur (vía Google News)",
    "url": "https://news.google.com/rss/search?q=site%3Ahosteltur.com+aerol%C3%ADnea+OR+aeropuerto+OR+vuelos+OR+turoperador+when%3A2d&hl=es&gl=ES&ceid=ES:es",
    "ok": true,
-   "entries": 77,
+   "entries": 84,
    "kept": 25,
    "error": ""
   },
@@ -41,8 +41,8 @@
    "name": "Tourinews (vía Google News)",
    "url": "https://news.google.com/rss/search?q=site%3Atourinews.es+when%3A2d&hl=es&gl=ES&ceid=ES:es",
    "ok": true,
-   "entries": 23,
-   "kept": 22,
+   "entries": 22,
+   "kept": 21,
    "error": ""
   },
   {
@@ -65,7 +65,7 @@
    "name": "A21 (vía Google News)",
    "url": "https://news.google.com/rss/search?q=site%3Aa21.com.mx+when%3A2d&hl=es-419&gl=MX&ceid=MX:es",
    "ok": true,
-   "entries": 31,
+   "entries": 32,
    "kept": 25,
    "error": ""
   },
@@ -81,8 +81,8 @@
    "name": "elEconomista (vía Google News)",
    "url": "https://news.google.com/rss/search?q=site%3Aeleconomista.es+aerol%C3%ADnea+OR+aeropuerto+OR+Aena+OR+Iberia+OR+%22Air+Europa%22+when%3A2d&hl=es&gl=ES&ceid=ES:es",
    "ok": true,
-   "entries": 22,
-   "kept": 19,
+   "entries": 21,
+   "kept": 18,
    "error": ""
   },
   {
@@ -114,7 +114,7 @@
    "url": "https://airlinegeeks.com/feed/",
    "ok": true,
    "entries": 10,
-   "kept": 4,
+   "kept": 5,
    "error": ""
   },
   {
@@ -153,8 +153,8 @@
    "name": "View from the Wing (vía Google News)",
    "url": "https://news.google.com/rss/search?q=site%3Aviewfromthewing.com+when%3A2d&hl=en&gl=US&ceid=US:en",
    "ok": true,
-   "entries": 26,
-   "kept": 24,
+   "entries": 27,
+   "kept": 25,
    "error": ""
   },
   {
@@ -170,7 +170,7 @@
    "url": "https://skift.com/feed/",
    "ok": true,
    "entries": 10,
-   "kept": 9,
+   "kept": 10,
    "error": ""
   },
   {
@@ -201,7 +201,7 @@
    "name": "The Guardian (vía Google News)",
    "url": "https://news.google.com/rss/search?q=site%3Atheguardian.com+airline+OR+airport+OR+Heathrow+when%3A2d&hl=en-GB&gl=GB&ceid=GB:en",
    "ok": true,
-   "entries": 53,
+   "entries": 52,
    "kept": 25,
    "error": ""
   },
@@ -241,7 +241,7 @@
    "name": "Aviation Week – Air Transport (vía Google News)",
    "url": "https://news.google.com/rss/search?q=site%3Aaviationweek.com+airline+OR+airlines+when%3A2d&hl=en&gl=US&ceid=US:en",
    "ok": true,
-   "entries": 98,
+   "entries": 90,
    "kept": 25,
    "error": ""
   },
@@ -273,7 +273,7 @@
    "name": "Google News – Air Europa",
    "url": "https://news.google.com/rss/search?q=%22Air+Europa%22+when:2d&hl=es&gl=ES&ceid=ES:es",
    "ok": true,
-   "entries": 86,
+   "entries": 68,
    "kept": 40,
    "error": ""
   },
@@ -281,32 +281,32 @@
    "name": "Google News – Iberia / Vueling / IAG",
    "url": "https://news.google.com/rss/search?q=Iberia+OR+Vueling+OR+%22IAG%22+aerol%C3%ADnea+when:2d&hl=es&gl=ES&ceid=ES:es",
    "ok": true,
-   "entries": 36,
-   "kept": 19,
+   "entries": 22,
+   "kept": 10,
    "error": ""
   },
   {
    "name": "Google News – British Airways / Aer Lingus / IAG",
    "url": "https://news.google.com/rss/search?q=%22British+Airways%22+OR+%22Aer+Lingus%22+OR+%22International+Airlines+Group%22+when:2d&hl=en-GB&gl=GB&ceid=GB:en",
    "ok": true,
-   "entries": 47,
-   "kept": 28,
+   "entries": 74,
+   "kept": 40,
    "error": ""
   },
   {
    "name": "Google News – Aena / aeropuertos España",
    "url": "https://news.google.com/rss/search?q=Aena+OR+Barajas+OR+%22El+Prat%22+aeropuerto+when:2d&hl=es&gl=ES&ceid=ES:es",
    "ok": true,
-   "entries": 23,
-   "kept": 18,
+   "entries": 44,
+   "kept": 29,
    "error": ""
   },
   {
    "name": "Google News – MRO / engines",
    "url": "https://news.google.com/rss/search?q=%28%22aircraft+maintenance%22+OR+%22engine+shop%22+OR+%22MRO%22+OR+%22Lufthansa+Technik%22+OR+%22Iberia+Maintenance%22+OR+%22AFI+KLM+E%26M%22%29+%28aviation+OR+airline+OR+aircraft%29+when%3A2d&hl=en&gl=US&ceid=US:en",
    "ok": true,
-   "entries": 44,
-   "kept": 23,
+   "entries": 43,
+   "kept": 24,
    "error": ""
   },
   {
@@ -320,6 +320,276 @@
  ],
  "items": [
   {
+   "title": "“Level 3 Threat”: American Airlines Flight To Chicago Diverts After Cockpit Breach Attempt",
+   "source": "Simple Flying",
+   "url": "https://simpleflying.com/american-airlines-flight-chicago-diverts-cockpit-breach-attempt/",
+   "published": "2026-11-25T18:18+00:00",
+   "excerpt": "American Airlines diverted a Chicago-bound Airbus A321 to Phoenix after a serious security threat prompted passengers to intervene.",
+   "feed": "Simple Flying",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": false,
+   "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/731-american-airlines-airbus-a321-the-global-guy-_-shutterstock-1.jpg",
+   "id": "c001",
+   "prio": 5
+  },
+  {
+   "title": "Un cambio de vuelo y gastos extra llevaron a Aerolíneas a la Justicia fueguina",
+   "source": "La 97 Radio Fueguina",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYmpwT1JlNm9aVlZFTS0zanRCSlk5dUcwbk9TYkx3bUNxcy1LbmstTkVHOWNaSTdxRXdoRHhvZ2ZSZnA1eDNSblZfY0RLa0dndWE2ZE1BVnJRaTh4SE5rcTVOd2tUUGFlWjJ2eXhaemYxVkVGZnZGTnZwQzR6eWJCV2doN0hsM3h4OWo0cE1yUWctNml1QTVGU2lSTkZOd2x2WndVaHNsR1pfQkZrLUxiWnliZjBZQlk2?oc=5",
+   "published": "2026-11-25T18:15+00:00",
+   "excerpt": "",
+   "feed": "Google News – aerolíneas España",
+   "lang": "ES",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c002",
+   "prio": 2
+  },
+  {
+   "title": "Debrief: Another $2 Billion For Artemis?",
+   "source": "Aviation Week",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPa3BfaDlsWmF5eHZpU1ZxeGVhaXNVaml5dVFfRWgtZU5ZbnFPVTgyaF92ZjFfVktYN3N3SklBLXVKUnkwM1BZWWJSZXFDcWhtLWFCZWczdVhnbU9kRzdJRVRHMXlEZktCQWxmem1Wb1N0SG1GU3dtZlFlR1h0SmJ2cHY1SV9VdHQxZTV1em5DLTcyQVk?oc=5",
+   "published": "2026-11-25T18:12+00:00",
+   "excerpt": "",
+   "feed": "Aviation Week – Air Transport (vía Google News)",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c003",
+   "prio": 0
+  },
+  {
+   "title": "American Airlines Passengers Restrain Man Who Went For The Door As Flight Attendant Blocks Him With A Drink Cart",
+   "source": "View from the Wing",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNXzJjcjN6UnRfX3FvM0VFa3dSdjVpTjlFeHBDc3o3TUVGcF9icFVBLW9WT1B0VW5ZcEx2ZzB3X1N4N2ZiWHU4YXdOc0x3dXJjR1NwZDlNRFd6ZnJUb3BSd05qS1F4SzBDdlN2ZWJEOXg0V29zeFZtdFRsTmJObndhZFhxVU5uLXlhM2NPdnJtVjRpX19rWWdIa3RCX1lneGlUY3dyOEJSTnVMa1JqWjNvZ2ZUZzRlNktJTUxud2h4Zld0SjhMYUhyc3VTRXBBRWxCWFZ1blgzdzg?oc=5",
+   "published": "2026-11-25T18:08+00:00",
+   "excerpt": "",
+   "feed": "View from the Wing (vía Google News)",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c004",
+   "prio": 0
+  },
+  {
+   "title": "El Gobierno tomó las riendas del rescate de Air Europa en un momento crítico para Hidalgo",
+   "source": "Nuevaradio",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTzRNaHg3bERMMlpQdlRPMGd4aUJ3MXlPOHVGbDV4aHk1cEpjYy1ac0FvWlNXZmhrY0xRd2huX3JnMWppeE50RDBmMTVkSllDbERMUS1uTFdEcWlYTDdXMGFFUG1PSFZCeS0taEh0TzBoTUlyRGpDNGtUbnZmTnAxbzBEdzJhVXNjVVhveXVGWW1NdVFldUtWWjN2am1qLVhoaWZ0VUNKMkFmaVc2dXA3Y3hQRWh4aFB2SDZkeFBXY0xWWENsRHNV?oc=5",
+   "published": "2026-11-25T18:07+00:00",
+   "excerpt": "",
+   "feed": "Google News – Air Europa",
+   "lang": "ES",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c005",
+   "prio": 4
+  },
+  {
+   "title": "Middle East Tourism Has Split. Which Demand Gets Capital?",
+   "source": "Skift",
+   "url": "https://skift.com/2026/11/25/middle-east-tourism-gulf-capital-2027/",
+   "published": "2026-11-25T18:05+00:00",
+   "excerpt": "Gulf travel now runs at two speeds. Pilgrimage and resort demand held through 2026, while long-haul and corporate travel fell away. Every 2027 capital and capacity plan for the region depends on which market an operator underwrites.",
+   "feed": "Skift",
+   "lang": "EN",
+   "topic": "turismo",
+   "viaGoogle": false,
+   "image": "https://skift.com/wp-content/uploads/2026/11/Attendees-at-Skift-Global-Forum-East-2025-roundtables.jpg?w=1024",
+   "id": "c006",
+   "prio": 0
+  },
+  {
+   "title": "Lufthansa se aproxima a otra ola de huelgas",
+   "source": "Preferente.com",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaTVxZ2cwejlDY0tqeHNKSktxUlB2X083SE1xOWxEX2pQOTB3cmV2TXc1NWdKd1FNT01CbnFuZUhHdzNZVnpGUnhwTU1YZkVNZTJPcDNXZTBaeUpURHhESkxVRnd1anZjYVo4VWU4R1U4QnRINGxfczdoWHZYeU1SQVdFRUxnSFFkUnVmaHdvX1dxcWxkaVlVcUMxMHItZHI2akNnVXlYMWNRb1l4SERnRXZEOVBGcnV2Y2lUWEJZQUpCLW1KNXVEVw?oc=5",
+   "published": "2026-11-25T18:05+00:00",
+   "excerpt": "",
+   "feed": "Google News – aerolíneas España",
+   "lang": "ES",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c007",
+   "prio": 2
+  },
+  {
+   "title": "Clarins Family Takes Full Ownership of Luxury Hotel Group Evok",
+   "source": "Skift",
+   "url": "https://skift.com/2026/11/25/clarins-family-takes-full-ownership-of-luxury-hotel-group-evok/",
+   "published": "2026-11-25T18:03+00:00",
+   "excerpt": "The Courtin family behind the Clarins skincare empire is combining what the hotel industry usually splits apart: the buildings, the brands, and the operations of a luxury hotel group, under one owner.",
+   "feed": "Skift",
+   "lang": "EN",
+   "topic": "turismo",
+   "viaGoogle": false,
+   "image": "https://skift.com/wp-content/uploads/2026/11/Brach-Paris-part-of-Evok-collection.jpg?w=1024",
+   "id": "c008",
+   "prio": 0
+  },
+  {
+   "title": "India targets regional aviation MRO hub status",
+   "source": "MillenniumPost",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaWJNd05renVRemFEQmpEREdVVmxFc1V5RHp5NDBwZVpGVFlpb2RNUWpOdC1PLWZYUFZrclNUQVpnS1Z0NzJKZk5uejVSY2hBVXdsZzdLSTdMb3VRaUU0VE1meW5NQ0lnLVk4ME5CYTRUMW1JU2pNbjZuTnBkVkVNX1kzaS02cFZtMWFHTVN3TExmek9C0gGaAUFVX3lxTE9WVnJiRTZEQVV2eGptRGsydTFzT1RCR3NmNGVmWUhjQ000QmttVWVZVEtaX2tjRXFMQWlXTGNUMlhpSjRQZFRTVzFzRlZLdmdIRjNaczFvMDF2dFhLSlU4bzJlTHY0M3oxOEdGN0FFdTlCODlycTRuanJiUzN1QWhWTzFfTmpIWXFXZUJGaFB2anROMUgteDl1ZGc?oc=5",
+   "published": "2026-11-25T18:00+00:00",
+   "excerpt": "",
+   "feed": "Google News – MRO / engines",
+   "lang": "EN",
+   "topic": "mro",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c009",
+   "prio": 2
+  },
+  {
+   "title": "Skift Aviation Forum 2026: Your Questions Answered",
+   "source": "Skift",
+   "url": "https://skift.com/2026/11/25/skift-aviation-forum-2026-your-questions-answered/",
+   "published": "2026-11-25T17:55+00:00",
+   "excerpt": "Skift Intelligence responded to 41 unanswered audience questions from Skift Aviation Forum, based on what speakers actually said on the stage and further contextualized by insights from the complete Skift database.",
+   "feed": "Skift",
+   "lang": "EN",
+   "topic": "turismo",
+   "viaGoogle": false,
+   "image": "",
+   "id": "c010",
+   "prio": 0
+  },
+  {
+   "title": "Ryanair mueve el 69% de todos los pasajeros que usan el aeropuerto",
+   "source": "castellonaldia.elmundo.es",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTlIyamlCcWRKNWdvNDROa2VIY0RQV2R5czFMb1JwREh2QkVIelRvNGN5UFMzcUFuU1J4bzhtMTAwbGRUSGdoaGJ1Z05PY1ltU1c2dHB2OFl4cmVmM3gyVmRMeWhlc3JlVUdSUWVKZms4WlBWVjRXY1FZWUVfS0hFQ2ZCNTVPOHVIZ29pWVdZdTJlckowMVk1aDBLY1Ezd1Y1MmpyX2dsakIzZGdyRml0X3ZsOENkUVk3R05jaUJBRDhXdWYtdGRpN0RibVEwaUhRaGJUZWtTSQ?oc=5",
+   "published": "2026-11-25T17:53+00:00",
+   "excerpt": "",
+   "feed": "Google News – aerolíneas España",
+   "lang": "ES",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c011",
+   "prio": 2
+  },
+  {
+   "title": "Lufthansa Has a Message for Rude Passengers, and It’s Now on a T-Shirt",
+   "source": "Aviation A2Z",
+   "url": "https://aviationa2z.com/index.php/2026/11/25/lufthansa-has-a-message-for-rude-passengers-and-its-now-on-a-t-shirt/",
+   "published": "2026-11-25T17:41+00:00",
+   "excerpt": "Lufthansa will release four limited-edition items from its Travel Etiquette Collection through WorldShop on November 27, 2026. Each design is limited to 250 numbered pieces, with licensing-fee proceeds supporting help alliance. The post Lufthansa Has a Message for Rude…",
+   "feed": "Aviation A2Z",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": false,
+   "image": "https://aviationa2z.com/wp-content/uploads/2023/08/1280px-Hannover_Airport_Lufthansa_Boeing_787-9_Dreamliner_D-ABPA_DSC06503-1024x576.jpg",
+   "id": "c012",
+   "prio": 2
+  },
+  {
+   "title": "Indra lanza su gran plan: 20.000 millones de ingresos en 2035 y la IA como motor de crecimiento de todas las divisiones",
+   "source": "Cinco Días – Empresas",
+   "url": "https://cincodias.elpais.com/companias/2026-11-25/indra-se-fija-unos-ingresos-de-12000-millones-para-2030-casi-el-doble-que-en-2025.html",
+   "published": "2026-11-25T17:34+00:00",
+   "excerpt": "La nueva hoja de ruta prevé facturar más de 12.000 millones en 2030, más del doble que en 2025. Desarrollará su propia plataforma terrestre para 2028-2029",
+   "feed": "Cinco Días – Empresas",
+   "lang": "ES",
+   "topic": "general",
+   "viaGoogle": false,
+   "image": "https://imagenes.elpais.com/resizer/v2/YELXWEIWCJGCNGN7V4LDT7MR2M.JPG?auth=2ea5167f2c25b03929777f2c4befd19a51440711cb2c371c97aeba526a85ee9a",
+   "id": "c013",
+   "prio": 7
+  },
+  {
+   "title": "Europe's HERA Validates NASA DART Mission’s Asteroid Impact",
+   "source": "Aviation Week",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWmF4akVKTERGNzY2Sk9QQ1A0b1Z2STl4YnlxOVdERzFJX0FpTFpzb25yRDlsVnA3LUxqQUxmb0ZaQnNCQXJOUVFWdXVKVnV0cW5DX3duc1BpdkRqeG51Z252MWdkdk5uaDJ6UGRVOW5HWWVrRndycjVuajAyTndMSU5LRzVlQ2NYS2hTSk5iVFNERmxYYzZkUFF1TXZHZ3RiZ2tFYXZNcC1LUQ?oc=5",
+   "published": "2026-11-25T17:33+00:00",
+   "excerpt": "",
+   "feed": "Aviation Week – Air Transport (vía Google News)",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c014",
+   "prio": 0
+  },
+  {
+   "title": "Russian Warship Suspected of Jamming Signals on 140 Flights by British Airways, Ryanair and easyJet",
+   "source": "Aviation A2Z",
+   "url": "https://aviationa2z.com/index.php/2026/11/25/russian-warship-accused-of-blinding-140-passenger-flights-near-britain-in-north-sea-gps-scare/",
+   "published": "2026-11-25T17:30+00:00",
+   "excerpt": "Approximately 140 passenger aircraft experienced GPS interference over the North Sea on November 9. A Russian warship escorting three cargo vessels has emerged as a suspected source, raising fresh concerns about electronic warfare and aviation safety across Europe. The post…",
+   "feed": "Aviation A2Z",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": false,
+   "image": "https://aviationa2z.com/wp-content/uploads/2026/06/Boeing_777-200ER_British_Airways_8603700981-1024x682.webp",
+   "alsoIn": [
+    "Diplomacy and Law",
+    "Rus Tourism News"
+   ],
+   "id": "c015",
+   "prio": 9
+  },
+  {
+   "title": "Cuerpo dice que Plus Ultra deberá seguir los \"procedimientos establecidos\" en relación al rescate",
+   "source": "PressDigital",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNDRGWnhJOUh4V2VIY2I2TUFxTFJHLUhmbkQ3RWRjMEU1MnVOdG9Yc0pSekRBQ3UzeGlHOHIzai1jeWMtaXc3NVF0cVlPM3NQZGVLS3J6WjBLNEliaDMzZWw0VEQ0M3ZjRHdYZ09wWkE2SGlrWVFBM1lZQlZ3SXV1amM3ZXJnRHB5amRQbzhtaUFIRDF4MFBSNnlDMm1zSmdVZkFlY1lQbWhIU0xnbmtsZEt2Nk9uUWZ5R0RlamZtY2lwVGhYNjdiZUp5V1MxbnFUckJRc3JaeHBzNXpYbFJB?oc=5",
+   "published": "2026-11-25T17:29+00:00",
+   "excerpt": "",
+   "feed": "Google News – aerolíneas España",
+   "lang": "ES",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c016",
+   "prio": 0
+  },
+  {
+   "title": "What engine does the BA239 Dreamliner use? The Rolls-Royce Trent 1000 and its troubled record",
+   "source": "Nacionale",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUDZmc28zT292b05weGF4Ymo3djJvRTRQUWE5SlFxSGtaWGVPNFdWRHlTNEs3Y3I2aTRvUVI1eWdUSWd5ZGF5VDc2V1dFR0U1NGVpbzNZYlBSekF2SkljWGl3OXpSLTA5TnZTVk1KMjNRelk5THpqUXAyeXh6eWllVjZ4czI4T3ZqVnhTalBIMTBiVkQ5ZzZnYXYtaktsMTB1cFhCSEZWQTN2czg?oc=5",
+   "published": "2026-11-25T17:27+00:00",
+   "excerpt": "",
+   "feed": "Google News – British Airways / Aer Lingus / IAG",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c017",
+   "prio": 2
+  },
+  {
+   "title": "China Southern Orders 50 737 MAX Jets",
+   "source": "AirlineGeeks",
+   "url": "https://airlinegeeks.com/2026/11/25/china-southern-orders-50-737-max-jets/",
+   "published": "2026-11-25T17:26+00:00",
+   "excerpt": "The airplanes will be delivered between 2031 and 2034.",
+   "feed": "AirlineGeeks",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": false,
+   "image": "",
+   "id": "c018",
+   "prio": 0
+  },
+  {
+   "title": "Indian Cockroach movement leader asks court for permission to fly to UK",
+   "source": "The Guardian",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcVJmYzg2OGZMWjM5T3pWaURvWFpQZFNhUnd0d0ZwckFJbXhNSDUxbzVVUnU5ZDh4TVRPVzZqZ1phOEtHZEthbldyeUltek5zVUgwdnFtZXI4Y3FyZFpidXE5dWR4U2NXNEtwWUF4UXhhcTZEcGVFaDdndmI1dm5ONFFqRW4wQXRwMVgxNHJyOV81bmJMYTBqaXlUR29QNnZrODlqQ2tIWFlYdElEMUlYekhaeHZPaXpf?oc=5",
+   "published": "2026-11-25T17:26+00:00",
+   "excerpt": "",
+   "feed": "The Guardian (vía Google News)",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c019",
+   "prio": 0
+  },
+  {
    "title": "USTR Proposes 10% Tariff On Brazilian Aircraft Amid Trade Dispute",
    "source": "Aviation Week",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaTkxZzB4NUpiWVRLWDZoV284dzd1ZXJFME1KSXBBSV9ETnlzTTdmTnBVX2VIcGpHaXo3Uy12SFpyYXdaNEFEVEVIUVNNR2NCZDFXLWpaZ0U5czRLNG9LYjcyamFjOWJpWVk5Z292MVhpWjFyX2YtRHAxc2VzSXRRbjNOMGw4dDRENG5wVjBTNkxwR1VHS3J6enVqTzB5ZnJVRlBWZ0h5TGo3MHB5UGx3N1g2aGJZTGs?oc=5",
@@ -330,22 +600,53 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c001",
+   "id": "c020",
    "prio": 0
   },
   {
-   "title": "Indian Cockroach movement leader asks court for permission to fly to UK",
+   "title": "Confused about who to vote for in the Victoria election? A guide to key promises made by Labor, the Coalition, Greens and One Nation",
    "source": "The Guardian",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcVJmYzg2OGZMWjM5T3pWaURvWFpQZFNhUnd0d0ZwckFJbXhNSDUxbzVVUnU5ZDh4TVRPVzZqZ1phOEtHZEthbldyeUltek5zVUgwdnFtZXI4Y3FyZFpidXE5dWR4U2NXNEtwWUF4UXhhcTZEcGVFaDdndmI1dm5ONFFqRW4wQXRwMVgxNHJyOV81bmJMYTBqaXlUR29QNnZrODlqQ2tIWFlYdElEMUlYekhaeHZPaXpf?oc=5",
-   "published": "2026-11-25T17:09+00:00",
+   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNUk03b0xJTHJiR2FmbUI1RmNHSnQxeXc0cFZ3MVE2bG1uWm5nUXVJQWxsR0ttb2Y1elZsSkZ3Zm1uREFZYWZyUW5TTVh1WHRzWDhOdFZDUHdobFBINEdYT0s2S2xDd1BCM2lueTE3Wmhaa20xSV9qMEJlRnJpRDFDVHZLRlBTeXVrOS0zSUFwT0dMX0dXN3E3eEJKM1hhbWNLVVgyd200ZWhoVDRYY0tLbjdzUnR0azIyMUlpZUJlbmpPam56cU51dGhMVkpycXlsTmx0UGl4MlRaQldqN1pDTWk5aGY2amNtODBtZ3dHaVgzelNzRlh1VmdKNmh3V1FfNTNvSUhPSQ?oc=5",
+   "published": "2026-11-25T17:16+00:00",
    "excerpt": "",
    "feed": "The Guardian (vía Google News)",
    "lang": "EN",
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c002",
+   "id": "c021",
    "prio": 0
+  },
+  {
+   "title": "Data: European Airline Failures Increase Aircraft Availability",
+   "source": "Aviation Week",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ0EwZktXUzU4SUxsdklyS2lLcmlqdElLMFlITnE2dVFEV1lEZmFxN3ZtVTlkYndEU1B4VGIwd0dRQzNSRmpfa1EzOWV6VU1LM3NVbm5SemEzOW9OQzFzRnZkdk1HNkhTTk5fMldVUUNzUnRCMEtUM0c4dzNNWnpVcXlNQXZQZVVoWmVNc1pMU2ZRVVlFRzZBc2xMOHhGWmRWZVdqcWNuWVpSdF9X?oc=5",
+   "published": "2026-11-25T17:15+00:00",
+   "excerpt": "",
+   "feed": "Aviation Week – MRO (vía Google News)",
+   "lang": "EN",
+   "topic": "mro",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c022",
+   "prio": 0
+  },
+  {
+   "title": "Fallos en aerolíneas y tormentas podrían complicar los viajes en EEUU para Día de Acción de Gracias",
+   "source": "ABC7 Los Angeles",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeEl1X2oxb3o1c0I4RWliNGRHQ3ltRjdIcEl2YjhLeEhzQ1pjeWY1ZTJmV1VURW1EZ3hUQTVtMmpZY0VkMklVQU5pYzJZZnVLeUlCaUl6ZGlXN1ptLW92c3hrMFp6X1NyLXRpQ1dXaDUxV0ozODZtQ01UQnNxeTd4SFh2WnlIMDAzOV85VDdRVExuRkl1Vk5XOE40RmNUemEtSFBVZ2o3R3l2Vm5mQmp2ZGpuYjFsR2dSQk1RY2plUEVvOFnSAcgBQVVfeXFMUE00a1ZzRW9WOVR4LWdSS0hKWnJJellYaFNDV1k5Ui1BZk5fS0dJSmNidWRTU016YzZva2tRRkYtdVJWa2FCaFVCbmtpYVNyeWZLX3ZINjVIcS1aN0wtZDRlTkIxbHV3LVNOSDRrdGdpNDVMZ1RfTGg1TW5qVVN3VktRV09Jc29UaGNscnoxdkZQcE5wN3ZlR3hGdEVSb1Q2TGlWYTF6WXVQRlhzWmEwUDVpUzZnUk1BdGNtUjIxNDNVd3N3V08yd0Q?oc=5",
+   "published": "2026-11-25T17:12+00:00",
+   "excerpt": "",
+   "feed": "Google News – aerolíneas España",
+   "lang": "ES",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "alsoIn": [
+    "Arecoa"
+   ],
+   "id": "c023",
+   "prio": 3
   },
   {
    "title": "How spy planes collect intelligence without being detected",
@@ -358,7 +659,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://aerospaceglobalnews.com/wp-content/uploads/2026/09/NASA-SR-71-Blackbird-ready-to-take-off-1024x633.jpg",
-   "id": "c003",
+   "id": "c024",
    "prio": 0
   },
   {
@@ -372,22 +673,51 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c004",
+   "id": "c025",
    "prio": 0
   },
   {
-   "title": "Volotea, otro quebradero de cabeza para la SEPI tras Plus Ultra",
-   "source": "Preferente.com",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQjVuZ05ZaVZaWTViR1BQc3c2a0FER1pQWGt0V0xYd3ZGRjVKNVZna0ZyTFlLbFg3ZWVtQ0NickJMUnVfVVE4M1pyUkU2bE5XeFo3MXNmcmxqR0pvTXQxWVlNOVVzLWJoV3FRbngtVDc0UlJnOXZvX1ZnX2ttLVlhVkNuQU1tVk85Rm9TaGFfalV6dHUwMlNRM0hadGVraG9NbE9QSEJqUlUxUQ?oc=5",
-   "published": "2026-11-25T17:05+00:00",
+   "title": "EasyJet boss unable to rule out further job losses after profits collapse by 96%",
+   "source": "The Guardian",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWjdtckVOWEE2Wi1KbWxvR01sSzNBY2xQYUpGRGp6OWFhdUlkZjhRVmV5MERCV3Q1U204eE4yRGVsNW1RcUg3b0JtclNsZnU3V3Nvelhhb1U1ZmRGaElETzllcE9iSGhCS2RHb09ma2gxaHU0MWE1YkhZdVY2cG1aNVhjel9wcXlZaV9lU2E4WngzUWNFME8tLWd6TDhGZ0UtYVZLVDlNNDB3RHRXV3h5SWVBSXNKalNTREtvYkFHbWtkMGJUOUt4cUtCZTF4QQ?oc=5",
+   "published": "2026-11-25T17:03+00:00",
+   "excerpt": "",
+   "feed": "The Guardian (vía Google News)",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c026",
+   "prio": 10,
+   "urgent": "resultados"
+  },
+  {
+   "title": "Gibraltar negocia vuelos directos con Barcelona, Ámsterdam, París y otras capitales europeas",
+   "source": "Europa Sur",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSHpJVGxMRnBRazNGTFVqQ0xRdUlEdzMtaVhZTUdsVmM0bzRhSHZveVd2Y09oaDJsSGNmWXY1N3dDZDRSd19ZQm82ajFUQ28zeXJKQ0UtSTUyaUFtai1xbWZMNVhJaWROOFNDZnFKWFpKLWQ2WVUtVkNtdzB4THdVNUlDdXduYkN6VVlHRHV4YjlCS2xrcWRFSTVrX0c0ZUd5Z0NwQWV6NNIBrAFBVV95cUxNSWtXclZzRThwZnRvS2VpVi1idXRaR3VWZUVEWWJaSkg1OVA0WC00NFlNenJtQmxldFI0UWloR0wyQUJlclNwazZtYVAtdUIwT2xwVkoxaGJFN0xsZExNMGtGMEsydzhwTVB3Rnhha2llLWpwSlYwcElsY2o1TjZMaVlIYUN2TzVFd1VKbHc1UnFrNW9STzNNRnRpVWZpcm11d214eVBXd0Z1bmhI?oc=5",
+   "published": "2026-11-25T17:03+00:00",
    "excerpt": "",
    "feed": "Google News – aerolíneas España",
    "lang": "ES",
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c005",
-   "prio": 2
+   "id": "c027",
+   "prio": 3
+  },
+  {
+   "title": "Volotea, otro quebradero de cabeza para la SEPI tras Plus Ultra",
+   "source": "Preferente",
+   "url": "https://www.preferente.com/rss1/volotea-otro-quebradero-de-cabeza-para-la-sepi-tras-plus-ultra-353255.html",
+   "published": "2026-11-25T17:01+00:00",
+   "excerpt": "La situación de Volotea sigue pendiente de una compleja reestructuración financiera para evitar su disolución. La aerolínea comandada por Carlos Muñoz, actualmente en preconcurso de acreedores, ha prolongado hasta principios de 2027 las negociaciones con la Sociedad Española de…",
+   "feed": "Preferente",
+   "lang": "ES",
+   "topic": "aerolineas",
+   "viaGoogle": false,
+   "image": "https://www.preferente.com/wp-content/uploads/2025/02/carlos-munoz-volotea.jpg",
+   "id": "c028",
+   "prio": 5
   },
   {
    "title": "Why Southwest Airlines Likely Won't Fly The Boeing 737 MAX 8-200 Like Allegiant Air & Ryanair",
@@ -400,8 +730,22 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/southwest-boeing-737-max-8-200.jpg",
-   "id": "c006",
+   "id": "c029",
    "prio": 2
+  },
+  {
+   "title": "Kilmar Ábrego, símbolo de la persecución migratoria de Trump, abandona EU y se va a España",
+   "source": "La Crónica de Hoy",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaXp6SlpLcE95YWowX1ZrbW5LUkx4OFlodm9HT1pvRFc4Z1lxSjZybXFzSWIyTzRCRy1KVFpoaWp2b0JZM0RqMXN6SGZUMC0tb0hSVUZpMVMyVjVoY182ZlVHamphSXRuRVE0TExrUUtkblIzNzlrbXhCRzNDend4YW16LVg5T2R0bEZPdUN3OEdDN1Q4Zk5lVkFTV2tuc0xqOVRnS1kwTnpuX1czY0NSQzF0WUIwT2FnWWFCZTBYcktoZXh4RXp1QXppYi1RUQ?oc=5",
+   "published": "2026-11-25T16:59+00:00",
+   "excerpt": "",
+   "feed": "Google News – Aena / aeropuertos España",
+   "lang": "ES",
+   "topic": "aeropuertos",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c030",
+   "prio": 3
   },
   {
    "title": "Airbnb Rates Rose After California Required Upfront Pricing—Research Shows Guests Still Benefit",
@@ -414,7 +758,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c007",
+   "id": "c031",
    "prio": 0
   },
   {
@@ -428,7 +772,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c008",
+   "id": "c032",
    "prio": 0
   },
   {
@@ -442,22 +786,8 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/united_737_1920x1080.jpg",
-   "id": "c009",
+   "id": "c033",
    "prio": 0
-  },
-  {
-   "title": "S2Grupo se alía con Airbus para desplegar su ciberseguridad en aeroespacial y en programas de la OTAN",
-   "source": "El Economista",
-   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQcVhsaW5LSmFQdS15SXVCTkN0LW1kVnRVUURFWkxfeWpyTU5kM0JRMXVJSzNoYkkzTjNNQnBFaEE1aWNlWC13Y0xYVTNpWnhQLTJ2TEluSkQyOUI3WUZQVFpGbzNxVkZiajlVNHd1R1VoakFGS0hRSFVhWFE1SWl3eW5mYlJ0V1ZVcUMyVzFWTEEzbEpkNjhjdDNrN1JyYWg5V2NfbVk3cGJuQ3oya0xvUlpnbVFlU3VkMi04aVVlLURGUll4c0pSYnhmSjRxdVJYYlBHbk5ZS1Z0Nk4zZFAxWXIydmo3aFpPSWM1M1g1YVhlRFFFZGdfbmJtcnkwZw?oc=5",
-   "published": "2026-11-25T16:47+00:00",
-   "excerpt": "",
-   "feed": "elEconomista (vía Google News)",
-   "lang": "ES",
-   "topic": "general",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c010",
-   "prio": 3
   },
   {
    "title": "Aircraft Engine MRO Market Projected to Grow From US$26.61 Billion in 2025 to US$41.21 Billion by 2034",
@@ -470,7 +800,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c011",
+   "id": "c034",
    "prio": 2
   },
   {
@@ -484,7 +814,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/cessna-210-centurion-d-ebws-arp-enhanced-1795623930282.jpg",
-   "id": "c012",
+   "id": "c035",
    "prio": 0
   },
   {
@@ -498,7 +828,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c013",
+   "id": "c036",
    "prio": 0
   },
   {
@@ -512,7 +842,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c014",
+   "id": "c037",
    "prio": 0
   },
   {
@@ -526,7 +856,21 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://aerospaceglobalnews.com/wp-content/uploads/2026/07/Nato-Boeing-E-3-Sentry-1024x582.jpeg",
-   "id": "c015",
+   "id": "c038",
+   "prio": 0
+  },
+  {
+   "title": "Kilmar Ábrego García, target of Trump’s immigration crackdown, lands in Spain after ‘leaving happy’",
+   "source": "The Guardian",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84NjE2NVphdG1HMExXOTVNc01TRVhrV3FaaHZDTTVXY19DZkVpaVBPV3QzZFpyYVRENDdwRXNOcEZ0ZU12a3huLXdTclVOa1hHcU5qQnJSNUVNTUdWMWFCdC1SMmdwYWo1THBZQVZROUNhemZISk0yVzFRdTRXSTg?oc=5",
+   "published": "2026-11-25T16:19+00:00",
+   "excerpt": "",
+   "feed": "The Guardian (vía Google News)",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c039",
    "prio": 0
   },
   {
@@ -540,7 +884,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c016",
+   "id": "c040",
    "prio": 0
   },
   {
@@ -554,7 +898,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.preferente.com/wp-content/uploads/2026/11/SAF.jpg",
-   "id": "c017",
+   "id": "c041",
    "prio": 5
   },
   {
@@ -568,7 +912,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c018",
+   "id": "c042",
    "prio": 5
   },
   {
@@ -582,7 +926,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c019",
+   "id": "c043",
    "prio": 0
   },
   {
@@ -596,8 +940,22 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c020",
+   "id": "c044",
    "prio": 0
+  },
+  {
+   "title": "La Casa Blanca dice que Kilmar Ábrego se ha \"autodeportado\" a España, \"un país devastado por sus políticas de puertas abiertas\"",
+   "source": "El Independiente",
+   "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQZW1vLWhyVUJlU0pkQlF3VXp1bzRJNDhKSy1YQVh3TTdKQTlNdWNqMjdUUWd0V2JJVlIwakFVeVN0WVBMdG9YMDJDbnBCSHdSclhRakdVandsVkFfMzMzcmJNOHlRcUdsNnpZQWRUREtzb2pQeVdSclN5T3RmQjBsMVIwTndvRnVIY0ZmWll2UUo3NTJMNkdhMzdUMWJ5dHJrS2ptaG1zNVctdkxlVVZvdF9mWDM2RTRJYzVXRTBnMVZKb0xNcGJwUTRwdU1vMFdzYUhlZTFRRUs3dFJfMG0wUG5KRFVzWUk1RWlpb2V4WGR1S1hacmZmMUFUcGk3UTc4UmVEdG5PeWVwSGJfNTdBdjRB0gGSAkFVX3lxTFBlbW8taHJVQmVTSmRCUXdVenVvNEk0OEpLLVhBWHdNN0pBOU11Y2oyN1RRZ3RXYklWUjBqQVV5U3RZUEx0b1gwMkNucEJId1JyWFFqR1Vqd2xWQV8zMzNyYk04eVFxR2w2ellBZFRES3NvalB5V1JyU3lPdGZCMGwxUjBOd29GdUhjRmZaWXZRSjc1Mkw2R2EzN1QxYnl0cmtLam1obXM1Vy12TGVVVm90X2ZYMzZFNEljNVdFMGcxVkpvTE1wYnBRNHB1TW8wV3NhSGVlMVFFSzd0Ul8wbTBQbkpEVXNZSTVFaWlvZXhYZHVLWFpyZmYxQVRwaTdRNzhSZUR0bk95ZXBIYl81N0F2NEE?oc=5",
+   "published": "2026-11-25T15:46+00:00",
+   "excerpt": "",
+   "feed": "Google News – Aena / aeropuertos España",
+   "lang": "ES",
+   "topic": "aeropuertos",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c045",
+   "prio": 3
   },
   {
    "title": "Wanted: A Strategy Chief to Bring Air India’s Two Airlines Closer",
@@ -610,7 +968,7 @@
    "topic": "turismo",
    "viaGoogle": false,
    "image": "https://skift.com/wp-content/uploads/2026/01/Air-Indias-new-custom-designed-B787-9-e1769601862497.jpg?w=1024",
-   "id": "c021",
+   "id": "c046",
    "prio": 0
   },
   {
@@ -624,7 +982,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c022",
+   "id": "c047",
    "prio": 2
   },
   {
@@ -638,21 +996,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c023",
-   "prio": 0
-  },
-  {
-   "title": "Data: European Airline Failures Increase Aircraft Availability",
-   "source": "Aviation Week",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ0EwZktXUzU4SUxsdklyS2lLcmlqdElLMFlITnE2dVFEV1lEZmFxN3ZtVTlkYndEU1B4VGIwd0dRQzNSRmpfa1EzOWV6VU1LM3NVbm5SemEzOW9OQzFzRnZkdk1HNkhTTk5fMldVUUNzUnRCMEtUM0c4dzNNWnpVcXlNQXZQZVVoWmVNc1pMU2ZRVVlFRzZBc2xMOHhGWmRWZVdqcWNuWVpSdF9X?oc=5",
-   "published": "2026-11-25T15:37+00:00",
-   "excerpt": "",
-   "feed": "Aviation Week – MRO (vía Google News)",
-   "lang": "EN",
-   "topic": "mro",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c024",
+   "id": "c048",
    "prio": 0
   },
   {
@@ -666,8 +1010,36 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://aviationa2z.com/wp-content/uploads/2025/08/8szfazx2-1024x576.webp",
-   "id": "c025",
+   "id": "c049",
    "prio": 0
+  },
+  {
+   "title": "Aer Lingus announces big sale on popular flights just in time for Black Friday",
+   "source": "RSVP Live",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNam9Tc011Ul9PS1dYV1BKVXgzR3N5eDhvQ2VzdnhIOHdlNDNRNU1FNldlN215UnhZZmxFX2xyaGpmRDBVNWVjXzhWT05ySEo4QWhsZWcyWk85VzhydkRuOHBMRUtUZHhiZUtHVVlfbFBETEp2b3ZLQ2V6VHpYU1RvZGtURG7SAYoBQVVfeXFMTm5NLVNtd3JwbmpRaW1ITWw2Zy1mZUdRdlJnQ2FiaFBKU0lsT2ljZW9qbzhjQ2pidk5IS1hPUjIyQjh5WS1BWHdmQXFFYXoyMDAySHRZc0dJYTE1bDlGTjVSTFlWQkZuTlhEUjN5OTNwV2d4ZXlrTjBBMktuTEJINUZiRmFKSkplN1Vn?oc=5",
+   "published": "2026-11-25T15:29+00:00",
+   "excerpt": "",
+   "feed": "Google News – British Airways / Aer Lingus / IAG",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c050",
+   "prio": -1
+  },
+  {
+   "title": "El salvadoreño Kilmar Ábrego, símbolo de las deportaciones de Trump, llega a Madrid tras abandonar EEUU",
+   "source": "Notimérica",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPdlp0cEpScFBtYW94TzZkY2JxYjFnVWpTMlFNMlU2NGIxZFNmSUwyYXhDWnVIS1BSQkhJVU0wbzd0X2ctVFQ4YU9sNVBXNWhiTExVdklPMU9WM3ZyT3dqejQ1MVNDZWROTGIydmhjNnZVbFdxb1BwQ0M0bFB5R3htZHpESUJPeXNXT2NGTEQxc045WldYdGtqdkZrSmN3UVV1cVI0dVBmWnRrNlE0S1M5RGpsa0hkQzc0YnVibVdBOFhIQ2htaE02NDdTYUhVeGM1bFpydVFWM0IxOVFpTEE?oc=5",
+   "published": "2026-11-25T15:29+00:00",
+   "excerpt": "",
+   "feed": "Google News – Aena / aeropuertos España",
+   "lang": "ES",
+   "topic": "aeropuertos",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c051",
+   "prio": 3
   },
   {
    "title": "easyJet Says Muse Can Book Trips With Customer Approval",
@@ -680,7 +1052,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c026",
+   "id": "c052",
    "prio": 2
   },
   {
@@ -694,7 +1066,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c027",
+   "id": "c053",
    "prio": 0
   },
   {
@@ -708,7 +1080,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c028",
+   "id": "c054",
    "prio": 0
   },
   {
@@ -722,7 +1094,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c029",
+   "id": "c055",
    "prio": 0
   },
   {
@@ -736,7 +1108,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.aerotime.aero/images/2026/11/An-Embraer-KC-390-Millennium-military-transport-aircraft-and-an-A-29-Super-Tucano-light-attack-aircraft-in-flight-1200x763.jpeg",
-   "id": "c030",
+   "id": "c056",
    "prio": 0
   },
   {
@@ -750,7 +1122,7 @@
    "topic": "turismo",
    "viaGoogle": false,
    "image": "https://skift.com/wp-content/uploads/2026/11/expedia-kiwi.jpg?w=1024",
-   "id": "c031",
+   "id": "c057",
    "prio": 0
   },
   {
@@ -764,7 +1136,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c032",
+   "id": "c058",
    "prio": 4
   },
   {
@@ -778,7 +1150,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://aerospaceglobalnews.com/wp-content/uploads/2026/08/Somali-Airlines-707-300-1024x683.jpg",
-   "id": "c033",
+   "id": "c059",
    "prio": 0
   },
   {
@@ -792,8 +1164,22 @@
    "topic": "general",
    "viaGoogle": true,
    "image": "",
-   "id": "c034",
+   "id": "c060",
    "prio": 3
+  },
+  {
+   "title": "Turkey’s TEI To Establish Engine Component Manufacturing Hub In Bulgaria",
+   "source": "Aviation Week",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcUF4ZkVKWFZEWU0ybkVkcW1CaGR3T3dqUC14MVctM2ZjT3FvRGlVV0VNZTg2RlZ5VDNIU21UQWJhM0pybFBwd0JPWDRRd25hcjhYZmZoRTJDeGZqNzcxSmc0Ul9kMGRvYlNkZ04tLUc3bWp2YTVZTEtMWHRuSzZiTFN3Y05yYzZlNHJBcUtKbnY3Qklpb2tXZmYyc0NEVUhOcWx2RktxRDdpdEdXSWRHSjhtZ0hKSWtOQVE?oc=5",
+   "published": "2026-11-25T15:11+00:00",
+   "excerpt": "",
+   "feed": "Aviation Week – MRO (vía Google News)",
+   "lang": "EN",
+   "topic": "mro",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c061",
+   "prio": 2
   },
   {
    "title": "Expedia cierra la adquisición de Kiwi.com",
@@ -806,7 +1192,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.preferente.com/wp-content/uploads/2026/11/expedia-e1603762956990.jpg",
-   "id": "c035",
+   "id": "c062",
    "prio": 0
   },
   {
@@ -820,7 +1206,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c036",
+   "id": "c063",
    "prio": 5
   },
   {
@@ -837,7 +1223,7 @@
    "alsoIn": [
     "Negocios.com"
    ],
-   "id": "c037",
+   "id": "c064",
    "prio": 13,
    "urgent": "resultados"
   },
@@ -852,7 +1238,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "",
-   "id": "c038",
+   "id": "c065",
    "prio": 0
   },
   {
@@ -866,22 +1252,8 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c039",
+   "id": "c066",
    "prio": 0
-  },
-  {
-   "title": "Turkey’s TEI To Establish Engine Component Manufacturing Hub In Bulgaria",
-   "source": "Aviation Week",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcUF4ZkVKWFZEWU0ybkVkcW1CaGR3T3dqUC14MVctM2ZjT3FvRGlVV0VNZTg2RlZ5VDNIU21UQWJhM0pybFBwd0JPWDRRd25hcjhYZmZoRTJDeGZqNzcxSmc0Ul9kMGRvYlNkZ04tLUc3bWp2YTVZTEtMWHRuSzZiTFN3Y05yYzZlNHJBcUtKbnY3Qklpb2tXZmYyc0NEVUhOcWx2RktxRDdpdEdXSWRHSjhtZ0hKSWtOQVE?oc=5",
-   "published": "2026-11-25T15:03+00:00",
-   "excerpt": "",
-   "feed": "Aviation Week – MRO (vía Google News)",
-   "lang": "EN",
-   "topic": "mro",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c040",
-   "prio": 2
   },
   {
    "title": "I Flew A United Airlines Boeing 737 MAX From A Remote Island Airport With Just 2 Weekly Flights: Here's What It Was Like",
@@ -894,7 +1266,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/008-united-airlines-boeing-737-max-8.jpg",
-   "id": "c041",
+   "id": "c067",
    "prio": 0
   },
   {
@@ -908,7 +1280,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.aerotime.aero/images/2026/09/A-US-Air-Force-B-1B-Lancer-bomber-at-RAF-Fairford-United-Kingdom-1200x800.jpg",
-   "id": "c042",
+   "id": "c068",
    "prio": 0
   },
   {
@@ -922,22 +1294,11 @@
    "topic": "aeropuertos",
    "viaGoogle": true,
    "image": "",
-   "id": "c043",
-   "prio": 3
-  },
-  {
-   "title": "Iberia modifica su programa de fidelización y amplía las ventajas de sus paquetes",
-   "source": "Ladevi",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdlZKMEd4Y2VDU1NwYnJXVDE3ZWtVZmVqUG1iZmNaeWEzWWZzSXV2WVFUSGZPQUQ5bGxBVEhqT0dRc1ZtLVRRNW1TNWEtRXZ3Z0gtWmUzeDd2OTMyVmtTckZDdFV1TzVLQWVYUUpVeU9JYUVNaHRmeVV2RWF1TS0xRHZLSFU5SUtYTnp5cktIY1ppUEpheWl3NVZST1RVQ2N0R1lyYTZhNDFGNTRXbVZ4OVd5MTF5YjNlYlF6cEhDR1Frd1V2bVdNekRHRUV0YkNRRHZwaUJkUGvSAdgBQVVfeXFMTnZWSjBHeGNlQ1NTcGJyV1QxN2VrVWZlalBtYmZjWnlhM1lmc0l1dllRVEhmT0FEOWxsQVRIak9HUXNWbS1UUTVtUzVhLUV2d2dILVplM3g3djkzMlZrU3JGQ3RVdU81S0FlWFFKVXlPSWFFTWh0ZnlVdkVhdU0tMUR2S0hVOUlLWE56eXJLSGNaaVBKYXlpdzVWUk9UVUNjdEdZcmE2YTQxRjU0V21WeDlXeTExeWIzZWJRenBIQ0dRa3dVdm1XTXpER0VFdGJDUUR2cGlCZFBr?oc=5",
-   "published": "2026-11-25T14:59+00:00",
-   "excerpt": "",
-   "feed": "Google News – Iberia / Vueling / IAG",
-   "lang": "ES",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c044",
-   "prio": 5
+   "alsoIn": [
+    "somosCLM"
+   ],
+   "id": "c069",
+   "prio": 4
   },
   {
    "title": "India-Singapore Pact to Build Aircraft MRO Capacity",
@@ -950,22 +1311,8 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c045",
+   "id": "c070",
    "prio": 2
-  },
-  {
-   "title": "Aer Lingus Black Friday deals confirmed, including flight from Dublin to US for under $220",
-   "source": "Irish Star",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9UY1BVWktWSEFtSjlPX2daUWJmOHdlRGEyXy1YRUZ5bEhVV2toa3pEWHV1VHJQREE5cnZTVThJdzlWVEd4OW0xNkt1dEE1UXRZTHdURFVRaUtFeVVXVy0yaEN6MFBlajFoWm1wYWtnVXoxeEV1ek9HOWFQa9IBgAFBVV95cUxOajVCWkZ2czlfNFBxVmZuMjkwMnMtejl1M25LWkF6SkJNc3ZxcUJpTHN0NDdwY2t1Wkx5VlJILVY0cEthbmxFczhNbnJXejRSbG9sbEQwMXFDcXZJZXEtdmlwTHVHWVJsaF8wYjlhWnd4NV9LSG1wenFpeHNOMHVPaA?oc=5",
-   "published": "2026-11-25T14:45+00:00",
-   "excerpt": "",
-   "feed": "Google News – British Airways / Aer Lingus / IAG",
-   "lang": "EN",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c046",
-   "prio": -1
   },
   {
    "title": "Las agencias canarias piden vuelos de vuelta tras el cese de Plus Ultra",
@@ -981,7 +1328,7 @@
    "alsoIn": [
     "Atlántico Hoy"
    ],
-   "id": "c047",
+   "id": "c071",
    "prio": 4
   },
   {
@@ -995,7 +1342,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c048",
+   "id": "c072",
    "prio": 0
   },
   {
@@ -1009,8 +1356,22 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/201-norse-atlantic-airways-boeing-787-9-the-global-guy-_-shutterstock.jpg",
-   "id": "c049",
+   "id": "c073",
    "prio": 0
+  },
+  {
+   "title": "Aer Lingus Black Friday deals confirmed, including flight from Dublin to US for under $220",
+   "source": "Irish Star",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOajVCWkZ2czlfNFBxVmZuMjkwMnMtejl1M25LWkF6SkJNc3ZxcUJpTHN0NDdwY2t1Wkx5VlJILVY0cEthbmxFczhNbnJXejRSbG9sbEQwMXFDcXZJZXEtdmlwTHVHWVJsaF8wYjlhWnd4NV9LSG1wenFpeHNOMHVPaNIBgAFBVV95cUxOajVCWkZ2czlfNFBxVmZuMjkwMnMtejl1M25LWkF6SkJNc3ZxcUJpTHN0NDdwY2t1Wkx5VlJILVY0cEthbmxFczhNbnJXejRSbG9sbEQwMXFDcXZJZXEtdmlwTHVHWVJsaF8wYjlhWnd4NV9LSG1wenFpeHNOMHVPaA?oc=5",
+   "published": "2026-11-25T14:37+00:00",
+   "excerpt": "",
+   "feed": "Google News – British Airways / Aer Lingus / IAG",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c074",
+   "prio": -1
   },
   {
    "title": "British Airways Boeing 787 Dreamliner Declares Emergency On First Flight Back Following Engine Diversion",
@@ -1023,22 +1384,13 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c050",
-   "prio": 7
-  },
-  {
-   "title": "Air Europa se opone al plan de inversiones de Aena por limitar su crecimiento en Barajas",
-   "source": "Aviación News",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRXdFRUZQVy1YaTZ5Z0NNWlk5QXBkajBjdVpsWmpRNzNwX2tkUnFpNGRmb0hmb3N6WVlyRnMwR2lLRnBLakFrUzJyLVRQYjZrN3VGdHJDeUxaVm8ycWhIN2VwZmp1TF85QVlzQXBvYUdEZDdWbWR6ZUlzLVBScDU2NkhZb0k2Tl9kalFFelhMSnk2bEhWU2FHc1hoVzI4cHozRV9CTkZyVVc1R3JFeUY2S0N4a0cxZTFyVjhFbVJFVWJVM0Jm?oc=5",
-   "published": "2026-11-25T14:33+00:00",
-   "excerpt": "",
-   "feed": "Google News – Air Europa",
-   "lang": "ES",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c051",
-   "prio": 7
+   "alsoIn": [
+    "Flightradar24",
+    "Flightradar24",
+    "Flightradar24"
+   ],
+   "id": "c075",
+   "prio": 10
   },
   {
    "title": "How Amadeus Pulled Away From Sabre and Travelport",
@@ -1051,7 +1403,7 @@
    "topic": "turismo",
    "viaGoogle": false,
    "image": "https://skift.com/wp-content/uploads/2026/11/unnamed-54.jpg?w=1024",
-   "id": "c052",
+   "id": "c076",
    "prio": 0
   },
   {
@@ -1065,7 +1417,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c053",
+   "id": "c077",
    "prio": -6
   },
   {
@@ -1079,21 +1431,21 @@
    "topic": "aeropuertos",
    "viaGoogle": true,
    "image": "",
-   "id": "c054",
+   "id": "c078",
    "prio": 0
   },
   {
-   "title": "Enaire reúne en Madrid a expertos europeos para compartir experiencias y reforzar la seguridad operacional",
-   "source": "PressDigital",
-   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOaHB6dGlicGdfbWM4Mmx3WmwwX2N3RkxXcDY1blBidl9sVkVkQTE5elgtYlpOZ29oR0lnMUNNTkdMR3QzRDRyWjN4NmV0X0h1eG5EZFI1dURoeEZjeWhDVTMza2hrQVo5MUpOb1lxMkg0Q3lsM3cyLW0ycW9scU1iV0lyeXpDdFRwcEh3VkNnZ1BheEZoWkZSUUN4a1VZYUgwTnMyZ1RtUTJDRVc5M2pWWGhuOHQ5TW9WT055U0NBUlFvRFhmUkU0RHBiQTVnZHdJcGtndW12MnFkRFBSeGVDNVdidlVWanpWQlJ1bA?oc=5",
-   "published": "2026-11-25T14:20+00:00",
+   "title": "Kilmar Ábrego planea volver a EEUU como residente permanente cuando Trump deje el Gobierno",
+   "source": "Diario El Mundo",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOLWdaeEZRbU9CVkMwZ2hlWWdLVlQ4bEx3YzVJaHkyOGtWLTV2VjkzOFRRS2VVSVhubkJUbXZEQkhkNXlseERVSHZDMlF3SmpuRHk1TW5MYy1uLWd1VWwtU1NSeTk4S3VUR3ZycVZCQUVMNnpyWVJfbVZnejhhcnNaY1NydFkwd3BSaGROalB1S2h2S1ZMZG9heG9TV0ZQU1o3eGF2ZVRhaGFIVkFWUVZMcGtNQTBsWHJTQnJxQUNsdldxRVXSAc4BQVVfeXFMTW96V1dWRkZoS01lY1NZSVRiR05YQkZXTF8xTjQ3T195OVNHZ0ZDeVZpRVFwcFctcGJQM1BEcWI3RFhmYkpDUzFPTGg1LTJMc1hwQy1TRjczbnE4aGVvRWpUdEZvUVhvbndqcHY5RW83UnZENUtONWE5T3l6NmxpbVY1NEhTd3RWQUlRT1FySFh6VE5pa0VVTGVBdWRjNndYY0RVY19mcXpZaGxWdGdrNEZZaTIxM0dsQmVqU0tWQW5uNzFlNTRNdTJ5NVhaU2c?oc=5",
+   "published": "2026-11-25T14:21+00:00",
    "excerpt": "",
    "feed": "Google News – Aena / aeropuertos España",
    "lang": "ES",
    "topic": "aeropuertos",
    "viaGoogle": true,
    "image": "",
-   "id": "c055",
+   "id": "c079",
    "prio": 3
   },
   {
@@ -1109,7 +1461,9 @@
    "image": "",
    "alsoIn": [
     "airlive",
+    "Metro.co.uk",
     "cwibc.co.id",
+    "www.suaralandak.co.id",
     "London Now",
     "The Aviation Hub",
     "Speaks Media",
@@ -1117,7 +1471,7 @@
     "Wisevoter",
     "SuaraGarut.ID"
    ],
-   "id": "c056",
+   "id": "c080",
    "prio": 10
   },
   {
@@ -1131,7 +1485,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c057",
+   "id": "c081",
    "prio": 2
   },
   {
@@ -1145,13 +1499,13 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.businesstraveller.com/wp-content/uploads/2026/11/A1-AA-JACKET-11-1024x683.jpg",
-   "id": "c058",
+   "id": "c082",
    "prio": 0
   },
   {
    "title": "How India-Singapore MoU Will Transform Aviation MRO Sector",
    "source": "Rediff.com",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdGQ5eGR2bzNHUjVKaXlzVnJ3Q1pnMjF1MmdzTURnZmg0WlRqenVTZ1c2WmkxcGI5cE5OLXhneHVha2lMMC1TOHJUenhHaFZBQ3pxZkNmWl9hNlZnRUFydVc0eEV1eU1tTG1idllReFREa1ZZVXFkN045bHk2alc0YjNqcnVVM1FIU0JZRk13UXNBOTlLZjE3cFplVUNuNktVSi1uMU5FQzFUZlFa?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdGQ5eGR2bzNHUjVKaXlzVnJ3Q1pnMjF1MmdzTURnZmg0WlRqenVTZ1c2WmkxcGI5cE5OLXhneHVha2lMMC1TOHJUenhHaFZBQ3pxZkNmWl9hNlZnRUFydVc0eEV1eU1tTG1idllReFREa1ZZVXFkN045bHk2alc0YjNqcnVVM1FIU0JZRk13UXNBOTlLZjE3cFplVUNuNktVSi1uMU5FQzFUZlFa0gGvAUFVX3lxTFAwZm5DZVNZUlZSc0ZXb1RJdXNNdElUWVlBMldKUFhCNWNzTDZlaTloU2ctT1NpdkpOSWw5MEFFZ1RIRVhXVXhiMkR5aFpZZkZKaExvQi1jTWRXQzliNFdaQVVsbW5RcnMxWkplQkpib2gtUExSNVJHNkppU1QyWC10bkNSS1o3NGROOXc0d3ZkMXBkZ0RJWjN5TmtHVU85b3lPRjRVbnlUNUM0cUltdWs?oc=5",
    "published": "2026-11-25T14:11+00:00",
    "excerpt": "",
    "feed": "Google News – MRO / engines",
@@ -1162,7 +1516,7 @@
    "alsoIn": [
     "News On AIR"
    ],
-   "id": "c059",
+   "id": "c083",
    "prio": 5
   },
   {
@@ -1177,11 +1531,10 @@
    "viaGoogle": true,
    "image": "",
    "alsoIn": [
-    "tennews.in",
-    "The News Mill"
+    "tennews.in"
    ],
-   "id": "c060",
-   "prio": 4
+   "id": "c084",
+   "prio": 3
   },
   {
    "title": "Iberia mejora las recompensas de los paquetes de viaje reservados en iberia.com",
@@ -1194,11 +1547,8 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "alsoIn": [
-    "PressDigital"
-   ],
-   "id": "c061",
-   "prio": 6
+   "id": "c085",
+   "prio": 5
   },
   {
    "title": "Equipaje de mano en el avión: qué te pueden cobrar hoy, qué cambia en 2027 y cómo reclamar el suplemento",
@@ -1211,7 +1561,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c062",
+   "id": "c086",
    "prio": 0
   },
   {
@@ -1225,7 +1575,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://aerospaceglobalnews.com/wp-content/uploads/2026/11/Screenshot-2026-11-25-155856-1024x676.png",
-   "id": "c063",
+   "id": "c087",
    "prio": 0
   },
   {
@@ -1239,7 +1589,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c064",
+   "id": "c088",
    "prio": 2
   },
   {
@@ -1253,7 +1603,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c065",
+   "id": "c089",
    "prio": 0
   },
   {
@@ -1267,7 +1617,7 @@
    "topic": "general",
    "viaGoogle": true,
    "image": "",
-   "id": "c066",
+   "id": "c090",
    "prio": 5
   },
   {
@@ -1281,7 +1631,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c067",
+   "id": "c091",
    "prio": 0
   },
   {
@@ -1295,7 +1645,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/shutterstock_2640374705_cropped.jpg",
-   "id": "c068",
+   "id": "c092",
    "prio": 0
   },
   {
@@ -1309,8 +1659,25 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c069",
+   "id": "c093",
    "prio": 0
+  },
+  {
+   "title": "Enaire reúne en Madrid a expertos europeos para compartir experiencias y reforzar la seguridad operacional",
+   "source": "Europa Press",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPU1lEY05Sbk1NZW9zYlppelRtRl9iZVh4QzZucW8xdVc2LXZQWEtrcW1kSl9qYlp5YXBGSjdIbUhxRk9uRzFaZGNPN3oxcDBQX2FRQUVGT1lWT2hTNkc3WWhrRV9Hb0ZxX0dkTHZUWTdXWVhZdG16VngwUWdUbjVEYXFaWm51MmNMb09ZbDNseDl6NmdweHV5SlFuMlFKLWFPazB4LVh1LVh4WTNrY1hJR3NiWm56U3VqRUhGbnpzazFPTDhERzNPdU1paTE4bVBqSkVDN2hsekxheGkxOW52NlFSVE5BaGRKQ0xxMU5sMHgweW1hUnRCVXB0bmJtbVlyekJJ?oc=5",
+   "published": "2026-11-25T14:00+00:00",
+   "excerpt": "",
+   "feed": "Google News – Aena / aeropuertos España",
+   "lang": "ES",
+   "topic": "aeropuertos",
+   "viaGoogle": true,
+   "image": "",
+   "alsoIn": [
+    "Demócrata"
+   ],
+   "id": "c094",
+   "prio": 7
   },
   {
    "title": "El precio del combustible pasa factura a easyJet: su beneficio desciende un 90%",
@@ -1323,9 +1690,23 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c070",
+   "id": "c095",
    "prio": 14,
    "urgent": "resultados"
+  },
+  {
+   "title": "El salvadoreño Kilmar Ábrego decidirá en España sobre sus próximos pasos, según su abogado",
+   "source": "HolaNews",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQejJIaEVzYlMzcmtQU2c2Z0xBTkhKSWptTjJjazV3QVUwS0JwYnkwdFY5Q0VXZjRpSFBiSWxEM2NMMGJUR1VWbzZIb1AyOVF6YXVIZmRCZHZFUjM1Y1llaXFmbXRKRzZHSnNHVlRUNVFWYk5Hdl9mMi0wYkFpT1NFMWFWSXV2SFRvc2E1b0tTNVluR2JlM0JtUGpqN3pqY0w2djJPVDNfMG1OZmZwSk5MZQ?oc=5",
+   "published": "2026-11-25T13:50+00:00",
+   "excerpt": "",
+   "feed": "Google News – Aena / aeropuertos España",
+   "lang": "ES",
+   "topic": "aeropuertos",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c096",
+   "prio": 3
   },
   {
    "title": "US's Northern Jet launches MRO subsidiary in Orlando",
@@ -1341,7 +1722,7 @@
    "alsoIn": [
     "Avi-Go"
    ],
-   "id": "c071",
+   "id": "c097",
    "prio": 3
   },
   {
@@ -1355,22 +1736,8 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c072",
+   "id": "c098",
    "prio": 2
-  },
-  {
-   "title": "Cese de Plus Ultra: ACAVyT exige respuestas para los afectados",
-   "source": "Canarias en Pleno",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9WOXVQOGVpWG95ZHhGblc2dllTTXRTVWpBZERXTFlUWDZ1NGhnajVtRVlZd3JDb29QY3NXRUpoM0NjYTA5bFRYWU1HZ19NZzhDTlpUQ3VCS3ZELWhRQ1FUeXMzaUVhZw?oc=5",
-   "published": "2026-11-25T13:43+00:00",
-   "excerpt": "",
-   "feed": "Google News – aerolíneas España",
-   "lang": "ES",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c073",
-   "prio": 0
   },
   {
    "title": "Los sindicatos asumen que el ERE de Plus Ultra será extintivo: \"Esto no hay quien lo arregle\"",
@@ -1383,7 +1750,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c074",
+   "id": "c099",
    "prio": 0
   },
   {
@@ -1397,8 +1764,22 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://aerospaceglobalnews.com/wp-content/uploads/2026/01/AMARG-davis-monthan-aircraft-boneyard-1024x644.jpeg",
-   "id": "c075",
+   "id": "c100",
    "prio": 0
+  },
+  {
+   "title": "Air Europa lleva a Aena ante Competencia por blindar la T4 de Iberia en Barajas",
+   "source": "Merca2.es",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1JX2JQdWVoNkhOYVdtbEw0QTlzQmlaS3cteDBTTVVOOWlUMlludXBxb2dIdzBhY2ZwXzFVa25Ldm1YQmFzZTRjSnUzV2xzUDd4Zm1jSjBpdUpjcHQwbHNibm43ZmNnY2tERlNLYjdYcG4xRWVOdk1tTHFCeTU?oc=5",
+   "published": "2026-11-25T13:34+00:00",
+   "excerpt": "",
+   "feed": "Google News – Air Europa",
+   "lang": "ES",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c101",
+   "prio": 12
   },
   {
    "title": "Culture Is Driving New Interest in Travel for Ramadan",
@@ -1411,7 +1792,7 @@
    "topic": "turismo",
    "viaGoogle": false,
    "image": "https://skift.com/wp-content/uploads/2026/11/USE-THIS-ONE-Ramadan27_Skift-HeroImage-1200x800-02.jpg?w=1024",
-   "id": "c076",
+   "id": "c102",
    "prio": 0
   },
   {
@@ -1425,7 +1806,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c077",
+   "id": "c103",
    "prio": 2
   },
   {
@@ -1439,7 +1820,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/coastliner-delay.jpg",
-   "id": "c078",
+   "id": "c104",
    "prio": 0
   },
   {
@@ -1453,8 +1834,11 @@
    "topic": "turismo",
    "viaGoogle": false,
    "image": "https://skift.com/wp-content/uploads/2024/02/88d2753079aad0d6_org-scaled-e1738833428319.jpg?w=1024",
-   "id": "c079",
-   "prio": 0
+   "alsoIn": [
+    "The Officer"
+   ],
+   "id": "c105",
+   "prio": 1
   },
   {
    "title": "Aer Lingus slashes prices in Black Friday sale with seats discounted by 25%",
@@ -1467,7 +1851,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c080",
+   "id": "c106",
    "prio": -1
   },
   {
@@ -1481,7 +1865,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c081",
+   "id": "c107",
    "prio": 2
   },
   {
@@ -1495,7 +1879,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.preferente.com/wp-content/uploads/2026/11/TRUMP.jpg",
-   "id": "c082",
+   "id": "c108",
    "prio": 0
   },
   {
@@ -1509,22 +1893,8 @@
    "topic": "aeropuertos",
    "viaGoogle": true,
    "image": "",
-   "id": "c083",
+   "id": "c109",
    "prio": 3
-  },
-  {
-   "title": "Rahf Youssef, Reporter",
-   "source": "Gulf News",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PYUJUallUVUZsWWl6YUVSNEdXZ3U2MUZVeDNGNllITW1kMEVyN1ZfeFBUdG1KbGVrd3FSWWRGVU1KNWZjVlI2cy1YN2hmb1lHWlZJMGNwaUtNaTdPM0E?oc=5",
-   "published": "2026-11-25T13:08+00:00",
-   "excerpt": "",
-   "feed": "Gulf News (vía Google News)",
-   "lang": "EN",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c084",
-   "prio": 0
   },
   {
    "title": "Air Europa recorre sus 40 años de historia a través de una muestra de sus uniformes",
@@ -1541,7 +1911,7 @@
     "Fibwi Diario",
     "Fibwi Diario"
    ],
-   "id": "c085",
+   "id": "c110",
    "prio": 6
   },
   {
@@ -1555,7 +1925,7 @@
    "topic": "general",
    "viaGoogle": true,
    "image": "",
-   "id": "c086",
+   "id": "c111",
    "prio": 3
   },
   {
@@ -1569,21 +1939,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c087",
-   "prio": 0
-  },
-  {
-   "title": "Plus Ultra presentará un ERE para toda la plantilla: «Coged todo lo que podáis»",
-   "source": "The Objective",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPa0xBUy1pdnUtQ0F3eFdZTGZORF96bHZ5SGtBeEZRaVZseWcya1NwNllRS2NzU1pmNHVoY19wZHFmRVJaR0ZZTEFQYnJVdERRekdnR29RaldyU2RiR0hBcGJmRFU2VncycGw5Q085MlU3bHJKaFM3RmpNUk9tYXROZzh5UUhLbnh0S2JhVFJqa9IBlAFBVV95cUxQdDFjVHF3RlJIR1EzOGVnazVPQmlwZmVycUFEd3VmVjB0S3Q3WTIxUGYyYm5IVnZJVmpKbjRFdTVKSXVEUW1QTU1lSjh2cVc2c2l1Tl9nNnl2Wl9pT1VFWkZjdTNJRGNtc2tDVzJvQ0JQZnBjUEdYWVpiZnltU19TZG1NUW92T2dMbVJwYi1aM3FWQmFI?oc=5",
-   "published": "2026-11-25T13:01+00:00",
-   "excerpt": "",
-   "feed": "Google News – aerolíneas España",
-   "lang": "ES",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c088",
+   "id": "c112",
    "prio": 0
   },
   {
@@ -1597,7 +1953,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://aerospaceglobalnews.com/wp-content/uploads/2026/02/emirates-a380-a6-eut-20170929-xfw-4-620987-Large.jpeg",
-   "id": "c089",
+   "id": "c113",
    "prio": 0
   },
   {
@@ -1611,7 +1967,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c090",
+   "id": "c114",
    "prio": 0
   },
   {
@@ -1625,7 +1981,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c091",
+   "id": "c115",
    "prio": 3
   },
   {
@@ -1639,7 +1995,7 @@
    "topic": "aeropuertos",
    "viaGoogle": true,
    "image": "",
-   "id": "c092",
+   "id": "c116",
    "prio": 6
   },
   {
@@ -1653,35 +2009,7 @@
    "topic": "mro",
    "viaGoogle": false,
    "image": "",
-   "id": "c093",
-   "prio": 0
-  },
-  {
-   "title": "Gibraltar negocia vuelos directos con Barcelona, Ámsterdam, París y otras capitales europeas",
-   "source": "Europa Sur",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSWtXclZzRThwZnRvS2VpVi1idXRaR3VWZUVEWWJaSkg1OVA0WC00NFlNenJtQmxldFI0UWloR0wyQUJlclNwazZtYVAtdUIwT2xwVkoxaGJFN0xsZExNMGtGMEsydzhwTVB3Rnhha2llLWpwSlYwcElsY2o1TjZMaVlIYUN2TzVFd1VKbHc1UnFrNW9STzNNRnRpVWZpcm11d214eVBXd0Z1bmhI0gGsAUFVX3lxTE1Ja1dyVnNFOHBmdG9LZWlWLWJ1dFpHdVZlRURZYlpKSDU5UDRYLTQ0WU16cm1CbGV0UjRRaWhHTDJBQmVyU3BrNm1hUC11QjBPbHBWSjFoYkU3TGxkTE0wa0YwSzJ3OHBNUHdGeGFraWUtanBKVjBwSWxjajVONkxpWUhhQ3ZPNUV3VUpsdzVScWs1b1JPM01GdGlVZmlybXV3bXh5UFd3RnVuaEg?oc=5",
-   "published": "2026-11-25T12:45+00:00",
-   "excerpt": "",
-   "feed": "Google News – aerolíneas España",
-   "lang": "ES",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c094",
-   "prio": 3
-  },
-  {
-   "title": "Confused about who to vote for in the Victoria election? A guide to key promises made by Labor, the Coalition, Greens and One Nation",
-   "source": "The Guardian",
-   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNUk03b0xJTHJiR2FmbUI1RmNHSnQxeXc0cFZ3MVE2bG1uWm5nUXVJQWxsR0ttb2Y1elZsSkZ3Zm1uREFZYWZyUW5TTVh1WHRzWDhOdFZDUHdobFBINEdYT0s2S2xDd1BCM2lueTE3Wmhaa20xSV9qMEJlRnJpRDFDVHZLRlBTeXVrOS0zSUFwT0dMX0dXN3E3eEJKM1hhbWNLVVgyd200ZWhoVDRYY0tLbjdzUnR0azIyMUlpZUJlbmpPam56cU51dGhMVkpycXlsTmx0UGl4MlRaQldqN1pDTWk5aGY2amNtODBtZ3dHaVgzelNzRlh1VmdKNmh3V1FfNTNvSUhPSQ?oc=5",
-   "published": "2026-11-25T12:44+00:00",
-   "excerpt": "",
-   "feed": "The Guardian (vía Google News)",
-   "lang": "EN",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c095",
+   "id": "c117",
    "prio": 0
   },
   {
@@ -1695,7 +2023,7 @@
    "topic": "mro",
    "viaGoogle": false,
    "image": "",
-   "id": "c096",
+   "id": "c118",
    "prio": 2
   },
   {
@@ -1709,7 +2037,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c097",
+   "id": "c119",
    "prio": 2
   },
   {
@@ -1723,7 +2051,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c098",
+   "id": "c120",
    "prio": 0
   },
   {
@@ -1737,7 +2065,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.aerotime.aero/images/2026/11/NASA-X-59-1200x800.jpg",
-   "id": "c099",
+   "id": "c121",
    "prio": 0
   },
   {
@@ -1751,7 +2079,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c100",
+   "id": "c122",
    "prio": 0
   },
   {
@@ -1765,8 +2093,22 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c101",
+   "id": "c123",
    "prio": 2
+  },
+  {
+   "title": "Akira, la perra retenida en Barajas, se reencuentra con su familia junto a otros dos perros",
+   "source": "Qué.es",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE82UUdyVm1aZVI1RzBBVWotYUhUSzlNa0VZMXZOQTIzeHRGTXdkLTBlaktvdjFQQlVDZ2UtSEJvSDFLTk1WUUZ3UkxrWTNqY1JVUVJ6RkQwQUM4VzRjQkt3a3JuSVJfaW9faWNNdHljVQ?oc=5",
+   "published": "2026-11-25T12:23+00:00",
+   "excerpt": "",
+   "feed": "Google News – Aena / aeropuertos España",
+   "lang": "ES",
+   "topic": "aeropuertos",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c124",
+   "prio": 3
   },
   {
    "title": "Jet Aviation invests in major Singapore hangar expansion",
@@ -1779,7 +2121,7 @@
    "topic": "mro",
    "viaGoogle": false,
    "image": "",
-   "id": "c102",
+   "id": "c125",
    "prio": 2
   },
   {
@@ -1793,23 +2135,8 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c103",
+   "id": "c126",
    "prio": 1
-  },
-  {
-   "title": "EasyJet boss unable to rule out further job losses after profits collapse by 96%",
-   "source": "The Guardian",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWjdtckVOWEE2Wi1KbWxvR01sSzNBY2xQYUpGRGp6OWFhdUlkZjhRVmV5MERCV3Q1U204eE4yRGVsNW1RcUg3b0JtclNsZnU3V3Nvelhhb1U1ZmRGaElETzllcE9iSGhCS2RHb09ma2gxaHU0MWE1YkhZdVY2cG1aNVhjel9wcXlZaV9lU2E4WngzUWNFME8tLWd6TDhGZ0UtYVZLVDlNNDB3RHRXV3h5SWVBSXNKalNTREtvYkFHbWtkMGJUOUt4cUtCZTF4QQ?oc=5",
-   "published": "2026-11-25T12:17+00:00",
-   "excerpt": "",
-   "feed": "The Guardian (vía Google News)",
-   "lang": "EN",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c104",
-   "prio": 10,
-   "urgent": "resultados"
   },
   {
    "title": "Booking: ofensiva judicial de más de 1.000 hoteles españoles",
@@ -1822,7 +2149,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.preferente.com/wp-content/uploads/2021/03/booking-com-es-uno-de-los-buscadores-de-viajes-mas-populares-del-mundo-e1643114224834.jpeg",
-   "id": "c105",
+   "id": "c127",
    "prio": 3
   },
   {
@@ -1836,7 +2163,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://aerospaceglobalnews.com/wp-content/uploads/2026/11/MAG_Boeing_787-Large-1024x682.jpeg",
-   "id": "c106",
+   "id": "c128",
    "prio": 0
   },
   {
@@ -1850,7 +2177,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/emirates_a350_no_windsock_1920x1080.jpg",
-   "id": "c107",
+   "id": "c129",
    "prio": 0
   },
   {
@@ -1868,7 +2195,7 @@
     "Infobae",
     "MarketScreener España"
    ],
-   "id": "c108",
+   "id": "c130",
    "prio": 2
   },
   {
@@ -1882,7 +2209,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c109",
+   "id": "c131",
    "prio": -1
   },
   {
@@ -1896,8 +2223,11 @@
    "topic": "aeropuertos",
    "viaGoogle": true,
    "image": "",
-   "id": "c110",
-   "prio": 3
+   "alsoIn": [
+    "Bolsamania"
+   ],
+   "id": "c132",
+   "prio": 4
   },
   {
    "title": "España supera en un 30% el objetivo europeo de combustible sostenible de aviación",
@@ -1910,7 +2240,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c111",
+   "id": "c133",
    "prio": 5
   },
   {
@@ -1933,7 +2263,7 @@
     "mrobusinesstoday.com",
     "Aviation Week"
    ],
-   "id": "c112",
+   "id": "c134",
    "prio": 3
   },
   {
@@ -1947,7 +2277,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c113",
+   "id": "c135",
    "prio": -3
   },
   {
@@ -1961,7 +2291,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c114",
+   "id": "c136",
    "prio": 0
   },
   {
@@ -1975,21 +2305,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/1795114604445.png",
-   "id": "c115",
-   "prio": 0
-  },
-  {
-   "title": "Why Air Canada Is Abandoning Vancouver–Singapore",
-   "source": "Simple Flying",
-   "url": "https://simpleflying.com/video/why-air-canada-is-abandoning-vancouver-singapore/",
-   "published": "2026-11-25T12:00+00:00",
-   "excerpt": "In this video, we'll examine why Air Canada is abandoning its longest flight, how its successful Vancouver–Bangkok route reveals what went wrong, and whether the Airbus A350-1000 could eventually make nonstop service to Singapore profitable.",
-   "feed": "Simple Flying",
-   "lang": "EN",
-   "topic": "aerolineas",
-   "viaGoogle": false,
-   "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/84_lh_why-air-canada-killing-longest-route-3-months-after-launch_h_site-copy.jpg",
-   "id": "c116",
+   "id": "c137",
    "prio": 0
   },
   {
@@ -2003,7 +2319,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.preferente.com/wp-content/uploads/2024/06/air-europa-4.jpg",
-   "id": "c117",
+   "id": "c138",
    "prio": 4
   },
   {
@@ -2022,7 +2338,7 @@
     "AeroTime",
     "Aviation Week"
    ],
-   "id": "c118",
+   "id": "c139",
    "prio": 3
   },
   {
@@ -2036,7 +2352,7 @@
    "topic": "general",
    "viaGoogle": true,
    "image": "",
-   "id": "c119",
+   "id": "c140",
    "prio": 3
   },
   {
@@ -2050,7 +2366,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c120",
+   "id": "c141",
    "prio": 5
   },
   {
@@ -2064,11 +2380,11 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c121",
+   "id": "c142",
    "prio": 3
   },
   {
-   "title": "Air Europa recurre el DORA III de Aena ante el Supremo",
+   "title": "Air Europa lleva al Supremo el DORA III de Aena por limitar su crecimiento en Barajas",
    "source": "Airline92",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSnlrQllxWEpYZ2daVkxTd2c2eEdNV3AtWHpERW9fT2JUYXVCMzRqVGNTeGl1UFphWU1BTU40TlA2ODlHYVVybVh5WWdDYnljQjVCLUwzRWFRQWJnTGtXSFFEMjh3ZEo0Q1psSFZGeWpRTHNPZWEyemdyVWNpbmVsOHhrUFFXV1U5aTc1X05GUkNmRGRxbFA5b0ZvZGNjUGh1OThSelNzZlRjdXhHWno0NWE3OTNHX0djaWhUZmJ0NHEyQkJqeVE?oc=5",
    "published": "2026-11-25T11:39+00:00",
@@ -2078,8 +2394,13 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c122",
-   "prio": 7
+   "alsoIn": [
+    "Aviación News",
+    "Aviación News",
+    "Aviación News"
+   ],
+   "id": "c143",
+   "prio": 10
   },
   {
    "title": "Cuando una compañía aérea deja de volar, hay mucho más que aviones que se quedan en tierra",
@@ -2092,7 +2413,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c123",
+   "id": "c144",
    "prio": 0
   },
   {
@@ -2106,7 +2427,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c124",
+   "id": "c145",
    "prio": 2
   },
   {
@@ -2120,7 +2441,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.preferente.com/wp-content/uploads/2024/04/Rosario-Sanchez-e1713262977522.jpg",
-   "id": "c125",
+   "id": "c146",
    "prio": 0
   },
   {
@@ -2134,7 +2455,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://aviationa2z.com/wp-content/uploads/2025/09/TLV-FlyDubai_Boeing_737_MAX8_A6-FMH.webp",
-   "id": "c126",
+   "id": "c147",
    "prio": 0
   },
   {
@@ -2148,21 +2469,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c127",
-   "prio": 0
-  },
-  {
-   "title": "Cuerpo dice que Plus Ultra deberá seguir los \"procedimientos establecidos\" en relación al rescate",
-   "source": "PressDigital",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNDRGWnhJOUh4V2VIY2I2TUFxTFJHLUhmbkQ3RWRjMEU1MnVOdG9Yc0pSekRBQ3UzeGlHOHIzai1jeWMtaXc3NVF0cVlPM3NQZGVLS3J6WjBLNEliaDMzZWw0VEQ0M3ZjRHdYZ09wWkE2SGlrWVFBM1lZQlZ3SXV1amM3ZXJnRHB5amRQbzhtaUFIRDF4MFBSNnlDMm1zSmdVZkFlY1lQbWhIU0xnbmtsZEt2Nk9uUWZ5R0RlamZtY2lwVGhYNjdiZUp5V1MxbnFUckJRc3JaeHBzNXpYbFJB?oc=5",
-   "published": "2026-11-25T11:29+00:00",
-   "excerpt": "",
-   "feed": "Google News – aerolíneas España",
-   "lang": "ES",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c128",
+   "id": "c148",
    "prio": 0
   },
   {
@@ -2176,7 +2483,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c129",
+   "id": "c149",
    "prio": 0
   },
   {
@@ -2190,7 +2497,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c130",
+   "id": "c150",
    "prio": 0
   },
   {
@@ -2204,8 +2511,22 @@
    "topic": "aeropuertos",
    "viaGoogle": true,
    "image": "",
-   "id": "c131",
+   "id": "c151",
    "prio": 0
+  },
+  {
+   "title": "British Airways Plans Winter 2026 Expansion",
+   "source": "https://safariindia.com/",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5MMGJxZHJ1aDUtNHptbnlmUnVaMEtNcWdvOWpwZ04zZzVRQWY5cVVMYldHY1YzdzEzM2xHNGh5S3dqbWk4OEVrY0tydDZsYUpsQTdmQk9YWHYxWm1jQTdueXQwUW94STgxODE5ZVRoY0R5SEgyYjFB?oc=5",
+   "published": "2026-11-25T11:25+00:00",
+   "excerpt": "",
+   "feed": "Google News – British Airways / Aer Lingus / IAG",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c152",
+   "prio": 5
   },
   {
    "title": "American Airlines to fly WW2 veterans to Hawaii for Pearl Harbor anniversary",
@@ -2218,7 +2539,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "",
-   "id": "c132",
+   "id": "c153",
    "prio": 0
   },
   {
@@ -2235,7 +2556,7 @@
    "alsoIn": [
     "Airline92"
    ],
-   "id": "c133",
+   "id": "c154",
    "prio": 3
   },
   {
@@ -2249,7 +2570,7 @@
    "topic": "aeropuertos",
    "viaGoogle": true,
    "image": "",
-   "id": "c134",
+   "id": "c155",
    "prio": 3
   },
   {
@@ -2263,7 +2584,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c135",
+   "id": "c156",
    "prio": 0
   },
   {
@@ -2277,7 +2598,7 @@
    "topic": "aeropuertos",
    "viaGoogle": true,
    "image": "",
-   "id": "c136",
+   "id": "c157",
    "prio": 3
   },
   {
@@ -2291,7 +2612,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c137",
+   "id": "c158",
    "prio": 2
   },
   {
@@ -2305,7 +2626,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c138",
+   "id": "c159",
    "prio": 0
   },
   {
@@ -2319,7 +2640,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c139",
+   "id": "c160",
    "prio": -1
   },
   {
@@ -2333,7 +2654,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c140",
+   "id": "c161",
    "prio": -6
   },
   {
@@ -2347,7 +2668,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c141",
+   "id": "c162",
    "prio": -1
   },
   {
@@ -2361,7 +2682,7 @@
    "topic": "general",
    "viaGoogle": false,
    "image": "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2026/11/25/17956039533644.jpg",
-   "id": "c142",
+   "id": "c163",
    "prio": 18,
    "urgent": "resultados"
   },
@@ -2376,7 +2697,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c143",
+   "id": "c164",
    "prio": -1
   },
   {
@@ -2390,26 +2711,29 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.preferente.com/wp-content/uploads/2026/09/avion.jpg",
-   "id": "c144",
+   "id": "c165",
    "prio": 5
   },
   {
-   "title": "El Supremo admite a trámite el recurso del Ayuntamiento de El Prat contra el DORA III",
-   "source": "El Nacional.cat",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZ3d6X1AzRXlnUmxnOFRhWjlBSXhFbTFjeXhncXNIYjlvYW1JUzhaLUdoQ1ZDelJuMUgxbkxVOFlqTHNFdkhBbnhLV19EV0lXVW9LcW53UldOallnVFlUMUpSVE01b25zQ1Y4bi02S3dGQzl4X2MxUHY0dGxYQzlETG5UZW9SN2tEN3pUcE45TUdiQTBVOTRneWxHc21BbXZpT255UU5fd1N4QjE1clpoU3Q1TFlYY0dRanJtMmdaNWJoRnE5LVVXWUZaQQ?oc=5",
-   "published": "2026-11-25T10:45+00:00",
+   "title": "G-XWBA - Airbus A350-1041 - British Airways",
+   "source": "Flightradar24",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjMTBuR3FzNDMyYTIzbDA3WDJhd1F5WlhEc0pHMzRGU1M2M0xTeU1lNWJGVEN2dThaU1ZzdnJ1a1M4LWhlREV6d0FZanRzcXFEOTJFRy0yQWtxZ19qSDRB?oc=5",
+   "published": "2026-11-25T10:44+00:00",
    "excerpt": "",
-   "feed": "Google News – Aena / aeropuertos España",
-   "lang": "ES",
-   "topic": "aeropuertos",
+   "feed": "Google News – British Airways / Aer Lingus / IAG",
+   "lang": "EN",
+   "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
    "alsoIn": [
-    "La Ciutat",
-    "El Triangle"
+    "Simple Flying",
+    "Flightradar24",
+    "Flightradar24",
+    "Flightradar24",
+    "Flightradar24"
    ],
-   "id": "c145",
-   "prio": 5
+   "id": "c166",
+   "prio": 8
   },
   {
    "title": "Africa's Air Travel Is Surging, But Airlines Are Still Losing Money",
@@ -2422,7 +2746,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c146",
+   "id": "c167",
    "prio": 0
   },
   {
@@ -2436,7 +2760,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.aerotime.aero/images/2025/08/NS1-80x80.jpg.webp",
-   "id": "c147",
+   "id": "c168",
    "prio": 0
   },
   {
@@ -2450,7 +2774,7 @@
    "topic": "mro",
    "viaGoogle": false,
    "image": "",
-   "id": "c148",
+   "id": "c169",
    "prio": 4
   },
   {
@@ -2464,8 +2788,22 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c149",
+   "id": "c170",
    "prio": 5
+  },
+  {
+   "title": "NAFFCO Group selects Rapid7 to strengthen cyber resilience across its global operations",
+   "source": "Gulf News",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRFlRbnBfYWZaU0pVS0tkdEtwTHd0Z1lwUjlkTTVOTGx6bVNTWEdxOVRmUjBoQ0JHU0pqWmtvVmVnYlI3OXE1TW9PQXdvWHlhWFQza05iMnl1UnV1NGYzblVTMUZEc0lnYjFUbFc0cXVOWmlyT19XaGxVbGZWUkQyTmpqa3kwNUV1NmZvS215dHFMNDdORTNMR3R4aDhRcWVGcVhYVnZyTkljUk5IbnZhcE1yd05wR19ucVBtRkR1TWdGTE9JcDBIa1l0NU1YSHdhazB5LWtwdDY5ckNq0gHvAUFVX3lxTE12enI0SGtlakkyNzh2MGxtby1MclBwX3ZZclJXdHlPdzlhS2lpUUpGa1hVRGlZYmZsVHJMMDFqU3dYMnUxSENBZjZ1Qks2OUVEVGFONm9yd2tEZTZpcFlQQmdzTTF2ZlJIWk9IekY1b254bnRhSjJobzJjLXNQaGxMXzJBVVlNWHA4WVVKNUJibEU0UHl3QmpPRjlIbWxDemRtRXFGUXh4NHZxcE5abURJZ19XMHZBUHdjc1I5a3NsVjhwbU1JUWpBZC1iS2VtcW1lT1c0LUdybDFfQU5Nd29JVklnZ2FwcDNSSGg4a01N?oc=5",
+   "published": "2026-11-25T10:27+00:00",
+   "excerpt": "",
+   "feed": "Gulf News (vía Google News)",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c171",
+   "prio": 0
   },
   {
    "title": "Qué está pasando con Plus Ultra, la aerolínea que pasó del rescate millonario del Gobierno a cancelar sus vuelos",
@@ -2478,7 +2816,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c150",
+   "id": "c172",
    "prio": 0
   },
   {
@@ -2492,7 +2830,7 @@
    "topic": "turismo",
    "viaGoogle": false,
    "image": "https://skift.com/wp-content/uploads/2026/11/The-St.-Regis-Residences-at-Dubai-Islands.jpg?w=1024",
-   "id": "c151",
+   "id": "c173",
    "prio": 0
   },
   {
@@ -2506,7 +2844,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.aerotime.aero/images/2026/08/Neptun-Alpha-production-platform-during-installation-in-the-Black-Sea.webp",
-   "id": "c152",
+   "id": "c174",
    "prio": 0
   },
   {
@@ -2520,7 +2858,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c153",
+   "id": "c175",
    "prio": 0
   },
   {
@@ -2534,7 +2872,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c154",
+   "id": "c176",
    "prio": -2
   },
   {
@@ -2549,20 +2887,19 @@
    "viaGoogle": true,
    "image": "",
    "alsoIn": [
-    "Inout Viajes",
     "20 Minutos",
     "Anecdotarios",
+    "Inout Viajes",
     "Heraldo de Aragón",
-    "Gaceta del Turismo -",
-    "Demócrata"
+    "Gaceta del Turismo -"
    ],
-   "id": "c155",
+   "id": "c177",
    "prio": 2
   },
   {
    "title": "El Supremo examinará la legalidad de las inversiones previas a la ampliación del aeropuerto de El Prat",
    "source": "El Periódico",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNy01QlVCMnpnRmtaQmNJZzcybUFxSmxtREo5OWdlX2Y5Z1JVMkpxQWJHNjVXckRLblZsbUZOc3otM3BwSWRvZmxybHNQOElPWW45Tlc1Q3djX1YzWHUtZEpOaDhkeEJDTGk2ZktQOS1MZXh3QkpqNzg1U29ka0t1aUNzdW14cVBCLXNqYzdHdGhzSDZpRlI5T1hCNHY3TEVKOXk0UmVxalIybEdOTjNSX2lXcmlJSXRIY0xBOGJVTU9KYmN5Q1lveWQ2ZGdsejYyNUIw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNy01QlVCMnpnRmtaQmNJZzcybUFxSmxtREo5OWdlX2Y5Z1JVMkpxQWJHNjVXckRLblZsbUZOc3otM3BwSWRvZmxybHNQOElPWW45Tlc1Q3djX1YzWHUtZEpOaDhkeEJDTGk2ZktQOS1MZXh3QkpqNzg1U29ka0t1aUNzdW14cVBCLXNqYzdHdGhzSDZpRlI5T1hCNHY3TEVKOXk0UmVxalIybEdOTjNSX2lXcmlJSXRIY0xBOGJVTU9KYmN5Q1lveWQ2ZGdsejYyNUIw0gHTAUFVX3lxTE5KSTQwRGxhcmE3MDRQSVp4cmxOWkZ3SFptcmczTHZnX1c0cXg2NU9MWTZ2ckcwZEd2LTJJV3VzdTlnTHlCdEo2MUdBTzRWb2U5MkNtYXBBT2Uyc2J2b1ZQQmVBQWw2bXlMVGYwc0diQlIxdHU1bHQ2alF1eGZ2WU04UzlqMGh4VXo3dFZzcjVBLXFnd1M1SU9TMUdITWViRk0xbHpfN25wcDNUODBfSGFsY3dPeWF5OFFuT2NzeXF1TGhrLVdXaURFSG5vUzFrWk5ONFk?oc=5",
    "published": "2026-11-25T10:05+00:00",
    "excerpt": "",
    "feed": "Google News – Aena / aeropuertos España",
@@ -2570,7 +2907,7 @@
    "topic": "aeropuertos",
    "viaGoogle": true,
    "image": "",
-   "id": "c156",
+   "id": "c178",
    "prio": 3
   },
   {
@@ -2584,7 +2921,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c157",
+   "id": "c179",
    "prio": 2
   },
   {
@@ -2598,7 +2935,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c158",
+   "id": "c180",
    "prio": 2
   },
   {
@@ -2612,7 +2949,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.preferente.com/wp-content/uploads/2024/09/plus-ultra-8.jpg",
-   "id": "c159",
+   "id": "c181",
    "prio": 0
   },
   {
@@ -2626,7 +2963,7 @@
    "topic": "general",
    "viaGoogle": true,
    "image": "",
-   "id": "c160",
+   "id": "c182",
    "prio": 8
   },
   {
@@ -2640,7 +2977,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c161",
+   "id": "c183",
    "prio": 0
   },
   {
@@ -2654,7 +2991,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c162",
+   "id": "c184",
    "prio": 0
   },
   {
@@ -2668,7 +3005,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c163",
+   "id": "c185",
    "prio": 0
   },
   {
@@ -2682,7 +3019,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://aerospaceglobalnews.com/wp-content/uploads/2026/11/181029-F-MT955-004-1024x683.jpg",
-   "id": "c164",
+   "id": "c186",
    "prio": 0
   },
   {
@@ -2696,7 +3033,7 @@
    "topic": "mro",
    "viaGoogle": false,
    "image": "",
-   "id": "c165",
+   "id": "c187",
    "prio": 2
   },
   {
@@ -2710,8 +3047,25 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.businesstraveller.com/wp-content/uploads/2026/11/malaysia-airlines-787-10-boeing-1024x576.jpg",
-   "id": "c166",
+   "id": "c188",
    "prio": 0
+  },
+  {
+   "title": "What the British Airways BA239 Oil Leak Emergency Means for Passengers",
+   "source": "Around Prague",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPel94eXE1THVvY1BkRU1ZMmpaVXJCUVpCRWtldkNMakJWNWZMc1o4eEdFNDJFenR3bzZzbnNHYzJITjExdU41cm9JelpNcnFnenN2V0dCNVBzdDdfZEkzdVRROTVOODExczZpM1hwbWJwZWdWSUljTWNmc3RpdGVCZTBEcFdiajNRY3hSeFVPaE5OdU1pQ3ppRUNqT1FzcWJmV3VidEEtRkU?oc=5",
+   "published": "2026-11-25T09:39+00:00",
+   "excerpt": "",
+   "feed": "Google News – British Airways / Aer Lingus / IAG",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "alsoIn": [
+    "Nacionale"
+   ],
+   "id": "c189",
+   "prio": 6
   },
   {
    "title": "Why didn't BA239 divert? How a twin-engine 787 can keep flying across the Atlantic with an oil leak",
@@ -2724,7 +3078,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c167",
+   "id": "c190",
    "prio": 2
   },
   {
@@ -2738,7 +3092,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://aviationa2z.com/wp-content/uploads/2025/04/VT-IEH_Airbus_A320_IndiGo_12242415205-1024x683.webp",
-   "id": "c168",
+   "id": "c191",
    "prio": 0
   },
   {
@@ -2752,7 +3106,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c169",
+   "id": "c192",
    "prio": 0
   },
   {
@@ -2766,7 +3120,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c170",
+   "id": "c193",
    "prio": 0
   },
   {
@@ -2780,7 +3134,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c171",
+   "id": "c194",
    "prio": 0
   },
   {
@@ -2794,7 +3148,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c172",
+   "id": "c195",
    "prio": 0
   },
   {
@@ -2808,7 +3162,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c173",
+   "id": "c196",
    "prio": 0
   },
   {
@@ -2822,23 +3176,8 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c174",
+   "id": "c197",
    "prio": 0
-  },
-  {
-   "title": "easyJet decepciona con sus resultados del ejercicio 2026 por el alza del combustible",
-   "source": "Bolsamania",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZ1kzWHFSRU5mejN4SUdUUUpNbnRhcmlWY21vR29zS3VFUlo3Mko1UjlTbTR3S2c2VlAzMnBUU2ZsY1RGR0pPX1MzeXFjUnZoRWJmN3FDdHMzSU1haUZEWWtaR29CRUF5aHh5X0tLZEFNdF9sSDFneFJsa0U5di1TcDFjN1hjS2ZkM3hVVUt0UzVVdl9FeHA1OVdzQXpBZVk1YzRqc3VwWWhBejNWQ3diS2kxRG9LcHJjTV80czZzNXkzdnV1d0t5SFhWM1Z1Z2hCbVHSAdIBQVVfeXFMTWdZM1hxUkVOZnozeElHVFFKTW50YXJpVmNtb0dvc0t1RVJaNzJKNVI5U200d0tnNlZQMzJwVFNmbGNURkdKT19TM3lxY1J2aEViZjdxQ3RzM0lNYWlGRFlrWkdvQkVBeWh4eV9LS2RBTXRfbEgxZ3hSbGtFOXYtU3AxYzdYY0tmZDN4VVVLdFM1VXZfRXhwNTlXc0F6QWVZNWM0anN1cFloQXozVkN3YktpMURvS3ByY01fNHM2czV5M3Z1dXdLeUhYVjNWdWdoQm1R?oc=5",
-   "published": "2026-11-25T09:15+00:00",
-   "excerpt": "",
-   "feed": "Google News – aerolíneas España",
-   "lang": "ES",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c175",
-   "prio": 14,
-   "urgent": "resultados"
   },
   {
    "title": "Turkish Air Force Cougar helicopter crashes, killing five personnel",
@@ -2851,7 +3190,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "",
-   "id": "c176",
+   "id": "c198",
    "prio": 2
   },
   {
@@ -2865,7 +3204,7 @@
    "topic": "aeropuertos",
    "viaGoogle": true,
    "image": "",
-   "id": "c177",
+   "id": "c199",
    "prio": 0
   },
   {
@@ -2879,7 +3218,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c178",
+   "id": "c200",
    "prio": 0
   },
   {
@@ -2893,7 +3232,7 @@
    "topic": "aeropuertos",
    "viaGoogle": true,
    "image": "",
-   "id": "c179",
+   "id": "c201",
    "prio": 0
   },
   {
@@ -2907,7 +3246,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c180",
+   "id": "c202",
    "prio": 5
   },
   {
@@ -2921,7 +3260,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://aerospaceglobalnews.com/wp-content/uploads/2026/11/DSC02367-done-final-1024x683-2.jpg",
-   "id": "c181",
+   "id": "c203",
    "prio": 3
   },
   {
@@ -2935,7 +3274,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c182",
+   "id": "c204",
    "prio": 2
   },
   {
@@ -2949,7 +3288,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c183",
+   "id": "c205",
    "prio": 0
   },
   {
@@ -2963,7 +3302,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c184",
+   "id": "c206",
    "prio": 2
   },
   {
@@ -2977,21 +3316,24 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c185",
-   "prio": 0
+   "alsoIn": [
+    "Preferente.com"
+   ],
+   "id": "c207",
+   "prio": 1
   },
   {
-   "title": "What happened to BA239? A British Airways 787 to Boston declared an oil-leak emergency, then landed safely",
-   "source": "Nacionale",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRVY4dVdsdHBrU0ZWSFU0bDJibV9sNHYxVkIyaFVaT3pSSjUxRmJ6enJrOHBZWlZCUmVXaFRzUWRDWDhONk9WdnI2TzNqQjNnc3owUEdGTFVQXy1OSThNSUltRkJLLTE5dzNSbl8zdFZlMDJOZlhfNFRRcHkyMzVwTXozUU9BUjVXcUFmYTc3Wk8zXzUwNUtveUxqM1pjTHJaMU9wS0l3?oc=5",
-   "published": "2026-11-25T08:31+00:00",
+   "title": "British Airways investigating customers data breach",
+   "source": "Yeni Safak English",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQLUZaTkxVbWg0QWpFZVEwbm50SVVHZ2ZjZGJ0Yk1KR19iOGo0elRkOUV4OVdBUEF6WnFCLVRNYmEwWXlRX3d5a2NSZFVOUm5sWDVvUXk3al90bkF2Vk1vWmJjeGRnSlJvZFVJb0dmd0VSdFdWdmNqRTBwRU9MSUNWcmNPRHQ5NngtQXYtZGhsOUY3dTNu?oc=5",
+   "published": "2026-11-25T08:35+00:00",
    "excerpt": "",
    "feed": "Google News – British Airways / Aer Lingus / IAG",
    "lang": "EN",
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c186",
+   "id": "c208",
    "prio": 5
   },
   {
@@ -3005,7 +3347,7 @@
    "topic": "turismo",
    "viaGoogle": false,
    "image": "https://skift.com/wp-content/uploads/2024/01/CLOSE-UP-ON-A320neo-INDIGO-FUSELAGE_CE-AC-649-scaled-e1706267610695.jpg?w=1024",
-   "id": "c187",
+   "id": "c209",
    "prio": 0
   },
   {
@@ -3019,7 +3361,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c188",
+   "id": "c210",
    "prio": 0
   },
   {
@@ -3033,7 +3375,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c189",
+   "id": "c211",
    "prio": 5
   },
   {
@@ -3047,22 +3389,8 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c190",
+   "id": "c212",
    "prio": 0
-  },
-  {
-   "title": "Indra lanza su gran plan: 20.000 millones de ingresos en 2035 y la IA como motor de crecimiento de todas las divisiones",
-   "source": "Cinco Días – Empresas",
-   "url": "https://cincodias.elpais.com/companias/2026-11-25/indra-se-fija-unos-ingresos-de-12000-millones-para-2030-casi-el-doble-que-en-2025.html",
-   "published": "2026-11-25T08:21+00:00",
-   "excerpt": "La nueva hoja de ruta prevé facturar más de 12.000 millones en 2030, más del doble que en 2025. Desarrollará su propia plataforma terrestre para 2028-2029",
-   "feed": "Cinco Días – Empresas",
-   "lang": "ES",
-   "topic": "general",
-   "viaGoogle": false,
-   "image": "https://imagenes.elpais.com/resizer/v2/YELXWEIWCJGCNGN7V4LDT7MR2M.JPG?auth=2ea5167f2c25b03929777f2c4befd19a51440711cb2c371c97aeba526a85ee9a",
-   "id": "c191",
-   "prio": 7
   },
   {
    "title": "ENAIRE convoca 159 plazas de controlador aéreo ante el crecimiento récord del tráfico en España",
@@ -3075,7 +3403,25 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c192",
+   "id": "c213",
+   "prio": 5
+  },
+  {
+   "title": "El Supremo admite el recurso del Ayuntamiento de El Prat contra el plan de inversiones del aeropuerto",
+   "source": "La Ciutat",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdkZ5cWNqZlpEcUxYek5YZU5xNzNYMGZEcUNMN0RURmtDX3lJNFE4OExzZzRSUzlGQ19BU2V6S3h4clA3NlY0RzlrR3E2VURTQjBoTTRzQ2NJeGFHY2tQRG9KeFdTdUU2TGpCdnRKck5ENmc1VVlVZDlCcHEzSk5XNmk1ei1xQ0p0ZEZNMXI5dHBOeVZvNGNoR1R3M3VWd2FnU0laWVN4b0pPWkhQd2ZtVzF4Q2hIMHJaMGNCNkxjU3NOT1o5OUo2NlJoUFdqLXhT0gHWAUFVX3lxTFBZc25kejdoazlrWEJ2RTZjcnY4b0lmano0TUhvcUQ3RG5oN0kyMGRLRFJFZEh0Z3dxd0lQMmtSb1B5eXI4QTZuUGYwaHRfb3FRWEp0S0tYMkw1cUlZUE9RSHAxX1FybXBqOV9DTFZvX2xKYWpuaWoybm5vbkRmdjFIeXNtRXE5dTdFVXJ1eEdvOHpWbXN4dnYtMnRXWUtqV1lyQ3U5ZVV1WHBuX1dLb05EaXlXbGxLelk2RGFfcHJNSEhRV3BCb2VJMDhBbzNIdkl4dXRndlE?oc=5",
+   "published": "2026-11-25T08:18+00:00",
+   "excerpt": "",
+   "feed": "Google News – Aena / aeropuertos España",
+   "lang": "ES",
+   "topic": "aeropuertos",
+   "viaGoogle": true,
+   "image": "",
+   "alsoIn": [
+    "El Nacional.cat",
+    "El Triangle"
+   ],
+   "id": "c214",
    "prio": 5
   },
   {
@@ -3089,7 +3435,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "",
-   "id": "c193",
+   "id": "c215",
    "prio": 0
   },
   {
@@ -3103,7 +3449,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c194",
+   "id": "c216",
    "prio": 0
   },
   {
@@ -3117,7 +3463,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c195",
+   "id": "c217",
    "prio": 2
   },
   {
@@ -3131,7 +3477,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c196",
+   "id": "c218",
    "prio": 2
   },
   {
@@ -3145,7 +3491,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c197",
+   "id": "c219",
    "prio": 0
   },
   {
@@ -3159,7 +3505,7 @@
    "topic": "aeropuertos",
    "viaGoogle": true,
    "image": "",
-   "id": "c198",
+   "id": "c220",
    "prio": 0
   },
   {
@@ -3173,7 +3519,7 @@
    "topic": "aeropuertos",
    "viaGoogle": true,
    "image": "",
-   "id": "c199",
+   "id": "c221",
    "prio": 0
   },
   {
@@ -3187,7 +3533,7 @@
    "topic": "aeropuertos",
    "viaGoogle": true,
    "image": "",
-   "id": "c200",
+   "id": "c222",
    "prio": 0
   },
   {
@@ -3201,7 +3547,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c201",
+   "id": "c223",
    "prio": 0,
    "urgent": "operacion"
   },
@@ -3216,7 +3562,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c202",
+   "id": "c224",
    "prio": 2
   },
   {
@@ -3230,7 +3576,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c203",
+   "id": "c225",
    "prio": 0
   },
   {
@@ -3244,7 +3590,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c204",
+   "id": "c226",
    "prio": 2
   },
   {
@@ -3258,7 +3604,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c205",
+   "id": "c227",
    "prio": 0
   },
   {
@@ -3272,7 +3618,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c206",
+   "id": "c228",
    "prio": 0
   },
   {
@@ -3291,7 +3637,7 @@
     "El Nacional",
     "El Nacional"
    ],
-   "id": "c207",
+   "id": "c229",
    "prio": 6
   },
   {
@@ -3305,7 +3651,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c208",
+   "id": "c230",
    "prio": 0
   },
   {
@@ -3319,7 +3665,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c209",
+   "id": "c231",
    "prio": 0
   },
   {
@@ -3333,7 +3679,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c210",
+   "id": "c232",
    "prio": 0
   },
   {
@@ -3347,7 +3693,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c211",
+   "id": "c233",
    "prio": 0
   },
   {
@@ -3361,7 +3707,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c212",
+   "id": "c234",
    "prio": 0
   },
   {
@@ -3375,7 +3721,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c213",
+   "id": "c235",
    "prio": 2
   },
   {
@@ -3389,7 +3735,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c214",
+   "id": "c236",
    "prio": 0
   },
   {
@@ -3403,7 +3749,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c215",
+   "id": "c237",
    "prio": 0
   },
   {
@@ -3417,7 +3763,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c216",
+   "id": "c238",
    "prio": 0
   },
   {
@@ -3431,7 +3777,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c217",
+   "id": "c239",
    "prio": 0
   },
   {
@@ -3445,7 +3791,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c218",
+   "id": "c240",
    "prio": 0
   },
   {
@@ -3459,7 +3805,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c219",
+   "id": "c241",
    "prio": 0
   },
   {
@@ -3476,7 +3822,7 @@
    "alsoIn": [
     "Aviation Pros"
    ],
-   "id": "c220",
+   "id": "c242",
    "prio": 1
   },
   {
@@ -3490,7 +3836,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c221",
+   "id": "c243",
    "prio": 5
   },
   {
@@ -3504,7 +3850,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c222",
+   "id": "c244",
    "prio": 0
   },
   {
@@ -3518,7 +3864,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c223",
+   "id": "c245",
    "prio": 5
   },
   {
@@ -3535,7 +3881,7 @@
    "alsoIn": [
     "Granada Hoy"
    ],
-   "id": "c224",
+   "id": "c246",
    "prio": 4
   },
   {
@@ -3549,7 +3895,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c225",
+   "id": "c247",
    "prio": 0
   },
   {
@@ -3563,7 +3909,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c226",
+   "id": "c248",
    "prio": 0
   },
   {
@@ -3577,7 +3923,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c227",
+   "id": "c249",
    "prio": 0
   },
   {
@@ -3591,7 +3937,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c228",
+   "id": "c250",
    "prio": 0
   },
   {
@@ -3605,7 +3951,7 @@
    "topic": "general",
    "viaGoogle": true,
    "image": "",
-   "id": "c229",
+   "id": "c251",
    "prio": 3
   },
   {
@@ -3619,8 +3965,22 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c230",
+   "id": "c252",
    "prio": 2
+  },
+  {
+   "title": "British Airways moves Perugia flights to London City",
+   "source": "KarloBag.eu",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV3R0T29uNk0tdnE3Ri12WDVGYzRmYTRwbmVtUll5Nk9GX2dEMTN4Z0pYZDJMazFZS0FNdGgweTJZSG1abFVvckZzamZqbkVJcEtucWdpczRRLXhGSDROdWRIM25faTU1MlRHS1BKMTVRUUFDay1BcFU1bXpyQ1l6RXR6M1UzTlcwRmdIZmR2MS16X1dRSWo4X3NSdVlkMFgtdDFYdDdLODZSVkRHcjVtVUoxaHNoc1dr?oc=5",
+   "published": "2026-11-25T05:51+00:00",
+   "excerpt": "",
+   "feed": "Google News – British Airways / Aer Lingus / IAG",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c253",
+   "prio": 5
   },
   {
    "title": "El rey del selectivo en noviembre sube un 12% y puede ganar un 22,5% más...a cuenta de Iberia",
@@ -3633,7 +3993,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c231",
+   "id": "c254",
    "prio": 5
   },
   {
@@ -3647,7 +4007,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://aviationa2z.com/wp-content/uploads/2025/09/1920_emiratespremiumeconomycabin-1024x683.webp",
-   "id": "c232",
+   "id": "c255",
    "prio": 0
   },
   {
@@ -3664,7 +4024,7 @@
    "alsoIn": [
     "AviTrader Aviation News"
    ],
-   "id": "c233",
+   "id": "c256",
    "prio": 3
   },
   {
@@ -3678,7 +4038,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c234",
+   "id": "c257",
    "prio": 0
   },
   {
@@ -3692,7 +4052,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c235",
+   "id": "c258",
    "prio": 4
   },
   {
@@ -3706,7 +4066,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.headforpoints.com/wp-content/uploads/2026/11/Site_thumbnail_cover-Head_in_the_Clouds-.webp",
-   "id": "c236",
+   "id": "c259",
    "prio": 0
   },
   {
@@ -3720,7 +4080,7 @@
    "topic": "general",
    "viaGoogle": true,
    "image": "",
-   "id": "c237",
+   "id": "c260",
    "prio": 5
   },
   {
@@ -3734,7 +4094,7 @@
    "topic": "aeropuertos",
    "viaGoogle": true,
    "image": "",
-   "id": "c238",
+   "id": "c261",
    "prio": 3
   },
   {
@@ -3748,7 +4108,7 @@
    "topic": "aeropuertos",
    "viaGoogle": true,
    "image": "",
-   "id": "c239",
+   "id": "c262",
    "prio": 3
   },
   {
@@ -3762,7 +4122,7 @@
    "topic": "aeropuertos",
    "viaGoogle": true,
    "image": "",
-   "id": "c240",
+   "id": "c263",
    "prio": 6
   },
   {
@@ -3776,7 +4136,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c241",
+   "id": "c264",
    "prio": 0
   },
   {
@@ -3790,7 +4150,21 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.aerotime.aero/images/2026/08/Untitled-design-37-80x80.jpg.webp",
-   "id": "c242",
+   "id": "c265",
+   "prio": 0
+  },
+  {
+   "title": "Una administradora judicial ya gestiona la quiebra de Plus Ultra con 60 millones en billetes sin devolver",
+   "source": "OkDiario",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQV3o0elktT2pUNEhQSDJZb2p2dUFaaVBlVXlGMTJIck92R3huR0U1UlQtakxaMGw2UmJhVW1EaGpYV2kzUEVRa0o2azc3V3BuSDdteGE4NEIzWGZuMXhCdlEyZWxIYTRqUGp0QWRtQmxqZTl6X3l5TzNoTmVEb0d4bHZHSGYwT1JPVnBOU2FJTEllLTlicnF4ZkFHX3Z1U29kUGQ3bU95RERmRWlTbUkzYVNoWjRiZTh4Ung1eG9FbUdTSlRSQ1HSAcsBQVVfeXFMT0I0V1VPUXp3UERVUWdUSm5meGRsZTRUT3Jnc3Jvdm0wbHZhaklBZ21oamxSVFREV2pMeHJvLWJlMmlsaUxEajV3dWlfN1dQTkxEX0N6a3V6ZmN4akM4SF9ZS2RZcTVjT0VGOUxJMmpFZGFhTnd5akFVVWFNdl9pVkgzRFRPeS1pVTc0Z3dmbi13UFpBSkJldDNadml4cl9BbzVUUURJbnRpZU8tSm5nYzhHZUhhQXBSR2tuQXYtbGo3bHBlTm9KdVh1R28?oc=5",
+   "published": "2026-11-25T04:46+00:00",
+   "excerpt": "",
+   "feed": "Google News – aerolíneas España",
+   "lang": "ES",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c266",
    "prio": 0
   },
   {
@@ -3804,7 +4178,7 @@
    "topic": "turismo",
    "viaGoogle": false,
    "image": "",
-   "id": "c243",
+   "id": "c267",
    "prio": 3
   },
   {
@@ -3818,7 +4192,7 @@
    "topic": "turismo",
    "viaGoogle": false,
    "image": "",
-   "id": "c244",
+   "id": "c268",
    "prio": 2
   },
   {
@@ -3832,7 +4206,7 @@
    "topic": "turismo",
    "viaGoogle": false,
    "image": "",
-   "id": "c245",
+   "id": "c269",
    "prio": 5
   },
   {
@@ -3848,9 +4222,9 @@
    "image": "",
    "alsoIn": [
     "El Debate",
-    "Ladevi Medios y Soluciones"
+    "Ladevi"
    ],
-   "id": "c246",
+   "id": "c270",
    "prio": -2
   },
   {
@@ -3864,7 +4238,7 @@
    "topic": "turismo",
    "viaGoogle": false,
    "image": "",
-   "id": "c247",
+   "id": "c271",
    "prio": 5
   },
   {
@@ -3878,7 +4252,7 @@
    "topic": "turismo",
    "viaGoogle": false,
    "image": "",
-   "id": "c248",
+   "id": "c272",
    "prio": 0
   },
   {
@@ -3892,7 +4266,7 @@
    "topic": "turismo",
    "viaGoogle": false,
    "image": "",
-   "id": "c249",
+   "id": "c273",
    "prio": 2
   },
   {
@@ -3906,7 +4280,7 @@
    "topic": "turismo",
    "viaGoogle": false,
    "image": "",
-   "id": "c250",
+   "id": "c274",
    "prio": 3
   },
   {
@@ -3920,7 +4294,7 @@
    "topic": "turismo",
    "viaGoogle": false,
    "image": "https://nexotur.com/wp-content/uploads/2026/11/star-princess-crucero-costa-tropical-premio-travel-awards.jpeg",
-   "id": "c251",
+   "id": "c275",
    "prio": 0
   },
   {
@@ -3937,7 +4311,7 @@
    "alsoIn": [
     "mrobusinesstoday.com"
    ],
-   "id": "c252",
+   "id": "c276",
    "prio": 1
   },
   {
@@ -3951,8 +4325,11 @@
    "topic": "general",
    "viaGoogle": false,
    "image": "https://imagenes.elpais.com/resizer/v2/YR55DM5AORAAZL4V7LM7MPVHLE.jpg?auth=bada7456e5151ab9c52bb98b33f520d2112a7c824123fe0a20aeab3abfd00ded",
-   "id": "c253",
-   "prio": 7
+   "alsoIn": [
+    "The Officer"
+   ],
+   "id": "c277",
+   "prio": 8
   },
   {
    "title": "MAG buys SAE from Airbus to expand MRO business [WATCH]",
@@ -3965,7 +4342,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c254",
+   "id": "c278",
    "prio": 2
   },
   {
@@ -3979,7 +4356,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.headforpoints.com/wp-content/uploads/2020/12/South-Western-Railway.jpg",
-   "id": "c255",
+   "id": "c279",
    "prio": 5
   },
   {
@@ -3993,21 +4370,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c256",
-   "prio": 0
-  },
-  {
-   "title": "India’s Bloom Eyes Southeast Asia and Twice the Rooms After $75 Million Raise",
-   "source": "Skift",
-   "url": "https://skift.com/2026/11/24/indias-bloom-eyes-southeast-asia-and-twice-the-rooms-after-75-million-raise/",
-   "published": "2026-11-25T04:00+00:00",
-   "excerpt": "Bloom's pitch is profitable growth in a market where many chains chase room counts. Kedaara's $75 million will test whether that discipline survives as it scales up and leaves India for the first time.",
-   "feed": "Skift",
-   "lang": "EN",
-   "topic": "turismo",
-   "viaGoogle": false,
-   "image": "https://skift.com/wp-content/uploads/2026/04/Bloom-x-Skift-Hero-Image-1-e1795579784474.jpg?w=1024",
-   "id": "c257",
+   "id": "c280",
    "prio": 0
   },
   {
@@ -4021,7 +4384,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c258",
+   "id": "c281",
    "prio": 2
   },
   {
@@ -4035,7 +4398,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://aviationa2z.com/wp-content/uploads/2024/12/ng8xaiad-1024x576.webp",
-   "id": "c259",
+   "id": "c282",
    "prio": 0
   },
   {
@@ -4049,7 +4412,7 @@
    "topic": "general",
    "viaGoogle": true,
    "image": "",
-   "id": "c260",
+   "id": "c283",
    "prio": 3
   },
   {
@@ -4063,7 +4426,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.headforpoints.com/wp-content/uploads/2025/01/Aer-Lingus-Avios.webp",
-   "id": "c261",
+   "id": "c284",
    "prio": 5
   },
   {
@@ -4077,7 +4440,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "",
-   "id": "c262",
+   "id": "c285",
    "prio": 0
   },
   {
@@ -4091,7 +4454,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "",
-   "id": "c263",
+   "id": "c286",
    "prio": 0
   },
   {
@@ -4111,9 +4474,10 @@
     "Cork Beo",
     "Drive Tesla Canada",
     "Irish Mirror",
+    "RSVP Live",
     "news.corksafetyalerts.com"
    ],
-   "id": "c264",
+   "id": "c287",
    "prio": 8
   },
   {
@@ -4127,7 +4491,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "",
-   "id": "c265",
+   "id": "c288",
    "prio": 0
   },
   {
@@ -4141,7 +4505,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "",
-   "id": "c266",
+   "id": "c289",
    "prio": 2
   },
   {
@@ -4155,7 +4519,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "",
-   "id": "c267",
+   "id": "c290",
    "prio": -6
   },
   {
@@ -4169,8 +4533,11 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.headforpoints.com/wp-content/uploads/2023/05/Royal-Air-Maroc.jpg",
-   "id": "c268",
-   "prio": 5
+   "alsoIn": [
+    "www.insideflyer.com"
+   ],
+   "id": "c291",
+   "prio": 6
   },
   {
    "title": "Las agencias reclaman más colaboración con las aerolíneas y un turismo social adaptado a los nuevos viajeros",
@@ -4183,7 +4550,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c269",
+   "id": "c292",
    "prio": 2
   },
   {
@@ -4197,7 +4564,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "",
-   "id": "c270",
+   "id": "c293",
    "prio": 0
   },
   {
@@ -4211,7 +4578,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c271",
+   "id": "c294",
    "prio": 2
   },
   {
@@ -4225,40 +4592,8 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c272",
+   "id": "c295",
    "prio": 2
-  },
-  {
-   "title": "El precio del combustible de aviación se dispara, las aerolíneas cambian su estrategia de financiación de aeronaves",
-   "source": "IDNFinancials",
-   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPNVM4RzY0Q181TWRodFVPRlNnd3dLdkljdVJYc1hZQ1dGZl9yeGVCREcxX3NCa0RMTjF6blBUUGJTZGxpN25iUHM2eHhFUm80UXI1N0wwX2EtSERUcVY1RGFQbGhIU3luRFNzY0x5WkZRbEZlRW00Y0pKNHN2OFdYLWR1ZEdoVFJ4Zkt5QTB4a3dDNEpJaDUwemkxcm1rZFhMOUdaa3dmZ2x0akg4QWUtS0FOd1FXU3FZODFqc0FKUmtBRFlYdGMyN2o1YnNZSFI1YUtWLU5jUTRrMXprV1RmeHJBd3ZHenZlalB4RE5fVVljLTlSOWlhOEtMY21hWDBiQ3E0?oc=5",
-   "published": "2026-11-25T02:40+00:00",
-   "excerpt": "",
-   "feed": "Google News – aerolíneas España",
-   "lang": "ES",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c273",
-   "prio": 2
-  },
-  {
-   "title": "G-XLEA - Airbus A380-841 - British Airways",
-   "source": "Flightradar24",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBsQlo1MjdMbTR5QU4zcGVTZmZQc3BOTkVwZ2pPWnpmaGhEc3lYME9TNXlqTkVJNUJwMGxabUVuQl9mb01JVjlzbkZsMU5RaXFINDFhTGpOZmZfaUtMdzRR?oc=5",
-   "published": "2026-11-25T02:28+00:00",
-   "excerpt": "",
-   "feed": "Google News – British Airways / Aer Lingus / IAG",
-   "lang": "EN",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "alsoIn": [
-    "Simple Flying",
-    "Flightradar24"
-   ],
-   "id": "c274",
-   "prio": 7
   },
   {
    "title": "Dos tribunales indagan sobre el conflicto de interés de Sánchez en el rescate de Air Europa por Begoña Gómez",
@@ -4272,10 +4607,10 @@
    "viaGoogle": true,
    "image": "",
    "alsoIn": [
-    "La Razón",
-    "Libertad Digital"
+    "Libertad Digital",
+    "La Razón"
    ],
-   "id": "c275",
+   "id": "c296",
    "prio": 6
   },
   {
@@ -4289,8 +4624,22 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c276",
+   "id": "c297",
    "prio": 0
+  },
+  {
+   "title": "Iberia y Air Europa descartan recortar plazas para el próximo verano pese al encarecimiento del combustible",
+   "source": "Prensa Mercosur",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPd2hTdjI4WmxKRUw5aGpHUjcxNXU4bjJYdGtJcllDTk81d2ZmcDc1SG9tR01BMDdvRGZycEhqaWNPU2Zkdk1nUDJsSjZGTzJoX1FlVk5ENWhjQ3lSb2kyNkZtNmZTcV85eVRCSkVBYTFuTUdKUGlLOF9jd1hETnpfcTdzTEg1VFJlVThsTFFnbDY2U3VyR2IyaktDcW00ZkV5Uk1VZUdMVkhDYVpKekJ0dU1McjBiOGlYNF9obWdrX0NzQk1YWEdQMkN5N1JCX044OEU2U0VXWkpGOUNuRWVN?oc=5",
+   "published": "2026-11-25T02:13+00:00",
+   "excerpt": "",
+   "feed": "Google News – Air Europa",
+   "lang": "ES",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c298",
+   "prio": 11
   },
   {
    "title": "Dubai tenants are switching homes to cut rent, but where are they moving?",
@@ -4303,8 +4652,22 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c277",
+   "id": "c299",
    "prio": 0
+  },
+  {
+   "title": "New seasonal British Airways route links Glasgow and Nice",
+   "source": "KarloBag.eu",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOalU3WjhHOHZObHpJdlg2M09XVDNzNzJLR0Z5a1pLazZ3NENsWGEyS0JvWk10RmlKMEQ0czNtVU95d21RZUl5QklDTmNfa0ZfU3F5MGZZU0hHemZzenlOVktPcGtidm54QzBQN2lZdkdIbEJBRXdqazdxSi1xU1B6a0IyOXkxRk1nWXlzM2JRNVJLd2JqV1hsOTVWYWFFODhud1FISDBHQ2Jna2oyZ2EyQU9rNzNpTFVw?oc=5",
+   "published": "2026-11-25T01:57+00:00",
+   "excerpt": "",
+   "feed": "Google News – British Airways / Aer Lingus / IAG",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c300",
+   "prio": 5
   },
   {
    "title": "Radar outage prompts second ground stop in two days at Chicago O’Hare",
@@ -4320,7 +4683,7 @@
    "alsoIn": [
     "Aviation A2Z"
    ],
-   "id": "c278",
+   "id": "c301",
    "prio": 1
   },
   {
@@ -4334,21 +4697,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c279",
-   "prio": 0
-  },
-  {
-   "title": "Yucatán receives the first direct Air Canada flight between Toronto and Mérida",
-   "source": "Aviacionline",
-   "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQWUlKU09pOHBxUnQwaTBIU3N0V3dfNi1YV0doUjdzdHFpTkFFNnJ5VjZMQ3BsM1VRekEwSnZZUlVTRG92NHFUam5TMThYRGdsMDhwdUFWNDBMRDBNUFU4V0U2c3ZRVmlGdWpLM0VvV0JWLW5LRVhTenhPRm9KSk9ZelJLNWE2UENuTXY1RFNFT3pSbFVUSUhVbUJubXFDaUx6aDY4Z0dYR20wSTd5Y2RpRHJJNzBFampNZVB1WlJCWUk3Zm1tMVZERjdOcUUyNjNZWmFZaDROVm5RdlBBUm5DUFJlcmRfNWlQdFpmYWxMUU9ISDlsTF84RG9URFVEU0RPOUV6ekplUEt0MkJScUZHZDVCX21mOVdRSWpQTWJlTFZKZw?oc=5",
-   "published": "2026-11-25T01:06+00:00",
-   "excerpt": "",
-   "feed": "Aviacionline (vía Google News)",
-   "lang": "ES",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c280",
+   "id": "c302",
    "prio": 0
   },
   {
@@ -4362,7 +4711,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c281",
+   "id": "c303",
    "prio": 7
   },
   {
@@ -4376,11 +4725,8 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "alsoIn": [
-    "Diario Primicia"
-   ],
-   "id": "c282",
-   "prio": 13
+   "id": "c304",
+   "prio": 12
   },
   {
    "title": "Woman Faced A Felony Charge For Stealing A Rental Car—Then Won A Seat In Congress And Prosecutors Dropped The Case",
@@ -4393,7 +4739,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c283",
+   "id": "c305",
    "prio": 0
   },
   {
@@ -4407,7 +4753,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c284",
+   "id": "c306",
    "prio": 0
   },
   {
@@ -4421,7 +4767,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c285",
+   "id": "c307",
    "prio": 0
   },
   {
@@ -4435,21 +4781,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c286",
-   "prio": 0
-  },
-  {
-   "title": "American Drops Lawsuit Over Gates at Chicago O’Hare but It’s Still Locked in a Battle With United",
-   "source": "Skift",
-   "url": "https://skift.com/2026/11/24/american-drops-lawsuit-over-gates-at-chicago-o-hare/",
-   "published": "2026-11-24T23:18+00:00",
-   "excerpt": "American has spent much of the year building back its Chicago presence, even earning another gate at O’Hare just from increasing capacity at the airport, which has been the backdrop of an intense turf war with United.",
-   "feed": "Skift",
-   "lang": "EN",
-   "topic": "turismo",
-   "viaGoogle": false,
-   "image": "https://skift.com/wp-content/uploads/2025/02/N754AN-American-Airlines-Boeing-777-223ER-5-e1740404716546.jpg?w=1024",
-   "id": "c287",
+   "id": "c308",
    "prio": 0
   },
   {
@@ -4463,7 +4795,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c288",
+   "id": "c309",
    "prio": 0
   },
   {
@@ -4477,7 +4809,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c289",
+   "id": "c310",
    "prio": 0
   },
   {
@@ -4491,7 +4823,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c290",
+   "id": "c311",
    "prio": 5
   },
   {
@@ -4505,7 +4837,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c291",
+   "id": "c312",
    "prio": 0
   },
   {
@@ -4519,7 +4851,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c292",
+   "id": "c313",
    "prio": 0
   },
   {
@@ -4533,7 +4865,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c293",
+   "id": "c314",
    "prio": 0
   },
   {
@@ -4547,7 +4879,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c294",
+   "id": "c315",
    "prio": -6
   },
   {
@@ -4561,7 +4893,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c295",
+   "id": "c316",
    "prio": 0
   },
   {
@@ -4575,7 +4907,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c296",
+   "id": "c317",
    "prio": 0
   },
   {
@@ -4589,7 +4921,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c297",
+   "id": "c318",
    "prio": 0
   },
   {
@@ -4603,7 +4935,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c298",
+   "id": "c319",
    "prio": 0
   },
   {
@@ -4617,21 +4949,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c299",
-   "prio": 0
-  },
-  {
-   "title": "Aeropuertos de Chicago prevén más de 2 millones de pasajeros para Acción de Gracias",
-   "source": "Aviacionline",
-   "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPOE9qcWIzUk1vWHJWajY0Y2p5NE1PODBneVdRb2pEdWhHelhxaWlpcGZSRVNWZ2s1bGUyYVdNS3FmR0JFR0MycFYyZ01hYlNzdUZPZ2lnaGRsYmZkN0p0U3B1OHZNbmJ1OGdZYzlZRllWZk5ocndRb1g3Mnh6cERWWjdTaTNOdk1naFBTWkR6Zzc5VXdQbW1tOWd3YVRJbGhIa2tuRjNfR3FtNDU0ZzVYb1N5VlRHajZUUkM3eFJ3REpybG1OcUpnTUlzVlVzM1h6R2pyeF9Fa2RaNFVxSlQ2SVUzUzhnc0YwYXlTZkVxVnJfZHg3VnUtR2lPUjcwVlFaR2U3UlhjOEZSTDl4STN0dV9SX09JaVJsc1FoOA?oc=5",
-   "published": "2026-11-24T22:57+00:00",
-   "excerpt": "",
-   "feed": "Aviacionline (vía Google News)",
-   "lang": "ES",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c300",
+   "id": "c320",
    "prio": 0
   },
   {
@@ -4645,7 +4963,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c301",
+   "id": "c321",
    "prio": 0
   },
   {
@@ -4659,22 +4977,36 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c302",
+   "id": "c322",
    "prio": 2
   },
   {
-   "title": "Cierre de operaciones de Plus Ultra deja a miles de viajeros varados entre España y Latinoamérica",
-   "source": "2001 Online",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNTktHQWR1c01LMkhEUTlnajRIYUxHSzNRWllLR2dBdWN0Sm5kbmxQUmZwTHp3QU42b2F0UlFsbUtKUzJDWDBFaGpPeU1aVm13LUVJdmtGLTI4Q3FuaWFwd3JOSENoVXI4cGN1YXZKUFVtYjJ0UG8ydV9CVmdJYjJEV2tMZ0ZpTmxUcFVOZnFtRzV1eG5PWE1KT25UMXdoNVlPRnV6TmxpSjJ0SS01MExVQXhwTG1xb2s0VGhaaUtXVk1HSVRQbUlZTlRQaEtNNVppelVIMjBFdklmakQ4SUsyZzhGNTE?oc=5",
-   "published": "2026-11-24T22:39+00:00",
+   "title": "Singapore Airlines llegó al nuevo aeropuerto de Sídney con un vuelo diario desde Changi",
+   "source": "Aviacionline",
+   "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNY0RZNkNyLTlPUlByWGNPRGJ0WTdQdmFfOFVYN0VUYXBNZnUwTGJVZ0QyNGFSS3ZZSzgwcUhrSkdTVkZGRV9YazN1bGUyVFk1LTNPS08wNlNIQm1iTm5la1Vqb1p0WXRYaVVobDZXR2Nuc3JwN3pFbmd5UENoVTl6N1RZVDEyNkxpT040X0JVeTZKOFd2NW9OZ2RldFl3NTMtTzh1ZkVSeUhEN2V2STRwWUh3YmhibWlORW5IdUNTLVJUdWdMbVJGY1pXb00td0VPbnJINC1JYmxqMFZ0NXpRVHE0RUtrTzFRMW9hT3FlbmJ1V0E0ZUg3WEJLaUFuYWdYZnJiNXdlaVdtT0dfVUtWeQ?oc=5",
+   "published": "2026-11-24T22:43+00:00",
    "excerpt": "",
-   "feed": "Google News – Iberia / Vueling / IAG",
+   "feed": "Aviacionline (vía Google News)",
    "lang": "ES",
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c303",
-   "prio": 3
+   "id": "c323",
+   "prio": 0
+  },
+  {
+   "title": "KLM vuelve a Malpensa y abre vuelos a Sofía y Shannon con aviones Embraer E195-E2",
+   "source": "Aviacionline",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNclBtai1HRmxrNFBvQ1VDWS1HWUtvTDltSGw4Mk9mNGlIUGd3amZUeDJXVzlrejJvUXlzVmU4VW1hNWdIT2U4VFFoSWhIQW9JSlFsMGdEQ3kzOUFlaThXdkQ4dmZwV0pqYWF5T0tXUnlJenZDVGpMVjZleEpydlNKN096cEJLY3lQN0cyWnZFbHBubEJ6NnlKYUxLWmdpUVZKYWY5ZXdQakVUZGhqTmpOVmdIaktkOHJuLXhNOWgxaEVyTkRuUEktQ1FzS01NTEtMZkJkQTFIMWdOZEwxejJXd296VXRqNHhHX2pZTjlCNG1jemRYU2YtVmhXWHBSdzg?oc=5",
+   "published": "2026-11-24T22:31+00:00",
+   "excerpt": "",
+   "feed": "Aviacionline (vía Google News)",
+   "lang": "ES",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c324",
+   "prio": 2
   },
   {
    "title": "Air Forces In Focus: Black Sea Threats Shape Romanian Procurement",
@@ -4687,7 +5019,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c304",
+   "id": "c325",
    "prio": 0
   },
   {
@@ -4701,7 +5033,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "",
-   "id": "c305",
+   "id": "c326",
    "prio": 2
   },
   {
@@ -4715,7 +5047,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c306",
+   "id": "c327",
    "prio": 0
   },
   {
@@ -4729,21 +5061,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c307",
-   "prio": 0
-  },
-  {
-   "title": "Comienza a volar a Argentina la aerolínea israelí El Al: la ruta une por primera vez a ambos países de forma directa",
-   "source": "Diario Neuquino",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMERXRXdrLVpPUHUxZ1IxSmdHb0J6T2pXRm8zVHVDM0VTWTBjYXBkUVFOZzJDX3ZxbDFRNXlzWFdKY2tfQXFnb1h2alZ0UzB2TGlhYURBY09oS21pRmZzVkNrZWVpLURnOVdBX1JHU0ZWNENMbG51R0ZDS2xmNFdkeXBGV1hwbl9SSlYydGZZcjdTSE02cVlTR0I5Y1dSM1NvbC01V294aU1EOHJSOW5jV3BrcFBBMVBXNTQ2QVEzSU5BZVhOazdzdXg5cllUZEhWZHlrbktqWWRPRnI0ZXBV?oc=5",
-   "published": "2026-11-24T22:06+00:00",
-   "excerpt": "",
-   "feed": "Google News – Iberia / Vueling / IAG",
-   "lang": "ES",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c308",
+   "id": "c328",
    "prio": 0
   },
   {
@@ -4757,7 +5075,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c309",
+   "id": "c329",
    "prio": 0
   },
   {
@@ -4771,7 +5089,7 @@
    "topic": "general",
    "viaGoogle": true,
    "image": "",
-   "id": "c310",
+   "id": "c330",
    "prio": 3
   },
   {
@@ -4785,7 +5103,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c311",
+   "id": "c331",
    "prio": 0
   },
   {
@@ -4799,7 +5117,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://aviationa2z.com/wp-content/uploads/2025/05/qmn0bs8q-1024x576.webp",
-   "id": "c312",
+   "id": "c332",
    "prio": 0
   },
   {
@@ -4813,7 +5131,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "",
-   "id": "c313",
+   "id": "c333",
    "prio": 0
   },
   {
@@ -4827,7 +5145,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c314",
+   "id": "c334",
    "prio": 2
   },
   {
@@ -4841,7 +5159,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c315",
+   "id": "c335",
    "prio": 0
   },
   {
@@ -4855,7 +5173,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c316",
+   "id": "c336",
    "prio": 0
   },
   {
@@ -4869,7 +5187,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c317",
+   "id": "c337",
    "prio": 4
   },
   {
@@ -4883,7 +5201,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://aerospaceglobalnews.com/wp-content/uploads/2025/11/NPPlane2.jpeg",
-   "id": "c318",
+   "id": "c338",
    "prio": 0
   },
   {
@@ -4897,7 +5215,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c319",
+   "id": "c339",
    "prio": 3
   },
   {
@@ -4911,7 +5229,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c320",
+   "id": "c340",
    "prio": 0
   },
   {
@@ -4925,22 +5243,8 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c321",
+   "id": "c341",
    "prio": 0
-  },
-  {
-   "title": "American Airlines Flight Attendants Sound Alarm Over ICE Encounters, Demand Clear Guidance",
-   "source": "Aviation A2Z",
-   "url": "https://aviationa2z.com/index.php/2026/11/25/american-airlines-attendants-sound-alarm-over-ice-encounters-demand-clear-guidance/",
-   "published": "2026-11-24T19:38+00:00",
-   "excerpt": "American Airlines flight attendants seek ICE guidance after a Seattle airport arrest raises wider crew safety concerns. The post American Airlines Flight Attendants Sound Alarm Over ICE Encounters, Demand Clear Guidance appeared first on Aviation A2Z .",
-   "feed": "Aviation A2Z",
-   "lang": "EN",
-   "topic": "aerolineas",
-   "viaGoogle": false,
-   "image": "https://aviationa2z.com/wp-content/uploads/2024/12/dn9vhlqr-1024x576.webp",
-   "id": "c322",
-   "prio": 2
   },
   {
    "title": "First Look Inside American Airlines’ New Austin Lounge—Twice The Space, An Outdoor Terrace And Skyline Views",
@@ -4953,7 +5257,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c323",
+   "id": "c342",
    "prio": 0
   },
   {
@@ -4967,7 +5271,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c324",
+   "id": "c343",
    "prio": 0
   },
   {
@@ -4981,7 +5285,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c325",
+   "id": "c344",
    "prio": 0
   },
   {
@@ -4995,7 +5299,7 @@
    "topic": "aeropuertos",
    "viaGoogle": true,
    "image": "",
-   "id": "c326",
+   "id": "c345",
    "prio": 3
   },
   {
@@ -5009,8 +5313,22 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c327",
+   "id": "c346",
    "prio": 0
+  },
+  {
+   "title": "Aena activa su Plan Invierno en 21 aeropuertos con 2,2 millones y más de 200 vehículos",
+   "source": "Meteorologia en red",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNS3RJRDNkVUczdUhDdTJZX0g5VUpmN3U2VGlTV0JwWDJnRVhLc25HeUU4Q1BLRENUZTJiNk1QT2hUYjQ5dTU0MXRHNEx5b1YtU1Z4NFRlUkt0dS1BWmlQeEY0STU5MzRFWTN1Q3NGT3kxd2RBZUtaVUlJVDBESnh2bVNjMmJBUFFVbXZPMjBRejh6SnpGWThRMVpoaWJ6aUFUR1ZqTTlENllfQ2lRV0lZNmR5TlFNejNRR0l0NEFxQ2g0UQ?oc=5",
+   "published": "2026-11-24T19:09+00:00",
+   "excerpt": "",
+   "feed": "Google News – Aena / aeropuertos España",
+   "lang": "ES",
+   "topic": "aeropuertos",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c347",
+   "prio": 3
   },
   {
    "title": "Luxair to Launch Nonstop Flights Between Luxembourg and Riga",
@@ -5023,7 +5341,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c328",
+   "id": "c348",
    "prio": 0
   },
   {
@@ -5037,7 +5355,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c329",
+   "id": "c349",
    "prio": 2
   },
   {
@@ -5051,22 +5369,8 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c330",
+   "id": "c350",
    "prio": 0
-  },
-  {
-   "title": "Binter facilita los viajes con perros de asistencia en Canarias y permite llevarlos en cabina sin coste adicional",
-   "source": "Eldía",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNc3lTZjByV09hRGZtQUxPRzExOEdGbXZDOUpOMFhMOGo5RG9JQjdvSUlYel83ZnNjWDc0SDc0VW1MaUljZFlCLWdlUzI0VTBwV0VHTUx3aFZmR3prYmlkZ3lDRkZqS1NtdmlxakNGSXQ4cFUyN0tXbzVvSFZhaWxScFAxNExxdU9SSThqMXdvYlFBX0J3RnNrQmlzaU5YYVpnU3fSAaIBQVVfeXFMTXN5U2YwcldPYURmbUFMT0cxMThHRm12QzlKTjBYTDhqOURvSUI3b0lJWHpfN2ZzY1g3NEg3NFVtTGlJY2RZQi1nZVMyNFUwcFdFR01Md2hWZkd6a2JpZGd5Q0ZGaktTbXZpcWpDRkl0OHBVMjdLV281b0hWYWlsUnBQMTRMcXVPUkk4ajF3b2JRQV9Cd0Zza0Jpc2lOWGFaZ1N3?oc=5",
-   "published": "2026-11-24T19:04+00:00",
-   "excerpt": "",
-   "feed": "Google News – Iberia / Vueling / IAG",
-   "lang": "ES",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c331",
-   "prio": 3
   },
   {
    "title": "Iberia y Air Europa mantienen la ruta Madrid-Caracas tras el cierre de Plus Ultra",
@@ -5079,7 +5383,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c332",
+   "id": "c351",
    "prio": 12
   },
   {
@@ -5093,7 +5397,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "",
-   "id": "c333",
+   "id": "c352",
    "prio": 0
   },
   {
@@ -5107,7 +5411,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c334",
+   "id": "c353",
    "prio": 4
   },
   {
@@ -5121,7 +5425,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c335",
+   "id": "c354",
    "prio": 0
   },
   {
@@ -5135,7 +5439,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c336",
+   "id": "c355",
    "prio": 0
   },
   {
@@ -5149,8 +5453,22 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c337",
+   "id": "c356",
    "prio": 0
+  },
+  {
+   "title": "El número dos de Ábalos niega al juez que la nota de Air Europa fuera un comunicado cuando el Supremo la liga a la villa de Marbella",
+   "source": "El MIRA",
+   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPcHVUUXA3cFdVNnJ1cGcyOE9STmhoR2wycXJwby1KQTZTSGkzeUptUjVGT1JVZ2RUN25WNl9nTjNoREc5czhJTmxTQU5xbWMtd1RpVG0xT0tqbnVfaGwzU2Vhb1BFX25VaFZoR1BZR3p3V3QtQ3dHTTBCa29rUXFKX0pmVTFjUXJJWG50SzNEUW5PdnJHcEYzMmpZMk5pdDdoaFp3SzlWZnd4Z05NUmJQNHRvVjNwUTE1a3RSRkZKelI2SGsybmVoN0w0SDUtTGNyZ01EaGFIamJEQUdYVHIzODVGR0pRZHM5a01xOFJ6MEF4VERObjBleTJiaw?oc=5",
+   "published": "2026-11-24T18:23+00:00",
+   "excerpt": "",
+   "feed": "Google News – Air Europa",
+   "lang": "ES",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c357",
+   "prio": 4
   },
   {
    "title": "Plus Ultra plantea un ERE para más de 200 empleados tras suspender todos sus vuelos",
@@ -5163,7 +5481,7 @@
    "topic": "general",
    "viaGoogle": false,
    "image": "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2026/11/24/17955438494679.jpg",
-   "id": "c338",
+   "id": "c358",
    "prio": 3
   },
   {
@@ -5177,7 +5495,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c339",
+   "id": "c359",
    "prio": 2
   },
   {
@@ -5191,8 +5509,22 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c340",
+   "id": "c360",
    "prio": 0
+  },
+  {
+   "title": "El aeropuerto de Palma alterna las pistas por las obras para reducir las restricciones operativas en temporada baja",
+   "source": "Diario de Mallorca",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMy1ES01IYlBvZk5vOVpQb1pWdU5mNzdZaFVVYlRMdUp4Ql9LaEpadmdvbDhQb1EwZUJVRmNLYmxLdHh1WEplQl9YSU1ualpONlV4WEdGTnlka3lDbk1Sdmo0UmlhTjFNRjY0RXpMYmFGeDR3YjdrY2VyNVg1S0ZzSXVIN0VkUmZoanBJRFp4eWdtTF9Wbm1GQ3hnTlJZR0dFc1ZZQy1tZ9IBrAFBVV95cUxPV0hweHc3UUhzekpiZnJ6UXVrbmJ1WGF6S0o3Y3B0aFIxaGdsbUswQVdQOFZ6WThnZjFVakxWREhVcFd2cjdZb1ZGRmNaS2kzU1dCMk43RXl4UC0xVkVsV1lpTWwwYVdZdXB1cmNPRmRXUWphZnFUTDYweFIwVTAtZV9ZbDNCSF9JQ0RPZXpIVmdydVhJUWc3YnJnT1A1MHZyZUphYnozODJwZ2RV?oc=5",
+   "published": "2026-11-24T18:08+00:00",
+   "excerpt": "",
+   "feed": "Google News – Aena / aeropuertos España",
+   "lang": "ES",
+   "topic": "aeropuertos",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c361",
+   "prio": 3
   },
   {
    "title": "Lufthansa Group Launches One App for Six Airlines – But Will Travelers Use It?",
@@ -5205,7 +5537,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.businesstraveller.com/wp-content/uploads/2026/11/lhgappsample-en-1024x683.jpg",
-   "id": "c341",
+   "id": "c362",
    "prio": 2
   },
   {
@@ -5219,7 +5551,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c342",
+   "id": "c363",
    "prio": 0
   },
   {
@@ -5233,7 +5565,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c343",
+   "id": "c364",
    "prio": 0
   },
   {
@@ -5247,7 +5579,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c344",
+   "id": "c365",
    "prio": 0
   },
   {
@@ -5261,36 +5593,11 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c345",
-   "prio": 7
-  },
-  {
-   "title": "British Airways and easyJet GPS Interference: Suspected Russian Jamming Under International Law",
-   "source": "Diplomacy and Law",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaFVhVnd2UTYycjczMU44d3JjODV6T1cyQ045dWJTMG1vcVdNODJXdmhDTGNUTGZIcTF2Ry1sXzFaenYxU3Fsd3p5ZmRvN2NuXzhEWmRIM2NzWUlzM2NiOG1qNFNJeTU0aTlBZlU5U3dUcVZlZ29xakxrRlpTbk52MTBFZw?oc=5",
-   "published": "2026-11-24T17:36+00:00",
-   "excerpt": "",
-   "feed": "Google News – British Airways / Aer Lingus / IAG",
-   "lang": "EN",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c346",
-   "prio": 7
-  },
-  {
-   "title": "Alaska Airlines 737 Winglet Damaged After Colliding with Catering Truck at JFK",
-   "source": "Aviation A2Z",
-   "url": "https://aviationa2z.com/index.php/2026/11/24/alaska-airlines-737-winglet-damaged-after-catering-truck-collision-at-jfk/",
-   "published": "2026-11-24T17:30+00:00",
-   "excerpt": "An Alaska Airlines Boeing 737-800 sustained minor damage to its left split scimitar winglet after a catering truck struck the aircraft at New York JFK. The incident occurred before Flight AS41's scheduled departure to San Francisco, with no injuries reported. The post Alaska…",
-   "feed": "Aviation A2Z",
-   "lang": "EN",
-   "topic": "aerolineas",
-   "viaGoogle": false,
-   "image": "https://aviationa2z.com/wp-content/uploads/2026/11/1280px-Alaska_Airlines_Boeing_737-890_N508AS__Allegiant_Air_Boeing_757-204_N903NV__China_Airlines_Boeing_747-400_@_Honolulu_International_Airport-1024x768.webp",
-   "id": "c347",
-   "prio": 0
+   "alsoIn": [
+    "Noticias Bierzo"
+   ],
+   "id": "c366",
+   "prio": 8
   },
   {
    "title": "La portuguesa Casais compra el 80% de la constructora ACR para crear un líder ibérico en construcción industrializada",
@@ -5303,7 +5610,7 @@
    "topic": "general",
    "viaGoogle": true,
    "image": "",
-   "id": "c348",
+   "id": "c367",
    "prio": 3
   },
   {
@@ -5317,7 +5624,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c349",
+   "id": "c368",
    "prio": 2
   },
   {
@@ -5331,22 +5638,8 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c350",
+   "id": "c369",
    "prio": 0
-  },
-  {
-   "title": "GPS Jamming Affects 140 Aircraft Near UK Coast, Including British Airways, easyJet and Ryanair Flights",
-   "source": "Rus Tourism News",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPc0RGNlAyTTlzZHNsQW9lVUxfS2Vob25aNmYyNUZXWDJ2SjVPcjBLajBaeG9xVWx1UUxBUkRyd2dmalJwd0I0Njhsd3RZWW53TXZYTFE1WkZFZjdNSnRUd2ROR2pYM3podU0xMUQ3bmRrZUxsMnp6ZjZ1QnR6RDFDV05lV083SEJMZHdZZlJ3SEZxZEZRZm5ROE10VFFiTXYtNmp4QllFQS16a3lUc2thN2FoSWxpbktWUHExc2dPWkk1NllBSmt4ZGRxcU5ZajFmc3FTdnFNbW51cjg?oc=5",
-   "published": "2026-11-24T17:13+00:00",
-   "excerpt": "",
-   "feed": "Google News – British Airways / Aer Lingus / IAG",
-   "lang": "EN",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c351",
-   "prio": 7
   },
   {
    "title": "Storms and flooding in US could disrupt Thanksgiving travel for tens of millions",
@@ -5359,7 +5652,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c352",
+   "id": "c370",
    "prio": 0
   },
   {
@@ -5373,7 +5666,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c353",
+   "id": "c371",
    "prio": 0
   },
   {
@@ -5387,7 +5680,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c354",
+   "id": "c372",
    "prio": 0
   },
   {
@@ -5401,7 +5694,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c355",
+   "id": "c373",
    "prio": 0
   },
   {
@@ -5415,7 +5708,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c356",
+   "id": "c374",
    "prio": 0
   },
   {
@@ -5429,7 +5722,7 @@
    "topic": "aeropuertos",
    "viaGoogle": true,
    "image": "",
-   "id": "c357",
+   "id": "c375",
    "prio": 0
   },
   {
@@ -5443,7 +5736,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "",
-   "id": "c358",
+   "id": "c376",
    "prio": 0
   },
   {
@@ -5457,25 +5750,8 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.businesstraveller.com/wp-content/uploads/2026/11/p600e_exterior-2-1024x683.jpg",
-   "id": "c359",
+   "id": "c377",
    "prio": 0
-  },
-  {
-   "title": "El asesor económico de Sánchez dice que no habló del rescate a Air Europa con el presidente",
-   "source": "The Objective",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZGd5UXotNktYYUcycEpPa3Y2emUzeW0tV1NuQ1RiaElPN2dXalZubVNOcnE0d3cxMmV3WmEwQ3NjM2I4aURaOXh3b0xwU29YcV9aZWk0NkFyZG9zVVFGTF9xcGJaQTBJenNiVzl2azVQWjg5WktJOG5PNUNyVmN3a0t1UkNLVTRrY2xuX0tuYWE4bGl3YkF4TUE3cy1USlnSAaQBQVVfeXFMTkdCa1dkU05lRHBSSXJmWXBabUxOanRHMGQtVWRYUjZJaU1fdWFpWFRRTy16LXh5V1pUR3ZRNmFVWXhWRlUtWWRJX1IyY1I5S3poVlB6bF9xUkxYY01ZdG9OeWFJRnJmTGMxOEpvMUQwV0pvZHBHMjcwaklnamFmWlFHZUhKNjFMZlpBWHdPejBxOVVldWctcTkwVUhzOVZyWWFrZmM?oc=5",
-   "published": "2026-11-24T16:36+00:00",
-   "excerpt": "",
-   "feed": "Google News – Air Europa",
-   "lang": "ES",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "alsoIn": [
-    "Demócrata"
-   ],
-   "id": "c360",
-   "prio": 5
   },
   {
    "title": "Aena activa el plan de invierno 2026-2027 en el aeropuerto de Logroño-Agoncillo",
@@ -5488,7 +5764,7 @@
    "topic": "aeropuertos",
    "viaGoogle": true,
    "image": "",
-   "id": "c361",
+   "id": "c378",
    "prio": 3
   },
   {
@@ -5502,7 +5778,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c362",
+   "id": "c379",
    "prio": 0
   },
   {
@@ -5516,8 +5792,22 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c363",
+   "id": "c380",
    "prio": 0
+  },
+  {
+   "title": "De la Rocha asegura que nunca habló con el presidente Sánchez sobre la ayuda a Air Europa",
+   "source": "EFE - Agencia de noticias",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9iQTdjQl9iS09ZbWE2elE3cFNPRFJaUklKZWpGRlI3ek1MbGx2LVc0eWFuSnpTZzUzQU5uUnJtNFZZZWZ5ZkNNdmN3V2N5UkY2b0gzUHU5bjFmRE5fS1VTUGdYemY1ZjVhVFozbUhybG5mVXZBR05QS3ZJbkVJZw?oc=5",
+   "published": "2026-11-24T16:26+00:00",
+   "excerpt": "",
+   "feed": "Google News – Air Europa",
+   "lang": "ES",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c381",
+   "prio": 7
   },
   {
    "title": "Air Europa. Todo según lo previsto. Errejón niega que viera irregularidades en el rescate",
@@ -5530,7 +5820,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c364",
+   "id": "c382",
    "prio": 4
   },
   {
@@ -5544,7 +5834,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c365",
+   "id": "c383",
    "prio": 0
   },
   {
@@ -5558,7 +5848,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c366",
+   "id": "c384",
    "prio": 3
   },
   {
@@ -5572,7 +5862,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c367",
+   "id": "c385",
    "prio": 0
   },
   {
@@ -5586,8 +5876,22 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c368",
+   "id": "c386",
    "prio": 0
+  },
+  {
+   "title": "Errejón reduce a una cuestión ecológica sus dudas sobre el rescate millonario de Air Europa",
+   "source": "ESdiario",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOT0pPa1VrX3RTRmFEaHZ1Q0s2dTF1VnhLNHFITDBCSEk0R19xaDJ6YmYtYS1uYmZlakpLU2s2LTVxcVl4V01lZkx2M1dKalB4UGZBMmRBUHZaVlpfOGs0aDFfbEJ6cVZzVU5OUThNclFtMzM0Z0ktajNybzUyNUpqdzJnQWxfb1UwLTVnNjRMUWhyTHZsVU5QTm1PVjI4VHBlOUxSd3pUZEhnLTkzaEFrb0hLZXd5amRVZVpPZDZRVzZ6Ullqbjdz0gHMAUFVX3lxTE1VZkwxRlA0djNpU3otNkcyTjhTSFNSTThUcllPSXVaVTUzMTQxRUdFMUJRN1plWkhqOTR5STU3XzR2eUNLRDdlVG5uV0tGeE56VnpPbGlSNF9XUFlIdHVnRkVlLTRqcDBUejl6OFotRFdjTWlfTlZNT1p3UEVOb1VnUjNuTTRXb2w2MlZTU05ORjhfN24zWnlhOUJ5ZDd1eXVLTVVSSDIyT0NIRk9Mdlh6MXFuZnFNRjRQZW93dzV6VjFlTk9waVdhVVd4Yw?oc=5",
+   "published": "2026-11-24T15:59+00:00",
+   "excerpt": "",
+   "feed": "Google News – Air Europa",
+   "lang": "ES",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c387",
+   "prio": 4
   },
   {
    "title": "BermudAir llegará a El Salvador y Honduras en su expansión de 2027",
@@ -5600,7 +5904,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c369",
+   "id": "c388",
    "prio": 0
   },
   {
@@ -5614,7 +5918,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c370",
+   "id": "c389",
    "prio": 0
   },
   {
@@ -5628,7 +5932,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c371",
+   "id": "c390",
    "prio": 0
   },
   {
@@ -5645,7 +5949,7 @@
    "alsoIn": [
     "Hosteltur"
    ],
-   "id": "c372",
+   "id": "c391",
    "prio": 1
   },
   {
@@ -5659,7 +5963,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c373",
+   "id": "c392",
    "prio": 0
   },
   {
@@ -5673,7 +5977,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c374",
+   "id": "c393",
    "prio": 4
   },
   {
@@ -5687,7 +5991,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c375",
+   "id": "c394",
    "prio": 0
   },
   {
@@ -5701,8 +6005,22 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "",
-   "id": "c376",
+   "id": "c395",
    "prio": 0
+  },
+  {
+   "title": "Mide casi 65 metros de ala a ala, casi 5 metros más que el 787, y puede llevar más de 330 viajeros: Air Europa ha encargado hasta 40 A350 y avisa de que el problema en Barajas son las terminales",
+   "source": "Autonocion",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JNW15VEVHOWl2XzJsOG9mdXkyY204Y1g5ZDZNd1F2ZDY5YW80eTZYcldhQzQwM005MUFXZldSSXBnMlZlUlJLenFEejBhRk01Skg0OGpZRmxpY0M5U2JPRUhTcjlQWkttYk9KMTNudw?oc=5",
+   "published": "2026-11-24T15:33+00:00",
+   "excerpt": "",
+   "feed": "Google News – Air Europa",
+   "lang": "ES",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c396",
+   "prio": 7
   },
   {
    "title": "UGT valora que AENA no recurra la sentencia que permite recuperar la ambulancia en el Aeropuerto de Asturias",
@@ -5718,7 +6036,7 @@
    "alsoIn": [
     "El Comercio"
    ],
-   "id": "c377",
+   "id": "c397",
    "prio": 7
   },
   {
@@ -5732,7 +6050,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c378",
+   "id": "c398",
    "prio": 0
   },
   {
@@ -5746,7 +6064,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c379",
+   "id": "c399",
    "prio": 0
   },
   {
@@ -5760,7 +6078,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c380",
+   "id": "c400",
    "prio": 0
   },
   {
@@ -5776,10 +6094,12 @@
    "image": "",
    "alsoIn": [
     "el boletin",
-    "Demócrata"
+    "Demócrata",
+    "Demócrata",
+    "Noticias de Almería"
    ],
-   "id": "c381",
-   "prio": 9
+   "id": "c401",
+   "prio": 10
   },
   {
    "title": "Holidu acquires Spanish rural tourism portal CasasRurales.net",
@@ -5792,7 +6112,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c382",
+   "id": "c402",
    "prio": 0
   },
   {
@@ -5806,7 +6126,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c383",
+   "id": "c403",
    "prio": 0
   },
   {
@@ -5820,7 +6140,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.aerotime.aero/images/2026/11/Untitled-Design-2026-11-24T193614.438-80x80.jpg.webp",
-   "id": "c384",
+   "id": "c404",
    "prio": 0
   },
   {
@@ -5834,7 +6154,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c385",
+   "id": "c405",
    "prio": 12
   },
   {
@@ -5848,7 +6168,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c386",
+   "id": "c406",
    "prio": 0
   },
   {
@@ -5862,7 +6182,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c387",
+   "id": "c407",
    "prio": 0
   },
   {
@@ -5876,21 +6196,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c388",
-   "prio": 0
-  },
-  {
-   "title": "Business Aviation & AAM Briefs: Chartright, SkyDrive And More",
-   "source": "Aviation Week",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORE54TzcxaW81ZUhmREdJMFI0YnV5Yy1yaG1QWnZGUnM0MWs0ZHgtQ2NPOXFnUjg3WDNQa0s2N2lnV0NJZ3l1T2xwaV9rMzl5TlIyQkZONUdJRC0yQk5lT3pQZ0gtWkVZRDREbloxRHNWNFlNQkxzQ2dlUExQekkxeE1vZHNXOHVQTmEteV9RREcwNEx2b0c3RkdPSkpWNTRDaURKWV9iYU1iLVNVNXoyZkl5ckpRX1dTeEE?oc=5",
-   "published": "2026-11-24T14:47+00:00",
-   "excerpt": "",
-   "feed": "Aviation Week – Air Transport (vía Google News)",
-   "lang": "EN",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c389",
+   "id": "c408",
    "prio": 0
   },
   {
@@ -5907,10 +6213,9 @@
    "alsoIn": [
     "Onda Cero",
     "Canal Sur",
-    "Faro de Vigo",
-    "Deia"
+    "Faro de Vigo"
    ],
-   "id": "c390",
+   "id": "c409",
    "prio": 7
   },
   {
@@ -5924,8 +6229,36 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "",
-   "id": "c391",
+   "id": "c410",
    "prio": 0
+  },
+  {
+   "title": "New seasonal Edinburgh to Split route for summer 2027",
+   "source": "KarloBag.eu",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQkFnc1I3aDVCZm5mUG5LSndMRG9uUDVvNFZfeDlud005Xy05Q01odlljdFg0THl4VjNtT3N0TndlaF92UUFqQXNMN3hxTnRqU1QybVdkRFFRcGZxcHJsa1FuZ0hZN3k0M3NPbmhUdllPdXBNN3ZBa241LXN6SHJOeTVSd2tGVkZfZ3p0SzlIdVV1ZGNMUDVFSFBkeTdKSHczSjRMLXRUenpZdjZOWkZBRnYxd0dTdnEw?oc=5",
+   "published": "2026-11-24T14:44+00:00",
+   "excerpt": "",
+   "feed": "Google News – British Airways / Aer Lingus / IAG",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c411",
+   "prio": 0
+  },
+  {
+   "title": "Íñigo Errejón rechaza que sospechara de irregularidades en la ayuda pública a Air Europa",
+   "source": "Heraldo de Aragón",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdDFTMDk0cVEtaUpoMmFOM0FCWjY0YUloM3RuY2QxZTgwOG9BSWxCSFNnNXFseGItZGRHbTFPS2RKTU9iMkFWQjJIdDVQS0dYQXhNT0Uwc2pPZ2NDQUxWQ0FCRFFuV1dCa3J4c1ZLbFNUeVdER2R5akhZcWN0UFlpQWNHdkdITUR3V3QxQW1wVi1VSUo1WS1DbkFHTWxDcFVWTGpwbFNNVURWeVd3RmVVaFVrcnZVY2pzazVHMDNkbnNsYlFwWDI0VVlkbUo?oc=5",
+   "published": "2026-11-24T14:38+00:00",
+   "excerpt": "",
+   "feed": "Google News – Air Europa",
+   "lang": "ES",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c412",
+   "prio": 4
   },
   {
    "title": "Francia blinda 350 millones de euros para impulsar la aviación del futuro y reforzar su liderazgo industrial",
@@ -5938,7 +6271,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c392",
+   "id": "c413",
    "prio": 0
   },
   {
@@ -5952,7 +6285,7 @@
    "topic": "general",
    "viaGoogle": true,
    "image": "",
-   "id": "c393",
+   "id": "c414",
    "prio": 3
   },
   {
@@ -5966,7 +6299,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c394",
+   "id": "c415",
    "prio": 2
   },
   {
@@ -5980,7 +6313,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c395",
+   "id": "c416",
    "prio": 0
   },
   {
@@ -5994,7 +6327,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "",
-   "id": "c396",
+   "id": "c417",
    "prio": 0
   },
   {
@@ -6008,7 +6341,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c397",
+   "id": "c418",
    "prio": 0
   },
   {
@@ -6022,22 +6355,8 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c398",
+   "id": "c419",
    "prio": 4
-  },
-  {
-   "title": "Iberia Express renueva los menús de sus vuelos con Canarias con guiños locales como la tarta de plátano y recetas artesanales",
-   "source": "La Provincia",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZXgyQ2I0eWxzVm93b3Y5d2NmRC1jclFxNmstWFNxNk5Ka093ekxFSGdHbEFCQVd0WWp4OVZmcy1xQmt0T01Dc3VKdThxOWtQT1JTWGdEYXFUUGJLeHNGSXFHQTZuTHNpWXZfQm9DSndpR292dmlKai1nWUJwNFRxb1hNMURtYS1pdEJOeFRpeWlkajJnY0doRUZId2lRd9IBowFBVV95cUxQbHlBRDk2Vmtmd29ZZ0c1bERNclRNQm1yMUl2b2lhRnU2YlNFcjZwOVVGQlE4RWYwdXVRRm5YdjhlNnpBYWtBYXh6VWYwWXJZb09tS0RvTkxaNlZKWUZUcDhIaXNRUlhET056UTdQWlExM1kzOUl3MUpXa2JRd2g5VDZwUVFfMGtpVlVVUGJrQS1KNS05WUt3SXhhMUhuMEduTnpr?oc=5",
-   "published": "2026-11-24T13:50+00:00",
-   "excerpt": "",
-   "feed": "Google News – Iberia / Vueling / IAG",
-   "lang": "ES",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c399",
-   "prio": 8
   },
   {
    "title": "Aviation security’s next blind spot: The threat from within",
@@ -6050,7 +6369,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.aerotime.aero/images/2026/11/An-infographic-of-the-four-layer-model-which-sums-up-the-core-idea-at-a-glance-945x1024.png",
-   "id": "c400",
+   "id": "c420",
    "prio": 0
   },
   {
@@ -6064,7 +6383,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c401",
+   "id": "c421",
    "prio": 5
   },
   {
@@ -6078,7 +6397,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c402",
+   "id": "c422",
    "prio": 0
   },
   {
@@ -6092,8 +6411,22 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c403",
+   "id": "c423",
    "prio": 4
+  },
+  {
+   "title": "Tecnología y salud impulsan los envíos de hasta 3.000 kg de DHL Express en Europa",
+   "source": "Aviacionline",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUjUxTHVZR1VDcTRMZmY5VFA0dGN5Z2VqTnVuY1ZWQjlsYV9RY19rRFNqU0Q0ODYzYWZGUGJGNllNbTMxeEtRNzZsMlBIWnZ0QTBfQ3RKMmJ1V0hDNFZZUjRfUVEtNF9OVnVMaXlSLUZteFNacWhyVEo0T2Y1MjNISGhzbDduak0zRHBIYWtqOUwzOTNpYk1kUUgyTkIzbTQzTE4ydDhvNkVPQXNmZ2RsRXM3akFONnNGSFN0UmU2NUlrQU9HZnlFcGtLWWtZSFJwNjVNRHdwZmJDRXlNLWNmT2hIekFUNEM5OHNlNw?oc=5",
+   "published": "2026-11-24T13:29+00:00",
+   "excerpt": "",
+   "feed": "Aviacionline (vía Google News)",
+   "lang": "ES",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c424",
+   "prio": 0
   },
   {
    "title": "El plátano de Canarias que solo los pasajeros de Business podrán probar en Iberia Express",
@@ -6106,7 +6439,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c404",
+   "id": "c425",
    "prio": 8
   },
   {
@@ -6120,7 +6453,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c405",
+   "id": "c426",
    "prio": 0
   },
   {
@@ -6134,7 +6467,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c406",
+   "id": "c427",
    "prio": 0
   },
   {
@@ -6148,7 +6481,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c407",
+   "id": "c428",
    "prio": -6
   },
   {
@@ -6162,7 +6495,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c408",
+   "id": "c429",
    "prio": -1
   },
   {
@@ -6176,7 +6509,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c409",
+   "id": "c430",
    "prio": 0
   },
   {
@@ -6190,7 +6523,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c410",
+   "id": "c431",
    "prio": 7
   },
   {
@@ -6204,7 +6537,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c411",
+   "id": "c432",
    "prio": 0
   },
   {
@@ -6218,7 +6551,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c412",
+   "id": "c433",
    "prio": 0
   },
   {
@@ -6236,8 +6569,25 @@
     "Libertad Digital",
     "Heraldo de Aragón"
    ],
-   "id": "c413",
+   "id": "c434",
    "prio": 6
+  },
+  {
+   "title": "EC-NEI - Boeing 787-9 Dreamliner - Air Europa",
+   "source": "Flightradar24",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBtcmhmSTR3QVNmVTAyREhBRGs4T2t6QTBxTFNXMnZIYXhMemtGQ2NJangtaGdqS3BUekhKbzJhUURwX21EbkFtNTlZNUtISHZPZVlrVWRUNERrUHlkVWpF?oc=5",
+   "published": "2026-11-24T12:21+00:00",
+   "excerpt": "",
+   "feed": "Google News – Air Europa",
+   "lang": "ES",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "alsoIn": [
+    "Flightradar24"
+   ],
+   "id": "c435",
+   "prio": 5
   },
   {
    "title": "Summer heat deaths in 2026 reached record high of 5,258 in England",
@@ -6250,7 +6600,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c414",
+   "id": "c436",
    "prio": 0
   },
   {
@@ -6264,7 +6614,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "",
-   "id": "c415",
+   "id": "c437",
    "prio": 0
   },
   {
@@ -6278,7 +6628,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c416",
+   "id": "c438",
    "prio": 2
   },
   {
@@ -6298,22 +6648,8 @@
     "REPORTUR.com",
     "Preferente.com"
    ],
-   "id": "c417",
+   "id": "c439",
    "prio": 14
-  },
-  {
-   "title": "Errejón rechaza ante el juez del caso Air Europa que preguntara en el Congreso porque dudara del rescate y dice que le interesaba el cumplimiento medioambiental",
-   "source": "El Correo Gallego",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOU2NHUXg4NW5DdWhCS2RBdGdFckZmdnByblBOdWgyaVJ2S0dYQ2dpaTRQeC0tUUJ2VU1BYlZOX05KZENiUkVMMWRBRFp3QUE1c09TUUlVOUw3VWVHc3FiX3M0V1pOajFDcEN3RFVkcmhJbkVsVjZtY1dQcDFER0tSMXBBbUVQZEQ4Y3VQb2ZhdGPSAZABQVVfeXFMTlNjR1F4ODVuQ3VoQktkQXRnRXJGZnZwcm5QTnVoMmlSdktHWENnaWk0UHgtLVFCdlVNQWJWTl9OSmRDYlJFTDFkQURad0FBNXNPU1FJVTlMN1VlR3NxYl9zNFdaTmoxQ3BDd0RVZHJoSW5FbFY2bWNXUHAxREdLUjFwQW1FUGREOGN1UG9mYXRj?oc=5",
-   "published": "2026-11-24T12:05+00:00",
-   "excerpt": "",
-   "feed": "Google News – Air Europa",
-   "lang": "ES",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c418",
-   "prio": 4
   },
   {
    "title": "Joe Biden Flew Cape Air For Thanksgiving—His Airport Cart Ride Turned Into A Political Fight",
@@ -6326,7 +6662,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c419",
+   "id": "c440",
    "prio": 0
   },
   {
@@ -6340,7 +6676,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c420",
+   "id": "c441",
    "prio": 0
   },
   {
@@ -6354,7 +6690,7 @@
    "topic": "general",
    "viaGoogle": true,
    "image": "",
-   "id": "c421",
+   "id": "c442",
    "prio": 5
   },
   {
@@ -6368,7 +6704,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c422",
+   "id": "c443",
    "prio": 0
   },
   {
@@ -6382,7 +6718,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c423",
+   "id": "c444",
    "prio": 0
   },
   {
@@ -6396,7 +6732,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c424",
+   "id": "c445",
    "prio": 4
   },
   {
@@ -6413,7 +6749,7 @@
    "alsoIn": [
     "BusinessWorld Online"
    ],
-   "id": "c425",
+   "id": "c446",
    "prio": 3
   },
   {
@@ -6427,22 +6763,8 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c426",
+   "id": "c447",
    "prio": 0
-  },
-  {
-   "title": "M041-MADRID SALIDA ERREJON JUZGADO CASO AIR EUROPA",
-   "source": "www.atlas-news.com",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbC1lYi10YzdaT1dOcEF2LTBPaENwMkFMRTZRX3plenhyd3IwX19fTXNhdjBVLXhGeGRrVTA5WTV6Vk5ZMndJT2xFbHpEQWQyVzhnaHBvRUNnZHQ3RFE5UHNGeURBbHBiRTVRVXZhQjRLaU1wb2xBanA0WFVaNTc2bTZrVlRGTkdNVXJKVVVmdw?oc=5",
-   "published": "2026-11-24T11:42+00:00",
-   "excerpt": "",
-   "feed": "Google News – Air Europa",
-   "lang": "ES",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c427",
-   "prio": 7
   },
   {
    "title": "Aer Lingus announces new long-haul cabins",
@@ -6455,22 +6777,8 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c428",
+   "id": "c448",
    "prio": 5
-  },
-  {
-   "title": "Argentina adjusts its drone regulatory framework with changes to certification, insurance and operations",
-   "source": "Aviacionline",
-   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOU3JnTGJsSFUzbUt0SVZnUGlnUEtIYnRLVnV3eExqQjdNWWNGcmk1Yk5EWW9qUmFfa0pkT2dRc0ZnZURwcFBZMzh0bF9LUDdIVXRrYzdUcmNCR0hZaVBaSGlfeC1vanRxa3RNRGZiZmNhS2ItaldZdXZmN1l0VGRTRW5Sd2xlMndlaW8wSWFFcWQzSzE3TTZqbEVVdEpBM2VzakZfdWJyaERCN2MwWG9aTzlLcnVlRVBYLUVCN1JUVHR2NkxsWG03anFOQVFiOW0yZUl6SzQtWEtoV2lpbjlXSjVzdjNTVGgzUVdpUXhPYnZsWXZfLUMtX3dGWnp5R0pBek9ERzB3?oc=5",
-   "published": "2026-11-24T11:35+00:00",
-   "excerpt": "",
-   "feed": "Aviacionline (vía Google News)",
-   "lang": "ES",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c429",
-   "prio": 0
   },
   {
    "title": "Colectivos ecologistas piden destinar los 56 millones del Circuito del Motor a derribar el hotel en La Tejita (Tenerife)",
@@ -6483,7 +6791,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c430",
+   "id": "c449",
    "prio": 2
   },
   {
@@ -6497,7 +6805,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c431",
+   "id": "c450",
    "prio": 3
   },
   {
@@ -6511,7 +6819,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c432",
+   "id": "c451",
    "prio": 0
   },
   {
@@ -6525,7 +6833,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c433",
+   "id": "c452",
    "prio": 7
   },
   {
@@ -6539,7 +6847,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "",
-   "id": "c434",
+   "id": "c453",
    "prio": 2
   },
   {
@@ -6553,7 +6861,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c435",
+   "id": "c454",
    "prio": 5
   },
   {
@@ -6567,7 +6875,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c436",
+   "id": "c455",
    "prio": 0
   },
   {
@@ -6581,7 +6889,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c437",
+   "id": "c456",
    "prio": 4
   },
   {
@@ -6595,7 +6903,7 @@
    "topic": "general",
    "viaGoogle": true,
    "image": "",
-   "id": "c438",
+   "id": "c457",
    "prio": 3
   },
   {
@@ -6609,7 +6917,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c439",
+   "id": "c458",
    "prio": 2
   },
   {
@@ -6623,7 +6931,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c440",
+   "id": "c459",
    "prio": 2
   },
   {
@@ -6637,7 +6945,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c441",
+   "id": "c460",
    "prio": 2
   },
   {
@@ -6651,7 +6959,21 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c442",
+   "id": "c461",
+   "prio": 0
+  },
+  {
+   "title": "London Luton Airport Solar Farm Set To Be Operational In March 2027",
+   "source": "Aviation Week",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcHg3Vlh0WVBuX2dCalcyd1NjS1A1VW1udEJISEdMQnNPcFJlWXpzckFFMDA4bzMwQnVQc0lIMDZUcUhYR3E1RGtCejNUd09hSmdOZ045c3RBSndBZF82SWN4UXhOYmt1bXRpRGVUZlpIRzVUcGZQZnVxVDJ5Q3ppRllsX0Z4LVdXTHkyanlhZFRmM3F3NVI5SG11bEQ3QzZNNThYbGMxdHVNNlhPZm1pMEIwZE9rMC1JZkE?oc=5",
+   "published": "2026-11-24T10:24+00:00",
+   "excerpt": "",
+   "feed": "Aviation Week – Air Transport (vía Google News)",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c462",
    "prio": 0
   },
   {
@@ -6665,7 +6987,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.aerotime.aero/images/2026/11/A-Russian-Kh-101-cruise-missile-shot-down-by-Ukrainian-air-defenses-over-Vinnytsia-Oblast-on-January-26-2023.jpg",
-   "id": "c443",
+   "id": "c463",
    "prio": 0
   },
   {
@@ -6679,22 +7001,8 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c444",
+   "id": "c464",
    "prio": 5
-  },
-  {
-   "title": "Errejón rechaza que sospechara de irregularidades en la ayuda pública a Air Europa",
-   "source": "Infobae",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSS1qSHAwRUpvS0dBMzlyV1JISnZubVBPSHZTSVBBTWRaamlHZHQzQzNHRnM3UlRUR2pvQU9NQlAtMDlXLUJ4NnQ3ZmlrV29uRUs2dmhNX0duM3pYazdpNTc4Z1VkNFNCLVY0elU5eExGUkx6Q3ZNcGVxbll5Vk4yZzUtYU5QTlFrODl3cHRjTkl1T3BGWkdzSVd2U2NESmJKVWw3WG1MMkFzYlhtRFFFSEI5bm9DS1RLY1NxX2tDNzh6UzQ4RlBFMlQ2TWVBZTDSAeoBQVVfeXFMT3YtVXpucWtYX3pzWUd5clRLRWFGOVRheDk2eEtseTBhdzZGclRYcEJ3R2FELXBxbEFMTXF0aGtmWEdSWE5OdlpnRFpFNkY1VHk1ZVlad2hZQXpkY0w2SVB1VHA1dW1jdWZnY0ZjbnlHRjgwVzFjOW1nR2RLQnUtOV8xaHBwLU84R3NPenI0SFdQS2MwbHNUV0VzMnk4amNndGlvdE5HMzBYYkJTeHozemF3N3VTMjZhTGhjX2Nzd3NxWGcydzNWQkNLVTF4SmdaMlBmR3NjQ0ZuZk1oaWkyQ3pkQnN0OVFRaFZB?oc=5",
-   "published": "2026-11-24T10:17+00:00",
-   "excerpt": "",
-   "feed": "Google News – Air Europa",
-   "lang": "ES",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c445",
-   "prio": 4
   },
   {
    "title": "British Airways to axe route to Europe’s ‘best Christmas destination’",
@@ -6707,8 +7015,22 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c446",
+   "id": "c465",
    "prio": 5
+  },
+  {
+   "title": "Los controladores aéreos denuncian los riesgos de la privatización de torres como la del aeropuerto de Alicante-Elche",
+   "source": "Información",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTTEyRU1GWmd2MzRTOWF0MTdOTE9FT08wRU1vNUpoSGtITDJCcmYyZWIzMHM2VWtHY1lXZUhZNUtEdm5nMFhWdU0zbnI1NE02NHpiY1E2Q2RpZFlMUUozSkxRai1QUTYyaDcwVHlObmEtZXpYanVILVIzaDYyaTJ0WmVIMmNhLVVtbU12akhTNk1LcXBzSjlLZDZzM0tVdHlycW5ydHBMX2dsSkc4NUJVeGdtbGnSAboBQVVfeXFMTWkyeG9jRTJUOEJ1ZDJxUUxlQjl1aG1neVBrMjRUY0lfSWNhaG1oOVFVaVRUSDlCZjBUSmJxWHRMQk5PZGFQMkt5ZkI4emEwRkVWWHY2NVBEUXMzei1PakdpTXFhaHprc0ZaY2dVaXg1TF9ZUWxxcHdidFhuOWRpcFh1b01oTFk1d2x2dnNndDhQV2dXeVk0NVNoam1oNzFCZ24tNjhyRE44LUl0bU9XeW1ZVG1mNjFCMEJ3?oc=5",
+   "published": "2026-11-24T10:12+00:00",
+   "excerpt": "",
+   "feed": "Google News – Aena / aeropuertos España",
+   "lang": "ES",
+   "topic": "aeropuertos",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c466",
+   "prio": 0
   },
   {
    "title": "Continúan las declaraciones de testigos por el caso Air Europa",
@@ -6724,7 +7046,7 @@
    "alsoIn": [
     "ABC"
    ],
-   "id": "c447",
+   "id": "c467",
    "prio": 8
   },
   {
@@ -6738,7 +7060,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c448",
+   "id": "c468",
    "prio": 0
   },
   {
@@ -6752,7 +7074,7 @@
    "topic": "aeropuertos",
    "viaGoogle": true,
    "image": "",
-   "id": "c449",
+   "id": "c469",
    "prio": 0
   },
   {
@@ -6766,7 +7088,7 @@
    "topic": "general",
    "viaGoogle": true,
    "image": "",
-   "id": "c450",
+   "id": "c470",
    "prio": 5
   },
   {
@@ -6780,7 +7102,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c451",
+   "id": "c471",
    "prio": 0
   },
   {
@@ -6794,8 +7116,22 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c452",
+   "id": "c472",
    "prio": 0
+  },
+  {
+   "title": "British Airways Launches Avios-Only Flights to Reykjavík and Tenerife",
+   "source": "https://safariindia.com/",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5oZlBTbk4wQ1RTc1lfYXJaWG5TcEpJUHNmSEM3d09mcFM2cHFtWS05MmZwTWw2SGRqYVk0QW9kcW5CeGtsTDNwUlJDeUVMOFNTWXZVcDhfR0V0RHdIMGlXaUhWT3p4Nl83WC0xTmVYTk1taWxyaGtN?oc=5",
+   "published": "2026-11-24T09:51+00:00",
+   "excerpt": "",
+   "feed": "Google News – British Airways / Aer Lingus / IAG",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c473",
+   "prio": 5
   },
   {
    "title": "La carta de la SEPI que avaló el rescate fraccionado de Air Europa se redactó en los servicios jurídicos de la aerolínea",
@@ -6808,7 +7144,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c453",
+   "id": "c474",
    "prio": 4
   },
   {
@@ -6822,7 +7158,7 @@
    "topic": "aeropuertos",
    "viaGoogle": true,
    "image": "",
-   "id": "c454",
+   "id": "c475",
    "prio": 0
   },
   {
@@ -6836,7 +7172,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c455",
+   "id": "c476",
    "prio": 5
   },
   {
@@ -6850,7 +7186,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c456",
+   "id": "c477",
    "prio": 0
   },
   {
@@ -6864,7 +7200,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c457",
+   "id": "c478",
    "prio": 0
   },
   {
@@ -6881,13 +7217,13 @@
    "alsoIn": [
     "Nexotur"
    ],
-   "id": "c458",
+   "id": "c479",
    "prio": 4
   },
   {
-   "title": "Palma e Ibiza retratan a Aena y los europeos los sitúan como unos de los peores aeropuertos",
+   "title": "Los europeos retratan a Aena y sitúan a Palma e Ibiza entre los peores aeropuertos",
    "source": "Mallorcadiario.com",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbHZEbXFTbDR6ejVCR1JwVWFaOXRpXzVNRkRyTjBfTjh4TVpia3BRZFNRN0VYS1Njc081VEVhdUh1VWtlYlR6ajBkNG42Qlk5OHVoS2NpSUpQd2dfWi1IeVNkVDlka214cHdiSGJiYmozWlRDaVlwbkRmSmx0cV8yUFhBNNIBgwFBVV95cUxPbHZEbXFTbDR6ejVCR1JwVWFaOXRpXzVNRkRyTjBfTjh4TVpia3BRZFNRN0VYS1Njc081VEVhdUh1VWtlYlR6ajBkNG42Qlk5OHVoS2NpSUpQd2dfWi1IeVNkVDlka214cHdiSGJiYmozWlRDaVlwbkRmSmx0cV8yUFhBNA?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBpNHdmRGtKMGhsZXlQZEc1ZkZrMVNCekN5ZzJiM3VPX1JxNEFXcXFrbjdNcURqYjFqNDFoRlVfb0ptbXA4WDU1Z1BHWmxDNEZrSTgzaHFjbHZVUndWcGd3RXJ3eWM5X3RISkpkZzdycUxRXzBjTmhxQTJaeVFHZ9IBgwFBVV95cUxPbHZEbXFTbDR6ejVCR1JwVWFaOXRpXzVNRkRyTjBfTjh4TVpia3BRZFNRN0VYS1Njc081VEVhdUh1VWtlYlR6ajBkNG42Qlk5OHVoS2NpSUpQd2dfWi1IeVNkVDlka214cHdiSGJiYmozWlRDaVlwbkRmSmx0cV8yUFhBNA?oc=5",
    "published": "2026-11-24T09:31+00:00",
    "excerpt": "",
    "feed": "Google News – Aena / aeropuertos España",
@@ -6895,7 +7231,7 @@
    "topic": "aeropuertos",
    "viaGoogle": true,
    "image": "",
-   "id": "c459",
+   "id": "c480",
    "prio": 3
   },
   {
@@ -6909,22 +7245,8 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c460",
+   "id": "c481",
    "prio": 0
-  },
-  {
-   "title": "Unai Simón y los Williams decoran el nuevo avión del Athletic rumbo a Málaga",
-   "source": "BilbaoHiria",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVWlNNTVOZmpFdGN3MUFTMnJkUXZWOWVVS3J4eUVCMFZUamE4eVprQlh1WFZpbjFtdk5IbjNycjU5UElqblg3QW1xTWszNWMxc3dhYms3aDAtd203aGFXVloyN214RkFvNTJzb0lxZnZZcmVhaE5seWdCSlE1NmVGZEd6Rlg4VFBpVXRGTUgxMA?oc=5",
-   "published": "2026-11-24T09:30+00:00",
-   "excerpt": "",
-   "feed": "Google News – Iberia / Vueling / IAG",
-   "lang": "ES",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c461",
-   "prio": 3
   },
   {
    "title": "GE Aerospace defense CEO to leave firm after four years",
@@ -6937,7 +7259,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.aerotime.aero/images/2026/11/Recently-Saved-1-of-1-22-80x80.jpeg",
-   "id": "c462",
+   "id": "c482",
    "prio": 0
   },
   {
@@ -6951,7 +7273,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c463",
+   "id": "c483",
    "prio": 0
   },
   {
@@ -6965,7 +7287,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c464",
+   "id": "c484",
    "prio": 0
   },
   {
@@ -6979,7 +7301,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c465",
+   "id": "c485",
    "prio": 0
   },
   {
@@ -6993,7 +7315,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c466",
+   "id": "c486",
    "prio": 2
   },
   {
@@ -7007,7 +7329,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c467",
+   "id": "c487",
    "prio": 2
   },
   {
@@ -7021,7 +7343,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c468",
+   "id": "c488",
    "prio": 2
   },
   {
@@ -7035,7 +7357,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c469",
+   "id": "c489",
    "prio": 0
   },
   {
@@ -7049,7 +7371,7 @@
    "topic": "aeropuertos",
    "viaGoogle": true,
    "image": "",
-   "id": "c470",
+   "id": "c490",
    "prio": 0
   },
   {
@@ -7063,7 +7385,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c471",
+   "id": "c491",
    "prio": 0
   },
   {
@@ -7077,7 +7399,21 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c472",
+   "id": "c492",
+   "prio": 5
+  },
+  {
+   "title": "British Airways Launches First Starlink Wi-Fi Flight in the UK",
+   "source": "https://safariindia.com/",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBJcWc3S3ZRMUhLYmVwWWxTTDRINUkxbFluQlJUY3dkT2lRV1VWTldQMWZYYmNkVnMzYnQ2UVI4NDdZQlNTSEE1LUtUOG5xWUJCN05zYmE3RkZJX0NUS20tNmpnaW9yNE5LX0RCR2lOenNiNzJfdnJnSEhhSQ?oc=5",
+   "published": "2026-11-24T08:42+00:00",
+   "excerpt": "",
+   "feed": "Google News – British Airways / Aer Lingus / IAG",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c493",
    "prio": 5
   },
   {
@@ -7091,7 +7427,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c473",
+   "id": "c494",
    "prio": 3
   },
   {
@@ -7105,7 +7441,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c474",
+   "id": "c495",
    "prio": 0
   },
   {
@@ -7119,7 +7455,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c475",
+   "id": "c496",
    "prio": 0
   },
   {
@@ -7136,7 +7472,7 @@
    "alsoIn": [
     "Avi-Go"
    ],
-   "id": "c476",
+   "id": "c497",
    "prio": 3
   },
   {
@@ -7150,7 +7486,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c477",
+   "id": "c498",
    "prio": 2
   },
   {
@@ -7164,7 +7500,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c478",
+   "id": "c499",
    "prio": 0
   },
   {
@@ -7178,7 +7514,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c479",
+   "id": "c500",
    "prio": 0
   },
   {
@@ -7192,8 +7528,36 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c480",
+   "id": "c501",
    "prio": 0
+  },
+  {
+   "title": "Nonstop Flights To Make Your Travels Easier",
+   "source": "Wendy Perrin",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZllGLUR1T0NiRVgxTGVEOTFiX1pBbkFpRmJ2RjlZVlRtZE9kS3A1aTVnZVJBbkZwMk80clloNzNOaXVIR1p5YmRza2hrdFlySHZET2sxcWRqR3pldWZGWWpDdW12N2FscGJOcS1oTkRJdmczRkFSMVNjNHB4SElxQzBB?oc=5",
+   "published": "2026-11-24T08:00+00:00",
+   "excerpt": "",
+   "feed": "Google News – British Airways / Aer Lingus / IAG",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c502",
+   "prio": 0
+  },
+  {
+   "title": "Del traspaso de Rodalies a la ampliación de El Prat: qué proponen los partidos en infraestructuras",
+   "source": "Diari de Tarragona",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTVBmVzlGX1RiclVNQmIyb0s5N2xsVFB5dFZENWhHb19UTnlOOWlmdFZIdkpyUmI4OVBld28tcU5nQ0ppNVdRWkR1c2hFS2lKajVzWTdpUDJwWllHRGo2djhTSldGY2h4bEJ2Y1NqZzVMbTdqdUxmQ3JrNWRjTHF1NU01bXF6QzI4N2JLOHJWdFlVa1EzaFBFMkFlM2toNVNlVk1jdkdPNXdkOGpaeVZrTmhsV1c2cGpvU2ZLc9IBwgFBVV95cUxNakFKZEh4WElKeWZ4RzI1ZTNmSDl3cUpsNUk4QWVadWg2Tk9Uc3d1NnRhYnNpcENwSzQ5ZmpHM3ZvZDB0cEttaVhEd3BnazgtWGozOF80NS1GdUNfZndXc3pDeC1SNHJSX0dWWnZDNUhyVUhIWDRIN2FqaFcxdHFJZlFVVjE3aWZCLWNEMGVaUkV5NTlRREN0b0s4X2NIYy04XzlLcGNmaUkydUlZMGdBc2lVNFRsRFR2Mk8tWktsWlJtdw?oc=5",
+   "published": "2026-11-24T08:00+00:00",
+   "excerpt": "",
+   "feed": "Google News – Aena / aeropuertos España",
+   "lang": "ES",
+   "topic": "aeropuertos",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c503",
+   "prio": 3
   },
   {
    "title": "Vertical MRO Conference Draws Strong Turnout Despite Ground Stop",
@@ -7206,7 +7570,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c481",
+   "id": "c504",
    "prio": 2
   },
   {
@@ -7220,7 +7584,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c482",
+   "id": "c505",
    "prio": 0
   },
   {
@@ -7234,7 +7598,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c483",
+   "id": "c506",
    "prio": 5
   },
   {
@@ -7248,7 +7612,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c484",
+   "id": "c507",
    "prio": 0
   },
   {
@@ -7262,7 +7626,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c485",
+   "id": "c508",
    "prio": 0
   },
   {
@@ -7276,7 +7640,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c486",
+   "id": "c509",
    "prio": 0
   },
   {
@@ -7290,7 +7654,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c487",
+   "id": "c510",
    "prio": 0
   },
   {
@@ -7304,7 +7668,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c488",
+   "id": "c511",
    "prio": 0
   },
   {
@@ -7318,7 +7682,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c489",
+   "id": "c512",
    "prio": 0
   },
   {
@@ -7332,12 +7696,8 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "alsoIn": [
-    "Aviation Week",
-    "Aviation Week"
-   ],
-   "id": "c490",
-   "prio": 2
+   "id": "c513",
+   "prio": 0
   },
   {
    "title": "Plus Ultra suspende todos sus vuelos y se hunde en el preconcurso",
@@ -7353,22 +7713,8 @@
    "alsoIn": [
     "Noticias Trabajo"
    ],
-   "id": "c491",
+   "id": "c514",
    "prio": 1
-  },
-  {
-   "title": "Air Nostrum lanza su ‘Black Friday’ con vuelos Interbaleares desde 14 euros y conexiones con Melilla desde 19,90 euros",
-   "source": "Melilla Hoy",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOOExNTnhiMTJKaTZPV196bGJLQk94QUc3Qi1lRndGNEZFNnF6OVllQnhhYXFGLTBtZWotUkJjVFJzWmZueFNoRFZfOWFtVHB5bDBoelNJRXU4Y2liSjR6ZFo3MVFJNFhTNkdUenh3ck9COHBsM3E4d00yOW9uVllfSEd3V3RRc0VpZDZlOVNsblAtQmpmWUdPT2o5b1praXhUallBUWlRUzFCRmU5T0xCS1dkUXlVLWRBZ1VSajcwd3V0aHdIT0RQQkwyTy1WWTYtQk45Um9qTkh3UdIB2gFBVV95cUxOOExNTnhiMTJKaTZPV196bGJLQk94QUc3Qi1lRndGNEZFNnF6OVllQnhhYXFGLTBtZWotUkJjVFJzWmZueFNoRFZfOWFtVHB5bDBoelNJRXU4Y2liSjR6ZFo3MVFJNFhTNkdUenh3ck9COHBsM3E4d00yOW9uVllfSEd3V3RRc0VpZDZlOVNsblAtQmpmWUdPT2o5b1praXhUallBUWlRUzFCRmU5T0xCS1dkUXlVLWRBZ1VSajcwd3V0aHdIT0RQQkwyTy1WWTYtQk45Um9qTkh3UQ?oc=5",
-   "published": "2026-11-24T07:19+00:00",
-   "excerpt": "",
-   "feed": "Google News – Iberia / Vueling / IAG",
-   "lang": "ES",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c492",
-   "prio": -3
   },
   {
    "title": "Voice AI and the potential to train hotel staff",
@@ -7381,7 +7727,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c493",
+   "id": "c515",
    "prio": 0
   },
   {
@@ -7396,11 +7742,10 @@
    "viaGoogle": true,
    "image": "",
    "alsoIn": [
-    "Sivarious",
     "MurciaEconomía.com"
    ],
-   "id": "c494",
-   "prio": 2
+   "id": "c516",
+   "prio": 1
   },
   {
    "title": "Construirán primer edificio corporativo en la Nueva Ciudad Aeropuerto Jorge Chávez",
@@ -7413,7 +7758,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c495",
+   "id": "c517",
    "prio": 0
   },
   {
@@ -7427,7 +7772,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c496",
+   "id": "c518",
    "prio": 0
   },
   {
@@ -7441,7 +7786,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c497",
+   "id": "c519",
    "prio": 0
   },
   {
@@ -7455,7 +7800,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c498",
+   "id": "c520",
    "prio": 3
   },
   {
@@ -7469,7 +7814,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c499",
+   "id": "c521",
    "prio": 0
   },
   {
@@ -7483,7 +7828,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c500",
+   "id": "c522",
    "prio": 0
   },
   {
@@ -7497,7 +7842,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c501",
+   "id": "c523",
    "prio": 0
   },
   {
@@ -7511,7 +7856,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c502",
+   "id": "c524",
    "prio": 0
   },
   {
@@ -7525,7 +7870,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c503",
+   "id": "c525",
    "prio": 0
   },
   {
@@ -7539,7 +7884,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c504",
+   "id": "c526",
    "prio": 0
   },
   {
@@ -7553,7 +7898,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c505",
+   "id": "c527",
    "prio": 2
   },
   {
@@ -7567,7 +7912,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c506",
+   "id": "c528",
    "prio": -6
   },
   {
@@ -7581,7 +7926,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c507",
+   "id": "c529",
    "prio": 0
   },
   {
@@ -7595,7 +7940,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c508",
+   "id": "c530",
    "prio": 0
   },
   {
@@ -7609,7 +7954,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c509",
+   "id": "c531",
    "prio": 2
   },
   {
@@ -7623,36 +7968,8 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c510",
+   "id": "c532",
    "prio": 2
-  },
-  {
-   "title": "El Athletic estrena un avión de Vueling con seis jugadores",
-   "source": "Radio Popular de Bilbao",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcjJnVHYwaUxCc1NPeUJUeTBQMHMwM0p5eDZ3MTYybDZDMFY0RGdPRXBOaEoyWEdGaTBONHZaUkZvWUhjVEhiV05MWGE1Q252eDl2R3FRaDd5Y0RkSnNNZTk5MS1URzc3WU1rY3E3NGk2MDdVemJNTmNTNFptamdhY2ZpVUFSQmNpOE1KdGFVU3pMUHlQMDg0LU15X2h6RmVjejNaTGF3?oc=5",
-   "published": "2026-11-24T06:40+00:00",
-   "excerpt": "",
-   "feed": "Google News – Iberia / Vueling / IAG",
-   "lang": "ES",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c511",
-   "prio": 5
-  },
-  {
-   "title": "El mayor titanosaurio de Europa podría estar en España",
-   "source": "La Razón",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMktnNVJtRlBXQ01EejdfYmZEa25kcG9kdXBVYllINk9kOVFET1Y5LTNvcXJfSURNUmkxLV8wSmJlQWpWUnN1b29SaDFtUm9SZ1ZCak5SZkpPenNCeGl2b01kVXQ3U2FROHVxTEhlekxnZVl3R0ZVc1VHMUlYNzdSWndMSkdCT1Fzckt3RHJlNFp4aFpqN3FnaTFRRXczekFVYjdfU3VDWEJzSklzVkdValN6bnDSAcgBQVVfeXFMTkQ4bzBRaDFHS0xMTU5kN1lXS2pNNXU4S2ZPVC13U3d0ZnY5N3RnSHpXaVFST0Nma1JtQW5rRzI1LXFHZDhMWGc1anlhcXhjNUd6MmdTeFlrTmhvS21pSER1RVdIb2FLV1Fkd2lBQzJGN0NpaHc4TUhQWXlNVHhDMDZEV19uUy0wRFBEU2RwVXJ2Ung2ejdPd1pYYmxHX01PVVdRaHRCem9HRXRJcW5LdjRMRDl1RElIZlNsRmlLVlVoSV84Y2RYUlE?oc=5",
-   "published": "2026-11-24T06:36+00:00",
-   "excerpt": "",
-   "feed": "Google News – Air Europa",
-   "lang": "ES",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c512",
-   "prio": 3
   },
   {
    "title": "Ryanair, easyJet and British Airways planes 'jammed by Vladimir Putin's warship' off Britain's coast",
@@ -7665,8 +7982,22 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c513",
+   "id": "c533",
    "prio": 7
+  },
+  {
+   "title": "Nigeria, UK To Review Air Services Agreement As British Airways Seeks Expansion",
+   "source": "Independent Newspaper Nigeria",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNXZkZEtuUmlpOW00RmJmRVFBWThQMV94ZEtSRTVPX3laaFVsdHZLWUJ6NnNaOS1zeFU2TFZPd3NWdE5sUHVXb2VEeVNpRENvN1FLNE1NQ0ltWndPdU80UlVNcFlWWXVQMk5VRGVzOFRGVlhEdXFPVFh6cXRoaTFVaWNfellhdVpMRkpJZWx4aFZOX0FublVsTm1iM1dTajVRaC0wSA?oc=5",
+   "published": "2026-11-24T06:26+00:00",
+   "excerpt": "",
+   "feed": "Google News – British Airways / Aer Lingus / IAG",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c534",
+   "prio": 5
   },
   {
    "title": "Israeli transport ministry approves resumption of flydubai flights after attack",
@@ -7679,7 +8010,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c514",
+   "id": "c535",
    "prio": 0
   },
   {
@@ -7693,7 +8024,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c515",
+   "id": "c536",
    "prio": 3
   },
   {
@@ -7707,7 +8038,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c516",
+   "id": "c537",
    "prio": 0
   },
   {
@@ -7721,7 +8052,7 @@
    "topic": "general",
    "viaGoogle": true,
    "image": "",
-   "id": "c517",
+   "id": "c538",
    "prio": 6
   },
   {
@@ -7735,7 +8066,7 @@
    "topic": "general",
    "viaGoogle": true,
    "image": "",
-   "id": "c518",
+   "id": "c539",
    "prio": 3
   },
   {
@@ -7749,7 +8080,7 @@
    "topic": "aeropuertos",
    "viaGoogle": false,
    "image": "",
-   "id": "c519",
+   "id": "c540",
    "prio": 0
   },
   {
@@ -7763,7 +8094,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c520",
+   "id": "c541",
    "prio": 0
   },
   {
@@ -7777,7 +8108,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c521",
+   "id": "c542",
    "prio": 0
   },
   {
@@ -7791,7 +8122,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c522",
+   "id": "c543",
    "prio": 0
   },
   {
@@ -7805,7 +8136,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.headforpoints.com/wp-content/uploads/2026/06/HfP-IHG-Revolut-Elite-debit-card-1.webp",
-   "id": "c523",
+   "id": "c544",
    "prio": 5
   },
   {
@@ -7819,22 +8150,22 @@
    "topic": "general",
    "viaGoogle": true,
    "image": "",
-   "id": "c524",
+   "id": "c545",
    "prio": 5
   },
   {
-   "title": "Iberia y Air Europa descartan recortar plazas para el próximo verano pese al encarecimiento del combustible",
-   "source": "Nexotur.com",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdW5YWm44RUJEeDBuaWxPa2NNQnF0ajZPUzZTRFpkMW9USzk0UzlpV2F4d1Q4M1B1ZVBwd0hxNGVMdUs2SUVHMUtzSUpESS0zQTFPZ092cjNtTDRwMFd2aUlxWGtYR2xfbzZIUGtKSkNxbjdJeF93UWlaSzgzU2pwX0ZLRmVTaUlNcHQ4X0t2d1pnUVdTdHZSOXQwaHFmU2NxZm51UmdJcHBhNWlJVmxxbFNiNDJycFJ0QmdhZWU2WWhRbUhQcnpR?oc=5",
-   "published": "2026-11-24T04:42+00:00",
+   "title": "Aviation bet at the World Cup: Norwegian airline places British Airways logo",
+   "source": "Radar Armenia",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5kXzVOVDhTRlljM19jdnNNOXdaRHdGbGxlbzgtZmpXZzFIOEdYN0lDMlM1RVFSejRoRlk5UTJDMEJTdFdEdjBnSkhoakNYT29RUjlrRQ?oc=5",
+   "published": "2026-11-24T04:25+00:00",
    "excerpt": "",
-   "feed": "Google News – Air Europa",
-   "lang": "ES",
+   "feed": "Google News – British Airways / Aer Lingus / IAG",
+   "lang": "EN",
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c525",
-   "prio": 11
+   "id": "c546",
+   "prio": 5
   },
   {
    "title": "Top up your Miles & More balance with a 60% bonus on ‘bundles’, exclusive to cardholders",
@@ -7847,7 +8178,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.headforpoints.com/wp-content/uploads/2026/08/HFP-Lufthansa-Miles-and-More-Currensea-debit-card.webp",
-   "id": "c526",
+   "id": "c547",
    "prio": 2
   },
   {
@@ -7861,7 +8192,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c527",
+   "id": "c548",
    "prio": 0
   },
   {
@@ -7875,7 +8206,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.headforpoints.com/wp-content/uploads/2025/03/HfP-Bonvoy-app.webp",
-   "id": "c528",
+   "id": "c549",
    "prio": -6
   },
   {
@@ -7889,7 +8220,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.headforpoints.com/wp-content/uploads/2026/11/Holiday-Inn-Express-Aberdeen-Airport.webp",
-   "id": "c529",
+   "id": "c550",
    "prio": 0
   },
   {
@@ -7903,7 +8234,21 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "https://www.headforpoints.com/wp-content/uploads/2025/01/Qatar-Airways-Avios.webp",
-   "id": "c530",
+   "id": "c551",
+   "prio": 5
+  },
+  {
+   "title": "Avios transfer to Marriott points offers weak value",
+   "source": "www.insideflyer.com",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOUUycng4NzNWaUpsOVdtbnVSRDlxVTRpZGhySUxGcmVFUkg1RXJNQ21aSEkwcGhqa2hIcDVOTjJ1N3dlZDNvYUY0Y24xSjdMMGhqclRubF9IWFZRNDQ4NmhuMzRzd0NHbG1LZUdIT1ltRFRRSG9ETjF6UkhsbzAyMHdVMUV6Z00yeGwycFdoOA?oc=5",
+   "published": "2026-11-24T03:05+00:00",
+   "excerpt": "",
+   "feed": "Google News – British Airways / Aer Lingus / IAG",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c552",
    "prio": 5
   },
   {
@@ -7918,11 +8263,10 @@
    "viaGoogle": true,
    "image": "",
    "alsoIn": [
-    "Preferente.com",
     "Preferente.com"
    ],
-   "id": "c531",
-   "prio": 11
+   "id": "c553",
+   "prio": 10
   },
   {
    "title": "Video of ICE detaining father and daughter while boarding flight sparks protests in Seattle",
@@ -7935,7 +8279,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c532",
+   "id": "c554",
    "prio": 0
   },
   {
@@ -7949,7 +8293,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c533",
+   "id": "c555",
    "prio": 4
   },
   {
@@ -7963,7 +8307,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c534",
+   "id": "c556",
    "prio": 0
   },
   {
@@ -7977,7 +8321,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c535",
+   "id": "c557",
    "prio": 0
   },
   {
@@ -7991,7 +8335,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c536",
+   "id": "c558",
    "prio": 0
   },
   {
@@ -8005,7 +8349,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c537",
+   "id": "c559",
    "prio": 0
   },
   {
@@ -8019,7 +8363,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c538",
+   "id": "c560",
    "prio": 0
   },
   {
@@ -8036,7 +8380,7 @@
    "alsoIn": [
     "Aviacionline"
    ],
-   "id": "c539",
+   "id": "c561",
    "prio": 1
   },
   {
@@ -8050,7 +8394,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c540",
+   "id": "c562",
    "prio": 0
   },
   {
@@ -8064,7 +8408,7 @@
    "topic": "general",
    "viaGoogle": false,
    "image": "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2026/11/24/17954810130109.jpg",
-   "id": "c541",
+   "id": "c563",
    "prio": 15
   },
   {
@@ -8082,8 +8426,22 @@
     "Aviation Week",
     "Aviation Week"
    ],
-   "id": "c542",
+   "id": "c564",
    "prio": 2
+  },
+  {
+   "title": "Japanese, S.Korean stocks surge after Jensen Huang's return to Nvidia",
+   "source": "Gulf News",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTzdkZDBCbUt0Znp3dzFOQVRQeUthbnFrZlI5UHZ5Q2J0VWwtY2ZBSFBNQ3Y4VGljd2F3X3NMaFV6TU1iRXMwLXZta0MtTHowX2R1MGhWeVJ4RzJ6eGF5c05HUUJNSjNoSFlMVkNpTy1xaUQxRHlyaGR2QXRQYVdXRV9BcW5VaXpXMVA5cGZZck9hNENlZUZGVjNNTHVEQ3p5VlFBR0daTDdHSGEtVlROczJuNE9QUmfSAcoBQVVfeXFMTTlGeHZfZzBHT1hTZnpYTlAzdlFva1FOZXNHQjRQdVpGSlloV0J1ZVFITWp3QjFtVkYtZkk1QUVLcHRuel9sSnpVSDkteEZ4Mk9rdjRRY0lzVWtYUFBOX1U2Z2xWVHZNTHZ4R1Jpa0k4TVA5UW02OWRoRllGWWtlU2t6dTRUQVlOVXFuUWNTSUFtbjNzbEI1OFZfVGQ0c2ZpQ01VVzRFSTl1d1BUb0JIQnJrSTd5NVFfMldKZGJVS0VFUncxeFZ5V2tOUQ?oc=5",
+   "published": "2026-11-24T00:39+00:00",
+   "excerpt": "",
+   "feed": "Gulf News (vía Google News)",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c565",
+   "prio": 0
   },
   {
    "title": "Russia may launch a nuclear-armed satellite by year-end, German media report",
@@ -8096,7 +8454,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "",
-   "id": "c543",
+   "id": "c566",
    "prio": 0
   },
   {
@@ -8110,7 +8468,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c544",
+   "id": "c567",
    "prio": 5
   },
   {
@@ -8124,7 +8482,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c545",
+   "id": "c568",
    "prio": 0
   },
   {
@@ -8138,7 +8496,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c546",
+   "id": "c569",
    "prio": 0
   },
   {
@@ -8152,11 +8510,8 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "alsoIn": [
-    "Avi-Go"
-   ],
-   "id": "c547",
-   "prio": 3
+   "id": "c570",
+   "prio": 2
   },
   {
    "title": "JSX Moves To Revive New Pacific Airlines Under Public Charter Brand",
@@ -8169,7 +8524,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c548",
+   "id": "c571",
    "prio": 0
   },
   {
@@ -8183,7 +8538,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c549",
+   "id": "c572",
    "prio": 3
   },
   {
@@ -8197,7 +8552,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c550",
+   "id": "c573",
    "prio": 0
   },
   {
@@ -8211,36 +8566,8 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c551",
+   "id": "c574",
    "prio": 3
-  },
-  {
-   "title": "Will China’s EV Dominance Transfer To Electric And Autonomous Aviation?",
-   "source": "Aviation Week",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ28zLUttZ2M4WUtDbEYzNTc2TFJ4aGREMlNHUUFELVpLVWVEU0dHSmRJQ1hwdENtMERxLXBPWDhtTHBveHppV0hOUGJkYzVnMXBDQm5xbnFISEhQQVVlcXJUY3RTYkV2bnBSZTl5SWJXaksxTUFoRVlJUHFfczRhOS1zenZFTUJ3Q3ltZGxxWDFRVzFyaFJoSWlLZkxwTU5yRllUc3RRZUFnS3hLcW5MS2lrSWhaMlV4?oc=5",
-   "published": "2026-11-23T22:52+00:00",
-   "excerpt": "",
-   "feed": "Aviation Week – Air Transport (vía Google News)",
-   "lang": "EN",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c552",
-   "prio": 0
-  },
-  {
-   "title": "Changing Customer Base Is Altering Charter Market, Digital Broker Says",
-   "source": "Aviation Week",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaGxGc2lmQzZzejZta1FNS0pDTl9wVXZHSllUSEl0QU5SWVdJaTZWY3ZMYm1jcHBlX0hSTWcwb0dqVXZ1TEsyVUF2c3UyX3FMejI5NHVMdjdPR2FTOWxpYy1BLUNxeEtOMnZlNWxZbmtiNDBfeVFMa2tOU0RWYVQ5VUg5bXlldjhGV0JXLWl5NzNuaWV6SlBtandIQXBYNTI1TENHXy1lRzhzQ19xVkg0MkZ4TEVMck9iV2RDZzl3?oc=5",
-   "published": "2026-11-23T22:16+00:00",
-   "excerpt": "",
-   "feed": "Aviation Week – Air Transport (vía Google News)",
-   "lang": "EN",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c553",
-   "prio": 0
   },
   {
    "title": "Hilton Diamond Guest Says He Gets Sent Next Door For Coffee—And Treated Like He Was Stealing Breakfast",
@@ -8253,7 +8580,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c554",
+   "id": "c575",
    "prio": 0
   },
   {
@@ -8267,8 +8594,22 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c555",
+   "id": "c576",
    "prio": 0
+  },
+  {
+   "title": "Aena roza las 122 mil toneladas movidas desde sus aeropuertos en España en octubre",
+   "source": "Logística Profesional",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRHRZM0FPU0g3RzF4M3RBMDByUE4wWXlEOWdjdzcxdE1CejZDZ2hTbnN1TmNLYVZwTm5ucENXVnc0dEl5ZVF5RjVIcFlkcTd3a2dEZ3g2M1ZFb1E4VDNuODdFWWo1QThxSnduXzhkSjJ2bWppb2hxTmN6VFA3bkhwRHM2ZE5iU0drUDBac09naVJvRDFNT2dnRjl6NnVjTWI0VzZiMzh2TVZXQVdjazFxM0ttaFdlT2NSMHdQMGhhdDUzb0dE?oc=5",
+   "published": "2026-11-23T22:00+00:00",
+   "excerpt": "",
+   "feed": "Google News – Aena / aeropuertos España",
+   "lang": "ES",
+   "topic": "aeropuertos",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c577",
+   "prio": 3
   },
   {
    "title": "‘Is it possible for any government to run that way?’: Americans outraged over tech outages",
@@ -8281,7 +8622,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c556",
+   "id": "c578",
    "prio": 0
   },
   {
@@ -8295,7 +8636,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c557",
+   "id": "c579",
    "prio": 7
   },
   {
@@ -8310,11 +8651,10 @@
    "viaGoogle": true,
    "image": "",
    "alsoIn": [
-    "El Correo",
-    "Hispanidad"
+    "El Correo"
    ],
-   "id": "c558",
-   "prio": 9
+   "id": "c580",
+   "prio": 8
   },
   {
    "title": "American Unveils Limited-Edition Jacket Made of Recycled Aircraft Seats",
@@ -8327,7 +8667,7 @@
    "topic": "aerolineas",
    "viaGoogle": false,
    "image": "",
-   "id": "c559",
+   "id": "c581",
    "prio": 0
   },
   {
@@ -8341,7 +8681,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c560",
+   "id": "c582",
    "prio": 5
   },
   {
@@ -8355,7 +8695,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c561",
+   "id": "c583",
    "prio": 2
   },
   {
@@ -8369,8 +8709,22 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c562",
+   "id": "c584",
    "prio": 4
+  },
+  {
+   "title": "Aer Lingus Premium Economy: What the New A330 Cabins Will Offer",
+   "source": "The Aviation Hub",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONHdBNzBITEZibng3RUI0SHdYYm1Xa2R0c3RaenJuZVY1MEZMSDB0YlNpZWgzcVpLem5jYm9GZkxKRFZ3Q0ZKQUVTeWhYZWZmbkV4UWV1T2RFU1dzcVNsWV9YWXZ3eENuaVQ1MTZRWWV4QUMtelJaYVp2c1ZBSXZRYVJKMmJSa1hMTjI5LU1Wc2RVbDNoTHhF?oc=5",
+   "published": "2026-11-23T21:00+00:00",
+   "excerpt": "",
+   "feed": "Google News – British Airways / Aer Lingus / IAG",
+   "lang": "EN",
+   "topic": "aerolineas",
+   "viaGoogle": true,
+   "image": "",
+   "id": "c585",
+   "prio": 5
   },
   {
    "title": "Alemania prepara la compra de 16 Airbus A400M y da aire a la fábrica de Sevilla",
@@ -8383,7 +8737,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c563",
+   "id": "c586",
    "prio": 3
   },
   {
@@ -8397,7 +8751,7 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c564",
+   "id": "c587",
    "prio": 0
   },
   {
@@ -8411,7 +8765,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c565",
+   "id": "c588",
    "prio": 5
   },
   {
@@ -8425,11 +8779,8 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "alsoIn": [
-    "Aviacionline"
-   ],
-   "id": "c566",
-   "prio": 1
+   "id": "c589",
+   "prio": 0
   },
   {
    "title": "Aircraft Maintenance aboard Theodore Roosevelt [Image 2 of 6]",
@@ -8442,7 +8793,7 @@
    "topic": "mro",
    "viaGoogle": true,
    "image": "",
-   "id": "c567",
+   "id": "c590",
    "prio": 2
   },
   {
@@ -8456,7 +8807,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c568",
+   "id": "c591",
    "prio": 0
   },
   {
@@ -8470,7 +8821,7 @@
    "topic": "aeropuertos",
    "viaGoogle": false,
    "image": "https://airport-world.com/wp-content/uploads/2026/11/werhwerh.webp",
-   "id": "c569",
+   "id": "c592",
    "prio": 0
   },
   {
@@ -8484,7 +8835,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c570",
+   "id": "c593",
    "prio": 0
   },
   {
@@ -8498,7 +8849,7 @@
    "topic": "general",
    "viaGoogle": true,
    "image": "",
-   "id": "c571",
+   "id": "c594",
    "prio": 5
   },
   {
@@ -8512,7 +8863,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c572",
+   "id": "c595",
    "prio": 0
   },
   {
@@ -8526,7 +8877,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c573",
+   "id": "c596",
    "prio": 0
   },
   {
@@ -8540,7 +8891,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c574",
+   "id": "c597",
    "prio": 0
   },
   {
@@ -8554,7 +8905,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c575",
+   "id": "c598",
    "prio": 0
   },
   {
@@ -8568,7 +8919,7 @@
    "topic": "aerolineas",
    "viaGoogle": true,
    "image": "",
-   "id": "c576",
+   "id": "c599",
    "prio": 0
   },
   {
@@ -8582,92 +8933,8 @@
    "topic": "turismo",
    "viaGoogle": true,
    "image": "",
-   "id": "c577",
+   "id": "c600",
    "prio": 3
-  },
-  {
-   "title": "¿Qué pasa con los 53 millones prestados por la SEPI? Plus Ultra deja sus aviones en tierra",
-   "source": "Tourinews",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNN2FHeXA2TmxBRllEZWVFM0c0MEc5V253Y0pvWkp2NkVCSmhLaDFpdGtUYUhoMVAwVG1sbkZlRmJzYUpfT0RaNDY1VFpHd3lHVDRVRWtMM0hyMW1wSWd3X2k2X3hvc29VVTl5QWZjTm8wQTF5cTZKRS1acEVxLXdZQXNiYkVZY2tzWEV4QjFfSEpGTUFCQklpM3BKYVVkVnFzN1FYbE5DaEdQSllOT1F1RmxaYjNJemw4RjBfc2p6aDNGSnQ0djlXVEZ3?oc=5",
-   "published": "2026-11-23T18:21+00:00",
-   "excerpt": "",
-   "feed": "Tourinews (vía Google News)",
-   "lang": "ES",
-   "topic": "turismo",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c578",
-   "prio": 0
-  },
-  {
-   "title": "Drivers trapped in limbo due to DVLA licence delays",
-   "source": "The Guardian",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVWRvZkJ5Y09ROVR5V3FyaXZ6bVJWdC05NFZKMDVPTVQ4VS04TTgtR2EzTGNIM1RyZFBteVlzd0RpaGJaUXNiSnQxR1lzTDRRY1FFb3FPYVlaOTFtMnJEOElqdTc4N3g5UEZDbWxFZnNjRkM2dndjUEplODJ1VWRjWk5GYzVPaEVaX0t5ZThYcmVJRUo2eEROLVlXN3c3UQ?oc=5",
-   "published": "2026-11-23T18:19+00:00",
-   "excerpt": "",
-   "feed": "The Guardian (vía Google News)",
-   "lang": "EN",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c579",
-   "prio": 0
-  },
-  {
-   "title": "Emirates Group offers more than 120 jobs, packages reach Dh1.2 million",
-   "source": "Gulf News",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUng5WW9pUFZ0XzVKaTVac0NPS20yY05NTzFHTHI4TVpiQmF5TGJWUUlJa3pLYUxQTGlXcEZUdEp1NTBzajJxSUd1RlhEQ21EemxOV0l4NHlxai10VGJvbzZJOFBLS1FEbHBKbWM1aFpMT1hiNDNsc25vUm13bGpBS0x6VnNFem1YdGlyUENKYW4taWtSc2hjc0diR1otUkFhZlZ0MlUxeVRlMXIxaHZWblVoWXNCSEdvcG9N0gHOAUFVX3lxTFBpdEV0WlR5OWc3TThNWGRSOG9MeFlvSEo2M0s2LXY3SEJ0cDJncE1aV2dhNGZWOFV0OGdybV9YQ0p1QndaSG9vMUwtZGlXZWtGa3RhaEp6VTBSM2xFRl90ZHhKMl9rdWtIbklEaENxa2JXaUNhV3JZRGhnWmtvalY5UWIxNktyOTZQeTdleUFucE9tOEE2T2hzYnl0clpKc0lBMG1lczFyTjZBY1VKbDU1d3E3bmNCVVZUdkI2ZjRhQmRaV2YtMHJnU3NHYUhn?oc=5",
-   "published": "2026-11-23T18:04+00:00",
-   "excerpt": "",
-   "feed": "Gulf News (vía Google News)",
-   "lang": "EN",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c580",
-   "prio": 0
-  },
-  {
-   "title": "Aagesen niega presiones o irregularidades en el rescate de Air Europa y defiende que cumplió todos los requisitos",
-   "source": "RTVE.es",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNDV2OEJXVmhfcmVPVlN2dzQxLUhTdnZ6c1VQX2MwNDJ0TmpKdmZXeWFRWlp4bXhBdXpxV0FzbHY3c095aURuNElsRE4yVEZZU3pRaFM4Y0RFeDVOaFdmQUtMVjdBbHJzdXMtbjJtZTBzYlp1U1d3MV8xYzBIZjB5Um9Sc1I3MHFEamFJemtZWHVjYmlRdk53SXp0eTJoejJjTGFOeWNkeGdlenk4TXJMbw?oc=5",
-   "published": "2026-11-23T17:59+00:00",
-   "excerpt": "",
-   "feed": "Google News – Air Europa",
-   "lang": "ES",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c581",
-   "prio": 4
-  },
-  {
-   "title": "El Athletic quiere volar alto",
-   "source": "Diario AS",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jcklwaFEzUnl6RXBldDJILTk5YWltSks3UmV2T21vT1hUR0pJT3JJMHltbDQyTGVMU2RpdkVkSVZxbHV0U0NQajI3X2Y5Q1p4eUs4SG01WWEtcHNHYzUwQ1BTbE5GdFhuRkY1ZkVBVWZGcEpP0gGIAUFVX3lxTE1laW11SlA3TXB2QWVEaWhwTmxiakw3ZU1SV0g2aV9CRkhKczdReTE1R1gtR1NzcjNCbUViNDdIdDdCUktMb3BEWXdpSE9ZWDlxanY0WWdNZ21pWkN4dWQ5Qk9TY0dsYWN1VFB6V2l6MVZoN2lHd1ZFY0twRHdoOG1sV2NoTmR5UWo?oc=5",
-   "published": "2026-11-23T17:53+00:00",
-   "excerpt": "",
-   "feed": "Google News – Iberia / Vueling / IAG",
-   "lang": "ES",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c582",
-   "prio": 0
-  },
-  {
-   "title": "El presidente ejecutivo de Telefónica pide que Europa cree su propia tecnología para no depender de multimillonarios \"astutos\"",
-   "source": "Antena 3 Noticias",
-   "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQdElTY2JubS1nQ1FVRVRUYjE2TzlYYlZTR3NHQ0VsSV9BOC1EUUdkcnFKa2ZGVGNiRmJKRjgxV3VCc0FjTTY3WVR2cmdVYk1FT2hGaG1VQ29lSTF3NGllUkZSX1RYTEw1Rm1MT19EVFl0bmUtU3BCZHhyRkY4VllsRFFnZ0tCS25RenFqRTk2RGZ5MGloR0phdmpkaHZPRjZUX0dXZGFQX1c3Q2xicUVtR2g3Y1ZjaGI2THNPZmFhY1JqbV93SWNRUDBLVDVobTNNcHpUQkpneFBfenBYODc5bDZhLUw3eWZqT2ZnZkthNVhGTm1nMk9fSkFUcEZJbk5EQkczNFRnancwdk03SVR4X2RR0gGSAkFVX3lxTFB0SVNjYm5tLWdDUVVFVFRiMTZPOVhiVlNHc0dDRWxJX0E4LURRR2RycUprZkZUY2JGYkpGODFXdUJzQWNNNjdZVHZyZ1ViTUVPaEZobVVDb2VJMXc0aWVSRlJfVFhMTDVGbUxPX0RUWXRuZS1TcEJkeHJGRjhWWWxEUWdnS0JLblF6cWpFOTZEZnkwaWhHSmF2amRodk9GNlRfR1dkYVBfVzdDbGJxRW1HaDdjVmNoYjZMc09mYWFjUmptX3dJY1FQMEtUNWhtM01welRCSmd4UF96cFg4NzlsNmEtTDd5ZmpPZmdmS2E1WEZObWcyT19KQVRwRkluTkRCRzM0VGdqdzB2TTdJVHhfZFE?oc=5",
-   "published": "2026-11-23T17:31+00:00",
-   "excerpt": "",
-   "feed": "Google News – Air Europa",
-   "lang": "ES",
-   "topic": "aerolineas",
-   "viaGoogle": true,
-   "image": "",
-   "id": "c583",
-   "prio": 0
   }
  ]
 }
