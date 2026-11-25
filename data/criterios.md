@@ -63,6 +63,12 @@ Toda noticia que trate de **España** (aerolíneas, aeropuertos, Aena, rutas, re
 - Si una tarea (Destacadas, Breves o el vigilante) ve una de estas noticias y no está en el portal, no la deja para el día siguiente. La tarea de Breves no la publica como Breve con promote: lanza la tarea de Destacadas en ese momento (fire_trigger trig_01Ln8za1CBxQhd2r348BwxRk, con el hecho en el texto).
 - Si salen en varios medios con titulares distintos (p. ej. «easyJet reduce un 89% su beneficio» y «su beneficio cae un 89%»), son el mismo hecho: una sola Destacada, con el otro medio como segunda fuente.
 
+## Horario de las tareas y segunda pasada del lunes (25-nov-2026)
+- Horario (hora de Madrid). De lunes a viernes: recogida 11:28, Destacadas 11:40, Breves 12:05, traducción 12:35. Los lunes, además, la cadena de la mañana: recogida 8:28, Destacadas 8:40, Breves 9:05, traducción 9:35. Las horas que citen los mensajes de las tareas (9:00, 9:45, 10:13…) quedan sustituidas por estas.
+- Lunes, pasada de las 8:40/9:05: es la del fin de semana (ventana de 72 horas, cupos de lunes, reparto por sábado y domingo).
+- SEGUNDA PASADA: si al empezar ves en data/news.json noticias añadidas hoy por tu misma tarea (addedAt de hoy y del mismo tipo: Destacadas sin "kind" o Breves con "kind": "brief", sin contar las del vigilante), es una segunda pasada. Entonces revisa solo las candidatas publicadas después de la hora de esa pasada anterior, no repitas hechos ya cubiertos y usa cupos reducidos: 2–5 Destacadas (más las de IAG) y 5–12 Breves. Sin material con peso, no se añade nada. La tarea de Destacadas no repite las búsquedas (a)–(d) de lo que ya cubrió la primera pasada: solo las hace para lo publicado desde entonces.
+- Las Destacadas que lance el vigilante a cualquier hora (resultados, compras y fusiones) no cuentan como primera pasada.
+
 ## Lunes: cubrir el fin de semana (23-nov-2026)
 
 Las tareas no funcionan sábado ni domingo, así que el lunes tiene que cubrir tres días (sábado, domingo y lunes).
