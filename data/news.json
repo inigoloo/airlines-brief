@@ -13487,5 +13487,192 @@
   "aiScore": 48,
   "addedAt": "2026-11-25T08:08:28Z",
   "addedBy": "claude"
+ },
+ {
+  "id": "b-easyjet-resultados-fy26",
+  "kind": "brief",
+  "title": "easyJet reduce un 89% su beneficio anual antes de impuestos, hasta 71 M£, por el combustible",
+  "summary": "El beneficio antes de impuestos de easyJet cae un 89% hasta 71 millones de libras por el alza del combustible por el conflicto en Oriente Medio. La compra por Apollo sigue su curso.",
+  "en": {
+   "title": "easyJet annual pre-tax profit falls 89% to £71m on fuel costs",
+   "summary": "easyJet's annual headline pre-tax profit fell 89% to £71m as fuel costs rose on the Middle East conflict. The Apollo acquisition remains on track."
+  },
+  "source": "ADVFN",
+  "url": "https://uk.advfn.com/market-news/article/26834/easyjet-reports-89-fall-in-annual-headline-pre-tax-profit-to-71-million-as-apollo-acquisition-remains-on-track",
+  "publishedAt": "2026-11-25",
+  "category": "FIN",
+  "aiScore": 80,
+  "promote": true,
+  "iagImpact": "indirecto",
+  "europe": true,
+  "addedAt": "2026-11-25T11:12:54Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-norse-atlantic-situacion-critica",
+  "kind": "brief",
+  "title": "Norse Atlantic Airways avisa en un comunicado de que su situación financiera es «crítica»",
+  "summary": "La aerolínea de largo radio de bajo coste Norse Atlantic Airways advirtió el 25 de noviembre de 2026, en un comunicado público, de que su situación financiera es crítica.",
+  "en": {
+   "title": "Norse Atlantic Airways warns its financial situation is 'critical'",
+   "summary": "Norse Atlantic Airways warned in a public statement on 25 November 2026 that its financial situation is critical."
+  },
+  "source": "AeroTime",
+  "url": "https://www.aerotime.aero/articles/norse-atlantic-warns-of-critical-financial-situation",
+  "publishedAt": "2026-11-25",
+  "category": "FIN",
+  "aiScore": 45,
+  "europe": true,
+  "addedAt": "2026-11-25T11:12:54Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-k2-aviation-smbc-six-737-800",
+  "kind": "brief",
+  "title": "K2 Aviation compra seis Boeing 737-800 a la arrendadora SMBC Aviation Capital",
+  "summary": "K2 Aviation firma un acuerdo definitivo para adquirir a SMBC Aviation Capital seis 737-800 NG arrendados a seis aerolíneas de Europa, Latinoamérica, Asia y Oriente Medio.",
+  "en": {
+   "title": "K2 Aviation buys six Boeing 737-800s from lessor SMBC Aviation Capital",
+   "summary": "K2 Aviation has signed a definitive agreement to acquire six 737-800 NGs from SMBC Aviation Capital, leased to six airlines across Europe, Latin America, Asia and the Middle East."
+  },
+  "source": "AviTrader",
+  "url": "https://avitrader.com/2026/11/25/k2-aviation-buys-six-boeing-737-800s-from-smbc/",
+  "publishedAt": "2026-11-25",
+  "category": "MRO",
+  "aiScore": 42,
+  "addedAt": "2026-11-25T11:12:54Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-wizz-a321-emergencia-barcelona",
+  "kind": "brief",
+  "title": "Un A321neo de Wizz Air Madrid-Sofía se desvía de emergencia a Barcelona tras una explosión",
+  "summary": "El avión, que volaba a 33.000 pies, aterrizó en Barcelona tras una explosión y posteriores vibraciones, según Preferente.",
+  "en": {
+   "title": "Wizz Air A321neo on Madrid-Sofia route diverts to Barcelona after explosion",
+   "summary": "The aircraft, flying at 33,000ft, landed in Barcelona after an explosion and subsequent vibrations, according to Preferente."
+  },
+  "source": "Preferente",
+  "url": "https://www.preferente.com/noticias-de-transportes/noticias-de-aerolineas/emergencia-de-un-a321-de-wizz-air-en-barcelona-tras-una-explosion-353252.html",
+  "thumb": "https://www.preferente.com/wp-content/uploads/2026/11/radar-5.jpg",
+  "publishedAt": "2026-11-25",
+  "category": "FLT",
+  "aiScore": 40,
+  "iagImpact": "indirecto",
+  "europe": true,
+  "addedAt": "2026-11-25T11:12:54Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-plus-ultra-60-millones-billetes",
+  "kind": "brief",
+  "title": "Plus Ultra acumula unos 60 millones de euros en billetes de vuelos que ya no se operarán",
+  "summary": "Según fuentes citadas por OKDiario, la suspensión de operaciones de Plus Ultra deja unos 60 millones de euros en billetes vendidos para vuelos que no se han realizado.",
+  "en": {
+   "title": "Plus Ultra owes passengers some €60m for flights that will no longer operate",
+   "summary": "According to sources cited by OKDiario, Plus Ultra's suspension of operations leaves about €60m in tickets sold for flights that were not operated."
+  },
+  "source": "Preferente",
+  "url": "https://www.preferente.com/noticias-de-transportes/noticias-de-aerolineas/plus-ultra-debe-60-millones-a-pasajeros-por-vuelos-cancelados-353256.html",
+  "thumb": "https://www.preferente.com/wp-content/uploads/2024/09/plus-ultra-8.jpg",
+  "publishedAt": "2026-11-25",
+  "category": "FIN",
+  "aiScore": 55,
+  "promote": true,
+  "europe": true,
+  "addedAt": "2026-11-25T11:12:54Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-ba-a350-1000-relevo-cuatrimotores",
+  "kind": "brief",
+  "title": "British Airways sustituye su veterana flota de cuatrimotores por grandes Airbus A350-1000",
+  "summary": "Simple Flying analiza por qué British Airways decidió reemplazar su longeva flota de cuatrimotores por los bimotores de gran tamaño A350-1000 de Airbus.",
+  "en": {
+   "title": "Why British Airways chose large A350-1000 twinjets to replace its quadjets",
+   "summary": "Simple Flying looks at why British Airways decided to replace its long-serving quadjet fleet with large twin-engine Airbus A350-1000s."
+  },
+  "source": "Simple Flying",
+  "url": "https://simpleflying.com/why-british-airways-decided-replace-longstanding-quadjet-fleet-large-twin-engine-airbus-a350s/",
+  "thumb": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/airline-economics.jpg",
+  "publishedAt": "2026-11-25",
+  "category": "FLT",
+  "aiScore": 55,
+  "iagImpact": "directo",
+  "europe": true,
+  "addedAt": "2026-11-25T11:12:54Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-air-canada-recorta-8-rutas",
+  "kind": "brief",
+  "title": "Air Canada elimina ocho rutas internacionales, dos de largo radio y seis a Estados Unidos",
+  "summary": "Air Canada retira ocho rutas internacionales: dos son de largo radio y seis conectan con Estados Unidos, según Simple Flying.",
+  "en": {
+   "title": "Air Canada axes eight international routes, two long-haul and six to the US",
+   "summary": "Air Canada is cutting eight international routes: two are long-haul and six are to the US, according to Simple Flying."
+  },
+  "source": "Simple Flying",
+  "url": "https://simpleflying.com/air-canada-axes-8-international-routes/",
+  "thumb": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/111.jpg",
+  "publishedAt": "2026-11-24",
+  "category": "NET",
+  "aiScore": 40,
+  "addedAt": "2026-11-25T11:12:54Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-airasia-perdidas-3t-se-reducen",
+  "kind": "brief",
+  "title": "AirAsia reduce a la mitad sus pérdidas del tercer trimestre y dice que «lo peor ha pasado»",
+  "summary": "AirAsia Group asegura haber superado lo peor tras un año marcado por el combustible caro: sus pérdidas del tercer trimestre se reducen a la mitad, meses después de rumores de rescate.",
+  "en": {
+   "title": "AirAsia halves Q3 losses and says the worst is over",
+   "summary": "AirAsia Group says it has turned a corner after a year of soaring fuel prices: its third-quarter losses halved, months after bailout rumours."
+  },
+  "source": "AeroTime",
+  "url": "https://www.aerotime.aero/articles/airasia-says-worst-is-over-as-q3-losses-halve-months-after-bailout-rumors",
+  "thumb": "https://www.aerotime.aero/images/2026/09/Untitled-design-83-80x80.jpg",
+  "publishedAt": "2026-11-24",
+  "category": "FIN",
+  "aiScore": 40,
+  "addedAt": "2026-11-25T11:12:54Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-embraer-asia-pacifico-2500-jets",
+  "kind": "brief",
+  "title": "Embraer prevé que Asia-Pacífico necesitará más de 2.500 aviones pequeños hasta 2045",
+  "summary": "Un directivo de Embraer, Raul Villaron, explica por qué ve a Asia-Pacífico como la próxima gran frontera para sus jets regionales, con más de 2.500 aviones pequeños hasta 2045.",
+  "en": {
+   "title": "Embraer expects Asia Pacific to need over 2,500 small jets by 2045",
+   "summary": "Embraer's Raul Villaron explains why he sees Asia Pacific as the next frontier for its regional jets, with demand for more than 2,500 small jets by 2045."
+  },
+  "source": "AeroTime",
+  "url": "https://www.aerotime.aero/articles/embraers-raul-villaron-on-why-asia-pacific-will-need-2500-small-jets-by-2045",
+  "publishedAt": "2026-11-25",
+  "category": "FLT",
+  "aiScore": 40,
+  "addedAt": "2026-11-25T11:12:54Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-ryanair-asa-sahara-occidental",
+  "kind": "brief",
+  "title": "El regulador publicitario irlandés ordena a Ryanair corregir un anuncio sobre Dajla, en el Sáhara Occidental",
+  "summary": "La ASA irlandesa da la razón a una queja de la eurodiputada Lynn Boylan contra un correo de Ryanair que presentaba Dajla, en el Sáhara Occidental, como parte de Marruecos.",
+  "en": {
+   "title": "Irish ad watchdog orders Ryanair to correct Western Sahara destination advert",
+   "summary": "The Irish Advertising Standards Authority upheld a complaint by MEP Lynn Boylan over a Ryanair email ad describing Dakhla, in Western Sahara, as part of Morocco."
+  },
+  "source": "Travel Extra",
+  "url": "https://www.travelextra.ie/ryanair-told-to-correct-western-sahara-destination-advert/",
+  "publishedAt": "2026-11-25",
+  "category": "REG",
+  "aiScore": 35,
+  "iagImpact": "indirecto",
+  "europe": true,
+  "addedAt": "2026-11-25T11:12:54Z",
+  "addedBy": "claude"
  }
 ]
