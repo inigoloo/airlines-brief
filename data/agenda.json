@@ -389,7 +389,7 @@
    "palabras": "easyJet.*Apollo|Apollo.*easyJet",
    "pendiente": "autorización de la Comisión Europea y cierre de la compra",
    "desde": "2026-11-11",
-   "rumores": 0,
+   "rumores": 1,
    "ultimaBusqueda": ""
   },
   {
@@ -407,8 +407,8 @@
    "palabras": "Plus Ultra",
    "pendiente": "decisión de la SEPI, posible venta a Iberojet o concurso",
    "desde": "2026-11-23",
-   "rumores": 0,
-   "ultimaBusqueda": ""
+   "rumores": 34,
+   "ultimaBusqueda": "2026-11-25 13:24"
   },
   {
    "tema": "Air Europa: rescate, Turkish Airlines y procesos judiciales",
@@ -416,8 +416,8 @@
    "palabras": "Air Europa.*(Turkish|rescate|SEPI)|Turkish.*Air Europa",
    "pendiente": "entrada o ampliación de Turkish, devolución del rescate, resoluciones judiciales",
    "desde": "2026-11-01",
-   "rumores": 0,
-   "ultimaBusqueda": ""
+   "rumores": 3,
+   "ultimaBusqueda": "2026-11-25 13:24"
   }
  ],
  "urgentesVistos": [
@@ -448,6 +448,24 @@
   {
    "fecha": "2026-11-25",
    "url": "jsx-new-pacific-airlines",
+   "titulo": "JSX compra New Pacific Airlines (Aviación Digital)",
+   "accion": "ya-publicada"
+  },
+  {
+   "fecha": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR3ZZN2U0cGxBVHRkSWVlNzZCZzJNMjZ5QW03dEFFUThpemlxWDNQZ0M4S2Ryc2ZkRWl2UHJQNWpfNFh1dm1pM0szS3JLMHkwaGhxNkxVRzkwWGVwdWE3MmFVSmd6YV8tQlozTDJ2c1hsVUVJa3FVcHFaUWlldGdheDZ5b1lFSmpJc19RWDJCdlQxRkVfaElaQ1hGQV9VSktrbURPUWg0aWNsbWlwNTRhTm5IaHM?oc=5",
+   "titulo": "EasyJet reduce un 89% su beneficio anual (Business People)",
+   "accion": "ya-publicada"
+  },
+  {
+   "fecha": "2026-11-25",
+   "url": "https://www.expansion.com/empresas/transporte/2026/11/25/easyjet-hunde-beneficio-96-sigue-positivo-gracias-paquetes-vacacionales.html",
+   "titulo": "easyJet hunde el beneficio un 96% (Expansión, rss)",
+   "accion": "ya-publicada"
+  },
+  {
+   "fecha": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAzWEtTS3hRa1RHUUd4Qm5xaU13NmlCeFZ6NUhxTnJKbHhfZ1FBTmpDQVI3N2xpRlNfbVFUNjFsNGdIOERfSV9PbVA1S0JYaW9pTzN3czR6WTREaE9xNFY1VEN1aHR2bWhXUHVQRQ?oc=5",
    "titulo": "JSX compra New Pacific Airlines (Aviación Digital)",
    "accion": "ya-publicada"
   }
