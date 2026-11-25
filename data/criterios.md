@@ -58,6 +58,11 @@ Toda noticia que trate de **España** (aerolíneas, aeropuertos, Aena, rutas, re
 - **Carga aérea (cargo)**: al editor no le interesa (24-nov-2026). Aerolíneas de carga, filiales cargo, handling de carga, cargueros, freighters y conversiones P2F: aiScore máximo 45, nunca Destacada ni promote, salvo que afecte de forma directa y clara al negocio de pasajeros de IAG.
   Ejemplo: «Lufthansa Cargo compra a Fiege su filial de handling y asume la gestión directa en Fráncfort» no debió ir en portada.
 
+## Resultados, compras y fusiones: publicar cuanto antes (25-nov-2026)
+- Los resultados financieros (de IAG, Air Europa, Aena y competidores directos) y las compras, fusiones u ofertas sobre aerolíneas se publican el mismo día, en cuanto se detectan. Son siempre Destacadas.
+- Si una tarea (Destacadas, Breves o el vigilante) ve una de estas noticias y no está en el portal, no la deja para el día siguiente. La tarea de Breves no la publica como Breve con promote: lanza la tarea de Destacadas en ese momento (fire_trigger trig_01Ln8za1CBxQhd2r348BwxRk, con el hecho en el texto).
+- Si salen en varios medios con titulares distintos (p. ej. «easyJet reduce un 89% su beneficio» y «su beneficio cae un 89%»), son el mismo hecho: una sola Destacada, con el otro medio como segunda fuente.
+
 ## Lunes: cubrir el fin de semana (23-nov-2026)
 
 Las tareas no funcionan sábado ni domingo, así que el lunes tiene que cubrir tres días (sábado, domingo y lunes).
