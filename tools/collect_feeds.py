@@ -44,9 +44,20 @@ PROMO = re.compile(r"black friday|cyber monday|descuentos?|oferta|rebajas|desde 
 BIG_ES = re.compile(r"El Pa[íi]s|elEconomista|El Economista|Expansi[óo]n|Cinco D[íi]as|El Mundo|\bABC\b|La Vanguardia|Europa Press|\bEFE\b|Reuters|Financial Times|Bloomberg", re.I)
 
 
+RESULTS_CO = re.compile(r"\b(IAG|Iberia|British Airways|Vueling|Aer Lingus|Air Europa|Globalia|Aena|Ryanair|easyJet|Lufthansa|Air France|KLM|Wizz|Volotea|Jet2|TAP|Turkish|Norwegian|SAS)\b", re.I)
+RESULTS_KW = re.compile(r"\b(resultados|beneficios?|p[ée]rdidas|ganancias|ganan?|pierden?|ingresos|ebitda|facturaci[óo]n|cuentas anuales|earnings|profits?|loss(es)?|revenues?|full[- ]year|half[- ]year|trading update|guidance|results)\b", re.I)
+
+
+def is_results(t):
+    """Resultados financieros de IAG, Air Europa, Aena o un competidor directo: siempre arriba."""
+    return bool(RESULTS_CO.search(t) and RESULTS_KW.search(t))
+
+
 def prio_of(it):
     t = f"{it['title']} {it.get('excerpt', '')}"
     p = sum(w for w, r in PRIO_RULES if r.search(t))
+    if is_results(it["title"]):
+        p += 8   # resultados de IAG, Air Europa, Aena o competidores directos (criterios.md)
     if BIG_ES.search(it.get("source", "")):
         p += 3   # gran medio generalista o económico: si lo cuenta, suele importar
     p += min(3, len(it.get("alsoIn", [])))
