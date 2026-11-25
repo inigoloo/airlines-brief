@@ -13362,22 +13362,74 @@
  },
  {
   "id": "b-canarias-combustible-invierno",
-  "kind": "brief",
-  "title": "Canarias teme que el precio del combustible golpee a la aviación este invierno",
-  "summary": "En verano muchas aerolíneas aún tenían el queroseno a un precio garantizado por el seguro, pero ya no, lo que afecta de lleno a las que vuelan en invierno.",
-  "en": {
-   "title": "Canary Islands fear fuel prices will hit aviation this winter",
-   "summary": "Last summer many airlines still had jet fuel at a price guaranteed by insurance, but no longer, which hits those flying in winter hardest."
-  },
-  "source": "Preferente",
-  "url": "https://www.preferente.com/rss1/canarias-preocupada-el-precio-del-fuel-arruina-el-invierno-353180.html",
-  "thumb": "https://www.preferente.com/wp-content/uploads/2026/11/turista.jpg",
-  "publishedAt": "2026-11-24",
+  "title": "Canarias alerta de vuelos más caros desde marzo, cuando vencen las coberturas de combustible",
   "category": "NET",
-  "aiScore": 55,
-  "promote": true,
+  "publishedAt": "2026-11-20",
+  "source": "Diario de Avisos",
+  "url": "https://diariodeavisos.elespanol.com/2026/11/canarias-alerta-subida-precios-vuelos-marzo/",
+  "summary": "La consejera de Turismo de Canarias, Jessica de León, prevé que los billetes suban sobre todo desde marzo, cuando vencen las coberturas de combustible de las aerolíneas, y alerta de menos plazas con Reino Unido (-1,1%) y Alemania (-3,2%) este invierno.",
+  "body": [
+   {
+    "t": "La consejera de Turismo y Empleo del Gobierno de Canarias, Jessica de León, alertó en una comisión parlamentaria de una posible subida del precio de los vuelos a partir de marzo, cuando vencen las coberturas de combustible de las aerolíneas, según recogió Diario de Avisos el 20 de noviembre.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Según la consejera, el alza del combustible tras el cierre del estrecho de Ormuz apenas ha afectado hasta ahora porque las aerolíneas fijan sus precios con antelación, pero ese periodo termina en marzo. Algunas compañías calculan que el combustible podría subir alrededor de un 30%, lo que se trasladaría a los paquetes, y muchas hablan del «fin de la era de los viajes baratos en Europa».",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Canarias ha encendido las alarmas por la pérdida de conectividad con Reino Unido y Alemania este invierno, del 1,1% y el 3,2% en plazas, respectivamente, mientras las plazas desde la Península crecerán un 12%. El Istac prevé 9,8 millones de turistas de octubre a marzo, prácticamente los mismos que el invierno anterior, según citó el diputado José Manuel Bermúdez (CC).",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El Gobierno canario pide suspender o aplazar los objetivos de 2027 de compensación de carbono de la aviación internacional, incluida la obligación de SAF, y advierte de que Egipto, Turquía, Túnez y Marruecos, exentos de esas cargas, pueden atraer a las aerolíneas. La consejería celebra un comité de crisis cada 15 días.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Diario de Avisos",
+    "url": "https://diariodeavisos.elespanol.com/2026/11/canarias-alerta-subida-precios-vuelos-marzo/",
+    "date": "2026-11-20"
+   }
+  ],
+  "why": "Canarias es un mercado clave para Iberia, Iberia Express, Vueling y Binter: el fin de las coberturas en marzo puede encarecer billetes y desplazar capacidad europea hacia destinos sin cargas ambientales.",
+  "iagImpact": "indirecto",
   "europe": true,
-  "addedAt": "2026-11-25T08:08:28Z",
+  "aiScore": 58,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/169a1d0a-8032-4f11-adf5-c2bab14a5f46.jpeg",
+  "photoSource": "Diario de Avisos",
+  "art": {
+   "kind": "bars",
+   "title": "Variación de plazas aéreas este invierno en Canarias (%)",
+   "bars": [
+    {
+     "l": "Reino Unido",
+     "v": -1.1,
+     "t": "-1,1%"
+    },
+    {
+     "l": "Alemania",
+     "v": -3.2,
+     "t": "-3,2%"
+    },
+    {
+     "l": "Península",
+     "v": 12,
+     "t": "+12%"
+    }
+   ]
+  },
+  "imageId": "b-canarias-combustible-invierno",
+  "addedAt": "2026-11-25T11:15:08Z",
   "addedBy": "claude"
  },
  {
@@ -13490,40 +13542,147 @@
  },
  {
   "id": "b-easyjet-resultados-fy26",
-  "kind": "brief",
-  "title": "easyJet reduce un 89% su beneficio anual antes de impuestos, hasta 71 M£, por el combustible",
-  "summary": "El beneficio antes de impuestos de easyJet cae un 89% hasta 71 millones de libras por el alza del combustible por el conflicto en Oriente Medio. La compra por Apollo sigue su curso.",
-  "en": {
-   "title": "easyJet annual pre-tax profit falls 89% to £71m on fuel costs",
-   "summary": "easyJet's annual headline pre-tax profit fell 89% to £71m as fuel costs rose on the Middle East conflict. The Apollo acquisition remains on track."
-  },
-  "source": "ADVFN",
-  "url": "https://uk.advfn.com/market-news/article/26834/easyjet-reports-89-fall-in-annual-headline-pre-tax-profit-to-71-million-as-apollo-acquisition-remains-on-track",
-  "publishedAt": "2026-11-25",
+  "title": "easyJet hunde un 89% su beneficio anual por el combustible y no da previsiones por Apollo",
   "category": "FIN",
-  "aiScore": 80,
-  "promote": true,
+  "publishedAt": "2026-11-25",
+  "source": "Reuters",
+  "url": "https://kfgo.com/2026/11/25/easyjets-annual-profit-plunges-on-higher-fuel-costs-ahead-of-apollo-takeover/",
+  "summary": "easyJet ganó 71 millones de libras antes de impuestos en su ejercicio 2025-2026, un 89% menos que los 665 millones del anterior, por el alza del combustible. Los ingresos subieron un 6%, hasta 10.737 millones, y no habrá dividendo ni previsión por la compra de Apollo.",
+  "body": [
+   {
+    "t": "easyJet cerró su ejercicio fiscal, terminado el 30 de septiembre, con un beneficio antes de impuestos de 71 millones de libras, un 89% menos que los 665 millones del año anterior, según publicó Reuters el 25 de noviembre. Los analistas esperaban de media 87,7 millones, según datos de LSEG recogidos por la agencia.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La factura de combustible creció un 11%, hasta 2.500 millones de libras, y los costes de la aerolínea, que incluyen aeropuertos, handling, tripulaciones, navegación y mantenimiento, aumentaron un 12%, hasta 5.800 millones. Según Europa Press, el gasto extra en queroseno fue de 244 millones de libras, y a él se sumó una menor demanda en la segunda mitad del ejercicio.",
+    "s": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Los ingresos subieron un 6%, hasta 10.737 millones de libras, y el negocio de paquetes easyJet Holidays ganó 266 millones antes de impuestos. La compañía operó 590.591 vuelos, un 2,5% más, transportó 96,3 millones de pasajeros, un 3% más, con una ocupación del 90%. El resultado de explotación (EBIT) bajó de 703 a 114 millones.",
+    "s": [
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Según Bolsamanía, pesaron también la inversión en capacidad de invierno, incluido el primer invierno en Linate y Fiumicino, y el exceso de oferta en algunos mercados de playa. El grupo no pagará dividendo este ejercicio. «Este año ha sido complicado para las aerolíneas debido al conflicto en Oriente Medio», afirmó su consejero delegado, Kenton Jarvis.",
+    "s": [
+     2,
+     3
+    ]
+   },
+   {
+    "t": "easyJet no dará previsiones para el próximo ejercicio por la compra pendiente de Apollo, de 5.700 millones de libras. Los accionistas la aprobaron el 11 de noviembre y ya tiene el visto bueno de competencia e inversión extranjera en Reino Unido, Alemania, Austria, Francia, Italia, España y Malta; se espera cerrarla en el primer trimestre de 2027, aunque según Reuters aún afronta obstáculos por las normas de propiedad de la UE y los sindicatos.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Reuters (vía KFGO)",
+    "url": "https://kfgo.com/2026/11/25/easyjets-annual-profit-plunges-on-higher-fuel-costs-ahead-of-apollo-takeover/",
+    "date": "2026-11-25"
+   },
+   {
+    "name": "Forbes España (Europa Press)",
+    "url": "https://forbes.es/ultima-hora/1072714/el-beneficio-de-easyjet-cae-un-90-en-su-ano-fiscal-2026-por-gasto-extra-de-290-millones-en-combustible/",
+    "date": "2026-11-25"
+   },
+   {
+    "name": "Bolsamanía",
+    "url": "https://www.bolsamania.com/noticias/resultados-anuncios/easyjet-decepciona-resultados-ejercicio-2026-alza-combustible--24285956.html",
+    "date": "2026-11-25"
+   }
+  ],
+  "why": "easyJet compite con Vueling y Iberia Express en Europa y con BA en Londres: un competidor con márgenes mínimos y a punto de pasar a manos de Apollo puede revisar capacidad y precios.",
   "iagImpact": "indirecto",
   "europe": true,
-  "addedAt": "2026-11-25T11:12:54Z",
+  "aiScore": 80,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/9b594f3d-7ab4-45fb-9770-809cb826121f.jpeg",
+  "photoSource": "Bolsamanía (Europa Press)",
+  "art": {
+   "kind": "bars",
+   "title": "Beneficio antes de impuestos (millones de libras)",
+   "bars": [
+    {
+     "l": "FY25",
+     "v": 665,
+     "t": "665"
+    },
+    {
+     "l": "FY26",
+     "v": 71,
+     "t": "71"
+    }
+   ]
+  },
+  "imageId": "b-easyjet-resultados-fy26",
+  "addedAt": "2026-11-25T11:15:08Z",
   "addedBy": "claude"
  },
  {
   "id": "b-norse-atlantic-situacion-critica",
-  "kind": "brief",
-  "title": "Norse Atlantic Airways avisa en un comunicado de que su situación financiera es «crítica»",
-  "summary": "La aerolínea de largo radio de bajo coste Norse Atlantic Airways advirtió el 25 de noviembre de 2026, en un comunicado público, de que su situación financiera es crítica.",
-  "en": {
-   "title": "Norse Atlantic Airways warns its financial situation is 'critical'",
-   "summary": "Norse Atlantic Airways warned in a public statement on 25 November 2026 that its financial situation is critical."
-  },
-  "source": "AeroTime",
-  "url": "https://www.aerotime.aero/articles/norse-atlantic-warns-of-critical-financial-situation",
-  "publishedAt": "2026-11-25",
+  "title": "Norse Atlantic declara «crítica» su situación financiera y se hunde más de un 70% en bolsa",
   "category": "FIN",
-  "aiScore": 45,
+  "publishedAt": "2026-11-25",
+  "source": "Reuters",
+  "url": "https://www.devdiscourse.com/article/international/4011908-airline-norse-atlantic-says-financial-situation-critical-shares-plunge-over-70",
+  "summary": "La low cost noruega de largo radio Norse Atlantic dice que su situación financiera es «crítica» y que necesita nueva financiación para seguir operando. Sus acciones cayeron más de un 70%, a mínimos históricos, y la empresa no cubre su combustible.",
+  "body": [
+   {
+    "t": "Norse Atlantic, aerolínea noruega de bajo coste y largo radio, comunicó el miércoles 25 de noviembre que su situación financiera es «crítica» y que necesita nueva financiación para cubrir sus necesidades de liquidez a corto plazo y seguir operando, según Reuters. La empresa dijo estar negociando esa financiación, pero advirtió de que no hay garantía de que las conversaciones lleguen a una solución viable.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Sus acciones cayeron más de un 70% a las 9:05 GMT, hasta mínimos históricos. La compañía no indicó cuánto tiempo puede operar sin dinero nuevo y no respondió a Reuters cuando se le pidieron más detalles.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Según la agencia, el encarecimiento del combustible por la guerra con Irán, iniciada a finales de febrero, ha golpeado a la aerolínea, que no cubre su queroseno y ha recortado capacidad. En julio abrió un proceso formal para una posible venta o fusión, y ha negociado con otras aerolíneas el arrendamiento de algunos de sus Boeing 787; en octubre firmó un contrato ACMI con Pakistan International Airlines para dos 787-9.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Reuters recuerda que airBaltic entró este año en un procedimiento de Capítulo 11 y que los analistas avisan de que las aerolíneas europeas pequeñas podrían quedarse sin caja, quizá ya en febrero. El analista James Halstead sostiene que las low cost de largo radio son las más expuestas al combustible caro porque su demanda es muy sensible al precio.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Reuters (vía Devdiscourse)",
+    "url": "https://www.devdiscourse.com/article/international/4011908-airline-norse-atlantic-says-financial-situation-critical-shares-plunge-over-70",
+    "date": "2026-11-25"
+   }
+  ],
+  "why": "Es otra aerolínea europea al borde del cierre por el queroseno sin cobertura: anticipa más consolidación y posibles salidas de capacidad transatlántica que pueden beneficiar a BA, Iberia y Aer Lingus.",
+  "iagImpact": "indirecto",
   "europe": true,
-  "addedAt": "2026-11-25T11:12:54Z",
+  "aiScore": 68,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/91553244-1929-4cb3-a6cd-dd5f36391974.jpeg",
+  "photoSource": "Aviation Week (Alamy)",
+  "art": {
+   "kind": "big",
+   "value": "-70%",
+   "label": "caída de la acción de Norse Atlantic",
+   "sub": "25 de noviembre, según Reuters"
+  },
+  "imageId": "b-norse-atlantic-situacion-critica",
+  "addedAt": "2026-11-25T11:15:08Z",
   "addedBy": "claude"
  },
  {
@@ -13673,6 +13832,218 @@
   "iagImpact": "indirecto",
   "europe": true,
   "addedAt": "2026-11-25T11:12:54Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "supremo-admite-recurso-el-prat-dora-iii",
+  "title": "El Supremo admite el recurso de El Prat contra el DORA III y las obras previas a la ampliación",
+  "category": "APT",
+  "publishedAt": "2026-11-25",
+  "source": "El Nacional",
+  "url": "https://www.elnacional.cat/oneconomia/es/economia/supremo-admite-tramite-recurso-ayuntamiento-prat-contra-dora-iii_1731062_102.html",
+  "summary": "El Tribunal Supremo ha admitido a trámite el recurso del Ayuntamiento de El Prat contra el DORA III, el plan de inversiones y tasas de Aena para 2027-2031. El Gobierno tiene 20 días para enviar el expediente; el recurso apunta a las obras previas a la ampliación.",
+  "body": [
+   {
+    "t": "El Tribunal Supremo ha admitido a trámite el recurso del Ayuntamiento de El Prat de Llobregat contra el DORA III, el documento que fija las inversiones y tasas de los aeropuertos de Aena para 2027-2031 y que el Consejo de Ministros aprobó el 15 de septiembre de 2026. El consistorio hizo pública la decisión el miércoles 25 de noviembre.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El tribunal ha dado al Gobierno 20 días, contados desde el 18 de noviembre según El Nacional, para remitir el expediente completo, paso necesario antes de entrar en el fondo del asunto. El recurso permitirá examinar si las disposiciones del DORA III y las inversiones ligadas a los trabajos preparatorios se ajustan a la ley.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El DORA III no reserva dinero antes de 2031 para ejecutar la ampliación de la tercera pista ni la terminal satélite de El Prat, pero sí incluye partidas para las tareas previas. El ayuntamiento considera que la ampliación es innecesaria y perjudicial para el medio ambiente, la salud y la economía, y que el plan prepara el terreno para obras posteriores.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El pleno municipal reafirmó en septiembre su rechazo con los votos de El Prat en Comú, ERC, PP y Estimem el Prat-Junts. La alcaldesa, Alba Bou, ha criticado que las propuestas se elaboraran sin suficiente debate con los municipios. Según La Ciutat, la Comisión Europea ha reiterado que no permitirá una nueva ampliación hasta que se completen las compensaciones ambientales del delta del Llobregat pendientes de la anterior.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "El Nacional (ON Economia)",
+    "url": "https://www.elnacional.cat/oneconomia/es/economia/supremo-admite-tramite-recurso-ayuntamiento-prat-contra-dora-iii_1731062_102.html",
+    "date": "2026-11-25"
+   },
+   {
+    "name": "La Ciutat",
+    "url": "https://laciutat.cat/es/laciutatdebarcelona/supremo-admite-recurso-ayuntamiento-prat-contra-plan-inversiones-aeropuerto_906112_102.html",
+    "date": "2026-11-25"
+   }
+  ],
+  "why": "El Prat es el hub de Vueling y la base de IAG en Barcelona: un pleito sobre el DORA III añade incertidumbre jurídica a la ampliación de la pista y la terminal satélite de las que depende su crecimiento.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 70,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/c0afd655-ad6c-4815-a3ee-969ec1e6f29b.jpeg",
+  "photoSource": "El Nacional (ACN)",
+  "art": {
+   "kind": "big",
+   "value": "20 días",
+   "label": "para que el Gobierno envíe el expediente del DORA III al Supremo",
+   "sub": "Plan de Aena 2027-2031"
+  },
+  "imageId": "supremo-admite-recurso-el-prat-dora-iii",
+  "addedAt": "2026-11-25T11:15:08Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "enaire-159-plazas-controladores",
+  "title": "Enaire convoca 159 plazas de controlador aéreo y suma 466 en tres años por el récord de tráfico",
+  "category": "REG",
+  "publishedAt": "2026-11-24",
+  "source": "Aviacionline",
+  "url": "https://www.aviacionline.com/espanol/infraestructura/aeropuertos-de-europa/aeropuertos-de-espana/enaire-convoca-159-plazas-de-controladores-aereos-ante-el-record-de-trafico-en-espana_a6b057d84cd25aee288906502",
+  "summary": "Enaire ha publicado en el BOE una convocatoria de 159 plazas de controlador aéreo, con inscripción del 25 de noviembre al 18 de diciembre. Con las de 2024 y 2025 suma 466 puestos en tres años, mientras el tráfico de 2026 crece un 4,3% sobre el récord de 2025.",
+  "body": [
+   {
+    "t": "Enaire, el gestor de navegación aérea dependiente del Ministerio de Transportes, publicó el martes 24 de noviembre en el BOE las bases de una convocatoria de 159 plazas de controlador de tránsito aéreo. La inscripción está abierta del 25 de noviembre al 18 de diciembre de 2026 en su portal de empleo.",
+    "s": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "Es la tercera convocatoria anual seguida con alrededor de 150 vacantes: la de 2024 empezó con 150 plazas y acabó en 158 tras una ampliación, y la de 2025 ofreció 149. Con las tres, Enaire suma 466 nuevos puestos de control, según su director general, Enrique Maurer.",
+    "s": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "La selección tiene tres fases: conocimientos generales e inglés con pruebas de aptitud y personalidad, pruebas digitales y una evaluación oral de inglés con evaluaciones de conducta y clínicas. Para la contratación se exige licencia de controlador o de alumno controlador; quienes no tengan experiencia harán un curso inicial, y después todos un curso de unidad de 3 a 6 meses.",
+    "s": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "El tráfico gestionado por Enaire en 2026 crece un 4,3% respecto a 2025, que fue un año récord, y varios días del verano se superaron los 8.500 vuelos. Según Hosteltur, el récord se alcanzó el 1 de agosto con 8.548 movimientos, y la ampliación de plantilla no tiene efecto inmediato en la capacidad operativa.",
+    "s": [
+     1,
+     2,
+     3
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Aviacionline",
+    "url": "https://www.aviacionline.com/espanol/infraestructura/aeropuertos-de-europa/aeropuertos-de-espana/enaire-convoca-159-plazas-de-controladores-aereos-ante-el-record-de-trafico-en-espana_a6b057d84cd25aee288906502",
+    "date": "2026-11-24"
+   },
+   {
+    "name": "Hosteltur",
+    "url": "https://www.hosteltur.com/180210_un-total-de-159-nuevos-controladores-incorporados-por-enaire-reforzaran-la-gestion-del-trafico-aereo.html",
+    "date": "2026-11-24"
+   },
+   {
+    "name": "Actualidad Aeroespacial",
+    "url": "https://actualidadaeroespacial.com/enaire-convoca-159-plazas-de-controlador-aereo/",
+    "date": "2026-11-24"
+   }
+  ],
+  "why": "La capacidad de control aéreo condiciona la puntualidad y el crecimiento en Madrid, Barcelona y los aeropuertos de Iberia y Vueling; las nuevas plazas tardarán en notarse en la operación.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 50,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/d7444088-6fa9-46c4-8af2-300923754e84.jpeg",
+  "photoSource": "Hosteltur (Enaire)",
+  "art": {
+   "kind": "bars",
+   "title": "Plazas de controlador convocadas por Enaire",
+   "bars": [
+    {
+     "l": "2024",
+     "v": 158,
+     "t": "158"
+    },
+    {
+     "l": "2025",
+     "v": 149,
+     "t": "149"
+    },
+    {
+     "l": "2026",
+     "v": 159,
+     "t": "159"
+    }
+   ]
+  },
+  "imageId": "enaire-159-plazas-controladores",
+  "addedAt": "2026-11-25T11:15:08Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "iberia-paquetes-avios-puntos-elite",
+  "title": "Iberia quintuplica los Avios de sus paquetes en iberia.com y da un Punto Elite por euro",
+  "category": "CUS",
+  "publishedAt": "2026-11-25",
+  "source": "Iberia",
+  "url": "https://grupo.iberia.es/pressrelease/details/109/26628",
+  "summary": "Desde el 24 de noviembre, los paquetes de vuelo y hotel o vuelo y coche comprados en iberia.com dan 5 Avios y 1 Punto Elite por euro, frente a 1 Avio por euro y 1 Punto Elite por cada 10 euros antes. Las recompensas se reparten entre los viajeros de la reserva.",
+  "body": [
+   {
+    "t": "Iberia ha mejorado las recompensas de los paquetes de viaje que se compran en iberia.com, según anunció el 25 de noviembre. Desde el 24 de noviembre, los paquetes de vuelo y hotel y de vuelo y coche suman 5 Avios y 1 Punto Elite por cada euro del importe total.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Hasta ahora, estos paquetes daban 1 Avio por euro y 1 Punto Elite por cada 10 euros, y ambos iban solo al titular de la reserva. Con el cambio, las recompensas se reparten a partes iguales entre los viajeros de la reserva que hayan añadido su número de Iberia Club, y se abonan como máximo siete días después de terminar el viaje.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Los Puntos Elite de los vuelos incluidos, alineados con las tarifas Óptima, van de 75 a 450 por pasajero: en corto radio, 75 en Turista y 175 en Business; en largo radio, 150 en Turista, 275 en Turista Premium y 350 en Business, y 450 en Business a Latinoamérica y Caribe. Estos puntos sirven para mantener o subir de nivel en Iberia Club.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Iberia (nota de prensa)",
+    "url": "https://grupo.iberia.es/pressrelease/details/109/26628",
+    "date": "2026-11-25"
+   },
+   {
+    "name": "Demócrata",
+    "url": "https://www.democrata.es/economia/iberia-refuerza-las-ventajas-de-sus-paquetes-de-viaje-online-con-mas-avios-y-puntos-elite/",
+    "date": "2026-11-25"
+   }
+  ],
+  "why": "Iberia usa Avios y el estatus de Iberia Club para llevar la venta de paquetes a su canal directo, en competencia con agencias y turoperadores, y reforzar el negocio de fidelización de IAG Loyalty.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 38,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/3035bdf6-9098-464d-96ae-3b166fc2a3d2.jpeg",
+  "photoSource": "Iberia (vía Demócrata)",
+  "art": {
+   "kind": "big",
+   "value": "x5",
+   "label": "Avios por euro en los paquetes de iberia.com",
+   "sub": "De 1 a 5 Avios por euro desde el 24 de noviembre"
+  },
+  "imageId": "iberia-paquetes-avios-puntos-elite",
+  "addedAt": "2026-11-25T11:15:08Z",
   "addedBy": "claude"
  }
 ]
