@@ -11553,23 +11553,85 @@
  },
  {
   "id": "b-air-europa-pulso-aena-t123",
-  "kind": "brief",
-  "title": "Air Europa estudia nuevos recursos para forzar a Aena a invertir más en la futura T123 de Barajas",
-  "summary": "La filial de Globalia explora varias vías legales para que Aena aumente la inversión en la futura T123 y pide «iguales condiciones» frente a Iberia en Madrid.",
-  "en": {
-   "title": "Air Europa weighs further legal action to force Aena to invest more in Barajas' future T123",
-   "summary": "Globalia's airline is exploring several legal avenues to make Aena raise investment in the future T123 and demands 'equal conditions' against Iberia in Madrid."
-  },
-  "source": "Expansión",
-  "url": "https://www.expansion.com/empresas/transporte/2026/11/24/air-europa-lanza-pulso-aena-competir-barajas-frente-iberia.html",
-  "thumb": "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2026/11/24/17954810130109.jpg",
+  "title": "Air Europa recurre el DORA III en el Supremo: sus terminales de Barajas limitan sus A350",
+  "category": "APT",
   "publishedAt": "2026-11-24",
-  "category": "REG",
-  "aiScore": 72,
+  "source": "Autonoción",
+  "url": "https://www.autonocion.com/air-europa-a350-terminales-barajas/",
+  "summary": "Air Europa ha recurrido ante el Supremo el plan de Aena para Barajas, que fija 261,4 millones para el procesador de las T1, T2 y T3 frente a 1.262,6 millones para la T4. Avisa de que sus terminales limitan el uso de aviones grandes como sus futuros A350.",
+  "body": [
+   {
+    "t": "Air Europa ha interpuesto un recurso contencioso-administrativo ante la Sala Tercera del Tribunal Supremo contra el Documento de Regulación Aeroportuaria (DORA) 2027-2031, conocido como DORA III, por considerar que limita su crecimiento en Madrid-Barajas. La aerolínea opera desde las terminales 1, 2 y 3 y pide más inversión en ellas o, en su defecto, el traslado a la T4, según El Debate, Europa Press y Autonoción.",
+    "s": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "El plan fija umbrales de inversión antes de finales de 2031 de 1.262,6 millones de euros para la T4 y su satélite y de 261,4 millones para un nuevo procesador común de las T1, T2 y T3, con obras que deben terminar antes de diciembre de 2034. Air Europa considera insuficiente esa cifra y califica el reparto de «discriminatorio», según fuentes de la compañía citadas por Europa Press. En la T4 y su satélite operan 27 aerolíneas y en las T1, T2 y T3, 70, entre ellas Air Europa, Ryanair, Lufthansa y Air France.",
+    "s": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "La compañía, que encargó a Airbus hasta 40 A350-900 que llegarán a partir de 2028, sostiene que el problema en Barajas son las terminales, según Autonoción. Air Europa afirma que un par de días a la semana debe usar un 737 en lugar de un 787 en la ruta de Ámsterdam y que Aena le ha denegado el 787 en Las Palmas para el verano de 2027.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Aena se declaró sorprendida por el recurso y subrayó que el programa de inversiones fue el punto de «mayor consenso» tras meses de diálogo con aerolíneas y asociaciones. Fuentes del gestor citadas por El Debate recuerdan que las inversiones en las terminales se reparten a lo largo de varios periodos DORA, no solo en el actual, aprobado por el Consejo de Ministros el 15 de septiembre.",
+    "s": [
+     2,
+     3
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Autonoción",
+    "url": "https://www.autonocion.com/air-europa-a350-terminales-barajas/",
+    "date": "2026-11-24"
+   },
+   {
+    "name": "El Debate",
+    "url": "https://www.eldebate.com/economia/20261120/air-europa-impugna-faraonico-plan-inversiones-aena-limitar-capacidad-crecer-barajas_482876.html",
+    "date": "2026-11-20"
+   },
+   {
+    "name": "Demócrata (Europa Press)",
+    "url": "https://www.democrata.es/economia/aena-se-declara-sorprendida-por-el-recurso-de-air-europa-contra-el-plan-de-inversiones-de-barajas/",
+    "date": "2026-11-21"
+   }
+  ],
+  "why": "El recurso puede retrasar o alterar el plan de inversiones de Barajas, hub de Iberia, y refleja la pugna de Air Europa por competir con Iberia en igualdad de infraestructuras en Madrid.",
   "iagImpact": "indirecto",
   "europe": true,
-  "addedAt": "2026-11-24T08:44:15Z",
-  "addedBy": "claude"
+  "aiScore": 74,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/19930648-ea4f-45ad-b4c0-0c9ea73e665d.jpeg",
+  "imageId": "b-air-europa-pulso-aena-t123",
+  "photoSource": "El Debate",
+  "addedAt": "2026-11-25T07:56:32Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "bars",
+   "title": "Inversión mínima en Barajas hasta 2031 (millones de euros)",
+   "bars": [
+    {
+     "l": "T4 y T4S",
+     "v": 1262.6,
+     "t": "1.262,6"
+    },
+    {
+     "l": "T1, T2 y T3",
+     "v": 261.4,
+     "t": "261,4"
+    }
+   ]
+  }
  },
  {
   "id": "b-moeve-world2fly-esaf-madrid-lisboa",
@@ -12459,22 +12521,75 @@
  },
  {
   "id": "b-enaire-record-2-6-millones-vuelos-2026",
-  "kind": "brief",
-  "title": "Enaire prevé batir en 2026 su récord con casi 2,6 millones de vuelos gestionados",
-  "summary": "El gestor de navegación aérea español proyecta un nuevo máximo de tráfico gestionado para este año.",
-  "en": {
-   "title": "Enaire expects to break its record in 2026 with almost 2.6 million flights handled",
-   "summary": "The Spanish air navigation provider projects a new traffic high for this year."
-  },
+  "title": "Enaire prevé un récord de casi 2,6 millones de vuelos en 2026 y un alza del 19,6% hasta 2032",
+  "category": "APT",
+  "publishedAt": "2026-11-19",
   "source": "Demócrata",
   "url": "https://www.democrata.es/economia/enaire-proyecta-batir-en-2026-su-record-con-casi-2-6-millones-de-vuelos-gestionados/",
-  "publishedAt": "2026-11-23",
-  "category": "APT",
-  "aiScore": 50,
-  "promote": true,
+  "summary": "Enaire prevé gestionar cerca de 2,6 millones de vuelos en 2026, un récord y un 20% más que antes de la pandemia. Su Plan de Vuelo 2026-2030 anticipa un crecimiento acumulado del tráfico aéreo en España del 19,6% hasta 2032, cerca del 3% anual.",
+  "body": [
+   {
+    "t": "Enaire, el gestor de navegación aérea dependiente del Ministerio de Transportes y Movilidad Sostenible, prevé cerrar 2026 con cerca de 2,6 millones de vuelos gestionados, un máximo histórico. Lo anunció su director general, Enrique Maurer, el 19 de noviembre en la Jornada Anual de Clientes y Grupos de Interés, celebrada en el Palacio de Zurbano de Madrid.",
+    "s": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Ese volumen supera en un 20% al registrado antes de la pandemia. Según Enaire, la recuperación del tráfico en España es un 25% superior a la de Alemania y un 10,6% superior a la de Francia. Solo en octubre de 2026 gestionó 233.844 vuelos, según Airline92.",
+    "s": [
+     2,
+     3
+    ]
+   },
+   {
+    "t": "El Plan de Vuelo 2026-2030 prevé un crecimiento acumulado del tráfico aéreo en España del 19,6% entre 2026 y 2032, con una media cercana al 3% anual. Para absorberlo, Enaire apuesta por inversiones en innovación, digitalización y resiliencia: redes digitales de comunicaciones, capacidad de contingencia entre centros, procedimientos alternativos de espacio aéreo, seguridad física, ciberseguridad e inteligencia artificial.",
+    "s": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Maurer subrayó que «la seguridad seguirá guiando nuestras decisiones». Enaire, cuarto gestor europeo de tráfico aéreo, presta control de aeródromo en 21 aeropuertos y obtuvo por sexto año consecutivo la máxima calificación europea, del 100%, en el indicador clave de seguridad.",
+    "s": [
+     2,
+     3
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Demócrata",
+    "url": "https://www.democrata.es/economia/enaire-proyecta-batir-en-2026-su-record-con-casi-2-6-millones-de-vuelos-gestionados/",
+    "date": "2026-11-19"
+   },
+   {
+    "name": "Airline92",
+    "url": "https://www.airline92.com/noticias/atm/enaire-preve-cerrar-2026-2-6-millones-vuelos-crecer-19-6-hasta/",
+    "date": "2026-11-20"
+   },
+   {
+    "name": "Actualidad Aeroespacial",
+    "url": "https://actualidadaeroespacial.com/enaire-preve-gestionar-cerca-de-26-millones-de-vuelos-en-2026-un-nuevo-record-historico/",
+    "date": "2026-11-20"
+   }
+  ],
+  "why": "Un espacio aéreo con récord de vuelos y un crecimiento previsto del 3% anual exige capacidad de control suficiente para evitar retrasos en Madrid y Barcelona, clave para la puntualidad de Iberia y Vueling.",
   "europe": true,
-  "addedAt": "2026-11-24T10:27:29Z",
-  "addedBy": "claude"
+  "aiScore": 55,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/691319b1-b493-4ad0-bc95-c9bea4fa03e1.jpeg",
+  "imageId": "b-enaire-record-2-6-millones-vuelos-2026",
+  "photoSource": "Demócrata (Enaire)",
+  "addedAt": "2026-11-25T07:56:32Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "big",
+   "value": "2,6 M",
+   "label": "vuelos que Enaire prevé gestionar en 2026",
+   "sub": "+20% sobre prepandemia"
+  }
  },
  {
   "id": "b-aci-airports-innovate-barcelona",
@@ -12493,5 +12608,341 @@
   "europe": true,
   "addedAt": "2026-11-24T10:27:29Z",
   "addedBy": "claude"
+ },
+ {
+  "id": "plus-ultra-cese-iberia-air-europa-rutas-latam",
+  "title": "Iberia y Air Europa se quedan con las rutas de Plus Ultra a Caracas, Lima y Buenos Aires",
+  "category": "NET",
+  "publishedAt": "2026-11-24",
+  "source": "El Nacional",
+  "url": "https://www.elnacional.com/2026/11/iberia-y-air-europa-absorben-la-conectividad-aerea-entre-espana-y-latinoamerica-tras-la-suspension-de-vuelos-de-plus-ultra/",
+  "summary": "Tras la suspensión indefinida de Plus Ultra, Iberia y Air Europa operan cinco frecuencias semanales cada una entre Madrid y Caracas. Iberia ofrece además 16 vuelos semanales a Lima, 21 a Buenos Aires y otros 21 a Bogotá, según el diario El Nacional.",
+  "body": [
+   {
+    "t": "La suspensión indefinida de las operaciones de Plus Ultra deja a Iberia y Air Europa como principales operadores entre España y los mercados que atendía la aerolínea, según publicó el 24 de noviembre el diario venezolano El Nacional. Plus Ultra dejó de volar a Lima y Buenos Aires el 17 de noviembre y canceló el lunes 23 su última ruta activa, a Caracas, mientras negocia un plan de viabilidad con la SEPI, con la que mantiene una deuda de 53 millones de euros contraída en 2021.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "En la ruta Madrid-Caracas, Iberia y Air Europa operan cinco frecuencias semanales de ida y vuelta cada una desde Barajas; también vuelan la venezolana Laser y, en menor medida, Estelar. Plus Ultra operaba entre dos y cuatro frecuencias semanales con Venezuela y ya había abandonado antes Montevideo y Bogotá.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Hacia Lima, Iberia ofrece 16 vuelos semanales, frente a los siete de Air Europa y los siete de Latam. A Buenos Aires, Iberia opera 21 frecuencias semanales y Air Europa y Aerolíneas Argentinas, una diaria cada una; LEVEL, del grupo IAG, volará a diario desde Barcelona-El Prat a partir del 14 de diciembre.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "En Bogotá, Avianca lidera con 25 frecuencias semanales, por delante de las 21 de Iberia y las siete de Air Europa, mientras que a Montevideo Iberia vuela siete veces por semana y Air Europa, cuatro. Según datos de la Dirección General de Aviación Civil citados por el diario, el tráfico entre España y Latinoamérica pasó de 6,2 a 6,6 millones de pasajeros en el primer semestre de 2026, frente al mismo periodo de 2025.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "El Nacional",
+    "url": "https://www.elnacional.com/2026/11/iberia-y-air-europa-absorben-la-conectividad-aerea-entre-espana-y-latinoamerica-tras-la-suspension-de-vuelos-de-plus-ultra/",
+    "date": "2026-11-24"
+   }
+  ],
+  "why": "La salida de Plus Ultra concentra aún más en Iberia y Air Europa la conectividad de Madrid con Latinoamérica, donde IAG ya lidera, y les permite captar su demanda en plena temporada navideña.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 58,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/7e7a15db-b3fc-4c96-9bd0-0e8f8f031bcc.jpeg",
+  "imageId": "plus-ultra-cese-iberia-air-europa-rutas-latam",
+  "photoSource": "El Nacional",
+  "addedAt": "2026-11-25T07:56:32Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "route",
+   "title": "Iberia desde Madrid tras el cese de Plus Ultra",
+   "badge": "5 vuelos semanales a Caracas",
+   "points": [
+    {
+     "code": "MAD",
+     "city": "Madrid",
+     "lat": 40.47,
+     "lon": -3.56
+    },
+    {
+     "code": "CCS",
+     "city": "Caracas",
+     "lat": 10.6,
+     "lon": -66.99
+    }
+   ]
+  }
+ },
+ {
+  "id": "plus-ultra-ere-270-empleados-erte",
+  "title": "Plus Ultra plantea un ERE para hasta 270 empleados, el 40% de su plantilla, y un ERTE parcial",
+  "category": "STR",
+  "publishedAt": "2026-11-24",
+  "source": "El Español",
+  "url": "https://www.elespanol.com/invertia/empresas/20261124/plus-ultra-propone-ere-afecta-trabajadores-plantilla/1003744471027_0.html",
+  "summary": "Plus Ultra propone un ERE para entre 210 y 270 de sus 663 empleados y un ERTE con recortes de jornada del 10% al 70%. La aerolínea, en preconcurso, ha suspendido todos sus vuelos y su gasto en combustible se ha disparado un 51,6% sobre lo previsto.",
+  "body": [
+   {
+    "t": "Plus Ultra ha propuesto a los sindicatos un expediente de regulación de empleo (ERE) que afectaría a entre 210 y 270 trabajadores de su centro de Madrid, hasta el 40% de una plantilla de 663 personas, según publicaron el 24 de noviembre El Español y Libertad Digital a partir de información de Europa Press. En paralelo plantea un ERTE con reducciones de jornada de entre el 10% y el 70%, según colectivos.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La plantilla está formada por 120 pilotos, 310 tripulantes de cabina y 223 trabajadores de tierra, e incluye a 23 empleados en excedencia. La mesa negociadora se constituyó el viernes anterior tras la primera reunión entre la dirección y los sindicatos, que deben presentar una contrapropuesta.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La aerolínea, en preconcurso de acreedores, ha suspendido todas sus operaciones «hasta nuevo aviso», incluidas las rutas con Venezuela. Su gasto en combustible ha subido un 51,6% respecto al presupuesto inicial de 2026, hasta 104,83 millones de euros, y ha contratado al despacho Summa Iuris para su plan de reestructuración.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Según Libertad Digital, Plus Ultra recibió un rescate público de 53 millones de euros durante la pandemia y, antes de la suspensión total, ya había dejado de volar a Lima y Buenos Aires. Iberojet, del grupo Ávoris, y Laser Airlines habían figurado entre los posibles inversores, aunque Ávoris no tenía interés, según las fuentes citadas por ese medio.",
+    "s": [
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "El Español",
+    "url": "https://www.elespanol.com/invertia/empresas/20261124/plus-ultra-propone-ere-afecta-trabajadores-plantilla/1003744471027_0.html",
+    "date": "2026-11-24"
+   },
+   {
+    "name": "Libertad Digital",
+    "url": "https://www.libertaddigital.com/libremercado/2026-11-24/la-rescatada-plus-ultra-suspende-sus-vuelos-y-plantea-un-ere-para-270-trabajadores-7496931/",
+    "date": "2026-11-24"
+   }
+  ],
+  "why": "El ajuste confirma la salida casi definitiva de un rival de Iberia y Air Europa en el eje Madrid-Latinoamérica y muestra cómo el queroseno caro castiga a las aerolíneas españolas de menor tamaño.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 55,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/8858c672-1130-4d4d-b7eb-a0a9ae5e1644.jpeg",
+  "imageId": "plus-ultra-ere-270-empleados-erte",
+  "photoSource": "Libertad Digital",
+  "addedAt": "2026-11-25T07:56:32Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "big",
+   "value": "270",
+   "label": "empleos afectados como máximo por el ERE",
+   "sub": "de una plantilla de 663"
+  }
+ },
+ {
+  "id": "air-europa-rescate-de-la-rocha-errejon-testigos",
+  "title": "El jefe económico de Moncloa niega conflicto de intereses en el rescate de Air Europa",
+  "category": "STR",
+  "publishedAt": "2026-11-24",
+  "source": "Infobae (Europa Press)",
+  "url": "https://www.infobae.com/espana/agencias/2026/11/24/el-director-economico-de-sanchez-declara-que-no-se-percibio-conflicto-de-intereses-en-el-prestamo-para-air-europa/",
+  "summary": "Manuel de la Rocha declaró como testigo que no se apreció conflicto de intereses en el préstamo de 475 millones a Air Europa. Íñigo Errejón negó haber sospechado irregularidades y atribuyó su pregunta parlamentaria de 2020 a dudas medioambientales.",
+  "body": [
+   {
+    "t": "Manuel de la Rocha, director de la Oficina Económica de la Presidencia del Gobierno, declaró el 24 de noviembre como testigo que no se detectó conflicto de intereses en el préstamo concedido a Air Europa durante la pandemia, según Europa Press. Compareció ante el juez José María Escribano, titular de la Plaza 49 de la Sección de Instrucción del tribunal de instancia de Madrid, que investiga el rescate de 475 millones de euros aprobado en noviembre de 2020.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "En la misma jornada declaró Íñigo Errejón, exportavoz parlamentario de Sumar, que rechazó haber tenido sospechas sobre la operación y explicó que su pregunta parlamentaria de 2020 respondía a dudas medioambientales. Pedro Saura, presidente de Correos y exsecretario de Estado de Transportes, dijo que se limitó a preparar un guion para periodistas y que no hubo comunicado ni nota de favor.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "José Ángel Partearroyo, exdirectivo de la SEPI, declaró que se le pidió dar impulso a la operación por la posible quiebra de la compañía y la necesidad de pagar las nóminas. El imputado en la causa es Bartolomé Lora, vicepresidente de la SEPI, tras una querella de PP y Vox por un presunto delito de prevaricación administrativa.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La víspera habían declarado la vicepresidenta tercera, Sara Aagesen, que negó irregularidades y presiones, así como Ana de la Cueva, Pilar Paneque, Francisco Javier Loriente y Raúl Blanco. Europa Press recuerda que Wakalua Hub, filial de Globalia, acordó un patrocinio de 40.000 euros con el IE Africa Center, que dirigió la esposa de Pedro Sánchez.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Infobae (Europa Press)",
+    "url": "https://www.infobae.com/espana/agencias/2026/11/24/el-director-economico-de-sanchez-declara-que-no-se-percibio-conflicto-de-intereses-en-el-prestamo-para-air-europa/",
+    "date": "2026-11-24"
+   },
+   {
+    "name": "ESdiario",
+    "url": "https://www.esdiario.com/nacional/261124/203847/errejon-reduce-cuestion-ecologica-dudas-sobre-rescate-millonario-air-europa.html",
+    "date": "2026-11-24"
+   }
+  ],
+  "why": "El proceso judicial sobre el rescate sigue marcando la agenda de Air Europa, principal rival de Iberia en Madrid, en plena pugna con Aena por la inversión en las terminales de Barajas.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 50,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/6876f437-8e3b-45eb-8159-39c6596c0fc2.jpeg",
+  "imageId": "air-europa-rescate-de-la-rocha-errejon-testigos",
+  "photoSource": "ESdiario (Europa Press)",
+  "addedAt": "2026-11-25T07:56:32Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "big",
+   "value": "475 M€",
+   "label": "rescate público a Air Europa en 2020"
+  }
+ },
+ {
+  "id": "ryanair-alemania-plan-36-aviones-impuesto",
+  "title": "Ryanair ofrece a Alemania duplicar su tráfico con 36 aviones si Merz suprime el impuesto aéreo",
+  "category": "STR",
+  "publishedAt": "2026-11-24",
+  "source": "AeroTime",
+  "url": "https://www.aerotime.aero/articles/ryanair-promises-major-german-expansion-merz-scraps-taxes-fees",
+  "summary": "Ryanair condiciona a la supresión del impuesto aéreo un plan de 3.600 millones de dólares en Alemania: 36 Boeing 737 MAX, pasar de 17 a 34 millones de pasajeros al año, más de 550 rutas, nuevas bases y más de 1.000 empleos directos hasta 2032.",
+  "body": [
+   {
+    "t": "Ryanair presentó el 24 de noviembre en Alemania un plan de crecimiento valorado en 3.600 millones de dólares (3.296 millones de euros, según Europa Press), condicionado a que el canciller Friedrich Merz suprima el impuesto sobre el transporte aéreo y reduzca los costes de acceso, como las tasas aeroportuarias. Lo anunció su consejero delegado, Michael O'Leary, en una rueda de prensa.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El plan contempla basar en el país 36 nuevos Boeing 737 MAX, duplicar el tráfico de 17 a 34 millones de pasajeros al año, superar las 550 rutas y abrir bases en ciudades como Düsseldorf, Dortmund, Hamburgo y Stuttgart. La aerolínea calcula que crearía más de 1.000 empleos directos en Alemania hasta 2032.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "O'Leary describió Alemania como el mercado aéreo europeo que peor se ha recuperado tras la pandemia y lo calificó de «irremediablemente poco competitivo» por sus impuestos y por las tasas de aeropuerto, control aéreo y seguridad. Según Europa Press, pide eliminar el impuesto a partir del 1 de enero de 2027 y sostiene que, desde 2019, Alemania ha perdido más de 34 millones de asientos.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Según AeroTime, Merz dijo el 3 de noviembre ante un foro empresarial que quería rebajar el gravamen, que ya se redujo desde julio de 2026 a los niveles de mayo de 2024. Ryanair añade que aerolíneas como Lufthansa han trasladado vuelos y rutas a otros mercados de la UE más baratos.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "AeroTime",
+    "url": "https://www.aerotime.aero/articles/ryanair-promises-major-german-expansion-merz-scraps-taxes-fees",
+    "date": "2026-11-24"
+   },
+   {
+    "name": "Demócrata (Europa Press)",
+    "url": "https://www.democrata.es/en/economy/ryanair-conditions-a-3-3-billion-expansion-plan-in-germany-to-abolish-the-air-tax/",
+    "date": "2026-11-24"
+   }
+  ],
+  "why": "Ryanair aplica en Alemania la misma presión fiscal que ejerce sobre Aena en España: si Berlín cede, reforzará su argumento y podrá mover hacia allí capacidad que hoy compite con Vueling e Iberia.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 66,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/8811250a-5f5f-4743-8aae-6bbfaf5518c6.jpeg",
+  "imageId": "ryanair-alemania-plan-36-aviones-impuesto",
+  "photoSource": "AeroTime",
+  "addedAt": "2026-11-25T07:56:32Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "plane",
+   "value": "36",
+   "label": "Boeing 737 MAX que Ryanair basaría en Alemania",
+   "tail": "#073590"
+  }
+ },
+ {
+  "id": "barnes-aerospace-compra-jj-churchill-alabes",
+  "title": "Barnes Aerospace compra la británica JJ Churchill para fabricar más álabes de motores en Europa",
+  "category": "MRO",
+  "publishedAt": "2026-11-24",
+  "source": "AviTrader",
+  "url": "https://avitrader.com/2026/11/24/barnes-aerospace-to-buy-uk-based-jj-churchill/",
+  "summary": "Barnes Aerospace ha firmado un acuerdo definitivo para comprar JJ Churchill, fabricante británico de álabes de turbina y compresor con unos 150 empleados en Leicestershire. La operación, sin precio público, refuerza su presencia en Europa y se cerrará en diciembre.",
+  "body": [
+   {
+    "t": "Barnes Aerospace, proveedor de ingeniería, fabricación y reparación de componentes para la industria aeroespacial, ha firmado un acuerdo definitivo para adquirir JJ Churchill (Holdings) Limited, empresa británica de ingeniería de precisión con sede en Market Bosworth (Inglaterra). La operación se anunció el 23 de noviembre y los vendedores son Tinicum L.P. y sus socios, la familia Churchill y la dirección.",
+    "s": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "JJ Churchill está especializada en álabes de turbina y de compresor, incluidos álabes móviles, álabes fijos y álabes guía de tobera, para fabricantes de los mercados aeroespacial y de turbinas de gas industriales. Fundada en 1937, cuenta con unos 150 empleados en dos plantas en el condado de Leicestershire. No se ha comunicado el precio.",
+    "s": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Según Barnes, la compra amplía su capacidad de fabricación de precisión, refuerza su presencia en Europa y apoya el crecimiento de su negocio con fabricantes de equipos originales (OEM). El cierre está previsto para diciembre, sujeto a las condiciones habituales, y hasta entonces ambas compañías operarán por separado.",
+    "s": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "«JJ Churchill encaja estratégicamente con Barnes Aerospace», afirmó su consejero delegado, Mike J. Mosley. El consejero delegado de JJ Churchill, Mark Cooper, destacó que la empresa lleva «casi 90 años» construyendo una reputación de ingeniería de precisión. Según AirPro News, Barnes ya compró en 2026 los talleres de reparación Jet AirWerks y ATL Turbine Services.",
+    "s": [
+     2,
+     3
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "AviTrader",
+    "url": "https://avitrader.com/2026/11/24/barnes-aerospace-to-buy-uk-based-jj-churchill/",
+    "date": "2026-11-24"
+   },
+   {
+    "name": "AirPro News",
+    "url": "https://airpronews.com/2026/11/24/barnes-aerospace-to-acquire-uk-airfoil-maker-jj-churchill/",
+    "date": "2026-11-24"
+   },
+   {
+    "name": "Business Wire (Yahoo Finance)",
+    "url": "https://finance.yahoo.com/technology/articles/barnes-aerospace-signs-agreement-acquire-163800589.html",
+    "date": "2026-11-23"
+   }
+  ],
+  "why": "La consolidación de proveedores de álabes en Reino Unido concentra una pieza crítica de la cadena de suministro de motores, cuyas demoras alargan las paradas en taller y encarecen el mantenimiento en Europa.",
+  "europe": true,
+  "aiScore": 50,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/093a2c06-48e7-490d-aa5e-2cd6c6de8b47.jpeg",
+  "imageId": "barnes-aerospace-compra-jj-churchill-alabes",
+  "photoSource": "AirPro News (Barnes Aerospace)",
+  "addedAt": "2026-11-25T07:56:32Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "big",
+   "value": "150",
+   "label": "empleados de JJ Churchill en Leicestershire",
+   "sub": "Cierre previsto en diciembre"
+  }
  }
 ]
