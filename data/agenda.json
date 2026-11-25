@@ -1,5 +1,5 @@
 {
- "nota": "Agenda de hechos esperados con fecha: resultados financieros y hitos de compras o fusiones de aerolíneas. La mantiene la tarea «Airlines Brief · Vigilante de resultados y operaciones». estado: pendiente | publicada | aplazada | descartada. newsId: id de la noticia del portal cuando ya está publicada. temas: operaciones o resultados en marcha SIN fecha concreta; el vigilante cuenta los rumores (titulares que los mencionan) y hace una búsqueda diaria sobre cada uno (dos si hay muchos rumores).",
+ "nota": "Agenda de hechos esperados con fecha: resultados financieros y hitos de compras o fusiones de aerolíneas. La mantiene la tarea «Airlines Brief · Vigilante de resultados y operaciones». estado: pendiente | publicada | aplazada | descartada. confirmada: true si la fecha la ha anunciado la empresa o un calendario oficial; false si está estimada por el patrón del año anterior (puede moverse unos días). newsId: id de la noticia del portal cuando ya está publicada. temas: operaciones o resultados en marcha SIN fecha concreta; el vigilante cuenta los rumores y hace una búsqueda diaria sobre cada uno (dos si hay muchos).",
  "eventos": [
   {
    "fecha": "2026-11-25",
@@ -7,6 +7,377 @@
    "tipo": "resultados",
    "detalle": "Resultados anuales (ejercicio cerrado en septiembre); previstos para hoy, sin confirmar",
    "fuente": "editor",
+   "estado": "pendiente",
+   "newsId": "",
+   "confirmada": false
+  },
+  {
+   "fecha": "2027-01-25",
+   "empresa": "Ryanair",
+   "tipo": "resultados",
+   "detalle": "Resultados del 3T del ejercicio FY27 (oct-dic 2026)",
+   "confirmada": true,
+   "fuente": "Calendarios de mercado (Quartr, Arincen)",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-01-28",
+   "empresa": "easyJet",
+   "tipo": "resultados",
+   "detalle": "Trading update del 1T FY27 (oct-dic 2026)",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 29-ene",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-01-28",
+   "empresa": "Wizz Air",
+   "tipo": "resultados",
+   "detalle": "Resultados del 3T F27 (oct-dic 2026)",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 29-ene",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-02-12",
+   "empresa": "Norwegian",
+   "tipo": "resultados",
+   "detalle": "Resultados del 4T y año 2026",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 13-feb",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-02-18",
+   "empresa": "Air France-KLM",
+   "tipo": "resultados",
+   "detalle": "Resultados anuales 2026",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 19-feb",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-02-24",
+   "empresa": "Aena",
+   "tipo": "resultados",
+   "detalle": "Resultados anuales 2026",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 25-feb (CNMV)",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-02-24",
+   "empresa": "Jet2",
+   "tipo": "resultados",
+   "detalle": "Trading update de febrero",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 25-feb",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-02-26",
+   "empresa": "IAG",
+   "tipo": "resultados",
+   "detalle": "Resultados anuales 2026",
+   "confirmada": false,
+   "fuente": "Patrón 2026: viernes 27-feb (y 28-feb en 2025)",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-03-04",
+   "empresa": "Turkish Airlines",
+   "tipo": "resultados",
+   "detalle": "Resultados anuales 2026 (aprox., primera semana de marzo)",
+   "confirmada": false,
+   "fuente": "Patrón 2026: primeros de marzo",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-03-05",
+   "empresa": "Lufthansa",
+   "tipo": "resultados",
+   "detalle": "Resultados anuales 2026",
+   "confirmada": true,
+   "fuente": "Finanztrends (fecha anunciada por Lufthansa)",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-04-15",
+   "empresa": "easyJet",
+   "tipo": "resultados",
+   "detalle": "Trading update del 1er semestre FY27",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 16-abr",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-04-27",
+   "empresa": "Norwegian",
+   "tipo": "resultados",
+   "detalle": "Resultados del 1T 2027",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 28-abr",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-04-28",
+   "empresa": "Aena",
+   "tipo": "resultados",
+   "detalle": "Resultados del 1T 2027",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 29-abr",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-04-28",
+   "empresa": "Jet2",
+   "tipo": "resultados",
+   "detalle": "Trading update de abril",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 29-abr",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-04-29",
+   "empresa": "Air France-KLM",
+   "tipo": "resultados",
+   "detalle": "Resultados del 1T 2027",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 29-abr (MarketScreener proyecta 5-may)",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-05-05",
+   "empresa": "Lufthansa",
+   "tipo": "resultados",
+   "detalle": "Resultados del 1T 2027",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 6-may",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-05-07",
+   "empresa": "IAG",
+   "tipo": "resultados",
+   "detalle": "Resultados del 1T 2027",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 8-may",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-05-17",
+   "empresa": "Ryanair",
+   "tipo": "resultados",
+   "detalle": "Resultados anuales FY27",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 18-may",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-05-20",
+   "empresa": "easyJet",
+   "tipo": "resultados",
+   "detalle": "Resultados del 1er semestre FY27",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 21-may",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-06-10",
+   "empresa": "Wizz Air",
+   "tipo": "resultados",
+   "detalle": "Resultados anuales F27",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 11-jun",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-07-07",
+   "empresa": "Jet2",
+   "tipo": "resultados",
+   "detalle": "Resultados anuales FY27",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 8-jul (MarketScreener: 7-jul-2027)",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-07-13",
+   "empresa": "Norwegian",
+   "tipo": "resultados",
+   "detalle": "Resultados del 2T 2027",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 14-jul",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-07-19",
+   "empresa": "Ryanair",
+   "tipo": "resultados",
+   "detalle": "Resultados del 1T FY28",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 20-jul",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-07-28",
+   "empresa": "Aena",
+   "tipo": "resultados",
+   "detalle": "Resultados del 1er semestre 2027",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 29-jul",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-07-29",
+   "empresa": "Air France-KLM",
+   "tipo": "resultados",
+   "detalle": "Resultados del 2T 2027",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 29-jul",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-07-30",
+   "empresa": "IAG",
+   "tipo": "resultados",
+   "detalle": "Resultados del 2T 2027",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 31-jul",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-08-03",
+   "empresa": "Lufthansa",
+   "tipo": "resultados",
+   "detalle": "Resultados del 2T 2027",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 4-ago",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-08-05",
+   "empresa": "Wizz Air",
+   "tipo": "resultados",
+   "detalle": "Resultados del 1T F28",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 6-ago",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-10-27",
+   "empresa": "Aena",
+   "tipo": "resultados",
+   "detalle": "Resultados de enero-septiembre 2027",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 28-oct",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-10-27",
+   "empresa": "Norwegian",
+   "tipo": "resultados",
+   "detalle": "Resultados del 3T 2027",
+   "confirmada": false,
+   "fuente": "Patrón 2026: finales de octubre",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-11-01",
+   "empresa": "Ryanair",
+   "tipo": "resultados",
+   "detalle": "Resultados del 1er semestre FY28",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 2-nov",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-11-02",
+   "empresa": "Lufthansa",
+   "tipo": "resultados",
+   "detalle": "Resultados del 3T 2027",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 3-nov",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-11-04",
+   "empresa": "Air France-KLM",
+   "tipo": "resultados",
+   "detalle": "Resultados del 3T 2027",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 4/5-nov",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-11-05",
+   "empresa": "IAG",
+   "tipo": "resultados",
+   "detalle": "Resultados del 3T 2027",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 6-nov",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-11-11",
+   "empresa": "Wizz Air",
+   "tipo": "resultados",
+   "detalle": "Resultados del 1er semestre F28",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 12-nov",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-11-17",
+   "empresa": "Jet2",
+   "tipo": "resultados",
+   "detalle": "Resultados del 1er semestre FY28",
+   "confirmada": false,
+   "fuente": "Patrón 2026: 18-nov",
+   "estado": "pendiente",
+   "newsId": ""
+  },
+  {
+   "fecha": "2027-11-24",
+   "empresa": "easyJet",
+   "tipo": "resultados",
+   "detalle": "Resultados anuales FY27",
+   "confirmada": false,
+   "fuente": "Patrón: 25-nov-2025 y 25-nov-2026",
    "estado": "pendiente",
    "newsId": ""
   }
