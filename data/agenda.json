@@ -5,10 +5,10 @@
    "fecha": "2026-11-25",
    "empresa": "easyJet",
    "tipo": "resultados",
-   "detalle": "Resultados anuales (ejercicio cerrado en septiembre); previstos para hoy, sin confirmar",
+   "detalle": "Resultados anuales (ejercicio cerrado en septiembre); previstos para hoy, sin confirmar — publicada en el portal (b-easyjet-resultados-fy26)",
    "fuente": "editor",
-   "estado": "pendiente",
-   "newsId": "",
+   "estado": "publicada",
+   "newsId": "b-easyjet-resultados-fy26",
    "confirmada": false
   },
   {
@@ -418,6 +418,38 @@
    "desde": "2026-11-01",
    "rumores": 0,
    "ultimaBusqueda": ""
+  }
+ ],
+ "urgentesVistos": [
+  {
+   "fecha": "2026-11-25",
+   "url": "https://www.expansion.com/empresas/transporte/2026/11/25/easyjet-hunde-beneficio-96-sigue-positivo-gracias-paquetes-vacacionales",
+   "titulo": "easyJet hunde el beneficio un 96% (Expansión)",
+   "accion": "ya-publicada"
+  },
+  {
+   "fecha": "2026-11-25",
+   "url": "easyjet-resultados-fy26-business-people",
+   "titulo": "EasyJet reduce un 89% su beneficio anual (Business People)",
+   "accion": "ya-publicada"
+  },
+  {
+   "fecha": "2026-11-25",
+   "url": "easyjet-resultados-negocios-com",
+   "titulo": "EasyJet aumenta sus ingresos, pero su beneficio cae un 89% (Negocios.com)",
+   "accion": "ya-publicada"
+  },
+  {
+   "fecha": "2026-11-25",
+   "url": "easyjet-resultados-bolsamania",
+   "titulo": "easyJet decepciona con sus resultados del ejercicio 2026 (Bolsamanía)",
+   "accion": "ya-publicada"
+  },
+  {
+   "fecha": "2026-11-25",
+   "url": "jsx-new-pacific-airlines",
+   "titulo": "JSX compra New Pacific Airlines (Aviación Digital)",
+   "accion": "ya-publicada"
   }
  ]
 }
