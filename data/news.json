@@ -11631,6 +11631,25 @@
      "t": "261,4"
     }
    ]
+  },
+  "en": {
+   "title": "Air Europa appeals DORA III to the Supreme Court: its Barajas terminals limit its A350s",
+   "summary": "Air Europa has appealed Aena's Barajas plan to the Supreme Court, which sets €261.4m for a shared processor serving T1, T2 and T3 against €1,262.6m for T4. It warns that its terminals restrict the use of large aircraft such as its future A350s.",
+   "why": "The appeal could delay or alter Barajas's investment plan, the hub of Iberia, and reflects Air Europa's push to compete with Iberia on equal infrastructure terms in Madrid.",
+   "body": [
+    {
+     "t": "Air Europa has lodged a contentious-administrative appeal with the Third Chamber of the Supreme Court against the Airport Regulation Document (DORA) 2027-2031, known as DORA III, arguing that it limits its growth at Madrid-Barajas. The airline operates from Terminals 1, 2 and 3 and is calling for more investment in them or, failing that, a move to T4, according to El Debate, Europa Press and Autonoción."
+    },
+    {
+     "t": "The plan sets investment thresholds to be met before the end of 2031 of €1,262.6m for T4 and its satellite and €261.4m for a new common processor for T1, T2 and T3, with works due to finish before December 2034. Air Europa considers that figure insufficient and describes the allocation as “discriminatory”, according to company sources cited by Europa Press. Twenty-seven airlines operate from T4 and its satellite, and 70 from T1, T2 and T3, including Air Europa, Ryanair, Lufthansa and Air France."
+    },
+    {
+     "t": "The airline, which has ordered up to 40 A350-900s from Airbus due to arrive from 2028, argues that the problem at Barajas lies with the terminals, according to Autonoción. Air Europa says that a couple of days a week it has to use a 737 instead of a 787 on the Amsterdam route, and that Aena has refused it a 787 for Las Palmas for summer 2027."
+    },
+    {
+     "t": "Aena said it was surprised by the appeal and stressed that the investment programme had been the point of “greatest consensus” after months of dialogue with airlines and associations. Sources at the airport operator cited by El Debate point out that investment in the terminals is spread across several DORA periods, not just the current one, approved by the Council of Ministers on 15 September."
+    }
+   ]
   }
  },
  {
@@ -12589,6 +12608,25 @@
    "value": "2,6 M",
    "label": "vuelos que Enaire prevé gestionar en 2026",
    "sub": "+20% sobre prepandemia"
+  },
+  "en": {
+   "title": "Enaire expects a record 2.6 million flights in 2026 and a 19.6% rise through 2032",
+   "summary": "Enaire expects to handle around 2.6 million flights in 2026, a record and 20% more than before the pandemic. Its 2026-2030 Flight Plan forecasts cumulative growth in air traffic in Spain of 19.6% through 2032, close to 3% a year.",
+   "why": "Record flight volumes and forecast growth of around 3% a year require enough control capacity to avoid delays in Madrid and Barcelona, which is key to the punctuality of Iberia and Vueling.",
+   "body": [
+    {
+     "t": "Enaire, the air navigation service provider under the Ministry of Transport and Sustainable Mobility, expects to close 2026 with around 2.6 million flights handled, an all-time high. Its chief executive, Enrique Maurer, announced this on 19 November at the annual customer and stakeholder day held at the Palacio de Zurbano in Madrid."
+    },
+    {
+     "t": "That volume is 20% above the level recorded before the pandemic. According to Enaire, the traffic recovery in Spain is 25% stronger than in Germany and 10.6% stronger than in France. In October 2026 alone it handled 233,844 flights, according to Airline92."
+    },
+    {
+     "t": "The 2026-2030 Flight Plan forecasts cumulative growth in air traffic in Spain of 19.6% between 2026 and 2032, averaging close to 3% a year. To absorb it, Enaire is investing in innovation, digitalisation and resilience: digital communication networks, contingency capacity between centres, alternative airspace procedures, physical security, cybersecurity and artificial intelligence."
+    },
+    {
+     "t": "Maurer stressed that “safety will continue to guide our decisions”. Enaire, the fourth-largest air navigation service provider in Europe, provides aerodrome control at 21 airports and, for the sixth year running, obtained the top European score of 100% on the key safety indicator."
+    }
+   ]
   }
  },
  {
@@ -12677,6 +12715,25 @@
      "lon": -66.99
     }
    ]
+  },
+  "en": {
+   "title": "Iberia and Air Europa take over Plus Ultra's routes to Caracas, Lima and Buenos Aires",
+   "summary": "Following Plus Ultra's indefinite suspension, Iberia and Air Europa each operate five weekly frequencies between Madrid and Caracas. Iberia also offers 16 weekly flights to Lima, 21 to Buenos Aires and a further 21 to Bogotá, according to the newspaper El Nacional.",
+   "why": "Plus Ultra's exit further concentrates Madrid–Latin America connectivity in Iberia and Air Europa, a market where IAG already leads, and lets them capture its demand in the peak Christmas season.",
+   "body": [
+    {
+     "t": "The indefinite suspension of Plus Ultra's operations leaves Iberia and Air Europa as the main operators between Spain and the markets the airline served, according to the Venezuelan daily El Nacional, published on 24 November. Plus Ultra stopped flying to Lima and Buenos Aires on 17 November and cancelled its last active route, to Caracas, on Monday 23 November, while it negotiates a viability plan with SEPI, to which it owes €53m, a debt incurred in 2021."
+    },
+    {
+     "t": "On the Madrid–Caracas route, Iberia and Air Europa each operate five weekly round-trip frequencies from Barajas; Venezuela's Laser also flies the route and, to a lesser extent, Estelar. Plus Ultra had been operating between two and four weekly frequencies with Venezuela and had already left Montevideo and Bogotá earlier."
+    },
+    {
+     "t": "To Lima, Iberia offers 16 weekly flights, compared with seven from Air Europa and seven from Latam. To Buenos Aires, Iberia operates 21 weekly frequencies, while Air Europa and Aerolíneas Argentinas each operate one daily flight; LEVEL, part of the IAG group, will fly daily from Barcelona-El Prat from 14 December."
+    },
+    {
+     "t": "In Bogotá, Avianca leads with 25 weekly frequencies, ahead of Iberia's 21 and Air Europa's seven, while to Montevideo Iberia flies seven times a week and Air Europa four. According to data from the Directorate General of Civil Aviation cited by the paper, traffic between Spain and Latin America rose from 6.2 million to 6.6 million passengers in the first half of 2026 compared with the same period of 2025."
+    }
+   ]
   }
  },
  {
@@ -12742,6 +12799,25 @@
    "value": "270",
    "label": "empleos afectados como máximo por el ERE",
    "sub": "de una plantilla de 663"
+  },
+  "en": {
+   "title": "Plus Ultra proposes redundancies for up to 270 staff, 40% of its workforce, plus a partial ERTE",
+   "summary": "Plus Ultra proposes a redundancy procedure (ERE) affecting between 210 and 270 of its 663 employees, alongside an ERTE temporary-reduction scheme with working-hour cuts of 10% to 70%. The airline, in pre-insolvency, has suspended all its flights, and its fuel spending has jumped 51.6% over budget.",
+   "why": "The adjustment all but confirms the near-final exit of a rival to Iberia and Air Europa on the Madrid–Latin America axis, and shows how expensive jet fuel is punishing smaller Spanish airlines.",
+   "body": [
+    {
+     "t": "Plus Ultra has proposed to the unions a collective redundancy procedure (ERE) that would affect between 210 and 270 workers at its Madrid base, up to 40% of a workforce of 663, according to reports on 24 November by El Español and Libertad Digital, based on Europa Press information. In parallel, it proposes an ERTE with working-hour reductions of between 10% and 70%, according to staff groups."
+    },
+    {
+     "t": "The workforce comprises 120 pilots, 310 cabin crew and 223 ground staff, and includes 23 employees on leave of absence. The negotiating table was set up the previous Friday after the first meeting between management and the unions, who are due to present a counterproposal."
+    },
+    {
+     "t": "The airline, in pre-insolvency proceedings, has suspended all operations “until further notice”, including its routes to Venezuela. Its fuel spending has risen 51.6% above its initial 2026 budget, to €104.83m, and it has hired the firm Summa Iuris for its restructuring plan."
+    },
+    {
+     "t": "According to Libertad Digital, Plus Ultra received a public bailout of €53m during the pandemic and, before the full suspension, had already stopped flying to Lima and Buenos Aires. Iberojet, part of the Ávoris group, and Laser Airlines had been among the possible investors, although Ávoris was not interested, according to sources cited by that outlet."
+    }
+   ]
   }
  },
  {
@@ -12805,6 +12881,25 @@
    "kind": "big",
    "value": "475 M€",
    "label": "rescate público a Air Europa en 2020"
+  },
+  "en": {
+   "title": "Moncloa's economic chief denies conflict of interest in Air Europa bailout",
+   "summary": "Manuel de la Rocha testified that no conflict of interest was found in the €475m loan to Air Europa. Íñigo Errejón denied having suspected any irregularities and attributed his 2020 parliamentary question to environmental doubts.",
+   "why": "The court case over the bailout keeps shaping the agenda at Air Europa, Iberia's main rival in Madrid, as it battles Aena over investment in the Barajas terminals.",
+   "body": [
+    {
+     "t": "Manuel de la Rocha, director of the Economic Office of the Presidency of the Government, testified as a witness on 24 November that no conflict of interest had been detected in the loan granted to Air Europa during the pandemic, according to Europa Press. He appeared before judge José María Escribano, in seat 49 of the investigating section of the Madrid court of first instance, which is looking into the €475m bailout approved in November 2020."
+    },
+    {
+     "t": "The same day, Íñigo Errejón, former parliamentary spokesperson for Sumar, also testified. He rejected having had any suspicions about the operation and explained that his 2020 parliamentary question reflected environmental doubts. Pedro Saura, chair of Correos and former secretary of state for transport, said he had merely prepared a script for journalists and that there was no press release or favourable note."
+    },
+    {
+     "t": "José Ángel Partearroyo, a former SEPI executive, testified that he had been asked to push the operation forward because of the company's possible bankruptcy and the need to pay wages. The person under investigation in the case is Bartolomé Lora, vice-president of SEPI, following a complaint filed by the PP and Vox for alleged administrative prevarication."
+    },
+    {
+     "t": "The day before, third vice-president Sara Aagesen had testified and denied any irregularities or pressure, as had Ana de la Cueva, Pilar Paneque, Francisco Javier Loriente and Raúl Blanco. Europa Press recalls that Wakalua Hub, a Globalia subsidiary, agreed a €40,000 sponsorship with the IE Africa Center, which was directed by Pedro Sánchez's wife."
+    }
+   ]
   }
  },
  {
@@ -12871,6 +12966,25 @@
    "value": "36",
    "label": "Boeing 737 MAX que Ryanair basaría en Alemania",
    "tail": "#073590"
+  },
+  "en": {
+   "title": "Ryanair offers to double its German traffic with 36 aircraft if Merz scraps the air transport tax",
+   "summary": "Ryanair makes a $3.6bn growth plan for Germany conditional on scrapping the air transport tax: 36 Boeing 737 MAX, growth from 17 million to 34 million passengers a year, more than 550 routes, new bases and over 1,000 direct jobs by 2032.",
+   "why": "Ryanair is applying the same fiscal pressure in Germany that it exerts on Aena in Spain: if Berlin gives way, it will strengthen its case and could redeploy there capacity that currently competes with Vueling and Iberia.",
+   "body": [
+    {
+     "t": "On 24 November, Ryanair presented a growth plan in Germany worth $3.6bn (€3.296bn, according to Europa Press), conditional on Chancellor Friedrich Merz scrapping the air transport tax and reducing access costs such as airport charges. The plan was announced by chief executive Michael O'Leary at a press conference."
+    },
+    {
+     "t": "The plan envisages basing 36 new Boeing 737 MAX aircraft in the country, doubling traffic from 17 million to 34 million passengers a year, exceeding 550 routes and opening bases in cities including Düsseldorf, Dortmund, Hamburg and Stuttgart. The airline calculates that it would create more than 1,000 direct jobs in Germany by 2032."
+    },
+    {
+     "t": "O'Leary described Germany as the European aviation market that has recovered worst since the pandemic and called it “irredeemably uncompetitive” because of its taxes and its airport, air traffic control and security charges. According to Europa Press, he is calling for the tax to be abolished from 1 January 2027 and argues that since 2019 Germany has lost more than 34 million seats."
+    },
+    {
+     "t": "According to AeroTime, Merz said on 3 November at a business forum that he wanted to lower the levy, which had already been reduced from July 2026 to May 2024 levels. Ryanair adds that airlines such as Lufthansa have moved flights and routes to other, cheaper EU markets."
+    }
+   ]
   }
  },
  {
@@ -12943,6 +13057,25 @@
    "value": "150",
    "label": "empleados de JJ Churchill en Leicestershire",
    "sub": "Cierre previsto en diciembre"
+  },
+  "en": {
+   "title": "Barnes Aerospace buys UK firm JJ Churchill to make more engine blades in Europe",
+   "summary": "Barnes Aerospace has signed a definitive agreement to buy JJ Churchill, a British maker of turbine and compressor blades with around 150 staff in Leicestershire. No price has been disclosed, and the deal, which strengthens its European presence, is due to close in December.",
+   "why": "Consolidation among blade suppliers in the UK concentrates a critical part of the engine supply chain, whose delays lengthen workshop downtime and raise maintenance costs in Europe.",
+   "body": [
+    {
+     "t": "Barnes Aerospace, a provider of engineering, manufacturing and repair of aerospace components, has signed a definitive agreement to acquire JJ Churchill (Holdings) Limited, a British precision engineering company based in Market Bosworth, England. The deal was announced on 23 November, and the sellers are Tinicum L.P. and its partners, the Churchill family and management."
+    },
+    {
+     "t": "JJ Churchill specialises in turbine and compressor blades, including rotating blades, static blades and nozzle guide vanes, for manufacturers in the aerospace and industrial gas turbine markets. Founded in 1937, it has around 150 employees across two plants in Leicestershire. No price has been disclosed."
+    },
+    {
+     "t": "According to Barnes, the acquisition expands its precision manufacturing capacity, strengthens its presence in Europe and supports the growth of its business with original equipment manufacturers (OEMs). Closing is expected in December, subject to the usual conditions, and until then the two companies will operate separately."
+    },
+    {
+     "t": "“JJ Churchill strategically fits with Barnes Aerospace,” said Barnes's chief executive, Mike J. Mosley. JJ Churchill's chief executive, Mark Cooper, noted that the company has been building a reputation for precision engineering for “almost 90 years”. According to AirPro News, Barnes already bought the repair shops Jet AirWerks and ATL Turbine Services in 2026."
+    }
+   ]
   }
  },
  {
@@ -13067,6 +13200,25 @@
    "value": "10",
    "label": "Boeing 787 encargados por Malaysia Airlines",
    "sub": "más 6 opciones"
+  },
+  "en": {
+   "title": "Malaysia Airlines orders 10 Boeing 787s to replace its seven Airbus A350s from 2032",
+   "summary": "Malaysia Aviation Group has ordered 10 Boeing 787s, with options on six more, to replace its seven Airbus A350s between 2032 and 2035. The aircraft will be fitted with GE Aerospace GEnx-1B engines and seat 319 across three classes for long-haul routes.",
+   "why": "Swapping A350s for 787s is a commercial win for Boeing over Airbus in long-haul and a benchmark for European airlines planning the renewal of their widebody fleets.",
+   "body": [
+    {
+     "t": "Malaysia Aviation Group (MAG), the parent company of Malaysia Airlines, has ordered 10 Boeing 787 Dreamliners with options on six more, as announced on 25 November at a ceremony in Kuala Lumpur attended by Prime Minister Anwar Ibrahim. Air Data News specifies that the order is for the 787-10 model and that the deal has yet to be finalised."
+    },
+    {
+     "t": "The aircraft will be delivered between 2032 and 2035 and will replace the airline's seven Airbus A350s over the same period, which according to Air Data News are leased A350-900s. They will be powered by GE Aerospace GEnx-1B engines and seat 319 across three classes. MAG plans to use them on routes such as London, Paris, Sydney, Melbourne, Tokyo, Osaka and Seoul, depending on its network planning."
+    },
+    {
+     "t": "It will be Malaysia Airlines' first firm Dreamliner order; in 2017 it signed a memorandum for eight 787-9s that expired without becoming an order, according to Air Data News. The airline is thus returning to Boeing widebodies after retiring its 777s in 2016, according to SoyaCincau."
+    },
+    {
+     "t": "“The acquisition of the 787 Dreamliner represents a strategic investment in the future of Malaysia Aviation Group,” said its chairman and chief executive, Captain Nasaruddin A. Bakar. On short-haul, the airline operates more than 37 new-generation Boeing 737s and 19 737-8s, and has 55 aircraft from the 737 family on order (43 737-8s and 12 737-10s), with deliveries through 2030."
+    }
+   ]
   }
  },
  {
@@ -13129,6 +13281,25 @@
    "value": "50",
    "label": "Boeing 737 MAX 8 para Xiamen Airlines",
    "tail": "#1d6fb8"
+  },
+  "en": {
+   "title": "Xiamen Airlines orders 50 Boeing 737 MAX 8s, China's biggest Boeing order in almost a decade",
+   "summary": "Xiamen Airlines, 55%-owned by China Southern, has agreed to buy 50 Boeing 737 MAX 8s for around $7.4bn at list price, with deliveries between 2031 and 2034. It still needs the approval of shareholders and the Chinese government.",
+   "why": "A large Chinese order competes again for 737 MAX production slots and could stretch delivery schedules for European airlines waiting for Boeing aircraft in the coming years.",
+   "body": [
+    {
+     "t": "Xiamen Airlines, 55%-owned by China Southern Airlines, has agreed to buy 50 Boeing 737 MAX 8s, according to an announcement by its parent on 24 November. The list value is around $7.4bn, roughly $148m per aircraft before discounts; the actual price is confidential, and China Southern says Boeing has granted discounts comparable to those in earlier deals."
+    },
+    {
+     "t": "Deliveries will be made in phases between 2031 and 2034. The China Southern board has already approved the order but still needs the approval of shareholders and the relevant Chinese authorities; according to FlyMag, the deal is classed as a significant transaction under Hong Kong listing rules."
+    },
+    {
+     "t": "According to Aviation A2Z, it is the largest order from a Chinese airline to Boeing in almost a decade, after years in which trade tensions between Washington and Beijing limited the manufacturer's access to that market. China committed to buy 200 Boeing aircraft at the Trump–Xi summit in May 2026; analysts believe this order could be the first firm conversion of that commitment, which China Southern has not confirmed."
+    },
+    {
+     "t": "At the end of March 2026, Xiamen Airlines had 174 aircraft, including 28 737 MAX 8s, 111 737-800s and four 737-700s. In April it also ordered 35 aircraft from the A320neo family, as part of a 137-aircraft purchase by the China Southern group, with deliveries between 2028 and 2032."
+    }
+   ]
   }
  },
  {
