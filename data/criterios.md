@@ -84,3 +84,9 @@ Las tareas se ejecutan solas. Cada vez que se abre con WebFetch una dirección q
 - Abre como máximo las páginas imprescindibles: una por noticia y, si hace falta, una segunda fuente.
 - Para la foto: usa la og:image que devuelva la propia página; si no vale, prueba la de otra página ya abierta o de un resultado de búsqueda. Las variantes de formato (.jpg en vez de .webp) pruébalas solo en la subida a Klaviyo, nunca con WebFetch.
 - Si una dirección pide permiso, se rechaza o tarda, no esperes: sáltala, usa otra fuente o deja esa noticia para otro día, y anótalo en el resumen.
+
+## Buscar resultados sin confundirse de año (25-nov-2026)
+
+Muchas empresas publican resultados la misma fecha cada año (easyJet, el 25 de noviembre), y los buscadores devuelven primero los del año anterior. Al buscar resultados:
+- Incluye siempre el año y el periodo en la búsqueda (por ejemplo «easyJet resultados 2026», «easyJet FY26 results», «IAG Q3 2026»).
+- Antes de dar por buenos unos resultados, comprueba que la fecha del artículo es de hoy (o de la fecha prevista) y del año en curso. Si solo encuentras los del año pasado, NO concluyas que no hay resultados: busca otra vez con el año y en medios en español («beneficio», «ingresos», nombre de la empresa).
