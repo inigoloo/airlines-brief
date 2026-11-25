@@ -13784,23 +13784,74 @@
  },
  {
   "id": "b-plus-ultra-60-millones-billetes",
-  "kind": "brief",
-  "title": "Plus Ultra acumula unos 60 millones de euros en billetes de vuelos que ya no se operarán",
-  "summary": "Según fuentes citadas por OKDiario, la suspensión de operaciones de Plus Ultra deja unos 60 millones de euros en billetes vendidos para vuelos que no se han realizado.",
-  "en": {
-   "title": "Plus Ultra owes passengers some €60m for flights that will no longer operate",
-   "summary": "According to sources cited by OKDiario, Plus Ultra's suspension of operations leaves about €60m in tickets sold for flights that were not operated."
-  },
-  "source": "Preferente",
-  "url": "https://www.preferente.com/noticias-de-transportes/noticias-de-aerolineas/plus-ultra-debe-60-millones-a-pasajeros-por-vuelos-cancelados-353256.html",
-  "thumb": "https://www.preferente.com/wp-content/uploads/2024/09/plus-ultra-8.jpg",
-  "publishedAt": "2026-11-25",
+  "title": "Plus Ultra deja unos 60 millones en billetes sin volar y una administradora gestiona su cierre",
   "category": "FIN",
-  "aiScore": 55,
-  "promote": true,
+  "publishedAt": "2026-11-25",
+  "source": "OKDiario",
+  "url": "https://okdiario.com/economia/administradora-judicial-ya-gestiona-quiebra-plus-ultra-60-millones-billetes-sin-devolver-21263536",
+  "summary": "Una administradora judicial gestiona ya el embargo de los bienes de Plus Ultra, que según OKDiario ingresó unos 60 millones de euros por billetes que no prevé devolver. Solo en Argentina habría unos 25.000 billetes afectados y en Venezuela, más de 40.000.",
+  "body": [
+   {
+    "t": "Plus Ultra, la aerolínea rescatada por el Gobierno que ha dejado de volar, tiene ya una administradora judicial encargada de gestionar el embargo de sus bienes y de intentar garantizar con lo obtenido el pago de las nóminas de su plantilla, según publicó OKDiario el 25 de noviembre. El diario no identifica a la administradora ni el juzgado.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Según las fuentes consultadas por OKDiario, la compañía ingresó en torno a 60 millones de euros por la venta de billetes de vuelos que no se van a operar y que no prevé devolver. Que.es recoge la misma cifra, pero advierte de que es una estimación publicada en el sector y no un dato oficial auditado.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Solo en Argentina, las fuentes del diario cifran en unos 25.000 los billetes vendidos afectados, y distintos operadores hablan de más de 40.000 afectados en Venezuela. Muchos de los clientes son residentes latinoamericanos en España que habían comprado sus billetes para Navidad. OKDiario añade que, en los meses previos al cierre, la aerolínea había aumentado de dos a cinco las frecuencias de algunos vuelos.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La SEPI concedió a Plus Ultra en 2021 un rescate de 53 millones de euros. Según OKDiario, aceptó aplazar el pago de los intereses pese a conocer las dificultades financieras de la empresa y a que Bankinter había cortado su financiación; Que.es señala que la aerolínea aún adeuda el importe completo del rescate.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Que.es recuerda además que la compañía plantea el despido de hasta 270 empleados, cerca del 40% de su plantilla en Madrid, y que el orden de cobro de los acreedores se decidirá en los juzgados.",
+    "s": [
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "OKDiario",
+    "url": "https://okdiario.com/economia/administradora-judicial-ya-gestiona-quiebra-plus-ultra-60-millones-billetes-sin-devolver-21263536",
+    "date": "2026-11-25"
+   },
+   {
+    "name": "Que.es",
+    "url": "https://www.que.es/2026/11/25/plus-ultra-cancelaciones-reclamar-reembolso/",
+    "date": "2026-11-25"
+   }
+  ],
+  "why": "La salida de Plus Ultra libera demanda en las rutas de Madrid a Caracas, Lima y Buenos Aires, donde Iberia y Air Europa ya recogen pasajeros; el coste de los billetes no devueltos pesará en la imagen del sector.",
+  "iagImpact": "indirecto",
   "europe": true,
-  "addedAt": "2026-11-25T11:12:54Z",
-  "addedBy": "claude"
+  "aiScore": 55,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/46bb2925-ffd5-41b7-96f5-13a85a5d8c41.jpeg",
+  "imageId": "b-plus-ultra-60-millones-billetes",
+  "photoSource": "OKDiario",
+  "addedAt": "2026-11-25T14:26:45Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "big",
+   "value": "60 M€",
+   "label": "en billetes de vuelos que no se operarán",
+   "sub": "estimación según OKDiario"
+  }
  },
  {
   "id": "b-ba-a350-1000-relevo-cuatrimotores",
@@ -14156,6 +14207,73 @@
     },
     {
      "t": "Elite Points on the included flights, in line with Óptima fares, range from 75 to 450 per passenger: on short-haul, 75 in Economy and 175 in Business; on long-haul, 150 in Economy, 275 in Premium Economy and 350 in Business, and 450 in Business to Latin America and the Caribbean. These points help members maintain or move up tiers in Iberia Club."
+    }
+   ]
+  }
+ },
+ {
+  "id": "espana-saf-2025-supera-objetivo-refueleu",
+  "title": "España suministró 152.000 toneladas de SAF en 2025, un 2,59% frente al 2% exigido por la UE",
+  "category": "REG",
+  "publishedAt": "2026-11-25",
+  "source": "Hosteltur",
+  "url": "https://www.hosteltur.com/180234_espana-supera-en-un-30-el-objetivo-europeo-de-combustible-sostenible-de-aviacion.html",
+  "summary": "España fue en 2025 el segundo país de la UE por volumen de combustible sostenible de aviación, con más de 152.000 toneladas, según una guía de la AST. Supuso el 2,59% del queroseno de sus aeropuertos, por encima del 2% mínimo que exige ReFuelEU.",
+  "body": [
+   {
+    "t": "España se situó en 2025 como el segundo país de la Unión Europea por volumen de combustible sostenible de aviación (SAF) suministrado, con más de 152.000 toneladas, según la Guía para la implementación del Reglamento ReFuelEU Aviation en España de la Alianza para la Sostenibilidad del Transporte Aéreo (AST), presentada esta semana en la reunión anual de su Consejo Rector, informó Hosteltur el 25 de noviembre.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Ese volumen equivale al 2,59% de todo el combustible suministrado en los aeropuertos españoles en 2025, frente al mínimo obligatorio del 2% que fija ReFuelEU. El reglamento prevé una incorporación progresiva del SAF hasta el 70% en 2050; para 2030, el porcentaje mínimo sube al 6%, con un 1,2% de combustible sintético.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La guía critica el uso de los ingresos del comercio de emisiones (EU ETS): España destinó en 2024 el 48% de esa recaudación a iniciativas climáticas y de transición energética, mientras otros países europeos dedican prácticamente toda, y ninguna de las iniciativas financiadas en España se dirigió específicamente al SAF. Solo entre el 10% y el 12% de lo que aportan las aerolíneas vuelve a ellas mediante derechos ligados al SAF, un apoyo que la AST califica de «absolutamente insuficiente».",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Según la AST, España reúne condiciones industriales y energéticas favorables para liderar la producción europea de SAF. Su presidenta, Margarita de Gregorio, destaca la necesidad de fomentar la cooperación, según recoge el medio.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Hosteltur",
+    "url": "https://www.hosteltur.com/180234_espana-supera-en-un-30-el-objetivo-europeo-de-combustible-sostenible-de-aviacion.html",
+    "date": "2026-11-25"
+   }
+  ],
+  "why": "El SAF obligatorio encarece el combustible de Iberia, Vueling y el resto en España; que los ingresos del EU ETS no vuelvan al sector refuerza la presión de las aerolíneas por ayudas antes del salto al 6% en 2030.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 60,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/738f6d67-07b0-4f11-9777-3c318d501f55.jpeg",
+  "imageId": "espana-saf-2025-supera-objetivo-refueleu",
+  "photoSource": "Hosteltur",
+  "addedAt": "2026-11-25T14:26:45Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "bars",
+   "title": "SAF en aeropuertos españoles, 2025 (% del combustible)",
+   "bars": [
+    {
+     "l": "Mínimo ReFuelEU",
+     "v": 2,
+     "t": "2%"
+    },
+    {
+     "l": "España",
+     "v": 2.59,
+     "t": "2,59%"
     }
    ]
   }
