@@ -12944,5 +12944,279 @@
    "label": "empleados de JJ Churchill en Leicestershire",
    "sub": "Cierre previsto en diciembre"
   }
+ },
+ {
+  "id": "b-portugalia-standardaero-apu",
+  "kind": "brief",
+  "title": "StandardAero se encarga del mantenimiento de las APU de Portugália, filial de TAP",
+  "summary": "StandardAero ha firmado un contrato plurianual con Portugália Airlines, del grupo TAP y operadora de TAP Express, para el mantenimiento de sus APU Pratt & Whitney Canada APS 2300.",
+  "en": {
+   "title": "StandardAero to maintain Portugália's APUs, the TAP subsidiary",
+   "summary": "StandardAero has signed a multi-year contract with Portugália Airlines, a TAP Group company operating as TAP Express, to maintain its Pratt & Whitney Canada APS 2300 auxiliary power units."
+  },
+  "source": "AviTrader",
+  "url": "https://avitrader.com/2026/11/24/portugalia-airlines-inks-apu-maintenance-deal-with-standard-aero/",
+  "publishedAt": "2026-11-24",
+  "category": "MRO",
+  "aiScore": 45,
+  "europe": true,
+  "addedAt": "2026-11-25T08:08:28Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-heston-air-niugini-auckland",
+  "kind": "brief",
+  "title": "Heston MRO asume el mantenimiento en línea de Air Niugini en Auckland",
+  "summary": "Heston MRO presta desde el 17 de noviembre mantenimiento en línea a Air Niugini en su nueva estación de Auckland, lo que restablece el enlace directo Papúa Nueva Guinea-Nueva Zelanda tras más de 28 años.",
+  "en": {
+   "title": "Heston MRO takes on Air Niugini line maintenance in Auckland",
+   "summary": "Heston MRO has provided line maintenance for Air Niugini since 17 November at its new station at Auckland Airport, restoring a direct link between Papua New Guinea and New Zealand after more than 28 years."
+  },
+  "source": "AviTrader",
+  "url": "https://avitrader.com/2026/11/24/heston-mro-begins-air-niugini-line-maintenance-in-auckland/",
+  "publishedAt": "2026-11-24",
+  "category": "MRO",
+  "aiScore": 38,
+  "addedAt": "2026-11-25T08:08:28Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-fokker-bell-mou-soporte",
+  "kind": "brief",
+  "title": "Fokker Services y Bell estudian cooperar en soporte y mantenimiento de aeronaves",
+  "summary": "Fokker Services Group y Bell Textron han firmado un memorando para explorar una colaboración en servicios de soporte y sostenimiento para clientes actuales y futuros de Bell en todo el mundo.",
+  "en": {
+   "title": "Fokker Services and Bell explore cooperation on aircraft support",
+   "summary": "Fokker Services Group and Bell Textron have signed a memorandum of understanding to explore cooperation in support and sustainment services for current and future Bell customers worldwide."
+  },
+  "source": "AviTrader",
+  "url": "https://avitrader.com/2026/11/24/fokker-services-and-bell-explore-global-support-partnership/",
+  "publishedAt": "2026-11-24",
+  "category": "MRO",
+  "aiScore": 40,
+  "europe": true,
+  "addedAt": "2026-11-25T08:08:28Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-mag-10-boeing-787-a350",
+  "kind": "brief",
+  "title": "Malaysia Aviation Group encarga 10 Boeing 787 para sustituir su flota de Airbus A350",
+  "summary": "Malaysia Aviation Group ha pedido directamente a Boeing 10 Dreamliner 787, con opciones para otros seis, para reemplazar a sus Airbus A350.",
+  "en": {
+   "title": "Malaysia Aviation Group orders 10 Boeing 787s to replace its Airbus A350 fleet",
+   "summary": "Malaysia Aviation Group has ordered 10 Boeing 787 Dreamliners directly from Boeing, with options for six more, to replace its Airbus A350s."
+  },
+  "source": "AeroTime",
+  "url": "https://www.aerotime.aero/articles/malaysia-aviation-group-orders-10-boeing-787s-to-replace-its-airbus-a350-fleet",
+  "thumb": "https://www.aerotime.aero/images/2026/09/Malaysia-Airlines-Airbus-A350-900-80x80.jpg.webp",
+  "publishedAt": "2026-11-25",
+  "category": "FLT",
+  "aiScore": 62,
+  "addedAt": "2026-11-25T08:08:28Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-xiamen-50-boeing-737-max-8",
+  "kind": "brief",
+  "title": "Xiamen Airlines, filial de China Southern, firma con Boeing la compra de 50 737 MAX 8",
+  "summary": "Xiamen Airlines, filial de China Southern Airlines, firmó el 24 de noviembre de 2026 un acuerdo con Boeing para adquirir 50 aviones 737 MAX 8.",
+  "en": {
+   "title": "Xiamen Airlines, a China Southern unit, signs deal with Boeing for 50 737 MAX 8s",
+   "summary": "Xiamen Airlines, a subsidiary of China Southern Airlines, signed an agreement with Boeing on 24 November 2026 to acquire 50 737 MAX 8 aircraft."
+  },
+  "source": "AeroTime",
+  "url": "https://www.aerotime.aero/articles/xiamen-airlines-signs-deal-for-50-boeing-737-max-8-aircraft",
+  "publishedAt": "2026-11-24",
+  "category": "FLT",
+  "aiScore": 60,
+  "addedAt": "2026-11-25T08:08:28Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-boeing-737-max-north-line-everett",
+  "kind": "brief",
+  "title": "Boeing se acerca a las primeras entregas de 737 MAX de su nueva línea norte de Everett",
+  "summary": "Boeing avanza hacia las primeras entregas a clientes de aviones 737 construidos en su nueva North Line de Everett.",
+  "en": {
+   "title": "Boeing nears first 737 MAX deliveries from its new North Line at Everett",
+   "summary": "Boeing has moved a step closer to delivering to customers 737 aircraft built at its new North Line in Everett."
+  },
+  "source": "AeroTime",
+  "url": "https://www.aerotime.aero/articles/boeing-737-max-north-line-production-everett",
+  "thumb": "https://www.aerotime.aero/images/2026/08/Boeing-737-MAX-7-1200x799.jpg",
+  "publishedAt": "2026-11-24",
+  "category": "FLT",
+  "aiScore": 45,
+  "addedAt": "2026-11-25T08:08:28Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-ba-787-10-emergencia-fuga-aceite",
+  "kind": "brief",
+  "title": "Un 787-10 de British Airways declara emergencia rumbo a Boston por una segunda fuga de aceite en 10 días",
+  "summary": "El mismo 787-10 ya había sufrido días antes la parada de un motor y un desvío en un vuelo a Dubái.",
+  "en": {
+   "title": "A British Airways 787-10 bound for Boston declares an emergency over a second oil leak in 10 days",
+   "summary": "The same 787-10 had suffered an engine shutdown and a diversion days earlier on a flight to Dubai."
+  },
+  "source": "Simple Flying",
+  "url": "https://simpleflying.com/british-airways-boeing-787-10-boston-emergency-second-oil-leak-10-days/",
+  "thumb": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/british-airways-boeing-787-10-being-towed-on-runway.jpg",
+  "publishedAt": "2026-11-25",
+  "category": "FLT",
+  "aiScore": 50,
+  "iagImpact": "directo",
+  "europe": true,
+  "addedAt": "2026-11-25T08:08:28Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-lufthansa-group-app-unica",
+  "kind": "brief",
+  "title": "Lufthansa Group reúne seis aerolíneas en una sola app para controlar la relación con el cliente",
+  "summary": "Según Skift, tras años de integrar a sus aerolíneas entre bastidores, el grupo con sede en Fráncfort parece querer ahora ser también el dueño de la relación con el cliente.",
+  "en": {
+   "title": "Lufthansa Group brings six airlines into one app to own the customer relationship",
+   "summary": "According to Skift, after years of bringing its airlines closer together behind the scenes, the Frankfurt-based group now appears to want to own the customer relationship too."
+  },
+  "source": "Skift",
+  "url": "https://skift.com/2026/11/25/6-airlines-1-app-why-lufthansa-group-wants-to-be-a-superbrand/",
+  "thumb": "https://skift.com/wp-content/uploads/2026/11/lhgappsample-en.jpg?w=1024",
+  "publishedAt": "2026-11-25",
+  "category": "STR",
+  "aiScore": 58,
+  "iagImpact": "indirecto",
+  "europe": true,
+  "addedAt": "2026-11-25T08:08:28Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-canarias-combustible-invierno",
+  "kind": "brief",
+  "title": "Canarias teme que el precio del combustible golpee a la aviación este invierno",
+  "summary": "En verano muchas aerolíneas aún tenían el queroseno a un precio garantizado por el seguro, pero ya no, lo que afecta de lleno a las que vuelan en invierno.",
+  "en": {
+   "title": "Canary Islands fear fuel prices will hit aviation this winter",
+   "summary": "Last summer many airlines still had jet fuel at a price guaranteed by insurance, but no longer, which hits those flying in winter hardest."
+  },
+  "source": "Preferente",
+  "url": "https://www.preferente.com/rss1/canarias-preocupada-el-precio-del-fuel-arruina-el-invierno-353180.html",
+  "thumb": "https://www.preferente.com/wp-content/uploads/2026/11/turista.jpg",
+  "publishedAt": "2026-11-24",
+  "category": "NET",
+  "aiScore": 55,
+  "promote": true,
+  "europe": true,
+  "addedAt": "2026-11-25T08:08:28Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-klm-shannon-amsterdam-2027",
+  "kind": "brief",
+  "title": "KLM volará a diario entre Shannon y Ámsterdam desde el 28 de marzo de 2027",
+  "summary": "KLM amplía su red europea para el verano de 2027 con Sofía y Shannon como nuevos destinos de KLM Cityhopper.",
+  "en": {
+   "title": "KLM to fly daily between Shannon and Amsterdam from 28 March 2027",
+   "summary": "KLM is expanding its European network for summer 2027, adding Sofia and Shannon as new KLM Cityhopper destinations."
+  },
+  "source": "Travel Extra",
+  "url": "https://www.travelextra.ie/klm-to-launch-daily-shannon-to-amsterdam-service-from-march-2027/",
+  "publishedAt": "2026-11-25",
+  "category": "NET",
+  "aiScore": 40,
+  "europe": true,
+  "addedAt": "2026-11-25T08:08:28Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-tunisair-junta-continuidad",
+  "kind": "brief",
+  "title": "Tunisair convoca una junta extraordinaria el 15 de diciembre para votar si sigue operando",
+  "summary": "Según el artículo 388 del Código de Sociedades tunecino, las empresas cuyo patrimonio neto cae por debajo de la mitad del capital social deben someter su continuidad a los accionistas.",
+  "en": {
+   "title": "Tunisair calls an EGM on 15 December to vote on continuing operations",
+   "summary": "Under Article 388 of Tunisia's Commercial Companies Code, companies whose net equity falls below half of share capital must put their continuation to shareholders."
+  },
+  "source": "Travel Extra",
+  "url": "https://www.travelextra.ie/tunisair-convenes-egm-to-vote-on-continuation-of-operations/",
+  "publishedAt": "2026-11-25",
+  "category": "FIN",
+  "aiScore": 45,
+  "addedAt": "2026-11-25T08:08:28Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-grecia-huelga-transporte-25-nov",
+  "kind": "brief",
+  "title": "Una huelga nacional de 24 horas altera el 25 de noviembre el transporte, los ferris y los vuelos en Grecia",
+  "summary": "El metro de Atenas y el tranvía solo funcionan de 9:00 a 18:00, y varios sindicatos marítimos suspenden las travesías.",
+  "en": {
+   "title": "A 24-hour national strike disrupts transport, ferries and flights in Greece on 25 November",
+   "summary": "Athens metro and tram services run only between 09:00 and 18:00, and several seafarers' unions are suspending sailings."
+  },
+  "source": "Travel Extra",
+  "url": "https://www.travelextra.ie/greek-ferries-halted-by-transport-strike/",
+  "publishedAt": "2026-11-25",
+  "category": "NET",
+  "aiScore": 42,
+  "europe": true,
+  "addedAt": "2026-11-25T08:08:28Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-aci-premios-innovacion-huesca",
+  "kind": "brief",
+  "title": "El aeropuerto de Huesca, entre los ganadores de los premios de innovación aeroportuaria de ACI 2026",
+  "summary": "Los galardones recaen en dos aeropuertos de Shanghái, en dos pequeños aeropuertos europeos (Burgas y Huesca) y en un directivo del aeropuerto de Incheon.",
+  "en": {
+   "title": "Huesca airport among the winners of the 2026 ACI Airport Innovation Awards",
+   "summary": "The awards go to two Shanghai airports, two small European airports (Burgas and Huesca) and an executive from Incheon International Airport."
+  },
+  "source": "AeroTime",
+  "url": "https://www.aerotime.aero/articles/shanghai-incheon-burgas-and-huesca-win-2026-aci-airport-innovation-awards",
+  "thumb": "https://www.aerotime.aero/images/shutterstock_668182327-1600x1000-1-80x80.jpg",
+  "publishedAt": "2026-11-25",
+  "category": "APT",
+  "aiScore": 38,
+  "europe": true,
+  "addedAt": "2026-11-25T08:08:28Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-aci-europe-manual-innovacion",
+  "kind": "brief",
+  "title": "ACI Europe presenta en Barcelona un manual de innovación para operadores de aeropuertos",
+  "summary": "El documento, lanzado en la conferencia ACI Airports Innovate 2026, ofrece una hoja de ruta práctica para integrar la innovación en la estrategia, las operaciones y los modelos de negocio.",
+  "en": {
+   "title": "ACI Europe launches an innovation handbook for airport operators in Barcelona",
+   "summary": "Released at the ACI Airports Innovate 2026 conference, the handbook offers a practical roadmap for embedding innovation in strategy, operations and business models."
+  },
+  "source": "ACI Europe",
+  "url": "https://www.aci-europe.org/media-room.html?id=627",
+  "publishedAt": "2026-11-24",
+  "category": "APT",
+  "aiScore": 38,
+  "europe": true,
+  "addedAt": "2026-11-25T08:08:28Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-american-chicago-demanda-united",
+  "kind": "brief",
+  "title": "American renuncia a su demanda por las puertas de Chicago, pero sigue enfrentada a United",
+  "summary": "American Airlines abandona su recurso contra la redistribución de puertas en el aeropuerto de Chicago, aunque su pulso con United está lejos de terminar.",
+  "en": {
+   "title": "American drops its Chicago gate lawsuit but remains at odds with United",
+   "summary": "American Airlines is abandoning its legal challenge to the redistribution of gates at Chicago's airport, although its battle with United is far from over."
+  },
+  "source": "Simple Flying",
+  "url": "https://simpleflying.com/american-airlines-chicago-lawsuit-turf-war-united/",
+  "thumb": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/american_chicago_skyline_1920x1080.jpg",
+  "publishedAt": "2026-11-24",
+  "category": "STR",
+  "aiScore": 48,
+  "addedAt": "2026-11-25T08:08:28Z",
+  "addedBy": "claude"
  }
 ]
