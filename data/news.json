@@ -13430,7 +13430,26 @@
   },
   "imageId": "b-canarias-combustible-invierno",
   "addedAt": "2026-11-25T11:15:08Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Canaries warn of pricier flights from March as fuel hedges expire",
+   "summary": "Canary Islands tourism councillor Jessica de León expects fares to rise mainly from March, when airlines' fuel hedges run out, and warns of fewer seats this winter from the UK (down 1.1%) and Germany (down 3.2%).",
+   "why": "The Canaries are a key market for Iberia, Iberia Express, Vueling and Binter: the end of hedges in March could push up fares and shift European capacity towards destinations without environmental charges.",
+   "body": [
+    {
+     "t": "The councillor for Tourism and Employment in the Canary Islands Government, Jessica de León, warned a parliamentary committee of a possible rise in flight prices from March, when airlines' fuel hedges expire, as reported by Diario de Avisos on 20 November."
+    },
+    {
+     "t": "According to the councillor, the rise in fuel prices after the closure of the Strait of Hormuz has so far had little effect because airlines set their prices in advance, but that period ends in March. Some companies estimate fuel could rise by around 30%, which would feed through to fares, and many speak of the “end of the era of cheap travel in Europe”."
+    },
+    {
+     "t": "The Canaries has raised the alarm over lost connectivity with the UK and Germany this winter, with seat capacity down 1.1% and 3.2% respectively, while seats from mainland Spain will rise by 12%. The Istac forecasts 9.8 million tourists from October to March, practically the same as last winter, according to MP José Manuel Bermúdez (CC)."
+    },
+    {
+     "t": "The Canary Islands Government is calling for the suspension or postponement of the 2027 international aviation carbon offsetting targets, including the SAF obligation, and warns that Egypt, Turkey, Tunisia and Morocco, which are exempt from those charges, could attract airlines. The department holds a crisis committee every 15 days."
+    }
+   ]
+  }
  },
  {
   "id": "b-klm-shannon-amsterdam-2027",
@@ -13626,7 +13645,29 @@
   },
   "imageId": "b-easyjet-resultados-fy26",
   "addedAt": "2026-11-25T11:15:08Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "easyJet's annual profit plunges 89% on fuel costs, with no guidance amid Apollo deal",
+   "summary": "easyJet made £71m before tax in its 2025-26 financial year, 89% less than the £665m a year earlier, due to higher fuel costs. Revenue rose 6% to £10,737m, and there will be no dividend or forecast because of the pending Apollo acquisition.",
+   "why": "easyJet competes with Vueling and Iberia Express in Europe and with BA in London: a rival with minimal margins that is about to change hands to Apollo may revise its capacity and pricing.",
+   "body": [
+    {
+     "t": "easyJet closed its financial year, which ended on 30 September, with a pre-tax profit of £71m, 89% less than the £665m a year earlier, as reported by Reuters on 25 November. Analysts had expected an average of £87.7m, according to LSEG data cited by the agency."
+    },
+    {
+     "t": "The fuel bill rose 11% to £2.5bn, and the airline's costs, which include airports, handling, crew, navigation and maintenance, increased 12% to £5.8bn. According to Europa Press, the extra spend on jet fuel was £244m, compounded by weaker demand in the second half of the year."
+    },
+    {
+     "t": "Revenue rose 6% to £10,737m, and the easyJet Holidays package business made a pre-tax profit of £266m. The company operated 590,591 flights, 2.5% more, and carried 96.3 million passengers, 3% more, with a load factor of 90%. Earnings before interest and tax (EBIT) fell from £703m to £114m."
+    },
+    {
+     "t": "According to Bolsamanía, investment in winter capacity also weighed, including the first winter at Linate and Fiumicino, along with excess supply in some beach markets. The group will not pay a dividend this year. “This year has been difficult for airlines because of the conflict in the Middle East,” said chief executive Kenton Jarvis."
+    },
+    {
+     "t": "easyJet will not provide guidance for the next financial year because of the pending £5.7bn Apollo acquisition. Shareholders approved it on 11 November, and it has already received competition and foreign investment clearance in the UK, Germany, Austria, France, Italy, Spain and Malta; completion is expected in the first quarter of 2027, although according to Reuters it still faces obstacles under EU ownership rules and from unions."
+    }
+   ]
+  }
  },
  {
   "id": "b-norse-atlantic-situacion-critica",
@@ -13683,7 +13724,26 @@
   },
   "imageId": "b-norse-atlantic-situacion-critica",
   "addedAt": "2026-11-25T11:15:08Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Norse Atlantic says its financial position is 'critical' as shares sink over 70%",
+   "summary": "Norwegian long-haul low-cost carrier Norse Atlantic says its financial position is 'critical' and that it needs new funding to keep operating. Its shares fell more than 70% to record lows, and the company does not hedge its fuel.",
+   "why": "It is another European airline on the brink over unhedged jet fuel: it points to further consolidation and possible exits from transatlantic capacity that could benefit BA, Iberia and Aer Lingus.",
+   "body": [
+    {
+     "t": "Norse Atlantic, a Norwegian low-cost long-haul airline, said on Wednesday 25 November that its financial position is 'critical' and that it needs new funding to cover its short-term liquidity requirements and continue operating, according to Reuters. The company said it is negotiating that funding but warned there is no guarantee the talks will result in a viable solution."
+    },
+    {
+     "t": "Its shares fell more than 70% by 9:05 GMT, to record lows. The company did not say how long it can keep operating without new money and did not respond to Reuters when asked for more details."
+    },
+    {
+     "t": "According to the agency, higher fuel costs from the war with Iran, which began in late February, have hit the airline, which does not hedge its jet fuel and has cut capacity. In July it opened a formal process for a possible sale or merger, and it has negotiated with other airlines to lease some of its Boeing 787s; in October it signed an ACMI contract with Pakistan International Airlines for two 787-9s."
+    },
+    {
+     "t": "Reuters notes that airBaltic entered Chapter 11 proceedings earlier this year and that analysts warn small European airlines could run out of cash, perhaps as early as February. Analyst James Halstead argues that long-haul low-cost carriers are the most exposed to expensive fuel because their demand is very sensitive to price."
+    }
+   ]
+  }
  },
  {
   "id": "b-k2-aviation-smbc-six-737-800",
@@ -13898,7 +13958,26 @@
   },
   "imageId": "supremo-admite-recurso-el-prat-dora-iii",
   "addedAt": "2026-11-25T11:15:08Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Spanish Supreme Court admits El Prat appeal against DORA III and pre-expansion works",
+   "summary": "Spain's Supreme Court has admitted for processing the appeal by El Prat de Llobregat city council against DORA III, Aena's 2027-2031 investment and charges plan. The government has 20 days to submit the file; the appeal targets works preparing the expansion.",
+   "why": "El Prat is Vueling's hub and IAG's base in Barcelona: a legal challenge to DORA III adds uncertainty to the runway extension and satellite terminal its growth depends on.",
+   "body": [
+    {
+     "t": "Spain's Supreme Court has admitted for processing the appeal lodged by El Prat de Llobregat city council against DORA III, the document setting Aena's airport investment and charges for 2027-2031, which the Council of Ministers approved on 15 September 2026. The council made the decision public on Wednesday 25 November."
+    },
+    {
+     "t": "The court has given the government 20 days, counted from 18 November according to El Nacional, to submit the complete file, a necessary step before the substance of the case can be examined. The appeal will allow scrutiny of whether DORA III's provisions and the investments linked to preparatory works comply with the law."
+    },
+    {
+     "t": "DORA III does not set aside money before 2031 to carry out the third runway extension or the satellite terminal at El Prat, but it does include items for preparatory work. The council considers the expansion unnecessary and harmful to the environment, health and the economy, and says the plan paves the way for later works."
+    },
+    {
+     "t": "The municipal plenary reaffirmed its opposition in September, with the votes of El Prat en Comú, ERC, PP and Estimem el Prat-Junts. Mayor Alba Bou has criticised the proposals for having been drawn up without sufficient debate with the municipalities. According to La Ciutat, the European Commission has reiterated that it will not allow a further expansion until the outstanding environmental compensation for the Llobregat delta from the previous one has been completed."
+    }
+   ]
+  }
  },
  {
   "id": "enaire-159-plazas-controladores",
@@ -13986,7 +14065,26 @@
   },
   "imageId": "enaire-159-plazas-controladores",
   "addedAt": "2026-11-25T11:15:08Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Enaire opens 159 air traffic controller posts, adding 466 in three years amid record traffic",
+   "summary": "Enaire has published in Spain's official gazette (BOE) a call for 159 air traffic controller posts, with applications open from 25 November to 18 December. Including those of 2024 and 2025, it totals 466 posts over three years, while 2026 traffic is up 4.3% on 2025's record.",
+   "why": "Air traffic control capacity shapes punctuality and growth in Madrid, Barcelona and at Iberia and Vueling's airports; the new posts will take time to be felt in operations.",
+   "body": [
+    {
+     "t": "Enaire, the air navigation service provider under the Ministry of Transport, published the bases of a call for 159 air traffic controller posts in the BOE on Tuesday 24 November. Registration is open from 25 November to 18 December 2026 on its employment portal."
+    },
+    {
+     "t": "This is the third consecutive annual call with around 150 vacancies: the 2024 call began with 150 posts and ended at 158 after an expansion, and the 2025 call offered 149. Across the three, Enaire has added 466 new control posts, according to its director general, Enrique Maurer."
+    },
+    {
+     "t": "The selection process has three phases: general knowledge and English with aptitude and personality tests, digital tests, and an oral English assessment with behavioural and clinical evaluations. Hiring requires an air traffic controller licence or a trainee controller licence; those without experience will complete an initial course, and then everyone will complete a unit course of 3 to 6 months."
+    },
+    {
+     "t": "Traffic managed by Enaire in 2026 is up 4.3% on 2025, which was a record year, and several summer days exceeded 8,500 flights. According to Hosteltur, the record was set on 1 August with 8,548 movements, and the staff expansion will not have an immediate effect on operational capacity."
+    }
+   ]
+  }
  },
  {
   "id": "iberia-paquetes-avios-puntos-elite",
@@ -14044,6 +14142,22 @@
   },
   "imageId": "iberia-paquetes-avios-puntos-elite",
   "addedAt": "2026-11-25T11:15:08Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Iberia quintuples Avios on packages sold via iberia.com and awards one Elite Point per euro",
+   "summary": "From 24 November, flight-and-hotel and flight-and-car packages bought on iberia.com earn 5 Avios and 1 Elite Point per euro, up from 1 Avios per euro and 1 Elite Point per €10 before. Rewards are shared among the travellers on the booking.",
+   "why": "Iberia uses Avios and Iberia Club status to steer package sales to its direct channel, competing with travel agencies and tour operators, and to strengthen the loyalty business of IAG Loyalty.",
+   "body": [
+    {
+     "t": "Iberia has improved the rewards on travel packages bought on iberia.com, it announced on 25 November. From 24 November, flight-and-hotel and flight-and-car packages earn 5 Avios and 1 Elite Point for every euro of the total amount."
+    },
+    {
+     "t": "Until now, these packages earned 1 Avios per euro and 1 Elite Point per €10 spent, and both went only to the lead booker. Under the change, rewards are split equally among the travellers on the booking who have added their Iberia Club number, and are credited no later than seven days after the end of the trip."
+    },
+    {
+     "t": "Elite Points on the included flights, in line with Óptima fares, range from 75 to 450 per passenger: on short-haul, 75 in Economy and 175 in Business; on long-haul, 150 in Economy, 275 in Premium Economy and 350 in Business, and 450 in Business to Latin America and the Caribbean. These points help members maintain or move up tiers in Iberia Club."
+    }
+   ]
+  }
  }
 ]
