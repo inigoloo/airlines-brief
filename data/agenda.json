@@ -1,5 +1,5 @@
 {
- "nota": "Agenda de hechos esperados con fecha: resultados financieros y hitos de compras o fusiones de aerolíneas. La mantiene la tarea «Airlines Brief · Vigilante de resultados y operaciones». estado: pendiente | publicada | aplazada | descartada. newsId: id de la noticia del portal cuando ya está publicada.",
+ "nota": "Agenda de hechos esperados con fecha: resultados financieros y hitos de compras o fusiones de aerolíneas. La mantiene la tarea «Airlines Brief · Vigilante de resultados y operaciones». estado: pendiente | publicada | aplazada | descartada. newsId: id de la noticia del portal cuando ya está publicada. temas: operaciones o resultados en marcha SIN fecha concreta; el vigilante cuenta los rumores (titulares que los mencionan) y hace una búsqueda diaria sobre cada uno (dos si hay muchos rumores).",
  "eventos": [
   {
    "fecha": "2026-11-25",
@@ -9,6 +9,44 @@
    "fuente": "editor",
    "estado": "pendiente",
    "newsId": ""
+  }
+ ],
+ "temas": [
+  {
+   "tema": "Compra de easyJet por Apollo",
+   "empresas": "easyJet, Apollo",
+   "palabras": "easyJet.*Apollo|Apollo.*easyJet",
+   "pendiente": "autorización de la Comisión Europea y cierre de la compra",
+   "desde": "2026-11-11",
+   "rumores": 0,
+   "ultimaBusqueda": ""
+  },
+  {
+   "tema": "Entrada de Lufthansa en TAP",
+   "empresas": "TAP, Lufthansa",
+   "palabras": "TAP.*Lufthansa|Lufthansa.*TAP",
+   "pendiente": "autorizaciones y cierre de la compra del 49,9%",
+   "desde": "2026-11-02",
+   "rumores": 0,
+   "ultimaBusqueda": ""
+  },
+  {
+   "tema": "Futuro de Plus Ultra (venta, cierre o rescate)",
+   "empresas": "Plus Ultra, SEPI, Iberojet",
+   "palabras": "Plus Ultra",
+   "pendiente": "decisión de la SEPI, posible venta a Iberojet o concurso",
+   "desde": "2026-11-23",
+   "rumores": 0,
+   "ultimaBusqueda": ""
+  },
+  {
+   "tema": "Air Europa: rescate, Turkish Airlines y procesos judiciales",
+   "empresas": "Air Europa, Turkish Airlines, SEPI",
+   "palabras": "Air Europa.*(Turkish|rescate|SEPI)|Turkish.*Air Europa",
+   "pendiente": "entrada o ampliación de Turkish, devolución del rescate, resoluciones judiciales",
+   "desde": "2026-11-01",
+   "rumores": 0,
+   "ultimaBusqueda": ""
   }
  ]
 }
