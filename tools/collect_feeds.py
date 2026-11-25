@@ -48,6 +48,18 @@ RESULTS_CO = re.compile(r"\b(IAG|Iberia|British Airways|Vueling|Aer Lingus|Air E
 RESULTS_KW = re.compile(r"\b(resultados|beneficios?|p[ée]rdidas|ganancias|ganan?|pierden?|ingresos|ebitda|facturaci[óo]n|cuentas anuales|earnings|profits?|loss(es)?|revenues?|full[- ]year|half[- ]year|trading update|guidance|results)\b", re.I)
 
 
+MA_CO = re.compile(r"\b(aerol[íi]neas?|airlines?|carriers?|IAG|Iberia|British Airways|Vueling|Aer Lingus|Air Europa|Globalia|Ryanair|easyJet|Lufthansa|Air France|KLM|Wizz|Volotea|Jet2|TAP|ITA|airBaltic|Air Baltic|SAS|Norse|Norwegian|Turkish|Plus Ultra|Binter|Air Nostrum|Iberojet|World2Fly|Evelop|LATAM|Avianca|Aerom[ée]xico|Azul|GOL|Abra)\b", re.I)
+MA_KW = re.compile(r"\b(compra[rn]?|adquiere|adquisici[óo]n|fusi[óo]n|fusionar|\bOPA\b|toma de control|privatizaci[óo]n|venta de (la|su) participaci[óo]n|participaci[óo]n mayoritaria|entra en el capital|acquires?|acquisition|merger|takeover|buyout|bid for|stake in)\b", re.I)
+
+
+MA_NOT = re.compile(r"\b(aviones|aeronaves|aircraft|jets?|A3\d\d\w*|7[3-8]7\w*|Airbus|Boeing|Embraer|ATR|motores|engines|billetes?|tickets?|asientos)\b", re.I)
+
+
+def is_ma(t):
+    """Compras, fusiones u ofertas sobre aerolíneas: se publican el mismo día (criterios.md)."""
+    return bool(MA_CO.search(t) and MA_KW.search(t)) and not MA_NOT.search(t)
+
+
 def is_results(t):
     """Resultados financieros de IAG, Air Europa, Aena o un competidor directo: siempre arriba."""
     return bool(RESULTS_CO.search(t) and RESULTS_KW.search(t))
@@ -247,10 +259,20 @@ def main():
     # Vista compacta para la tarea diaria: una línea por candidata (el detalle está en el JSON, por id)
     for it in items:
         it["prio"] = prio_of(it)
+        if is_results(it["title"]):
+            it["urgent"] = "resultados"
+        elif is_ma(it["title"]):
+            it["urgent"] = "operacion"
+            it["prio"] += 6
     lines = [f"# {len(items)} candidatas · últimas {hours} h · generado {now.isoformat(timespec='minutes')}",
              "# Ordenadas por prioridad orientativa (criterios del editor: IAG, Air Europa, España, resultados, sector, competidores, MRO, grandes medios).",
              "# Revisa SIEMPRE todas las de prioridad 7 o más: son las que el editor espera ver.",
              "# prio | id | fecha UTC | tema | medio (+ otros medios con la misma noticia) | titular"]
+    urg = [it for it in items if it.get("urgent")]
+    if urg:
+        lines.append("# --- URGENTES: resultados y compras/fusiones (se publican el mismo día como Destacada si son de verdad eso; ver criterios.md) ---")
+        for it in sorted(urg, key=lambda x: x["published"], reverse=True):
+            lines.append(f"{it['prio']:>2} | {it['id']} | {it['published'][5:16].replace('T', ' ')} | {it['urgent']} | {it['source']} | {it['title']}")
     big = [it for it in items if BIG_ES.search(it.get("source", "")) and not PROMO.search(it["title"])]
     if big:
         lines.append("# --- GRANDES MEDIOS (El País, elEconomista, Expansión, Cinco Días, El Mundo, ABC, Reuters, FT, Bloomberg…): léelas TODAS una por una; si cuentan una tendencia del sector o algo de España/IAG/Air Europa, suelen ser Destacada ---")
