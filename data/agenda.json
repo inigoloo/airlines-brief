@@ -390,7 +390,7 @@
    "pendiente": "autorización de la Comisión Europea y cierre de la compra",
    "desde": "2026-11-11",
    "rumores": 1,
-   "ultimaBusqueda": ""
+   "ultimaBusqueda": "2026-11-25 18:24"
   },
   {
    "tema": "Entrada de Lufthansa en TAP",
@@ -399,7 +399,7 @@
    "pendiente": "autorizaciones y cierre de la compra del 49,9%",
    "desde": "2026-11-02",
    "rumores": 0,
-   "ultimaBusqueda": ""
+   "ultimaBusqueda": "2026-11-25 18:24"
   },
   {
    "tema": "Futuro de Plus Ultra (venta, cierre o rescate)",
@@ -407,8 +407,8 @@
    "palabras": "Plus Ultra",
    "pendiente": "decisión de la SEPI, posible venta a Iberojet o concurso",
    "desde": "2026-11-23",
-   "rumores": 34,
-   "ultimaBusqueda": "2026-11-25 13:24"
+   "rumores": 24,
+   "ultimaBusqueda": "2026-11-25 18:24"
   },
   {
    "tema": "Air Europa: rescate, Turkish Airlines y procesos judiciales",
@@ -416,8 +416,8 @@
    "palabras": "Air Europa.*(Turkish|rescate|SEPI)|Turkish.*Air Europa",
    "pendiente": "entrada o ampliación de Turkish, devolución del rescate, resoluciones judiciales",
    "desde": "2026-11-01",
-   "rumores": 3,
-   "ultimaBusqueda": "2026-11-25 13:24"
+   "rumores": 4,
+   "ultimaBusqueda": "2026-11-25 18:24"
   }
  ],
  "urgentesVistos": [
@@ -503,6 +503,24 @@
    "fecha": "2026-11-25",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTi1vR211ejNvRXlHdUw0OWVhM3BBNWw0bGREQ1hmcUtjTk1EQlp0YkJoRFFHNDMtUHMxbk9CLXhxclBrNnFTczY5bUFZa0c4Y2oyR0RQcUdSUU5lUGNIc3pna2tNdW82RXltN1U1RzlmOTNCN3ozT1ZRN2E2VlpJNTYyejJpM1BFNXlPd3BMSTFpVks3emhSTDRxTnNtNDQ5aWowV28wcnhuTmlVS2VvcG9tbU5qQQ?oc=5",
    "titulo": "El precio del combustible pasa factura a easyJet: su beneficio desciende un 90%",
+   "accion": "ya-publicada"
+  },
+  {
+   "fecha": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZ1kzWHFSRU5mejN4SUdUUUpNbnRhcmlWY21vR",
+   "titulo": "easyJet decepciona con sus resultados (Bolsamanía, feed)",
+   "accion": "ya-publicada"
+  },
+  {
+   "fecha": "2026-11-25",
+   "url": "easyjet-resultados-hispanidad",
+   "titulo": "easyJet: beneficio -89% y entrada Apollo (Hispanidad)",
+   "accion": "ya-publicada"
+  },
+  {
+   "fecha": "2026-11-25",
+   "url": "easyjet-resultados-hosteltur",
+   "titulo": "El precio del combustible pasa factura a easyJet (Hosteltur)",
    "accion": "ya-publicada"
   }
  ]
