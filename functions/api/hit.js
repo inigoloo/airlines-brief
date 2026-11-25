@@ -6,7 +6,7 @@ export async function onRequestPost({ request, env }){
   try{
     // Automated browsers (headless browsers driven by a program, e.g. the ones that open the site after each upload) are ignored.
     const ua = request.headers.get("user-agent") || "";
-    if(/headless|puppeteer|playwright|phantom|selenium|cloudflare|lighthouse/i.test(ua)) return json({ ok: true, ignored: true });
+    if(/headless|puppeteer|playwright|phantom|selenium|cloudflare|lighthouse|claude|anthropic|python-requests|curl|wget|node-fetch|axios|httpx|go-http|bot\b|spider|crawl/i.test(ua)) return json({ ok: true, ignored: true });
     const b = await request.json().catch(() => ({}));
     const uid = String(b.uid || ""), type = String(b.type || "");
     if(!/^[a-z0-9-]{12,64}$/.test(uid) || !TYPES.has(type)) return json({ error: "bad" }, 400);

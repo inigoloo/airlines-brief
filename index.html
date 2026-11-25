@@ -698,7 +698,7 @@ document.addEventListener("click", e => {
 const IS_BOT = (() => {
   try{
     if(navigator.webdriver) return true;
-    return /headless|puppeteer|playwright|phantom|selenium|cloudflare|lighthouse/i.test(navigator.userAgent || "");
+    return /headless|puppeteer|playwright|phantom|selenium|cloudflare|lighthouse|claude|anthropic|python-requests|curl|wget|node-fetch|axios|httpx|go-http|bot\b|spider|crawl/i.test(navigator.userAgent || "");
   }catch(e){ return false; }
 })();
 function track(type, ref, src){
