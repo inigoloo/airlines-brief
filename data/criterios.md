@@ -48,6 +48,9 @@ Toda noticia que trate de **España** (aerolíneas, aeropuertos, Aena, rutas, re
 
 ## Pesan menos de lo que parece
 
+- **Aerolíneas y aeropuertos lejos de los mercados de IAG** (Asia, Oceanía, Norteamérica, Oriente Medio, África), cuando la noticia no afecta a Europa, a España, a Latinoamérica ni a IAG: pueden ser Destacada si son grandes (pedidos importantes, resultados de grandes grupos), pero con aiScore moderado (55–65 como mucho, salvo un movimiento de mercado mundial) y sin "europe". La web, además, las coloca por debajo de lo europeo y de lo de IAG.
+  Ejemplo (25-nov-2026): «Malaysia Airlines encarga 10 Boeing 787 para sustituir sus siete Airbus A350» puede estar en portada, pero entre las últimas.
+
 - Promociones, ofertas y Black Friday de cualquier aerolínea (también de IAG): no entran nunca.
 - Negociaciones laborales de otras aerolíneas sin huelga convocada ni impacto operativo concreto.
 - **Carga aérea (cargo)**: al editor no le interesa (24-nov-2026). Aerolíneas de carga, filiales cargo, handling de carga, cargueros, freighters y conversiones P2F: aiScore máximo 45, nunca Destacada ni promote, salvo que afecte de forma directa y clara al negocio de pasajeros de IAG.

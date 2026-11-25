@@ -16,7 +16,8 @@ export async function onRequestGet({ request, env }){
     const [news, cfg, eds, votes] = await Promise.all([asset(env, request, "/data/news.json"), config(env, request), editions(env, request), readVotes(env).catch(() => ({}))]);
     const today = madridToday();
     const recency = n => { const age = Math.round((Date.parse(today) - Date.parse(n.publishedAt)) / 864e5); return Math.max(0, 6 - Math.max(0, age - 1)); };
-    const prio = n => tier(n) * 101 + (n.aiScore || 0) + recency(n);
+    const near = n => n.iagImpact === "directo" ? 15 : n.iagImpact === "indirecto" ? 10 : n.europe ? 6 : -12;   // igual que index.html
+    const prio = n => tier(n) * 101 + (n.aiScore || 0) + near(n) + recency(n);
 
     // Likes per news item
     const t = {};

@@ -735,7 +735,10 @@ function tally(){
 function tier(n){ if((n.aiScore||0) < 60) return 0; return n.iagImpact === "directo" ? 3 : n.iagImpact === "indirecto" ? 2 : n.europe ? 1 : 0; }
 // Slight boost for fresher news (+6 for today/yesterday, -1 per older day), same rule as the newsletter.
 function recencyBoost(n){ const age = Math.round((Date.parse(todayISO()) - Date.parse(n.publishedAt||"1970-01-01")) / 864e5); return Math.max(0, 6 - Math.max(0, age - 1)); }
-function prio(n){ return tier(n)*101 + (n.aiScore||0) + recencyBoost(n); }
+// Cercanía al negocio del equipo, siempre (también por debajo de 60): IAG y Air Europa/competidores suben,
+// Europa un poco, y lo que no toca ni a Europa ni a IAG (Asia, EE. UU., Oriente Medio…) baja (criterio del editor, 25-nov-2026).
+function nearBonus(n){ return n.iagImpact === "directo" ? 15 : n.iagImpact === "indirecto" ? 10 : n.europe ? 6 : -12; }
+function prio(n){ return tier(n)*101 + (n.aiScore||0) + nearBonus(n) + recencyBoost(n); }
 function sentIds(){ const s = new Set(); state.editions.forEach(e => (e.newsIds||[]).forEach(id => s.add(id))); return s; }
 // Weekly edition: news published from the previous send day (Monday) to the day before this send (Sunday); same rule as tools/brief.py.
 function windowStart(){
