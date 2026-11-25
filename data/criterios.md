@@ -46,6 +46,8 @@ Toda noticia que trate de **España** (aerolíneas, aeropuertos, Aena, rutas, re
   Ejemplo que se escapó el 24-nov-2026 incluso con los criterios nuevos: «El alivio del precio del petróleo da oxígeno a las aerolíneas: el sector sube un 13% en noviembre» (elEconomista), probablemente por parecerse a la de tarifas de 2027 publicada ese día.
 - **No descartes una noticia amplia porque ya haya otra parcial relacionada.** Si en el portal está «Iberia y Air Europa descartan recortar plazas en verano», la de El País sobre lo que prevé todo el sector (precios y plazas) es OTRA noticia y también entra; en su artículo puede citar lo de Iberia y Air Europa.
 
+- **Compras, fusiones y tomas de control de aerolíneas** (por otra aerolínea, un fondo u otra empresa) y sus hitos: oferta, acuerdo, voto de accionistas, autorización de Bruselas o del regulador, cierre. Siempre Destacada (aiScore 75 o más si es europea o de Latinoamérica). Las fechas previstas de estos hitos y de los resultados de IAG y competidores se apuntan en data/agenda.json para vigilarlas fuera del horario de la tarea diaria.
+
 ## Pesan menos de lo que parece
 
 - **Aerolíneas y aeropuertos lejos de los mercados de IAG** (Asia, Oceanía, Norteamérica, Oriente Medio, África), cuando la noticia no afecta a Europa, a España, a Latinoamérica ni a IAG: pueden ser Destacada si son grandes (pedidos importantes, resultados de grandes grupos), pero con aiScore moderado (55–65 como mucho, salvo un movimiento de mercado mundial) y sin "europe". La web, además, las coloca por debajo de lo europeo y de lo de IAG.

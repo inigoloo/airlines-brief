@@ -1,0 +1,14 @@
+{
+ "nota": "Agenda de hechos esperados con fecha: resultados financieros y hitos de compras o fusiones de aerolíneas. La mantiene la tarea «Airlines Brief · Vigilante de resultados y operaciones». estado: pendiente | publicada | aplazada | descartada. newsId: id de la noticia del portal cuando ya está publicada.",
+ "eventos": [
+  {
+   "fecha": "2026-11-25",
+   "empresa": "easyJet",
+   "tipo": "resultados",
+   "detalle": "Resultados anuales (ejercicio cerrado en septiembre); previstos para hoy, sin confirmar",
+   "fuente": "editor",
+   "estado": "pendiente",
+   "newsId": ""
+  }
+ ]
+}
