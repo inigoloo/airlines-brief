@@ -14752,5 +14752,249 @@
     }
    ]
   }
+ },
+ {
+  "id": "b-norse-atlantic-suspende-operaciones",
+  "kind": "brief",
+  "title": "Norse Atlantic suspende todas sus operaciones al quedarse sin caja",
+  "summary": "Norse Atlantic Airways ha confirmado que suspende todas sus operaciones por su delicada situación financiera. Un día antes había calificado su situación de «crítica».",
+  "en": {
+   "title": "Norse Atlantic suspends all operations after running out of cash",
+   "summary": "Norse Atlantic Airways has confirmed it is suspending all operations because of its troubled financial position. A day earlier it had described its situation as \"critical\"."
+  },
+  "source": "AeroTime",
+  "url": "https://www.aerotime.aero/articles/norse-atlantic-suspends-all-operations-as-it-runs-out-of-cash",
+  "publishedAt": "2026-11-26",
+  "category": "FIN",
+  "aiScore": 65,
+  "promote": true,
+  "iagImpact": "indirecto",
+  "europe": true,
+  "addedAt": "2026-11-26T11:09:59Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-air-europa-agencias-avoris-vtc-w2m",
+  "kind": "brief",
+  "title": "Air Europa refuerza su colaboración con Ávoris, Viajes El Corte Inglés y W2M",
+  "summary": "La aerolínea que dirige Richard Clark ha ido estrechando en los últimos años su relación con los tres grandes grupos de distribución turística de España, según Preferente.",
+  "en": {
+   "title": "Air Europa strengthens its ties with Ávoris, Viajes El Corte Inglés and W2M",
+   "summary": "The airline led by Richard Clark has been deepening its relationship with Spain's three largest travel distribution groups in recent years, according to Preferente."
+  },
+  "source": "Preferente",
+  "url": "https://www.preferente.com/noticias-de-agencias-de-viajes/air-europa-estrecha-lazos-con-avoris-viajes-el-corte-ingles-y-w2m-347271.html",
+  "thumb": "https://www.preferente.com/wp-content/uploads/2025/10/Boeing-787-Dreamliner-air-europa-300x184.jpg",
+  "publishedAt": "2026-11-26",
+  "category": "CUS",
+  "aiScore": 40,
+  "promote": true,
+  "iagImpact": "indirecto",
+  "europe": true,
+  "addedAt": "2026-11-26T11:09:59Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-kayak-busquedas-puente-diciembre",
+  "kind": "brief",
+  "title": "Las búsquedas de vuelos para el puente de diciembre crecen un 32% frente a 2025",
+  "summary": "Según datos de KAYAK, Londres, París y Roma son los destinos más demandados por los españoles; Granada encabeza las opciones nacionales con los hoteles más baratos.",
+  "en": {
+   "title": "Flight searches for the December long weekend rise 32% on 2025",
+   "summary": "According to KAYAK data, London, Paris and Rome are the most sought-after destinations among Spaniards, while Granada leads domestic options with the cheapest hotels."
+  },
+  "source": "Nexotur",
+  "url": "https://nexotur.com/las-busquedas-de-vuelos-para-el-puente-de-diciembre-crecen-un-32-respecto-a-2025/",
+  "publishedAt": "2026-11-26",
+  "category": "TUR",
+  "aiScore": 55,
+  "promote": true,
+  "europe": true,
+  "addedAt": "2026-11-26T11:09:59Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-volotea-sepi-negociacion-2027",
+  "kind": "brief",
+  "title": "Volotea, en preconcurso de acreedores, alarga hasta 2027 su negociación con la SEPI",
+  "summary": "La aerolínea que dirige Carlos Muñoz sigue pendiente de una compleja reestructuración financiera para evitar su disolución y ha prolongado las conversaciones con la SEPI.",
+  "en": {
+   "title": "Volotea, in pre-insolvency proceedings, extends its talks with SEPI into 2027",
+   "summary": "The airline led by Carlos Muñoz still awaits a complex financial restructuring to avoid being wound up, and has extended its talks with the state holding company SEPI into early 2027."
+  },
+  "source": "Preferente",
+  "url": "https://www.preferente.com/rss1/volotea-otro-quebradero-de-cabeza-para-la-sepi-tras-plus-ultra-353255.html",
+  "thumb": "https://www.preferente.com/wp-content/uploads/2025/02/carlos-munoz-volotea.jpg",
+  "publishedAt": "2026-11-25",
+  "category": "FIN",
+  "aiScore": 62,
+  "promote": true,
+  "iagImpact": "indirecto",
+  "europe": true,
+  "addedAt": "2026-11-26T11:09:59Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-expedia-kiwi-adquisicion",
+  "kind": "brief",
+  "title": "Expedia adquiere Kiwi.com para ganar peso en el mercado europeo de vuelos",
+  "summary": "El acuerdo permitirá a Expedia incorporar la tecnología de búsqueda y reserva de la compañía checa y ampliar su oferta de vuelos en Europa.",
+  "en": {
+   "title": "Expedia buys Kiwi.com to gain weight in the European flights market",
+   "summary": "The deal will let Expedia add the Czech company's search and booking technology and expand its flight offering in Europe."
+  },
+  "source": "Preferente",
+  "url": "https://www.preferente.com/rss1/expedia-cierra-la-adquisicion-de-kiwi-com-353267.html",
+  "thumb": "https://www.preferente.com/wp-content/uploads/2026/11/expedia-e1603762956990.jpg",
+  "publishedAt": "2026-11-25",
+  "category": "TUR",
+  "aiScore": 58,
+  "europe": true,
+  "addedAt": "2026-11-26T11:09:59Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-ee-uu-arancel-10-aviones-brasil-embraer",
+  "kind": "brief",
+  "title": "EE. UU. propone un arancel del 10% a los aviones brasileños y amenaza las ventas de Embraer",
+  "summary": "Washington plantea gravar con un 10% los aviones terminados importados de Brasil, lo que pone en riesgo las ventas del fabricante Embraer.",
+  "en": {
+   "title": "US proposes 10% tariff on Brazilian aircraft, putting Embraer sales at risk",
+   "summary": "Washington proposes a 10% tariff on finished aircraft imported from Brazil, putting sales by manufacturer Embraer at risk."
+  },
+  "source": "AeroTime",
+  "url": "https://www.aerotime.aero/articles/us-10-percent-tariff-brazilian-aircraft-embraer",
+  "publishedAt": "2026-11-25",
+  "category": "REG",
+  "aiScore": 55,
+  "addedAt": "2026-11-26T11:09:59Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-gatwick-ciberataque-autopay",
+  "kind": "brief",
+  "title": "Gatwick desactiva su sistema AutoPay tras una brecha de ciberseguridad en un proveedor",
+  "summary": "El fallo, en el proveedor Times24 UK Limited, pudo exponer datos de contacto, registros de vehículos y parte de los datos de tarjetas de los clientes.",
+  "en": {
+   "title": "Gatwick disables its AutoPay system after a cybersecurity breach at a supplier",
+   "summary": "The breach, at provider Times24 UK Limited, may have exposed customer contact details, vehicle records and partial payment card details."
+  },
+  "source": "Aviation A2Z",
+  "url": "https://aviationa2z.com/index.php/2026/11/25/gatwick-airport-cyberattack-hackers-may-have-accessed-customers-bank-details/",
+  "thumb": "https://aviationa2z.com/wp-content/uploads/2025/08/8szfazx2-1024x576.webp",
+  "publishedAt": "2026-11-25",
+  "category": "APT",
+  "aiScore": 48,
+  "europe": true,
+  "addedAt": "2026-11-26T11:09:59Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-guerra-electronica-gps-140-vuelos-mar-del-norte",
+  "kind": "brief",
+  "title": "Un buque ruso, sospechoso de interferir el GPS de unos 140 vuelos sobre el mar del Norte",
+  "summary": "Unos 140 aviones de pasajeros, entre ellos de British Airways, Ryanair y easyJet, sufrieron interferencias GPS el 9 de noviembre; se señala a un buque de guerra ruso.",
+  "en": {
+   "title": "Russian warship suspected of GPS interference with some 140 flights over the North Sea",
+   "summary": "Around 140 passenger aircraft, including British Airways, Ryanair and easyJet flights, suffered GPS interference on 9 November; a Russian warship is suspected."
+  },
+  "source": "Aviation A2Z",
+  "url": "https://aviationa2z.com/index.php/2026/11/25/russian-warship-accused-of-blinding-140-passenger-flights-near-britain-in-north-sea-gps-scare/",
+  "thumb": "https://aviationa2z.com/wp-content/uploads/2026/06/Boeing_777-200ER_British_Airways_8603700981-1024x682.webp",
+  "publishedAt": "2026-11-25",
+  "category": "REG",
+  "aiScore": 58,
+  "iagImpact": "directo",
+  "europe": true,
+  "addedAt": "2026-11-26T11:09:59Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-aci-europe-ees-manifiesto-turismo",
+  "kind": "brief",
+  "title": "El Manifiesto del Turismo pide a la UE suspender la biometría del EES hasta resolver sus fallos",
+  "summary": "La coalición, de la que forma parte ACI Europe, se suma a quienes piden renovar la facultad de suspender la recogida biométrica mientras persistan los problemas del EES.",
+  "en": {
+   "title": "Tourism Manifesto urges EU to suspend EES biometrics until its problems are fixed",
+   "summary": "The coalition, including ACI Europe, joins calls for the EU to renew its discretion to suspend biometric collection until persistent EES implementation problems are addressed."
+  },
+  "source": "ACI Europe",
+  "url": "https://www.aci-europe.org/media-room.html?id=628",
+  "publishedAt": "2026-11-26",
+  "category": "REG",
+  "aiScore": 55,
+  "europe": true,
+  "addedAt": "2026-11-26T11:09:59Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-jet-aviation-singapur-hangares",
+  "kind": "brief",
+  "title": "Jet Aviation amplía en Singapur con dos hangares y un centro de modificaciones",
+  "summary": "La obra, ya iniciada, añade dos hangares, una instalación de reacondicionamiento y modificaciones y un edificio de oficinas de cuatro plantas, con 25.000 m² más.",
+  "en": {
+   "title": "Jet Aviation expands in Singapore with two hangars and a modifications centre",
+   "summary": "Construction has begun on two hangars, a refurbishment and modifications facility and a four-storey office building, adding 25,000 m²."
+  },
+  "source": "AviTrader",
+  "url": "https://avitrader.com/2026/11/25/jet-aviation-invests-in-major-singapore-hangar-expansion/",
+  "publishedAt": "2026-11-25",
+  "category": "MRO",
+  "aiScore": 38,
+  "addedAt": "2026-11-26T11:09:59Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-truenoord-vende-e190-enugu-air",
+  "kind": "brief",
+  "title": "TrueNoord vende un Embraer E190 a la aerolínea nigeriana Enugu Air",
+  "summary": "El arrendador ha completado la venta del avión, que operará desde el aeropuerto Akanu Ibiam de Enugu y supone una ampliación de flota para la aerolínea.",
+  "en": {
+   "title": "TrueNoord sells an Embraer E190 to Nigeria's Enugu Air",
+   "summary": "The lessor has completed the sale of the aircraft, which will be based at Akanu Ibiam International Airport in Enugu and marks a fleet expansion for the carrier."
+  },
+  "source": "AviTrader",
+  "url": "https://avitrader.com/2026/11/26/truenoord-sells-embraer-e190-to-nigerias-enugu-air/",
+  "publishedAt": "2026-11-26",
+  "category": "MRO",
+  "aiScore": 30,
+  "addedAt": "2026-11-26T11:09:59Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-air-india-plan-6000-crore-gestion-compartida",
+  "kind": "brief",
+  "title": "Air India lanza un plan de ahorro de 6.000 crore con gestión compartida y sin fusión",
+  "summary": "Air India y Air India Express integrarán departamentos concretos bajo la iniciativa One Air India Group, pero seguirán operando de forma independiente.",
+  "en": {
+   "title": "Air India launches ₹6,000 crore savings plan with shared management and no merger",
+   "summary": "Air India and Air India Express will integrate selected departments under the One Air India Group initiative but remain operationally independent."
+  },
+  "source": "Aviation A2Z",
+  "url": "https://aviationa2z.com/index.php/2026/11/26/air-india-6000-crore-overhaul-begins-as-air-india-express-faces-shake-up/",
+  "thumb": "https://aviationa2z.com/wp-content/uploads/2025/03/6akqx5vq-1024x576.webp",
+  "publishedAt": "2026-11-26",
+  "category": "STR",
+  "aiScore": 45,
+  "addedAt": "2026-11-26T11:09:59Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-iaa-procesa-dan-air-reglamento-261",
+  "kind": "brief",
+  "title": "La autoridad irlandesa condena a Dan Air por 15 infracciones de compensaciones a pasajeros",
+  "summary": "La IAA logró el 25 de noviembre que se declarase culpable a la rumana por incumplir órdenes sobre compensaciones y reembolsos del Reglamento (CE) 261/2004.",
+  "en": {
+   "title": "Irish Aviation Authority secures conviction of Dan Air on 15 passenger-compensation offences",
+   "summary": "On 25 November the IAA obtained a guilty finding against the Romanian carrier for failing to comply with directions on compensation and refunds under EU Regulation 261/2004."
+  },
+  "source": "Travel Extra",
+  "url": "https://www.travelextra.ie/iaa-prosecutes-romanias-dan-air-for-passenger-compensation-offences/",
+  "publishedAt": "2026-11-26",
+  "category": "REG",
+  "aiScore": 42,
+  "europe": true,
+  "addedAt": "2026-11-26T11:09:59Z",
+  "addedBy": "claude"
  }
 ]
