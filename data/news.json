@@ -14277,5 +14277,347 @@
     }
    ]
   }
+ },
+ {
+  "id": "queroseno-margenes-aerolineas-europeas-2027",
+  "title": "El queroseno caro recorta los márgenes de IAG, Ryanair y easyJet y complica los planes de 2027",
+  "category": "FIN",
+  "publishedAt": "2026-11-26",
+  "source": "Hosteltur",
+  "url": "https://www.hosteltur.com/180146_el-queroseno-caro-se-come-los-margenes-de-las-aerolineas-y-complica-sus-planes-para-2027.html",
+  "summary": "El combustible de aviación en Europa costó de media 4,84 dólares por galón en octubre, frente a 2,26 en enero y febrero, según Eurocontrol. El margen operativo del tercer trimestre de IAG bajó del 22% al 17,7% y el de Ryanair, del 35,5% al 31,9%.",
+  "body": [
+   {
+    "t": "El encarecimiento del queroseno está reduciendo los márgenes de las aerolíneas europeas, aunque de forma desigual, y condiciona sus planes para 2027, según un análisis publicado por Hosteltur el 26 de noviembre. Algunas compañías compensan el mayor gasto con más ingresos, mientras las coberturas contratadas cuando el combustible era más barato van venciendo.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Según los datos de Eurocontrol que recoge el medio, el combustible de aviación en Europa costó de media 4,84 dólares por galón en octubre, frente a 2,26 dólares en enero y febrero, antes de la crisis. A principios de noviembre se moderó hasta 4,42 dólares, todavía cerca del doble. Thomas Reynaert, vicepresidente sénior de IATA, advirtió, según declaraciones recogidas por EFE, de que los mayores precios y las rutas más largas penalizan la rentabilidad.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "En el tercer trimestre, IAG elevó un 30,4% su gasto en combustible y derechos de emisión, hasta 2.444 millones de euros; su beneficio operativo antes de partidas excepcionales cayó un 15,9%, hasta 1.726 millones, y su margen pasó del 22% al 17,7%. Por aerolíneas, Iberia se quedó en el 19,6% (4,1 puntos menos), British Airways en el 14,4% (5,8 puntos menos) y Vueling en el 23,8% (1,5 puntos menos).",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Air France-KLM subió un 10,3% su resultado operativo ajustado, hasta 1.346 millones, pese a una factura de combustible un 28,2% mayor, y mejoró su margen del 13,3% al 13,6%. El margen de Lufthansa bajó del 11,9% al 11,5%; el de Wizz Air, del 21,5% al 19,5%, y el de Ryanair, del 35,5% al 31,9%. easyJet redujo su margen operativo del trimestre de abril a junio del 10% al 3,5%.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "De cara a 2027, IAG tiene cubierto el 61% de su consumo del primer trimestre, porcentaje que baja al 34% en el cuarto, mientras Ryanair ha cubierto el 25% del periodo de abril de 2027 a marzo de 2028 y estima unos 2.000 millones de euros de sobrecoste. Eurocontrol contempla un escenario central de estabilización de Oriente Medio en el primer trimestre de 2027 y otro adverso con tensiones hasta 2028.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Hosteltur",
+    "url": "https://www.hosteltur.com/180146_el-queroseno-caro-se-come-los-margenes-de-las-aerolineas-y-complica-sus-planes-para-2027.html",
+    "date": "2026-11-26"
+   }
+  ],
+  "why": "Las coberturas de IAG bajan del 61% al 34% a lo largo de 2027: el combustible seguirá presionando sus márgenes y los de sus rivales europeos, con efectos en tarifas y capacidad.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 72,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/dbab9eea-1651-4a5e-8e8e-18266e3feaad.jpeg",
+  "photoSource": "Hosteltur",
+  "art": {
+   "kind": "bars",
+   "title": "Combustible de aviación en Europa (dólares por galón)",
+   "bars": [
+    {
+     "l": "Ene-feb",
+     "v": 2.26,
+     "t": "2,26"
+    },
+    {
+     "l": "Octubre",
+     "v": 4.84,
+     "t": "4,84"
+    },
+    {
+     "l": "Inicio nov.",
+     "v": 4.42,
+     "t": "4,42"
+    }
+   ]
+  },
+  "imageId": "queroseno-margenes-aerolineas-europeas-2027",
+  "addedAt": "2026-11-26T10:48:53Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "air-europa-bruselas-competencia-aena-t4",
+  "title": "Air Europa estudia denunciar a Aena ante Bruselas por priorizar la T4 de Iberia en Barajas",
+  "category": "REG",
+  "publishedAt": "2026-11-25",
+  "source": "Merca2",
+  "url": "https://www.merca2.es/2026/11/25/air-europa-aena-competencia-t4-2516351/",
+  "summary": "Air Europa estudia denunciar a Aena ante la Dirección General de Competencia de la Comisión Europea por dar prioridad a la T4 de Iberia en su plan para Barajas. Lo hará si reúne «pruebas sólidas», tras recurrir ya el plan de inversiones ante el Supremo.",
+  "body": [
+   {
+    "t": "Air Europa estudia denunciar a Aena ante la Dirección General de Competencia de la Comisión Europea por el trato que, a su juicio, da a Iberia en el plan de inversiones de Barajas, según publicó Merca2 el 25 de noviembre, que cita una información adelantada por Expansión. La denuncia no está presentada: el medio indica que sigue en preparación y que el siguiente paso no tiene fecha.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Fuentes de la aerolínea citadas por Merca2 condicionan el paso a reunir «pruebas sólidas» del trato discriminatorio. El objetivo es Bruselas y no la CNMC, ya que la Comisión Europea se ocupa de las distorsiones del mercado único.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La queja se centra en que Aena ha situado la remodelación de la T4, la terminal que se diseñó como hub de Iberia y abrió en 2006, en el centro de su plan para Barajas, por delante de las demás. Air Europa opera fuera de la T4 y lo vincula a su apuesta por el A350; su horizonte, 2032, es lo que rechaza: «No nos vamos a quedar con los brazos cruzados y esperar a 2032 para competir con muchísima más desventaja», señalan sus fuentes.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La compañía ya ha recurrido el plan de inversiones de Aena ante el Tribunal Supremo. Qué! recoge que la aerolínea presenta ese recurso como el «primer paso» de un conjunto de medidas entre las que no descarta las de competencia. Sus fuentes insisten en que «no es una lucha contra Iberia» y piden «iguales condiciones».",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Merca2",
+    "url": "https://www.merca2.es/2026/11/25/air-europa-aena-competencia-t4-2516351/",
+    "date": "2026-11-25"
+   },
+   {
+    "name": "Qué!",
+    "url": "https://www.que.es/2026/11/25/air-europa-aena-supremo-a350/",
+    "date": "2026-11-25"
+   }
+  ],
+  "why": "Una denuncia en Bruselas llevaría a escala europea el pulso por las terminales de Barajas y pondría bajo examen la prioridad de la T4, el hub de Iberia, en el plan de Aena.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 66,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/f2e3b0ce-1ad0-4a56-828e-17fd7d96d007.jpeg",
+  "photoSource": "El Debate (EFE)",
+  "art": {
+   "kind": "big",
+   "value": "2032",
+   "label": "Horizonte del plan de Barajas que Air Europa no quiere esperar"
+  },
+  "imageId": "air-europa-bruselas-competencia-aena-t4",
+  "addedAt": "2026-11-26T10:48:53Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "air-europa-aagesen-acta-rescate-sepi",
+  "title": "Aagesen pidió en 2020 cambiar el acta del rescate de Air Europa para apoyarse en la SEPI",
+  "category": "STR",
+  "publishedAt": "2026-11-26",
+  "source": "El Periódico de Ceuta",
+  "url": "https://www.elperiodicodeceuta.es/sara-aagesen-exigio-cambios-en-el-acta-del-rescate-de-air-europa/",
+  "summary": "Un correo de Sara Aagesen a la SEPI del 29 de octubre de 2020 muestra que no quiso firmar el acta del rescate de 475 millones a Air Europa sin dejar claro que su voto se basaba en informes de la SEPI. El juez investiga el préstamo por posible prevaricación.",
+  "body": [
+   {
+    "t": "Sara Aagesen, hoy vicepresidenta tercera del Gobierno, se negó en 2020 a firmar el acta de aprobación del rescate de 475 millones de euros a Air Europa si no se modificaba para dejar claro que su decisión se apoyaba en los informes de la SEPI, según un correo que envió a la secretaría general de la sociedad pública el 29 de octubre de 2020, recogido por El Periódico de Ceuta.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Entonces secretaria de Estado de Energía, Aagesen había recibido el acta de la reunión del Consejo Gestor del Fondo de Apoyo a la Solvencia de Empresas Estratégicas celebrada dos días antes, en la que se aprobó el rescate. Pidió que constara que su aprobación se basaba en los informes favorables de la SEPI, de la asesoría jurídica y de la asistencia técnica contratada, y que esos informes no se asumían como propios del Consejo, sino como referencias.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Ana de la Cueva, entonces secretaria de Estado de Economía, planteó objeciones similares, según los correos de la SEPI entregados al juzgado que investiga, a instancias del PP y Vox, un posible delito de prevaricación en la concesión de la ayuda.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Aagesen declaró como testigo por videoconferencia el 23 de noviembre ante el juez José María Escribano. Según fuentes jurídicas citadas por Europa Press, negó irregularidades y presiones y sostuvo que se cumplieron los requisitos. Ante la comisión del Senado afirmó en julio: «Nunca en ningún expediente recibí presiones para emitir ningún voto».",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "El Periódico de Ceuta",
+    "url": "https://www.elperiodicodeceuta.es/sara-aagesen-exigio-cambios-en-el-acta-del-rescate-de-air-europa/",
+    "date": "2026-11-26"
+   },
+   {
+    "name": "Público (Europa Press)",
+    "url": "https://www.publico.es/politica/tribunales/aagesen-otros-responsables-rescate-air-europa-niegan-juez-presiones-prestamo-defienden-ayuda-tramito-rigor.html",
+    "date": "2026-11-23"
+   }
+  ],
+  "why": "La causa sobre el rescate de la SEPI sigue sumando presión sobre Air Europa, rival de Iberia en Madrid y Latinoamérica, y sobre las condiciones de la ayuda que pesan en su futuro accionarial.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 48,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/979b2461-ca79-4004-9fdd-901ddf4de11a.jpeg",
+  "photoSource": "El Periódico de Ceuta",
+  "art": {
+   "kind": "big",
+   "value": "475 M€",
+   "label": "Rescate de la SEPI a Air Europa aprobado en 2020"
+  },
+  "imageId": "air-europa-aagesen-acta-rescate-sepi",
+  "addedAt": "2026-11-26T10:48:53Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "wizz-air-almeria-madrid-cinco-frecuencias",
+  "title": "Wizz Air sube a cinco vuelos semanales su ruta Almería-Madrid antes de estrenarla en diciembre",
+  "category": "NET",
+  "publishedAt": "2026-11-26",
+  "source": "Forbes España (EP)",
+  "url": "https://forbes.es/ultima-hora/1073856/wizz-air-amplia-de-tres-a-cinco-las-frecuencias-semanales-entre-almeria-y-madrid/",
+  "summary": "Wizz Air ampliará de tres a cinco las frecuencias semanales entre Almería y Madrid-Barajas, ruta que estrena el 14 de diciembre, por el ritmo de reservas desde el 19 de noviembre. La oferta de plazas crece casi un 70% y la conexión será casi diaria.",
+  "body": [
+   {
+    "t": "Wizz Air ampliará de tres a cinco las frecuencias semanales de su nueva ruta entre Almería y el aeropuerto de Madrid-Barajas, que mantiene su estreno previsto para el 14 de diciembre, según anunciaron el 26 de noviembre la Diputación Provincial y el Ayuntamiento de Almería en una nota conjunta.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La decisión responde a la demanda y al ritmo de reservas registrados desde que se abrió la venta, el 19 de noviembre, apenas una semana después del anuncio de la ruta. Con los dos vuelos adicionales, la oferta de plazas crece casi un 70% y la conexión con la capital pasa a ser prácticamente diaria, lo que facilita los viajes de ida y vuelta en el día laborable.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La ruta forma parte de las medidas de conectividad que coordinan la Diputación, la Junta de Andalucía a través de Turismo Andaluz y los ayuntamientos de Almería y Roquetas de Mar para compensar las alteraciones ferroviarias tras el accidente de Urda de octubre. El presidente de la Diputación, José Antonio García Alcaina, afirmó que «contar con cinco frecuencias semanales atiende una necesidad de movilidad prioritaria para los ciudadanos».",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Forbes España (Europa Press)",
+    "url": "https://forbes.es/ultima-hora/1073856/wizz-air-amplia-de-tres-a-cinco-las-frecuencias-semanales-entre-almeria-y-madrid/",
+    "date": "2026-11-26"
+   },
+   {
+    "name": "Noticias de Almería",
+    "url": "https://www.noticiasdealmeria.com/wizz-air-amplia-a-cinco-las-frecuencias-semanales-entre-almeria-y-madrid",
+    "date": "2026-11-26"
+   }
+  ],
+  "why": "Wizz Air refuerza su red doméstica desde Barajas, hub de Iberia, y gana peso en la conectividad de Almería con Madrid mientras el tren sigue alterado tras el accidente de Urda.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 42,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/a2574756-04b7-4b1c-be59-b9777d407b00.jpeg",
+  "photoSource": "Forbes España (EP)",
+  "art": {
+   "kind": "route",
+   "title": "Almería-Madrid con Wizz Air",
+   "badge": "5 vuelos/semana",
+   "points": [
+    {
+     "code": "LEI",
+     "city": "Almería",
+     "lat": 36.84,
+     "lon": -2.37
+    },
+    {
+     "code": "MAD",
+     "city": "Madrid",
+     "lat": 40.47,
+     "lon": -3.56
+    }
+   ]
+  },
+  "imageId": "wizz-air-almeria-madrid-cinco-frecuencias",
+  "addedAt": "2026-11-26T10:48:53Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "iberia-santiago-madrid-recorte-vuelos-primera-hora",
+  "title": "Iberia recorta más de 60 vuelos de primera hora entre Santiago y Madrid hasta el mes de abril",
+  "category": "NET",
+  "publishedAt": "2026-11-26",
+  "source": "La Voz de Galicia",
+  "url": "https://www.lavozdegalicia.es/noticia/santiago/2026/11/26/iberia-recorta-60-vuelos-primera-hora-madrid-abril/0003_202611S26C1991.htm",
+  "summary": "Iberia ha recortado más de 60 vuelos de primera hora entre Santiago y Madrid hasta abril. Lavacolla se quedará sin conexión con Barajas los lunes y sábados hasta las 13.40 y los jueves el primer enlace será un vuelo de Wizz Air que sale a las 11.45.",
+  "body": [
+   {
+    "t": "Iberia ha recortado más de 60 vuelos de primera hora entre Santiago de Compostela y Madrid hasta abril, según informó La Voz de Galicia el 26 de noviembre. La medida afecta a la conexión aérea entre Galicia y la capital.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Con la reducción, el aeropuerto de Lavacolla se quedará sin conexión con Barajas los lunes y los sábados hasta las 13.40 horas. Los jueves, el primer enlace con Madrid será un vuelo de Wizz Air con salida a las 11.45.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "La ruta ya había perdido capacidad: en junio de 2025, Xataka informó de que Iberia había delegado el servicio en Air Nostrum, con aviones de 80 plazas menos, y que el AVE, con llegada al centro de la ciudad en unas tres horas, competía de cerca con el avión en ese trayecto.",
+    "s": [
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "La Voz de Galicia (vía Beloud)",
+    "url": "https://www.beloud.com/news/149317887",
+    "date": "2026-11-26"
+   },
+   {
+    "name": "Xataka",
+    "url": "https://www.xataka.com/movilidad/ave-a-galicia-ha-conseguido-que-parecia-imposible-santiago-madrid-aerolineas-que-tiran-toalla",
+    "date": "2025-06-13"
+   }
+  ],
+  "why": "Iberia reduce la alimentación de su hub de Barajas desde Santiago, una ruta que compite con el AVE, y deja la primera conexión de los jueves en manos de Wizz Air, rival en Madrid.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 42,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/23420394-1745-4d11-9bb9-a58c64f130c7.jpeg",
+  "photoSource": "La Voz de Galicia",
+  "art": {
+   "kind": "route",
+   "title": "Santiago-Madrid de Iberia",
+   "badge": "+60 vuelos menos",
+   "points": [
+    {
+     "code": "SCQ",
+     "city": "Santiago",
+     "lat": 42.9,
+     "lon": -8.42
+    },
+    {
+     "code": "MAD",
+     "city": "Madrid",
+     "lat": 40.47,
+     "lon": -3.56
+    }
+   ]
+  },
+  "imageId": "iberia-santiago-madrid-recorte-vuelos-primera-hora",
+  "addedAt": "2026-11-26T10:48:53Z",
+  "addedBy": "claude"
  }
 ]
