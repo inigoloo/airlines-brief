@@ -15185,6 +15185,25 @@
    "value": "140",
    "label": "vuelos con interferencias GPS el 9 de noviembre",
    "sub": "Unos 20 minutos sobre el mar del Norte"
+  },
+  "en": {
+   "title": "Russian warship suspected of jamming GPS for 140 flights over the North Sea",
+   "summary": "Around 140 passenger flights, including those operated by British Airways, Ryanair and easyJet, experienced GPS interference on 9 November over the North Sea. An analysis by Hexbird places the source about 190 miles off the English coast, where a Russian convoy was sailing.",
+   "why": "GPS interference is reaching British Airways and its rivals' routes over the North Sea, raising operational risk and pressure to strengthen alternative navigation systems.",
+   "body": [
+    {
+     "t": "Around 140 passenger flights experienced interference with their GPS signal on 9 November over the North Sea for about 20 minutes, between 17:08 and shortly after 17:27 GMT, according to an analysis by aviation data company Hexbird, as reported by Aviation A2Z and ProtoThema. Among the affected flights were a British Airways service from London to Stockholm, a Ryanair flight from Edinburgh to Rome and an easyJet flight from Manchester to Hurghada."
+    },
+    {
+     "t": "According to Aviation A2Z, the British Airways flight lost its GPS signal for around 20 minutes, up to 92 aircraft were affected at the same time and some 40 were in or near UK-controlled airspace. The Dutch air traffic control authority, LVNL, confirmed that seven flights had to be guided to Amsterdam Schiphol, and the analysis recorded no operational impact."
+    },
+    {
+     "t": "The source is located some 190 miles off the English coast, where a convoy of the sanctioned cargo ships Lady R, Lady D and Maia-1, escorted by a Russian warship, was sailing. According to ProtoThema, the analysis “neither identifies the convoy as the source of the interference nor rules out that possibility”, in the words of John Wiseman of Hexbird."
+    },
+    {
+     "t": "James Droxford, a former Royal Navy intelligence officer, said the warship was “almost certainly the source of the interference, not the merchant vessels”. NATS said it had received no reports from pilots of interference that day, and the CAA said it was working with airlines and manufacturers to reduce the effects of such interference, according to Aviation A2Z."
+    }
+   ]
   }
  },
  {
@@ -15350,6 +15369,25 @@
      "lon": -4.4
     }
    ]
+  },
+  "en": {
+   "title": "Vueling opens Barcelona-Errachidia route, gateway to the Merzouga dunes",
+   "summary": "Vueling will fly non-stop between Barcelona and Errachidia, in south-eastern Morocco, from 30 December, with two weekly flights until 8 February and up to three from 15 February. Barcelona will have five Moroccan destinations this winter.",
+   "why": "Vueling continues to expand its Moroccan network from El Prat, a leisure and ethnic-travel market where it competes with Ryanair and Royal Air Maroc, and uses the winter to open low-competition niches.",
+   "body": [
+    {
+     "t": "Vueling has opened a non-stop route between Barcelona and Errachidia, in south-eastern Morocco, which will begin operating on 30 December, according to Aviacionline, which published the news on 26 November. Tickets are already on sale on the website of the IAG group airline."
+    },
+    {
+     "t": "Until 8 February there will be two weekly flights, on Thursdays and Saturdays, although the airline warns that the days may change in some weeks depending on demand. From 15 February the frequency will rise to three weekly flights, on Tuesdays, Thursdays and Saturdays."
+    },
+    {
+     "t": "Errachidia's destination airport, Moulay Ali Cherif, is about 130 kilometres by road from the Merzouga dunes and Erg Chebbi. It is a civil and military airport, managed by the Royal Moroccan Air Force, and receives flights from Royal Air Maroc to Casablanca, from Ryanair to Marrakech and, seasonally, from Transavia to Paris Orly."
+    },
+    {
+     "t": "With the new route, Barcelona will add five Moroccan destinations with Vueling this winter: Marrakech, Tangier, Essaouira, Agadir and Errachidia. According to the outlet, the airline also opened Nador and Fez from Barcelona this year, which do not appear in the winter timetable announced, and outside Catalonia it operates Seville-Essaouira and Bilbao-Marrakech in winter."
+    }
+   ]
   }
  },
  {
@@ -15435,6 +15473,28 @@
      "l": "Modelo actual",
      "v": 0.05,
      "t": "0,05%"
+    }
+   ]
+  },
+  "en": {
+   "title": "MPs call for Heathrow third runway to be shelved as government has yet to justify plan",
+   "summary": "The House of Commons Transport Committee concludes that the British government has not justified Heathrow's third runway and calls for it to be shelved for now. Its model raises GDP by 0.05%, compared with 0.5% in earlier analyses, according to The Guardian.",
+   "why": "Heathrow is British Airways' hub: the report strengthens IAG's opposition to an expensive project that would be funded through charges and adds political uncertainty over the hub's future capacity.",
+   "body": [
+    {
+     "t": "The House of Commons Transport Committee published its report on 26 November on the draft National Policy Statement for expanding Heathrow and concludes that the government has not justified the third runway. Its chair, Labour MP Ruth Cadbury, said the plans “should be grounded for now” and that the government should “start again” before going any further."
+    },
+    {
+     "t": "According to AeroTime, the committee considers that declaring the expansion a project of “critical” importance for growth is not justified, and criticises the absence of an overall aviation strategy. The Guardian reports that, according to the Department for Transport's model, the expansion would increase GDP by 0.05%, compared with 0.5% in earlier analyses."
+    },
+    {
+     "t": "The report states that the expansion is “not compatible at this time” with legally binding climate targets and relies too heavily on technologies that are not advancing at the required pace. It also describes as “very concerning” the lack of committed and funded public transport plans, and notes that airlines' priority is for the expansion to be affordable, with concern that higher charges would be passed on to passengers."
+    },
+    {
+     "t": "The project envisages almost doubling passenger numbers and adding 276,000 flights a year, and aims to secure planning consent by 2029, according to The Guardian. Heathrow chief executive Thomas Woldbye responded that “the overwhelming weight of evidence and support continues to clearly favour expansion”, while ministers John Healey and Heidi Alexander said it remains government policy."
+    },
+    {
+     "t": "The Evening Standard recalls that IAG chief executive Luis Gallego expressed “serious concerns” about the cost of the expansion in a letter, according to The Times. IAG argues that the project, which Heathrow estimates at £49bn, should not cost more than £30bn, and puts the gap between the proposed cost and what passengers would pay at £19bn."
     }
    ]
   }
