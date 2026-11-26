@@ -1,4 +1,4 @@
-# Likes del portal (últimos 45 días) · generado 2026-11-26T13:23+00:00
+# Likes del portal (últimos 45 días) · generado 2026-11-26T14:22+00:00
 
 Lo que el equipo marca con «me gusta» en la web. Úsalo para afinar el aiScore y la elección, junto con data/criterios.md:
 las noticias parecidas (mismo tipo, empresa o tema) a las más votadas tienen más peso; un tipo que nunca recibe likes, menos.
@@ -15,6 +15,7 @@ Los criterios explícitos del editor (data/criterios.md) mandan sobre esto si se
 - 2 ♥ · 2026-11-11 · STR · Destacada · aiScore 80 · Airliner World · Los accionistas de easyJet aprueban con un 97% la compra por Apollo, pendiente aún de la UE
 - 2 ♥ · 2026-11-17 · FIN · Destacada · aiScore 74 · Skift · El fin de los derechos de CO2 gratuitos eleva la factura de carbono de IAG, AF-KLM y Lufthansa
 - 2 ♥ · 2026-11-24 · NET · Destacada · aiScore 55 · Nexotur · Iberia y Air Europa descartan recortar plazas en verano pese a la subida del queroseno
+- 2 ♥ · 2026-11-25 · FIN · Destacada · aiScore 80 · Reuters · easyJet hunde un 89% su beneficio anual por el combustible y no da previsiones por Apollo
 - 1 ♥ · 2026-10-20 · STR · Destacada · aiScore 92 · The National (Bloomberg) · Ryanair anticipa la mayor subida de tarifas de la historia en Europa: hasta un 20% en 2027
 - 1 ♥ · 2026-10-28 · NET · Destacada · aiScore 45 · Iberia · Iberia amplía un 20% sus plazas a Andalucía y topa tarifas a 99 euros tras el accidente de Urda
 - 1 ♥ · 2026-11-09 · FLT · Destacada · aiScore 72 · AeroTime · Boeing recortará un 5% de la plantilla de aviones comerciales por el retraso en su producción
@@ -29,24 +30,25 @@ Los criterios explícitos del editor (data/criterios.md) mandan sobre esto si se
 - 1 ♥ · 2026-11-23 · STR · Destacada · aiScore 50 · Qué! · Los correos de la SEPI sitúan a Moncloa en el rescate de Air Europa el día que declara Aagesen
 - 1 ♥ · 2026-11-23 · FIN · Destacada · aiScore 72 · Mundiario · El queroseno y los recortes de plazas anticipan billetes hasta un 20% más caros en 2027
 - 1 ♥ · 2026-11-24 · CUS · Destacada · aiScore 40 · CAPA · Aer Lingus lleva el wifi gratis de Starlink a Europa y prevé 29 aviones de corto radio
-- 1 ♥ · 2026-11-25 · FIN · Destacada · aiScore 80 · Reuters · easyJet hunde un 89% su beneficio anual por el combustible y no da previsiones por Apollo
+- 1 ♥ · 2026-11-25 · FLT · Destacada · aiScore 70 · Simple Flying · British Airways releva a sus cuatrimotores con 18 Airbus A350-1000 y seis más pendientes
+- 1 ♥ · 2026-11-25 · REG · Destacada · aiScore 60 · Hosteltur · España suministró 152.000 toneladas de SAF en 2025, un 2,59% frente al 2% exigido por la UE
 
 ## Likes por sección (noticias · likes)
 
+- FIN: 40 noticias · 14 likes
 - STR: 32 noticias · 14 likes
-- FIN: 40 noticias · 13 likes
-- NET: 57 noticias · 6 likes
-- FLT: 33 noticias · 2 likes
+- NET: 58 noticias · 6 likes
+- FLT: 33 noticias · 3 likes
 - CUS: 17 noticias · 1 likes
+- REG: 17 noticias · 1 likes
 - TUR: 7 noticias · 1 likes
 - MRO: 32 noticias · 0 likes
-- APT: 20 noticias · 0 likes
-- REG: 17 noticias · 0 likes
+- APT: 21 noticias · 0 likes
 
 ## Destacadas frente a Breves (noticias · likes)
 
-- Destacada: 139 · 37
-- Breve: 116 · 0
+- Destacada: 142 · 40
+- Breve: 115 · 0
 
 ## Con aiScore alto (70+) y ningún like tras 3 días (quizá sobrevaloradas)
 
