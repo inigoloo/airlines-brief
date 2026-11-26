@@ -13851,6 +13851,28 @@
    "value": "60 M€",
    "label": "en billetes de vuelos que no se operarán",
    "sub": "estimación según OKDiario"
+  },
+  "en": {
+   "title": "Plus Ultra leaves about €60m in unflown tickets as a court administrator takes over its wind-down",
+   "summary": "A court-appointed administrator is now handling the seizure of Plus Ultra's assets. According to OKDiario, the airline took in around €60m from tickets it does not intend to refund. In Argentina alone around 25,000 tickets are affected, and in Venezuela more than 40,000.",
+   "why": "The end of Plus Ultra frees up demand on the Madrid routes to Caracas, Lima and Buenos Aires, where Iberia and Air Europa are already picking up passengers. The cost of the unrefunded tickets will weigh on the sector's reputation.",
+   "body": [
+    {
+     "t": "Plus Ultra, the airline rescued by the government that has stopped flying, now has a court-appointed administrator in charge of managing the seizure of its assets and of using the proceeds to guarantee payment of its staff wages, OKDiario reported on 25 November. The newspaper does not identify the administrator or the court."
+    },
+    {
+     "t": "According to sources consulted by OKDiario, the company took in around €60m from selling tickets for flights that will not operate and that it does not plan to refund. Que.es reports the same figure, but warns that it is an estimate published in the sector and not an official, audited figure."
+    },
+    {
+     "t": "In Argentina alone, the newspaper's sources put the number of tickets sold and affected at around 25,000, while several operators speak of more than 40,000 people affected in Venezuela. Many of the customers are Latin American residents of Spain who had bought tickets for Christmas. OKDiario adds that in the months before the closure, the airline had increased the frequencies of some flights from two to five."
+    },
+    {
+     "t": "In 2021 SEPI granted Plus Ultra a rescue of €53m. According to OKDiario, it agreed to defer interest payments despite being aware of the company's financial difficulties and of the fact that Bankinter had cut its funding. Que.es notes that the airline still owes the full amount of the rescue."
+    },
+    {
+     "t": "Que.es also points out that the company is proposing redundancies of up to 270 staff, close to 40% of its workforce in Madrid, and that the order in which creditors are paid will be decided by the courts."
+    }
+   ]
   }
  },
  {
@@ -14276,6 +14298,25 @@
      "t": "2,59%"
     }
    ]
+  },
+  "en": {
+   "title": "Spain supplied 152,000 tonnes of SAF in 2025, 2.59% against the EU's 2% requirement",
+   "summary": "Spain was the EU's second-largest country by volume of sustainable aviation fuel in 2025, with more than 152,000 tonnes, according to a guide from the AST. That was 2.59% of the jet fuel supplied at its airports, above the 2% minimum required by ReFuelEU.",
+   "why": "Mandatory SAF pushes up fuel costs for Iberia, Vueling and the rest of Spain's airlines. The fact that EU ETS revenues are not flowing back to the sector adds to airlines' pressure for support before the rise to 6% in 2030.",
+   "body": [
+    {
+     "t": "Spain ranked in 2025 as the second country in the European Union by volume of sustainable aviation fuel (SAF) supplied, with more than 152,000 tonnes, according to the Guide for the implementation of the ReFuelEU Aviation Regulation in Spain, published by the Alliance for Sustainable Air Transport (AST). The guide was presented this week at the annual meeting of the AST's Governing Board, Hosteltur reported on 25 November."
+    },
+    {
+     "t": "That volume equates to 2.59% of all the fuel supplied at Spanish airports in 2025, against the 2% minimum mandated by ReFuelEU. The regulation provides for a gradual increase in SAF up to 70% by 2050. By 2030 the minimum share rises to 6%, including 1.2% synthetic fuel."
+    },
+    {
+     "t": "The guide criticises the use of EU ETS revenues. In 2024 Spain allocated 48% of that income to climate and energy transition initiatives, whereas other European countries dedicate practically all of it, and none of the initiatives funded in Spain was specifically aimed at SAF. Only between 10% and 12% of what airlines contribute comes back to them through SAF-linked allowances, support that the AST describes as “absolutely insufficient”."
+    },
+    {
+     "t": "According to the AST, Spain has favourable industrial and energy conditions to lead European SAF production. Its president, Margarita de Gregorio, stresses the need to foster cooperation, the outlet reports."
+    }
+   ]
   }
  },
  {
@@ -14354,7 +14395,29 @@
   },
   "imageId": "queroseno-margenes-aerolineas-europeas-2027",
   "addedAt": "2026-11-26T10:48:53Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Expensive jet fuel squeezes margins at IAG, Ryanair and easyJet and complicates 2027 plans",
+   "summary": "Aviation fuel in Europe cost an average of $4.84 a gallon in October, against $2.26 in January and February, according to Eurocontrol. IAG's operating margin in the third quarter fell from 22% to 17.7%, and Ryanair's from 35.5% to 31.9%.",
+   "why": "IAG's fuel hedging falls from 61% to 34% over 2027. Fuel will keep pressing on its margins and those of its European rivals, with effects on fares and capacity.",
+   "body": [
+    {
+     "t": "Dearer jet fuel is reducing margins at European airlines, though unevenly, and is shaping their plans for 2027, according to an analysis published by Hosteltur on 26 November. Some companies offset the higher spending with higher revenues, while hedges taken out when fuel was cheaper are gradually running off."
+    },
+    {
+     "t": "According to Eurocontrol data cited by the outlet, aviation fuel in Europe cost an average of $4.84 a gallon in October, against $2.26 in January and February, before the crisis. In early November it eased to $4.42, still close to double. Thomas Reynaert, IATA senior vice president, warned, according to comments collected by EFE, that higher prices and longer routes weigh on profitability."
+    },
+    {
+     "t": "In the third quarter, IAG increased its fuel and emissions allowance costs by 30.4% to €2.44bn. Its operating profit before exceptional items fell 15.9% to €1.73bn, and its margin dropped from 22% to 17.7%. By airline, Iberia came in at 19.6% (4.1 points lower), British Airways at 14.4% (5.8 points lower) and Vueling at 23.8% (1.5 points lower)."
+    },
+    {
+     "t": "Air France-KLM raised its adjusted operating result by 10.3% to €1.35bn, despite a fuel bill 28.2% higher, and improved its margin from 13.3% to 13.6%. Lufthansa's margin fell from 11.9% to 11.5%, Wizz Air's from 21.5% to 19.5%, and Ryanair's from 35.5% to 31.9%. easyJet cut its operating margin for the April-to-June quarter from 10% to 3.5%."
+    },
+    {
+     "t": "Looking ahead to 2027, IAG has hedged 61% of its consumption for the first quarter, a share that drops to 34% in the fourth. Ryanair has hedged 25% of the period from April 2027 to March 2028 and estimates extra costs of around €2bn. Eurocontrol's central scenario assumes the Middle East stabilises in the first quarter of 2027, with an adverse scenario of tensions lasting until 2028."
+    }
+   ]
+  }
  },
  {
   "id": "air-europa-bruselas-competencia-aena-t4",
@@ -14416,7 +14479,26 @@
   },
   "imageId": "air-europa-bruselas-competencia-aena-t4",
   "addedAt": "2026-11-26T10:48:53Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Air Europa considers complaining to Brussels about Aena prioritising Iberia's T4 at Barajas",
+   "summary": "Air Europa is considering filing a complaint against Aena with the European Commission's Directorate-General for Competition over its prioritisation of Iberia's T4 in the Barajas plan. It will do so only if it gathers “strong evidence”, having already appealed the investment plan to the Supreme Court.",
+   "why": "A complaint in Brussels would take the dispute over Barajas' terminals to European level and put the priority given to T4, Iberia's hub, in Aena's plan under scrutiny.",
+   "body": [
+    {
+     "t": "Air Europa is considering filing a complaint with the European Commission's Directorate-General for Competition against Aena over the treatment, in its view, that Iberia receives in the Barajas investment plan. Merca2 reported this on 25 November, citing information previewed by Expansión. The complaint has not been filed: the outlet says it is still being prepared and that the next step has no date."
+    },
+    {
+     "t": "Sources at the airline cited by Merca2 make the move conditional on gathering “strong evidence” of discriminatory treatment. The target is Brussels rather than Spain's CNMC, as the European Commission handles distortions of the single market."
+    },
+    {
+     "t": "The complaint centres on Aena placing the remodelling of T4, the terminal designed as Iberia's hub and opened in 2006, at the heart of its Barajas plan, ahead of the others. Air Europa operates outside T4 and links the issue to its bet on the A350. It rejects the 2032 timeline: “We are not going to sit back with our arms folded and wait until 2032 to compete at a much greater disadvantage,” its sources say."
+    },
+    {
+     "t": "The airline has already appealed Aena's investment plan to the Supreme Court. Qué! reports that the airline presents that appeal as the “first step” in a package of measures, among which it does not rule out competition complaints. Its sources insist that “it is not a fight against Iberia” and call for “equal conditions”."
+    }
+   ]
+  }
  },
  {
   "id": "air-europa-aagesen-acta-rescate-sepi",
@@ -14478,7 +14560,26 @@
   },
   "imageId": "air-europa-aagesen-acta-rescate-sepi",
   "addedAt": "2026-11-26T10:48:53Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Aagesen asked in 2020 to amend the Air Europa rescue minutes so they relied on SEPI reports",
+   "summary": "An email from Sara Aagesen to SEPI dated 29 October 2020 shows she would not sign the minutes approving the €475m rescue of Air Europa unless they made clear that her vote was based on SEPI's reports. The judge is investigating the loan for possible prevarication.",
+   "why": "The case over the SEPI rescue keeps adding pressure on Air Europa, Iberia's rival in Madrid and Latin America, and on the conditions attached to the aid, which bear on its future shareholding.",
+   "body": [
+    {
+     "t": "Sara Aagesen, now Third Vice-President of the Government, refused in 2020 to sign the minutes approving the €475m rescue of Air Europa unless they were amended to make clear that her decision was based on SEPI's reports. She said so in an email sent to the general secretariat of the state-owned company on 29 October 2020, as reported by El Periódico de Ceuta."
+    },
+    {
+     "t": "At the time, as Secretary of State for Energy, Aagesen had received the minutes of the meeting of the Management Council of the Fund for Support to the Solvency of Strategic Companies held two days earlier, at which the rescue was approved. She asked that it be recorded that her approval was based on SEPI's favourable reports, on the legal department's report and on the technical assistance contracted, and that those reports were not taken on by the Council as its own but as references."
+    },
+    {
+     "t": "Ana de la Cueva, then Secretary of State for the Economy, raised similar objections, according to SEPI emails handed to the court investigating a possible offence of prevarication in the granting of the aid, a case brought at the request of the PP and Vox."
+    },
+    {
+     "t": "Aagesen gave evidence as a witness by videoconference on 23 November before Judge José María Escribano. According to legal sources cited by Europa Press, she denied any irregularities or pressure and maintained that the requirements had been met. Before the Senate committee in July she stated: “I never received pressure to cast any vote in any file.”"
+    }
+   ]
+  }
  },
  {
   "id": "wizz-air-almeria-madrid-cinco-frecuencias",
@@ -14549,7 +14650,23 @@
   },
   "imageId": "wizz-air-almeria-madrid-cinco-frecuencias",
   "addedAt": "2026-11-26T10:48:53Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Wizz Air raises Almería-Madrid to five weekly flights before the route launches in December",
+   "summary": "Wizz Air will increase its weekly frequencies between Almería and Madrid-Barajas from three to five, on a route that launches on 14 December, due to the pace of bookings since 19 November. Seat capacity rises by almost 70% and the connection becomes almost daily.",
+   "why": "Wizz Air strengthens its domestic network from Barajas, Iberia's hub, and gains weight in Almería's connectivity with Madrid while rail services remain disrupted after the Urda accident.",
+   "body": [
+    {
+     "t": "Wizz Air will increase the weekly frequencies of its new route between Almería and Madrid-Barajas airport from three to five, while keeping its launch scheduled for 14 December. The Almería Provincial Council and Almería City Council announced the change in a joint statement on 26 November."
+    },
+    {
+     "t": "The decision responds to demand and to the pace of bookings since sales opened on 19 November, barely a week after the route was announced. With the two additional flights, seat capacity rises by almost 70% and the connection to the capital becomes practically daily, which makes same-day round trips on working days easier."
+    },
+    {
+     "t": "The route is part of the connectivity measures coordinated by the Provincial Council, the Andalusian regional government (Junta de Andalucía) through Turismo Andaluz, and the city councils of Almería and Roquetas de Mar. The aim is to offset rail disruption following the Urda accident in October. The president of the Provincial Council, José Antonio García Alcaina, said that “having five weekly frequencies meets a priority mobility need for citizens.”"
+    }
+   ]
+  }
  },
  {
   "id": "iberia-santiago-madrid-recorte-vuelos-primera-hora",
@@ -14618,6 +14735,22 @@
   },
   "imageId": "iberia-santiago-madrid-recorte-vuelos-primera-hora",
   "addedAt": "2026-11-26T10:48:53Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Iberia cuts more than 60 early-morning flights between Santiago and Madrid until April",
+   "summary": "Iberia has cut more than 60 early-morning flights between Santiago and Madrid until April. Lavacolla will have no connection to Barajas on Mondays and Saturdays until 13:40, and on Thursdays the first link will be a Wizz Air flight departing at 11:45.",
+   "why": "Iberia reduces the feed into its Barajas hub from Santiago, a route that competes with high-speed rail (AVE), and leaves the first Thursday connection in the hands of Wizz Air, a rival in Madrid.",
+   "body": [
+    {
+     "t": "Iberia has cut more than 60 early-morning flights between Santiago de Compostela and Madrid until April, La Voz de Galicia reported on 26 November. The measure affects the air link between Galicia and the Spanish capital."
+    },
+    {
+     "t": "As a result of the reduction, Lavacolla airport will have no connection to Barajas on Mondays and Saturdays until 13:40. On Thursdays, the first link to Madrid will be a Wizz Air flight departing at 11:45."
+    },
+    {
+     "t": "The route had already lost capacity. In June 2025, Xataka reported that Iberia had handed the service to Air Nostrum, with aircraft carrying 80 fewer seats, and that the AVE high-speed train, which reaches the city centre in around three hours, competed closely with the plane on that journey."
+    }
+   ]
+  }
  }
 ]
