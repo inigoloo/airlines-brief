@@ -1,4 +1,4 @@
-# Likes del portal (últimos 45 días) · generado 2026-11-26T12:22+00:00
+# Likes del portal (últimos 45 días) · generado 2026-11-26T13:23+00:00
 
 Lo que el equipo marca con «me gusta» en la web. Úsalo para afinar el aiScore y la elección, junto con data/criterios.md:
 las noticias parecidas (mismo tipo, empresa o tema) a las más votadas tienen más peso; un tipo que nunca recibe likes, menos.
