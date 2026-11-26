@@ -63,6 +63,12 @@ Toda noticia que trate de **España** (aerolíneas, aeropuertos, Aena, rutas, re
 - Si una tarea (Destacadas, Breves o el vigilante) ve una de estas noticias y no está en el portal, no la deja para el día siguiente. La tarea de Breves no la publica como Breve con promote: lanza la tarea de Destacadas en ese momento (fire_trigger trig_01Ln8za1CBxQhd2r348BwxRk, con el hecho en el texto).
 - Si salen en varios medios con titulares distintos (p. ej. «easyJet reduce un 89% su beneficio» y «su beneficio cae un 89%»), son el mismo hecho: una sola Destacada, con el otro medio como segunda fuente.
 
+## Las noticias con peso de Destacada llegan a portada el mismo día (26-nov-2026)
+- El editor quiere la web lo más actualizada posible: una noticia que debería ser Destacada NO puede esperar al día siguiente.
+- Los ANÁLISIS de medios del sector sobre la estrategia de flota, de red o de negocio de IAG o de sus aerolíneas son Destacada, aunque no anuncien un hecho nuevo, si tratan algo vigente. Ejemplo: «British Airways sustituye su veterana flota de cuatrimotores por grandes A350-1000» (Simple Flying, 25-nov-2026) se quedó en Breve y debía ser Destacada.
+- Si la tarea de Breves publica una Breve con peso de Destacada (España, IAG o Air Europa con peso de negocio, o cualquier otra con peso), le pone "promote": true. El vigilante, en su pasada horaria siguiente, lanza la tarea de Destacadas para convertirla ese mismo día (conservando el id).
+- La tarea de Destacadas, cuando el vigilante le pide convertir Breves, lo hace aunque no tengan "promote" ni aiScore de 60, salvo las excepciones de la regla general (incidencias de un día, negocio de empresas españolas fuera de España, carga que no sea de IAG Cargo).
+
 ## Horario de las tareas y segunda pasada del lunes (25-nov-2026)
 - Horario (hora de Madrid). De lunes a viernes: recogida 11:28, Destacadas 11:40, Breves 12:05, traducción 12:35. Los lunes, además, la cadena de la mañana: recogida 8:28, Destacadas 8:40, Breves 9:05, traducción 9:35. Las horas que citen los mensajes de las tareas (9:00, 9:45, 10:13…) quedan sustituidas por estas.
 - Lunes, pasada de las 8:40/9:05: es la del fin de semana (ventana de 72 horas, cupos de lunes, reparto por sábado y domingo).
