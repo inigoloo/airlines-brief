@@ -389,7 +389,7 @@
    "palabras": "easyJet.*Apollo|Apollo.*easyJet",
    "pendiente": "autorización de la Comisión Europea y cierre de la compra",
    "desde": "2026-11-11",
-   "rumores": 1,
+   "rumores": 0,
    "ultimaBusqueda": "2026-11-25 18:24"
   },
   {
@@ -407,7 +407,7 @@
    "palabras": "Plus Ultra",
    "pendiente": "decisión de la SEPI, posible venta a Iberojet o concurso",
    "desde": "2026-11-23",
-   "rumores": 24,
+   "rumores": 14,
    "ultimaBusqueda": "2026-11-26 13:30"
   },
   {
@@ -416,8 +416,8 @@
    "palabras": "Air Europa.*(Turkish|rescate|SEPI)|Turkish.*Air Europa",
    "pendiente": "entrada o ampliación de Turkish, devolución del rescate, resoluciones judiciales",
    "desde": "2026-11-01",
-   "rumores": 4,
-   "ultimaBusqueda": "2026-11-26 13:30"
+   "rumores": 1,
+   "ultimaBusqueda": "2026-11-26 18:25"
   }
  ],
  "urgentesVistos": [
@@ -594,6 +594,18 @@
    "id": "b-guerra-electronica-gps-140-vuelos-mar-del-norte",
    "titulo": "Un buque ruso, sospechoso de interferir el GPS de unos 140 vuelos sobre el mar del Norte",
    "accion": "conversion-lanzada"
+  },
+  {
+   "fecha": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNajBlM1lfXzR5TWJpU1VzbksxUDBsVWNBVkZPTm9yb2xVbTh1MHhWMHc5c3Rza1RTY29ueEFjM29kNmpucDNFUkFWeWY1a0tkWGRKbG0xRTFmbkVybU1rMFU4MUtuanI4ejFZVUxWR2ZnX2s3SEx6Rk56cEg1b2lTUXQ0dlpJMXdBRFFyQmswcGhQVm52T0ZlM1R2YU9FSGcyOEtvMUMzR1JyZVJmeGlj?oc=5",
+   "titulo": "British Airways Dreamliner Stays in Boston After Second Oil Loss in 10 Days",
+   "accion": "no-urgente"
+  },
+  {
+   "fecha": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAzWEtTS3hRa1RHUUd4Qm5xaU13NmlCeFZ6NUhxTnJKbHhfZ1FBTmpDQVI3N2xpRlNfbVFUNjFsNGdIOERfSV9PbVA1S0JYaW9pTzN3czR6WTREaE9xNFY1VEN1aHR2bWhXUHVQRQ?oc=5",
+   "titulo": "JSX adquiere la aerolínea en quiebra New Pacific Airlines para ampliar su oferta de vuelos semiprivados",
+   "accion": "ya-publicada"
   }
  ]
 }
