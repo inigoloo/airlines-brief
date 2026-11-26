@@ -13877,22 +13877,59 @@
  },
  {
   "id": "b-ba-a350-1000-relevo-cuatrimotores",
-  "kind": "brief",
-  "title": "British Airways sustituye su veterana flota de cuatrimotores por grandes Airbus A350-1000",
-  "summary": "Simple Flying analiza por qué British Airways decidió reemplazar su longeva flota de cuatrimotores por los bimotores de gran tamaño A350-1000 de Airbus.",
-  "en": {
-   "title": "Why British Airways chose large A350-1000 twinjets to replace its quadjets",
-   "summary": "Simple Flying looks at why British Airways decided to replace its long-serving quadjet fleet with large twin-engine Airbus A350-1000s."
-  },
+  "title": "British Airways releva a sus cuatrimotores con 18 Airbus A350-1000 y seis más pendientes",
+  "category": "FLT",
+  "publishedAt": "2026-11-25",
   "source": "Simple Flying",
   "url": "https://simpleflying.com/why-british-airways-decided-replace-longstanding-quadjet-fleet-large-twin-engine-airbus-a350s/",
-  "thumb": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/airline-economics.jpg",
-  "publishedAt": "2026-11-25",
-  "category": "FLT",
-  "aiScore": 55,
+  "summary": "Un análisis de Simple Flying repasa por qué British Airways sustituyó sus Boeing 747-400 por el Airbus A350-1000, del que opera 18 unidades y tiene seis más pedidas. Según el medio, el bimotor de 331 plazas es mayor que el 787-10 y gasta menos que el 777-300ER.",
+  "body": [
+   {
+    "t": "Simple Flying publicó el 25 de noviembre un análisis sobre la decisión de British Airways de sustituir su veterana flota de cuatrimotores por el bimotor de gran tamaño Airbus A350-1000. La aerolínea de IAG llegó a ser el mayor operador del Boeing 747-400, con hasta 57 unidades, y retiró toda esa flota, un proceso que ya había empezado antes de la covid y que la pandemia aceleró.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Según el artículo, British Airways opera hoy 18 A350-1000 y tiene seis más pedidos, con entregas desde 2019. Su configuración es de 331 plazas: 56 Club Suites, 56 World Traveller Plus y 219 World Traveller, sin primera clase. Entre sus destinos cita Filadelfia, Las Vegas y Phoenix, además de São Paulo y Hong Kong, rutas con ingresos premium.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El análisis sostiene que el A350-1000 sustituyó a los 747-400 más densos (337 plazas), no a los de configuración más premium (275 plazas), y que su tamaño, mayor que el del 787-10, y su menor consumo frente al 777-300ER le dan costes operativos bajos. También atribuye a la falta de slots en Heathrow, donde añadir frecuencias es difícil, el interés por aviones grandes como los 12 A380 que la aerolínea recibió entre 2013 y 2016.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El 747-400 iba a tener como sustituto final al Boeing 777-9: IAG encargó en 2019 18 unidades con 24 opciones para British Airways y después convirtió seis opciones en pedido firme, hasta 24 aviones. Según Simple Flying, el modelo no entrará en servicio antes de 2027 y los primeros de British Airways podrían llegar en 2028.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Simple Flying",
+    "url": "https://simpleflying.com/why-british-airways-decided-replace-longstanding-quadjet-fleet-large-twin-engine-airbus-a350s/",
+    "date": "2026-11-25"
+   }
+  ],
+  "why": "La flota de largo radio define la capacidad de British Airways en un Heathrow saturado; el retraso del 777-9 hasta 2028 alarga la dependencia del A350-1000 y de los A380 en el principal hub de IAG.",
   "iagImpact": "directo",
   "europe": true,
-  "addedAt": "2026-11-25T11:12:54Z",
+  "aiScore": 70,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/bcf6d36a-eb86-4fd5-8583-b15690805758.jpeg",
+  "photoSource": "Simple Flying",
+  "art": {
+   "kind": "plane",
+   "value": "18",
+   "label": "A350-1000 en la flota de British Airways",
+   "tail": "#075AAA"
+  },
+  "imageId": "b-ba-a350-1000-relevo-cuatrimotores",
+  "addedAt": "2026-11-26T11:34:43Z",
   "addedBy": "claude"
  },
  {
@@ -14755,22 +14792,87 @@
  },
  {
   "id": "b-norse-atlantic-suspende-operaciones",
-  "kind": "brief",
-  "title": "Norse Atlantic suspende todas sus operaciones al quedarse sin caja",
-  "summary": "Norse Atlantic Airways ha confirmado que suspende todas sus operaciones por su delicada situación financiera. Un día antes había calificado su situación de «crítica».",
-  "en": {
-   "title": "Norse Atlantic suspends all operations after running out of cash",
-   "summary": "Norse Atlantic Airways has confirmed it is suspending all operations because of its troubled financial position. A day earlier it had described its situation as \"critical\"."
-  },
-  "source": "AeroTime",
-  "url": "https://www.aerotime.aero/articles/norse-atlantic-suspends-all-operations-as-it-runs-out-of-cash",
-  "publishedAt": "2026-11-26",
+  "title": "Norse Atlantic suspende todos sus vuelos y pedirá la quiebra si no logra financiación urgente",
   "category": "FIN",
-  "aiScore": 65,
-  "promote": true,
+  "publishedAt": "2026-11-26",
+  "source": "Aviation Week",
+  "url": "https://aviationweek.com/air-transport/airlines-lessors/norse-atlantic-suspends-flights-warns-bankruptcy",
+  "summary": "Norse Atlantic suspendió el 26 de noviembre todos sus vuelos y su consejo pedirá la quiebra si no consigue con urgencia financiación a corto plazo. Negocia con inversores una posible toma de control y su acción se hundió cerca de un 85% el día anterior.",
+  "body": [
+   {
+    "t": "La aerolínea de largo radio y bajo coste Norse Atlantic Airways suspendió el jueves 26 de noviembre todos sus vuelos. La compañía dejó de operar la noche del miércoles y el jueves por la mañana confirmó, en una comunicación a la Bolsa de Oslo, la cancelación de todos los vuelos del día.",
+    "s": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Su matriz, Norse Atlantic ASA, advirtió de que, «si no se asegura con urgencia una solución de financiación a corto plazo, la intención del consejo es solicitar la quiebra». La empresa mantiene conversaciones con inversores sobre una posible toma de control que incluiría esa financiación, aunque reconoce que no hay garantía de encontrar una solución viable.",
+    "s": [
+     1,
+     3
+    ]
+   },
+   {
+    "t": "Un día antes, la aerolínea había calificado de «crítica» su situación financiera y su acción cayó alrededor de un 85% durante el miércoles. El 25 de noviembre celebró una reunión informativa con los tenedores de sus bonos sénior garantizados de 52 millones de dólares, con un cupón del 15% y vencimiento en 2027. Según Paddle Your Own Kanoo, acumula pérdidas de más de 540 millones de dólares y nunca ha cerrado un año con beneficio.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El acuerdo de arrendamiento con tripulación (wet lease) de seis aviones con IndiGo terminó el 1 de noviembre, lo que, según TTG, dejó a Norse con los costes de arrendamiento de invierno de esos aparatos. Norse opera 12 Boeing 787-9, con bases en Oslo, Estocolmo y Londres-Gatwick, y vuela desde Gatwick a Nueva York, Bangkok, Ciudad del Cabo, Orlando y Phuket.",
+    "s": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "La suspensión también afecta a Pakistan International Airlines (PIA), a la que Norse presta dos 787-9 desde octubre: PIA canceló el 25 de noviembre sus vuelos Heathrow-Islamabad y Mánchester-Lahore y desde el 26 operará sus rutas británicas con sus propios Boeing 777. Un portavoz de PIA calificó de «profundamente lamentable» que su socio suspendiera las operaciones sin aviso.",
+    "s": [
+     1,
+     4
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Aviation Week",
+    "url": "https://aviationweek.com/air-transport/airlines-lessors/norse-atlantic-suspends-flights-warns-bankruptcy",
+    "date": "2026-11-26"
+   },
+   {
+    "name": "Paddle Your Own Kanoo",
+    "url": "https://www.paddleyourownkanoo.com/2026/11/26/norse-atlantic-confirms-all-operations-suspended-as-airline-teeters-on-the-edge-of-bankruptcy/",
+    "date": "2026-11-26"
+   },
+   {
+    "name": "TTG",
+    "url": "https://www.ttgmedia.com/travel-industry-news/norse-atlantic-airways-suspends-all-flights-today-financial-crisis-deepens",
+    "date": "2026-11-26"
+   },
+   {
+    "name": "AeroXplorer",
+    "url": "https://aeroxplorer.com/articles/norse-atlantic-suspends-operations-as-financial-crisis-grounds-flights",
+    "date": "2026-11-25"
+   }
+  ],
+  "why": "La posible quiebra de Norse retiraría a un competidor de bajo coste de British Airways en el largo radio desde Gatwick y confirma la presión del combustible y del arrendamiento sobre las aerolíneas pequeñas.",
   "iagImpact": "indirecto",
   "europe": true,
-  "addedAt": "2026-11-26T11:09:59Z",
+  "aiScore": 68,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/500157d1-c596-4f11-ae3a-8cc050a03fa8.jpeg",
+  "photoSource": "Aviation Week",
+  "art": {
+   "kind": "big",
+   "value": "-85%",
+   "label": "Caída de la acción de Norse el 25 de noviembre",
+   "sub": "Fuente: Paddle Your Own Kanoo"
+  },
+  "imageId": "b-norse-atlantic-suspende-operaciones",
+  "addedAt": "2026-11-26T11:34:43Z",
   "addedBy": "claude"
  },
  {
@@ -14788,7 +14890,6 @@
   "publishedAt": "2026-11-26",
   "category": "CUS",
   "aiScore": 40,
-  "promote": true,
   "iagImpact": "indirecto",
   "europe": true,
   "addedAt": "2026-11-26T11:09:59Z",
@@ -14796,21 +14897,84 @@
  },
  {
   "id": "b-kayak-busquedas-puente-diciembre",
-  "kind": "brief",
-  "title": "Las búsquedas de vuelos para el puente de diciembre crecen un 32% frente a 2025",
-  "summary": "Según datos de KAYAK, Londres, París y Roma son los destinos más demandados por los españoles; Granada encabeza las opciones nacionales con los hoteles más baratos.",
-  "en": {
-   "title": "Flight searches for the December long weekend rise 32% on 2025",
-   "summary": "According to KAYAK data, London, Paris and Rome are the most sought-after destinations among Spaniards, while Granada leads domestic options with the cheapest hotels."
-  },
+  "title": "Las búsquedas de vuelos para el puente de diciembre suben un 32% frente a 2025, según Kayak",
+  "category": "TUR",
+  "publishedAt": "2026-11-26",
   "source": "Nexotur",
   "url": "https://nexotur.com/las-busquedas-de-vuelos-para-el-puente-de-diciembre-crecen-un-32-respecto-a-2025/",
-  "publishedAt": "2026-11-26",
-  "category": "TUR",
-  "aiScore": 55,
-  "promote": true,
+  "summary": "Las búsquedas de vuelos en Kayak para el puente de la Constitución y la Inmaculada (4 al 8 de diciembre) crecen un 32% frente al mismo periodo de 2025 y las de hoteles, un 30%. Londres, París y Roma son los destinos internacionales más buscados.",
+  "body": [
+   {
+    "t": "Las búsquedas de vuelos para el puente de la Constitución y la Inmaculada, del 4 al 8 de diciembre, han crecido un 32% respecto al mismo periodo de 2025, según datos del metabuscador Kayak. Las búsquedas de hoteles para esas fechas suben un 30%.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Londres, París y Roma ocupan los tres primeros puestos entre los destinos internacionales más buscados. Entre los diez primeros figuran también Praga, Budapest, Viena, Bruselas, Milán, Basilea y Ámsterdam.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El precio medio de un vuelo de ida y vuelta en clase turista va de los 111 euros a Milán, el más bajo de la lista, a los 309 euros a Praga. Londres sale por 161 euros, Roma por 174, Bruselas por 181, París por 207 y Viena por 271.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Según Natalia Diez-Rivas, directora comercial de Kayak para Europa, ampliar la búsqueda a destinos menos habituales puede reducir el presupuesto. Frente a los precios medios de 2025, los vuelos a Puerto del Rosario son un 31% más baratos, los de Marrakech un 27% y los de Estrasburgo un 23%.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "En alojamiento, la noche en habitación doble cuesta de media 72 euros en Florencia, 89 en Praga y 116 en Roma. En España, Granada es la ciudad más barata, con 103 euros, seguida de Sevilla (123), Madrid (131), Valencia (132) y Barcelona (139).",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Nexotur",
+    "url": "https://nexotur.com/las-busquedas-de-vuelos-para-el-puente-de-diciembre-crecen-un-32-respecto-a-2025/",
+    "date": "2026-11-26"
+   },
+   {
+    "name": "Forbes España (Europa Press)",
+    "url": "https://forbes.es/ultima-hora/1070674/las-busquedas-de-vuelos-para-el-puente-de-diciembre-crecen-un-32-y-las-de-hoteles-un-30segun-kayak/",
+    "date": "2026-11-23"
+   }
+  ],
+  "why": "El aumento de las búsquedas desde España apunta a una demanda fuerte en un puente clave para el corto y medio radio europeo, donde Iberia, Vueling y British Airways compiten con las de bajo coste.",
   "europe": true,
-  "addedAt": "2026-11-26T11:09:59Z",
+  "aiScore": 62,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/1faf4eea-d732-40f9-8df8-9060abb7874a.jpeg",
+  "photoSource": "Nexotur",
+  "art": {
+   "kind": "bars",
+   "title": "Variación de búsquedas frente a 2025 (%)",
+   "bars": [
+    {
+     "l": "Vuelos",
+     "v": 32,
+     "t": "+32%"
+    },
+    {
+     "l": "Hoteles",
+     "v": 30,
+     "t": "+30%"
+    }
+   ]
+  },
+  "imageId": "b-kayak-busquedas-puente-diciembre",
+  "addedAt": "2026-11-26T11:34:43Z",
   "addedBy": "claude"
  },
  {
@@ -14828,7 +14992,6 @@
   "publishedAt": "2026-11-25",
   "category": "FIN",
   "aiScore": 62,
-  "promote": true,
   "iagImpact": "indirecto",
   "europe": true,
   "addedAt": "2026-11-26T11:09:59Z",
