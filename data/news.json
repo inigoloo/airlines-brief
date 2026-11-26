@@ -15117,23 +15117,75 @@
  },
  {
   "id": "b-guerra-electronica-gps-140-vuelos-mar-del-norte",
-  "kind": "brief",
-  "title": "Un buque ruso, sospechoso de interferir el GPS de unos 140 vuelos sobre el mar del Norte",
-  "summary": "Unos 140 aviones de pasajeros, entre ellos de British Airways, Ryanair y easyJet, sufrieron interferencias GPS el 9 de noviembre; se señala a un buque de guerra ruso.",
-  "en": {
-   "title": "Russian warship suspected of GPS interference with some 140 flights over the North Sea",
-   "summary": "Around 140 passenger aircraft, including British Airways, Ryanair and easyJet flights, suffered GPS interference on 9 November; a Russian warship is suspected."
-  },
+  "title": "Un buque de guerra ruso, sospechoso de interferir el GPS de 140 vuelos sobre el mar del Norte",
+  "category": "REG",
+  "publishedAt": "2026-11-25",
   "source": "Aviation A2Z",
   "url": "https://aviationa2z.com/index.php/2026/11/25/russian-warship-accused-of-blinding-140-passenger-flights-near-britain-in-north-sea-gps-scare/",
-  "thumb": "https://aviationa2z.com/wp-content/uploads/2026/06/Boeing_777-200ER_British_Airways_8603700981-1024x682.webp",
-  "publishedAt": "2026-11-25",
-  "category": "REG",
-  "aiScore": 58,
+  "summary": "Unos 140 vuelos de pasajeros, entre ellos de British Airways, Ryanair y easyJet, sufrieron interferencias GPS el 9 de noviembre sobre el mar del Norte. Un análisis de Hexbird sitúa el origen a unas 190 millas de la costa inglesa, donde navegaba un convoy ruso.",
+  "body": [
+   {
+    "t": "Unos 140 vuelos de pasajeros sufrieron interferencias en la señal GPS el 9 de noviembre sobre el mar del Norte durante unos 20 minutos, entre las 17:08 y poco después de las 17:27 GMT, según un análisis de la empresa de datos aeronáuticos Hexbird recogido por Aviation A2Z y ProtoThema. Entre los afectados figuran un vuelo de British Airways de Londres a Estocolmo, uno de Ryanair de Edimburgo a Roma y otro de easyJet de Manchester a Hurghada.",
+    "s": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Según Aviation A2Z, el vuelo de British Airways perdió la señal GPS unos 20 minutos, hasta 92 aviones se vieron afectados a la vez y unos 40 estaban en el espacio aéreo controlado por el Reino Unido o cerca de él. El control aéreo neerlandés, LVNL, confirmó que siete vuelos tuvieron que ser guiados hasta Ámsterdam-Schiphol, y el análisis no registró impacto operativo.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El origen se sitúa a unas 190 millas de la costa inglesa, donde navegaba un convoy de los buques de carga sancionados Lady R, Lady D y Maia-1 escoltado por un buque de guerra ruso. El análisis, según ProtoThema, «ni identifica al convoy como origen de la interferencia ni descarta esa posibilidad», en palabras de John Wiseman, de Hexbird.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "James Droxford, exoficial de inteligencia de la Royal Navy, afirmó que el buque de guerra «era casi con certeza el origen de la interferencia, no los mercantes». NATS indicó que no recibió avisos de pilotos sobre interferencias ese día, y la CAA aseguró que trabaja con aerolíneas y fabricantes para reducir los efectos de estas interferencias, según Aviation A2Z.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Aviation A2Z",
+    "url": "https://aviationa2z.com/index.php/2026/11/25/russian-warship-accused-of-blinding-140-passenger-flights-near-britain-in-north-sea-gps-scare/",
+    "date": "2026-11-25"
+   },
+   {
+    "name": "ProtoThema English",
+    "url": "https://en.protothema.gr/2026/11/24/putins-hybrid-war-on-uk-russian-warship-suspected-of-gps-interference-affecting-140-flights-off-britain/",
+    "date": "2026-11-24"
+   },
+   {
+    "name": "ADS Advance",
+    "url": "https://www.adsadvance.co.uk/north-sea-gps-interference-russian-warship/",
+    "date": "2026-11-24"
+   }
+  ],
+  "why": "Las interferencias GPS llegan a rutas de British Airways y sus rivales en el mar del Norte, lo que eleva el riesgo operativo y la presión para reforzar sistemas de navegación alternativos.",
   "iagImpact": "directo",
   "europe": true,
-  "addedAt": "2026-11-26T11:09:59Z",
-  "addedBy": "claude"
+  "aiScore": 55,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/b97d4f37-6acf-477e-824a-63ac49a774b0.jpeg",
+  "imageId": "b-guerra-electronica-gps-140-vuelos-mar-del-norte",
+  "photoSource": "The Points Guy (archivo)",
+  "addedAt": "2026-11-26T13:40:00Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "big",
+   "value": "140",
+   "label": "vuelos con interferencias GPS el 9 de noviembre",
+   "sub": "Unos 20 minutos sobre el mar del Norte"
+  }
  },
  {
   "id": "b-aci-europe-ees-manifiesto-turismo",
@@ -15222,5 +15274,169 @@
   "europe": true,
   "addedAt": "2026-11-26T11:09:59Z",
   "addedBy": "claude"
+ },
+ {
+  "id": "vueling-barcelona-errachidia-merzouga",
+  "title": "Vueling abre una ruta Barcelona-Errachidia, puerta de entrada a las dunas de Merzouga",
+  "category": "NET",
+  "publishedAt": "2026-11-26",
+  "source": "Aviacionline",
+  "url": "https://aviacionline.com/espanol/aviacion-comercial/espana/vueling-abre-una-ruta-entre-barcelona-y-errachidia-la-puerta-de-acceso-a-las-dunas-de-merzouga_a6b081c4c5e0aceca404c30be",
+  "summary": "Vueling volará sin escalas entre Barcelona y Errachidia, en el sureste de Marruecos, desde el 30 de diciembre, con dos vuelos semanales hasta el 8 de febrero y hasta tres desde el 15 de febrero. Barcelona tendrá cinco destinos marroquíes este invierno.",
+  "body": [
+   {
+    "t": "Vueling ha abierto una ruta sin escalas entre Barcelona y Errachidia, en el sureste de Marruecos, que comenzará a operar el 30 de diciembre, según publicó Aviacionline el 26 de noviembre. Los billetes ya están a la venta en la web de la aerolínea del grupo IAG.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Hasta el 8 de febrero habrá dos vuelos semanales, los jueves y los sábados, aunque la compañía advierte de que los días pueden cambiar algunas semanas según la demanda. Desde el 15 de febrero la frecuencia subirá hasta tres vuelos semanales, los martes, jueves y sábados.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El aeropuerto de destino, Moulay Ali Cherif, está a unos 130 kilómetros por carretera de las dunas de Merzouga y Erg Chebbi. Es de uso civil y militar, lo gestiona la Real Fuerza Aérea de Marruecos y recibe vuelos de Royal Air Maroc a Casablanca, de Ryanair a Marrakech y, en temporada, de Transavia a París-Orly.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Con la nueva ruta, Barcelona sumará este invierno cinco destinos marroquíes con Vueling: Marrakech, Tánger, Esauira, Agadir y Errachidia. Según el medio, la aerolínea abrió este año también Nador y Fez desde Barcelona, que no figuran en la oferta de invierno comunicada, y fuera de Cataluña opera en invierno Sevilla-Esauira y Bilbao-Marrakech.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Aviacionline",
+    "url": "https://aviacionline.com/espanol/aviacion-comercial/espana/vueling-abre-una-ruta-entre-barcelona-y-errachidia-la-puerta-de-acceso-a-las-dunas-de-merzouga_a6b081c4c5e0aceca404c30be",
+    "date": "2026-11-26"
+   },
+   {
+    "name": "Aviacionline (inglés)",
+    "url": "https://www.aviacionline.com/english/commercial-aviation/europe/spain/vueling-opens-barcelona-errachidia-route-as-new-gateway-to-the-merzouga-dunes_a6b081d28b16aca3377da9ca0",
+    "date": "2026-11-26"
+   }
+  ],
+  "why": "Vueling sigue ampliando su red marroquí desde El Prat, un mercado de ocio y étnico donde compite con Ryanair y Royal Air Maroc, y usa el invierno para abrir nichos de baja competencia.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 40,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/336d0bbc-0f95-49f1-8f87-380ed94cd6a6.jpeg",
+  "imageId": "vueling-barcelona-errachidia-merzouga",
+  "photoSource": "Metrópoli Abierta (foto de Vueling, archivo)",
+  "addedAt": "2026-11-26T13:40:00Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "route",
+   "title": "Barcelona-Errachidia desde el 30 de diciembre",
+   "badge": "Nueva ruta",
+   "points": [
+    {
+     "code": "BCN",
+     "city": "Barcelona",
+     "lat": 41.3,
+     "lon": 2.08
+    },
+    {
+     "code": "ERH",
+     "city": "Errachidia",
+     "lat": 31.95,
+     "lon": -4.4
+    }
+   ]
+  }
+ },
+ {
+  "id": "heathrow-comites-comunes-tercera-pista-aparcar",
+  "title": "Los Comunes piden aparcar la tercera pista de Heathrow: el Gobierno no ha justificado el plan",
+  "category": "APT",
+  "publishedAt": "2026-11-26",
+  "source": "AeroTime",
+  "url": "https://www.aerotime.aero/articles/heathrow-expansion-uk-government-fails-third-runway",
+  "summary": "El comité de Transporte de los Comunes concluye que el Gobierno británico no ha justificado la tercera pista de Heathrow y pide aparcarla por ahora. Su modelo eleva el PIB un 0,05%, frente al 0,5% de análisis anteriores, según The Guardian.",
+  "body": [
+   {
+    "t": "El comité de Transporte de la Cámara de los Comunes publicó el 26 de noviembre su informe sobre el borrador de declaración de política nacional para ampliar Heathrow y concluye que el Gobierno no ha justificado la tercera pista. Su presidenta, la laborista Ruth Cadbury, afirmó que los planes «deberían quedar en tierra por ahora» y que el Gobierno debe «volver a empezar» antes de seguir adelante.",
+    "s": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Según AeroTime, el comité considera que no está justificado declarar la ampliación proyecto de importancia «crítica» para el crecimiento y critica la falta de una estrategia general de aviación. The Guardian detalla que, según el modelo del Departamento de Transporte, la ampliación aumentaría el PIB un 0,05%, frente al 0,5% de análisis anteriores.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El informe sostiene que la ampliación «no es compatible en este momento» con los objetivos climáticos legalmente vinculantes y que confía demasiado en tecnologías que no avanzan al ritmo necesario. También considera «muy preocupante» la falta de planes de transporte público comprometidos y financiados, y recoge que la prioridad de las aerolíneas es que la ampliación sea asequible, con el temor de que las mayores tasas se trasladen a los pasajeros.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "El proyecto prevé casi duplicar el número de pasajeros y sumar 276.000 vuelos al año, y se aspira a obtener la licencia urbanística para 2029, según The Guardian. El consejero delegado de Heathrow, Thomas Woldbye, respondió que «el peso abrumador de las pruebas y del apoyo sigue estando claramente a favor de la ampliación», y los ministros John Healey y Heidi Alexander afirmaron que sigue siendo la política del Gobierno.",
+    "s": [
+     2
+    ]
+   },
+   {
+    "t": "El Evening Standard recuerda que el consejero delegado de IAG, Luis Gallego, expresó por carta «serias preocupaciones» por el coste de la ampliación, según The Times. IAG sostiene que el proyecto, que Heathrow estima en 49.000 millones de libras, no debería costar más de 30.000 millones, y cifra en 19.000 millones la brecha entre el coste propuesto y lo que pagarían los pasajeros.",
+    "s": [
+     3
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "AeroTime",
+    "url": "https://www.aerotime.aero/articles/heathrow-expansion-uk-government-fails-third-runway",
+    "date": "2026-11-26"
+   },
+   {
+    "name": "The Guardian (vía AOL)",
+    "url": "https://www.aol.co.uk/articles/ministers-fail-case-heathrow-third-110032000.html",
+    "date": "2026-11-26"
+   },
+   {
+    "name": "Evening Standard (vía AOL)",
+    "url": "https://www.aol.co.uk/articles/heathrow-expansion-back-drawing-board-110358000.html",
+    "date": "2026-11-26"
+   }
+  ],
+  "why": "Heathrow es el hub de British Airways: el informe refuerza la postura de IAG contra un proyecto caro que se financiaría con tasas y añade incertidumbre política sobre la capacidad futura del hub.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 76,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/71a69668-51c6-4fdd-8355-50f24e679e49.jpeg",
+  "imageId": "heathrow-comites-comunes-tercera-pista-aparcar",
+  "photoSource": "AeroTime (Shutterstock)",
+  "addedAt": "2026-11-26T13:40:00Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "bars",
+   "title": "Aumento del PIB por la ampliación (%)",
+   "bars": [
+    {
+     "l": "Análisis previos",
+     "v": 0.5,
+     "t": "0,5%"
+    },
+    {
+     "l": "Modelo actual",
+     "v": 0.05,
+     "t": "0,05%"
+    }
+   ]
+  }
  }
 ]
