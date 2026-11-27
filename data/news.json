@@ -16427,7 +16427,26 @@
    "sub": "Aprobado por 77 votos a 19"
   },
   "addedAt": "2026-11-27T11:32:19Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Latvian parliament approves up to €175m guarantee to rescue airBaltic in December",
+   "summary": "The Saeima approved on 26 November, by 77 votes to 19, a Latvian government guarantee of up to €175m for airBaltic's financing. The lender requires it to release a €125m tranche, without which the airline could be forced to stop flying in mid-December.",
+   "why": "Another state rescue amid a wave of crises at mid-sized European airlines (Norse, Plus Ultra, Volotea); its outcome will test Brussels on state aid rules and could free up capacity in the Baltics.",
+   "body": [
+    {
+     "t": "The Latvian parliament (Saeima) approved on 26 November, in second and final reading and by 77 votes in favour to 19 against, the amendments to airBaltic's financial stabilisation law that authorise the government to guarantee up to €175m of the airline's payment obligations to private lenders. The process was fast-tracked: the government had approved the guarantee in principle on 24 November, and the Budget Committee backed it the following day by 9 votes to 2."
+    },
+    {
+     "t": "According to Transport Minister Krišs Lipšāns, the lender requires that guarantee to release a €125m tranche; the remaining €50m covers the interest on the loan. Lipšāns warned that without that second tranche, airBaltic could be forced to suspend operations in mid-December. The airline's legal team has asked for urgency in signing the guarantee before that date and presenting it to the US court."
+    },
+    {
+     "t": "airBaltic has been restructuring under Chapter 11 in the United States since 14 September. On 19 October, the bankruptcy court approved debtor-in-possession financing of up to €350m in three tranches, of which the airline has already drawn the first. The remaining two will only be released if the court gives priority to the new lenders over the 2029 bondholders, a decision it had not yet made."
+    },
+    {
+     "t": "The guarantee also needs approval from the European Commission under state aid rules. airBaltic expects to reduce its fleet of Airbus A220-300s from 54 to around 36 aircraft by the end of 2026, and announced in October that it could cut between 500 and 700 jobs from a workforce of about 3,000. According to Lipšāns, it must show progress in finding a strategic investor and refinancing its debt before spring 2027."
+    }
+   ]
+  }
  },
  {
   "id": "b-norse-arrendadores-rescision-12-787-9",
@@ -16484,7 +16503,23 @@
    "tail": "#0B2D4F"
   },
   "addedAt": "2026-11-27T11:32:19Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "AerCap and BOC Aviation terminate leases on Norse Atlantic's 12 Boeing 787-9s",
+   "summary": "Norse Atlantic has received notices from its lessors terminating the leases on the 12 Boeing 787-9s in its fleet, which it is contesting. The airline, which has suspended all flights, is seeking urgent financing and will file for bankruptcy if negotiations fail.",
+   "why": "The sudden return of 12 Boeing 787-9s to the market opens a fleet opportunity for European long-haul airlines at a time of aircraft shortages, and leaves a gap on the transatlantic route.",
+   "body": [
+    {
+     "t": "Norse Atlantic, the Norwegian long-haul airline, told the Oslo Stock Exchange on Friday 27 November that it has received notices from its lessors terminating the leases on all 12 aircraft in its fleet, all Boeing 787-9s. According to Paddle Your Own Kanoo, the lessors are AerCap and BOC Aviation. The company says it disputes the validity of those notices."
+    },
+    {
+     "t": "Norse warned earlier this week that its financial situation was “critical” and suspended all flights. According to Reuters, it continues to negotiate short-term financing, although “there is no guarantee that a viable solution will be found”. Its management is working on a possible sale of the company and, if talks fail, intends to file for bankruptcy."
+    },
+    {
+     "t": "According to Paddle Your Own Kanoo, unconfirmed reports suggest that one or both lessors have begun repossessing the aircraft, which are parked in Stockholm, Oslo and London Gatwick. Two of them, G-CKOF and G-CKWD, were due to fly on Friday to the facilities of Tarmac Aerosave at Teruel airport. Norse's shares were trading at 0.02 Norwegian kroner."
+    }
+   ]
+  }
  },
  {
   "id": "b-lufthansa-eurowings-air-france-vuelven-dubai",
