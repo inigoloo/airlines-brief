@@ -1,4 +1,4 @@
-# Likes del portal (últimos 45 días) · generado 2026-11-27T11:23+00:00
+# Likes del portal (últimos 45 días) · generado 2026-11-27T12:23+00:00
 
 Lo que el equipo marca con «me gusta» en la web. Úsalo para afinar el aiScore y la elección, junto con data/criterios.md:
 las noticias parecidas (mismo tipo, empresa o tema) a las más votadas tienen más peso; un tipo que nunca recibe likes, menos.
@@ -37,7 +37,7 @@ Los criterios explícitos del editor (data/criterios.md) mandan sobre esto si se
 
 - FIN: 42 noticias · 14 likes
 - STR: 33 noticias · 14 likes
-- NET: 61 noticias · 6 likes
+- NET: 62 noticias · 6 likes
 - FLT: 35 noticias · 3 likes
 - CUS: 19 noticias · 1 likes
 - REG: 17 noticias · 1 likes
@@ -47,8 +47,8 @@ Los criterios explícitos del editor (data/criterios.md) mandan sobre esto si se
 
 ## Destacadas frente a Breves (noticias · likes)
 
-- Destacada: 150 · 40
-- Breve: 125 · 0
+- Destacada: 155 · 40
+- Breve: 121 · 0
 
 ## Con aiScore alto (70+) y ningún like tras 3 días (quizá sobrevaloradas)
 
