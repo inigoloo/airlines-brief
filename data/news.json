@@ -15889,5 +15889,221 @@
   "imageId": "volotea-palma-luxemburgo-argel",
   "addedAt": "2026-11-27T09:36:45Z",
   "addedBy": "claude"
+ },
+ {
+  "id": "cesur-tarifas-iberia-vueling-andalucia-madrid",
+  "title": "Los empresarios del sur acusan a Iberia y Vueling de cobrar más de 300 euros a Andalucía",
+  "category": "CUS",
+  "publishedAt": "2026-11-27",
+  "source": "EFE (Infobae)",
+  "url": "https://www.infobae.com/espana/agencias/2026/11/27/empresarios-denuncian-tarifas-desorbitadas-de-iberia-y-vueling-entre-andalucia-y-madrid/",
+  "summary": "CESUR denuncia que Iberia y Vueling han vuelto a cobrar más de 300 euros entre Sevilla o Málaga y Madrid, sin AVE desde el accidente de Urda. El billete turista de Iberia para el 1 de diciembre costaba 348 euros a Málaga y 337 a Sevilla, frente a 260 a Valencia.",
+  "body": [
+   {
+    "t": "El Círculo de Empresarios del Sur de España (CESUR) denunció el viernes 27 de noviembre, en un comunicado recogido por EFE, que Iberia y Vueling han vuelto a ofrecer tarifas «desorbitadas», de más de 300 euros, en las conexiones entre Andalucía (Sevilla y Málaga) y Madrid. Según la patronal, otras compañías ofrecen vuelos el mismo día y en la misma ruta por 64 euros.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La comparación de CESUR toma el billete de Iberia en clase turista para el martes 1 de diciembre: 348 euros entre Madrid y Málaga y 337 euros entre Madrid y Sevilla, frente a 260 euros entre Madrid y Valencia para el mismo día. La organización calcula diferencias de precio de hasta el 34% respecto a otras rutas nacionales.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Los empresarios relacionan los precios con la falta de conexión ferroviaria de alta velocidad entre Madrid y Andalucía desde el accidente de Urda (Toledo) del 28 de octubre, y sostienen que el problema ha vuelto al bajar la atención mediática. CESUR califica la situación de «indignante» y recuerda que ya la había advertido semanas atrás.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Para CESUR «no es admisible» que las dificultades ferroviarias se conviertan en una oportunidad comercial a costa de ciudadanos y empresas del sur, por lo que exige «responsabilidad» a las aerolíneas. Pide más frecuencias diarias entre Madrid y Sevilla y Málaga mientras se revisa la infraestructura, y que las administraciones vigilen las tarifas, porque la falta de transporte a precios razonables es «un grave perjuicio» para la economía andaluza.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Infobae (EFE)",
+    "url": "https://www.infobae.com/espana/agencias/2026/11/27/empresarios-denuncian-tarifas-desorbitadas-de-iberia-y-vueling-entre-andalucia-y-madrid/",
+    "date": "2026-11-27"
+   },
+   {
+    "name": "El Debate",
+    "url": "https://www.eldebate.com/economia/20261127/empresarios-sur-denuncian-precios-desorbitados-iberia-vueling-entre-andalucia-madrid_485775.html",
+    "date": "2026-11-27"
+   }
+  ],
+  "why": "Vuelve la presión empresarial y política sobre los precios de Iberia y Vueling en el puente aéreo con Andalucía, una demanda cautiva mientras no hay AVE y que puede traer más vigilancia de las tarifas.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 55,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/bfda92f3-94cc-4831-8b4f-8f1c675c3885.jpeg",
+  "photoSource": "El Debate",
+  "art": {
+   "kind": "bars",
+   "title": "Billete turista de Iberia para el 1 de diciembre (euros)",
+   "bars": [
+    {
+     "l": "Madrid-Málaga",
+     "v": 348,
+     "t": "348 €"
+    },
+    {
+     "l": "Madrid-Sevilla",
+     "v": 337,
+     "t": "337 €"
+    },
+    {
+     "l": "Madrid-Valencia",
+     "v": 260,
+     "t": "260 €"
+    }
+   ]
+  },
+  "imageId": "cesur-tarifas-iberia-vueling-andalucia-madrid",
+  "addedAt": "2026-11-27T10:45:21Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "turespana-plazas-internacionales-diciembre-2026",
+  "title": "Las aerolíneas programan 9,5 millones de asientos internacionales a España en diciembre",
+  "category": "TUR",
+  "publishedAt": "2026-11-27",
+  "source": "PressDigital (Agencias)",
+  "url": "https://www.pressdigital.es/articulo/economia/2026-11-27/6111255-asientos-previstos-vuelos-internacionales-hacia-espana-diciembre-alcanzan-95-millones",
+  "summary": "Turespaña prevé cerca de 9,5 millones de asientos en vuelos internacionales hacia España en diciembre de 2026, un 5% más que los nueve millones de un año antes. Caen Reino Unido, Alemania y Francia, mientras Italia sube un 18%, México un 17,5% y Polonia más de un 13%.",
+  "body": [
+   {
+    "t": "Las aerolíneas tienen programados cerca de 9,5 millones de asientos en vuelos internacionales hacia España para diciembre de 2026, según los datos publicados el viernes 27 de noviembre por Turespaña. La cifra supone un aumento interanual del 5% frente a los nueve millones ofertados en el mismo mes del año anterior.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Los principales mercados emisores europeos muestran una tendencia negativa: la capacidad desde Reino Unido cae un 1,3%, la de Alemania un 1,2% y la de Francia un 3,5%. En cambio, Italia proyecta un crecimiento del 18% y Suiza, del 5,2%.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Polonia vuelve a destacar, con un crecimiento previsto superior al 13%, aunque inferior al de otros meses. Fuera de Europa, la oferta desde Estados Unidos retrocede un 3,5%, mientras que la de México sube un 17,5%; México es además el mercado iberoamericano con mayor volumen de capacidad programada en diciembre.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "PressDigital (Agencias)",
+    "url": "https://www.pressdigital.es/articulo/economia/2026-11-27/6111255-asientos-previstos-vuelos-internacionales-hacia-espana-diciembre-alcanzan-95-millones",
+    "date": "2026-11-27"
+   },
+   {
+    "name": "Demócrata (Agencias)",
+    "url": "https://www.democrata.es/economia/los-vuelos-internacionales-hacia-espana-en-diciembre-rozan-los-9-5-millones-de-plazas/",
+    "date": "2026-11-27"
+   }
+  ],
+  "why": "La capacidad hacia España sigue creciendo en invierno pese a la caída de Reino Unido, Alemania y Francia; el empuje de Italia, Polonia y México marca dónde compiten aerolíneas y aeropuertos españoles.",
+  "europe": true,
+  "aiScore": 66,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/6b39af89-65fe-4fa6-b557-7c62b70def1f.jpeg",
+  "photoSource": "Demócrata",
+  "art": {
+   "kind": "big",
+   "value": "+5%",
+   "label": "asientos internacionales a España en diciembre",
+   "sub": "cerca de 9,5 millones"
+  },
+  "imageId": "turespana-plazas-internacionales-diciembre-2026",
+  "addedAt": "2026-11-27T10:45:21Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "laser-estelar-caracas-madrid-tras-plus-ultra",
+  "title": "Laser y Estelar suman vuelos Caracas-Madrid en Navidad para cubrir el hueco que deja Plus Ultra",
+  "category": "NET",
+  "publishedAt": "2026-11-27",
+  "source": "Hosteltur",
+  "url": "https://www.hosteltur.com/180282_laser-y-estelar-mueven-ficha-mas-vuelos-venezuela-espana-tras-la-salida-de-plus-ultra.html",
+  "summary": "Tras el cese de Plus Ultra, Laser pasará de cinco a seis vuelos semanales Caracas-Madrid entre el 15 de diciembre y el 26 de enero, y Estelar de dos a tres con un A330-300 de Privilege Style. Entre ambas sumarán diez frecuencias semanales entre Venezuela y España.",
+  "body": [
+   {
+    "t": "Las aerolíneas venezolanas Laser y Estelar reforzarán sus vuelos a Madrid de cara a la Navidad, pocos días después de que Plus Ultra suspendiera todas sus operaciones el 23 de noviembre, según publicó Hosteltur el 27 de noviembre. Entre ambas sumarán diez frecuencias semanales entre Venezuela y España durante el periodo festivo: nueve desde Caracas y una desde Valencia.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Laser pasará de cinco a seis vuelos semanales entre Caracas y Madrid del 15 de diciembre de 2026 al 26 de enero de 2027, con carácter temporal, según adelantó Aviacionline. La aerolínea opera la ruta con Airbus A330 arrendados con tripulación a la portuguesa Hi Fly.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Estelar ha alquilado con tripulación un Airbus A330-300 a la española Privilege Style, con el que pasa de dos a tres frecuencias semanales entre Caracas y Madrid y mantiene su vuelo semanal Valencia (Venezuela)-Madrid. Según Aviacionline, Privilege Style incorporó este año ese modelo en configuración de alta densidad, con 396 asientos de clase turista.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Con la salida de Plus Ultra, la ruta Madrid-Caracas queda en manos de Iberia, Air Europa, Estelar y Laser, según Aviacionline; Hosteltur cifra en cinco las frecuencias semanales de Iberia y otras tantas de Air Europa. Plus Ultra ya había cancelado sus rutas a Lima y Buenos Aires, y Tenerife Norte se queda sin la conexión directa con Caracas que operaba.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Hosteltur",
+    "url": "https://www.hosteltur.com/180282_laser-y-estelar-mueven-ficha-mas-vuelos-venezuela-espana-tras-la-salida-de-plus-ultra.html",
+    "date": "2026-11-27"
+   },
+   {
+    "name": "Aviacionline",
+    "url": "https://www.aviacionline.com/english/commercial-aviation/latin-america-and-caribbean/venezuela/after-plus-ultra-suspension-laser-and-estelar-add-flights-between-caracas-and-madrid_a6b089f2eb16aca3377f8a353",
+    "date": "2026-11-26"
+   }
+  ],
+  "why": "El reparto de la demanda que deja Plus Ultra en Madrid-Caracas no será solo para Iberia y Air Europa: las venezolanas Laser y Estelar ganan frecuencias en plena temporada alta con aviones en wet lease.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 52,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/14411e15-c9e9-4342-a309-d7a09778abcc.jpeg",
+  "photoSource": "Hosteltur (Estelar)",
+  "art": {
+   "kind": "route",
+   "title": "Caracas-Madrid sin Plus Ultra",
+   "badge": "10 vuelos/semana",
+   "points": [
+    {
+     "code": "CCS",
+     "city": "Caracas",
+     "lat": 10.6,
+     "lon": -66.99
+    },
+    {
+     "code": "MAD",
+     "city": "Madrid",
+     "lat": 40.47,
+     "lon": -3.56
+    }
+   ]
+  },
+  "imageId": "laser-estelar-caracas-madrid-tras-plus-ultra",
+  "addedAt": "2026-11-27T10:45:21Z",
+  "addedBy": "claude"
  }
 ]
