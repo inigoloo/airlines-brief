@@ -390,7 +390,7 @@
    "pendiente": "autorización de la Comisión Europea y cierre de la compra",
    "desde": "2026-11-11",
    "rumores": 1,
-   "ultimaBusqueda": "2026-11-25 18:24"
+   "ultimaBusqueda": "2026-11-27 18:25"
   },
   {
    "tema": "Entrada de Lufthansa en TAP",
@@ -398,8 +398,8 @@
    "palabras": "TAP.*Lufthansa|Lufthansa.*TAP",
    "pendiente": "autorizaciones y cierre de la compra del 49,9%",
    "desde": "2026-11-02",
-   "rumores": 1,
-   "ultimaBusqueda": "2026-11-25 18:24"
+   "rumores": 0,
+   "ultimaBusqueda": "2026-11-27 18:25"
   },
   {
    "tema": "Futuro de Plus Ultra (venta, cierre o rescate)",
@@ -407,8 +407,8 @@
    "palabras": "Plus Ultra",
    "pendiente": "decisión de la SEPI, posible venta a Iberojet o concurso",
    "desde": "2026-11-23",
-   "rumores": 13,
-   "ultimaBusqueda": "2026-11-27 13:24"
+   "rumores": 15,
+   "ultimaBusqueda": "2026-11-27 18:25"
   },
   {
    "tema": "Air Europa: rescate, Turkish Airlines y procesos judiciales",
@@ -417,7 +417,7 @@
    "pendiente": "entrada o ampliación de Turkish, devolución del rescate, resoluciones judiciales",
    "desde": "2026-11-01",
    "rumores": 0,
-   "ultimaBusqueda": "2026-11-26 18:25"
+   "ultimaBusqueda": "2026-11-27 18:25"
   }
  ],
  "urgentesVistos": [
