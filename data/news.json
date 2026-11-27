@@ -16368,39 +16368,122 @@
  },
  {
   "id": "b-airbaltic-aval-estado-175m-parlamento",
-  "kind": "brief",
-  "title": "El Parlamento letón aprueba que el Gobierno avale a airBaltic con hasta 175 millones de euros",
-  "summary": "La cámara aprobó las enmiendas legales que permiten al Ejecutivo conceder una garantía estatal de hasta 175 millones de euros a la aerolínea.",
-  "en": {
-   "title": "Latvian parliament backs state guarantee of up to €175m for airBaltic",
-   "summary": "Parliament approved legislative amendments allowing the government to provide a state guarantee of up to €175m to the airline."
-  },
+  "title": "El Parlamento letón autoriza un aval de hasta 175 millones para salvar a airBaltic en diciembre",
+  "category": "FIN",
+  "publishedAt": "2026-11-26",
   "source": "AeroTime",
   "url": "https://www.aerotime.aero/articles/latvia-parliament-airbaltic-state-guarantee",
-  "thumb": "https://www.aerotime.aero/images/2025/07/AB2.jpg",
-  "publishedAt": "2026-11-26",
-  "category": "FIN",
-  "aiScore": 62,
+  "summary": "El Saeima aprobó el 26 de noviembre, por 77 votos a 19, que Letonia avale con hasta 175 millones de euros la financiación de airBaltic. El prestamista lo exige para liberar un tramo de 125 millones sin el que la aerolínea podría dejar de volar a mediados de diciembre.",
+  "body": [
+   {
+    "t": "El Parlamento de Letonia (Saeima) aprobó el 26 de noviembre, en segunda y última lectura y por 77 votos a favor y 19 en contra, las enmiendas a la ley de estabilización financiera de airBaltic que autorizan al Gobierno a avalar con hasta 175 millones de euros las obligaciones de pago de la aerolínea con prestamistas privados. La tramitación fue urgente: el Gobierno había aprobado el aval en principio el 24 de noviembre y la Comisión de Presupuestos lo respaldó al día siguiente por 9 votos a 2.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Según el ministro de Transportes, Krišs Lipšāns, el prestamista exige esa garantía para liberar un tramo de 125 millones de euros; los 50 millones restantes cubren los intereses del préstamo. Lipšāns advirtió de que, sin ese segundo tramo, airBaltic podría verse obligada a suspender sus operaciones a mediados de diciembre. Los servicios jurídicos de la aerolínea pidieron urgencia para firmar el aval antes de esa fecha y presentarlo ante el tribunal estadounidense.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "airBaltic está en un proceso de reestructuración bajo el Capítulo 11 en Estados Unidos desde el 14 de septiembre. El 19 de octubre, el tribunal de quiebras aprobó una financiación DIP de hasta 350 millones de euros en tres tramos, de los que la compañía ya ha dispuesto el primero. Los dos restantes solo se liberarán si el tribunal da prioridad a los nuevos prestamistas sobre los bonistas de 2029, algo que aún no había decidido.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El aval necesita además la autorización de la Comisión Europea conforme a las normas de ayudas de Estado. airBaltic prevé reducir su flota de Airbus A220-300 de 54 a unos 36 aviones a finales de 2026 y anunció en octubre que podría recortar entre 500 y 700 empleos de una plantilla de unos 3.000. Según Lipšāns, deberá demostrar avances en la búsqueda de un inversor estratégico y la refinanciación de su deuda antes de la primavera de 2027.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "AeroTime",
+    "url": "https://www.aerotime.aero/articles/latvia-parliament-airbaltic-state-guarantee",
+    "date": "2026-11-26"
+   },
+   {
+    "name": "LSM",
+    "url": "https://eng.lsm.lv/article/economy/transport/25.11.2026-saeima-committee-advances-airbaltic-state-guarantee.a673413/",
+    "date": "2026-11-25"
+   }
+  ],
+  "why": "Es otro rescate estatal en plena ola de crisis de aerolíneas europeas medianas (Norse, Plus Ultra, Volotea); su desenlace pondrá a prueba a Bruselas en ayudas de Estado y puede liberar capacidad en el Báltico.",
   "europe": true,
-  "addedAt": "2026-11-27T11:10:44Z",
+  "aiScore": 62,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/156aecdf-66a3-4b37-a797-63e7c4065440.jpeg",
+  "imageId": "b-airbaltic-aval-estado-175m-parlamento",
+  "photoSource": "AeroTime (Shutterstock)",
+  "art": {
+   "kind": "big",
+   "value": "175 M€",
+   "label": "aval del Estado letón a airBaltic",
+   "sub": "Aprobado por 77 votos a 19"
+  },
+  "addedAt": "2026-11-27T11:32:19Z",
   "addedBy": "claude"
  },
  {
   "id": "b-norse-arrendadores-rescision-12-787-9",
-  "kind": "brief",
-  "title": "Norse Atlantic recibe avisos de rescisión de arrendamiento de sus 12 Boeing 787-9 y los impugna",
-  "summary": "Tras suspender todos sus vuelos el 25 de noviembre por falta de liquidez, la aerolínea discute la validez de las notificaciones de sus arrendadores.",
-  "en": {
-   "title": "Norse Atlantic receives lease termination notices on all 12 Boeing 787-9s and contests them",
-   "summary": "After suspending all flights on 25 November over a liquidity crisis, the airline is disputing the validity of its lessors' notices."
-  },
-  "source": "Travel Extra",
-  "url": "https://www.travelextra.ie/norse-atlantic-contests-validity-of-lease-termination-notices-from-boc-aercap/",
-  "publishedAt": "2026-11-27",
+  "title": "AerCap y BOC Aviation rescinden el arrendamiento de los 12 Boeing 787-9 de Norse Atlantic",
   "category": "MRO",
-  "aiScore": 60,
+  "publishedAt": "2026-11-27",
+  "source": "Paddle Your Own Kanoo",
+  "url": "https://www.paddleyourownkanoo.com/2026/11/27/lessors-move-to-reclaim-norse-atlantics-entire-boeing-787-fleet-as-airline-battles-for-survival/",
+  "summary": "Norse Atlantic ha recibido avisos de rescisión de los contratos de arrendamiento de los 12 Boeing 787-9 de su flota, que impugna. La aerolínea, que ha suspendido todos sus vuelos, busca financiación urgente y pedirá la quiebra si fracasan las negociaciones.",
+  "body": [
+   {
+    "t": "La aerolínea noruega de largo radio Norse Atlantic comunicó el viernes 27 de noviembre a la Bolsa de Oslo que ha recibido de sus arrendadores avisos de rescisión de los contratos de arrendamiento de los 12 aviones de su flota, todos Boeing 787-9. Según Paddle Your Own Kanoo, los arrendadores son AerCap y BOC Aviation. La compañía afirma que impugna la validez de esas notificaciones.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Norse advirtió esta semana de que su situación financiera era «crítica» y suspendió todos sus vuelos. Según Reuters, sigue negociando para obtener financiación a corto plazo, aunque «no hay garantía de que se encuentre una solución viable». Su dirección trabaja en una posible compra de la compañía y, si las conversaciones fracasan, tiene intención de solicitar la quiebra.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Según Paddle Your Own Kanoo, informaciones no confirmadas apuntan a que uno o ambos arrendadores han iniciado la recuperación de los aviones, aparcados en Estocolmo, Oslo y Londres-Gatwick. Dos de ellos, G-CKOF y G-CKWD, debían volar el viernes a las instalaciones de Tarmac Aerosave en el aeropuerto de Teruel. Las acciones de Norse cotizaban a 0,02 coronas noruegas.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Paddle Your Own Kanoo",
+    "url": "https://www.paddleyourownkanoo.com/2026/11/27/lessors-move-to-reclaim-norse-atlantics-entire-boeing-787-fleet-as-airline-battles-for-survival/",
+    "date": "2026-11-27"
+   },
+   {
+    "name": "Reuters (Euronext)",
+    "url": "https://live.euronext.com/en/financial-news/norse-atlantic-says-lessors-terminate-aircraft-agreements",
+    "date": "2026-11-27"
+   }
+  ],
+  "why": "La vuelta al mercado de 12 Boeing 787-9 de golpe abre una oportunidad de flota para aerolíneas europeas de largo radio, en un momento de escasez de aviones, y deja hueco en la ruta transatlántica.",
   "europe": true,
-  "addedAt": "2026-11-27T11:10:44Z",
+  "aiScore": 60,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/be8be2d0-b8aa-4c08-944e-a6b5b1e78f54.jpeg",
+  "imageId": "b-norse-arrendadores-rescision-12-787-9",
+  "photoSource": "Reuters (Euronext)",
+  "art": {
+   "kind": "plane",
+   "value": "12",
+   "label": "Boeing 787-9 con el arrendamiento rescindido",
+   "tail": "#0B2D4F"
+  },
+  "addedAt": "2026-11-27T11:32:19Z",
   "addedBy": "claude"
  },
  {
