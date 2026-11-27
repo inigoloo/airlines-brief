@@ -389,7 +389,7 @@
    "palabras": "easyJet.*Apollo|Apollo.*easyJet",
    "pendiente": "autorización de la Comisión Europea y cierre de la compra",
    "desde": "2026-11-11",
-   "rumores": 0,
+   "rumores": 1,
    "ultimaBusqueda": "2026-11-25 18:24"
   },
   {
@@ -398,7 +398,7 @@
    "palabras": "TAP.*Lufthansa|Lufthansa.*TAP",
    "pendiente": "autorizaciones y cierre de la compra del 49,9%",
    "desde": "2026-11-02",
-   "rumores": 0,
+   "rumores": 1,
    "ultimaBusqueda": "2026-11-25 18:24"
   },
   {
@@ -407,8 +407,8 @@
    "palabras": "Plus Ultra",
    "pendiente": "decisión de la SEPI, posible venta a Iberojet o concurso",
    "desde": "2026-11-23",
-   "rumores": 14,
-   "ultimaBusqueda": "2026-11-26 13:30"
+   "rumores": 13,
+   "ultimaBusqueda": "2026-11-27 13:24"
   },
   {
    "tema": "Air Europa: rescate, Turkish Airlines y procesos judiciales",
@@ -416,7 +416,7 @@
    "palabras": "Air Europa.*(Turkish|rescate|SEPI)|Turkish.*Air Europa",
    "pendiente": "entrada o ampliación de Turkish, devolución del rescate, resoluciones judiciales",
    "desde": "2026-11-01",
-   "rumores": 1,
+   "rumores": 0,
    "ultimaBusqueda": "2026-11-26 18:25"
   }
  ],
