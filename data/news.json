@@ -14965,6 +14965,22 @@
    "value": "3",
    "label": "grandes grupos turísticos españoles",
    "sub": "Ávoris, Viajes El Corte Inglés y W2M"
+  },
+  "en": {
+   "title": "Air Europa deepens ties with Ávoris, El Corte Inglés travel and W2M to fill its long-haul flights",
+   "summary": "Air Europa is stepping up its collaboration with Ávoris, Viajes El Corte Inglés and W2M to lift occupancy, particularly on long-haul routes, and to secure advance bookings. Ávoris is transferring part of the Caribbean capacity of its own airline, Iberojet, to Air Europa.",
+   "why": "Securing traffic from Spain's largest tour operators strengthens Air Europa's long-haul occupancy out of Madrid, where it competes with Iberia for Caribbean and Latin American routes.",
+   "body": [
+    {
+     "t": "Air Europa is intensifying its collaboration with Spain's three largest travel groups, Ávoris, Viajes El Corte Inglés and W2M, according to a report published on 26 November by the German portal aeroTELEGRAPH, based on information from Preferente. The aim is to raise occupancy, particularly on long-haul flights, and to secure bookings in advance."
+    },
+    {
+     "t": "Ávoris is transferring part of its Caribbean offering to Air Europa, from its own airline, Iberojet. In addition, its tour operator Travelplan offers free connecting flights to Madrid from numerous Spanish cities, as well as from Lisbon and Porto."
+    },
+    {
+     "t": "Tourmundial, the tour operator of El Corte Inglés, relies on Air Europa, among other destinations, for its packages to New York, the Caribbean and European capitals. W2M, the group to which World2Fly belongs, is working with the airline again on winter trips to Finnish Lapland."
+    }
+   ]
   }
  },
  {
@@ -15593,7 +15609,26 @@
   },
   "imageId": "plus-ultra-cierre-ere-659-empleados",
   "addedAt": "2026-11-27T09:36:45Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Plus Ultra proposes closing down and dismissing all 659 staff as it heads for insolvency",
+   "summary": "On 26 November Plus Ultra told unions it intends to cease operations and dismiss its entire workforce of 659. The airline, in pre-insolvency and without an investor, is heading for insolvency proceedings and owes a €53m bailout to the SEPI state holding company.",
+   "why": "The closure of Plus Ultra removes a competitor of Iberia and Air Europa on Madrid–Latin America routes and leaves in doubt the repayment of the €53m public bailout from SEPI.",
+   "body": [
+    {
+     "t": "On Thursday 26 November, Plus Ultra informed employee representatives of its intention to close its operations and dismiss all 659 of its staff, at the second meeting of the consultation period for the collective redundancy process. The decision follows the airline's suspension of all operations, after negotiations and a review of financial alternatives that did not materialise, according to union sources."
+    },
+    {
+     "t": "At the first meeting, held on 20 November, the company had proposed a redundancy plan affecting between 210 and 270 positions, up to 40% of the workforce, and a temporary layoff scheme (ERTE) with working-hour reductions of between 10% and 70% depending on the group. Now, according to El Español, it only proposes keeping a minimum structure to retain its Air Operator Certificate (AOC), a matter it must discuss with the State Agency for Air Safety (AESA)."
+    },
+    {
+     "t": "The airline is in pre-insolvency, a situation worsened by rising fuel costs, and says it is heading for insolvency proceedings, which it has not yet filed, with no investor in place. According to union sources, the company maintains that there is “no liquidity” and could struggle to pay November's payroll. Its main creditor is SEPI, which rescued it with €53m."
+    },
+    {
+     "t": "USO Sector Aéreo says the economic documentation is insufficient and calls for the procedure to be restarted “from the beginning” and referred to the Labour Inspectorate. “The feeling this meeting leaves us with is that there is far too much haste to liquidate the company and get rid of the workers,” the union said, adding that the Madrid regional labour directorate has asked the company to complete the documentation."
+    }
+   ]
+  }
  },
  {
   "id": "ba-xl-bins-22-a320neo",
@@ -15666,7 +15701,26 @@
   },
   "imageId": "ba-xl-bins-22-a320neo",
   "addedAt": "2026-11-27T09:36:45Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "British Airways to fit XL overhead bins to 22 A320neo and A321neo aircraft to speed up boarding",
+   "summary": "British Airways will refit 22 aircraft from the A320 family, 12 A320neos and 10 A321neos, with Airbus's XL overhead bins, which hold around 60% more luggage. Work begins before year-end and half the fleet will be ready before summer 2027.",
+   "why": "Fewer bags taken to the gate means faster boarding and better punctuality, which matter greatly on British Airways' short-haul network; according to the press, Iberia has already chosen the smaller version for its A320ceos.",
+   "body": [
+    {
+     "t": "British Airways will install Airbus's oversized XL Locker overhead bins on 22 short-haul aircraft of the A320 family, 12 A320neos and 10 A321neos, according to a report published on 26 November by Paddle Your Own Kanoo. These are aircraft between five and eight years old that were delivered without this option, which the airline declined when it took delivery."
+    },
+    {
+     "t": "According to these outlets, the new compartments hold around 60% more luggage than the previous ones and allow up to eight cabin bags to be stowed sideways in each one. Aviation A2Z attributes to Airbus a 40% increase in volume and up to 60% more bags than the previous generation."
+    },
+    {
+     "t": "Work will begin before the end of 2026, and around 11 aircraft, half the fleet, will be ready before summer 2027. The A320neos and A321neos that British Airways received later already incorporate these overhead bins."
+    },
+    {
+     "t": "The aim is to reduce the number of cabin bags checked at the gate and speed up boarding; according to Paddle Your Own Kanoo, the main motivation is to avoid delays. For the A320ceos, Airbus offers a slightly smaller version which, according to that outlet, has been chosen by Lufthansa and Iberia."
+    }
+   ]
+  }
  },
  {
   "id": "el-prat-fin-obras-pista-unica",
@@ -15737,7 +15791,26 @@
   },
   "imageId": "el-prat-fin-obras-pista-unica",
   "addedAt": "2026-11-27T09:36:45Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "El Prat returns to two runways after works that cost it 1,441 slots in 10 days",
+   "summary": "Aena completed on 26 November, a few hours ahead of schedule, the works on runway 02/20 that had forced El Prat to operate on a single runway. The restriction, which began on 16 November, removed 1,441 slots, about 15% of operations.",
+   "why": "El Prat is Vueling's hub: ten days on a single runway forced airlines to cut schedules, and the new rapid exit taxiway aims to reduce queues and taxi times, which is key to punctuality.",
+   "body": [
+    {
+     "t": "Aena completed on Thursday 26 November the works on runway 02/20 at Josep Tarradellas Barcelona-El Prat airport that had forced operations onto a single runway, a few hours earlier than expected, according to the airport operator. The planning was based on the airport's historical weather data."
+    },
+    {
+     "t": "From 16 November, El Prat operated on a single runway as runway 02/20, the crosswind runway, and runway 06L/24R were closed at the same time. According to Aena data reported by Metrópoli Abierta, the restriction removed 1,441 take-off and landing slots over ten days, around 15% of normal operations; airlines had already adjusted their schedules in advance."
+    },
+    {
+     "t": "The works consisted of a new rapid exit on runway 02/20, connected to taxiway T4, at a cost of €3.1m. They do not increase the airport's declared capacity, and the new exit is not yet operational. According to Aena, it will allow “aircraft to leave the runway sooner” and will reduce queues, manoeuvres and taxi times, with lower fuel consumption, emissions and noise."
+    },
+    {
+     "t": "The remaining phases do not affect operational capacity. According to Metrópoli Abierta, night works and occasional closures will continue until the first half of December, depending on the weather. During the single-runway period, it was not necessary to operate in the eastern configuration, which minimised noise impact on nearby municipalities, according to Aena."
+    }
+   ]
+  }
  },
  {
   "id": "air-france-klm-nuevo-nombre-holding",
@@ -15813,7 +15886,26 @@
   },
   "imageId": "air-france-klm-nuevo-nombre-holding",
   "addedAt": "2026-11-27T09:36:45Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Air France-KLM to unveil new name for its holding company on 3 December while keeping its brands",
+   "summary": "Air France-KLM will present a new name for its holding company on 3 December, according to La Tribune, and the group speaks of “a new era”. Air France, KLM and Transavia will keep their brands; the change is aimed mainly at investors and institutional partners.",
+   "why": "A holding company with its own brand, separate from Air France and KLM, brings AF-KLM closer to IAG's multi-brand model and makes it easier to integrate SAS, amid European consolidation involving Lufthansa and TAP.",
+   "body": [
+    {
+     "t": "The Air France-KLM group will unveil a new name for its holding company on 3 December, as first reported by La Tribune and picked up on 25 November by Dutch media such as Luchtvaartnieuws. The company has called the press to an event that Thursday afternoon and speaks of starting “a new era”, although a spokesperson declined to give further details."
+    },
+    {
+     "t": "According to Air Journal, Air France, KLM and Transavia will retain their commercial brands, and the change is aimed mainly at investors and institutional partners, with little effect for travellers. Luchtvaartnieuws explains that the aim is to avoid confusion between the name of the holding company and those of the airlines it groups together."
+    },
+    {
+     "t": "The new name is not yet known. In the spring, “The Blue Group” was speculated, something chief executive Benjamin Smith denied: “That's not true”. In June, at the Paris Air Forum, Smith said: “We try to keep the brand as far away from consumers as possible”, who should focus on each airline, among which he cited KLM, Air France, Transavia and, soon, SAS."
+    },
+    {
+     "t": "The change coincides with the SAS deal: in July 2025, Air France-KLM announced it would raise its stake in the Scandinavian airline from 19.9% to 60.5%, with completion expected in the second half of 2026. Media outlets compare this with IAG, created in 2011 by British Airways and Iberia, which kept their brands."
+    }
+   ]
+  }
  },
  {
   "id": "volotea-palma-luxemburgo-argel",
@@ -15888,7 +15980,26 @@
   },
   "imageId": "volotea-palma-luxemburgo-argel",
   "addedAt": "2026-11-27T09:36:45Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Volotea to open routes from Palma to Luxembourg and Algiers in 2027 and reach 25 destinations on the island",
+   "summary": "Volotea will link Palma de Mallorca with Luxembourg from 10 April, with one weekly flight, and with Algiers from 25 June, with two a week. With these additions, the airline will operate 25 routes from Palma in the 2027 summer season.",
+   "why": "Volotea is strengthening its Palma base with low-frequency routes that face no direct competition, along with its codeshare with Eurowings, a niche strategy that contests Balearic summer traffic with Vueling.",
+   "body": [
+    {
+     "t": "Volotea has announced two new routes from Palma de Mallorca, to Luxembourg and Algiers, for the 2027 spring-summer season, according to a press release issued on 26 November. Tickets are already on sale on its website."
+    },
+    {
+     "t": "The Luxembourg route will start on 10 April with one weekly flight, on Saturdays, while the Algiers route will begin on 25 June with two weekly frequencies, on Tuesdays and Fridays."
+    },
+    {
+     "t": "With these additions, Volotea will have 25 routes from Palma airport: four domestic (Asturias, Bilbao, Salamanca and San Sebastián), nine to France, including Bordeaux, Lyon, Marseille and Toulouse, and ten to Germany and Austria operated under codeshare with Eurowings."
+    },
+    {
+     "t": "“Since our arrival in Mallorca in 2012, we have worked to expand and diversify our destination offering,” said Gabriel Schmilovich, Volotea's director general of strategy."
+    }
+   ]
+  }
  },
  {
   "id": "cesur-tarifas-iberia-vueling-andalucia-madrid",
@@ -15969,7 +16080,26 @@
   },
   "imageId": "cesur-tarifas-iberia-vueling-andalucia-madrid",
   "addedAt": "2026-11-27T10:45:21Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Southern business leaders accuse Iberia and Vueling of charging over €300 to Andalusia",
+   "summary": "CESUR says Iberia and Vueling have again charged more than €300 on flights between Seville or Málaga and Madrid, with no high-speed rail link since the Urda accident. Iberia's economy fare for 1 December cost €348 to Málaga and €337 to Seville, compared with €260 to Valencia.",
+   "why": "Business and political pressure over Iberia and Vueling fares on the Andalusia air shuttle is mounting again; demand is captive while high-speed rail is unavailable, and the scrutiny could lead to closer monitoring of fares.",
+   "body": [
+    {
+     "t": "The Southern Spain Business Circle (CESUR) said on Friday 27 November, in a statement reported by EFE, that Iberia and Vueling have again offered “outrageous” fares of over €300 on connections between Andalusia (Seville and Málaga) and Madrid. According to the employers' body, other airlines offer flights on the same day and route for €64."
+    },
+    {
+     "t": "CESUR's comparison uses the Iberia economy fare for Tuesday 1 December: €348 between Madrid and Málaga and €337 between Madrid and Seville, compared with €260 between Madrid and Valencia on the same day. The organisation calculates price differences of up to 34% compared with other domestic routes."
+    },
+    {
+     "t": "The business leaders link the prices to the lack of a high-speed rail connection between Madrid and Andalusia since the accident at Urda (Toledo) on 28 October, and argue that the problem has returned as media attention has waned. CESUR describes the situation as “outrageous” and recalls that it had warned of this several weeks earlier."
+    },
+    {
+     "t": "CESUR says it is “not acceptable” for rail difficulties to become a commercial opportunity at the expense of citizens and businesses in the south, and demands “responsibility” from the airlines. It calls for more daily frequencies between Madrid and Seville and Málaga while the infrastructure is being reviewed, and for the authorities to monitor fares, as the lack of transport at reasonable prices is “a serious harm” to the Andalusian economy."
+    }
+   ]
+  }
  },
  {
   "id": "turespana-plazas-internacionales-diciembre-2026",
@@ -16025,7 +16155,23 @@
   },
   "imageId": "turespana-plazas-internacionales-diciembre-2026",
   "addedAt": "2026-11-27T10:45:21Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Airlines schedule 9.5 million international seats to Spain in December",
+   "summary": "Turespaña expects around 9.5 million seats on international flights to Spain in December 2026, 5% more than the 9 million of a year earlier. Capacity from the United Kingdom, Germany and France is falling, while Italy is up 18%, Mexico 17.5% and Poland more than 13%.",
+   "why": "Capacity to Spain continues to grow in winter despite declines from the United Kingdom, Germany and France; the momentum from Italy, Poland and Mexico shows where Spanish airlines and airports are competing.",
+   "body": [
+    {
+     "t": "Airlines have scheduled around 9.5 million seats on international flights to Spain for December 2026, according to data published on Friday 27 November by Turespaña, the Spanish tourism board. The figure represents a 5% year-on-year increase on the 9 million offered in the same month of the previous year."
+    },
+    {
+     "t": "The main European source markets show a negative trend: capacity from the United Kingdom is down 1.3%, from Germany 1.2% and from France 3.5%. By contrast, Italy projects growth of 18% and Switzerland 5.2%."
+    },
+    {
+     "t": "Poland stands out again, with expected growth of more than 13%, although lower than in other months. Outside Europe, capacity from the United States is down 3.5%, while that from Mexico is up 17.5%; Mexico is also the Ibero-American market with the largest volume of scheduled capacity in December."
+    }
+   ]
+  }
  },
  {
   "id": "laser-estelar-caracas-madrid-tras-plus-ultra",
@@ -16104,6 +16250,25 @@
   },
   "imageId": "laser-estelar-caracas-madrid-tras-plus-ultra",
   "addedAt": "2026-11-27T10:45:21Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Laser and Estelar add Caracas–Madrid flights over Christmas to cover the gap left by Plus Ultra",
+   "summary": "Following Plus Ultra's halt, Laser will go from five to six weekly Caracas–Madrid flights between 15 December and 26 January, and Estelar from two to three with an A330-300 from Privilege Style. Together they will add ten weekly frequencies between Venezuela and Spain.",
+   "why": "The redistribution of demand left by Plus Ultra on Madrid–Caracas will not go only to Iberia and Air Europa: the Venezuelan carriers Laser and Estelar are gaining frequencies at the height of the peak season with wet-leased aircraft.",
+   "body": [
+    {
+     "t": "The Venezuelan airlines Laser and Estelar will boost their flights to Madrid for Christmas, a few days after Plus Ultra suspended all its operations on 23 November, according to a report published by Hosteltur on 27 November. Together they will add ten weekly frequencies between Venezuela and Spain over the holiday period: nine from Caracas and one from Valencia."
+    },
+    {
+     "t": "Laser will go from five to six weekly flights between Caracas and Madrid from 15 December 2026 to 26 January 2027, on a temporary basis, according to Aviacionline. The airline operates the route with Airbus A330s leased with crew from Portugal's Hi Fly."
+    },
+    {
+     "t": "Estelar has leased an Airbus A330-300 with crew from Spain's Privilege Style, which takes it from two to three weekly frequencies between Caracas and Madrid, and maintains its weekly Valencia (Venezuela)–Madrid flight. According to Aviacionline, Privilege Style added this model earlier this year in a high-density configuration, with 396 economy seats."
+    },
+    {
+     "t": "With Plus Ultra gone, the Madrid–Caracas route is left to Iberia, Air Europa, Estelar and Laser, according to Aviacionline; Hosteltur puts Iberia at five weekly frequencies and Air Europa at the same number. Plus Ultra had already cancelled its routes to Lima and Buenos Aires, and Tenerife North loses the direct connection to Caracas it had operated."
+    }
+   ]
+  }
  }
 ]
