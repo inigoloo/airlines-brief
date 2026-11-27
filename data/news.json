@@ -16345,7 +16345,26 @@
    ]
   },
   "addedAt": "2026-11-27T11:29:47Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Heathrow seeks to recover another £304m through charges to prepare third runway",
+   "summary": "Heathrow expects to spend up to £304m between January and June 2027 preparing its third runway application. The CAA is consulting on whether these early costs, up to roughly £700m, should be recovered through charges over 20 years: between 60 and 70 pence per passenger.",
+   "why": "Heathrow's charges are a key cost for British Airways at its hub: loading the early third-runway costs into them would raise IAG's operating costs years before any new capacity exists.",
+   "body": [
+    {
+     "t": "Heathrow Airport Limited has told the UK Civil Aviation Authority (CAA) that it expects to spend up to £304m in the first half of 2027 preparing its Development Consent Order application for a third runway, which it wants to submit before the end of that year. This sum is on top of around £320m in early development costs already incurred in 2025 and 2026."
+    },
+    {
+     "t": "The CAA has opened a consultation on whether Heathrow and rival promoter Heathrow West can recover these costs through airport charges over 20 years. Heathrow West, backed by hotelier Surinder Arora, estimates £46m in 2026 and £35m in the first half of 2027."
+    },
+    {
+     "t": "If the proposals are approved, the recoverable early costs of both projects could reach around £700m for 2025 to June 2027, a figure Travel PR News describes as a ceiling rather than a new concession. According to the regulator's estimate, recovering them over 20 years would add between 60 and 70 pence per passenger journey, compared with an average charge of around £26 today."
+    },
+    {
+     "t": "The CAA plans a further consultation in spring 2027 and a final decision on this additional recovery in summer 2027. According to Aviation A2Z, British Airways and Virgin Atlantic have backed a shorter runway option to contain the cost of the expansion, estimated at £33bn, while IAG has argued that greater capacity and connectivity must be accompanied by effective cost control."
+    }
+   ]
+  }
  },
  {
   "id": "b-airbaltic-aval-estado-175m-parlamento",
@@ -16483,7 +16502,26 @@
    "tail": "#0F9BD7"
   },
   "addedAt": "2026-11-27T11:29:47Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Aergo Capital sells two Boeing 737-800s to Magellan, one leased to Air Europa Express",
+   "summary": "Dublin-based lessor Aergo Capital has sold two Boeing 737-800s to Magellan Aviation Group, which were leased to Aeronova (Air Europa Express) and Trinity Airways. It is the second deal between the two companies, and Magellan will use the aircraft to feed its used serviceable material (USM) and engine leasing business.",
+   "why": "The change of ownership of an Air Europa Express 737-800 towards a buyer of parts and engines points to the future dismantling of these aircraft and affects the regional fleet of Iberia's rival in Madrid.",
+   "body": [
+    {
+     "t": "Dublin-based lessor Aergo Capital has completed the sale of two Boeing 737-800s, serial numbers 40259 and 34989, to Magellan Aviation Group. The transaction, announced by Aergo on 24 November and reported by AviTrader on the 27th, is the second between the two companies."
+    },
+    {
+     "t": "The aircraft are leased to Aeronova S.L.U. and Trinity Airways. According to AviTrader, Aeronova is Air Europa Express, the regional subsidiary of Air Europa, and one of the two aircraft sold is currently flying for it."
+    },
+    {
+     "t": "“We are pleased to announce the successful sale of two Boeing 737-800s to Magellan,” said Paul Sheridan, chief executive of Aergo Capital. David Rushe, chairman and chief executive of Magellan Aviation Group, explained that the company is seeking to build a portfolio of assets to feed its used serviceable material (USM) business and its engine leasing pool."
+    },
+    {
+     "t": "Aergo, founded in Dublin in 1999, has more than $5.2bn in aircraft owned and managed, operating in over 40 countries, according to its statement. The law firm Smith Gambrell & Russell acted as lead legal adviser to Aergo."
+    }
+   ]
+  }
  },
  {
   "id": "b-mag-motores-genx-16-787",
@@ -16650,6 +16688,22 @@
    ]
   },
   "addedAt": "2026-11-27T11:29:47Z",
-  "addedBy": "claude"
+  "addedBy": "claude",
+  "en": {
+   "title": "Iberia resumes Madrid winter flights to Rovaniemi and Tromsø this weekend",
+   "summary": "Iberia returns to Rovaniemi from Madrid this Saturday and to Tromsø on Sunday, running until the end of February. Rovaniemi will have six weekly flights until 20 December and daily flights over Christmas; Tromsø will have two a week, on Thursdays and Sundays.",
+   "why": "Iberia is consolidating seasonal niche destinations in northern Europe to fill short- and medium-haul aircraft from Madrid during winter, capitalising on Christmas demand in Lapland.",
+   "body": [
+    {
+     "t": "Iberia is resuming its winter routes from Madrid to Rovaniemi (Finland) and Tromsø (Norway) this weekend, the airline announced in a statement on Friday 27 November. The first flight to Rovaniemi departs this Saturday, and the Tromsø service follows a day later."
+    },
+    {
+     "t": "The Rovaniemi route will operate six weekly frequencies until 20 December, daily flights between 21 December and 3 January, four weekly from 4 January and two weekly in February, up to the 27th of that month. Tromsø will have two weekly flights, on Thursdays and Sundays, until 28 February."
+    },
+    {
+     "t": "It is the fourth consecutive year Iberia has served Rovaniemi, a route it opened in December 2023, and the third winter running to Tromsø, which it has flown since winter 2024."
+    }
+   ]
+  }
  }
 ]
