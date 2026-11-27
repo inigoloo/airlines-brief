@@ -14918,23 +14918,54 @@
  },
  {
   "id": "b-air-europa-agencias-avoris-vtc-w2m",
-  "kind": "brief",
-  "title": "Air Europa refuerza su colaboración con Ávoris, Viajes El Corte Inglés y W2M",
-  "summary": "La aerolínea que dirige Richard Clark ha ido estrechando en los últimos años su relación con los tres grandes grupos de distribución turística de España, según Preferente.",
-  "en": {
-   "title": "Air Europa strengthens its ties with Ávoris, Viajes El Corte Inglés and W2M",
-   "summary": "The airline led by Richard Clark has been deepening its relationship with Spain's three largest travel distribution groups in recent years, according to Preferente."
-  },
-  "source": "Preferente",
-  "url": "https://www.preferente.com/noticias-de-agencias-de-viajes/air-europa-estrecha-lazos-con-avoris-viajes-el-corte-ingles-y-w2m-347271.html",
-  "thumb": "https://www.preferente.com/wp-content/uploads/2025/10/Boeing-787-Dreamliner-air-europa-300x184.jpg",
-  "publishedAt": "2026-11-26",
+  "title": "Air Europa estrecha lazos con Ávoris, Viajes El Corte Inglés y W2M para llenar su largo radio",
   "category": "CUS",
-  "aiScore": 40,
+  "publishedAt": "2026-11-26",
+  "source": "aeroTELEGRAPH",
+  "url": "https://www.aerotelegraph.com/ticker/air-europa-setzt-verstaerkt-auf-grosse-spanische-reiseveranstalter/ncpty6f",
+  "summary": "Air Europa intensifica su colaboración con Ávoris, Viajes El Corte Inglés y W2M para elevar su ocupación, sobre todo en el largo radio, y asegurar reservas con antelación. Ávoris traslada a la aerolínea parte de la oferta caribeña de su compañía Iberojet.",
+  "body": [
+   {
+    "t": "Air Europa está intensificando su colaboración con los tres grandes grupos turísticos españoles, Ávoris, Viajes El Corte Inglés y W2M, según publicó el 26 de noviembre el portal alemán aeroTELEGRAPH a partir de una información de Preferente. El objetivo es aumentar la ocupación, sobre todo en los vuelos de largo radio, y asegurar reservas con antelación.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Ávoris está trasladando a Air Europa parte de la oferta al Caribe de su propia aerolínea, Iberojet. Además, su turoperador Travelplan ofrece vuelos de conexión gratuitos a Madrid desde numerosas ciudades españolas, así como desde Lisboa y Oporto.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "Tourmundial, el turoperador de Viajes El Corte Inglés, recurre a Air Europa, entre otros destinos, para sus paquetes a Nueva York, el Caribe y capitales europeas. W2M, grupo al que pertenece World2Fly, vuelve a trabajar con la aerolínea en los viajes de invierno a la Laponia finlandesa.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "aeroTELEGRAPH",
+    "url": "https://www.aerotelegraph.com/ticker/air-europa-setzt-verstaerkt-auf-grosse-spanische-reiseveranstalter/ncpty6f",
+    "date": "2026-11-26"
+   }
+  ],
+  "why": "Asegurar el tráfico de los grandes turoperadores españoles refuerza la ocupación de Air Europa en el largo radio desde Madrid, donde compite con Iberia por el Caribe y Latinoamérica.",
   "iagImpact": "indirecto",
   "europe": true,
-  "addedAt": "2026-11-26T11:09:59Z",
-  "addedBy": "claude"
+  "aiScore": 48,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/49ca4853-aa68-4034-8f97-758ff09b624c.jpeg",
+  "imageId": "b-air-europa-agencias-avoris-vtc-w2m",
+  "photoSource": "Preferente",
+  "addedAt": "2026-11-27T09:39:18Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "big",
+   "value": "3",
+   "label": "grandes grupos turísticos españoles",
+   "sub": "Ávoris, Viajes El Corte Inglés y W2M"
+  }
  },
  {
   "id": "b-kayak-busquedas-puente-diciembre",
