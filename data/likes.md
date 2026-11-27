@@ -1,4 +1,4 @@
-# Likes del portal (últimos 45 días) · generado 2026-11-26T18:22+00:00
+# Likes del portal (últimos 45 días) · generado 2026-11-27T08:23+00:00
 
 Lo que el equipo marca con «me gusta» en la web. Úsalo para afinar el aiScore y la elección, junto con data/criterios.md:
 las noticias parecidas (mismo tipo, empresa o tema) a las más votadas tienen más peso; un tipo que nunca recibe likes, menos.
@@ -36,7 +36,7 @@ Los criterios explícitos del editor (data/criterios.md) mandan sobre esto si se
 ## Likes por sección (noticias · likes)
 
 - FIN: 40 noticias · 14 likes
-- STR: 32 noticias · 14 likes
+- STR: 31 noticias · 14 likes
 - NET: 58 noticias · 6 likes
 - FLT: 33 noticias · 3 likes
 - CUS: 17 noticias · 1 likes
@@ -47,14 +47,13 @@ Los criterios explícitos del editor (data/criterios.md) mandan sobre esto si se
 
 ## Destacadas frente a Breves (noticias · likes)
 
-- Destacada: 142 · 40
+- Destacada: 141 · 40
 - Breve: 115 · 0
 
 ## Con aiScore alto (70+) y ningún like tras 3 días (quizá sobrevaloradas)
 
 - 2026-10-13 · FLT · aiScore 70 · Airbus entrega 547 aviones hasta septiembre; Boeing gana el mes en pedidos
 - 2026-10-22 · FIN · aiScore 80 · American logra ingresos récord en el 3T, pero el combustible la lleva a prever pérdidas en 2026
-- 2026-10-12 · STR · aiScore 75 · easyJet prevé cerrar la compra por Apollo (5.700 M£) a principios de 2027
 - 2026-10-15 · CUS · aiScore 78 · Cuatro escenarios para la reserva de vuelos en la era de la IA agéntica
 - 2026-10-19 · FLT · aiScore 87 · Iberia apunta a 150 aviones, con unos 70 de largo radio
 - 2026-10-15 · FIN · aiScore 80 · JP Morgan ve a IAG como la aerolínea europea mejor preparada ante el alza del queroseno
@@ -77,3 +76,4 @@ Los criterios explícitos del editor (data/criterios.md) mandan sobre esto si se
 - 2026-11-17 · STR · aiScore 72 · Ryanair elige Sevilla para su primer taller de motores, con 500 M€ y más de 600 empleos
 - 2026-11-20 · APT · aiScore 75 · Air Europa recurre ante el Supremo el DORA III de Aena por frenar su crecimiento en Barajas
 - 2026-11-22 · FIN · aiScore 72 · airBaltic avisa al juez de que puede quedarse sin caja en la primera quincena de diciembre
+- 2026-11-21 · APT · aiScore 70 · Aena se dice «sorprendida» por el recurso de Air Europa contra el DORA III y apela al consenso
