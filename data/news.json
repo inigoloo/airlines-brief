@@ -16273,23 +16273,78 @@
  },
  {
   "id": "b-heathrow-tercera-pista-304m-tasas",
-  "kind": "brief",
-  "title": "Heathrow quiere gastar otros 304 millones de libras en preparar la tercera pista y las aerolíneas protestan",
-  "summary": "La CAA estudia que hasta 700 millones de libras de costes tempranos se recuperen vía tasas durante 20 años; las aerolíneas muestran su preocupación.",
-  "en": {
-   "title": "Heathrow wants to spend another £304m preparing its third runway as airlines protest",
-   "summary": "The CAA is considering letting up to £700m of early costs be recovered through charges over 20 years; airlines have raised concerns."
-  },
+  "title": "Heathrow pide recuperar vía tasas otros 304 millones de libras para preparar la tercera pista",
+  "category": "APT",
+  "publishedAt": "2026-11-26",
   "source": "Aviation A2Z",
   "url": "https://aviationa2z.com/index.php/2026/11/26/heathrows-33-billion-expansion-faces-fresh-cost-battle-as-airlines-raise-concerns/",
-  "thumb": "https://aviationa2z.com/wp-content/uploads/2025/01/qzrp16t4-1024x576.webp",
-  "publishedAt": "2026-11-26",
-  "category": "APT",
-  "aiScore": 72,
-  "promote": true,
+  "summary": "Heathrow prevé gastar hasta 304 millones de libras entre enero y junio de 2027 en preparar la solicitud de su tercera pista. La CAA consulta si esos costes tempranos, hasta unos 700 millones, se cobran en tasas durante 20 años: entre 60 y 70 peniques por pasajero.",
+  "body": [
+   {
+    "t": "Heathrow Airport Limited ha comunicado a la Autoridad de Aviación Civil británica (CAA) que prevé gastar hasta 304 millones de libras en el primer semestre de 2027 para preparar la solicitud de autorización (Development Consent Order) de su tercera pista, que quiere presentar antes de que acabe ese año. Esta partida se suma a unos 320 millones de libras de costes tempranos de desarrollo ya incurridos en 2025 y 2026.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La CAA ha abierto una consulta sobre si Heathrow y el promotor rival Heathrow West pueden recuperar estos gastos a través de las tasas aeroportuarias durante 20 años. Heathrow West, respaldado por el hotelero Surinder Arora, calcula unos 46 millones de libras en 2026 y 35 millones en el primer semestre de 2027.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Si se aprueban las propuestas, los costes tempranos recuperables de ambos proyectos podrían llegar a unos 700 millones de libras entre 2025 y junio de 2027, una cifra que Travel PR News describe como un techo máximo y no como una concesión nueva. Según la estimación del regulador, recuperarlos en 20 años supondría entre 60 y 70 peniques por trayecto de pasajero, frente a una tasa media actual de unas 26 libras.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La CAA prevé otra consulta en la primavera de 2027 y una decisión final sobre esta recuperación adicional en el verano de 2027. Según Aviation A2Z, British Airways y Virgin Atlantic han apoyado la opción de una pista más corta para contener el coste de la ampliación, estimada en 33.000 millones de libras, e IAG ha defendido que más capacidad y conectividad deben ir acompañadas de un control eficaz de los costes.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Aviation A2Z",
+    "url": "https://aviationa2z.com/index.php/2026/11/26/heathrows-33-billion-expansion-faces-fresh-cost-battle-as-airlines-raise-concerns/",
+    "date": "2026-11-26"
+   },
+   {
+    "name": "Travel PR News",
+    "url": "https://travelprnews.com/article/heathrow-third-runway-early-costs-face-caa-scrutiny-with-recovery-ceiling-near-700m/",
+    "date": "2026-11-25"
+   }
+  ],
+  "why": "Las tasas de Heathrow son un coste clave para British Airways en su hub: cargar en ellas los gastos previos de la tercera pista encarece la operación de IAG años antes de que exista nueva capacidad.",
   "iagImpact": "indirecto",
   "europe": true,
-  "addedAt": "2026-11-27T11:10:44Z",
+  "aiScore": 72,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/71a69668-51c6-4fdd-8355-50f24e679e49.jpeg",
+  "imageId": "b-heathrow-tercera-pista-304m-tasas",
+  "photoSource": "AeroTime (Shutterstock)",
+  "art": {
+   "kind": "bars",
+   "title": "Gasto temprano previsto en el 1S 2027 (millones de libras)",
+   "bars": [
+    {
+     "l": "Heathrow",
+     "v": 304,
+     "t": "304"
+    },
+    {
+     "l": "Heathrow West",
+     "v": 35,
+     "t": "35"
+    }
+   ]
+  },
+  "addedAt": "2026-11-27T11:29:47Z",
   "addedBy": "claude"
  },
  {
@@ -16368,21 +16423,66 @@
  },
  {
   "id": "b-aergo-vende-dos-737-800-magellan-air-europa-express",
-  "kind": "brief",
   "title": "Aergo Capital vende a Magellan dos Boeing 737-800, uno de ellos arrendado a Air Europa Express",
-  "summary": "Los dos aviones, con arrendatarios Aeronova (Air Europa Express) y Trinity Airways, son la segunda operación entre ambas compañías.",
-  "en": {
-   "title": "Aergo Capital sells two Boeing 737-800s to Magellan, one leased to Air Europa Express",
-   "summary": "The two aircraft, leased to Aeronova (Air Europa Express) and Trinity Airways, mark the second transaction between the companies."
-  },
+  "category": "MRO",
+  "publishedAt": "2026-11-27",
   "source": "AviTrader",
   "url": "https://avitrader.com/2026/11/27/aergo-capital-sells-two-boeing-737-800s-to-magellan/",
-  "publishedAt": "2026-11-27",
-  "category": "MRO",
-  "aiScore": 42,
+  "summary": "La arrendadora irlandesa Aergo Capital ha vendido dos Boeing 737-800 a Magellan Aviation Group, arrendados a Aeronova (Air Europa Express) y Trinity Airways. Es la segunda operación entre ambas, y Magellan los destinará a nutrir su negocio de piezas usadas y motores.",
+  "body": [
+   {
+    "t": "La arrendadora Aergo Capital, con sede en Dublín, ha completado la venta de dos Boeing 737-800, con números de serie 40259 y 34989, a Magellan Aviation Group. La operación, anunciada por Aergo el 24 de noviembre y publicada por AviTrader el 27, es la segunda entre ambas compañías.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Los aviones tienen como arrendatarios a Aeronova S.L.U. y Trinity Airways. Según AviTrader, Aeronova es Air Europa Express, la filial regional de Air Europa, y uno de los dos aviones vendidos vuela actualmente para ella.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "«Nos complace anunciar la venta con éxito de dos Boeing 737-800 a Magellan», afirmó Paul Sheridan, consejero delegado de Aergo Capital. David Rushe, presidente y consejero delegado de Magellan Aviation Group, explicó que la compañía busca construir una cartera de activos que alimente su negocio de material usado en servicio (USM) y su pool de arrendamiento de motores.",
+    "s": [
+     2
+    ]
+   },
+   {
+    "t": "Aergo, fundada en Dublín en 1999, tiene más de 5.200 millones de dólares en aviones en propiedad y gestión, que operan en más de 40 países, según su nota. El despacho Smith Gambrell & Russell actuó como asesor jurídico principal de Aergo.",
+    "s": [
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "AviTrader",
+    "url": "https://avitrader.com/2026/11/27/aergo-capital-sells-two-boeing-737-800s-to-magellan/",
+    "date": "2026-11-27"
+   },
+   {
+    "name": "Aergo Capital",
+    "url": "https://www.aergocapital.com/aergo-capital-announces-the-sale-of-two-b737-800-to-magellan-aviation-group/",
+    "date": "2026-11-24"
+   }
+  ],
+  "why": "El cambio de propietario de un 737-800 de Air Europa Express hacia un comprador de piezas y motores apunta al desmontaje futuro de estos aviones y afecta a la flota regional del rival de Iberia en Madrid.",
   "iagImpact": "indirecto",
   "europe": true,
-  "addedAt": "2026-11-27T11:10:44Z",
+  "aiScore": 40,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/d9627892-95b6-404e-ba10-538003bd3d57.jpeg",
+  "imageId": "b-aergo-vende-dos-737-800-magellan-air-europa-express",
+  "photoSource": "Aergo Capital",
+  "art": {
+   "kind": "plane",
+   "value": "2",
+   "label": "Boeing 737-800 vendidos a Magellan",
+   "tail": "#0F9BD7"
+  },
+  "addedAt": "2026-11-27T11:29:47Z",
   "addedBy": "claude"
  },
  {
@@ -16472,6 +16572,84 @@
   "category": "FIN",
   "aiScore": 50,
   "addedAt": "2026-11-27T11:10:44Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "iberia-rovaniemi-tromso-invierno-2026",
+  "title": "Iberia retoma este fin de semana sus vuelos de invierno de Madrid a Rovaniemi y Tromsø",
+  "category": "NET",
+  "publishedAt": "2026-11-27",
+  "source": "PressDigital (Agencias)",
+  "url": "https://www.pressdigital.es/articulo/economia/2026-11-27/6111448-iberia-vuelve-volar-rovaniemi-tromso-durante-invierno-partir-fin-semana",
+  "summary": "Iberia vuelve a volar de Madrid a Rovaniemi este sábado y a Tromsø el domingo, hasta finales de febrero. Rovaniemi tendrá seis vuelos semanales hasta el 20 de diciembre y diarios en Navidad; Tromsø, dos a la semana, los jueves y los domingos.",
+  "body": [
+   {
+    "t": "Iberia retoma este fin de semana sus rutas de invierno desde Madrid a Rovaniemi (Finlandia) y Tromsø (Noruega), según anunció la aerolínea en un comunicado el viernes 27 de noviembre. El primer vuelo a Rovaniemi sale este sábado y el de Tromsø, un día después.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La ruta a Rovaniemi contará con seis frecuencias semanales hasta el 20 de diciembre, vuelos diarios entre el 21 de diciembre y el 3 de enero, cuatro semanales desde el 4 de enero y dos semanales en febrero, hasta el 27 de ese mes. A Tromsø habrá dos vuelos semanales, los jueves y los domingos, hasta el 28 de febrero.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Es el cuarto año consecutivo en que Iberia opera a Rovaniemi, ruta que abrió en diciembre de 2023, y el tercer invierno seguido en Tromsø, que vuela desde el invierno de 2024.",
+    "s": [
+     1,
+     2
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "PressDigital (Agencias)",
+    "url": "https://www.pressdigital.es/articulo/economia/2026-11-27/6111448-iberia-vuelve-volar-rovaniemi-tromso-durante-invierno-partir-fin-semana",
+    "date": "2026-11-27"
+   },
+   {
+    "name": "Demócrata (Agencias)",
+    "url": "https://www.democrata.es/economia/iberia-retoma-este-invierno-sus-rutas-a-rovaniemi-y-tromso-desde-madrid/",
+    "date": "2026-11-27"
+   }
+  ],
+  "why": "Iberia consolida destinos estacionales de nicho en el norte de Europa para llenar aviones de corto y medio radio en Madrid durante el invierno, aprovechando la demanda de Navidad en Laponia.",
+  "iagImpact": "directo",
+  "europe": true,
+  "aiScore": 38,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/815fac1c-f588-481d-bc52-9dd8be7fc4e9.jpeg",
+  "imageId": "iberia-rovaniemi-tromso-invierno-2026",
+  "photoSource": "Demócrata (Iberia)",
+  "art": {
+   "kind": "route",
+   "title": "Rutas de invierno de Iberia al Ártico",
+   "badge": "Hasta febrero",
+   "points": [
+    {
+     "code": "MAD",
+     "city": "Madrid",
+     "lat": 40.47,
+     "lon": -3.56
+    },
+    {
+     "code": "RVN",
+     "city": "Rovaniemi",
+     "lat": 66.56,
+     "lon": 25.83
+    },
+    {
+     "code": "TOS",
+     "city": "Tromsø",
+     "lat": 69.68,
+     "lon": 18.92
+    }
+   ]
+  },
+  "addedAt": "2026-11-27T11:29:47Z",
   "addedBy": "claude"
  }
 ]
