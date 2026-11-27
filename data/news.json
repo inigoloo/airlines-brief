@@ -16270,5 +16270,208 @@
     }
    ]
   }
+ },
+ {
+  "id": "b-heathrow-tercera-pista-304m-tasas",
+  "kind": "brief",
+  "title": "Heathrow quiere gastar otros 304 millones de libras en preparar la tercera pista y las aerolíneas protestan",
+  "summary": "La CAA estudia que hasta 700 millones de libras de costes tempranos se recuperen vía tasas durante 20 años; las aerolíneas muestran su preocupación.",
+  "en": {
+   "title": "Heathrow wants to spend another £304m preparing its third runway as airlines protest",
+   "summary": "The CAA is considering letting up to £700m of early costs be recovered through charges over 20 years; airlines have raised concerns."
+  },
+  "source": "Aviation A2Z",
+  "url": "https://aviationa2z.com/index.php/2026/11/26/heathrows-33-billion-expansion-faces-fresh-cost-battle-as-airlines-raise-concerns/",
+  "thumb": "https://aviationa2z.com/wp-content/uploads/2025/01/qzrp16t4-1024x576.webp",
+  "publishedAt": "2026-11-26",
+  "category": "APT",
+  "aiScore": 72,
+  "promote": true,
+  "iagImpact": "indirecto",
+  "europe": true,
+  "addedAt": "2026-11-27T11:10:44Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-airbaltic-aval-estado-175m-parlamento",
+  "kind": "brief",
+  "title": "El Parlamento letón aprueba que el Gobierno avale a airBaltic con hasta 175 millones de euros",
+  "summary": "La cámara aprobó las enmiendas legales que permiten al Ejecutivo conceder una garantía estatal de hasta 175 millones de euros a la aerolínea.",
+  "en": {
+   "title": "Latvian parliament backs state guarantee of up to €175m for airBaltic",
+   "summary": "Parliament approved legislative amendments allowing the government to provide a state guarantee of up to €175m to the airline."
+  },
+  "source": "AeroTime",
+  "url": "https://www.aerotime.aero/articles/latvia-parliament-airbaltic-state-guarantee",
+  "thumb": "https://www.aerotime.aero/images/2025/07/AB2.jpg",
+  "publishedAt": "2026-11-26",
+  "category": "FIN",
+  "aiScore": 62,
+  "europe": true,
+  "addedAt": "2026-11-27T11:10:44Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-norse-arrendadores-rescision-12-787-9",
+  "kind": "brief",
+  "title": "Norse Atlantic recibe avisos de rescisión de arrendamiento de sus 12 Boeing 787-9 y los impugna",
+  "summary": "Tras suspender todos sus vuelos el 25 de noviembre por falta de liquidez, la aerolínea discute la validez de las notificaciones de sus arrendadores.",
+  "en": {
+   "title": "Norse Atlantic receives lease termination notices on all 12 Boeing 787-9s and contests them",
+   "summary": "After suspending all flights on 25 November over a liquidity crisis, the airline is disputing the validity of its lessors' notices."
+  },
+  "source": "Travel Extra",
+  "url": "https://www.travelextra.ie/norse-atlantic-contests-validity-of-lease-termination-notices-from-boc-aercap/",
+  "publishedAt": "2026-11-27",
+  "category": "MRO",
+  "aiScore": 60,
+  "europe": true,
+  "addedAt": "2026-11-27T11:10:44Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-lufthansa-eurowings-air-france-vuelven-dubai",
+  "kind": "brief",
+  "title": "Lufthansa, Eurowings y Air France retoman los vuelos a Dubái; otras aerolíneas alargan la suspensión a 2027",
+  "summary": "Las tres aerolíneas europeas reanudan la ruta, mientras otras compañías han extendido sus suspensiones en Oriente Medio hasta 2027.",
+  "en": {
+   "title": "Lufthansa, Eurowings and Air France resume Dubai flights as others extend suspensions into 2027",
+   "summary": "The three European carriers are resuming the route, while other airlines have extended their Middle East suspensions into 2027."
+  },
+  "source": "Aviation A2Z",
+  "url": "https://aviationa2z.com/index.php/2026/11/27/lufthansa-eurowings-air-france-resume-dubai-flights/",
+  "thumb": "https://aviationa2z.com/wp-content/uploads/2026/11/IMG_1297-1-1024x576.webp",
+  "publishedAt": "2026-11-27",
+  "category": "NET",
+  "aiScore": 58,
+  "europe": true,
+  "addedAt": "2026-11-27T11:10:44Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-easa-inspecciones-ocho-a380-emirates-etihad",
+  "kind": "brief",
+  "title": "EASA ordena inspecciones a ocho Airbus A380, entre ellos aviones de Emirates y Etihad",
+  "summary": "Ocho superjumbos, incluidos A380 de Emirates y Etihad Airways, deberán someterse a inspecciones ordenadas por la agencia europea de seguridad aérea.",
+  "en": {
+   "title": "EASA orders inspections of eight Airbus A380s, including Emirates and Etihad aircraft",
+   "summary": "Eight superjumbos, including Emirates and Etihad Airways A380s, must undergo inspections ordered by the European aviation safety agency."
+  },
+  "source": "AeroTime",
+  "url": "https://www.aerotime.aero/articles/emirates-etihad-a380-aircraft-easa-ordered-inspections",
+  "thumb": "https://www.aerotime.aero/images/2026/04/Emirates-Airbus-A380-A6-EEA-1200x800.jpg",
+  "publishedAt": "2026-11-26",
+  "category": "MRO",
+  "aiScore": 55,
+  "addedAt": "2026-11-27T11:10:44Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-aergo-vende-dos-737-800-magellan-air-europa-express",
+  "kind": "brief",
+  "title": "Aergo Capital vende a Magellan dos Boeing 737-800, uno de ellos arrendado a Air Europa Express",
+  "summary": "Los dos aviones, con arrendatarios Aeronova (Air Europa Express) y Trinity Airways, son la segunda operación entre ambas compañías.",
+  "en": {
+   "title": "Aergo Capital sells two Boeing 737-800s to Magellan, one leased to Air Europa Express",
+   "summary": "The two aircraft, leased to Aeronova (Air Europa Express) and Trinity Airways, mark the second transaction between the companies."
+  },
+  "source": "AviTrader",
+  "url": "https://avitrader.com/2026/11/27/aergo-capital-sells-two-boeing-737-800s-to-magellan/",
+  "publishedAt": "2026-11-27",
+  "category": "MRO",
+  "aiScore": 42,
+  "iagImpact": "indirecto",
+  "europe": true,
+  "addedAt": "2026-11-27T11:10:44Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-mag-motores-genx-16-787",
+  "kind": "brief",
+  "title": "Malaysia Aviation Group elige los motores GEnx-1B de GE para hasta 16 nuevos Boeing 787",
+  "summary": "Es la primera vez que el grupo malasio escoge el GEnx para su flota; el anuncio se hizo en un acto en Kuala Lumpur.",
+  "en": {
+   "title": "Malaysia Aviation Group selects GE GEnx-1B engines for up to 16 new Boeing 787s",
+   "summary": "It is the first time the Malaysian group has chosen the GEnx for its fleet; the announcement was made at a ceremony in Kuala Lumpur."
+  },
+  "source": "AviTrader",
+  "url": "https://avitrader.com/2026/11/26/genx-engines-to-power-mags-new-dreamliners/",
+  "publishedAt": "2026-11-26",
+  "category": "MRO",
+  "aiScore": 45,
+  "addedAt": "2026-11-27T11:10:44Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-air-new-zealand-heathrow-434-slots-2027",
+  "kind": "brief",
+  "title": "Air New Zealand se queda sin los 434 slots de Heathrow que pidió para el verano de 2027",
+  "summary": "La aerolínea explica que la solicitud era una planificación rutinaria y no un regreso a Londres.",
+  "en": {
+   "title": "Air New Zealand denied all 434 Heathrow slots requested for summer 2027",
+   "summary": "The airline says the bid was routine planning and not a return to London."
+  },
+  "source": "Aviation A2Z",
+  "url": "https://aviationa2z.com/index.php/2026/11/27/air-new-zealand-denied-all-434-heathrow-slots-for-summer-2027/",
+  "thumb": "https://aviationa2z.com/wp-content/uploads/2025/01/2gad1zaa-1024x576.webp",
+  "publishedAt": "2026-11-27",
+  "category": "APT",
+  "aiScore": 42,
+  "europe": true,
+  "addedAt": "2026-11-27T11:10:44Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-qantas-boeing-787-pedido-largo-radio",
+  "kind": "brief",
+  "title": "Boeing ganaría la mayor parte del pedido de largo radio de Qantas con el 787, según informaciones",
+  "summary": "La aerolínea australiana ya es un operador clave del bimotor de fuselaje ancho de Boeing.",
+  "en": {
+   "title": "Boeing reportedly poised to win most of Qantas's long-haul order with the 787",
+   "summary": "The Australian flag carrier is already a key operator of Boeing's widebody twinjet."
+  },
+  "source": "Simple Flying",
+  "url": "https://simpleflying.com/boeing-poised-win-qantas-long-haul-order-787-dreamliners/",
+  "thumb": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/317-qantas-boeing-787-9-the-global-guy-_-shutterstock.jpg",
+  "publishedAt": "2026-11-27",
+  "category": "FLT",
+  "aiScore": 50,
+  "addedAt": "2026-11-27T11:10:44Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-china-southern-50-737-max",
+  "kind": "brief",
+  "title": "China Southern encarga 50 Boeing 737 MAX que se entregarán entre 2031 y 2034",
+  "summary": "El pedido de la aerolínea china tiene un calendario de entregas que se extiende a lo largo de cuatro años.",
+  "en": {
+   "title": "China Southern orders 50 Boeing 737 MAX jets for delivery between 2031 and 2034",
+   "summary": "The Chinese carrier's order has a delivery schedule spanning four years."
+  },
+  "source": "AirlineGeeks",
+  "url": "https://airlinegeeks.com/2026/11/25/china-southern-orders-50-737-max-jets/",
+  "publishedAt": "2026-11-25",
+  "category": "FLT",
+  "aiScore": 45,
+  "addedAt": "2026-11-27T11:10:44Z",
+  "addedBy": "claude"
+ },
+ {
+  "id": "b-rusia-prohibicion-queroseno-tres-meses",
+  "kind": "brief",
+  "title": "Rusia amplía tres meses la prohibición de exportar queroseno de aviación por los ataques de drones ucranianos",
+  "summary": "Moscú prorroga el veto a las exportaciones de combustible de aviación mientras los drones de Ucrania tensionan su producción.",
+  "en": {
+   "title": "Russia extends jet fuel export ban by three months as Ukrainian drones strain production",
+   "summary": "Moscow is extending the ban on jet fuel exports while Ukrainian drones strain its production."
+  },
+  "source": "AeroTime",
+  "url": "https://www.aerotime.aero/articles/russia-extends-ban-on-jet-fuel-exports-as-ukrainian-drones-strain-production",
+  "thumb": "https://www.aerotime.aero/images/2026/03/Long-range-Ukrainian-An-196-Liutyi-UAV-1200x800.jpg",
+  "publishedAt": "2026-11-27",
+  "category": "FIN",
+  "aiScore": 50,
+  "addedAt": "2026-11-27T11:10:44Z",
+  "addedBy": "claude"
  }
 ]
