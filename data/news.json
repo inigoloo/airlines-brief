@@ -16823,5 +16823,76 @@
     }
    ]
   }
+ },
+ {
+  "id": "tap-perdidas-nueve-meses-combustible-2026",
+  "title": "TAP vuelve a pérdidas hasta septiembre, 37,9 millones, por una factura de combustible al alza",
+  "category": "FIN",
+  "publishedAt": "2026-11-27",
+  "source": "Observador",
+  "url": "https://observador.pt/2026/11/27/tap-regista-prejuizos-de-379-milhoes-ate-setembro-apesar-do-lucro-no-terceiro-trimestre/",
+  "summary": "TAP perdió 37,9 millones de euros entre enero y septiembre, frente a un beneficio de 55,2 millones un año antes, por un sobrecoste de 176,4 millones en combustible. Ganó dinero en el tercer trimestre, aunque menos que en 2025, y sus ingresos crecieron un 3,3%.",
+  "body": [
+   {
+    "t": "TAP Air Portugal cerró los nueve primeros meses de 2026 con unas pérdidas netas de 37,9 millones de euros, frente al beneficio de 55,2 millones del mismo periodo de 2025, según las cuentas publicadas este 27 de noviembre. La compañía atribuye el deterioro sobre todo al encarecimiento del combustible, que elevó su factura en 176,4 millones de euros en el acumulado del año.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "En el tercer trimestre, el del verano, la aerolínea portuguesa volvió a ganar dinero, aunque menos que un año antes: Observador cifra el beneficio en 64,6 millones de euros, mientras que la información de agencias recogida por Demócrata lo sitúa en 61,3 millones. Solo en ese trimestre, el gasto en combustible aumentó en 87,1 millones (un 32,4%) y los costes operativos, un 9,3%, según Observador.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Los ingresos operativos crecieron un 3,3% hasta septiembre y el número de pasajeros, un 2,4%. El resultado operativo se quedó en 46,2 millones de euros, casi un 80% menos que un año antes. Las ganancias por tipo de cambio, de 35,6 millones, y un menor impuesto de sociedades suavizaron el resultado final.",
+    "s": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "La compañía destaca la mejora de los ingresos unitarios: subieron un 7% en las rutas de África y un 5% en las de Europa, y en septiembre se aceleraron hasta cerca del 10%. La cabina Economy Prime, lanzada en junio, elevó en unos 3 puntos porcentuales el peso de los ingresos de esas cabinas, y TAP prevé que la tendencia continúe en el último trimestre.",
+    "s": [
+     1
+    ]
+   },
+   {
+    "t": "El consejero delegado, Luís Rodrigues, defendió la «resiliencia del modelo de negocio de TAP, en un contexto marcado por el fuerte impacto del aumento de los precios del combustible», pero advirtió de que los entornos económico, social, geopolítico y regulatorio «no han evolucionado de forma positiva desde el cierre del trimestre, lo que aconseja total prudencia». Sobre el acuerdo firmado con Lufthansa, al que calificó de «hito histórico», afirmó que, hasta que se complete la operación, la prioridad es ejecutar el Plan Estratégico 2026-2035 con disciplina.",
+    "s": [
+     1
+    ]
+   }
+  ],
+  "refs": [
+   {
+    "name": "Observador",
+    "url": "https://observador.pt/2026/11/27/tap-regista-prejuizos-de-379-milhoes-ate-setembro-apesar-do-lucro-no-terceiro-trimestre/",
+    "date": "2026-11-27"
+   },
+   {
+    "name": "Demócrata",
+    "url": "https://www.democrata.es/en/economy/tap-expands-its-losses-until-september-due-to-an-additional-cost-of-176-4-million-in-fuel/",
+    "date": "2026-11-27"
+   }
+  ],
+  "why": "TAP compite con Iberia en Europa-Latinoamérica y entra en la órbita de Lufthansa: sus pérdidas por el combustible miden la presión de costes del sector y el estado del activo que absorberá un rival de IAG.",
+  "iagImpact": "indirecto",
+  "europe": true,
+  "aiScore": 76,
+  "photoUrl": "https://cdn.klaviyomail.com/company/TuvBAF/images/556fc21f-dd02-4bd1-9e5b-566a83ef929d.jpeg",
+  "imageId": "tap-perdidas-nueve-meses-combustible-2026",
+  "photoSource": "Demócrata",
+  "addedAt": "2026-11-27T13:29:02Z",
+  "addedBy": "claude",
+  "art": {
+   "kind": "big",
+   "value": "-37,9 M€",
+   "label": "Resultado neto de TAP de enero a septiembre",
+   "sub": "Frente a 55,2 M€ de beneficio en 2025"
+  }
  }
 ]
